@@ -48,18 +48,21 @@ def getLinks():
         #         print newLink
         if (link != None):
             title = link.text
-            if(title != ""):
-                print title
+            if(title == ""):
+                title = ""
+            # else:
+                # print title
 
             # Gets the new URL for each movie.
             newLink = (link.get('href'))
             if (newLink != None):
                 if(len(newLink)>7 and re.match(r"http\:\/\/", newLink[0:7])):
-                    print newLink
+                    # print newLink
+                    linksQ.enqueue([title,newLink])
                 else:
                     newLink = "http://www.muhlenberg.edu" + newLink
-                    print newLink
-                    linksQ.enqueue(newLink)
+                    # print newLink
+                    linksQ.enqueue([title,newLink])
     print(linksQ.toString())
 
 
@@ -87,7 +90,7 @@ class Queue:
     def toString(self):
         string = ""
         for item in self.items:
-            string += item + '\n'
+            string += item[0] + " " + item[1] + '\n'
         return string
 
 
