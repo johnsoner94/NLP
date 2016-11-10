@@ -47,8 +47,8 @@ def getLinks():
                     newLink = "http://www.muhlenberg.edu" + newLink
                     print newLink
 
-            print "SAVE ME PLEASE!!"
-
+            print "BYE!!"
+            print "THIS CODE IS BEING A HATER"
 
 
 
