@@ -30,27 +30,65 @@ def getLinks():
     response = requests.get(url)
     html = response.content
     soup = BeautifulSoup(html)
+    linksQ=Queue()
 
-    for ultag in soup.findAll('ul'):
-        for litag in ultag.findAll('li'):
-            # Gets the information of each movies that is most easily accessible on the
-            # list of movies.
-            if (litag.a != None):
-                title = litag.a.text
-                title = title.replace("'", "''");
+    for link in soup.findAll('a'):
+        # for litag in ultag.findAll('li'):
+            # Gets the all of the links titles and URLs.
+        # if (litag.a != None):
+        #     title = litag.a.text
+        #     title = title.replace("'", "''");
+        #
+        #     # Gets the new URL for each movie.
+        #     newLink = (litag.a.get('href'))
+        #     if(re.match(r"http\:\/\/", newLink[0:7])):
+        #         print newLink
+        #     else:
+        #         newLink = "http://www.muhlenberg.edu" + newLink
+        #         print newLink
+        if (link != None):
+            title = link.text
+            if(title != ""):
+                print title
 
-                # Gets the new URL for each movie.
-                newLink = (litag.a.get('href'))
-                if(re.match(r"http\:\/\/", newLink[0:7])):
+            # Gets the new URL for each movie.
+            newLink = (link.get('href'))
+            if (newLink != None):
+                if(len(newLink)>7 and re.match(r"http\:\/\/", newLink[0:7])):
                     print newLink
                 else:
                     newLink = "http://www.muhlenberg.edu" + newLink
                     print newLink
+                    linksQ.enqueue(newLink)
+    print(linksQ.toString())
 
-            print "BYE!!"
-            print "THIS CODE IS BEING A HATER"
 
 
+
+class Queue:
+    def __init__(self):
+        self.items = []
+
+    def isEmpty(self):
+        return self.items == []
+
+    def enqueue(self, item):
+        try:
+            self.items.index(item)
+        except ValueError:
+            self.items.insert(0,item)
+
+    def dequeue(self):
+        return self.items.pop()
+
+    def size(self):
+        return len(self.items)
+
+    def toString(self):
+        string = ""
+        for item in self.items:
+            string += item + '\n'
+        return string
 
 
 main()          # Calls the main function
