@@ -1,0 +1,944 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noarchive" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/css112/libguides.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/js/dojo-161/dijit/themes/tundra/tundra.css" />
+  <style type="text/css">
+   form { margin: 0px; }
+			#profile_header { padding-bottom: 5px; padding-left: 10px; }
+			#profile_title { font: 18px arial, Trebuchet ms, Tahoma, Arial, Helvetica, sans-serif; padding-left: 0px; padding-bottom: 0px; width: 300px; display: inline;}
+			#profiles_list { float: right; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; }
+			#container {
+				background: url('http://lgimages.s3.amazonaws.com/bg_page_darkblue.gif') repeat-x; 
+				background-color:#FFFFFF;
+			}
+			.std_profile_widget_header {
+				font-weight: bold;
+				padding-bottom: 0px;
+			}
+			.profile_column {}
+			#profile_content_left {
+				width: 275px;
+			}
+			#profile_content_center {
+				width: 384px;
+			}
+			#profile_content_right {
+				width: 290px;
+			}
+			.profile_attr {
+				color: #5F5F5F;
+				font-size: 11px;
+				font-weight: bold;
+				width: 600px;
+			}
+			.profile_property_label {
+				float: left;
+				width: 110px;
+			}
+			.pair_left_field {
+				float: left;
+				width: 100px;
+				border: 0px solid #000;
+			}
+			.left_input {
+				width: 85px;
+			}
+			.right_input {
+				width: 155px;
+			}
+			.field_pair {
+				padding-bottom: 5px;
+			}
+			.input_field {
+				background: none repeat scroll 0 0 #fff;
+				border: 1px solid #bbb;
+				color: #222222;
+				font: 11px Verdana,Arial,Helvetica,sans-serif;
+			}
+			.tab_content {
+				padding: 10px;
+			}
+			.no_content {
+				font-weight: bold;
+				font-family: Tahoma, Arial, Helvetica, sans-serif; 
+				color: #888;
+			}
+			.outerbox {
+			    margin-bottom: 10px;
+			}
+			.add_box {
+			    padding-bottom: 5px;
+			}
+			
+		.headerbox { 
+			background-image:none; background-color:#003050; 
+		}
+		
+		.headerbox h2, .helpdesc { 
+			color: #ffffff; 
+		}.headerbox h2 { color:#FFFFFF; }.outerbox { background-color:#C2C2C2; }.innerbox, .innerboxprofile { background-color:#; }
+  </style>
+  <title>
+   Rachel Hamelers - Subject Guides at Muhlenberg College
+  </title>
+  <script type="text/javascript" src="/js/dojo-161/dojo/dojo.js" djconfig="parseOnLoad: true">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript" src="/js112/profilex.js">
+  </script>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script>
+   dojo.require("dijit.form.ValidationTextBox");
+			dojo.require("dijit.form.Textarea");
+			dojo.require("dijit.form.Button");
+			dojo.require("dijit.InlineEditBox");
+			dojo.require("dijit.form.CheckBox");
+			dojo.require("dijit.form.Form");
+			dojo.require("dijit.Dialog");
+			dojo.require("dojo.io.iframe");
+
+			var overID;
+			var thirdDlg;
+			var iid = 3322;
+			var boxshape = 's';
+			var view_mode = 'view';
+			var slug = '';
+			var alt_url = '';
+			var true_page_url = 'http://libraryguides.muhlenberg.edu/profile.php?uid=63915';
+  </script>
+  <style type="text/css">
+   #tabs12 a { background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tableft-blue.gif) no-repeat scroll left top; }
+#tabs12 a span { color:#hex color for the tab text; background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tabright-blue.gif) no-repeat scroll right top; }
+.dropmenudiv a:hover { color:#FFFFFF; background-color:#0070bb; }
+.guidetitle { font: bold 22px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+.headerbox h2 { font: bold 15px Verdana, Arial, Helvetica, sans-serif; }
+.guidedesc { font: bold 15px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+  </style>
+ </head>
+ <body id="profile_php" class="tundra public_page">
+  <a style="position:absolute;top:-1000px;" href="/print_profile.php?uid=63915" title="Alternate Page for Screenreader Users">
+   Alternate Page for Screenreader Users
+  </a>
+  <div id="wrapper">
+   <div id="container">
+    <noscript>
+     <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+      <h2>
+       <span style="color: #000;">
+        This site requires a JavaScript enabled browser. For more information please visit our
+        <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+         FAQ
+        </a>
+       </span>
+      </h2>
+     </div>
+    </noscript>
+    <div id="custom_header">
+     <style>
+      .guideattr, .lgsearch, #guide_tab_title_bar_page_name, #guide_tab_title_bar_page_print, #breadcrumbsr{display:none;}
+     </style>
+    </div>
+    <a href="http://trexler.muhlenberg.edu/">
+     <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+    </a>
+    <br clear="all" />
+    <div class="topnav">
+     <div id="breadcrumbsr" style="float:right;">
+      <span id="bc_admin_login">
+       <a id="bc_libguides_login" href="https://libguides.com/login.php?iid=3322">
+        Admin Sign In
+       </a>
+      </span>
+     </div>
+     <div id="breadcrumbsl">
+      <span id="bc_library_home">
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+       <span class="breadcrumb_spacer">
+        &raquo;
+       </span>
+      </span>
+      <span id="bc_libguides_home">
+       <a href="http://libraryguides.muhlenberg.edu/index.php">
+        Subject Guides
+       </a>
+      </span>
+     </div>
+    </div>
+    <div id="profile_header">
+     <table width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+       <td>
+        <div id="profile_title">
+         Subject Guides - Rachel Hamelers
+        </div>
+       </td>
+       <td>
+        <div id="profiles_list">
+         <form style="margin: 0px; padding: 0px;">
+          <select id="sel_profiles" name="sel_profiles" onchange="profileNav(this);" class="fieldlabel">
+           <option value="0">
+            View another profile...
+           </option>
+           <option value="/profile.php?uid=63914">
+            Cannon, Kelly
+           </option>
+           <option value="/profile.php?uid=102691">
+            Falciani, Susan
+           </option>
+           <option value="/profile.php?uid=63915">
+            Hamelers, Rachel
+           </option>
+           <option value="/profile.php?uid=63912">
+            Hertel, Tina
+           </option>
+           <option value="/profile.php?uid=63913">
+            Jarson, Jennifer
+           </option>
+           <option value="/profile.php?uid=95550">
+            Psillos, Danielle
+           </option>
+          </select>
+         </form>
+        </div>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div id="main_profile_content" style="border-top: 1px solid #ccc; padding: 5px;">
+     <table border="0" cellpadding="3">
+      <tr>
+       <td valign="top">
+        <div id="profile_content_left" class="profile_column">
+         <div class="roundbox outerbox" id="0">
+          <div class="roundbox headerbox" id="0title">
+           <h2>
+            Subject Guide
+           </h2>
+          </div>
+          <div class="roundbox innerbox innerbox_0" id="0content">
+           <div id="boxatt0" class="boxatt">
+            <div class="profileh4">
+             <div class="" style="padding-bottom: 3px;">
+              <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+               <img alt="Profile Image" border="0" src="//lgimages.s3.amazonaws.com/data/profiles/63915/Rachel_Hamelers__cropped_.JPG" class="profile_image_align profileimage" />
+              </a>
+             </div>
+             <div class="profile_display_name" style="font-size: 12px; padding-bottom: 10px;">
+              Rachel Hamelers
+             </div>
+             <div class="profile_widget_content">
+              <div class="std_profile_widget_header">
+               Contact Info:
+              </div>
+              <div>
+               Phone: 484-664-3601
+               <br />
+               E-mail: rhamelers@muhlenberg.edu
+              </div>
+              <div>
+               <a href="mailto:rhamelers@muhlenberg.edu">
+                Send Email
+               </a>
+              </div>
+             </div>
+             <div class="profile_widget_content">
+              <div class="std_profile_widget_header">
+               Links:
+              </div>
+              <div id="profile_contact_guides">
+               <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" id="profile_link">
+                Profile &amp; Guides
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </td>
+       <td valign="top">
+        <div id="profile_content_center" class="profile_column">
+         <div class="roundbox outerbox" style="margin-bottom: 10px;">
+          <div class="roundbox headerbox">
+           <h2>
+            Guides
+           </h2>
+          </div>
+          <div class="roundbox innerbox">
+           <div style="">
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/content.php?pid=558793" title="View this Guide">
+               Animal Behavior
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/biochem" title="View this Guide">
+               Biochemistry Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 11, 2013
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/biology" title="View this Guide">
+               Biology Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 8, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/ecologies" title="View this Guide">
+               Changing Ecologies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 2, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/chemenviro" title="View this Guide">
+               Chemistry of the Environment
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 5, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/chemistry" title="View this Guide">
+               Chemistry Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 17, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/compsci" title="View this Guide">
+               Computer Science
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 11, 2013
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/latinamerica" title="View this Guide">
+               Environmental &amp; Cultural Conservation in Latin America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+                ,
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63913" title="View Profile">
+                 Jennifer Jarson
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 29, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/envsci" title="View this Guide">
+               Environmental Science
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 13, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/environsci2" title="View this Guide">
+               Environmental Science II
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 15, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/nature" title="View this Guide">
+               Explorations of Nature
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 5, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/FYS" title="View this Guide">
+               First Year Seminar (FYS) Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/swans" title="View this Guide">
+               Invasion of the Mute Swans
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 12, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/labrobot" title="View this Guide">
+               Lab Robotics and Automation
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/math" title="View this Guide">
+               Math Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 17, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/medchem" title="View this Guide">
+               Medicinal Chemistry
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 5, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/micro" title="View this Guide">
+               Micro - Microbiology and Microbial Pathogenesis
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 25, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/chefs" title="View this Guide">
+               Microbial Chefs
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/movingmovies" title="View this Guide">
+               Moving in the Movies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jun 3, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/neuroscience" title="View this Guide">
+               Neuroscience Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 11, 2013
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/becomedeath" title="View this Guide">
+               Now I am Become Death
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 5, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/physed" title="View this Guide">
+               Physical Education Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jul 27, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/Physics" title="View this Guide">
+               Physics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 17, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/publichealth" title="View this Guide">
+               Public Health Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 3, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/sustainability" title="View this Guide">
+               Sustainability Studies Subject Guide
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 25, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/content.php?pid=571230" title="View this Guide">
+               Sustainability: Digging Deeper
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+                 Rachel Hamelers
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 25, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </td>
+       <td valign="top">
+        <div id="profile_content_right" class="profile_column">
+         <div style="">
+         </div>
+         <div id="profile_badges">
+         </div>
+        </div>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div id="footer">
+     <div id="footer_topline">
+      Powered by
+      <a href="http://www.springshare.com">
+       Springshare
+      </a>
+      ; All rights reserved.
+      <span id="footer_support_link">
+       <a href="/support.php">
+        Report a tech support issue
+       </a>
+       .
+      </span>
+     </div>
+     <div id="print_link">
+      View this page in a format suitable for
+      <a href="/print_profile.php?uid=63915">
+       printers and screen-readers
+      </a>
+      .
+     </div>
+    </div>
+    <div id="customFooter">
+    </div>
+    <div id="trackingcode">
+    </div>
+   </div>
+  </div>
+  <div id="dp" style="width:850px;">
+   &nbsp;
+  </div>
+  <div id="dp2" style="width:850px;">
+   &nbsp;
+  </div>
+  <div id="descpopup" class="balloon" style="visibility: visible; top:-200px; left:-500px;">
+   <div id="descpopuptitle" class="balloon_head">
+    <h6>
+     Description
+    </h6>
+   </div>
+   <div class="balloon_body" id="descpopupcontent">
+    <p>
+     <img src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading...
+    </p>
+   </div>
+  </div>
+  <img id="tippointer" src="http://lgimages.s3.amazonaws.com/tippointer.gif" />
+  <div id="popupinfo" class="popup" style="visibility: visible; top:-200px; left:-500px;">
+   <div class="popup_head">
+    <table align="right" border="0">
+     <tr>
+      <td valign="bottom" height="18">
+       <a href="#" onclick="return hideAlert('popupinfo')">
+        <img src="http://lgimages.s3.amazonaws.com/window_close_grey.gif" border="0" align="absbottom" />
+       </a>
+      </td>
+     </tr>
+    </table>
+    <div id="popupinfotitle" style="display:inline;">
+     <h6>
+      More Information
+     </h6>
+    </div>
+   </div>
+   <div class="popup_body">
+    <div id="popupinfocontent" style="display:inline;">
+     <img src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading...
+    </div>
+    <br />
+   </div>
+  </div>
+ </body>
+</html>

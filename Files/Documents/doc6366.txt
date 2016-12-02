@@ -1,0 +1,2005 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Summer Programs - Current Students | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Health Professions
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/healthprofessions/background.jpg" alt="Health Professions" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/health_professions/">
+               Health Professions
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/health_professions/currentstudents/">
+               Current Students
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/health_professions/currentstudents/summerprograms/">
+               Summer Programs
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3>
+            Abington Memorial Hospital
+           </h3>
+           <p>
+            <strong>
+             AN OPPORTUNITY TO EXPERIENCE ABINGTON
+            </strong>
+            <br />
+            Abington Memorial Hospital offers a program which allows students considering a career in medicine to gain first-hand experience in the health care field. A community teaching hospital, Abington was founded in 1914 and serves residents of Montgomery, Bucks and Philadelphia counties. More than 90 resident physicians receive postgraduate medical education at the hospital every year. Abington Memorial Hospital also operates the Dixon School of Nursing, the School of Radiologic Technology and the School of Medical Technology. Our accredited Emergency Trauma Center is the only regional trauma center in Montgomery County designated by the Trauma Systems Foundation.
+           </p>
+           <p>
+            <strong>
+             PROGRAM DESCRIPTION
+            </strong>
+            <br />
+            In order to gain an understanding of the work and responsibilities of a physician in a modern hospital complex, volunteers are required to work a minimum of four hours a week, including at least one weekend during the summer, in the Emergency Trauma Center. Since most program participants have full-time jobs, hours may be scheduled for evenings and weekends. They also attend a weekly seminar with hospital staff members to become familiar with subjects relating to medical careers. Topics include basic and specialty areas of practice, medical school admission, medical ethics and others. An evening or day in a primary care physician's office is also required.
+           </p>
+           <p>
+            Additional opportunities such as observing in surgery, making rounds with members of the house staff and observing in other hospital departments may be arranged.
+           </p>
+           <p>
+            <strong>
+             REQUIREMENTS
+            </strong>
+           </p>
+           <br />
+           <ul>
+            <li>
+             Applicants must have completed the sophomore year in college.
+            </li>
+            <li>
+             Applicants must be enrolled in a course of study qualifying them for medical school entrance and achieve adequate grades in these
+             <br />
+             subjects.
+            </li>
+            <li>
+             Applicants must spend at least six to eight hours a week in the program during the summer (including seminars and volunteer work).
+            </li>
+            <li>
+             Applicants must exhibit a mature attitude toward the responsibilities and privileges of the pre-med volunteer program.
+            </li>
+           </ul>
+           <p>
+            Preference will be given to students living in the immediate hospital area.
+           </p>
+           <p>
+            <strong>
+             FOR MORE INFORMATION
+            </strong>
+            <br />
+            If you have questions or would like to receive an application form for the program, contact:
+           </p>
+           <p>
+            Abington Memorial Hospital
+            <br />
+            Volunteer Resources Department
+            <br />
+            1200 Old York Road
+            <br />
+            Abington, PA 19001-3788
+            <br />
+            (215) 481-2490
+            <br />
+            www.amh.org
+            <br />
+            <a href="mailto:amh-volunteer@amh.org">
+             amh-volunteer@amh.org
+            </a>
+            (email)
+           </p>
+           <hr />
+           <p>
+            <strong>
+             Weill Cornell/Rockefeller/Sloan-Kettering Gateways to The Laboratory Summer Program
+            </strong>
+           </p>
+           <p>
+            The Gateways to the Laboratory Program is highlighted by the NIH as one of the top ten summer programs for underrepresented and disadvantaged students.&nbsp; The focus is on freshman and sophomore college students interested in pursuing a MD/PhD.&nbsp;
+           </p>
+           <p>
+            15 students are accepted in this 10 week program&nbsp;in NYC.&nbsp;Students receive a stipend.&nbsp; For further information, please contact
+            <a href="mailto:mdphd@med.cornell.edu">
+             mdphd@med.cornell.edu
+            </a>
+            or call 212-746-6023.
+           </p>
+           <hr />
+           <hr />
+           <table border="0" cellpadding="2" cellspacing="0" style="width: 100%;">
+            <tbody>
+             <tr>
+              <td bgcolor="#ffffff">
+               <p>
+                <strong>
+                 Fourth Annual Genetic Counseling Summer Camp
+                 <br />
+                 Sarah Lawrence College
+                </strong>
+               </p>
+               <p>
+                Students will meet professional genetic counselors and learn about
+                <br />
+                the various roles they have within the healthcare arena.
+                <br />
+                They will engage in learning about current edge technologies
+                <br />
+                and the implications about genomics testing.
+                <br />
+                <br />
+                For further information, visit:&nbsp;
+                <a href="http://www.slc.edu/graduate/programs/human-genetics/camp/index.html">
+                 http://www.slc.edu/graduate/programs/human-genetics/camp/index.html
+                </a>
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 Alfred I. duPont Hospital for Children - Wilmington, DE
+                 <br />
+                 Summer Undergraduate Research Program
+                </strong>
+               </p>
+               <p>
+                This is a paid opportunity available to current undergraduate students interested in biomedical research.
+               </p>
+               <p>
+                For further information, please visit&nbsp;
+                <a href="http://www.nemoursresearch.org/Scholarship/">
+                 http://www.nemoursresearch.org/Scholarship/
+                </a>
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 Reading Hospital and Medical Center
+                </strong>
+               </p>
+               <p>
+                The Reading Hospital is offering a six week internship to work in their Internal Medicine, Family Medicine or Obstetrics/Gynecology Departments.
+               </p>
+               <p>
+                The grant is restricted to those students who are either
+                <span style="text-decoration: underline;">
+                 pre-med students who are completing their junior or senior year of college or medical students who are completing their first year of training
+                </span>
+                .&nbsp; Positions will be selective.&nbsp;
+                <br />
+                Candidates will be chosen on the basis of the following credentials:
+               </p>
+               <br />
+               <ul>
+                <li>
+                 College transcript
+                </li>
+                <li>
+                 Resume
+                </li>
+                <li>
+                 Letter of recommendation from premedical/medical advisor or comparable person
+                </li>
+                <li>
+                 Personal statement describing level of interest and aptitude in medicine a description of
+                 <br />
+                 benefits that he/she will gain from the program
+                </li>
+               </ul>
+               <p>
+                &nbsp;What does the six-week program involve?&nbsp;
+               </p>
+               <br />
+               <ul>
+                <li>
+                 Exposure to clinical environments in the areas of Internal Medicine, Family Medicine
+                 <br />
+                 and Obstetrics/Gynecology
+                </li>
+                <li>
+                 Development of a mentoring relationship with a teaching faculty member
+                </li>
+                <li>
+                 Introduction to important concepts involving the doctor/patient relationship
+                </li>
+                <li>
+                 A chance to explore physiology and pathophysiology in one area of medicine
+                </li>
+                <li>
+                 Participation in a research project that will emphasize research skills
+                </li>
+                <li>
+                 Introduction into the basic aspects of clinical epidemiology
+                </li>
+                <li>
+                 The opportunity to participate in manuscript preparation, which could result in publication
+                 <br />
+                 (this is likely to occur after the six-week program)
+                </li>
+               </ul>
+               <p>
+                Daily activities will include observation of clinical care, a research project, didactic programs, and assigned readings.&nbsp; At the end of the
+                <br />
+                six- week program the student will be expected to create a portfolio and write a paper reflecting on how the experience has impacted him/her on both a personal and professional level. &nbsp;
+               </p>
+               <p>
+                The student will receive a stipend of $2500 free meals at the cafeteria and free parking.&nbsp; Dormitory rooms are available for those living beyond community distance.&nbsp;
+               </p>
+               <p>
+                Inquiries should be forwarded to the Director of Medical Education at The Reading Hospital and Medical Center, Dr. David George,
+                <br />
+                PO Box 16052, Reading, PA&nbsp; 19612,
+                <a href="mailto:georged@readinghospital.org">
+                 georged@readinghospital.org
+                </a>
+                , (610) 988-8133.&nbsp;
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 University of Pennsylvania - School of Veterinary Medicine
+                </strong>
+                <br />
+                <strong>
+                 VETS Program
+                </strong>
+               </p>
+               <p>
+                The
+                <strong>
+                 V
+                </strong>
+                eterinary
+                <strong>
+                 E
+                </strong>
+                xploration
+                <strong>
+                 T
+                </strong>
+                hrough
+                <strong>
+                 S
+                </strong>
+                cience program is a day program of one week sessions.&nbsp; Students will participate in rotations with fourth year vet students and experience veterinary medicine throughout their small animal hospital.&nbsp;
+               </p>
+               <p>
+                Applications are available at
+                <a href="http://www.vet.upenn.edu">
+                 www.vet.upenn.edu
+                </a>
+                .&nbsp; For further information, contact 215-898-5434 or email
+                <a href="mailto:summervets@vet.upenn.edu">
+                 summervets@vet.upenn.edu
+                </a>
+                .&nbsp;
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 Columbia Summer Institute in Narrative Medicine
+                 <br />
+                </strong>
+               </p>
+               <p>
+                This program is for pre-medical college students, medical students, and other health care fields, who want to develop knowledge and skill in Narrative Medicine.&nbsp; The focus will be on the fundamentals of&nbsp;narrative approaches to clinical care.
+               </p>
+               <p>
+                For further information, visit
+                <a href="http://www.narrativemedicine.org">
+                 www.narrativemedicine.org
+                </a>
+                .
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 Harvard Summer Research Program in Kidney Medicine
+                 <br />
+                </strong>
+               </p>
+               <p>
+                This program will offer a varied introduction to the world of nephrology for undergraduate college students considering a career in medicine or science.&nbsp; It will be primarily research based, but will include curriculum that addresses the basic science and clinical fundamentals&nbsp;and challenges in the field.&nbsp; The program will span the nephrology divisions of 4 Harvard affiliated hospital - Brigham and Women's Hospital, Beth Israel Deaconess Medical Center, Boston's Children's Hospital and Massachusetts General Hospital.
+               </p>
+               <p>
+                For further information, visit
+                <a href="http://brighamkidney.org/hskp/">
+                 http://brighamkidney.org/hskp/
+                </a>
+                .
+               </p>
+               <hr />
+               <p>
+                <strong>
+                 New York College of Podiatric Medicine
+                 <br />
+                 Summer Internship Program
+                 <br />
+                </strong>
+               </p>
+               <p>
+                This is a great opportunity to find out more about the field of podiatric medicine
+               </p>
+               <p>
+                Students must have completed 60 credit hours with a minimum 3.0 GPA.&nbsp; For further information, visit
+                <a href="http://www.nycpm.edu">
+                 www.nycpm.edu
+                </a>
+                or
+                <a href="mailto:enrollment@nycpm.edu">
+                 enrollment@nycpm.edu
+                </a>
+                .&nbsp;
+               </p>
+               <hr />
+              </td>
+             </tr>
+             <tr>
+              <td bgcolor="#ffffff">
+               <p>
+                <strong>
+                 Summer Medical and Dental&nbsp; Education Programs
+                </strong>
+                -
+                <a href="http://www.smdep.org/">
+                 http://www.smdep.org/
+                </a>
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <table bgcolor="#83EBF3" border="0" cellpadding="2" cellspacing="0" style="width: 103%;">
+            <tbody>
+             <tr>
+              <td height="18">
+               &nbsp;
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            Below is an extensive list of Summer Research Opportunities courtesy of Dr. David Thurlow and Wendy Praisner from Clark University:
+           </p>
+           <div style="margin-left: 40px;">
+            <br />
+            <ol>
+             <li>
+              <a href="http://www.physics.aamu.edu/reu/" target="_blank">
+               Alabama A&amp;M University Department of Physics Research Experience for Undergraduates (REU) Summer Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.bama.ua.edu/%7Echem/undergraduate/summerprogs/surp.html" target="_blank">
+               U. of Alabama Department of Chemistry Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.amc.edu/" target="_blank">
+               Albany Medical College Graduate Studies Program Undergraduate Summer Research Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://ehrweb.aaas.org/entrypoint/" target="_blank">
+               American Association for the Advancement of Science (AAAS) Internship Opportunities for Students with Disabilitie
+              </a>
+              <a href="http://www.ams.org/employment/reu.html" target="_blank">
+               American Mathematical Society (AMS) Research Experience for Undergraduates Summer Programs
+              </a>
+             </li>
+             <li>
+              <a href="http://chem.arizona.edu/REU/" target="_blank">
+               U. of Arizona Collaborative Research in the Chemical Sciences Research Experiences for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.uams.edu/pharmtox/surf/" target="_blank">
+               U. of Arkansas for Medical Sciences College of Medicine Department of Pharmacology and Toxicology Summer Undergraduate Research Fellowship (SURF) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.uams.edu/biochem/summer_research/default.asp" target="_blank">
+               U. of Arkansas for Medical Sciences Department of Biochemistry and Molecular Biology Summer Undergraduate Research Fellowship (SURF) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.smdep.org/" target="_blank">
+               Association of American Medical Colleges (AAMC) Summer Medical and Dental Education Program (SMDEP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.bcm.edu/smart/?PMID=2987" target="_blank">
+               Baylor College of Medicine Summer Medical and Research Training (SMART) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.baylor.edu/casper/index.php?id=20535" target="_blank">
+               Baylor U. CASPER (Center for Astrophysics, Space Physics and Engineering Research) Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.biogenidec.com/site/internships.html" target="_blank">
+               Biogen Idec Summer Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://volta.byu.edu/REU/" target="_blank">
+               Brigham Young University Physics Research Experience for Undergraduates
+              </a>
+             </li>
+             <li>
+              <a href="http://www.broad.mit.edu/diversity/summerprogram/" target="_blank">
+               Broad Institute of MIT and Harvard Summer Research Program in Genomics
+              </a>
+             </li>
+             <li>
+              <a href="http://london.ucdavis.edu/%7Ezieve/REU/reu.html" target="_blank">
+               U. of California, Davis Physics Department NSF-REU Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.engr.ucr.edu/brite/" target="_blank">
+               U. of California, Riverside Bioengineering Research Institute for Technical Excellence (BRITE) NSF-REU Program
+              </a>
+             </li>
+             <li>
+              <a href="http://pharmacy.ucsf.edu/pharmd/outreach/summerresearch/" target="_blank">
+               U. of California, San Francisco School of Pharmacy Summer Research Training Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mrl.ucsb.edu/RISE/" target="_blank">
+               U. of California, Santa Barbara Materials Research Laboratory Research Internships in Science and Engineering (RISE)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.chemistry.ucsc.edu/projects/surf/" target="_blank">
+               U. of California, Santa Cruz Chemistry and Biochemistry Department Summer Undergraduate Research Fellowship (SURF) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.amgenscholars.caltech.edu/" target="_blank">
+               Caltech (California Institute of Technology) Amgen Scholars Program
+              </a>
+             </li>
+             <li>
+              C
+              <a href="http://www.surf.caltech.edu/applicants/" target="_blank">
+               altech Summer Undergraduate Research Fellowships (SURF)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.cmu.edu/bio/undergraduate/research/SURP/reu.shtml" target="_blank">
+               Carnegie Mellon University Department of Biological Sciences NSF Research Experiences for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://polymers.case.edu/highlights/undergrad_summer.htm" target="_blank">
+               Case Western Reserve University NSF Undergraduate Summer Research Experience
+              </a>
+             </li>
+             <li>
+              <a href="http://bme.case.edu/reu/" target="_blank">
+               Case Western Reserve University Research Experience for Undergraduates (REU) in Biomedical Engineering
+              </a>
+             </li>
+             <li>
+              <a href="http://pharmacology.case.edu/education/surp.aspx" target="_blank">
+               Case Western Reserve University Summer Undergraduate Research in Pharmacology (SURP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.creol.ucf.edu/Academics/REU/" target="_blank">
+               U. of Central Florida NSF Research Experiences for Undergraduates (REU) in Lasers, Optics, and Optical Materials
+              </a>
+             </li>
+             <li>
+              <a href="http://physics.uchicago.edu/reu_phys1.html" target="_blank">
+               U. of Chicago Department of Physics Summer REU Opportunities for Minorities and Women
+              </a>
+             </li>
+             <li>
+              <a href="http://pritzker.bsd.uchicago.edu/about/diversity/pipeline/psomer.shtml" target="_blank">
+               U. of Chicago Pritzker School of Medicine Experience in Research (PSOMER) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.med.uc.edu/surf/" target="_blank">
+               U. of Cincinnati College of Medicine Summer Undergrad Research Fellowship (SURF)
+              </a>
+             </li>
+             <li>
+              Univ
+              <a href="http://www.med.uc.edu/pharmacology/aspet.surf/" target="_blank">
+               . of Cincinnati Summer Undergraduate Research Training Program in Pharmacology, Toxicology, and Pharmaceutical Sciences
+              </a>
+             </li>
+             <li>
+              <a href="http://www.public.coe.edu/departments/Chemistry/reu/reu.shtml" target="_blank">
+               Coe College Chemistry Department Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.cshl.edu/URP/program.html" target="_blank">
+               Cold Spring Harbor Laboratory Watson School of Biological Sciences Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.wm.edu/physics/reu/reu.php" target="_blank">
+               College of William and Mary Department of Physics Research Experience for Undergraduates (REU) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.bmb.colostate.edu/reu.cfm" target="_blank">
+               Colorado State University Department of Biochemistry and Molecular Biology NSF Research Experience for Undergraduates (REU) Summer Program in Molecular Biosciences
+              </a>
+             </li>
+             <li>
+              <a href="http://www.columbia.edu/cu/biology/ug/amgen/" target="_blank">
+               Columbia University/Barnard College Amgen Scholars Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.spurs.columbia.edu/" target="_blank">
+               Columbia University Medical Center Summer Program for Under-Represented Students (SPURS) Biomedical Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.pharmacy.uconn.edu/index.php?option=com_content&amp;task=view&amp;id=241&amp;Itemid=445" target="_blank">
+               UConn. School of Pharmacy Internships and Summer Research Opportunities in Pharmaceutics
+              </a>
+             </li>
+             <li>
+              <a href="http://www.coriell.org/index.php/content/view/67/125/" target="_blank">
+               Coriell Institute for Medical Research Summer Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.dartmouth.edu/%7Esurf/" target="_blank">
+               Dartmouth Summer Undergraduate Research Fellowship (SURF) Program in Molecular and Cell Biology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.drexelmed.edu/GraduateStudies/SummerResearchOpportunities/SummerUndergraduateResearchFellowship/tabid/1074/Default.aspx" target="_blank">
+               Drexel University College of Medicine Summer Undergraduate Research Fellowship
+              </a>
+             </li>
+             <li>
+              <a href="http://www.cbn-atl.org/education/brain.shtml" target="_blank">
+               Emory University Center for Behavioral Neuroscience (CBN) Behavioral Research Advancements in Neuroscience (BRAIN) Summer Program
+              </a>
+             </li>
+             <li>
+              <a href="http://sysbio.harvard.edu/csb/jobs/undergraduate.html" target="_blank">
+               Harvard University FAS Center for Systems Biology Undergraduate Summer Research Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://sharp.hope.edu/" target="_blank">
+               Hope College Summer Hope Academic Research Program (SHARP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.hhmi.org/janelia/undergrad.html" target="_blank">
+               Howard Hughes Medical Institute (HHMI) Janelia Undergraduate Summer Scholars
+              </a>
+             </li>
+             <li>
+              <a href="http://www.grad.iit.edu/reu/" target="_blank">
+               Illinois Institute of Technology (IIT) Research Experience for Undergraduates (REU) in Diabetes
+              </a>
+             </li>
+             <li>
+              <a href="http://www.indiana.edu/%7Eanimal/REU/" target="_blank">
+               Indiana U. Center for the Integrative Study of Animal Behavior Summer Research Experience for Undergraduates in Animal Behavior
+              </a>
+             </li>
+             <li>
+              <a href="http://cancer.iu.edu/education/training/srp/index.php" target="_blank">
+               Indiana U. Simon Cancer Center Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://education.jax.org/summerstudent/index.html" target="_blank">
+               The Jackson Laboratory Summer Student Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.hopkinsmedicine.org/graduateprograms/sip.cfm" target="_blank">
+               Johns Hopkins University School of Medicine Graduate Programs Summer Internship Program (SIP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.joslinresearch.org/homedir/summer_research_program.asp" target="_blank">
+               Joslin Diabetes Center Summer Research Student Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.chem.uky.edu/REU/" target="_blank">
+               U. of Kentucky Chemistry Department Research Experiences for Undergraduates (REU) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.lehigh.edu/%7Einhhmi/BDSI/" target="_blank">
+               Lehigh University Biosystems Dynamics Summer Institute Research Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.lehigh.edu/%7Einreu/reu/" target="_blank">
+               Lehigh University Department of Physics Research Experiences for Undergraduates (REU) Summer Program
+              </a>
+             </li>
+             <li>
+              <a href="http://research.louisville.edu/students/summerresearch.html" target="_blank">
+               U. of Louisville Undergraduate Summer Research Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://www.marquette.edu/chs/srp/about.shtml" target="_blank">
+               Marquette University College of Health Sciences Biomedical Sciences Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://biology.marquette.edu/biosummer/about.html" target="_blank">
+               Marquette University Summer Research Program in Biology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.umbc.edu/meyerhoff/Undergrad/summer/" target="_blank">
+               U. of Maryland Baltimore County Summer Biomedical Training Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nacs.umd.edu/program/summer.html" target="_blank">
+               U. of Maryland Department of Psychology Program in Neuroscience and Cognitive Science Summer Research Internship Program for Undergraduates
+              </a>
+             </li>
+             <li>
+              <a href="http://medschool.umaryland.edu/osr/summer.asp" target="_blank">
+               U. of Maryland School of Medicine Summer Research Programs
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mayo.edu/mgs/surf.html" target="_blank">
+               Mayo Clinic Summer Undergraduate Research Fellowship (SURF) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mcw.edu/display/router.asp?DocID=23576" target="_blank">
+               Medical College of Wisconsin Graduate School of Biomedical Sciences Summer Program for Undergraduate Research (SPUR)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.musc.edu/grad/summer/surp/general.html" target="_blank">
+               Medical University of South Carolina College of Graduate Studies Summer Undergraduate Research Program (SURP)
+              </a>
+             </li>
+             <li>
+              <a href="http://php.aaas.org/programs/education/merck/" target="_blank">
+               Merck/AAAS Undergraduate Science Research Program (USRP
+              </a>
+              )
+             </li>
+             <li>
+              <a href="http://www.umich.edu/%7Ereuchem/" target="_blank">
+               U. of Michigan Chemistry Program Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.med.umich.edu/medschool/diversity/medsoar.htm" target="_blank">
+               U. of Michigan Medical School Office of Diversity and Career Development Summer Opportunities for Apprenticeships in Research (MedSOAR)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.med.umich.edu/pibs/summerresearch.htm" target="_blank">
+               U. of Michigan Program in Biomedical Sciences Summer Undergraduate Research Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://aoss.engin.umich.edu/pages/undergraduate/reu" target="_blank">
+               U. of Michigan Space Physics Research Laboratory Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.um-cern-reu.org/" target="_blank">
+               U. of Michigan Summer Undergraduate Research Experience at CERN
+              </a>
+             </li>
+             <li>
+              <a href="http://www.chem.umn.edu/lando/" target="_blank">
+               U. of Minnesota Chemistry Department Summer Undergraduate Research Program (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.urop.umn.edu/" target="_blank">
+               U. of Minnesota Undergraduate Research Opportunities Program (UROP)
+              </a>
+             </li>
+             <li>
+              <a href="http://ncmhd.nih.gov/our_programs/mhirt.asp" target="_blank">
+               Minority Health and Health Disparities International Research Training Program
+              </a>
+             </li>
+             <li>
+              <a href="http://cpn.umc.edu/education/nssp/nssp.html" target="_blank">
+               U. of Mississippi Medical Center Department of Psychiatry and Human Behavior Center for Psychiatric Neuroscience (CPN) Neuroscience Scholars Summer Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.olemiss.edu/agem/SummerResearch/cover.html" target="_blank">
+               U. of Mississippi Summer Research Institute for Undergraduates
+              </a>
+             </li>
+             <li>
+              <a href="http://undergradresearch.missouri.edu/programs-jobs/programs/cell-molecular.php" target="_blank">
+               U. of Missouri-Columbia Cell and Molecular Biology Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://mit.edu/urop/amgenscholars/" target="_blank">
+               MIT Amgen Undergraduate Research Opportunities Program (UROP) Scholars Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.monell.org/studentprogram/index.htm" target="_blank">
+               Monell Chemical Senses Center Science Apprenticeship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mdibl.org/edu/undergrad.shtml" target="_blank">
+               Mount Desert Island Biological Laboratory Undergraduate Research
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mssm.edu/gradschool/surp/" target="_blank">
+               Mount Sinai School of Medicine Graduate School of Biological Sciences Summer Undergraduate Research Program (SURP)
+              </a>
+             </li>
+             <li>
+              <a href="http://astrosun2.astro.cornell.edu/specialprograms/spacegrant//undergrad.html" target="_blank">
+               NASA/New York Space Grant Undergraduate Summer Research Program at Cornell University
+              </a>
+              (for NY state residents)
+             </li>
+             <li>
+              <a href="https://icrc.nci.nih.gov/" target="_blank">
+               National Cancer Institute (NCI) Introduction to Cancer Research Careers (ICRC) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nhlbi.nih.gov/funding/training/redbook/brtpug.htm" target="_blank">
+               National Heart, Lung, and Blood Institute (NHLBI) Biomedical Research Training Program for Individuals from Underrepresented Groups
+              </a>
+             </li>
+             <li>
+              <a href="http://dir.nhlbi.nih.gov/oe/summerprogs.asp" target="_blank">
+               National Heart, Lung, and Blood Institute (NHLBI) Summer Programs in Biomedical Research
+              </a>
+             </li>
+             <li>
+              <a href="http://www.genome.gov/10000218" target="_blank">
+               National Human Genome Research Institute Summer Internship Program in Biomedical Research
+              </a>
+             </li>
+             <li>
+              <a href="http://physics.nist.gov/ResOpp/surf/surf.html" target="_blank">
+               National Institute for Standards and Technology (NIST) Summer Undergraduate Research Fellowship Program (SURF) Physics Laboratory Research Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://www2.niddk.nih.gov/Funding/FundingOpportunities/Minority_Health_Research_Coordination/undergrad-rsch-train-prg.htm" target="_blank">
+               National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) of the National Institutes of Health (NIH) Undergraduate Summer Research Training Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.niehs.nih.gov/careers/research/summers/" target="_blank">
+               National Institute of Environmental Health Sciences NIH Summer Internship Program (SIP) in Biomedical Research
+              </a>
+             </li>
+             <li>
+              <a href="http://www.ninds.nih.gov/jobs_and_training/summer/index.htm" target="_blank">
+               National Institute of Neurological Disorders and Stroke (NINDS) Summer Program in the Neurological Sciences and Other Neuroscience Research Training and Funding Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://www.reu.nnin.org/nnin11_login.php" target="_blank">
+               National Nanotechnology Infrastructure Network (NNIN) Research Experience for Undergraduates Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5517&amp;from=fund" target="_blank">
+               National Science Foundation (NSF) Research Experiences for Undergraduates (REU) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nsfstc.org/" target="_blank">
+               National Science Foundation (NSF) Science and Technology Centers Undergraduate Summer Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.unl.edu/summerprogram/" target="_blank">
+               U. of Nebraska-Lincoln Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.unl.edu/RedoxBiologyCenter/summer.shtml" target="_blank">
+               U. of Nebraska-Lincoln Summer Undergraduate Research Training in Redox Biology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.unmc.edu/Eppley/summer.htm" target="_blank">
+               U. of Nebraska Medical Center Eppley Institute for Research in Cancer and Allied Diseases Undergraduate Summer Research Fellowship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.unmc.edu/UNCOM/summer/" target="_blank">
+               U. of Nebraska Medical Center MD/PhD Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.chem.unr.edu/reu/" target="_blank">
+               U. of Nevada, Reno Chemistry Department Research Experiences for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://astrosun2.astro.cornell.edu/specialprograms/spacegrant//undergrad.html" target="_blank">
+               New York Space Grant Program Undergraduate Research Opportunities
+              </a>
+              (for NY state residents)
+             </li>
+             <li>
+              <a href="http://www.cns.nyu.edu/undergrad/surp/" target="_blank">
+               New York University Center for Neural Science Summer Undergradute Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.hsc.unt.edu/education/gsbs/smart.cfm" target="_blank">
+               U. of North Texas Health Science Center Graduate School of Biomedical Sciences Summer Multicultural Advanced Research Training (SMART) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.hsc.unt.edu/education/gsbs/STARS.cfm#er" target="_blank">
+               U. of North Texas Health Science Center Graduate School of Biomedical Sciences Summer Training Among Research Scientists (STARS) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nd.edu/%7Ebiology/reu/indexpage.html" target="_blank">
+               U. of Notre Dame Biological Sciences Department NSF Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nd.edu/%7Enanoreu/" target="_blank">
+               U. of Notre Dame Nano Bioengineering Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://physics.nd.edu/reu/" target="_blank">
+               U. of Notre Dame Summer Research Program in Physics
+              </a>
+             </li>
+             <li>
+              <a href="http://sibhi.secs.oakland.edu/index.php?site=about" target="_blank">
+               Oakland University Summer Institute in Bioengineering and Health Informatics
+              </a>
+             </li>
+             <li>
+              <a href="http://see.orau.org/AcademicStatus.aspx?type=Undergrad" target="_blank">
+               Oak Ridge Institute for Science and Education (ORISE) Educational and Research Experiences for Undergrads
+              </a>
+             </li>
+             <li>
+              <a href="http://computing.ornl.gov/internships/rams/" target="_blank">
+               Oak Ridge National Laboratory (ORNL) Research Alliance in Math and Science (RAMS) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.oucom.ohiou.edu/SummerScholars/" target="_blank">
+               Ohio U. College of Osteopathic Medicine Summer Scholars Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.pasteurfoundation.org/zuccaire.html" target="_blank">
+               Pasteur Foundation Paul W. Zuccaire Summer Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.hmc.psu.edu/summerresearch/index.htm" target="_blank">
+               Penn State College of Medicine Summer Undergraduate Research Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.nanotech.upenn.edu/reu.html" target="_blank">
+               U. of Pennsylvania Nano/Bio Interface Center Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.med.upenn.edu/molecular/undergrad.shtml" target="_blank">
+               U. of Pennsylvania School of Medicine Gastroenterology Division Undergraduate Student Scholars Program
+              </a>
+             </li>
+             <li>
+              <a href="http://seaver.pepperdine.edu/surb/" target="_blank">
+               Pepperdine University Seaver College Summer Undergraduate Research in Biology
+              </a>
+             </li>
+             <li>
+              <a href="http://cnup.neurobio.pitt.edu/training/summer/index.aspx" target="_blank">
+               U. of Pittsburgh Center for Neuroscience Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mdphd.pitt.edu/sprogram_brochure.asp" target="_blank">
+               U. of Pittsburgh/CMU MSTP Summer Undergraduate Research Program for Underrepresented Students (SURPUS)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.pitt.edu/%7Emsrc/summer/" target="_blank">
+               U. of Pittsburgh Musculoskeletal Research Center Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.gradbiomed.pitt.edu/summer_surp.aspx" target="_blank">
+               U. of Pittsburgh School of Medicine Interdisciplinary Biomedical Graduate Program Summer Undergraduate Research Program (SURP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.medschool.pitt.edu/future/future_03_spaep.asp" target="_blank">
+               U. of Pittsburgh School of Medicine Summer Premedical Academic Enrichment Program (SPAEP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.gradschool.purdue.edu/programs/summer.cfm" target="_blank">
+               Purdue University Undergraduate Summer Research Programs
+              </a>
+             </li>
+             <li>
+              <a href="http://people.rit.edu/gtfsbi/#career" target="_blank">
+               Rochester Institute of Technology Co-op/Internship Opportunities Links
+              </a>
+             </li>
+             <li>
+              <a href="http://www.cvs.rochester.edu/ug_fellowship.html" target="_blank">
+               U. of Rochester Center for Visual Science Undergraduate Summer Fellowship Program in Vision Science
+              </a>
+             </li>
+             <li>
+              <a href="http://www.urmc.rochester.edu/GEBS/summer.htm" target="_blank">
+               U. of Rochester Medical Center Summer Undergraduate Research Programs
+              </a>
+             </li>
+             <li>
+              <a href="http://education.ca.sandia.gov/internships.html" target="_blank">
+               Sandia National Labs Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.siteman.wustl.edu/internal.aspx?id=254" target="_blank">
+               Siteman Cancer Center Summer Research Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://www.southalabama.edu/alliedhealth/biomedical/ucur/index.htm" target="_blank">
+               U. of South Alabama NSF-REU in Structure and Function of Proteins
+              </a>
+             </li>
+             <li>
+              <a href="http://www.sri.com/psd/reu/" target="_blank">
+               SRI Molecular Physics Laboratory REU Program
+              </a>
+             </li>
+             <li>
+              <a href="http://cpima.stanford.edu/education/sure-program-reu/" target="_blank">
+               Stanford University Center on Polymer Interfaces and Macromolecular Assemblies Summer Undergraduate Research Program (SURE)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.stjude.org/poe" target="_blank">
+               St. Jude Children's Research Hospital Pediatric Oncology Education (POE) Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.amherst.edu/%7Eneuro/SummerResearch.html" target="_blank">
+               Summer Undergraduate Research Programs in Life Sciences List
+              </a>
+             </li>
+             <li>
+              <a href="http://sls.downstate.edu/minority_affairs/prospective_students/programs.html" target="_blank">
+               SUNY Downstate Medical Center College of Medicine Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.swarthmore.edu/x8853.xml" target="_blank">
+               Swarthmore College List of Health-Related Summer Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="http://chemistry.syr.edu/REU/" target="_blank">
+               Syracuse University Department of Chemistry NSF Research Experience for Undergraduates (REU)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.ttuhsc.edu/gsbs/sabr/" target="_blank">
+               Texas Tech University Health Sciences Center Graduate School of Biomedical Sciences Summer Accelerated Biomedical Research (SABR) Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://pharmacology.uthscsa.edu/summer.html" target="_blank">
+               U. of Texas Health Science Center at San Antonio Pharmacology Department Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.uth.tmc.edu/nba/resources/training/undergraduate.htm" target="_blank">
+               U. of Texas Medical School at Houston Department of Neurobiology and Anatomy Undergraduate Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.utsouthwestern.edu/utsw/cda/dept21010/files/235773.html" target="_blank">
+               U. of Texas Southwestern Graduate School of Biomedical Sciences Green Fellowships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.utsouthwestern.edu/utsw/cda/dept21010/files/234276.html" target="_blank">
+               U. of Texas Southwestern Quantitative and Physical Sciences Summer Undergraduate Research Fellowship Program (QP-SURF)
+              </a>
+             </li>
+             <li>
+              <a href="http://www8.utsouthwestern.edu/utsw/home/educ/nondegprog/SUMR/" target="_blank">
+               U. of Texas Southwestern Undergraduate Medical Research Fellows Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.theravance.com/careers/internships.php" target="_blank">
+               Theravance (a biopharmaceutical company) Summer Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.med.cornell.edu/education/programs/tra_sum_res.html?name1=Travelers+Summer+Research+Fellowship+Program&amp;type1=2Active" target="_blank">
+               Travelers Summer Research Fellowship Program for Premedical Students at Weill Medical College of Cornell University
+              </a>
+             </li>
+             <li>
+              <a href="http://www.pharmacy.utah.edu/pharmtox/SURF1.html" target="_blank">
+               U. of Utah College of Pharmacy Department of Pharmacology and Toxicology Summer Undergraduate Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.biology.utah.edu/NSF-REUprog/" target="_blank">
+               U. of Utah NSF Research Experiences for Undergraduates (REU) Integrative Biology for Undergraduates Program
+              </a>
+             </li>
+             <li>
+              <a href="http://medicine.utah.edu/outreach/">
+               U. of Utah School of Medicine Summer MCAT Preparation and Research/Clinical Training Scholars Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.vai.org/Research/TrainingPrograms/StudentInternship.aspx" target="_blank">
+               Van Andel Institute Frederik and Lena Meijer Student Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="https://medschool.mc.vanderbilt.edu/summer_academy/undergrad_medicine.php" target="_blank">
+               Vanderbilt U. Summer Science Academy Undergraduate Clinical Research Internship
+              </a>
+             </li>
+             <li>
+              <a href="https://medschool.mc.vanderbilt.edu/summer_academy/undergrad.php" target="_blank">
+               Vanderbilt U. Summer Science Academy Undergraduate Summer Research Programs
+              </a>
+             </li>
+             <li>
+              <a href="https://medschool.mc.vanderbilt.edu/short_training/" target="_blank">
+               Vanderbilt U. Vascular Biology Summer Research Program for Minority Students
+              </a>
+             </li>
+             <li>
+              <a href="http://www.healthsystem.virginia.edu/internet/gpo/srip/" target="_blank">
+               U. of Virginia School of Medicine Summer Research Internship Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.wadsworth.org/educate/molcel.htm" target="_blank">
+               Wadsworth Center Department of Biomedical Sciences Summer Research Program in Molecular and Cellular Biosciences
+              </a>
+             </li>
+             <li>
+              <a href="http://biomedrap.wustl.edu/" target="_blank">
+               Washington U. in St. Louis Biomedical Research Apprenticeship Program (BioMed RAP)
+              </a>
+             </li>
+             <li>
+              <a href="http://www.mir.wustl.edu/education/internal.asp?NavID=95" target="_blank">
+               Washington U. in St. Louis School of Medicine Mallinckrodt Institute of Radiology Summer Research Program
+              </a>
+             </li>
+             <li>
+              <a href="http://centerforgenomicsciences.org/education/uri.html" target="_blank">
+               West Penn Allegheny Health System Center for Genomic Sciences Undergraduate Research Internships
+              </a>
+             </li>
+             <li>
+              <a href="http://www.wisc.edu/cbe/srp-bio/" target="_blank">
+               U. of Wisconsin-Madison Integrated Biological Sciences Summer Research Program for Undergraduates
+              </a>
+             </li>
+             <li>
+              <a href="http://www.yale.edu/yser/links/extramural.html" target="_blank">
+               Yale Science and Engineering Research (YSER) Programs and Funding Opportunities for Undergraduates
+              </a>
+             </li>
+             <li>
+              <a href="http://info.med.yale.edu/omca/programs/mmep.htm" target="_blank">
+               Yale U. School of Medicine Summer Medical and Dental Education Program (SMDEP)
+              </a>
+             </li>
+            </ol>
+           </div>
+           &copy; 2008 Clark University &middot;
+           <a href="http://www.clarku.edu/privacy.cfm" target="_blank">
+            Privacy Policy
+           </a>
+           <br />
+           <a href="http://www.udm4.com/" target="_blank">
+            Accessible Drop-Down Menu by Brothercake
+           </a>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Health Professions
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/health_professions/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/health_professions/currentstudents/internships/">
+            Internships
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/health_professions/currentstudents/opportunities/">
+            Opportunities
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/">
+            Public Health Care Minor
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/health_professions/currentstudents/summerprograms/">
+             Summer Programs
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/health_professions/currentstudents/forms/">
+            Forms
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/health_professions/currentstudents/healthprofessionslibrary/">
+            Health Professions Library
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/health_professions/currentstudents/internships/"&gt;Internships&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/health_professions/currentstudents/opportunities/"&gt;Opportunities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/"&gt;Public Health Care Minor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/health_professions/currentstudents/summerprograms/"&gt;Summer Programs&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/health_professions/currentstudents/forms/"&gt;Forms&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/health_professions/currentstudents/healthprofessionslibrary/"&gt;Health Professions Library&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students, the course in Documentary Research is their first foray into making media.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

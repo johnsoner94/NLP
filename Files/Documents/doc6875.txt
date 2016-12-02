@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Get Started with Library Research - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 471100;
+			mySID = 3856349;
+			var myGNAME = "Get+Started+with+Library+Research";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Get Started with Library Research
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 24, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/getstarted">
+          http://libraryguides.muhlenberg.edu/getstarted
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=471100">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856349">
+       Choose a Topic
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856384">
+       Find Information
+      </a>
+      <br />
+      <div style="padding-left:20px;">
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874364">
+        Find Articles
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874366">
+        Find Books
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874371">
+        Find DVDs &amp; Videos
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874373">
+        Find Government Information
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5060595">
+        --Locating U.S. Govt. Publications
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874377">
+        Find Images
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874381">
+        Find Music Recordings &amp; Scores
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874383">
+        Find Primary Sources
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874385">
+        Find Statistics &amp; Data
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874386">
+        Find Reviews
+       </a>
+       <br />
+      </div>
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=4047073">
+       What is Scholarly?
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3878122">
+       Research Tips
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856388">
+       Cite Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5215028">
+       Write an Annotated Bibliography
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_3856349" class="guide_page">
+   <h2>
+    Choose a Topic
+   </h2>
+   <div id="content_box_13943868" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      More Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       For more information on additional steps in the research and writing process, use the
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3856384">
+        Find Information
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3878122">
+        Research Tips
+       </a>
+       , and
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3856388">
+        Cite Sources
+       </a>
+       tabs across the top of this page.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943674" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Choose a Topic
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <em>
+        1. Identify an area of interest
+       </em>
+      </p>
+      <p>
+       If you have been assigned a research paper or project, there are usually a wide range of topics that you can select for your assignment. Here are some ideas for topic generating.
+      </p>
+      <ul>
+       <li>
+        Examine the course syllabus, choosing a topic discussed in class.
+       </li>
+       <li>
+        Identify a topic from course readings.
+       </li>
+       <li>
+        Find a current event that relates to your topic through a newspaper or magazine article:
+        <ul>
+         <li>
+          <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/us/lnacademic">
+           LexisNexis Academic
+          </a>
+         </li>
+         <li>
+          <a href="http://www.nytimes.com/">
+           New York Times
+          </a>
+         </li>
+         <li>
+          <a href="http://www.sciencedaily.com/">
+           Science Daily
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Type your subject into
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+         Credo Reference
+        </a>
+        , a collection of many reference sources, to find out more information on your topic.&nbsp; Your professor may not allow you to cite an encyclopedia article or other reference text as a scholarly source, but a good article can orient you to your subject, and you can find something that interests you to research.
+       </li>
+      </ul>
+      <p>
+       <em>
+        2. Narrow the focus
+       </em>
+      </p>
+      <p>
+       One of the best ways to&nbsp;narrow your research focus is to locate a point of ongoing scholarly debate or any element of surprise. These points of debate or elements of surprise may:
+      </p>
+      <ul>
+       <li>
+        Be mentioned in reference books (see&nbsp;
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+         Credo Reference
+        </a>
+        or use print reference books in the library).
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Appear in
+        <a href="http://wikipedia.org/">
+         Wikipedia
+        </a>
+        , by clicking on the "Talk" tab of a given topic.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Be&nbsp;identified by looking at differences of opinion between scholars in articles, findable in databases like
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">
+         Academic Search Complete
+        </a>
+        .
+       </li>
+      </ul>
+      <p>
+       For example, let's imagine that you want to write about the novel
+       <em>
+        The Golden Bowl
+       </em>
+       , by Henry James.&nbsp; You discover in some preliminary reading that there is considerable scholarly disagreement about the meaning of the golden bowl as symbol. Now you have a narrowed focus: the meaning of the symbol of the golden bowl.
+      </p>
+      <p>
+       An advantage to identifying an ongoing scholarly debate or element of surprise as your narrowed topic is that it will likely generate interest on the part of the reader. You want to write about something that matters to your readers. Seek always to have impact.
+      </p>
+      <p>
+       <em>
+        3. Develop a research question
+       </em>
+      </p>
+      <p>
+       The next step is to extract a research question from your narrowed focus. This question will guide your research. If scholars are addressing a particular question, and have articulated that question, you could simply borrow that research question as your own. More often that not, however, a research question will need to be extrapolated.
+      </p>
+      <p>
+       For instance, if you're writing about the symbolism of the golden bowl in the Henry James novel, you could ask: What does the symbol of the golden bowl really mean? Your paper could present the differing views on the controversy, and possibly go on to present your own educated guess based on careful research.
+      </p>
+      <p>
+       Here's another example: Let's say you want to write about about Mormon polygamy, and scholars have focused time and again on the wives of polygamists, specifically their accounts of polygamy. You become interested in the accounts of Mormon women who speak favorably about polygamy as your narrowed focus. Asking how, what, or why can easily generate a question. What is it precisely that Mormon women found attractive about polygamy? Why did some women find polygamy rewarding where others found it to be insufferable?
+      </p>
+      <p>
+       <em>
+        4. Formulate a preliminary thesis
+       </em>
+      </p>
+      <p>
+       The preliminary thesis is the answer to your research question, based on what you uncover from your research.
+      </p>
+      <p>
+       The thesis statement should have impact. It should state something that is not obvious, that may come as a surprise to the reader. The whole point of a thesis is to to look at a topic in a new and interesting way, to say what has not been said before. This may be difficult to achieve in an undergraduate research paper, but it a worthy goal to aspire to.
+       <br />
+       <br />
+       <em>
+        5. Refine the thesis
+       </em>
+      </p>
+      <p>
+       The thesis statement may need to be refined as the research process continues.
+      </p>
+      <p>
+      </p>
+      <p>
+       Need more help with this?
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943779" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Need more help with this?&nbsp;
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+      <p>
+       <br />
+       Need help with writing?&nbsp; Contact the
+       <a href="http://www.muhlenberg.edu/main/academics/writing/center/">
+        Writing Center
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

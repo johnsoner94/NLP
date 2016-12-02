@@ -1,0 +1,996 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!-- ========= Meta Tags========= -->
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+  <meta charset="utf-8" />
+  <link rel="canonical" href="http://www.muhlenberg.edu/wescoe" />
+  <meta id="view" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!--Add favorites icons-->
+  <link rel="apple-touch-icon" href="https://irp-cdn.multiscreensite.com/muhlenberg/dms3rep/multi/mobile/New%20Wescoe%20Logo%2011-23-15%20-%20Duda-57x57.jpg" />
+  <link rel="apple-touch-icon" type="image/x-icon" href="https://irp-cdn.multiscreensite.com/muhlenberg/site_favicon_16_1448991439129.ico" />
+  <!-- End favorite icons -->
+  <!-- ========= CSS Section========= -->
+  <!-- Foundation CSS -->
+  <!-- Google Fonts Include -->
+  <link rel="stylesheet" type="text/css" href="/_dm/s/rt/dist/css/css-font-package.min.css?version=2016-11-22T11_43_36" />
+  <!-- RT CSS Include d-css-runtime-mobile-package-->
+  <link rel="stylesheet" type="text/css" href="/_dm/s/rt/dist/css/d-css-runtime-mobile-package.min.css?version=2016-11-22T11_43_36" />
+  <!-- End of RT CSS Include -->
+  <!-- Site CSS -->
+  <link type="text/css" rel="stylesheet" href="//irp-cdn.multiscreensite.com/muhlenberg/files/muhlenberg_0.min.css?v=123" />
+  <style id="additionalGlobalCss" type="text/css">
+  </style>
+  <!-- Page CSS -->
+  <link id="homeCssLink" type="text/css" rel="stylesheet" href="//irp-cdn.multiscreensite.com/muhlenberg/files/muhlenberg_home_0.min.css?v=123" />
+  <style id="pagestyle" type="text/css">
+  </style>
+  <style id="pagestyleDevice" type="text/css">
+  </style>
+  <!--[if IE 7]&gt;&lt;style&gt;.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}&lt;/style&gt;&lt;![endif]-->
+  <!--[if IE 8]&gt;&lt;style&gt;.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}&lt;/style&gt;&lt;![endif]-->
+  <!-- ========= JS Section========= -->
+  <script type="text/javascript">
+   function buildEditorParent(){
+		window.isMultiScreen = false;
+		window.editorParent = {};
+		window.previewParent = {};
+		window.assetsCacheQueryParam="?version=2016-11-22T11_43_36";
+		try {
+		 var _p = window.parent;
+		 if (_p &amp;&amp; _p.document &amp;&amp; _p.$ &amp;&amp; _p.$.dmfw){window.editorParent = _p;}
+		 else if (_p.isSitePreview){window.previewParent = _p;}
+		} catch (e) {
+			
+		}
+	}
+
+	buildEditorParent();
+  </script>
+  <!-- Load jQuery -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+  </script>
+  <!-- End Load jQuery -->
+  <script>
+   window.cookiesNotificationMarkupPreview = '';
+  </script>
+  <!-- HEAD RT JS Include -->
+  <script>
+   window.INSITE = window.INSITE || {};
+window.INSITE.device = "mobile";
+window.rtCommonProps = {};
+rtCommonProps["rt.ajax.ajaxScriptsFix"]=true;
+rtCommonProps["rt.pushnotifs.sslframe.encoded"]='aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+rtCommonProps["facebook.accessToken"]='126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+rtCommonProps["performance.tabletPreview.removeScroll"]='false';
+rtCommonProps["inlineEditGrid.snap"]=true;
+rtCommonProps["popup.insite.cookie.ttl"]='0.0';
+rtCommonProps["rt.pushnotifs.force.button"]=true;
+  </script>
+  <script src="/_dm/s/rt/dist/scripts/d-js-runtime-mobile-package.min.js?version=2016-11-22T11_43_36">
+  </script>
+  <script type="text/javascript">
+   var onCaptchaLoad = function() {
+    $.DM.initFormCaptcha();
+  };
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onCaptchaLoad&amp;render=explicit" async="async" defer="defer">
+  </script>
+  <!-- &lt;script type="text/javascript"&gt;
+$.DM.loadExternalScriptAsync('//www.google.com/recaptcha/api/js/recaptcha_ajax.js', function dmInitForm(){
+	$.DM.initFormCaptcha();
+});
+&lt;/script&gt; -->
+  <!-- End of HEAD RT JS Include -->
+  <script>
+   function styleImages(element) {if (!element){
+			   element = jQuery("body");
+		   } else if(element.is("img")) {
+                element = element.parent();
+           }
+
+		   element.find("img").filter(function() {return ((jQuery(this).attr('dm') == undefined &amp;&amp; jQuery(this).css("display")!="none") &amp;&amp; (jQuery(this).width() &lt;= 140));}).css("display","inline");//.css("margin-right","5px");
+		   element.find("img").filter(function() {return ((jQuery(this).attr('dm') == undefined &amp;&amp; jQuery(this).css("display")!="none") &amp;&amp; (jQuery(this).width() &gt; 140));}).css("display","block").css("margin-right","auto").css("margin-left","auto");
+		   //element.find(".dmContent img").css("margin-top","5px").css("margin-bottom","5px");
+
+		   element.find("img[data-src]").each(function(index) {
+			jQuery(this).attr("src", jQuery(this).attr("data-src"));
+			jQuery(this).css("display","block").css("margin-right","auto").css("margin-left","auto");
+		   });}
+  </script>
+  <!-- -->
+  <title>
+   The Wescoe School of Muhlenberg College
+  </title>
+  <meta name="keywords" content="adult education, higher education, continuing education, lehigh valley, allentown, muhlenberg college" />
+  <meta name="description" content="If you are looking for a school that truly understands the adult learner, I encourage you to visit The Wescoe School. All of our advisors were adult students themselves and will work with you to meet your unique educational goals.Through The Wescoe School, you can earn a bachelor’s degree in any of over 25 majors. Many degrees are offered entirely through evening and weekend study. Wescoe School tuition is competitive with other local institutions and our programs are eligible for TRA / WIA / OVR, Federal Financial Aid and GI Bill® (Yellow Ribbon Program). " />
+  <script type="text/javascript">
+   $.extend(Parameters,{
+ AjaxContainer : "div.dmBody",
+ WrappingContainer : "div.dmOuter",
+ HomeUrl : "http://wescoe.muhlenberg.edu/site/muhlenberg",
+ SiteAlias : "muhlenberg",
+ SiteId : "606076",
+ SiteType : eval(Base64.decode("J01PQklMRSc=")),
+ IsSEOFriendlyLinks : false,
+ IsSiteMultilingual: false,
+ InitialPageAlias : "home",
+ IsFromScratch : "false",
+ CurrentPageUrl : "http://www.muhlenberg.edu/wescoe",
+ IsCurrentHomePage : true,
+ classicLink : "http://www.muhlenberg.edu/wescoe?no_redirect=true",
+ AllowAjax : true,
+ AfterAjaxCommand : null,
+ HomeLinkText:"Back To Home",
+ UseGalleryModule : false,
+ CurrentThemeName : "Layout Theme",
+ ThemeVersion : "125",
+ DefaultPageAlias : "default",
+ RemoveDID : true,
+ LayoutVariationID : {mobile : 2}, 
+ LayoutID : {mobile : 5},
+ WidgetStyleID : null,
+ IsHeaderFixed: false,
+ IsHeaderSkinny: false,
+ IsBfs: false,
+ LayoutParams : {_manifestId : null,_device : "mobile"},
+ StorePageAlias: "null",
+ NotificationSubDomain: "wescoe-muhlenberg",
+ HasCustomDomain: true,
+showCookieNotification: false,
+cookiesNotificationMarkup: 'null',
+translatedPageUrl: '',
+isFastMigrationSite: false
+
+});
+$.extend(Parameters.NavigationAreaParams,{
+ ShowBackToHomeOnInnerPages : true,
+ NavbarSize : 5,
+ NavbarLiveHomePage : "http://www.muhlenberg.edu/wescoe",
+ BlockContainerSelector : ".dmBody",
+ NavbarSelector : "#dmNav:has(a)",
+ SubNavbarSelector : "#subnav_main"
+});
+
+Parameters.NavigationAreaParams.MoreButtonText = 'More Options';
+
+Parameters.NavigationAreaParams.LessButtonText = 'Less Options';
+Parameters.HomeLinkText = 'Home';
+
+//Parameters.Charset = 'utf-8';
+  </script>
+  <script type="text/javascript">
+   $(window).resize(function() {jQuery.DM.updateWidth();});
+$(window).bind("orientationchange",function(e) {jQuery.DM.updateWidth();jQuery.layoutManager.initLayout();});
+$(document).resize(function() {jQuery.DM.updateWidth();});
+  </script>
+ </head>
+ <body id="dmRoot" class="supportsFontIcons dmRoot dmMobileBody " style="overflow:auto;padding:0;margin:0;float:none;">
+  <!-- Modernizr -->
+  <script>
+   !function(e,n,t){function r(e,n){return typeof e===n}function s(){var e,n,t,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],n=w[l],n.name&amp;&amp;(e.push(n.name.toLowerCase()),n.options&amp;&amp;n.options.aliases&amp;&amp;n.options.aliases.length))for(t=0;t&lt;n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(s=r(n.fn,"function")?n.fn():n.fn,o=0;o&lt;e.length;o++)i=e[o],a=i.split("."),1===a.length?S[a[0]]=s:(!S[a[0]]||S[a[0]]instanceof Boolean||(S[a[0]]=new Boolean(S[a[0]])),S[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var n=b.className,t=S._config.classPrefix||"";if(_&amp;&amp;(n=n.baseVal),S._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}S._config.enableClasses&amp;&amp;(n+=" "+t+e.join(" "+t),_?b.className.baseVal=n:b.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):_?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function a(){var e=n.body;return e||(e=i(_?"svg":"body"),e.fake=!0),e}function l(e,t,r,s){var o,l,u,d,p="modernizr",c=i("div"),m=a();if(parseInt(r,10))for(;r--;)u=i("div"),u.id=s?s[r]:p+(r+1),c.appendChild(u);return o=i("style"),o.type="text/css",o.id="s"+p,(m.fake?m:c).appendChild(o),m.appendChild(c),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(n.createTextNode(e)),c.id=p,m.fake&amp;&amp;(m.style.background="",m.style.overflow="hidden",d=b.style.overflow,b.style.overflow="hidden",b.appendChild(m)),l=f(c,e),m.fake?(m.parentNode.removeChild(m),b.style.overflow=d,b.offsetHeight):c.parentNode.removeChild(c),!!l}function f(e,n,t){try{return e(n,t)}catch(r){return!1}}function u(e,n){return!!~(""+e).indexOf(n)}function d(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function p(e,n){return function(){return e.apply(n,arguments)}}function c(e,n,t){var s;for(var o in e)if(e[o]in n)return t===!1?e[o]:(s=n[e[o]],r(s,"function")?p(s,t||n):s);return!1}function m(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function h(n,r){var s=n.length;if("CSS"in e&amp;&amp;"supports"in e.CSS){for(;s--;)if(e.CSS.supports(m(n[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+m(n[s])+":"+r+")");return o=o.join(" or "),l("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==getComputedStyle(e,null).position})}return t}function y(e,n,s,o){function a(){f&amp;&amp;(delete j.style,delete j.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var l=h(e,s);if(!r(l,"undefined"))return l}for(var f,p,c,m,y,v=["modernizr","tspan"];!j.style;)f=!0,j.modElem=i(v.shift()),j.style=j.modElem.style;for(c=e.length,p=0;c&gt;p;p++)if(m=e[p],y=j.style[m],u(m,"-")&amp;&amp;(m=d(m)),j.style[m]!==t){if(o||r(s,"undefined"))return a(),"pfx"==n?m:!0;try{j.style[m]=s}catch(g){}if(j.style[m]!=y)return a(),"pfx"==n?m:!0}return a(),!1}function v(e,n,t,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+P.join(i+" ")+i).split(" ");return r(n,"string")||r(n,"undefined")?y(a,n,s,o):(a=(e+" "+E.join(i+" ")+i).split(" "),c(a,n,t))}function g(e,n,r){return v(e,t,t,n,r)}var C=[],w=[],x={_version:"3.3.1",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){w.push({name:e,fn:n,options:t})},addAsyncTest:function(e){w.push({name:null,fn:e})}},S=function(){};S.prototype=x,S=new S;var b=n.documentElement,_="svg"===b.nodeName.toLowerCase(),T=x.testStyles=l;T("#modernizr { height: 50vh; }",function(n){var t=parseInt(e.innerHeight/2,10),r=parseInt((e.getComputedStyle?getComputedStyle(n,null):n.currentStyle).height,10);S.addTest("cssvhunit",r==t)}),T("#modernizr { width: 50vw; }",function(n){var t=parseInt(e.innerWidth/2,10),r=parseInt((e.getComputedStyle?getComputedStyle(n,null):n.currentStyle).width,10);S.addTest("cssvwunit",r==t)});var z="Moz O ms Webkit",P=x._config.usePrefixes?z.split(" "):[];x._cssomPrefixes=P;var E=x._config.usePrefixes?z.toLowerCase().split(" "):[];x._domPrefixes=E;var N={elem:i("modernizr")};S._q.push(function(){delete N.elem});var j={style:N.elem.style};S._q.unshift(function(){delete j.style}),x.testAllProps=v,x.testAllProps=g,S.addTest("flexbox",g("flexBasis","1px",!0)),S.addTest("flexboxlegacy",g("boxDirection","reverse",!0)),S.addTest("flexboxtweener",g("flexAlign","end",!0)),S.addTest("flexwrap",g("flexWrap","wrap",!0)),s(),o(C),delete x.addTest,delete x.addAsyncTest;for(var A=0;A&lt;S._q.length;A++)S._q[A]();e.Modernizr=S}(window,document);
+  </script>
+  <script>
+   jQuery.DM.updateWidthAndHeight();
+  </script>
+  <div id="disabledImageZone" style="display:none;z-index:-1">
+   <style type="text/css">
+    #imageZone{position:absolute;margin:auto;}
+	.coloumns{border-radius:3px;background-color:rgb(249,152,13);/*border:1px solid #999;*/ height:18px;width:6px;-webkit-animation-name:loader;-webkit-animation-duration:1s;-webkit-animation-iteration-count:infinite;-webkit-animation-direction:linear;-moz-animation-name:loader;-moz-animation-duration:1s;-moz-animation-iteration-count:infinite;-moz-animation-direction:linear;opacity:.25;-webkit-transform:scale(0.7);-webkit-transform-origin:50% 180%;-moz-transform:scale(0.7);-moz-transform-origin:50% 180%;position:absolute;}
+	#coloumn1{-webkit-transform:rotate(0deg);-webkit-animation-delay:-.914s;-moz-transform:rotate(0deg);-moz-animation-delay:-.914s;}
+	#coloumn2{-webkit-transform:rotate(30deg);-webkit-animation-delay:-.831s;-moz-transform:rotate(30deg);-moz-animation-delay:-.831s;}
+	#coloumn3{-webkit-transform:rotate(60deg);-webkit-animation-delay:-.747s;-moz-transform:rotate(60deg);-moz-animation-delay:-.747s;}
+	#coloumn4{-webkit-transform:rotate(90deg);-webkit-animation-delay:-.664s;-moz-transform:rotate(90deg);-moz-animation-delay:-.664s;}
+	#coloumn5{-webkit-transform:rotate(120deg);-webkit-animation-delay:-.581s;-moz-transform:rotate(120deg);-moz-animation-delay:-.581s;}
+	#coloumn6{-webkit-transform:rotate(150deg);-webkit-animation-delay:-.498s;-moz-transform:rotate(150deg);-moz-animation-delay:-.498s;}
+	#coloumn7{-webkit-transform:rotate(180deg);-webkit-animation-delay:-.415s;-moz-transform:rotate(180deg);-moz-animation-delay:-.415s;}
+	#coloumn8{-webkit-transform:rotate(210deg);-webkit-animation-delay:-.332s;-moz-transform:rotate(210deg);-moz-animation-delay:-.332s;}
+	#coloumn9{-webkit-transform:rotate(240deg);-webkit-animation-delay:-.249s;-moz-transform:rotate(240deg);-moz-animation-delay:-.249s;}
+	#coloumn10{-webkit-transform:rotate(270deg);-webkit-animation-delay:-.166s;-moz-transform:rotate(270deg);-moz-animation-delay:-.166s;}
+	#coloumn11{-webkit-transform:rotate(300deg);-webkit-animation-delay:-.083s;-moz-transform:rotate(300deg);-moz-animation-delay:-.083s;}
+	#coloumn12{-webkit-transform:rotate(330deg);-moz-transform:rotate(330deg);}
+	@-webkit-keyframes loader {0%{opacity:1;}100%{opacity:.25;}}
+	@-moz-keyframes loader {0%{opacity:1;}100%{opacity:.25;}}
+   </style>
+   <div id="imageZone">
+    <div id="coloumn1" class="coloumns">
+    </div>
+    <div id="coloumn2" class="coloumns">
+    </div>
+    <div id="coloumn3" class="coloumns">
+    </div>
+    <div id="coloumn4" class="coloumns">
+    </div>
+    <div id="coloumn5" class="coloumns">
+    </div>
+    <div id="coloumn6" class="coloumns">
+    </div>
+    <div id="coloumn7" class="coloumns">
+    </div>
+    <div id="coloumn8" class="coloumns">
+    </div>
+    <div id="coloumn9" class="coloumns">
+    </div>
+    <div id="coloumn10" class="coloumns">
+    </div>
+    <div id="coloumn11" class="coloumns">
+    </div>
+    <div id="coloumn12" class="coloumns">
+    </div>
+   </div>
+  </div>
+  <!-- ========= Site Content========= -->
+  <div id="dm" class="dmwr">
+   <div class="dm_wrapper insideList-var2 widgetStyle-2 insideList">
+    <div id="47" dmwrapped="true">
+     <div dm:templateorder="3" dmtemplateid="INSIDELIST">
+      <!-- 	&lt;dm:Variable dm:id="wrapperVariable" dm:target="layout" dm:attribute="class" /&gt; -->
+      <div id="dmStyle_outerContainer" class="dmOuter">
+       <div id="dmStyle_innerContainer" class="dmInner">
+        <div class="dmLayoutWrapper">
+         <a class="dmBackToTop" id="dmBackToTop">
+         </a>
+         <div id="iscrollBody">
+          <div id="site_content" class="hasDmInsideListNav">
+           <div id="hcontainer" class="freeHeader p_hfcontainer u_hcontainer dmHeader d-header-wrapper">
+            <div class="logoTitleWrapper">
+             <div class="83 logo-div dm_header" id="logo-div" dm_force_keep="true">
+              <a href="/site/muhlenberg" class="dm-logo-anchor" id="dm-logo-anchor">
+               <img src="https://irp-cdn.multiscreensite.com/muhlenberg/dms3rep/multi/mobile/Red%20Logo%20New-500x144.jpg" id="dm-logo-image" dm_force_keep="true" class="dm-logo-image p_maxWidth u_dm-logo-image" dm_changed="true" device-src-orig="" />
+              </a>
+             </div>
+             <div class="dm-title dm_header" id="dm-title" dm_force_keep="true" dm_original_title="Adult Education Lehigh Valley" style="display:none" device-text-orig="
+    Adult Education Lehigh Valley
+   ">
+              Adult Education Lehigh Valley
+             </div>
+            </div>
+           </div>
+           <div id="innerBar" class="innerBar display_None dmPageTitleRow">
+            <a id="dmBackBtn" class="uiBtn" back-title="Back">
+             <span id="dmBackArrow">
+             </span>
+            </a>
+            <!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts -->
+            <div id="slideDownTrigger" class="uiBtn slideDownTrigger dmNavTriggerButton">
+             <div class="btnStripe">
+             </div>
+             <div class="btnStripe">
+             </div>
+             <div class="btnStripe">
+             </div>
+            </div>
+           </div>
+           <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None">
+           </ul>
+           <div id="slideDownNav" class="dmn dmLayoutNav">
+            <ul class="dmNavigationStyle_1 dmNavigation dmn  dmShowInnerBar dmNavWrapper">
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/redesign-muhlenberg-edu-main-wescoe18" class="dmUDNavigationItem_00" icon-name="icon-home" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-home">
+                </span>
+               </span>
+               <span class="navItemText">
+                Staff Directory
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="    navListLi" id="">
+              <a href="/site/muhlenberg/make-an-appointment-1?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FprospectiveStudents%2Fappointment.html" class="dmUDNavigationItem_010101107951" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Schedule Appointment
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="    navListLi" id="">
+              <a href="/site/muhlenberg/ask-a-question-1?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FaboutUs%2Frequest-info.html" class="dmUDNavigationItem_010101948390" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Request Information
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-prog52?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FprogramCourseOfferings%2Frequest-info-summer.html" class="dmUDNavigationItem_010101746814" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Request a Summer Catalog
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="    navListLi" id="">
+              <a href="/site/muhlenberg/is2" class="dmUDNavigationItem_01010188370" icon-name="dm-icon-page-rows" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon dm-icon-page-rows">
+                </span>
+               </span>
+               <span class="navItemText">
+                New!  Technology Degree
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="http://www.muhlenbergconnect.com/" class="dmUDNavigationItem_05" icon-name="icon-star-empty" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star-empty">
+                </span>
+               </span>
+               <span class="navItemText">
+                Alumni
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/community-partners?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FcommunityPartners%2F" class="dmUDNavigationItem_06" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Community Partners
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-prog13" class="dmUDNavigationItem_010101390992" icon-name="dm-icon-page-rows" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon dm-icon-page-rows">
+                </span>
+               </span>
+               <span class="navItemText">
+                Summer Study 2016
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/redesign-muhlenberg-edu-main-wescoe18" class="dmUDNavigationItem_01010157110" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Request a Summer Catalog
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="    navListLi" id="">
+              <a href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-curr22?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FcurrentStudentsFaculty" class="dmUDNavigationItem_04" icon-name="icon-book" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-book">
+                </span>
+               </span>
+               <span class="navItemText">
+                Current Students &amp; Faculty
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/high-school-students?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2Fprogramcourseofferings%2Fsummer%2Fhighschoolstudents%2F" class="dmUDNavigationItem_010101839113" icon-name="dm-icon-p_page_url" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon dm-icon-p_page_url">
+                </span>
+               </span>
+               <span class="navItemText">
+                High School Students
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-prog54" class="dmUDNavigationItem_010101884857" icon-name="dm-icon-page-rows" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon dm-icon-page-rows">
+                </span>
+               </span>
+               <span class="navItemText">
+                IS New
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="  dmHideFromNav   navListLi" id="">
+              <a href="/site/muhlenberg/thank-you?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FaboutUs%2Fconfirm.html" class="dmUDNavigationItem_010101508857" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Thank you
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+             <li class="    navListLi" id="">
+              <a href="/site/muhlenberg/information-session" class="dmUDNavigationItem_010101348908" icon-name="icon-star" data-target-page-alias="">
+               <span class="navItemIconBg">
+                <span class="navItemIcon hasFontIcon icon-star">
+                </span>
+               </span>
+               <span class="navItemText">
+                Information Session
+               </span>
+               <span class="navItemArrowBg">
+                <span class="navItemArrow">
+                </span>
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+           <div id="47" dmwrapped="true" class="dmBody u_dmStyle_template_home">
+            <div class="backToHomePlaceHolder navPlaceHolder" id="backToHomePlaceHolder" navplaceholder="true">
+            </div>
+            <div class="allWrapper dm_content_wrapper" id="allWrapper">
+             <div class="dmHT" id="1987251395">
+              <div class="dmCover">
+              </div>
+              <div>
+               <!--  click to call and map in two columns -->
+               <div class="dmColumn">
+                <div class="left">
+                 <a class="u_1670304721 dmCall dmWidget dmNoMark dmWwr" href="tel:(484) 664-3300" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'muhlenberg', this);" dmle_extension="clicktocall" wr="true" icon="true" surround="true" description="Call Wescoe" icon-name="icon-phone" phone="(484) 664-3300" text="" image="">
+                  <span class="iconBg">
+                   <span class="icon hasFontIcon icon-phone">
+                   </span>
+                  </span>
+                  <span class="text" dmle_select_parent="1">
+                   Call Wescoe
+                  </span>
+                 </a>
+                 <span style="clear:both;display:block">
+                 </span>
+                </div>
+                <div class="divider">
+                </div>
+                <div class="right">
+                 <a class="dmCoreImg dmOnlyButton default dmWwr dmWidget dmButtonLink u_1444420636" data-display-type="block" dmdefaultgradient="" file="false" href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-abo134?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FaboutUs%2Fdirections.html" dm_dont_rewrite_url="false" icon-name="dm-icon-location" data-dimensions="eyJtb2JpbGUiOnsia2VlcFByb3AiOmZhbHNlLCJ1c2VQZXJjIjpmYWxzZSwiaGVpZ2h0IjoiNDNweCIsIm1hcmdpbi1sZWZ0IjoiYXV0byIsIm1hcmdpbi1yaWdodCI6ImF1dG8iLCJkaXNwbGF5IjoiYmxvY2siLCJtYXgtaGVpZ2h0IjoiMTAwMHB4In0sInRhYmxldCI6e30sImRlc2t0b3AiOnt9fQ==" id="1444420636">
+                  <span class="iconBg">
+                   <span class="icon hasFontIconstar hasFontIcon dm-icon-location">
+                   </span>
+                  </span>
+                  <span class="text">
+                   Find Us
+                  </span>
+                 </a>
+                 <span style="clear:both;display:block">
+                 </span>
+                 <span>
+                 </span>
+                 <span style="clear:both;display:block">
+                 </span>
+                </div>
+               </div>
+               <div class="dmNewParagraph dmDescription">
+                The Wescoe School offers more than 25 programs of study including Accelerated Degrees, Traditional Liberal Arts Degrees, Major Certificates, and Teacher Certification. Caring academic advisors, all former adult students themselves, are here to help you explore alternatives and identify the course of study that best suits your academic and career objectives. Flexible and varied course offerings ensure that each student can plan a schedule that allows attention to his or her other home and work responsibilities.
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="flex-container dmImageSlider dmNoMargin dmNoMark" editablewidget="true" data-widget-type="imageSlider" id="1560859913">
+              <div class="flexslider" sliderscriptparams="{ stretch: true, animation: true, randomize: false, directionNav: true, isAutoPlay: false, isFade: true, controlNav: false, slideshowSpeed: 7000, animationDuration: 600, pausePlay: true}">
+               <ul class="slides">
+                <li index="3">
+                 <img dm="true" src="https://irp-cdn.multiscreensite.com/muhlenberg/PA230409.JPG" irh="1536" irw="2048" />
+                </li>
+                <li index="6">
+                 <img dm="true" src="https://irp-cdn.multiscreensite.com/muhlenberg/dms3rep/multi/mobile/IMG_1829-4272x2848.JPG" irh="107" irw="160" />
+                </li>
+                <li index="3">
+                 <img dm="true" src="https://irp-cdn.multiscreensite.com/muhlenberg/dms3rep/multi/mobile/P9280758-2816x2112.JPG" irh="120" irw="160" />
+                </li>
+               </ul>
+              </div>
+             </div>
+             <div class="navWrapper" id="navWrapper">
+              <div class="hiddenNavPlaceHolder navPlaceHolder dmDisplay_None" id="hiddenNavPlaceHolder" navplaceholder="true">
+              </div>
+              <div class="newNavigationElementPlaceHolder navPlaceHolder" id="newNavigationElementPlaceHolder" navplaceholder="true">
+               <ul class="dmNav dmNavCustom dmNavWrapper default dmn" id="dmNav" dmnavfullyann="true" shape_class="default" exp_align="right" exp_nps="true" exp_npt="false" exp_hmi="false" exp_hma="false" exp_btn_mnutitle="Menu" btmtitle="Back to menu" mmtitle="Main Menu" hwa="true" dmmoreicon="icon-angle-down" dmlessicon="icon-angle-up" design_classes="" dmhomeicon="icon-home" view_type="main">
+                <li class="p_list_item dmUDNavigationItem_010101107951_li" id="dm_navGroup010101107951_item" dmnav_annotate="inserted;">
+                 <a href="/site/muhlenberg/make-an-appointment-1?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FprospectiveStudents%2Fappointment.html" class="dmUDNavigationItem_010101107951 dm_navGroup010101107951a" icon-name="icon-star" id="dm_navGroup010101107951a">
+                  <div class="navIconBg">
+                   <div class="navIcon icon-star hasFontIcon" id="dm_navGroup010101107951icon" style="">
+                   </div>
+                  </div>
+                  <div class="navText" id="dm_navGroup010101107951div">
+                   Schedule Appointment
+                  </div>
+                  <div class="navArrowBg">
+                   <div class="navArrow">
+                   </div>
+                   <div class="navArrowBottom">
+                   </div>
+                  </div>
+                 </a>
+                </li>
+                <li class="p_list_item dmUDNavigationItem_010101948390_li" id="dm_navGroup010101948390_item" dmnav_annotate="inserted;">
+                 <a href="/site/muhlenberg/ask-a-question-1?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FaboutUs%2Frequest-info.html" class="dmUDNavigationItem_010101948390 dm_navGroup010101948390a" icon-name="icon-star" id="dm_navGroup010101948390a">
+                  <div class="navIconBg">
+                   <div class="navIcon icon-star hasFontIcon" id="dm_navGroup010101948390icon" style="">
+                   </div>
+                  </div>
+                  <div class="navText" id="dm_navGroup010101948390div">
+                   Request Information
+                  </div>
+                  <div class="navArrowBg">
+                   <div class="navArrow">
+                   </div>
+                   <div class="navArrowBottom">
+                   </div>
+                  </div>
+                 </a>
+                </li>
+                <li class="p_list_item dmUDNavigationItem_01010188370_li" id="dm_navGroup01010188370_item" dmnav_annotate="inserted;">
+                 <a href="/site/muhlenberg/is2" class="dmUDNavigationItem_01010188370 dm_navGroup01010188370a" icon-name="dm-icon-page-rows" id="dm_navGroup01010188370a">
+                  <div class="navIconBg">
+                   <div class="navIcon dm-icon-page-rows hasFontIcon" id="dm_navGroup01010188370icon" style="">
+                   </div>
+                  </div>
+                  <div class="navText" id="dm_navGroup01010188370div">
+                   New!  Technology Degree
+                  </div>
+                  <div class="navArrowBg">
+                   <div class="navArrow">
+                   </div>
+                   <div class="navArrowBottom">
+                   </div>
+                  </div>
+                 </a>
+                </li>
+                <li class="p_list_item dmUDNavigationItem_04_li" id="dm_navGroup04_item" dmnav_annotate="moved;">
+                 <a href="/site/muhlenberg/www-muhlenberg-edu-main-wescoe-curr22?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FcurrentStudentsFaculty" class="dmUDNavigationItem_04 dm_navGroup04a" id="dm_navGroup04a" icon-name="icon-book">
+                  <div class="navIconBg">
+                   <div class="navIcon icon-book hasFontIcon" id="dm_navGroup04icon" style="">
+                   </div>
+                  </div>
+                  <div class="navText" id="dm_navGroup04div">
+                   Current Students &amp; Faculty
+                  </div>
+                  <div class="navArrowBg">
+                   <div class="navArrow">
+                   </div>
+                   <div class="navArrowBottom">
+                   </div>
+                  </div>
+                 </a>
+                </li>
+                <li class="p_list_item dmUDNavigationItem_010101348908_li" id="dm_navGroup010101348908_item" dmnav_annotate="inserted;">
+                 <a href="/site/muhlenberg/information-session" class="dmUDNavigationItem_010101348908 dm_navGroup010101348908a" icon-name="icon-star" id="dm_navGroup010101348908a">
+                  <div class="navIconBg">
+                   <div class="navIcon icon-star hasFontIcon" id="dm_navGroup010101348908icon" style="">
+                   </div>
+                  </div>
+                  <div class="navText" id="dm_navGroup010101348908div">
+                   Information Session
+                  </div>
+                  <div class="navArrowBg">
+                   <div class="navArrow">
+                   </div>
+                   <div class="navArrowBottom">
+                   </div>
+                  </div>
+                 </a>
+                </li>
+               </ul>
+               <div class="noFloat">
+               </div>
+              </div>
+              <div class="dmDividerWrapper clearfix" id="1204748433">
+              </div>
+              <div class="newNavigationSubNavPlaceHolder navPlaceHolder" id="newNavigationSubNavPlaceHolder" navplaceholder="true">
+              </div>
+              <div class="dmDividerWrapper clearfix" id="1711294920">
+              </div>
+             </div>
+             <div class="dmContent" id="dm_content">
+              <div class="wrap">
+               <div class="header-holder">
+                <div id="header" class="header">
+                 <div class="header-add01">
+                  <form action="/site/muhlenberg/default?url=http%3A%2F%2Fsearch.muhlenberg.edu%2FNSearch%2FSearchServlet%3F" method="get" name="SearchForm" id="SearchForm" class="SearchForm dmSocialLinkToRemove">
+                   <fieldset>
+                    <div class="search-form">
+                     <input name="collection" type="hidden" id="collection" value="www.Muhlenberg.edu" class="collection" />
+                     <span class="search-txt">
+                      <input name="query0" type="text" id="query0" value="Search" class="query0" />
+                     </span>
+                     <input type="submit" class="btn-search" value="Go" />
+                     <br />
+                     <span class="social-media">
+                      <a href="http://www.facebook.com/MuhlenbergCollege">
+                       <img src="http://www.muhlenberg.edu/media/styleassets/images/facebook.jpg" border="0" class="p_maxWidth" />
+                      </a>
+                      <a href="http://twitter.com/muhlenberg">
+                       <img src="http://www.muhlenberg.edu/media/styleassets/images/twitter.jpg" border="0" class="p_maxWidth" />
+                      </a>
+                      <a href="http://www.linkedin.com/company/the-wescoe-school-of-muhlenberg-college">
+                       <img src="http://www.muhlenberg.edu/media/styleassets/images/linkn.jpg" border="0" class="p_maxWidth" />
+                      </a>
+                     </span>
+                    </div>
+                   </fieldset>
+                   <input type="hidden" name="url" value="http://search.muhlenberg.edu/NSearch/SearchServlet?" action="http://search.muhlenberg.edu/NSearch/SearchServlet?" />
+                  </form>
+                 </div>
+                 <h1>
+                 </h1>
+                </div>
+               </div>
+               <div class="nav-holder">
+                <a name="navigation" style="display:none;">
+                </a>
+               </div>
+               <a name="content">
+               </a>
+              </div>
+             </div>
+             <div class="dmDividerWrapper clearfix" id="1454553849">
+              <hr class="dmDivider" style="min-height: 2px; border:none; background:grey" />
+              <div class="imageWidget u_1388549983" editablewidget="true" data-widget-type="image" data-dimensions="eyJtb2JpbGUiOnsia2VlcFByb3AiOmZhbHNlLCJ1c2VQZXJjIjp0cnVlLCJ3aWR0aCI6Ijc0JSIsImhlaWdodCI6ImF1dG8iLCJtYXgtaGVpZ2h0IjoiMTAwMHB4In0sInRhYmxldCI6e30sImRlc2t0b3AiOnt9fQ==" id="1388549983">
+               <a dm_dont_rewrite_url="true" file="false" target="_blank" href="https://capstone2.muhlenberg.edu/frmss03w.html">
+                <img src="https://irp-cdn.multiscreensite.com/muhlenberg/gw0W0li5Q0CussWMavVB_DUDA%20Fall%202016.jpg" dm_changed="true" class="u_1658023240" />
+               </a>
+              </div>
+              <span style="clear:both;display:block">
+              </span>
+              <div class="dmNewParagraph">
+               <span class="u_1141769601">
+                2016 Fall Course Selection
+               </span>
+               <hr class="dmDivider" style="min-height: 2px; border:none; background:grey" />
+              </div>
+              <div class="dmDividerWrapper clearfix" id="1393713933">
+              </div>
+              <div class="imageWidget " editablewidget="true" data-widget-type="image" id="1808686817">
+               <a href="/site/muhlenberg/make-an-appointment-1?url=http%3A%2F%2Fwww.muhlenberg.edu%2Fmain%2Fwescoe%2FprospectiveStudents%2Fappointment.html" file="false" dm_dont_rewrite_url="false">
+                <img src="http://www.muhlenberg.edu/images/main/wescoe/meet_alt.jpg" dm_changed="true" class="u_1635061901" />
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="dmFooterContainer">
+            <div class="p_hfcontainer dmFooter f_hcontainer" replace_mode="node_subtree" id="fcontainer">
+             <address class="u_1554251614" replace_mode="node_subtree">
+              <strong>
+               Muhlenberg College&nbsp;Wescoe School of Continuing Education
+              </strong>
+              <br />
+              <span class="u_1885028340">
+               2400 Chew St., Allentown, PA 18104-5586
+              </span>
+              <span class="u_1043576887">
+              </span>
+              <span class="u_1179965809">
+               484-664-3300 &nbsp;
+              </span>
+              &nbsp;
+              <span class="u_1579657904">
+              </span>
+              <span class="u_1444264883">
+               484-664-3623 (TTY)
+              </span>
+             </address>
+             <div class="dmSpacer" id="1403821083">
+             </div>
+             <div class="dmDividerWrapper clearfix" id="1474648184">
+              <hr class="dmDivider" style="min-height: 2px; border:none; background:grey" />
+             </div>
+             <div class="1643377777 default dmSocialHub" id="1643377777" dmle_extension="social_hub" wr="false" networks="" icon="false" surround="false">
+              <div class="socialHubWrapper">
+               <div class="socialHubInnerDiv vertical">
+                <a href="https://facebook.com/WescoeSchool" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true">
+                 <span class="dmSocialFacebook dm-icon-facebook oneIcon socialHubIcon style1">
+                 </span>
+                </a>
+                <a href="https://twitter.com/wescoeschool" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true">
+                 <span class="dmSocialTwitter dm-icon-twitter oneIcon socialHubIcon style1">
+                 </span>
+                </a>
+                <a href="http://linkedin.com/company/the-wescoe-school-of-muhlenberg-college" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true">
+                 <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style1">
+                 </span>
+                </a>
+               </div>
+              </div>
+             </div>
+             <div class="imageWidget u_1331914288" editablewidget="true" data-widget-type="image" data-dimensions="eyJtb2JpbGUiOnsia2VlcFByb3AiOmZhbHNlLCJ1c2VQZXJjIjp0cnVlLCJ3aWR0aCI6IjMwJSIsImhlaWdodCI6ImF1dG8iLCJtYXgtaGVpZ2h0IjoiMTAwMHB4In0sInRhYmxldCI6e30sImRlc2t0b3AiOnt9fQ==" id="1331914288">
+              <a file="false" dm_dont_rewrite_url="false">
+               <img src="https://irp-cdn.multiscreensite.com/muhlenberg/dms3rep/multi/mobile/2016_MFS_Logo_75x75-75x75.png" dm_changed="true" class="u_1482212700" />
+              </a>
+             </div>
+             <br />
+            </div>
+           </div>
+           <div id="mobileFooter">
+            <div id="view-toggle-centered" class="classicWrapper" style="display:block">
+             <span>
+              View Site in Mobile
+             </span>
+             <span style="margin:0px 5px">
+              |
+             </span>
+             <a dm_dont_rewrite_url="true" id="classic_link" style="color:#1C639A" href="http://www.muhlenberg.edu/wescoe?no_redirect=true">
+              Classic
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/_dm/s/rt/dist/scripts/d-js-runtime-layouts-package.min.js?version=2016-11-22T11_43_36">
+  </script>
+  <script src="/_dm/s/rt/dist/scripts/d-js-runtime-layouts-mobile.min.js?version=2016-11-22T11_43_36">
+  </script>
+  <script type="text/javascript">
+   (function() {
+ 	var campaign = (/utm_campaign=([^&amp;]*)/).exec(window.location.search);
+ 	
+ 	if (campaign &amp;&amp; campaign != null &amp;&amp; campaign.length &gt; 1) {
+ 		campaign = campaign[1]; 		
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+  </script>
+  <script type="text/javascript">
+   var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+  
+  
+  _dm_gaq.siteAlias = 'muhlenberg';
+  _dm_gaq.systemAggregatedGaqID = 'UA-7265702-9';    
+  _dm_gaq.externalGaqID = 'UA-6362790-1';
+  
+  
+  _gaq.push(['_gat._forceSSL']);
+  
+  if(_dm_gaq.systemAggregatedGaqID &amp;&amp; (_dm_gaq.systemAggregatedGaqID != _dm_gaq.systemGaqID)){
+     // track aggregated account
+    _gaq.push(['b._setAccount', _dm_gaq.systemAggregatedGaqID]);
+    _gaq.push(['b._setAllowLinker', true]);
+    _gaq.push(['b._setVar', _dm_gaq.siteAlias]);
+    _gaq.push(['b._setCustomVar', 1, 'product', 'DM_DIRECT',  2 ]);
+    _gaq.push(['b._setCustomVar', 2, 'plan', 'PREMIUM',  2 ]);
+    _gaq.push(['b._setCustomVar', 3, 'dfooter', 'false',  2 ]);
+    _gaq.push(['b._setCustomVar', 4, 'sitetype', '0',  2 ]);
+    _gaq.push(['b._trackPageview' ]);
+    pushInsiteImpressions('b._trackEvent');
+   }
+       
+   if(_dm_gaq.externalGaqID &amp;&amp; _dm_gaq.externalGaqID!= '') {    	    	
+     _gaq.push(['c._setAccount', _dm_gaq.externalGaqID]);                      
+     _gaq.push(['c._setVar', _dm_gaq.siteAlias]);
+     _gaq.push(['c._setDomainName', 'muhlenberg.edu']);
+     _gaq.push(['c._setAllowLinker', true]);
+     _gaq.push(['c._trackPageview' ]);
+     pushInsiteImpressions('c._trackEvent');
+   }
+
+   function pushInsiteImpressions(category) {
+   	$.each(_dm_insite, function(idx, rule) {
+   		_gaq.push([ category, 'insite_impression' , _dm_gaq.siteAlias, rule.ruleType + '__' + rule.ruleId, ]);
+   	});
+   }
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+  
+	//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+	
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'muhlenberg'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+ 			dmsnowplow('trackStructEvent','insite', 'impression' ,rule.ruleType,  rule.ruleId);
+ 		});
+  </script>
+  <div style="display:none;" id="P6iryBW0Wu">
+  </div>
+  <!-- photoswipe markup -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+   <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+   <div class="pswp__bg">
+   </div>
+   <!-- Slides wrapper with overflow:hidden. -->
+   <div class="pswp__scroll-wrap">
+    <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+     <div class="pswp__item">
+     </div>
+     <div class="pswp__item">
+     </div>
+     <div class="pswp__item">
+     </div>
+    </div>
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+     <div class="pswp__top-bar">
+      <!--  Controls are self-explanatory. Order can be changed. -->
+      <div class="pswp__counter">
+      </div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)">
+      </button>
+      <button class="pswp__button pswp__button--share" title="Share">
+      </button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen">
+      </button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out">
+      </button>
+      <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+      <!-- element will get class pswp__preloader--active when preloader is running -->
+      <div class="pswp__preloader">
+       <div class="pswp__preloader__icn">
+        <div class="pswp__preloader__cut">
+         <div class="pswp__preloader__donut">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip">
+      </div>
+     </div>
+     <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+     </button>
+     <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+     </button>
+     <div class="pswp__caption">
+      <div class="pswp__caption__center">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- note these also must be called after ajax -->
+  <script>
+   var dmForceShare = false;
+if (dmForceShare || $("#shareSection").length &gt; 0 || $(".dmShare").length &gt; 0 ){dmLoadShare();}
+function dmLoadShare(){
+/* google plus shares */
+$.ajax({url: "https://apis.google.com/js/plusone.js",dataType: "script",success: function () {}});
+/* linked in shares */
+$.ajax({url: "https://platform.linkedin.com/in.js",dataType: "script",success: function () {}});
+/* Twitter Shares */
+$.ajax({url: "https://platform.twitter.com/widgets.js",dataType: "script",success: function () {}});
+}
+  </script>
+  <div id="fb-root" data-locale="en_US">
+  </div>
+  <!--  site ID: 606076 -->
+  <!--  Alias: muhlenberg -->
+  <!--  device: MOBILE -->
+  <!--  page ID: 115428519 -->
+  <!--  generated: Thu Dec 01 02:00:01 UTC 2016 -->
+  <!--  Server: direct-run-1 -->
+  <div class="dmPopupMask" id="dmPopupMask">
+  </div>
+  <div id="dmPopup" class="dmPopup">
+   <div class="dmPopupCloseWrapper">
+    <div class="dmPopupClose dm-icon-x_close_popup oneIcon" onclick="dmHidePopup(event);">
+    </div>
+   </div>
+   <div class="dmPopupTitle">
+    <span>
+    </span>
+    Share by:
+   </div>
+   <div class="data">
+   </div>
+  </div>
+  <script>
+   // Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+  </script>
+  <script>
+   jQuery(document).ready(function () {
+    $('img').imagesLoaded().progress(function (instance, image) {
+        if (image.isLoaded) {styleImages($(image.img));}
+    });
+});
+jQuery(window).load(function () {
+	try {
+		var w = window.parent.document,
+		        isPreviewEditor = w &amp;&amp; w.getElementById('PreviewPaneWrapper') &amp;&amp; w.getElementById('PreviewPaneWrapper').getAttribute('device') === "all",
+		        isPreviewNoEditor = w &amp;&amp; w.body.className.indexOf('onePreviewBody') &gt; -1,
+		        isPreviewMultiScreen = isPreviewEditor || isPreviewNoEditor;
+		if(isPreviewMultiScreen) {$.layoutManager.initLayout();}
+		jQuery.DM.updateIOSHeight();
+	} catch(e){}; 
+});
+  </script>
+ </body>
+</html>

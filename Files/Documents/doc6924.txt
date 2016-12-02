@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Get Started with Library Research - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 471100;
+			mySID = 5215028;
+			var myGNAME = "Get+Started+with+Library+Research";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Get Started with Library Research
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 24, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/getstarted">
+          http://libraryguides.muhlenberg.edu/getstarted
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=471100">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Jen Jarson
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:jarson@muhlenberg.edu">
+           jarson@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          jarson@muhlenberg.edu
+          <br />
+          484.664.3552
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856349">
+       Choose a Topic
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856384">
+       Find Information
+      </a>
+      <br />
+      <div style="padding-left:20px;">
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874364">
+        Find Articles
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874366">
+        Find Books
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874371">
+        Find DVDs &amp; Videos
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874373">
+        Find Government Information
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5060595">
+        --Locating U.S. Govt. Publications
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874377">
+        Find Images
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874381">
+        Find Music Recordings &amp; Scores
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874383">
+        Find Primary Sources
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874385">
+        Find Statistics &amp; Data
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874386">
+        Find Reviews
+       </a>
+       <br />
+      </div>
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=4047073">
+       What is Scholarly?
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3878122">
+       Research Tips
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856388">
+       Cite Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5215028">
+       Write an Annotated Bibliography
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_5215028" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_19428399" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Write an Annotated Bibliography
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       On this page:
+      </p>
+      <p>
+      </p>
+     </div>
+     <ul>
+      <li>
+       What Is an Annotated Bibliography?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428314">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428314
+       </a>
+      </li>
+      <li>
+       How Do I Format the Bibliography?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428327">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428327
+       </a>
+      </li>
+      <li>
+       What Goes into the Content of the Annotations?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428350">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428350
+       </a>
+      </li>
+      <li>
+       Which Writing Style Should I Use?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428361">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428361
+       </a>
+      </li>
+      <li>
+       Additional Annotated Bibliography Information and Examples
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428504">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428504
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428314" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What Is an Annotated Bibliography?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       An
+       <strong>
+        annotated bibliography
+       </strong>
+       is an organized list of sources, each of which is followed by a brief note or "annotation." These annotations do one or more of the following:
+      </p>
+      <ul>
+       <li type="square">
+        Describe the content and focus of the work at hand (usually a book or article);
+       </li>
+       <li type="square">
+        Suggest its usefulness to your research or writing;
+       </li>
+       <li type="square">
+        Evaluate its sources, method, conclusions, and reliability;
+       </li>
+       <li type="square">
+        Record your reactions to the book or article.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428327" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How Do I Format the Bibliography?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Check with your instructor to determine which citation style is required for your class (e.g.,
+       <a>
+        APA
+       </a>
+       ,
+       <a>
+        MLA
+       </a>
+       , Chicago).&nbsp; See the
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        Citation Guides
+       </a>
+       for information on citation styles. &nbsp;
+      </p>
+      <p>
+       Then, remember that the bibliography is an organized list of sources. The annotation may immediately follow the bilbiographic information on the same line, or it may begin on a new line, two lines below the publication information. Since style manuals differ, check with your instructor about which one to use concerning form, spacing, and consistency.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428350" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What Goes into the Content of the Annotations?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Here are some examples of the four most common forms of annotations:
+      </p>
+      <ul>
+       <li type="square">
+        <strong>
+         Indicative
+        </strong>
+        : This form of annotation defines the scope of the source, lists the significant topics included, and tells what the sources is about. This type is different from the informative in that the informative entry gives actual information about its source. In the indicative entry there is no attempt to give actual data such as hypotheses, proofs, etc. Generally, only topics or chapter titles are included.
+        <br />
+        <br />
+        Griffin, C. Williams, ed. (1982).
+        <em>
+         Teaching writing in all disciplines
+        </em>
+        . San Francisco: Jossey-Bass.
+        <br />
+        Ten essays on writing-across-the-curriculum programs, teaching writing in discplines other than English, and teaching techniques for using writing as learning. Essays include Toby Fulwiler, "Writing: An Act of Cognition"; Barbara King, "Using Writing in the Mathematics Class: Theory and Pratice"; Dean Drenk, "Teaching Finance Through Writing"; Elaine P. Mairnon, "Writing Across the Curriculum: Past, Present, and Future". (Source: Bizzell and Herzberg, 1991, p. 47)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Informative
+        </strong>
+        : Simply put, this form of annotation is a summary of the work. Begin writing it by re-stating the thesis; the develop it by condensing the argument or hypothesis, list the proofs, and state the conclusion.
+        <br />
+        <br />
+        Voeltz, L.M. (1980). Children's attitudes toward handicapped peers.
+        <em>
+         American Journal of Mental Deficiency, 84,
+        </em>
+        455-464.
+        <br />
+        As services for severely handicapped children become increasingly available within neighborhood public schools, children's attitudes toward handicapped peers in integrated settings warrant attention. Factor analysis of attitude survey responses of 2,392 children revealed four factors underlying attitudes toward handicapped peers: social-contact willingness, deviance consequation, and two actual contact dimensions. Upper elementary-age children, girls, and children in schools with most contact with severely handicapped peers expressed the most accepting attitudes. Results of this study suggest the modifiability of children's attitudes and the need to develop interventions to facilitate social acceptance of individual differences in integrated school settings. (Source: Sternlicht and Windholz, 1984, p. 79)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Evaluative
+        </strong>
+        : This form assess the work's strengths and weaknesses. Why is the work interesting or helpful --or not? List what kind or and how much information is given --in short, evaluate the work's usefulness.
+        <br />
+        <br />
+        Gurko, Leo. (1968).
+        <em>
+         Ernest Hemingway and the pursuit ofheroism
+        </em>
+        . New York: Crowell.
+        <br />
+        This book is part of a series called "Twentieth Century American Writers": a brief introduction to the man and his work. After fifty pages of straight biography, Gurko discussed Hemingway's writing, novel by novel. There's an index and a short bibliography, but no notes. The biographical part is clear and easy to read, but it sounds too much like a summary. (Source: Spatt, 1991, p. 322) Hingley, Ronald. (1950).
+        <em>
+         Chekhov: A biographical and critical study
+        </em>
+        . London: George Allen &amp; Unwin. A very good biography. A unique feature of this book is the appendix, which has a chronological listing of all English translations of Chekhov's short stories. (Source: Spatt, 1991, p. 411)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Combination
+        </strong>
+        : Most annotated bibliographies are of this type. They contain one or two sentences summarizing or describing content and one or two sentences providing an evaluation.
+        <br />
+        <br />
+        Morris, Joyce M. (1959).
+        <em>
+         Reading in the primary school: An investigation into standards of reading and their
+        </em>
+        <em>
+         association with primary school characteristics
+        </em>
+        . London: Newnes, for National Foundation for Educational Research.
+        <br />
+        Report of a large-scale investigation into English children's reading standards, and their relation to conditions such as size of classes, types of organisation and methods of teaching. Based on enquiries in sixty schools in Kent and covering 8,000 children learning to read English as their mother tongue. Notable for thoroughness of research techniques. (Source: Center for Information, 1968, p. 146)
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428361" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Which Writing Style Should I Use?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The most important thing:
+       <strong>
+        annotations must be brief
+       </strong>
+       . Only directly significant details can be mentioned. Information apparent in the title can be omitted. Background materials and references to previous work by the same author usually are not included. Here are the three most common styles of annotations:
+      </p>
+      <ul>
+       <li type="square">
+        <strong>
+         Telegraphic
+        </strong>
+        : Write the information quickly and concisely. Be clear, but grammatically complete sentences are unnecessary.
+        <br />
+        <br />
+        Vowles, Richard B. (1962). Psychology and drama: A selected checklist.
+        <em>
+         Wisconsin Studies in Contemporary Literature, 3,
+        </em>
+        (1), 35-48.
+        <br />
+        Divided by individual authors. Reviews the research between 1920 and 1961. (Source: Bell and Gallup, 1971, p. 68)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Complete sentences
+        </strong>
+        : The sentences must be grammatically complete, but their length can vary. Subjects and conjunctions must be present, but the tone must be terse. Avoid long and complex sentences.
+        <br />
+        <br />
+        Kinter, W. R., and R L. Pfaltzgraff. (1972). Assessing the Moscow SALT agreements.
+        <em>
+         Orbis, 16,
+        </em>
+        34l-360.
+        <br />
+        The authors hold the conservative view that SALT can not halt the slipping nuclear advantage of the United States. They conclude that the United States needs a national reassessment of defense policy. They further conclude that the only utility of SALT is in developing a dialogue with the Soviets. This is a good conservative critique of SALT I. (Source: Strenski and Manfred, 1981, p. 165)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Paragraph
+        </strong>
+        : This forms requires a full, coherent paragraph. Sometimes the tone can be similar to the form and tone of a bibliographic essay. Obviously, this form requires complete sentences.
+        <br />
+        <br />
+        Voeltz, L.M. (1980). Children's attitudes toward handicapped peers.
+        <em>
+         American Journal of Mental Deficiency, 84,
+        </em>
+        455-464.
+        <br />
+        As services for severely handicapped children become increasingly available within neighborhood public schools, children's attitudes toward handicapped peers in integrated settings warrant attention. Factor analysis of attitude survey responses of 2,392 children revealed four factors underlying attitudes toward handicapped peers: social- contact willingness, deviance consequation, and two actual contact dimensions. Upper elementary-age children, girls, and children in schools with most contact with severely handicapped peers expressed the most accepting attitudes. Results of this study suggest the modifiability of children's attitudes and the need to develop interventions to facilitate social acceptance of individual differences in integrated school settings. (Source: Sternlicht and Windholz, 1984, p. 79)
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428504" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Annotated Bibliography Information and Examples
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       For additional help constructing an annotated bibliography, consult the following resources.
+      </p>
+      <p>
+       Annotated Bibliographies (Purdue University)
+       <br />
+       <a href="https://owl.english.purdue.edu/owl/resource/614/01/">
+        https://owl.english.purdue.edu/owl/resource/614/01/
+       </a>
+      </p>
+      <p>
+       Annotated Bibliographies (Writing Center, University of Wisconsin--Madison)
+       <br />
+       <a href="http://www.wisc.edu/writing/Handbook/AnnotatedBibliography.html">
+        http://www.wisc.edu/writing/Handbook/AnnotatedBibliography.html
+       </a>
+      </p>
+     </div>
+     <ul>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428370" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      References for Examples Used
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Bell, Inglis F., and Jennifer Gallup. (1971).
+       <em>
+        A reference guide to English, American, and Canadian literature
+       </em>
+       . Vancouver: University of British Columbia Press.
+      </p>
+      <p>
+       Bizzell, Patricia, and Bruce Herzberg. (1991).
+       <em>
+        Bedford bibliography for teachers of writing
+       </em>
+       . 3rd ed. Boston: Bedford Books of St. Martin's Press.
+      </p>
+      <p>
+       Center for Information on Language Teaching and The English Teaching Information Center of the British Council. (1968).
+       <em>
+        A Language-teaching bibliography
+       </em>
+       . Cambridge: Cambridge University Press.
+      </p>
+      <p>
+       Spatt, Brenda. (1991).
+       <em>
+        Writing from sources
+       </em>
+       . 3rd ed. New York: St. Martin's Press.
+      </p>
+      <p>
+       Sternlicht, Manny, and George Windholz. (1984).
+       <em>
+        Social behavior of the mentally retarded
+       </em>
+       . New York and London: Garland Press.
+      </p>
+      <p>
+       Strenski, Ellen, and Madge Manfred. (1981).
+       <em>
+        The research paper workbook.
+       </em>
+       2nd ed. New York and London: Longman.
+      </p>
+      <p>
+       &nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943779" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Need more help with this?&nbsp;
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+      <p>
+       <br />
+       Need help with writing?&nbsp; Contact the
+       <a href="http://www.muhlenberg.edu/main/academics/writing/center/">
+        Writing Center
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

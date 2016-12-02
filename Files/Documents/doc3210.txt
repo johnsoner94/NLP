@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <title>
+   91.7 WMUH Allentown
+  </title>
+  <link rel="stylesheet" href="navbar_red.css3prj_files/css3menu1/style.css" type="text/css" />
+  <style>
+   ._css3m{display:none}
+  </style>
+  <link href="http://fonts.googleapis.com/css?family=Rye|Stoke" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet" type="text/css" />
+ </head>
+ <style>
+  <!--nav_bar_code-->
+  #navbar {
+		position: relative;
+		top: 100px;
+		right: 0;
+		margin 0;
+
+	
+		}
+	#navbar li{
+		list-style: none;
+		float:left;
+		background-color:;
+
+		}
+	#navbar li a{
+		
+		display: block;
+		padding: 0px 10px;
+		text-transform: uppercase;
+		font-family: 'Julius Sans One', sans-serif;
+		font-size:25px;
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+
+		}
+	#navbar li a:hover{
+		color: red;
+
+		}
+	#navbar li ul {
+		display: none;
+
+   
+		}
+	#navbar li:hover ul, #navbar li.hover ul {
+		position: absolute;
+		display: inline;
+		left: 100px;
+		padding-top: 20px;
+		margin: 0;
+		padding-left: 200px;
+
+
+		}
+	
+	#navbar li:hover li, #navbar li.hover li {
+		float: left; }
+	#navbar li:hover li a, #navbar li.hover li a {
+		color: #000; }
+	#navbar li li a:hover {
+		color:red; }
+  <!--end_nav_bar_code-->
+  upperElement{
+
+	width:60%;
+
+}
+#wrapper {
+
+	background-image:url('gradient_1.7.png');
+    position: relative;
+	background-attachment: scroll;
+	background-position: relative;
+	border: solid;
+	width: 1250px;
+	height:1500px;
+	margin:auto;
+		
+	}
+
+
+
+.header {
+	font-family: 'Julius Sans One', sans-serif;
+	background-repeat:no-repeat;
+	text-align:center;
+	height:170px;
+	width:1000px;
+	color:red;
+	font-size:100px;
+	padding-top:25px;
+	padding-bottom:-250px;
+	overflow: hidden;
+	
+	}
+	
+ sm{
+ 	padding-bottom:50px;
+ 	width:100%;
+  	color:red;
+ 	font-size:20px;
+ }
+	
+
+	nav {
+ 		width: 1000px;
+ 		height:100px;
+		position: relative;
+		padding-left: 200px;
+		
+		}
+
+	td {
+		text-align:center;
+		overflow-y:hidden;
+		font-family: 'Julius Sans One', sans-serif;
+		}
+
+#logo{
+	height:170px;
+	width:175px;
+	background-image:url('http://upload.wikimedia.org/wikipedia/en/3/34/Muhlenberg_College_seal.png');
+	left:0;
+
+}
+#content {
+	background: #fff;
+	height: 1050px; /* presetting the height */
+	width:800px;
+	border-style:solid;
+	border-width:1px;
+	background-image:url('');
+
+}
+
+#footer{
+	
+
+	height:20px;
+
+
+}
+
+.fixed {
+    position:fixed;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    width:50%;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+ </style>
+ <body>
+  <div id="wrapper">
+   <center>
+    <div class="header">
+     <p>
+      W	M	U	H
+      <sm>
+       <i>
+        "the only station that matters"
+       </i>
+      </sm>
+     </p>
+     <p>
+      &nbsp;
+     </p>
+     <p>
+      &nbsp;
+     </p>
+    </div>
+    <hr class="style-two" />
+   </center>
+   <center>
+    <nav>
+     <ul id="navbar">
+      <li>
+       <a href="index.html">
+        Home
+       </a>
+       <ul>
+       </ul>
+      </li>
+      <li>
+       <a href="donate.html">
+        Donate
+       </a>
+       <ul>
+       </ul>
+      </li>
+      <li>
+       <a href="#">
+        Listen
+       </a>
+       <ul>
+        <li>
+         <a href="stream.html">
+          Live Stream
+         </a>
+        </li>
+        <li>
+         <a href="concert_calendar.html">
+          Concert Calendar
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="#">
+        About Us
+       </a>
+       <ul>
+        <li>
+         <a href="program_guide.html">
+          Program Guide
+         </a>
+        </li>
+        <!--&lt;li&gt;&lt;a href="Bio_Page.html"&gt;Djs   &lt;/a&gt;&lt;/li&gt;-->
+        <li>
+         <a href="tour.html">
+          Tour
+         </a>
+        </li>
+        <li>
+         <a href="contact_us.html">
+          Contact
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="http://muhlenberg.edu">
+        Muhlenberg
+       </a>
+       <ul>
+       </ul>
+      </li>
+     </ul>
+    </nav>
+   </center>
+   <center>
+    <div id="content">
+     <table border="0" cellpadding="0" cellspacing="10" style="font-size: 12px; font-weight: normal; " width="100%">
+      <tbody>
+       <tr>
+        <!--COLUMN ONE-->
+        <td valign="top" width="50%">
+         <h1 style="text-align: center; ">
+          Listen Now
+         </h1>
+         <p style="text-align: center; ">
+          <a href="stream.html">
+           <img alt="" src="wmuh1.png" style="width: 300px; height: 100px; margin-top:10px; " border="1" />
+          </a>
+         </p>
+         <h2 style="text-align: center;">
+          Is On Air!
+         </h2>
+         <p>
+          &nbsp;
+         </p>
+         <hr class="style-two" />
+         <h1 style="text-align: center; margin-bottom:60px;">
+          Staff Favorites
+         </h1>
+         <p style="text-align: center; ">
+          <a href="https://www.facebook.com/sandyalexg">
+           <img alt="" src="http://f1.bcbits.com/img/a0929943289_10.jpg" style="width: 150px; height: 150px; margin-right:15px; " />
+          </a>
+          &nbsp;
+          <a href="http://theproera.com/members/joey-badass/">
+           <img alt="" src="http://www.hiphopsite.com/http://www.hiphopsite.com//2014/12/b4dass.jpg" style="width: 150px; height: 150px; " />
+          </a>
+         </p>
+         <hr class="style-one" style="width:300px;" />
+         <p style="text-align: center; ">
+          <a href="http://bjork.com/">
+           <img alt="" src="http://www.creativereview.co.uk/images/uploads/2015/01/bjork_vulnicura_0.jpg" style="width: 150px; height: 150px; margin-right:15px; " />
+          </a>
+          &nbsp;
+          <a href="http://www.sleater-kinney.com/">
+           <img alt="" src="http://cdn.stereogum.com/files/2015/01/SleaterKinney_NoCitiesToLove_cover-608x608.jpg" style="width: 150px; height: 150px; " />
+          </a>
+         </p>
+         <p>
+          <hr class="style-one" style="width:300px;" />
+         </p>
+         <p style="text-align: center; ">
+          <a href="http://www.jagjaguwar.com/artist.php?name=vietcong">
+           <img alt="" src="http://cdn.pitchfork.com/news/57085/53944b3f.jpg" style="width: 150px; height: 150px;  margin-right:15px; " />
+          </a>
+          &nbsp;
+          <a href="http://mitski.com/">
+           <img alt="" src="http://cdn.stereogum.com/files/2014/11/mitski-bury-me-at-makeout-creek.jpg" style="width: 150px; height: 150px; " />
+          </a>
+         </p>
+         <p>
+          &nbsp;
+         </p>
+        </td>
+        <!--COLUMN TWO-->
+        <td valign="top" width="50%">
+         <h1 style="text-size: 50px;">
+          Blog
+          <div id="text">
+           <iframe src="http://917wmuh.blogspot.com" width="90%" height="856">
+           </iframe>
+          </div>
+         </h1>
+         <p>
+          2014 Membership Drive is on now.&nbsp; You should listen for specials being offered throughout the day.&nbsp; Including the occasional massage, cd's, books and other special offers.&nbsp;&nbsp;&nbsp; Or just donate to get your WMUH Membership Card&nbsp; and bumper sticker.&nbsp;&nbsp;
+         </p>
+         <p>
+          Thanks to Beachhead Comics, Another Story Bookstore, Hava Java Cafe, and Wittman's World Cheese in the Allentown Farmers Market.
+         </p>
+         <p>
+          Suggested donation levels
+         </p>
+         <p>
+          $20 for Card and sticker
+         </p>
+         <p>
+          $40
+          Card, Sticker, T-shirt
+         </p>
+         <p>
+          $60 All that and a Mr. Mark designed mouse pad
+         </p>
+         <p>
+          $91.70 or more
+         </p>
+         <p>
+          Everything and the Vinbage Totebag made with recycled
+         </p>
+         <p>
+          Love and music to the world.
+         </p>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </center>
+  </div>
+  <div id="footer">
+   <a href="http://muhlenberg.edu/wmuh/pdf/WMUHEEOReport.pdf" target="_blank">
+    EEO Report
+   </a>
+  </div>
+ </body>
+</html>

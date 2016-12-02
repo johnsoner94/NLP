@@ -1,0 +1,654 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Welcome to Subject Guides - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 356743;
+			mySID = 2917404;
+			var myGNAME = "Welcome+to+Subject+Guides";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Welcome to Subject Guides
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 5, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/welcome">
+          http://libraryguides.muhlenberg.edu/welcome
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=356743">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=356743&amp;sid=2917404">
+       Subject Guides
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2917404" class="guide_page">
+   <h2>
+    Subject Guides
+   </h2>
+   <div id="content_box_14032995" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      &nbsp;
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <span style="font-size: large;">
+        <strong>
+         Subject Guides point you toward recommended resources in each subject area.
+        </strong>
+       </span>
+      </p>
+      <p style="padding-left: 30px;">
+       <span style="font-size: large;">
+        <strong>
+         <em>
+          <span style="font-size: medium;">
+           Guides by Academic Subject Area
+          </span>
+         </em>
+         <br />
+        </strong>
+       </span>
+      </p>
+      <table style="width: 85%;" align="center" border="0" cellpadding="8">
+       <tbody>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/abef/">
+           <span style="font-size: small;">
+            <strong>
+             Acctg., Bus., Econ., &amp; Finance
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/film/">
+           <span style="font-size: small;">
+            <strong>
+             Film Studies
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/physed/">
+           <span style="font-size: small;">
+            <strong>
+             Physical Education
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/afam/">
+           <span style="font-size: small;">
+            <strong>
+             Africana Studies
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/fys/">
+           <span style="font-size: small;">
+            <strong>
+             First Year Seminars
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/physics/">
+           <span style="font-size: small;">
+            <strong>
+             Physics
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/anthropology">
+            <strong>
+             Anthropology
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <strong>
+            <a href="http://libraryguides.muhlenberg.edu/history">
+             History
+            </a>
+           </strong>
+          </span>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/politicalscience/">
+           <span style="font-size: small;">
+            <strong>
+             Political Science
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/art/">
+           <span style="font-size: small;">
+            <strong>
+             Art
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/jewishstudies/">
+           <span style="font-size: small;">
+            <strong>
+             Jewish Studies
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <strong>
+            <a href="http://libraryguides.muhlenberg.edu/psychology">
+             Psychology
+            </a>
+           </strong>
+          </span>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/biochem">
+            <strong>
+             Biochemistry
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/languages">
+            <strong>
+             Languages, Literatures, &amp; Cultures
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/publichealth">
+            <strong>
+             Public Health
+            </strong>
+           </a>
+          </span>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/biology">
+            <strong>
+             Biology
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/libraryinformationscience">
+            <strong>
+             Library &amp; Information Science
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/religion">
+            <strong>
+             Religion Studies
+            </strong>
+           </a>
+          </span>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/chemistry/">
+           <span style="font-size: small;">
+            <strong>
+             Chemistry
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/math/">
+           <span style="font-size: small;">
+            <strong>
+             Mathematics
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/sociology/">
+           <span style="font-size: small;">
+            <strong>
+             Sociology
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/compsci/">
+           <span style="font-size: small;">
+            <strong>
+             Computer Science
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/mediacommunication">
+           <span style="font-size: small;">
+            <strong>
+             Media &amp; Communication
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/sustainability/">
+           <span style="font-size: small;">
+            <strong>
+             Sustainability Studies
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <span style="font-size: small;">
+           <a href="http://libraryguides.muhlenberg.edu/education">
+            <strong>
+             Education
+            </strong>
+           </a>
+          </span>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/music/">
+           <span style="font-size: small;">
+            <strong>
+             Music
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/theatredance/">
+           <span style="font-size: small;">
+            <strong>
+             Theatre &amp; Dance
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/english/">
+           <span style="font-size: small;">
+            <strong>
+             English
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/neuroscience/">
+           <span style="font-size: small;">
+            <strong>
+             Neuroscience
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/womensstudies/">
+           <span style="font-size: small;">
+            <strong>
+             Women's Studies
+            </strong>
+           </span>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/envsci/">
+           <span style="font-size: small;">
+            <strong>
+             Environmental Science
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/philosophy/">
+           <span style="font-size: small;">
+            <strong>
+             Philosophy
+            </strong>
+           </span>
+          </a>
+         </td>
+         <td width="33.3%">
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p style="padding-left: 30px;">
+       <em>
+        <strong>
+         <span style="font-size: small;">
+          &nbsp;
+         </span>
+        </strong>
+       </em>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        <strong>
+         <span style="font-size: small;">
+          Special Topics Subject Guides
+         </span>
+        </strong>
+       </em>
+      </p>
+      <table style="width: 85%;" align="center" border="0" cellpadding="8">
+       <tbody>
+        <tr>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/gradschools" target="_blank">
+             Career Center Resources
+            </a>
+           </span>
+          </strong>
+         </td>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/ist101">
+             <span style="font-size: small;">
+              <span style="font-size: small;">
+               Introduction to International Studies
+              </span>
+             </span>
+            </a>
+           </span>
+          </strong>
+         </td>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385" target="_blank">
+             <span style="font-size: small;">
+              Statistics and Data
+             </span>
+            </a>
+           </span>
+          </strong>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics" target="_blank">
+             Center for Ethics Resources
+             <br />
+            </a>
+           </span>
+          </strong>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/lgbtq">
+           <strong>
+            <span style="font-size: small;">
+             LGBTQ Resources
+            </span>
+           </strong>
+          </a>
+         </td>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/wwii">
+             WWII Correspondence Collection Finding Aid
+            </a>
+           </span>
+          </strong>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373">
+             Government Information
+            </a>
+           </span>
+          </strong>
+         </td>
+         <td width="33.3%">
+          <a href="http://libraryguides.muhlenberg.edu/meditation">
+           <strong>
+            <span style="font-size: small;">
+             Meditation Resources
+            </span>
+           </strong>
+          </a>
+         </td>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/v-12">
+             WWII II Navy V-12 and V-5 Collection Finding Aid
+            </a>
+           </span>
+          </strong>
+         </td>
+        </tr>
+        <tr>
+         <td width="33.3%">
+          &nbsp;
+         </td>
+         <td width="33.3%">
+          <a target="_blank" title="New York Times Access" href="http://libraryguides.muhlenberg.edu/NYTimes">
+           <strong>
+            <span style="font-size: small;">
+             <span style="font-size: small;">
+              New York Times Access
+             </span>
+            </span>
+           </strong>
+          </a>
+         </td>
+         <td width="33.3%">
+          <strong>
+           <span style="font-size: small;">
+            <a href="http://libraryguides.muhlenberg.edu/StudyAbroad">
+             Study Abroad
+            </a>
+           </span>
+          </strong>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

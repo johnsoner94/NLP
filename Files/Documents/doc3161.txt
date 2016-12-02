@@ -1,0 +1,1121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Upcoming Events - Faculty Center for Teaching | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Faculty Center for Teaching
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/fct/">
+               Faculty Center for Teaching
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/fct/upcomingevents/">
+               Upcoming Events
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Upcoming Events for Fall 2016
+          </h1>
+          <div class="content-add05">
+           <p style="text-align: center;">
+            <strong>
+             The Digital Learning Team (DLT) and the Faculty Center for Teaching (FCT)
+             <br />
+             are writing to invite you to the interactive event:
+            </strong>
+           </p>
+           <p style="text-align: center;">
+            <strong>
+             Digital Brew
+            </strong>
+            <br />
+            <strong>
+             Wednesday, November 30th
+            </strong>
+            <br />
+            <strong>
+             4:00 PM &ndash; 5:30 PM
+            </strong>
+            <br />
+            <strong>
+             Language Commons, Ettinger Hall
+            </strong>
+           </p>
+           <p>
+            This session is designed so that participants have an opportunity to gain hands-on experience with some of the digital technologies in use on campus. In addition, faculty from a variety of disciplines and digital learning collaborators will be on hand to demonstrate how available technologies are being integrated into Muhlenberg courses. Whether you are a "digital beginner" or have some background with these tools already, we are confident you will come away from this event with new ideas for effectively integrating these technologies into your courses and your student-faculty research collaborations.
+           </p>
+           <p>
+            All interested faculty and staff are welcome. If this isn't enticement enough, we will also offer craft beers, other beverages, and assorted snacks. Please see the&nbsp;
+            <a href="/media/contentassets/pdf/about/fct/digital brew quickposter.pdf">
+             attached flyer
+            </a>
+            for additional details.
+           </p>
+           <p style="text-align: center;">
+            <strong>
+             <em>
+              &nbsp;
+             </em>
+            </strong>
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             <em>
+              Background Knowledge and Working with International Students
+             </em>
+             <br />
+             Friday, November 18th
+             <br />
+             3:00 PM &ndash; 4:30 PM
+             <br />
+             Seegers Union, Room 111
+            </strong>
+           </p>
+           <p>
+            This conversation is being co-sponsored by the Faculty Center for Teaching and the Writing Program Committee and will be facilitated by Mark Emerick (Education), Cathy Kim (Education), and Kim Nguyen (Director of International Recruitment and Support). The event is open to all interested faculty and staff.
+           </p>
+           <p>
+            Both FCT and WPC frequently receive requests from faculty asking for tangible strategies to improve their work with international students who are navigating immersion in American higher education culture, as well as continuing their work in second language acquisition.
+           </p>
+           <p>
+            Anticipating a student's background knowledge - prior cultural and academic experiences - is essential to helping this student succeed in the classroom. Mark, Cathy, and Kim will focus on the pedagogical importance of building, highlighting and activating background knowledge in all of our students. In addition, they will offer suggestions for what faculty can do at the start of the semester to make their expectations clear to their students. They will also help faculty identify efficient remedies for issues they are experiencing in their own classrooms.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Mental Health and the Classroom: Understanding Issues and Impact
+            </strong>
+            <br />
+            <strong>
+             Thursday, October 27th
+            </strong>
+            <br />
+            <strong>
+             4:30 PM &ndash; 6:00 PM
+            </strong>
+            <br />
+            <strong>
+             Hoffman House
+            </strong>
+           </p>
+           <p>
+            This conversation will be facilitated by Chrysan Cronin (Public Health), Camille Qualtere (Languages, Literatures, and Cultures), and Mark Sciutto (Psychology).
+           </p>
+           <p>
+            A simple truth is that mental health challenges are common in our classrooms (as they are in the world around us). Issues in the college student population, such as depression, anxiety, and eating disorders, are often major impediments to academic success. In a recent Wall Street Journal article, Andrea Petersen reported that nationwide &ldquo;
+            <em>
+             17% of college students were diagnosed with or treated for anxiety problems during the past year, and 13.9% were diagnosed with or treated for depression, according to a spring 2016 survey by the American College Health Association&hellip;. Counseling centers say they are also seeing more serious illnesses, including an uptick in the number of students coming to college with long psychiatric histories.
+            </em>
+            &rdquo;
+           </p>
+           <p>
+            In this session, we will use selected case studies to stimulate discussion about faculty/staff responsibilities, classroom management techniques, and appropriate professional responses when mental health-related behaviors manifest inside and outside of the classroom.
+           </p>
+           <p>
+            As always, feel free to come and go as your schedule permits. Refreshments will be served. Please join us!
+           </p>
+           <hr />
+           <p>
+            The Faculty Center for Teaching (FCT) invites all interested faculty and staff to the first event in the
+            <em>
+             Teachers Talking Diversity
+            </em>
+            series:
+           </p>
+           <p style="text-align: center;">
+            <strong>
+             Teachers Talking Diversity: Opening Session
+            </strong>
+            <br />
+            <strong>
+             Wednesday, October 5th
+            </strong>
+            <br />
+            <strong>
+             11:00 AM - 1:00 PM
+            </strong>
+            <br />
+            <strong>
+             Seegers Union, Room 111
+            </strong>
+           </p>
+           <p>
+            A goal of this session is to advance ongoing community conversations about the complex circumstances that arise in classrooms and other campus environments involving issues of diversity. Discussion will be initiated through the use of prompts suggested by Muhlenberg community members and from national resources on diversity in higher education.
+           </p>
+           <p>
+            In specific situations, how can a faculty or staff member effectively respond? For example:
+            <br />
+            <br />
+           </p>
+           <ul>
+            <li>
+             It appears that a student does not have the textbook or a laptop for use in the course. You suspect this may be because of financial constraints, but you're not sure. What should you do?
+            </li>
+            <li>
+             Two students in your class get into a heated argument about a political issue and the tension in the room is escalating. Both students are members of underrepresented groups on campus. You need to exercise guidance in this situation. How should you respond?
+            </li>
+           </ul>
+           <p>
+            Participants are welcome to bring their lunches and to come and go as their schedules allow. FCT will provide beverages and dessert.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             OPEN HOUSE + Wine + Cheese
+             <br />
+            </strong>
+            Wednesday, September 7th
+            <br />
+            4:30 PM - 6:30 PM
+            <br />
+            Great Room, Seegers Union
+           </p>
+           <p>
+            While we intend this wine &amp; cheese event to be a casual get together for faculty and staff members, we will be asking for your suggestions regarding future directions and programming that FCT might pursue. There will be delineated stations for you to stop by as you mingle that provide opportunities for you to offer the FCT Board your thoughts, wish-lists, and recommendations regarding the future work of the FCT. We know this information will be invaluable as FCT works to meet a diverse range of needs of individual faculty members, groups of faculty members who work in collaboration, and the institution.
+           </p>
+           <p>
+            For planning purposes, please RSVP to
+            <a href="mailto:Brenda.Larimer@gw.muhlenberg.edu">
+             Brenda Larimer
+            </a>
+            by noon on Tuesday, 9/6 if you plan to attend.
+           </p>
+           <p>
+            Shortly after the event, we will provide the faculty with a detailed summary report of the input gathered. We intend to offer as many opportunities for faculty conversation and development as is feasible based, in part, on the comments we receive.
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Faculty Center for Teaching
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/fct/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/about/">
+            About
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/organizationalstructure/">
+            Organizational Structure
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/fct/upcomingevents/">
+             Upcoming Events
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/pastprograms/">
+            Past Programs
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/newfacultyorientation/">
+            New Faculty Orientation
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/conferences/">
+            Conferences
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/teachinggrants/">
+            Teaching Grants
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/readingsforfaculty/">
+            Readings for Faculty
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/fct/resources/">
+            Resources
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/about/"&gt;About&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/organizationalstructure/"&gt;Organizational Structure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/fct/upcomingevents/"&gt;Upcoming Events&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/pastprograms/"&gt;Past Programs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/newfacultyorientation/"&gt;New Faculty Orientation&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/conferences/"&gt;Conferences&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/teachinggrants/"&gt;Teaching Grants&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/readingsforfaculty/"&gt;Readings for Faculty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/fct/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How did Erica Wenzel '14 take a new look at MLB history with mathematics?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/ericawenzel/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/EricaWenzel-TOC-r.jpg" alt="Rotating teaser for Erica Wenzel '14 TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

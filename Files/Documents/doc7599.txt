@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="ixp-experience ixp-responsive">
+ <head id="ball_page_title">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--[if lt IE 9]&gt;&lt;script&gt;document.documentElement.className += ' ixp-lt-ie9 ixp-responsive-disabled';&lt;/script&gt;&lt;![endif]-->
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css" />
+  <link href="//fonts.googleapis.com/css?family=Ovo" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 8]&gt;&lt;script src="/Scripts/json3.min.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <script type="text/javascript">
+   window.ixp = window.ixp || {};window.ixp.runtime = window.ixp.runtime || {};window.ixp.runtime.context = {"token":""};window.ixp.runtime.components = window.ixp.runtime.components || {};window.ixp.runtime.flags = window.ixp.runtime.flags || {};window.ixp.runtime.flags.nativeAnchorSupport = true;window.ixp.runtime.anchors = {};
+  </script>
+  <script src="/Scripts/ixp-runtime.bundle.min.js?r=69.6120">
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+   @@pubName | @@domain
+  </title>
+  <meta id="ball_page_description" name="description" content="@@pubName Local News, Sports, Weather, Classifieds." />
+  <meta id="ball_page_keywords" name="keywords" content="@@pubName Local News, Sports, Weather, Classifieds." />
+  <style type="text/css">
+   a[data-ixp-hidden-anchor] {visibility:hidden;position:absolute;right:0;}
+  </style>
+  <link type="text/css" rel="stylesheet" href="/Global/UxPlugins/accordion_v3/accordion_v3.min.css?r=69.6120" />
+  <link type="text/css" rel="stylesheet" href="/Global/UxPlugins/ixp-lightbox-container/ixp-lightbox-container.min.css?r=69.6120" />
+  <link type="text/css" rel="stylesheet" href="/Global/UxPlugins/ixp-reveal/ixp-reveal.min.css?r=69.6120" />
+  <link type="text/css" rel="stylesheet" href="/Global/UxPlugins/social_share/social_share.min.css?r=69.6120" />
+  <link type="text/css" rel="stylesheet" href="/Global/UxPlugins/sticky_container/ixp-sticky_container.min.css?r=69.6120" />
+  <script type="text/javascript" src="/Scripts/liveball-ui.js?r=69.6120">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js">
+  </script>
+  <script type="text/javascript">
+   window.ixp.runtime.components.dependencies.jQuery.v1_11 = jQuery.noConflict(true);
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/accordion_v3/js/liveball-ui-accordion-v3.min.js?r=69.6120">
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/ixp-lightbox-container/js/jquery.magnific-popup.min.js?r=69.6120">
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/ixp-reveal/js/jquery-ui-1.10.4.custom-position.min.js?r=69.6120">
+  </script>
+  <script type="text/javascript">
+   window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+        js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f); if (typeof f === "function") { f(); } } });
+    }(document, "script", "twitter-wjs"));
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/ixp-lightbox-container/js/ixp-lightbox-container.min.js?r=69.6120">
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/social_share/js/liveball-ui-social.min.js?r=69.6120">
+  </script>
+  <script type="text/javascript" src="/Global/UxPlugins/ixp-reveal/js/ixp-reveal.min.js?r=69.6120">
+  </script>
+  <style type="text/css">
+   .ixp-grid-container,.ixp-grid-container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.ixp-grid-container{width:750px}}@media (min-width:992px){.ixp-grid-container{width:970px}}@media (min-width:1200px){.ixp-grid-container{width:1170px}}.ixp-grid-row{margin-left:-15px;margin-right:-15px}.ixp-grid-col-lg-1,.ixp-grid-col-lg-10,.ixp-grid-col-lg-11,.ixp-grid-col-lg-12,.ixp-grid-col-lg-2,.ixp-grid-col-lg-3,.ixp-grid-col-lg-4,.ixp-grid-col-lg-5,.ixp-grid-col-lg-6,.ixp-grid-col-lg-7,.ixp-grid-col-lg-8,.ixp-grid-col-lg-9,.ixp-grid-col-md-1,.ixp-grid-col-md-10,.ixp-grid-col-md-11,.ixp-grid-col-md-12,.ixp-grid-col-md-2,.ixp-grid-col-md-3,.ixp-grid-col-md-4,.ixp-grid-col-md-5,.ixp-grid-col-md-6,.ixp-grid-col-md-7,.ixp-grid-col-md-8,.ixp-grid-col-md-9,.ixp-grid-col-sm-1,.ixp-grid-col-sm-10,.ixp-grid-col-sm-11,.ixp-grid-col-sm-12,.ixp-grid-col-sm-2,.ixp-grid-col-sm-3,.ixp-grid-col-sm-4,.ixp-grid-col-sm-5,.ixp-grid-col-sm-6,.ixp-grid-col-sm-7,.ixp-grid-col-sm-8,.ixp-grid-col-sm-9,.ixp-grid-col-xs-1,.ixp-grid-col-xs-10,.ixp-grid-col-xs-11,.ixp-grid-col-xs-12,.ixp-grid-col-xs-2,.ixp-grid-col-xs-3,.ixp-grid-col-xs-4,.ixp-grid-col-xs-5,.ixp-grid-col-xs-6,.ixp-grid-col-xs-7,.ixp-grid-col-xs-8,.ixp-grid-col-xs-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.ixp-grid-col-xs-1,.ixp-grid-col-xs-10,.ixp-grid-col-xs-11,.ixp-grid-col-xs-12,.ixp-grid-col-xs-2,.ixp-grid-col-xs-3,.ixp-grid-col-xs-4,.ixp-grid-col-xs-5,.ixp-grid-col-xs-6,.ixp-grid-col-xs-7,.ixp-grid-col-xs-8,.ixp-grid-col-xs-9{float:left}.ixp-grid-col-xs-12{width:100%}.ixp-grid-col-xs-11{width:91.66%}.ixp-grid-col-xs-10{width:83.33%}.ixp-grid-col-xs-9{width:75%}.ixp-grid-col-xs-8{width:66.66%}.ixp-grid-col-xs-7{width:58.33%}.ixp-grid-col-xs-6{width:50%}.ixp-grid-col-xs-5{width:41.66%}.ixp-grid-col-xs-4{width:33.33%}.ixp-grid-col-xs-3{width:25%}.ixp-grid-col-xs-2{width:16.66%}.ixp-grid-col-xs-1{width:8.33%}.ixp-grid-col-xs-offset-12{margin-left:100%}.ixp-grid-col-xs-offset-11{margin-left:91.66%}.ixp-grid-col-xs-offset-10{margin-left:83.33%}.ixp-grid-col-xs-offset-9{margin-left:75%}.ixp-grid-col-xs-offset-8{margin-left:66.66%}.ixp-grid-col-xs-offset-7{margin-left:58.33%}.ixp-grid-col-xs-offset-6{margin-left:50%}.ixp-grid-col-xs-offset-5{margin-left:41.66%}.ixp-grid-col-xs-offset-4{margin-left:33.33%}.ixp-grid-col-xs-offset-3{margin-left:25%}.ixp-grid-col-xs-offset-2{margin-left:16.66%}.ixp-grid-col-xs-offset-1{margin-left:8.33%}.ixp-grid-col-xs-offset-0{margin-left:0}@media (min-width:768px){.ixp-grid-col-sm-1,.ixp-grid-col-sm-10,.ixp-grid-col-sm-11,.ixp-grid-col-sm-12,.ixp-grid-col-sm-2,.ixp-grid-col-sm-3,.ixp-grid-col-sm-4,.ixp-grid-col-sm-5,.ixp-grid-col-sm-6,.ixp-grid-col-sm-7,.ixp-grid-col-sm-8,.ixp-grid-col-sm-9{float:left}.ixp-grid-col-sm-12{width:100%}.ixp-grid-col-sm-11{width:91.66%}.ixp-grid-col-sm-10{width:83.33%}.ixp-grid-col-sm-9{width:75%}.ixp-grid-col-sm-8{width:66.66%}.ixp-grid-col-sm-7{width:58.33%}.ixp-grid-col-sm-6{width:50%}.ixp-grid-col-sm-5{width:41.66%}.ixp-grid-col-sm-4{width:33.33%}.ixp-grid-col-sm-3{width:25%}.ixp-grid-col-sm-2{width:16.66%}.ixp-grid-col-sm-1{width:8.33%}.ixp-grid-col-sm-offset-12{margin-left:100%}.ixp-grid-col-sm-offset-11{margin-left:91.66%}.ixp-grid-col-sm-offset-10{margin-left:83.33%}.ixp-grid-col-sm-offset-9{margin-left:75%}.ixp-grid-col-sm-offset-8{margin-left:66.66%}.ixp-grid-col-sm-offset-7{margin-left:58.33%}.ixp-grid-col-sm-offset-6{margin-left:50%}.ixp-grid-col-sm-offset-5{margin-left:41.66%}.ixp-grid-col-sm-offset-4{margin-left:33.33%}.ixp-grid-col-sm-offset-3{margin-left:25%}.ixp-grid-col-sm-offset-2{margin-left:16.66%}.ixp-grid-col-sm-offset-1{margin-left:8.33%}.ixp-grid-col-sm-offset-0{margin-left:0}}@media (min-width:992px){.ixp-grid-col-md-1,.ixp-grid-col-md-10,.ixp-grid-col-md-11,.ixp-grid-col-md-12,.ixp-grid-col-md-2,.ixp-grid-col-md-3,.ixp-grid-col-md-4,.ixp-grid-col-md-5,.ixp-grid-col-md-6,.ixp-grid-col-md-7,.ixp-grid-col-md-8,.ixp-grid-col-md-9{float:left}.ixp-grid-col-md-12{width:100%}.ixp-grid-col-md-11{width:91.66%}.ixp-grid-col-md-10{width:83.33%}.ixp-grid-col-md-9{width:75%}.ixp-grid-col-md-8{width:66.66%}.ixp-grid-col-md-7{width:58.33%}.ixp-grid-col-md-6{width:50%}.ixp-grid-col-md-5{width:41.66%}.ixp-grid-col-md-4{width:33.33%}.ixp-grid-col-md-3{width:25%}.ixp-grid-col-md-2{width:16.66%}.ixp-grid-col-md-1{width:8.33%}.ixp-grid-col-md-offset-12{margin-left:100%}.ixp-grid-col-md-offset-11{margin-left:91.66%}.ixp-grid-col-md-offset-10{margin-left:83.33%}.ixp-grid-col-md-offset-9{margin-left:75%}.ixp-grid-col-md-offset-8{margin-left:66.66%}.ixp-grid-col-md-offset-7{margin-left:58.33%}.ixp-grid-col-md-offset-6{margin-left:50%}.ixp-grid-col-md-offset-5{margin-left:41.66%}.ixp-grid-col-md-offset-4{margin-left:33.33%}.ixp-grid-col-md-offset-3{margin-left:25%}.ixp-grid-col-md-offset-2{margin-left:16.66%}.ixp-grid-col-md-offset-1{margin-left:8.33%}.ixp-grid-col-md-offset-0{margin-left:0}}@media (min-width:1200px){.ixp-grid-col-lg-1,.ixp-grid-col-lg-10,.ixp-grid-col-lg-11,.ixp-grid-col-lg-12,.ixp-grid-col-lg-2,.ixp-grid-col-lg-3,.ixp-grid-col-lg-4,.ixp-grid-col-lg-5,.ixp-grid-col-lg-6,.ixp-grid-col-lg-7,.ixp-grid-col-lg-8,.ixp-grid-col-lg-9{float:left}.ixp-grid-col-lg-12{width:100%}.ixp-grid-col-lg-11{width:91.66%}.ixp-grid-col-lg-10{width:83.33%}.ixp-grid-col-lg-9{width:75%}.ixp-grid-col-lg-8{width:66.66%}.ixp-grid-col-lg-7{width:58.33%}.ixp-grid-col-lg-6{width:50%}.ixp-grid-col-lg-5{width:41.66%}.ixp-grid-col-lg-4{width:33.33%}.ixp-grid-col-lg-3{width:25%}.ixp-grid-col-lg-2{width:16.66%}.ixp-grid-col-lg-1{width:8.33%}.ixp-grid-col-lg-offset-12{margin-left:100%}.ixp-grid-col-lg-offset-11{margin-left:91.66%}.ixp-grid-col-lg-offset-10{margin-left:83.33%}.ixp-grid-col-lg-offset-9{margin-left:75%}.ixp-grid-col-lg-offset-8{margin-left:66.66%}.ixp-grid-col-lg-offset-7{margin-left:58.33%}.ixp-grid-col-lg-offset-6{margin-left:50%}.ixp-grid-col-lg-offset-5{margin-left:41.66%}.ixp-grid-col-lg-offset-4{margin-left:33.33%}.ixp-grid-col-lg-offset-3{margin-left:25%}.ixp-grid-col-lg-offset-2{margin-left:16.66%}.ixp-grid-col-lg-offset-1{margin-left:8.33%}.ixp-grid-col-lg-offset-0{margin-left:0}}@-ms-viewport{width:device-width}.ixp-grid-visible-lg,.ixp-grid-visible-md,.ixp-grid-visible-print,.ixp-grid-visible-sm,.ixp-grid-visible-xs{display:none!important}@media (max-width:767px){.ixp-grid-visible-xs{display:block!important}table.ixp-grid-visible-xs{display:table}tr.ixp-grid-visible-xs{display:table-row!important}td.ixp-grid-visible-xs,th.ixp-grid-visible-xs{display:table-cell!important}}@media (min-width:768px) and (max-width:991px){.ixp-grid-visible-sm{display:block!important}table.ixp-grid-visible-sm{display:table}tr.ixp-grid-visible-sm{display:table-row!important}td.ixp-grid-visible-sm,th.ixp-grid-visible-sm{display:table-cell!important}}@media (min-width:992px) and (max-width:1199px){.ixp-grid-visible-md{display:block!important}table.ixp-grid-visible-md{display:table}tr.ixp-grid-visible-md{display:table-row!important}td.ixp-grid-visible-md,th.ixp-grid-visible-md{display:table-cell!important}}@media (min-width:1200px){.ixp-grid-visible-lg{display:block!important}table.ixp-grid-visible-lg{display:table}tr.ixp-grid-visible-lg{display:table-row!important}td.ixp-grid-visible-lg,th.ixp-grid-visible-lg{display:table-cell!important}}@media (max-width:767px){.ixp-grid-hidden-xs{display:none!important}}@media (min-width:768px) and (max-width:991px){.ixp-grid-hidden-sm{display:none!important}}@media (min-width:992px) and (max-width:1199px){.ixp-grid-hidden-md{display:none!important}}@media (min-width:1200px){.ixp-grid-hidden-lg{display:none!important}}@media print{.ixp-grid-visible-print{display:block!important}table.ixp-grid-visible-print{display:table}tr.ixp-grid-visible-print{display:table-row!important}td.ixp-grid-visible-print,th.ixp-grid-visible-print{display:table-cell!important}}@media print{.ixp-grid-hidden-print{display:none!important}}.ixp-grid-container,.ixp-grid-container-fixed,.ixp-grid-container-fluid,.ixp-grid-row,[class*=" ixp-grid-col"],[class^=ixp-grid-col]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.ixp-container{position:relative}.ixp-container:after,.ixp-container:before{content:" ";display:table}.ixp-container:after{clear:both}[class*=" ixp-grid-col"]:after,[class*=" ixp-grid-col"]:before,[class^=ixp-grid-col]:after,[class^=ixp-grid-col]:before{content:none}[class*=" ixp-grid-col"]:after,[class^=ixp-grid-col]:after{clear:none}.ixp-container img{max-width:100%;width:auto\9;height:auto;-ms-interpolation-mode:bicubic}.ixp-container-link{cursor:pointer}.ixp-grid-container-fixed{width:970px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;text-align:left}.ixp-grid-container-fixed:after,.ixp-grid-container-fixed:before{content:" ";display:table}.ixp-grid-container-fixed:after{clear:both}.ixp-grid-container{text-align:left}.ixp-grid-container-fluid{width:100%;padding-left:15px;padding-right:15px}.ixp-grid-container-fluid:after,.ixp-grid-container-fluid:before{content:" ";display:table}.ixp-grid-container-fluid:after{clear:both}html.ixp-responsive-disabled .ixp-grid-container{width:970px}html.ixp-responsive-disabled .ixp-grid-hidden-lg,html.ixp-responsive-disabled .ixp-grid-hidden-sm,html.ixp-responsive-disabled .ixp-grid-hidden-xs{display:block!important}html.ixp-responsive-disabled .ixp-grid-hidden-md,html.ixp-responsive-disabled .ixp-grid-hidden-md.ixp-grid-hidden-lg{display:none!important}html.ixp-responsive-disabled .ixp-grid-col-md-12{width:100%!important}html.ixp-responsive-disabled .ixp-grid-col-md-11{width:91.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-10{width:83.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-9{width:75%!important}html.ixp-responsive-disabled .ixp-grid-col-md-8{width:66.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-7{width:58.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-6{width:50%!important}html.ixp-responsive-disabled .ixp-grid-col-md-5{width:41.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-4{width:33.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-3{width:25%!important}html.ixp-responsive-disabled .ixp-grid-col-md-2{width:16.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-1{width:8.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-12{margin-left:100%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-11{margin-left:91.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-10{margin-left:83.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-9{margin-left:75%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-8{margin-left:66.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-7{margin-left:58.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-6{margin-left:50%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-5{margin-left:41.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-4{margin-left:33.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-3{margin-left:25%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-2{margin-left:16.66%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-1{margin-left:8.33%!important}html.ixp-responsive-disabled .ixp-grid-col-md-offset-0{margin-left:0!important}html.ixp-responsive-disabled .ixp-grid-col-lg-1,html.ixp-responsive-disabled .ixp-grid-col-lg-10,html.ixp-responsive-disabled .ixp-grid-col-lg-11,html.ixp-responsive-disabled .ixp-grid-col-lg-12,html.ixp-responsive-disabled .ixp-grid-col-lg-2,html.ixp-responsive-disabled .ixp-grid-col-lg-3,html.ixp-responsive-disabled .ixp-grid-col-lg-4,html.ixp-responsive-disabled .ixp-grid-col-lg-5,html.ixp-responsive-disabled .ixp-grid-col-lg-6,html.ixp-responsive-disabled .ixp-grid-col-lg-7,html.ixp-responsive-disabled .ixp-grid-col-lg-8,html.ixp-responsive-disabled .ixp-grid-col-lg-9,html.ixp-responsive-disabled .ixp-grid-col-md-1,html.ixp-responsive-disabled .ixp-grid-col-md-10,html.ixp-responsive-disabled .ixp-grid-col-md-11,html.ixp-responsive-disabled .ixp-grid-col-md-12,html.ixp-responsive-disabled .ixp-grid-col-md-2,html.ixp-responsive-disabled .ixp-grid-col-md-3,html.ixp-responsive-disabled .ixp-grid-col-md-4,html.ixp-responsive-disabled .ixp-grid-col-md-5,html.ixp-responsive-disabled .ixp-grid-col-md-6,html.ixp-responsive-disabled .ixp-grid-col-md-7,html.ixp-responsive-disabled .ixp-grid-col-md-8,html.ixp-responsive-disabled .ixp-grid-col-md-9,html.ixp-responsive-disabled .ixp-grid-col-sm-1,html.ixp-responsive-disabled .ixp-grid-col-sm-10,html.ixp-responsive-disabled .ixp-grid-col-sm-11,html.ixp-responsive-disabled .ixp-grid-col-sm-12,html.ixp-responsive-disabled .ixp-grid-col-sm-2,html.ixp-responsive-disabled .ixp-grid-col-sm-3,html.ixp-responsive-disabled .ixp-grid-col-sm-4,html.ixp-responsive-disabled .ixp-grid-col-sm-5,html.ixp-responsive-disabled .ixp-grid-col-sm-6,html.ixp-responsive-disabled .ixp-grid-col-sm-7,html.ixp-responsive-disabled .ixp-grid-col-sm-8,html.ixp-responsive-disabled .ixp-grid-col-sm-9{float:left}html.ixp-lt-ie9 .ixp-dynamic-vis.ixp-grid-hidden-lg,html.ixp-lt-ie9 .ixp-dynamic-vis.ixp-grid-hidden-sm,html.ixp-lt-ie9 .ixp-dynamic-vis.ixp-grid-hidden-xs{display:none!important}
+  </style>
+  <!--[if lt IE 8]&gt;&lt;link href="/Templates/ixp-grid-lt-ie8.css" rel="stylesheet"&gt;&lt;![endif]-->
+  <script type="text/javascript" src="/Global/UxPlugins/sticky_container/js/sticky_container.min.js?r=69.6120">
+  </script>
+  <link href="/Templates/ixp-microthemes.min.css?r=69.6120" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+   html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table,tr,td{border-collapse:collapse;border-spacing:0}table.pf_form_table{margin:0;padding:0;border:0}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}body{text-align:center}h1,h2,h3,h4,h5,h6{font-weight:normal}strong,b{font-weight:bold}em,i{font-style:italic}hr{clear:both;float:none;margin:10px 0;border:0}.pf_form_table{table-layout:fixed}.flash_outer_wrap{overflow:hidden}[data-ixp-interaction-trigger]{cursor:pointer}
+  </style>
+  <link href="/Templates/ion/ion_Framework_v4.0/themes/IndyStar_Theme_Kit/theme.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+   .details ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left:0;
+    text-indent: -1em;
+}
+
+.details li {
+    list-style-image: none;
+    list-style-type: none;
+}
+.details ul li:before {
+ content: "\0BB \020";
+ }
+  </style>
+  <!-- Internet Explorer HTML5 enabling script: -->
+  <!--[if lt IE 9]&gt;
+	&lt;script src="http://1f1835935797600af226-51128641de34f0801c2bd5e1e5f0dc25.r5.cf1.rackcdn.com/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]-->
+  <script type="text/javascript">
+   var utag_data = {
+'partner_type': 'basic',
+'ga_remarketing': 'True',
+'ga_subscription': 'False'
+};
+  </script>
+  <script defer="defer" src="//tags.tiqcdn.com/utag/gci/ydr/prod/utag.js?asof=@@FirstContact">
+  </script>
+  <script type="text/javascript">
+   setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0028/5945.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+  </script>
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+ </head>
+ <body id="ball_page_body" onload="" onunload="">
+  <div id="content_wrap">
+   <div id="ball_content_container" class="ixp-container">
+    <div id="ball_iLjXgGZMQQUKFDh7pYFZXWw" data-ixp-component-root="iLjXgGZMQQUKFDh7pYFZXWw" data-ixp-behavior-scope-owner="iLjXgGZMQQUKFDh7pYFZXWw">
+     <div id="ball_igyU7aHh1jEGlLJEodGeHZw" class="ixp-container">
+      <div id="ball_ittOAbRPSqEu9WmD1J3PhDg" class="header-c header-a ixp-container">
+       <div id="ball_icgKtxqC6M0OU5ePwqzprQw" class="ixp-grid-container ixp-container">
+        <div id="ball_iOsmBrVkCQECgftcModl3BA" class="ixp-grid-row ixp-row-xs-12 ixp-container">
+         <div id="ball_iWPFCtM9i7UmSX3g6SOMzYA" class="ixp-grid-col-xs-12 ixp-grid-col-sm-4 ixp-grid-col-md-4 ixp-container">
+          <div id="ball_ijGSPJ9x5jESdbUmbFk0e0g">
+           <a href="http://www.@@domain">
+            <img src="@@logo" style="width:100%; height:auto;" />
+           </a>
+          </div>
+         </div>
+         <div id="ball_iMSJPEujVUaFKngFv4k0A" class="align-center navContainer ixp-grid-hidden-xs ixp-grid-col-xs-12 ixp-grid-col-sm-4 ixp-grid-col-md-4 ixp-container">
+          <div id="ball_iZKO1OdnY0eZ981DCmJIkg" style="height:1.6em;" class="ixp-grid-hidden-xs ixp-grid-hidden-sm ixp-grid-hidden-lg ixp-container">
+          </div>
+          <div id="ball_i2KmtlznmPkyx9xUNYZExNQ" style="height:1.8em;" class="ixp-grid-hidden-xs ixp-grid-hidden-sm ixp-grid-hidden-md ixp-container">
+          </div>
+          <div id="ball_injTp8Uk2CtXHsqy1Wmg" style="height:1em;" class="ixp-grid-hidden-xs ixp-grid-hidden-md ixp-grid-hidden-lg ixp-container">
+          </div>
+          <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=D4C4E142A58BB4D75158061F1787814155535A9721F0746A" id="ball_iJiO1uAmA5EKABSFPkbS3Q" class="smooth_scroll offersScroll font-c ixp-link" style="font-size: 110%;">
+           <span style="font-size:14px;">
+            Offers
+           </span>
+          </a>
+          <div id="ball_ifWcu4LXeaEaZJ7Mt2CkVQ" style="display:inline-block;vertical-align:middle;" class="color-e ixp-text">
+           &nbsp; | &nbsp;
+          </div>
+          <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=683D2E4BB816D80E23D4ECBF1909B17C85EC147E98830D62" id="ball_izRMIg64jykihSn5BtxJDVg" class="smooth_scroll faqsScroll font-c ixp-link" style="font-size: 110%;">
+           <span style="font-size:14px;">
+            FAQs
+           </span>
+          </a>
+          <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=2DF794B54F62BD3B72126084001C1FEC25588B9BA91098C9" id="ball_iHrblOmxjyEO6l10wnEkXkA" class="ixp-grid-hidden-xs ixp-link" target="_blank">
+          </a>
+          <p class="p1" style="text-align: center;">
+           <span style="font-size:14px;">
+            <font color="#ffffff">
+             <span style="line-height: 19.2px;">
+              <b>
+               Already a Subscriber? Activate your Account
+              </b>
+             </span>
+            </font>
+           </span>
+          </p>
+         </div>
+         <div id="ball_ifiLLRTbMPUG1FlUJv6WCgQ" style="margin-bottom:0;" class="subscriberPod ixp-grid-col-xs-12 ixp-grid-col-sm-4 ixp-grid-col-md-4 ixp-container">
+          <div id="ball_iBDi4G1PR502jKka4lBvKA" class="ixp-text">
+           <p style='margin: 0px; padding: 0.25em 0px; border: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-size: 14px; line-height: 20.8px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(74, 74, 74); text-align: center; background-color: rgb(20, 20, 20);'>
+            <span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: inherit; vertical-align: baseline;">
+             <span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; color: rgb(255, 255, 255);">
+              <strong style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
+               Subscribe Below or Call
+              </strong>
+             </span>
+            </span>
+           </p>
+           <p style='margin: 0px; padding: 0.25em 0px; border: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-size: 14px; line-height: 20.8px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(74, 74, 74); text-align: center; background-color: rgb(20, 20, 20);'>
+            <span style="font-size:16px;">
+             <strong>
+              <span style='color: rgb(255, 255, 255); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 18.004px; background-color: rgb(29, 29, 29);'>
+               1-800-559-3520
+              </span>
+             </strong>
+            </span>
+           </p>
+           <p style='margin: 0px; padding: 0.25em 0px; border: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-size: 14px; line-height: 20.8px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(74, 74, 74); text-align: center; background-color: rgb(20, 20, 20);'>
+            <span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: inherit; vertical-align: baseline;">
+             <span style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; color: rgb(255, 255, 255);">
+              <strong style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
+               Mention Promo&nbsp;W-BB
+              </strong>
+             </span>
+            </span>
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <script type="text/javascript" data-ixp-component-init="">
+      (function ($) {
+            window.ixp.runtime.components.create('sticky_container', 'iLjXgGZMQQUKFDh7pYFZXWw', $, {
+                    parameters: {"sticky_trigger":"scroll","sticky_background_transition":"none","sticky_background_transition_duration":100,"sticky_top_offset":null,"sticky_width":null,"sticky_height":null,"sticky_background":null}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+     </script>
+    </div>
+    <div id="ball_iOV9TgyaUmT5B4NawBRHQ">
+     <div id="Top">
+     </div>
+    </div>
+    <div id="ball_i5R9A3uxE10qLFUY5nG97VQ" style="background-image:url('http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/uncategorized/ydr_-_yorkfall.jpg');background-position:center center;background-repeat:no-repeat;background-size:cover;padding-top:2em;padding-bottom:8em;" class="ixp-container">
+     <div id="ball_i8hJnpRK4MUy1794QctjI4A" class="ixp-grid-container ixp-container">
+      <div id="ball_iNBbO7DAw0kaBs9KOZj0yFQ" class="ixp-grid-row ixp-container">
+       <div id="ball_iTKIL8cIo0Kpewq9oe3ukA" style="margin-bottom:25px;" class="ixp-grid-col-sm-10 ixp-grid-col-md-6 ixp-grid-col-md-offset-3 ixp-container">
+        <div id="ball_ikkSH5ugwH0KO3Lf7tvzwag" style="background-color:#000;background-color:rgba(0,0,0,0.6);margin-top:-10px;margin-bottom:0;padding-top:5px;padding-bottom:5px;margin-bottom:0px !important;" class="color-a font-d ixp-text">
+         <h1 style="text-align: center;">
+          <font color="#ffffff">
+           <b>
+            Join @@pubName Today!
+           </b>
+          </font>
+         </h1>
+        </div>
+        <div id="ball_iFlIvBL1phEKw3Zf478EbA" style="background-color:#000;background-color:rgba(0,0,0,0.6);margin-top:5px;padding-top:5px;padding-bottom:2px;padding-left:15px;margin-top:0px !important;" class="bullet-j ixp-text">
+         <ul>
+          <li>
+           <h4>
+            <span style="color:#FFFFFF;">
+             <strong>
+              All&nbsp;options include:
+             </strong>
+            </span>
+           </h4>
+           <ul>
+            <li>
+             <h4>
+              <span style="color:#FFFFFF;">
+               <strong>
+                24/7 access to {{domain}}
+               </strong>
+              </span>
+             </h4>
+            </li>
+            <li>
+             <h4>
+              <span style="color:#FFFFFF;">
+               <strong>
+                All tablet and smartphone apps
+               </strong>
+              </span>
+             </h4>
+            </li>
+            <li>
+             <h4>
+              <span style="color:#FFFFFF;">
+               <strong>
+                &nbsp;e-Edition of {{pubName}}
+               </strong>
+              </span>
+             </h4>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="ball_iQbAsoxa9ckGP2eA2aklDA" class="inner-content-wrapper ixp-container">
+     <div id="ball_iXYPatpb0EK9ue8i178Mg" style="padding-bottom:4em;" class="background-a ixp-container">
+      <div id="ball_i2tI7QkTfAUiHEOW3zPY5g" style="margin-top:-6em;" class="ixp-grid-container ixp-container">
+       <div id="ball_iJR9pdijb0yQfxjVQyIIEg" class="ixp-grid-row ixp-row-sm-6 ixp-animated ixp-fadeInUp ixp-animated-delay-50 ixp-container">
+        <div id="ball_ilHkrYwjkJE2ZNZZLSaC7TQ" class="ixp-grid-col-sm-6 ixp-grid-col-md-3 ixp-container">
+         <div id="ball_ijxBzRxkMl0abXlzWs239Qg" class="align-center pod pod-d ixp-container">
+          <div id="ball_ilFHA0pUU4ECkGzLTw73rwA" class="ixp-text">
+           <h4 style="text-align: center;">
+            Digital Subscription
+           </h4>
+          </div>
+          <div id="ball_i8oEbRIiKUyfhJbczuJVxw" style="margin-top:5px;margin-bottom:5px;height:2px;" class="background-i ixp-container">
+          </div>
+          <div id="ball_iS9MQLzz3k6n31C7YnXklw" class="ixp-container">
+           <div id="ball_ihY5qyn6EW9mM4sPzAoOg">
+            <img src="@@digitallockup" style="max-width: 200px; float:right;margin:0 0 0 5px;" />
+           </div>
+           <div id="ball_iN1YeU8OsfUiVAhSoNasCFQ" style="margin-top:10px;margin-bottom:10px;" class="ixp-text">
+            <h2 style="text-align: center;">
+             <strong>
+              <span style="font-size: 25.35px; line-height: 30.42px;">
+               $@@1_Price/Year
+              </span>
+             </strong>
+             <span style="font-size: 25.35px; line-height: 30.42px;">
+              *
+             </span>
+            </h2>
+           </div>
+           <div id="ball_inzwgRpx3vkm37K7rQOHjyg" style="text-transform: uppercase;" class="ixp-text">
+            <p>
+             <strong>
+              Less than $0.03 per day!
+             </strong>
+            </p>
+            <p>
+             <strong style="line-height: 1.6;">
+              <span style="color: rgb(0, 102, 255); font-size: 14px; line-height: 19.2px;">
+               @@1_DetailsSummary
+              </span>
+             </strong>
+            </p>
+            <p>
+             <span style="color: rgb(0, 0, 0); font-size: 10px; line-height: 20.8px;">
+              *Regular rate: $12.00/month
+             </span>
+            </p>
+           </div>
+           <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=A3A1E5F31BC17BAA819FF8D980BBD2FBED309CEA9AC58FC9" id="ball_iWFc0N7BdkyoMgO7rU6osQ" class="button button-a button-medium ixp-link" target="_blank" style="float:none;display:block;">
+           </a>
+           <p style="text-align: center;">
+            Get Started
+           </p>
+           <div id="ball_igbUXov17B0ON483PFaJvIg" class="ixp-component-lightbox ixp-component-lightbox-block" data-ixp-component-root="igbUXov17B0ON483PFaJvIg" data-ixp-behavior-scope-owner="igbUXov17B0ON483PFaJvIg" style="margin-top:15px;">
+            <div id="ball_iGoSfnnzr5kWiJjZxkyjlhA" class="ixp-container">
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=9ECBB56844FC105B71FD3173A6B7C31E44EB088C650CF10C" id="ball_iqKcI4VDsnUCZSZZwsyHaQ" class="ixp-link" data-ixp-behavior-scope-lightbox-open="igbUXov17B0ON483PFaJvIg" data-ixp-behavior-lightbox-open="">
+              See Details &gt;
+             </a>
+            </div>
+            <div style="display:none;">
+             <div id="Popup_igbUXov17B0ON483PFaJvIg" class="ixp-component-lightbox-popup">
+             </div>
+            </div>
+            <script type="text/javascript" data-ixp-component-init="">
+             (function ($) {
+            window.ixp.runtime.components.create('ixp-lightbox-container', 'igbUXov17B0ON483PFaJvIg', $, {
+                parameters: {"tagValue":null,"lightboxUrl":"/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=51C7ADB1674CECD2D4EC8CC0A85E437ADA4EF6B60E8B81F691660B94EEDF31A87C355BBC23A80603","contentText":null,"contentImage":null,"frameRadius":4,"closeColor":"black","animation":"none","width":500,"height":500,"verticalAlign":"center","flatBox":false,"closeOnContentClick":false,"overlayClickClose":true,"opacity":0.8,"frameColor":"white","overlayColor":"white","autoHeight":false,"fixedContentPos":true,"contentType":"url","frameEnabled":true,"closeBtnEnabled":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+            </script>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div id="ball_iV6tQVTZtNUieGUS6sJC1Vw" class="ixp-grid-col-sm-6 ixp-grid-col-md-3 ixp-container">
+         <div id="ball_iUx8cNC0IWUuRhqrjiqFw3w" class="align-center pod pod-d ixp-container">
+          <div id="ball_iaN9FjGlhoEykusvfBCLsYw" class="ixp-text">
+           <h4 style="text-align: center;">
+            {{2_Name}}
+           </h4>
+          </div>
+          <div id="ball_iNE8oCDlGkOoodWwVLnJlg" style="margin-top:5px;margin-bottom:5px;height:2px;" class="background-i ixp-container">
+          </div>
+          <div id="ball_i7mhcuVT2z0K0ZDMaoaYog" class="ixp-container">
+           <div id="ball_isB3QWZRJtUCPjXeLAGylBQ">
+            <img src="@@printlockup" style="max-width: 200px; float:right;margin:0 0 0 5px;" />
+           </div>
+           <div id="ball_iBpqPz3qookGh0fORy8tyg" style="margin-top:10px;margin-bottom:10px;" class="ixp-text">
+            <h2 style="text-align: center;">
+             <strong>
+              <span style="font-size: 25.35px; line-height: 30.42px;">
+               $@@2_Price/Month
+              </span>
+             </strong>
+             <span style="font-size: 25.35px; line-height: 30.42px;">
+              *
+             </span>
+            </h2>
+           </div>
+           <div id="ball_ioNy9InLIJ0Ksz0fxvFAg" style="text-transform: uppercase;" class="ixp-text">
+            <p>
+             <strong>
+              For the first 3 months!​
+             </strong>
+            </p>
+            <p>
+             <strong style="line-height: 1.6;">
+              <span style="color: rgb(0, 102, 255); font-size: 14px; line-height: 19.2px;">
+               @@2_DetailsSummary
+              </span>
+             </strong>
+            </p>
+            <p>
+             <span style="color: rgb(0, 0, 0); font-size: 10px; line-height: 20.8px;">
+              *Regular rate: $12.00/month
+             </span>
+            </p>
+           </div>
+           <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=3BBF278F3211EBF7C290C06505A894369EEBA9698B41104A" id="ball_id08BnLwMzECTIugDDOEBpA" class="button button-a button-medium ixp-link" target="_blank" style="display:block;">
+           </a>
+           <p style="text-align: center;">
+            Get Started
+           </p>
+           <div id="ball_iJp7UTfEH20Kj3Bm61asVuw" class="ixp-component-lightbox ixp-component-lightbox-block" data-ixp-component-root="iJp7UTfEH20Kj3Bm61asVuw" data-ixp-behavior-scope-owner="iJp7UTfEH20Kj3Bm61asVuw" style="margin-top:15px;">
+            <div id="ball_iFMcHRAvHdUuyjTxvVwgtA" class="ixp-container">
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=77A178C97A48E2A8DA97BC7A43AF47E504B988E43C6839D3" id="ball_iARiVonGqkyHhlcelVrg" class="ixp-link" data-ixp-behavior-scope-lightbox-open="iJp7UTfEH20Kj3Bm61asVuw" data-ixp-behavior-lightbox-open="">
+              See Details &gt;
+             </a>
+            </div>
+            <div style="display:none;">
+             <div id="Popup_iJp7UTfEH20Kj3Bm61asVuw" class="ixp-component-lightbox-popup">
+             </div>
+            </div>
+            <script type="text/javascript" data-ixp-component-init="">
+             (function ($) {
+            window.ixp.runtime.components.create('ixp-lightbox-container', 'iJp7UTfEH20Kj3Bm61asVuw', $, {
+                parameters: {"tagValue":null,"lightboxUrl":"/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=D46D9CCA82AEEB26DA767AE65EBDAC4405C3F6E7089B89F5EA6B76C60F31AEAED7C79CC645C7D111","contentText":null,"contentImage":null,"frameRadius":4,"closeColor":"black","animation":"none","width":500,"height":500,"verticalAlign":"center","flatBox":false,"closeOnContentClick":false,"overlayClickClose":true,"opacity":0.8,"frameColor":"white","overlayColor":"white","autoHeight":false,"fixedContentPos":true,"contentType":"url","frameEnabled":true,"closeBtnEnabled":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+            </script>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div id="ball_iQijHJNw68E6sxhOndyZcg" class="ixp-grid-col-sm-6 ixp-grid-col-md-3 ixp-container">
+         <div id="ball_iWkQFMoLVqEyRsmokHnScpQ" class="align-center pod pod-d ixp-container">
+          <div id="ball_imqGwAIODVkePQePhR3jCTg" class="ixp-text">
+           <h4 style="text-align: center;">
+            {{3_Name}}
+           </h4>
+          </div>
+          <div id="ball_ib7NRIzE3eEuey4BVMbG2tA" style="margin-top:5px;margin-bottom:5px;height:2px;" class="background-i ixp-container">
+          </div>
+          <div id="ball_im7CdzAQmEuCxIDqSBo4A" class="ixp-container">
+           <div id="ball_iXDNt3vzGV0OAUFzNspSC6g">
+            <img src="@@printlockup" style="max-width: 200px; float:right;margin:0 0 0 5px;" />
+           </div>
+           <div id="ball_i2NuY2xzNQUiY8kUCUfpzw" style="margin-top:10px;margin-bottom:10px;" class="ixp-text">
+            <h2 style="text-align: center;">
+             <strong>
+              <span style="font-size: 25.35px; line-height: 30.42px;">
+               $@@3_Price/Month
+              </span>
+             </strong>
+             <span style="font-size: 25.35px; line-height: 30.42px;">
+              *
+             </span>
+            </h2>
+           </div>
+           <div id="ball_iKokanVvIKU6Yy99S5duWSg" style="text-transform: uppercase;" class="ixp-text">
+            <p>
+             <strong>
+              For the first 3 months!
+             </strong>
+            </p>
+            <p>
+             <span style="color:#0066ff;">
+              <strong>
+               <span style="font-size: 14px; line-height: 19.2px;">
+                @@3_DetailsSummary
+               </span>
+              </strong>
+             </span>
+            </p>
+            <p>
+             <span style="color: rgb(0, 0, 0); font-size: 10px; line-height: 20.8px;">
+              *Regular rate: $16/month
+             </span>
+            </p>
+           </div>
+           <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=E4A1F98478053E9D8EA36A059C82AEC14073499D51146BED" id="ball_iLLiCZkzZOUSomgd2LER5Ww" class="button button-a button-medium ixp-link" target="_blank" style="display:block;">
+           </a>
+           <p style="text-align: center;">
+            Get Started
+           </p>
+           <div id="ball_iQXGeURJVHkmV0ywtle8u2g" class="ixp-component-lightbox ixp-component-lightbox-block" data-ixp-component-root="iQXGeURJVHkmV0ywtle8u2g" data-ixp-behavior-scope-owner="iQXGeURJVHkmV0ywtle8u2g" style="margin-top:15px;">
+            <div id="ball_i9i49mcnof0Khow6vMVMQzg" class="ixp-container">
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=D44FEDFFBD285C22844C7FBB1DD2CD7E90A6E46484395303" id="ball_i5dxG5ftkzkCawxcwEn9n2w" class="ixp-link" data-ixp-behavior-scope-lightbox-open="iQXGeURJVHkmV0ywtle8u2g" data-ixp-behavior-lightbox-open="">
+              See Details &gt;
+             </a>
+            </div>
+            <div style="display:none;">
+             <div id="Popup_iQXGeURJVHkmV0ywtle8u2g" class="ixp-component-lightbox-popup">
+             </div>
+            </div>
+            <script type="text/javascript" data-ixp-component-init="">
+             (function ($) {
+            window.ixp.runtime.components.create('ixp-lightbox-container', 'iQXGeURJVHkmV0ywtle8u2g', $, {
+                parameters: {"tagValue":null,"lightboxUrl":"/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=AA06F6E735072AE416573D9CC2B11251D8FF064EF830986793203E1A3CFFD1A2FBB6B67A2DA9BD57","contentText":null,"contentImage":null,"frameRadius":4,"closeColor":"black","animation":"none","width":500,"height":500,"verticalAlign":"center","flatBox":false,"closeOnContentClick":false,"overlayClickClose":true,"opacity":0.8,"frameColor":"white","overlayColor":"white","autoHeight":false,"fixedContentPos":true,"contentType":"url","frameEnabled":true,"closeBtnEnabled":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+            </script>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div id="ball_iGkhgPSJLkGsByBN3sD7A" class="ixp-grid-col-sm-6 ixp-grid-col-md-3 ixp-container">
+         <div id="ball_iDLVHAbVR506pOxmh3dGevg" class="align-center pod pod-d ixp-container">
+          <div id="ball_iOOhiFmvgcE6MBFrYLeCyaw" class="ixp-text">
+           <h4 style="text-align: center;">
+            {{4_Name}}
+           </h4>
+          </div>
+          <div id="ball_iNFrJkBB5UKeJLYiq1vxPA" style="margin-top:5px;margin-bottom:5px;height:2px;" class="background-i ixp-container">
+          </div>
+          <div id="ball_iJbzl8ndJIkuVCxA7kjA3g" class="ixp-container">
+           <div id="ball_iuZWMp0LnI0OcA6LKg3HQdg">
+            <img src="@@printlockup" style="max-width: 200px; float:right;margin:0 0 0 5px;" />
+           </div>
+           <div id="ball_ifZLJS14HQ0KKv88G8vezTA" style="margin-top:10px;margin-bottom:10px;" class="ixp-text">
+            <h2 style="text-align: center;">
+             <strong>
+              <span style="font-size: 25.35px; line-height: 30.42px;">
+               $@@4_Price/Month
+              </span>
+             </strong>
+             <span style="font-size: 25.35px; line-height: 30.42px;">
+              *
+             </span>
+            </h2>
+           </div>
+           <div id="ball_iUe2SzkYot06iPxgMmJF9BQ" style="text-transform: uppercase;" class="ixp-text">
+            <p>
+             <strong>
+              For the first 3 months!
+             </strong>
+            </p>
+            <p>
+             <span style="color:#0066ff;">
+              <strong>
+               <span style="font-size: 14px; line-height: 19.2px;">
+                @@4_DetailsSummary
+               </span>
+              </strong>
+             </span>
+            </p>
+            <p>
+             <span style="color: rgb(0, 0, 0); font-size: 10px; line-height: 20.8px;">
+              *Regular rate: $26/month
+             </span>
+            </p>
+           </div>
+           <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=8477045A739FF008B2FDCE56FE74F9428ED89F15C6A957E3" id="ball_i8qYzxukjx0a8nwl6lzXHg" class="button button-a button-medium ixp-link" target="_blank" style="display:block;">
+           </a>
+           <p style="text-align: center;">
+            Get Started
+           </p>
+           <div id="ball_iKsX0Zd72vkClLZ7o6MGfg" class="ixp-component-lightbox ixp-component-lightbox-block" data-ixp-component-root="iKsX0Zd72vkClLZ7o6MGfg" data-ixp-behavior-scope-owner="iKsX0Zd72vkClLZ7o6MGfg" style="margin-top:15px;">
+            <div id="ball_i6AJfNziulkmVgnHNL0KMWw" class="ixp-container">
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=FAB271158FB4DD9AA82A2E3720122A73EB68B62ECAD3F52A" id="ball_ixgjWG26RgkajeBq0Qhcaw" class="ixp-link" data-ixp-behavior-scope-lightbox-open="iKsX0Zd72vkClLZ7o6MGfg" data-ixp-behavior-lightbox-open="">
+              See Details &gt;
+             </a>
+            </div>
+            <div style="display:none;">
+             <div id="Popup_iKsX0Zd72vkClLZ7o6MGfg" class="ixp-component-lightbox-popup">
+             </div>
+            </div>
+            <script type="text/javascript" data-ixp-component-init="">
+             (function ($) {
+            window.ixp.runtime.components.create('ixp-lightbox-container', 'iKsX0Zd72vkClLZ7o6MGfg', $, {
+                parameters: {"tagValue":null,"lightboxUrl":"/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=92DECCAE77113E66B915F79E9B80535A3F707467F1941B8055A6C0A4D72194CE9397ED6CDF528F9F","contentText":null,"contentImage":null,"frameRadius":4,"closeColor":"black","animation":"none","width":500,"height":500,"verticalAlign":"center","flatBox":false,"closeOnContentClick":false,"overlayClickClose":true,"opacity":0.8,"frameColor":"white","overlayColor":"white","autoHeight":false,"fixedContentPos":true,"contentType":"url","frameEnabled":true,"closeBtnEnabled":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+            </script>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="ball_iSpWGm0IfUEKptLUI5P0Mzg" style="background-image:url('http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/uncategorized/ydr_-_yorkfall.jpg');background-position:center center;background-repeat:no-repeat;background-size:cover;padding-top:3em;padding-bottom:3em;" class="background-i ixp-grid-hidden-xs ixp-container">
+      <div id="ball_ifTOHK7t2UOVeMoxiZEVcA" class="ixp-grid-container ixp-container">
+       <div id="ball_iSFKZP8skCXr9n6plTDWQ" class="ixp-grid-row ixp-animated-scroll ixp-scroll-aware ixp-scroll-fadeDown ixp-container">
+        <div id="ball_ipsZASoGSVE2IAi0LsUd0g" class="align-center ixp-grid-col-md-8 ixp-grid-col-md-offset-2 ixp-container">
+         <div id="ball_izTuF1dpeSUe3Y5d92Wbdsw" style="background-color:#000;background-color:rgba(0,0,0,0.6);margin-bottom:0px !important;" class="color-a ixp-text">
+          <h1 style="text-align: center;">
+           It doesn&#39;t stop there!
+          </h1>
+          <h2 style="text-align: center;">
+           Subscribe now and explore all the perks to becoming a member.
+          </h2>
+         </div>
+         <div id="ball_iod7ObK9zEeOJ6SnrWOyg" style="background-color:#000;background-color:rgba(0,0,0,0.6);padding-bottom:5px;margin-top:0px !important;" class="color-a font-d ixp-text">
+          <h4>
+           Or visit our FAQs to learn more &raquo;
+          </h4>
+         </div>
+         <div id="ball_iWT6DoJPCC0KUDpt5KhgiXQ" style="margin-top:15px;" class="smooth_scroll faqsScroll2 ixp-container">
+         </div>
+        </div>
+       </div>
+       <div id="ball_iG6GFaVQToUKHWuAyzMT7kA" style="margin-top:2em;" class="ixp-grid-row ixp-row-xs-12 ixp-row-sm-12 ixp-animated-scroll ixp-scroll-aware ixp-scroll-fadeUp ixp-container">
+        <div id="ball_ilzG4RQb7TU2MVsloiO6abQ" class="align-center ixp-grid-col-xs-12 ixp-grid-col-sm-12 ixp-grid-col-md-4 ixp-grid-col-lg-4 ixp-container">
+         <div id="ball_iGtVqW458k6IEToxsXG1Q" class="ixp-container">
+          <div id="ball_ipao7E08lYEagKiNNMPrxg" class="ixp-component-reveal hoverCurl ixp-component-reveal-transition ixp-component-reveal-transition-flip-card-vertical" data-ixp-component-root="ipao7E08lYEagKiNNMPrxg" data-ixp-behavior-scope-owner="ipao7E08lYEagKiNNMPrxg" style="width:100%;max-width:none;">
+           <div class="ixp-component-reveal-inner">
+            <div id="ball_i1Wzrw9RKUH6nbDddLVLw" class="ixp-component-reveal-trigger ixp-component-reveal-trigger-on align-center ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;">
+             <div id="ball_icY7KcFjsWUmwbD4RfszaZQ" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;width:120px;max-width:none;height:120px;display:inline-block;box-sizing:border-box;" class="background-a ixp-circle ixp-container">
+              <img src="http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/quick_start_cloud/200w_news_icon-8f7f2f4bc137e2a6cbc56019616283c3ea2e5bbc.png" id="ball_i6qEyNT6rSUGcrATgxkXwrQ" width="150" class="image-c ixp-image" height="150" border="0" />
+             </div>
+             <div id="ball_iFGwC7ncCgk6jO6VyJjCNw" style="margin-top:15px;" class="color-a ixp-text">
+              <h3>
+               Unlimited access to local news
+              </h3>
+             </div>
+             <div id="ball_iQM4bzqoNEqLBWchLUPwA" class="color-a ixp-text">
+              LEARN MORE »
+             </div>
+            </div>
+            <div id="ball_i8qt0PStX0Eqpjplo5BA2Ag" class="ixp-component-reveal-target ixp-component-reveal-target-off ixp-component-reveal-container-hidden align-center background-c ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;" data-ixp-component-tag="Unlimited Access">
+             <div id="ball_iTnYKmKcrK0W4I957IqQQRw" style="margin-bottom:1em;" class="color-a ixp-text">
+              As a member, you get in-depth coverage and unlimited access to local news &ndash; any way, anywhere, any time. Our watchdog journalism exposes wrongdoing, uncovers government corruption, tracks details of natural disasters, and all the local news that matters most to you.&nbsp;
+             </div>
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=16B8A0E90ED19BF95C035ECCE7DFAB4AD9909D75C499291C" id="ball_io9IkXZ2YX06BvvC6NRAmMA" class="button-c-md smooth_scroll access_subscribe button button-a button-small ixp-link">
+              Get Started
+             </a>
+            </div>
+           </div>
+           <script type="text/javascript" data-ixp-component-init="">
+            (function ($) {
+            window.ixp.runtime.components.create('ixp-reveal', 'ipao7E08lYEagKiNNMPrxg', $, {
+                parameters: {"type":"toggle","position":"center center","reveal_tag":"Unlimited Access","trigger":"hover","concealOneWayOthers":false,"oneWayReveal":false,"alwaysRevealInMobile":false,"concealOthers":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+           </script>
+          </div>
+         </div>
+        </div>
+        <div id="ball_imENBf9qGkCR8hL0umlZWA" class="align-center ixp-grid-col-xs-12 ixp-grid-col-sm-12 ixp-grid-col-md-4 ixp-grid-col-lg-4 ixp-container">
+         <div id="ball_ilIbOU674kqB16guYc15w" class="ixp-container">
+          <div id="ball_ifaASljKNYk2hwBjYx3GYg" class="ixp-component-reveal hoverCurl ixp-component-reveal-transition ixp-component-reveal-transition-flip-card-vertical" data-ixp-component-root="ifaASljKNYk2hwBjYx3GYg" data-ixp-behavior-scope-owner="ifaASljKNYk2hwBjYx3GYg" style="width:100%;max-width:none;">
+           <div class="ixp-component-reveal-inner">
+            <div id="ball_i3fH9oTC1VkCv0PyzQ5q5Kw" class="ixp-component-reveal-trigger ixp-component-reveal-trigger-on align-center ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;">
+             <div id="ball_iaIeJmuEhSkK5HhxvT7C8Jg" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;width:120px;max-width:none;height:120px;display:inline-block;box-sizing:border-box;" class="background-a ixp-circle ixp-container">
+              <img src="http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/quick_start_cloud/200w_app_icons.png" id="ball_i0BdJnVf1aEalNT081X8Q" width="200" class="image-c ixp-image" height="200" border="0" />
+             </div>
+             <div id="ball_iVlDu6BvZbEynV5Wz8MZs1w" style="margin-top:15px;" class="color-a ixp-text">
+              <h3>
+               Easy to use apps
+              </h3>
+             </div>
+             <div id="ball_iYzOKvCP4nEK3JtLjNRVpLA" class="color-a ixp-text">
+              LEARN MORE »
+             </div>
+            </div>
+            <div id="ball_iCErvk1hAzEiJ4LPgYC0z0Q" class="ixp-component-reveal-target ixp-component-reveal-target-off ixp-component-reveal-container-hidden align-center background-c ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;" data-ixp-component-tag="Unlimited Access">
+             <div id="ball_insIUdESgQUChXXNuLMDAEA" style="margin-bottom:1em;" class="color-a ixp-text">
+              Be the first to know about breaking news as it happens and stay connected with your community through our various smartphone and tablet apps. We offer apps based on specific interests and members have access to content that others don’t!
+             </div>
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=70CB1923A06109B17900D49A04A04A42C95AC739E2611BD5" id="ball_iMVwxkyKfokoEYALduNQTQ" class="button-c-md smooth_scroll apps_subscribe button button-a button-small ixp-link">
+              Get Started
+             </a>
+            </div>
+           </div>
+           <script type="text/javascript" data-ixp-component-init="">
+            (function ($) {
+            window.ixp.runtime.components.create('ixp-reveal', 'ifaASljKNYk2hwBjYx3GYg', $, {
+                parameters: {"type":"toggle","position":"center center","reveal_tag":"Unlimited Access","trigger":"hover","concealOneWayOthers":false,"oneWayReveal":false,"alwaysRevealInMobile":false,"concealOthers":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+           </script>
+          </div>
+         </div>
+        </div>
+        <div id="ball_iloNAB3cyFkqA53SBKvidg" class="align-center ixp-grid-col-xs-12 ixp-grid-col-sm-12 ixp-grid-col-md-4 ixp-grid-col-lg-4 ixp-container">
+         <div id="ball_idkoSZwUK0SoqHg0kuwkwg" class="ixp-container">
+          <div id="ball_iOFGVeiGdUyPHvdCdTPg" class="ixp-component-reveal hoverCurl ixp-component-reveal-transition ixp-component-reveal-transition-flip-card-vertical" data-ixp-component-root="iOFGVeiGdUyPHvdCdTPg" data-ixp-behavior-scope-owner="iOFGVeiGdUyPHvdCdTPg" style="width:100%;max-width:none;">
+           <div class="ixp-component-reveal-inner">
+            <div id="ball_im1slNesOU0mv2CiEpYKUlQ" class="ixp-component-reveal-trigger ixp-component-reveal-trigger-on align-center ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;">
+             <div id="ball_i5XMbnjjAUuldOAqrh9Unw" style="padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;width:120px;max-width:none;height:120px;display:inline-block;box-sizing:border-box;" class="background-a ixp-circle ixp-container">
+              <img src="http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/quick_start_cloud/200w_enews_icon.png" id="ball_i1503GK144kS70lB8Qgm3fA" width="200" class="image-c ixp-image" height="200" border="0" />
+             </div>
+             <div id="ball_iuYQr2v710qiBJ28iPAoFA" style="margin-top:15px;" class="color-a ixp-text">
+              <h3>
+               e-Edition
+              </h3>
+             </div>
+             <div id="ball_ipxOHHBTQtEF1pBLwsUrvA" class="color-a ixp-text">
+              LEARN MORE »
+             </div>
+            </div>
+            <div id="ball_iA7upWq7TqES9NTdqDq4Dbg" class="ixp-component-reveal-target ixp-component-reveal-target-off ixp-component-reveal-container-hidden align-center background-c ixp-container" style="padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em;" data-ixp-component-tag="Unlimited Access">
+             <div id="ball_imFERxEyo7kiCKfYqkrL3Bw" style="margin-bottom:1em;" class="color-a ixp-text">
+              On the go? Take the news with you. You get an exact digital replica of @@pubName. The e-Edition allows you to flip the pages, scan the headlines, and read the stories on your device of choice, any time.
+             </div>
+             <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=A6D6E3D04014CF487EBC6392FC360A355B38165F4544E3E0" id="ball_imISv4HW5rkGjAcfe4bRuQ" class="button-c-md smooth_scroll edition_subscribe button button-a button-small ixp-link">
+              Get Started
+             </a>
+            </div>
+           </div>
+           <script type="text/javascript" data-ixp-component-init="">
+            (function ($) {
+            window.ixp.runtime.components.create('ixp-reveal', 'iOFGVeiGdUyPHvdCdTPg', $, {
+                parameters: {"type":"toggle","position":"center center","reveal_tag":"Unlimited Access","trigger":"hover","concealOneWayOthers":false,"oneWayReveal":false,"alwaysRevealInMobile":false,"concealOthers":true}
+            });
+        })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+           </script>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="ball_iakE6TcFWgUCHXsFbu7ZGA">
+      <div id="faqs">
+      </div>
+     </div>
+     <div id="ball_iGCVnd0plgkutFEVPhB18yw" style="padding-top:4em;padding-bottom:4em;" class="background-a ixp-container">
+      <div id="ball_iBePm4QXoCke9QIudwDfd1g" class="ixp-grid-container ixp-container">
+       <div id="ball_iN6JElF6Js0ysH3Y0pLiLbw" class="ixp-grid-row ixp-container">
+        <div id="ball_iyJSM1RUUTzdLcjqsqg" class="ixp-grid-col-md-12 ixp-grid-col-md-offset-0 ixp-container">
+         <div id="ball_i9HB8cyXtpEqq00bjs5J5Ew" class="ixp-grid-row ixp-animated-scroll ixp-scroll-aware ixp-scroll-fadeDown ixp-container">
+          <div id="ball_iC0c6LU5iyEWcVywBWA9kg" class="align-center ixp-grid-col-md-8 ixp-grid-col-md-offset-2 ixp-container">
+           <div id="ball_iTaBrVPuRJECMCWG44JJOXw" style="margin-top:1.5em;font-size: 1.25em;" class="color-a ixp-grid-hidden-xs ixp-grid-hidden-sm ixp-grid-hidden-md ixp-grid-hidden-lg ixp-text">
+            <h2>
+             <strong>
+              Subscribe now
+              <br />
+              and explore all the perks to becoming an Insider Member!
+             </strong>
+            </h2>
+           </div>
+           <div id="ball_iiRDD1w3uEkKtl8rcIUMVA" style="margin-top:1.5em;font-size: 1.25em;" class="ixp-text">
+            <h1>
+             <strong>
+              Frequently Asked Questions
+             </strong>
+            </h1>
+           </div>
+           <div id="ball_iGz6soiOoOkmCcxE0FvIlpA" style="margin-top:15px;margin-bottom:15px;font-size: 120%;" class="ixp-container">
+            <div id="ball_iMJzva2NP9kulX2lZM2es0g" style="margin-top:1em;display:inline;" class="ixp-text">
+             Here are some of the questions asked frequently by our subscribers. If your question is not answered here, please call Customer Service at {{csPhone}} or email us at&nbsp;
+            </div>
+            <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=ACBF319B29B6C01770E62363332973C55E114C2E414D1A2B" id="ball_iWDHFE6ribEqDuciIvP0Lg" class="ixp-link">
+             {{emailAddr}}
+            </a>
+           </div>
+           <div id="ball_i73gPueRi9EqYQ62BPo3crg" style="margin-top:.5em;margin-bottom:1em;" class="color-a ixp-grid-hidden-xs ixp-grid-hidden-sm ixp-grid-hidden-md ixp-grid-hidden-lg ixp-text">
+            <h4>
+             Enjoy all the benefits of membership. Whether you want a digital only subscription, a subscription including home delivery of the print edition, Sunday coupons, or special sections, you decide and we deliver
+            </h4>
+           </div>
+          </div>
+         </div>
+         <div id="ball_intRcZ6gGUGkF5Y2mEsR0w" class="lbui_accordion_v3 accordion-a" data-liveball-rmw-root="intRcZ6gGUGkF5Y2mEsR0w" data-ixp-behavior-scope-owner="intRcZ6gGUGkF5Y2mEsR0w" style="margin-top:1em;">
+          <div class="lbui_accordion_content">
+           <div data-liveball-is-required="">
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 1" data-liveball-is-required="">
+             <span>
+              How do I get home delivery of the print edition?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_i9eOqoA7ywUyADJCV5xTRzg" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_iv0OB7dBIl0JLBkosPvyAw" style="display:inline;" class="color-c ixp-text">
+                You can get home delivery of the print edition by calling {{csPhone}} or choosing one of the subscription options above.
+               </div>
+               <div id="ball_iPQSJsvU20m2UR7WCCQvMg" class="ixp-container">
+                <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=F310BB95527A6CCA360A6A1D0EBF11F113E01D03C0A63FE8" id="ball_iSODOqTt5KESjpk7dGd19gw" class="button-c-md button button-a button-medium smooth_scroll accordion1_subscribe ixp-link" style="margin-top:2em;">
+                 Get Started
+                </a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 2">
+             <span>
+              What time is the print edition delivered?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iprqUUCf4LUe6dKL7sDzsOQ" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_iA9J5mGnqOkq4zP9FwDLTA" style="display:inline;" class="color-c ixp-text">
+                Monday - Friday, no later than 6 a.m. Saturday, Sunday and holiday, no later than 7 a.m.
+               </div>
+               <div id="ball_ioBTNQGXtfk258AxdNAXGjg" class="ixp-container">
+                <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=E8C101FAE4156DA60BD49C631C8294C301BCC1BDD3B73991" id="ball_i5iHltEU920uWY2clu5QyWg" class="button button-a button-medium ixp-link" style="margin-top:2em;">
+                 Subscribe Now
+                </a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 3">
+             <span>
+              I&rsquo;m going on vacation. How do I temporarily stop delivery of the print edition?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iHeS1xwCZU6BunOYdiH3A" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_i3V2TYRHABEuJGlWyE5L7PQ" style="display:inline;" class="color-c ixp-text">
+                To put a temporary stop to your delivery of the print edition or visit&nbsp;
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=051932DFE0D71B0ED7EF13B5666568F74C1FF65615C6E90A" id="ball_ixiBmbo00cUSUtBObxf6rJw" class="ixp-link" target="_blank">
+                account.{{domain}}
+               </a>
+               <div id="ball_iB4IkOEfxkCjm0IAVW3pbQ" style="display:inline;" class="color-c ixp-text">
+                , log in, and place your account on a vacation hold. Or, you can call Customer Service at {{csPhone}}.
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 4">
+             <span>
+              I didn’t get my newspaper.
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iNF80oTBwkuD0cB7E7Q0dw" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_i4JQHVFv1IE2HMBLNeuHx1g" style="display:inline;" class="color-c ixp-text">
+                To report a delivery issue, visit&nbsp;
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=08687DAA6135BF9789DF3DA2050CE6D84706926796146DFD" id="ball_ilrpXtKZKWkKTkkZB5kfFw" class="ixp-link" target="_blank">
+                account.{{domain}}
+               </a>
+               <div id="ball_iIciZa68UiDxiFA7HVM8Q" style="display:inline;" class="ixp-text">
+                , log in and click &#39;Report Delivery Issue.&#39; Or, call our Customer Service line at {{csPhone}}.
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 5">
+             <span>
+              Does my subscription include access to the news online and through apps?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iDmzuI61nUidfmvVgwP6w" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_iB3NN3sppUmSxF6tg2GG3w" class="color-c ixp-text">
+                <p class="answer" style="box-sizing: border-box; margin: 0px; font-stretch: normal; font-size: 14px; line-height: 18px; font-family: arial, sans-serif;">
+                 Yes. It&#39;s is that simple. We want you to be able to see great videos, photo galleries and other interactive features and have news and information on the go with our apps. Activate your account to start taking advantage of services.
+                </p>
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=C0B03199DF338400F36419500406F332B449C4480EA557A4" id="ball_iEpc00fTBfkuObJmNcV8TVw" class="button-c-md button button-a button-medium smooth_scroll apps_subscribe ixp-link" style="margin-top:2em;">
+                Subscribe Now
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 6">
+             <span>
+              I’m moving, how do I change my delivery address?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_itlauu68iqElof0Xv67ixg" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_i9Qi1K76dwkugi3MW33fwA" style="display:inline;" class="ixp-text">
+                You can call Customer Service at {{csPhone}} to transfer your delivery address or visit&nbsp;
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=E683F5F662AF22095FB72B15A4504AB45A482C7A6F743630" id="ball_i12u7OHpGU2H6NBPpjxApA" class="ixp-link" target="_blank">
+                account.{{domain}}
+               </a>
+               <div id="ball_iavgpG7ktGE2cHfTZRk1ghw" style="display:inline;" class="ixp-text">
+                , log in, and make your updates online.
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 7">
+             <span>
+              How do I cancel my subscription?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iwrxX3AtkLEmFwfym7YJ4Q" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_iLMoGvmKcokya7XmUZsgSw" style="margin-bottom:1em;" class="color-c ixp-text">
+                Give us a call at {{csPhone}}.
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 8">
+             <span>
+              What payment options are there for subscriptions?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iKdXbCl8fIkWBCwGVjGT8w" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_ib1aTxuqYWkqkUtLToj5jDw" class="color-c ixp-text">
+                You can sign up with our monthly, automatic billing, EZ Pay or through monthly bill in advance.
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=ADCCE2780F459422FE44E60446D5ED2AFB86E4B1529407AE" id="ball_iTht3Ejv1ES9BYf3Tj8gKg" class="button-c-md button button-a button-medium smooth_scroll accordion8_subscribe ixp-link" style="margin-top:2em;">
+                Subscribe Now
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 9">
+             <span>
+              Do I have to log in to the Web site and apps?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_ig1cbQyqLnU6VsE8s1guA" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_irswqI67UOd4aM7qBzjUg" class="color-c ixp-text">
+                Activating and logging in to the various digital products gives you full access to videos, apps, and all of the stories as part of your subscription. In addition, you can securely manage your account. When you are logged in there is no limit.
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=5B465244877508B2BA33CF1111DA2C3B2BCD3BD0B85D73B0" id="ball_iimVEZs07EufNvtzsAw" class="button-c-md button button-a button-medium smooth_scroll accordion9_subscribe ixp-link" style="margin-top:2em;">
+                Subscribe Now
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div>
+            <h2 class="lbui_trigger" data-liveball-tag="Accordion 10">
+             <span>
+              How do I activate my digital subscription/account?
+             </span>
+            </h2>
+            <div class="lbui_toggle_container">
+             <div class="lbui_block">
+              <div id="ball_iiVdkNmbtpkCp92mD2NorQQ" style="padding-top:1em;padding-right:1em;padding-bottom:1em;padding-left:1em;" class="ixp-container">
+               <div id="ball_iueoP0Vokuuj5L3qP3PrA" class="color-c ixp-text">
+                <p class="answer" style="box-sizing: border-box; margin: 0px; font-stretch: normal; font-size: 14px; line-height: 18px; font-family: arial, sans-serif;">
+                 Here&#39;s a direct link. Go to account.{{domain}}. In the upper right is an &quot;person&quot; icon. Click there then follow these steps:
+                </p>
+                <ol style="box-sizing: border-box; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 16px; line-height: 22.3999996185303px;">
+                 <li style="box-sizing: border-box;">
+                  Fill in your 5-digit zip code and telephone number that is associated with your account.
+                 </li>
+                 <li style="box-sizing: border-box;">
+                  Click &ldquo;Continue&rdquo;
+                 </li>
+                 <li style="box-sizing: border-box;">
+                  When account information appears, click &ldquo;Continue&rdquo;
+                 </li>
+                 <li style="box-sizing: border-box;">
+                  There are two ways to register your account.
+                  <ol style="box-sizing: border-box;" type="a">
+                   <li style="box-sizing: border-box;">
+                    Enter your name, gender, birth year and zip code. Put in your email address and confirm it, put in a password and confirm it. Click on &ldquo;Create my account&rdquo;.
+                   </li>
+                   <li>
+                    <span style="box-sizing: border-box; font-weight: 700;">
+                     -or-
+                    </span>
+                   </li>
+                   <li style="box-sizing: border-box;">
+                    Login with Facebook (if you have a Facebook account)
+                   </li>
+                  </ol>
+                 </li>
+                 <li style="box-sizing: border-box;">
+                  If you are on a home or private computer, be sure to click to check the box to keep you signed in on this computer. You will receive confirmation of successful registration.
+                 </li>
+                </ol>
+               </div>
+               <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=C1D8EE3456B363DFEFEDBB7B126EFB3C91AAB3835CCA7864" id="ball_iuZhkcJE2lESlCsXzrfAfzA" class="button-c-md button button-a button-medium smooth_scroll accordion10_subscribe ixp-link" style="margin-top:2em;">
+                Subscribe Now
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <script type="text/javascript" data-liveball-rmw-init="">
+           (function ($) {
+            LBUI.loadPlugin('accordion_v3', $('#ball_intRcZ6gGUGkF5Y2mEsR0w'), {
+                instanceId: 'intRcZ6gGUGkF5Y2mEsR0w',
+                openfirst: ("true" == "true") ? true : false,
+                taggingEnabled: ("true" == "true") ? true : false
+            });
+    })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+          </script>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="ball_iMy6aWze4EWzJptLIXbyOA" class="nav-footer-b align-center footer background-j ixp-container">
+     <div id="ball_ibbnNu1EhPU28ZEZJLD81kg" style="margin-top:2em;float:none;" class="ixp-grid-container ixp-container">
+      <div id="ball_itAsKzx3DN0qfFAfZcrmCFw" class="ixp-grid-row ixp-container">
+       <div id="ball_iENKset5SvkKrQq0dbqgg0Q" class="ixp-grid-col-md-12 ixp-container">
+        <div id="ball_iOxtXTAv0kEmj3ZSTrDkQLg" style="margin-bottom:1em;" class="color-a ixp-text">
+         <p>
+          *Regular per month rate will be charged after the promotional period ends. Offer available to new customers only. All savings based off the published rate.*
+         </p>
+         <p>
+          Need help or have a question about your account? Email customer service at @@emailAddr&nbsp;or&nbsp;call @@csPhone&nbsp;and reference promo code &#39;W-@@promocode&#39;
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="ball_ilFrKhoQVDUC0cV7PxnTWQw" class="ixp-grid-container ixp-container">
+      <div id="ball_i7j8VGmJcIkWzXPd9txAFzg" class="ixp-grid-row ixp-row-xs-12 ixp-container">
+       <div id="ball_i8om05MdeBUC3OqBGW1Wr1w" class="ixp-grid-col-xs-12 ixp-grid-col-sm-3 ixp-grid-col-md-2 ixp-grid-col-lg-3 ixp-container">
+        <div id="ball_iYtpnbp9bEC2tskSWioWDQ" data-ixp-behavior-scope-owner="iYtpnbp9bEC2tskSWioWDQ">
+         <script type="text/javascript">
+          if ('false' == "true") {
+    (function(d,s,id){
+        var dv,fdv=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+            dv=d.createElement(s);
+            dv.id=id;
+            fdv.parentNode.insertBefore(dv,fdv);
+        }
+    }(document,"div","fb-root"));
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+}
+         </script>
+         <div id="iYtpnbp9bEC2tskSWioWDQ" class="lbui_social_share">
+          <!-- TWITTER -->
+          <span class="lbui_share">
+           <!-- Twitter - Share a link -->
+          </span>
+          <span class="lbui_follow">
+           <!-- Twitter - Follow -->
+          </span>
+          <span class="lbui_hashtag">
+           <!-- Twitter - Hashtag -->
+          </span>
+          <span class="lbui_mention">
+           <!-- Twitter - Mention -->
+          </span>
+          <!-- FACEBOOK -->
+          <span class="lbui_like">
+           <!-- Facebook - Like button -->
+          </span>
+          <span class="lbui_subscribe">
+           <!-- Facebook - Subscribe -->
+          </span>
+          <!-- GOOGLE+ -->
+          <span class="lbui_plusone">
+           <!-- Google+ - Plus one -->
+          </span>
+          <!-- LINKEDIN -->
+          <span class="lbui_linkedin">
+           <!-- LinkedIn - Share -->
+          </span>
+          <!-- PINTEREST -->
+          <span class="lbui_pinnit">
+           <!-- Pinterest - Pin It -->
+          </span>
+         </div>
+         <script type="text/javascript">
+          if (!window.plusoneCallback &amp;&amp; 'false' === 'true') {
+    function plusoneCallback(plusoneObj) {
+        if ('false' === 'true') {
+            liveballConvert();
+        }
+        if ('false' === 'true') {
+            liveballTag('GooglePlusOne');
+        }
+    }
+}
+
+if (!window.linkedinCallback &amp;&amp; 'false' == "true") {
+    function linkedinCallback() {
+        var convertMe = ('false' == "true") ? true : false;
+        if (convertMe) { liveballConvert(); }
+        var tagForRespondent = ('false' == "true") ? true : false;
+        if (tagForRespondent != null &amp;&amp; tagForRespondent.length &gt; 2) {
+        liveballTag("LinkedIn Share");}
+    }
+}
+         </script>
+         <script type="text/javascript">
+          (function($) {
+        LBUI.loadPlugin('social_share', $('#iYtpnbp9bEC2tskSWioWDQ'), {
+        // COMMON
+            instanceId: 'iYtpnbp9bEC2tskSWioWDQ',
+            pageUrl: '@@TrafficSourceURL',
+
+        // FACEBOOK
+            likeBtnEnabled: ('false' == "true") ? true : false,
+            likeBtnLayout: 'button_count',
+            likeBtnWidth: '450',
+            likeBtnFaces: 'false',
+            likeBtnAction: 'like',
+            likeBtnScheme: 'light',
+            likeBtnFont: 'arial',
+
+            subscribeEnabled: ('true' == "true") ? true : false,
+            subscribeProfile: '@@facebook',
+            subscribeLayout: 'button_count',
+            subscribeWidth: '450',
+            subscribeFaces: 'false',
+            subscribeScheme: 'light',
+            subscribeFont: 'lucida+grande',
+
+        // TWITTER
+            tweetEnabled: ('false' == "true") ? true : false,
+            tweetConvert: ('false' == "true") ? true : false,
+            tweetTag: ('true' == "true") ? true : false,
+            tweetLayout: 'horizontal',
+            hashValue: '',
+            mentionHandle: '',
+            tweetMessage: '',
+            followEnabled: ('true' == "true") ? true : false,
+            followConvert: ('false' == "true") ? true : false,
+            followTag: ('true' == "true") ? true : false,
+            followCount: 'false',
+            followHandle: '@@twitter',
+
+        // GOOGLE+
+            plusoneEnabled: ('false' == "true") ? true : false,
+            plusoneSize: 'medium',
+            plusoneAnnotation: 'bubble',
+
+        // LINKEDIN
+            linkedinEnabled: ('false' == "true") ? true : false,
+            linkedinBtnType: 'top',
+
+        // PINTEREST
+            pinterestEnabled: ('false' == "true") ? true : false,
+            pinterestBtnType: 'none',
+            pinterestImage: ''
+        });
+    })(window.ixp.runtime.components.dependencies.jQuery.v1_11);
+         </script>
+        </div>
+       </div>
+       <div id="ball_ilrTReMV7NECLdzAn9pS0ZA" class="ixp-grid-col-xs-12 ixp-grid-col-sm-6 ixp-grid-col-md-8 ixp-grid-col-lg-7 ixp-container">
+        <div id="ball_iIW7eJqGfGUKnr86BFVSBcA" style="float:none;">
+         <!--
+Dynamic Footer Links widget
+-->
+         <style>
+          .DynamicFooterLinksDiv {
+    position: relative;
+    overflow: hidden;
+    width: 650px;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+}
+
+.dynamic_footer_link {
+    float: left;
+    text-align: center;
+    margin: 0 25px;
+}
+
+@media (max-width: 992px) {
+    .DynamicFooterLinksDiv {
+        float: none;
+        width: 100%;
+    }
+    .dynamic_footer_link {
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .dynamic_footer_link {
+        font-size: 120%;
+        text-align: left;
+    }
+}
+         </style>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/labjs/2.0.3/LAB.min.js" type="text/javascript">
+         </script>
+         <script type="text/javascript">
+          var $dfl; // our jQuery handler for this widget
+
+$LAB
+.script("//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+.wait(function(){
+    $dfl = jQuery.noConflict(true);
+    renderDynamicFooterLinks.init({});
+});
+
+var renderDynamicFooterLinks = {
+
+    init : function(options){
+            var dflDiv = $dfl(".DynamicFooterLinksDiv");
+            // move the content div out of its ion widget parent container
+            dflDiv.insertAfter(dflDiv.parent().parent().parent().children("div").eq(0));
+            dflDiv.prev().width(dflDiv.prev().width() * .4);
+            
+            // set the links to be based off the traffic source root domain
+            // e.g. test.ioninteractive.com becomes www.ioninteractive.com
+            var trafficSourceUrl = "@@TrafficSourceLabel";
+            var trafficSourceHost = trafficSourceUrl.replace('http://','').replace('https://','').split(/[/?#]/)[0];
+            var trafficSourceDomain = "http://" + trafficSourceHost.substring(trafficSourceHost.indexOf(".") + 1);
+            
+            $dfl(".dynamic_footer_link").each(function() {
+                var footerLink = $dfl(this).find("a");
+                footerLink.attr("href", trafficSourceDomain + footerLink.attr("href"));
+                footerLink.attr("target", "_blank");
+                footerLink.click(function() {
+                    liveballTag($dfl(this).data("liveballtag"));
+                });
+            });
+    }
+
+}
+         </script>
+         <div>
+          <div class="DynamicFooterLinksDiv">
+           <div id="DynamicFooterLinks1" style="border-right:1px none #fff;border-left:1px none #fff;" class="dynamic_footer_link">
+            <a href="/terms" data-liveballtag="Terms of Service">
+            </a>
+            <p style="text-align: center;">
+             <span style="color:##ffffff;">
+              Terms of Service
+             </span>
+            </p>
+           </div>
+           <div id="DynamicFooterLinks2" class="dynamic_footer_link">
+            <a href="/privacy" data-liveballtag="Privacy Policy">
+            </a>
+            <p style="text-align: center;">
+             <span style="color:##ffffff;">
+              Privacy Notice&nbsp;/ Your California Privacy Rights
+             </span>
+            </p>
+           </div>
+           <div id="DynamicFooterLinks3" class="dynamic_footer_link">
+            <a href="/privacy#adchoices" data-liveballtag="Ad Choices">
+            </a>
+            <p style="text-align: center;">
+             <span style="color:##ffffff;">
+              Ad Choices
+             </span>
+            </p>
+           </div>
+          </div>
+          <div style="clear:both;">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div id="ball_idavH2SJ3UKj0sj4YBFIg" class="ixp-grid-col-xs-12 ixp-grid-col-sm-3 ixp-grid-col-md-2 ixp-grid-col-lg-2 ixp-container">
+        <a href="/Director.aspx?sid=14361&amp;sky=122ATT1G&amp;pgi=41268&amp;pgk=DHTVZKYP&amp;eli=9D9A9CCB7CD3C3FB35D5F7F4F119AC387447DFE7E90E5123" target="_blank">
+         <img src="http://1e4e4f866fe9dacf83e3-8fcaeeff6a9d1b268c45b34c024debc1.r77.cf1.rackcdn.com/global/imagelib/shreveport/get-help.png" id="ball_innerib0SpYB0al0yVKZGZK6UZlw" height="30" width="157" border="0" style="margin-top:1em;" class="ixp-image" />
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0028/5945.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+  </script>
+  <script type="text/javascript">
+   if (typeof jQuery == 'undefined') {
+document.write(unescape("%3Cscript src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+  </script>
+  <script>
+   jQuery(document).ready(function($){
+	$('.smooth_scroll').click(function(e) {
+		e.preventDefault();
+	});
+		
+	function scrollTo(id)	{ // Scroll to ID
+	 	$('html,body').animate({scrollTop: $("#"+id).offset().top}, 800);
+	}
+	
+	$('.access_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Unlimited Access - Subscribe");
+	});
+$('.apps_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Easy Apps - Subscribe");
+	});
+  $('.edition_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("E-Edition - Subscribe");
+	});
+    $('.not_member_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Not a Member - Subscribe");
+	});
+  $('.accordion1_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 1 - Subscribe");
+	});
+    $('.accordion2_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 2 - Subscribe");
+	});
+    $('.accordion3_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 3 - Subscribe");
+	});
+    $('.accordion4_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 4 - Subscribe");
+	});
+    $('.accordion5_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 5 - Subscribe");
+	});
+    $('.accordion6_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 6 - Subscribe");
+	});
+    $('.accordion7_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 7 - Subscribe");
+	});
+    $('.accordion8_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 8 - Subscribe");
+	});
+    $('.accordion9_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 9 - Subscribe");
+	});
+    $('.accordion10_subscribe').click(function () {
+		scrollTo("Top");
+		liveballTag("Accordion 10 - Subscribe");
+       });
+	
+      
+  $('.faqsScroll').click(function () {
+		scrollTo("faqs");
+		liveballTag("FAQs");
+  });
+  
+  $('.faqsScroll2').click(function () {
+		scrollTo("faqs");
+		liveballTag("FAQs 2");
+  });
+                  
+                  $('.memberScroll').click(function () {
+		scrollTo("member");
+		liveballTag("Become A Member");
+                  });
+  
+  $('.insiderScroll2').click(function () {
+		scrollTo("member");
+		liveballTag("Learn About Insider");
+                  });
+  
+    $('.insiderScroll3').click(function () {
+		scrollTo("member");
+		liveballTag("Learn More Arrow");
+                  });
+
+                  
+                    $('.offersScroll').click(function () {
+		scrollTo("Top");
+		liveballTag("FOD OFFERS - Subscribe");
+                    });
+});
+  </script>
+ </body>
+</html>

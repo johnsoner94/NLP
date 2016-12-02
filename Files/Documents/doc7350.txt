@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Muhlenberg College World War II Correspondence Collection - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 631742;
+			mySID = 5227004;
+			var myGNAME = "Muhlenberg+College+World+War+II+Correspondence+Collection";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Muhlenberg College World War II Correspondence Collection
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Nov 10, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/wwii">
+          http://libraryguides.muhlenberg.edu/wwii
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_desc_row">
+        <td class="guide_label">
+         Description:
+        </td>
+        <td class="guide_val">
+         Finding aid for Muhlenberg College World War II Correspondence Collection, Trexler Library, Special Collections and Archives.
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=631742">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Susan Falciani
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:sfalciani@muhlenberg.edu">
+           sfalciani@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484.664.3694
+          <br />
+          sfalciani@muhlenberg.edu
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5227004">
+       About the Collection
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5230817">
+       Names of Correspondents
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5230813">
+       Accessing the Collection
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5236425">
+       Related Resources
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_5227004" class="guide_page">
+   <h2>
+    About the Collection
+   </h2>
+   <div id="content_box_19490704" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Charles L. Carter '44
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <a target="_blank" title="Hancock" href="http://libapp.muhlenberg.edu/falciani/LibGuide_hancock_smallish.jpg">
+        <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/libguide_hancock_small.jpg" />
+       </a>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII='); top: 18px; left: 18px;">
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19490573" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Scope and Contents
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Historical Note
+        </span>
+       </strong>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        During World War II, Muhlenberg College staff members Gordon Fister, Director of Public Relations, and John Wagner, Alumni Secretary, corresponded with Muhlenberg students and alumni who were serving in the armed forces. Fister and Wagner attempted to keep current with the addresses of those serving, in order to facilitate communication among the Muhlenberg community. They published a biweekly newsletter which was sent to the troops, and sent gifts of stationery with the image of &ldquo;General Pete&rdquo; Muhlenberg on the letterhead. Wagner himself was on active duty from 1944-46, leaving the bulk of the correspondent responsibilities to Gordon Fister.
+       </span>
+      </p>
+      <p>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Scope
+        </span>
+       </strong>
+      </p>
+      <p>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        The collection comprises correspondence to and from
+        <span style="color: #000000;">
+         262
+        </span>
+        Muhlenberg students and alumni. Carbon copies of Gordon Fister&rsquo;s and John Wagner&rsquo;s replies are included in the folders along with the original letters from the servicemen. Correspondence takes the form of letters, postcards, and V-mail. Folder contents vary from a few change-of-address postcards to detailed letters describing battles and experiences in the European and Pacific theatres, as well as many from men in U.S training camps and medical schools. A few folders contain photographs or newspaper clippings.
+       </span>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Extent
+        </span>
+       </strong>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+        </span>
+       </strong>
+       <span style="font-family: georgia,palatino;">
+        3.1
+       </span>
+       <span style="font-family: georgia,palatino;">
+        linear
+       </span>
+       <span style="font-family: georgia,palatino;">
+        feet
+       </span>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         <br />
+        </span>
+       </strong>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Major - Business  | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Accounting, Business &amp; Economics
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/abe/background.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/">
+               Accounting, Business, Economics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/economics/">
+               Economics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/economics/business/">
+               Business
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/economics/business/major/">
+               Major
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3>
+            Business Program
+           </h3>
+           <p>
+            <strong>
+             Major Requirements:
+            </strong>
+           </p>
+           <p>
+            In order to declare and remain a major in good standing in business administration, a student must achieve and maintain a cumulative grade point average of at least 2.000 in all courses applicable to the major. Once enrolled at Muhlenberg College, students must meet the major requirements by enrolling Muhlenberg courses (i.e., transfer courses are not acceptable).
+           </p>
+           <p>
+            A major in Business Administration must complete 12 courses which consist of the following three components:
+           </p>
+           <p>
+            <strong>
+             Foundations (4 courses &ndash; must be taken at Muhlenberg)
+            </strong>
+            <br />
+            Foundation courses will ordinarily be completed during the first two years. The following courses are required:
+           </p>
+           <p>
+            ECN 101 Principles of Macroeconomics
+            <br />
+            ECN 102 Principles of Microeconomics
+            <br />
+            ACT 101 Financial Accounting
+            <br />
+            MTH 119 Statistical Analysis
+            <span class="style2">
+             OR
+            </span>
+            <br />
+            MTH 331 Mathematical Statistics I
+            <span class="style2">
+             AND
+            </span>
+            MTH 332 Mathematical Statistics II
+           </p>
+           <p>
+            <strong>
+             Core (4 courses &ndash; must be taken at Muhlenberg)
+            </strong>
+            <br />
+            Business Administration majors are expected to complete all four foundation courses before enrolling in any core courses. Typically, the four core courses are taken during two consecutive semesters. Students will usually not enroll in any core courses before the spring semester of the sophomore year, although exceptions are possible for students who have completed their foundation requirements in their first year and for students who wish to complete their core requirements prior to studying abroad in their junior year. The following courses are required:
+           </p>
+           <p>
+            FIN 237 or 238 Corporation Finance
+            <br />
+            BUS 233 or 234 Operations &amp; Information Systems
+            <br />
+            BUS 235 or 236 Management
+            <br />
+            BUS 239 or 240 Marketing
+           </p>
+           <p>
+            <strong>
+             Concentration (4 courses)
+            </strong>
+            <br />
+            Business Administration majors are expected to have completed all four core courses before enrolling in any concentration courses or department approved education abroad program. Ordinarily, concentration courses will be enrolled during the junior and senior years. Participation in a department approved education abroad program is ordinarily done during the junior year.
+           </p>
+           <p>
+            <strong>
+             Maastricht Education Abroad Program (International Business)
+            </strong>
+            <br />
+            The Maastricht education abroad program is specifically designed for department majors who wish to gain an international business perspective. The Maastricht program offers four courses in business and economics, three of which can be used to satisfy the concentration requirement. Students participating in the Maastricht program are encouraged to take additional concentration area courses. The following Maastricht program courses are always available to participating students:
+           </p>
+           <p>
+            MEA 261 European Economic Integration
+            <br />
+            MEA 265 International Management &amp; Business Policy
+            <br />
+            Muhlenberg Special Topics or Regular ABE Course
+            <br />
+            MEA 267 Global Marketing Strategy
+            <br />
+            In addition, all business majors are required to take:
+            <br />
+            BUS 475 CUE: Business Policy &amp; Strategy
+           </p>
+           <p>
+            <strong>
+             Management and Organization Studies
+            </strong>
+            <br />
+            Students must complete the following two courses:
+           </p>
+           <p>
+            BUS 360 or 361 Organizational Behavior
+            <br />
+            BUS 475 CUE: Business Policy &amp; Strategy (second semester senior year)
+            <br />
+            In addition, students must choose two of the following:
+            <br />
+            BUS 284 Sustainability in Business
+            <br />
+            BUS 352 Small Business Management
+            <br />
+            BUS 365 or 365 Leadership
+            <br />
+            PHL 245 Business Ethics
+           </p>
+           <p>
+            <strong>
+             Entrepreneurial Studies
+            </strong>
+            <br />
+            Students must complete the following three courses:
+           </p>
+           <p>
+            BUS 351 Entrepreneurial Studies
+            <br />
+            BUS 433 or 434 Entrepreneurship Policy &amp; Strategy
+            <br />
+            BUS 475 CUE: Business Policy &amp; Strategy
+            <br />
+            In addition, students must complete one of the following courses:
+            <br />
+            BUS 352 Small Business Management
+            <br />
+            BUS 965 Entrepreneurial Practicum
+           </p>
+           <p>
+            <strong>
+             Marketing
+            </strong>
+            <br />
+            Students must complete the following three courses:
+           </p>
+           <p>
+            BUS 341 or 342 Global Marketing
+            <br />
+            BUS 347 or 348 Marketing Research
+            <br />
+            BUS 475 CUE: Business Policy &amp; Strategy
+            <br />
+            In addition, students must choose one of the following:
+            <br />
+            BUS 345 or 346 Marketing Management
+            <br />
+            BUS 260 or 261 Marketing in Not-for-Profit Organizations
+            <br />
+            BUS 304 Electronic Commerce &amp; the Internet
+            <br />
+            <br />
+            <strong>
+             Arts Administration
+            </strong>
+            <br />
+            Students must complete the following two courses:
+           </p>
+           <p>
+            BUS 311 Arts Administration
+            <br />
+            BUS 475 CUE: Business Policy &amp; Strategy
+            <br />
+            In addition, students must choose one of the following two courses:
+            <br />
+            BUS 260 Marketing in Not-for-Profit Organizations
+            <br />
+            BUS 315 Management of Not-for-Profit Organizations
+            <br />
+            In addition, students must choose one of the following:
+            <br />
+            BUS 260 or 261Marketing in Not-for-Profit Organizations
+            <br />
+            BUS 315 Management of Not-for-Profit Organizations
+            <br />
+            COM 312 Media Industries
+            <br />
+            ENG 373 The Literary Marketplace
+            <br />
+            PHL 236 Philosophy &amp; the Arts
+            <br />
+            THR 164 Stage Management
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Accounting, Business &amp; Economics
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/abe/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/business/missionandgoals/">
+            Mission and Goals
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/abe/economics/business/major/">
+             Major
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/business/minor/">
+            Minor
+           </a>
+          </li>
+          <li>
+           <a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=105">
+            Courses
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/business/buseconclub/">
+            BUS/ECON club
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/business/eportfolio/">
+            ePortfolio
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/missionandgoals/"&gt;Mission and Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/abe/economics/business/major/"&gt;Major&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/minor/"&gt;Minor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=105"&gt;Courses&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/buseconclub/"&gt;BUS/ECON club&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/eportfolio/"&gt;ePortfolio&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            The Color of Love
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Sienna Fusco is a Business Administration and Self-Design Major. In the summer of 2015, Sienna was inspired to combine her passions in business, art, and helping others by starting her own business.
+            </span>
+            <div align="right">
+             <a href="/main/academics/abe/siennafusco/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/academics/abe/sm.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

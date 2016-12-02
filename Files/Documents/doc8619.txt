@@ -1,0 +1,1287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Civility &amp; Disobedience Schedule - Civility &amp; Disobedience | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Center for Ethics
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/">
+               Center for Ethics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/">
+               Past Programs
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/civilitydisobedience/">
+               Civility &amp; Disobedience
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/civilitydisobedience/civilitydisobedienceschedule/">
+               Civility &amp; Disobedience Schedule
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div>
+           <div>
+            <img src="/media/contentassets/images/about/cfe/cfe.jpg" alt="Center for Ethics" style="     " />
+           </div>
+           <p align="center">
+            <img src="/media/contentassets/images/academics/biology/CivilityDisobedienceLogo1_002.jpg" alt="Biology" style="     " />
+           </p>
+           <p>
+            Thoreau wrote, &ldquo;Law never made men a whit more just; and, by means of their respect for it, even the well-disposed are daily made the agents of injustice.&rdquo;&nbsp;Societies and organizations depend on compliance and obedience in order to function. Markets suffer if rules are not followed, and societies do not thrive in a state of chaos. But governments and organizations can be morally corrupt; the United States once allowed people to be enslaved, and the tobacco industry deliberately withheld the risks of their potentially lethal product. Under these circumstances, obedience becomes complicity and disobedience becomes the ethical course of action. Thus groups of people and individual whistle-blowers are often called to acts of disobedience and subversion by injustice they observe or experience. Martin Luther&rsquo;s reformation, the American Civil Rights Movement, environmental activism, military draft-resistance, WikiLeaks, Occupy Wall Street, the African National Congress, Gandhi&rsquo;s Indian independence movement, the Chiapas Rebellion, and the Arab Spring all represent significant rebellions against dominant authorities. The targets of dissent are not limited to governments, but also include economic, educational, religious, and social institutions that expect adherence to ideologies. In some cases, individuals and organizations engaged in disobedience may themselves engage in morally questionable activities. When is it ethical to rebel against authority? When do moral causes become more important than the rule of law or compliance with norms? What is the role of dissent in healthy democracies?&nbsp; Should protest always be peaceful or is violence sometimes the right thing to do? When is &ldquo;working within the system&rdquo; the best thing to do?
+           </p>
+           <p>
+            Directed by
+            <a href="/main/academics/polisci/faculty/brianmello/">
+             Brian Mello
+            </a>
+            , Associate Professor of Political Science, and
+            <a href="/main/academics/philosophy/faculty/christinesistare/">
+             Christine Sistare
+            </a>
+            , Professor of Philosophy.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p style="text-align: center;">
+            <strong>
+             <span class="style2">
+              <span style="text-decoration: underline;">
+               FALL 2014 SCHEDULE
+              </span>
+             </span>
+            </strong>
+           </p>
+           <p>
+            <strong>
+             <a href="/media/contentassets/pdf/academics/biology/Fall2014ProgramBrochureFinal.pdf">
+              FALL PROGRAM BROCURE (pdf)
+             </a>
+             &nbsp;
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Tuesday, September 2, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:30PM&nbsp;&nbsp;&nbsp; Miller Forum, Moyer Hall
+            </strong>
+           </p>
+           <ol style="margin-top: 0px; margin-bottom: 0px;">
+            <li>
+             <div>
+              <div>
+               <div>
+                <div>
+                 <div>
+                  <div>
+                   <div>
+                    <div>
+                     <div>
+                      <p>
+                       <strong>
+                        Barbara Cruikshank
+                        <br />
+                       </strong>
+                       U. Mass Amherst
+                      </p>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </li>
+            <li>
+             <div>
+              <div>
+               <div>
+                <div>
+                 <div>
+                  <div>
+                   <div>
+                    <div>
+                     <div>
+                      <div>
+                       <strong>
+                        "Silencing Protest: On the Ethics and Politics of Social Theory"
+                       </strong>
+                      </div>
+                      <div>
+                      </div>
+                      <div>
+                       <em>
+                        <img src="/media/contentassets/images/academics/biology/L_cruikshank_001-176x166.jpg" alt="Biology" style="     " />
+                        Does history make protest or does protest make history? Do protests rise up through the fissures and structural instabilities of systems (e.g., capitalist, liberal, racial, environmental, sex/gender systems)? Or does protest create those fissures and instabilities? Do all the massive protests underway around the world since 2011, starting in Tunisia, share a time frame, an epoch, or are they making a time frame and thus making history? These are central questions of social theory today on the subject of protest. In my inquiry on how the time of protest is conceptualized in social theory, I find that although social theory on the times of protest is typically written by those whose political sympathies align with the protests they study, they have the perverse effect of silencing protest. In the gap between what happens in protest and what is said to have happened in social theory, I find five reasons to reconsider the ethics of social theory.
+                       </em>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </li>
+           </ol>
+           <p>
+            Cruikshank studies the history of reform, social movements, the politics of sex and sexuality, and relations of power and knowledge. She is the author of the forthcoming book
+            <em>
+             Neopolitics: Activism, Reform, and the Practices of Freedom
+            </em>
+            .
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for Barbara Cruikshank
+            </a>
+           </p>
+           <div>
+            <div>
+             <p>
+              <strong>
+               <br />
+               Thursday, Sept. 11, 2014 5:00 - 6:30PM
+               <br />
+               Seegers Great Room
+              </strong>
+             </p>
+            </div>
+            <div>
+             <p>
+              <strong>
+               <img src="/media/contentassets/images/academics/biology/Ferguson.jpg" alt="Biology" style="     " />
+              </strong>
+              <span class="style3" style="color: #333333; font-family: Georgia, Century, Times, serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: #ffffff;">
+               <br />
+               Photo by Michael B. Thomas/Getty Images
+              </span>
+              <strong>
+               <br />
+              </strong>
+             </p>
+             <p>
+              <strong>
+               "Why all the fuss about Ferguson?"
+              </strong>
+              <br />
+              <br />
+             </p>
+            </div>
+            <div>
+             The Multicultural Advisory Board and the Center for Ethics invites you to an interactive discussion led by Professors Mark Wolfmeyer (Education) and Connie Wolfe (Psychology) about the recent protests and police violence in Ferguson, Missouri. This discussion will center around questions of white privilege that have been raised in the aftermath of the killing of Michael Brown.
+            </div>
+            <br />
+            <div>
+             Participants are invited to read Andrew O'Herir's essay,
+             <a href="http://www.salon.com/2014/08/23/white_privilege_an_insidious_virus_thats_eating_america_from_within/">
+              "White Privilege: An Insidious Virus that's Eating America from Within"
+             </a>
+             in advance of the discussion.
+            </div>
+            <br />
+            <div>
+             This event is open to the Muhlenberg campus community.
+            </div>
+            <div>
+             Refreshments to be provided.
+            </div>
+           </div>
+           <p>
+            <strong>
+             <br />
+             Friday, September 12, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             2:00PM&nbsp;&nbsp;&nbsp;&nbsp;Trumbower 130
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Muhlenberg Alumni Activism Panel
+             <br />
+            </strong>
+            <br />
+            &zwnj;Adrian Shanker (&rsquo;09), Alex Lotorto (&rsquo;09), and Kelly Howe (&rsquo;03)
+            <br />
+            Three Muhlenberg graduates discuss different forms of activism.
+            <br />
+            Shanker has been a leading advocate for LGBT rights, including workplace nondiscrimination, marriage equality, and employment benefits. Lotorto has been heavily involved in labor and environmental activism. Howe has been involved with social justice activism through theater.
+            <br />
+            Presented in conjunction with Homecoming Weekend.
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for Activism Panel
+            </a>
+           </p>
+           <p>
+            <br />
+            <strong>
+             Wednesday, September 17, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:30PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miller Forum, Moyer Hall
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Scott Lemieux
+             <br />
+            </strong>
+            St. Rose College
+           </p>
+           <div>
+            <strong>
+             "From the Party of Lincoln to the Party of Calhoun: The Supreme Court and Voting Rights in Historical Perspective"
+            </strong>
+           </div>
+           <div>
+            <p>
+             <em>
+              <br />
+              <strong>
+               <img src="/media/contentassets/images/academics/biology/ScottLemieux-166x174.jpg" alt="Biology" style="     " />
+              </strong>
+              In 2013, the Supreme Court ruled that an important provision of the Voting Rights Act exceeded the powers of Congress. This talk will explain how the Supreme Court came to believe that a statute that passed with nearly unanimous support of Congress and is explicitly authorized by the 15th Amendment was unconstitutional. I will view Shelby County in the context of other attempts by the Supreme Court to limit the ability of Congress to protect civil rights. I will also discuss how mobilization (often in the fact of state violence) was crucial to the original Voting Rights Act, and the potential for mobilization to mitigate the damage of Shelby County.
+             </em>
+             <br />
+             <br />
+             Lemieux writes about blogging as activism and voting rights. His research interests include public law, constitutional law, comparative law and institutions, and American politics. He has written or co-written articles for
+             <em>
+              Polity, Studies in Law, Politics and Society, the Journal of Supreme Court History, the Maryland Law Review
+             </em>
+             , and the
+             <em>
+              American Journal of Comparative Law
+             </em>
+             , and also contributes regularly to the
+             <em>
+              American Prospec
+             </em>
+             t and the
+             <em>
+              Guardian Online
+             </em>
+             .
+             <br />
+             Co-sponsored by the Provost's Office and Political Science for Consitution day.
+             <br />
+             <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+              Library Resources for Scott Lemieux
+             </a>
+            </p>
+           </div>
+           <p>
+            <strong>
+             <br />
+             Monday, September 22, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:30PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recital Hall, Center for the Arts
+             <br />
+             <br />
+            </strong>
+            <em>
+             <strong>
+              <img src="/media/contentassets/images/academics/biology/MollyMaguires-165x222.jpg" alt="Biology" style="     " />
+             </strong>
+             The Molly Maguires
+             <br />
+            </em>
+            Film screening
+            <br />
+            A 1970 film directed by Martin Ritt and starring Sean Connery, Richard Harris and Samantha Eggar,
+            <em>
+             The Molly Maguires
+            </em>
+            is based on the historical secret society of 19
+            <sup>
+             th
+            </sup>
+            century Irish-American coal miners who led a worker&rsquo;s uprising in Pennsylvania coal country. Some of the film scenes were shot in nearby Jim Thorpe.
+            <br />
+            <br />
+           </p>
+           <p>
+            <strong>
+             <br />
+             Tuesday, September 23, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+            </strong>
+            <strong>
+             7:30PM&nbsp;&nbsp;&nbsp;Miller Forum, Moyer Hall
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Erik Loomis
+             <br />
+            </strong>
+            U. Rhode Island
+            <br />
+            <strong>
+             "Resistance in the Pennsylvania Coal Country: Past and Present"
+            </strong>
+           </p>
+           <p>
+            <em>
+             <strong>
+              <img src="/media/contentassets/images/academics/biology/ErikLoomis-131x202.jpg" alt="Biology" style="     " />
+             </strong>
+             This talk will provide a quick history of resistance among the peoples of the Pennsylvania coal fields from the 19th century to the present, focusing on how corporate domination of the area, its people, and its natural resources has shaped residents' responses to the challenges of living in this resource-rich region. From the first coal strikes in the mid 19th century to the protests over fracking and President Obama's so-called "war on coal" today, the need to make a living and the desire to live in a safe and healthy environment has defined responses to the coal companies, making the lack of economic options a century ago and in the present vital to understanding why working people ally themselves with the coal companies who exploit them.
+            </em>
+            <br />
+            <br />
+            Loomis studies U.S. environmental history and labor activism. He is working on the forthcoming book
+            <em>
+             Empire of Timber: Work and Nature in the Pacific Northwest Forests
+            </em>
+            . This visit will include a field trip to tour Pennsylvania coal mine country on Wednesday Sept 24 and will reference the
+            <em>
+             Molly Maguires
+            </em>
+            film screening the previous evening.
+            <br />
+            <br />
+           </p>
+           <p>
+            <strong>
+             Wednesday, September 24, 2014&nbsp;
+            </strong>
+            <br />
+            <strong>
+             11 AM to 3:30 PM
+            </strong>
+           </p>
+           <p>
+            <strong>
+             <img src="/media/contentassets/images/academics/biology/photominetour.jpg" alt="Biology" style="     " />
+             Pennsylvania Mine Tour
+             <br />
+            </strong>
+            It's a Center for Ethics field trip! Join Center for Ethics speaker Erik Loomis for a bus trip and tour of the Pioneer Tunnel Coal Mine in Ashland, PA. You can reserve a seat for just $5 with
+            <a href="mailto:buechler@muhlenberg.edu">
+             Beth Buechler
+            </a>
+            (Center for the Arts 174).
+            <br />
+            <br />
+           </p>
+           <p>
+            <strong>
+             Saturday, October 11, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             8:00PM&nbsp;&nbsp; Baker Theatre, Trexler Pavilion
+            </strong>
+            <br />
+            **A TICKETED PERFORMANCE-- see below**
+           </p>
+           <p>
+            <strong>
+             <em>
+             </em>
+            </strong>
+            <strong>
+             She Said
+             <br />
+             Ursula Rucker Live
+            </strong>
+            <br />
+            Ursula Rucker
+            <br />
+            Writer/Performer
+            <br />
+            <br />
+            <br />
+            Poet. Performer. Hip-hop recording artist. Shamaness. The outspoken Ursula Rucker brings her civil but disobedient &ldquo;she-lectricity&rdquo; back to Muhlenberg for a night of original genre-defying performance. Part hip-hop show, part poetry-slam, part indefinable theatrical ritual, Rucker&rsquo;s
+            <em>
+             She Said
+            </em>
+            is a new-jazz tour-of-duty onto the battlefields of social injustice, race and gender.
+           </p>
+           <p>
+            Ursula Rucker is a poet and hip-hop recording artist whose work deals with confronting social injustice, especially as it relates to race and womanhood. She has released 5 critically acclaimed solo albums, and her musical collaborations include work with the Roots, the Silent Poets, King Britt and Josh Wink. She has toured extensively and is featured in the 2008 film
+            <em>
+             The Black Candle
+            </em>
+            , narrated by Maya Angelou. Co-sponsored by the Department of Theatre &amp; Dance.
+            <br />
+            <br />
+            <span class="content-box">
+             <strong>
+              URSULA RUCKER LIVE is TICKETED EVENT.
+             </strong>
+             Everyone must hold a ticket to attend. Tickets (one per student) are FREE for Muhlenberg students, faculty and staff. Tickets for the general public are $5 (general admission).
+             <br />
+            </span>
+            <a href="/media/contentassets/pdf/academics/biology/UrsulaRuckerFall2014Events.pdf">
+             URSULA RUCKER EVENTS FLYER (pdf)
+            </a>
+            <br />
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for Ursula Rucker
+            </a>
+           </p>
+           <p>
+            <strong>
+             <br />
+             Monday, October 20, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:30PM &nbsp; Miller Forum, Moyer Hall
+            </strong>
+           </p>
+           <p>
+            <strong>
+             David Pellow
+             <br />
+            </strong>
+            U. Minnesota
+            <br />
+            <strong>
+             "Radical Politics, State Repression, and the Problem of &lsquo;Eco-Terrorism&rsquo;"
+             <br />
+             <br />
+            </strong>
+            <em>
+             <img src="/media/contentassets/images/academics/biology/Pellow-254x189.jpg" alt="Biology" style="     " />
+             To what extent are radical environmental and animal liberation movements also struggles over social inequality? In other words, to what degree are these movements that are typically seen as primarily focused on defending nonhuman animals and ecosystems also confronting oppression within human communities? What are the implications of the &lsquo;eco-terrorist&rsquo; label that states, corporations, and media impose on these groups? I consider these questions in relation to broader historical patterns of social movement struggles against oppression and the phenomenon of state repression directed at dissident groups. I conclude with a discussion of the productive links between radical earth and animal liberation movements and environmental justice movements
+            </em>
+            <strong>
+             .
+             <br />
+             <br />
+            </strong>
+            David Pellow's interests include environmental justice studies, racial and ethnic inequality, transnational social movements, and labor studies. He is the author of the forthcoming book Total Liberation: The Power and Promise and Animal Rights and the Radical Earth Movement.
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for David Pellow
+            </a>
+           </p>
+           <br />
+           <p>
+            <strong>
+             Tuesday, October 21, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             8:00 PM&nbsp;&nbsp;&nbsp;Red Door Cafe
+             <br />
+             <img src="/media/migration-feb10094351/main/aboutus/cfe/currentprograms/wearehere-450x345.jpeg" alt="Center for Ethics" style="     " />
+             <br />
+             We.Are.Here.
+             <br />
+            </strong>
+            <em>
+             An evening of original performance by Muhlenberg students, curated by Ursula Rucker.
+            </em>
+            <br />
+            Guest artist Ursula Rucker premieres an evening of new spoken-word performances created by the First Year students in Muhlenberg's Emerging Leaders program. Set to live music and themed on notions of civility, disobedience and identity. Co-sponsored by Theatre and Dance.
+            <a href="/media/contentassets/pdf/academics/biology/UrsulaRuckerFall2014Events.pdf">
+             FLYER (pdf)
+            </a>
+            .
+           </p>
+           <br />
+           <p>
+            <strong>
+             <img src="/media/contentassets/images/academics/biology/carrolbogert-150x205.jpg" alt="Biology" style="     " />
+             Monday, October 27, 2014
+             <br />
+             7:30 PM &nbsp; Miller Forum Moyer Hall
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Carroll Bogert
+             <br />
+            </strong>
+            Deputy Executive Director of
+            <br />
+            Human Rights Watch
+           </p>
+           <div>
+            <em>
+             <strong>
+              "Can the U.S. Lead on Human Rights in the 21st Century?"
+             </strong>
+            </em>
+           </div>
+           <div>
+            <p>
+             <em>
+              What do U.S. policy and U.S. actions on human rights look like in the 21st century? Does the U.S. possess the means to meaningfully protect human rights in such places as China, Russia, and the Middle East? Does the U.S. have the moral standing to intervene around the world in support of human rights? What is the U.S. role right now? What could it be?
+             </em>
+            </p>
+           </div>
+           <p>
+            Bogert studies human rights in the U.S. and abroad and media coverage of protest and human rights issues. Bogert is the 2014 Woodrow Wilson Visiting Fellow.
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for Carroll Bogert
+            </a>
+            <br />
+            A DVD of Carroll Bogert's talk is on reserve at Trexler Library under "Center for Ethics."
+           </p>
+           <div>
+            <p>
+             <strong>
+              Wednesday, Oct 29, 2014
+              <br />
+              8:00 PM Seegers 113
+             </strong>
+            </p>
+            <p>
+             <em>
+              <strong>
+               E-Team
+              </strong>
+             </em>
+             <br />
+             A film Screening with Woodrow Wilson Fellow Caroll Boegert of Human Rights Watch
+            </p>
+            <p>
+             This documentary film, released by Netflix, was made by Ross Kauffman and Katy Chevigny and won the 2014 Sundance Film Festival Award for Cinematography in a U.S. Documentary. Following the film, Bogert will lead a Q and A session.
+             <br />
+             <img src="/media/contentassets/images/academics/biology/ETeamFilm_001-394x253.png" alt="Biology" style="     " />
+             <br />
+             Anna, Ole, Fred and Peter are four members of the Emergencies Team - or E-Team - the most intrepid division of a respected, international human rights group (Human Rights Watch). Trained to deal with unfolding crises, the E-Team flies to hotspots all over the world as soon as allegations of human rights abuse surface. The documentary follows the E-Team members to Syria and Libya, where they uncover evidence of human rights violations. Cinematographer James Foley, who was murdered by ISIS in August 2014 contributed to the film.
+            </p>
+           </div>
+           <div>
+            <a href="http://www.eteamfilm.com/#!home/mainPage">
+             http://www.eteamfilm.com/#!home/mainPage
+            </a>
+           </div>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             Thursday, Nov 13, 2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:00 PM
+            </strong>
+            &nbsp;
+            <strong>
+             Miller Forum Moyer Hall
+            </strong>
+           </p>
+           <p>
+            <strong>
+             <img src="/media/contentassets/images/academics/biology/NancyFraser-150x225.jpg" alt="Biology" style="     " />
+             Nancy Fraser
+             <br />
+            </strong>
+            The New School
+            <br />
+            <em>
+             <strong>
+              "Can Society Be Commodities All the Way Down?"
+             </strong>
+            </em>
+            <br />
+            <br />
+            Fraser is a critical theorist who studies justice and feminism. She is the author of
+            <em>
+             Fortunes of Feminism: From State-Managed Capitalism to Neoliberal Crisis.
+            </em>
+            Co-sponsored by Women&rsquo;s Studies.
+            <br />
+            <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+             Library Resources for Nancy Fraser
+            </a>
+           </p>
+           <p align="center">
+            <strong style="margin-top: 0; margin-bottom: 0;">
+             &nbsp;
+            </strong>
+           </p>
+           <p style="margin-bottom: 0;">
+            &nbsp;
+           </p>
+           <p>
+            <span>
+             <strong>
+              <span class="style2">
+               <span style="text-decoration: underline;">
+                <br />
+                SPRING 2015 SCHEDULE
+               </span>
+              </span>
+             </strong>
+            </span>
+           </p>
+           <p>
+            <strong>
+             Monday, January 19, 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="/media/contentassets/images/cfe/Training-for-Change.jpg" alt="" style="     float : right;" />
+             <br />
+             <br />
+             10AM-3PM&nbsp;&nbsp;&nbsp;Seegers 111-112
+             <br />
+            </strong>
+            <strong>
+             <em>
+              Training for Change&nbsp;
+              <br />
+             </em>
+            </strong>
+            An activism workshop for students, staff and members of the community. Training for Change will provide activist training for groups standing up for social, economic, and environmental justice through strategic nonviolence.&nbsp;
+            <br />
+            <strong>
+             <br />
+             <br />
+             Wednesday, March 11, 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+             7:30 PM&nbsp; Miller Forum, Moyer Hall
+             <img src="/media/contentassets/images/cfe/Eboo-Patel.jpg" alt="" style="     float : right;" />
+             <br />
+             <br />
+            </strong>
+            <strong>
+             Eboo Patel
+             <br />
+             <em>
+              Civil Discourse: Promoting Social Change through Interfaith Action
+              <br />
+             </em>
+            </strong>
+            Eboo Patel is a member of President Barack Obama's inaugural Advisory Council on Faith-Based Neighborhood Partnerships and president of the Interfaith Youth Core. Religious and non-religious identities can serve as a bridge of cooperation rather than a bariier of division. In an increasingly pluralistic society, what knowledge base and skill do we need to create these bridges? Patel's answer is interfaith leadership: the ability to voice values, engage diversity, and act on behalf of the common good.&nbsp;
+            <em>
+             Co-sponsored by Chaplain's Office.
+             <br />
+            </em>
+            <strong>
+             <br />
+            </strong>
+            <strong>
+             Tuesday March 31, 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="/media/contentassets/images/cfe/Amaney-Jamal.jpg" alt="" style="     float : right;" />
+             <br />
+             <br />
+             7:30 PM Miller Forum, Moyer Hall
+             <br />
+            </strong>
+            <strong>
+             Amaney Jamal
+            </strong>
+            <br />
+            Princeton University&nbsp;
+            <br />
+            Amaney Jamal is Professor of Politics at Princeton University and director of the Mamdouha S. Bobst Center for Peace and Justice. Her books include&nbsp;
+            <em>
+             Barriers to Democracy
+            </em>
+            , which explores the role of civic associations in promoting democratic effects in the Arab world. Jamal's talk will examine various aspects of civility and disobedience within Palestinian politics.
+           </p>
+           <p>
+            <strong>
+             Wednesday, April 15, 2015&nbsp;
+             <img src="/media/contentassets/images/cfe/Donna-Murch.jpg" alt="" style="     float : right;" />
+             <br />
+             <br />
+            </strong>
+            <strong>
+             7:30 PM&nbsp;&nbsp;Seegers Event Space
+             <br />
+            </strong>
+            <strong>
+             Donna Murch
+            </strong>
+            <br />
+            Rutgers University&nbsp;
+            <br />
+            Donna Murch is Associate Professor of History at Rutgers University. Her interests include the urban history of California and New York; Civil Rights, Black Power and postwar social movements; history of policing and prisons; and the political economy of drugs.&nbsp;&nbsp;
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Center for Ethics
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/cfe/">
+            Home
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/cfe/pastprograms/influenceinformation/"&gt;Influence &amp; Information&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/cfe/pastprograms/living-learningexperience/"&gt;Living-Learning Experience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

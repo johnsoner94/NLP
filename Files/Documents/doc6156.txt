@@ -1,0 +1,2909 @@
+<!-- -->
+<!doctype html>
+<!--[if lt IE 7]&gt; &lt;html class="no-js ie6 oldie" lang="en"&gt; &lt;![endif]-->
+<!--[if IE 7]&gt;    &lt;html class="no-js ie7 oldie" lang="en"&gt; &lt;![endif]-->
+<!--[if IE 8]&gt;    &lt;html class="no-js ie8 oldie" lang="en"&gt; &lt;![endif]-->
+<!--[if IE 9]&gt;    &lt;html class="no-js ie9 oldie" lang="en"&gt; &lt;![endif]-->
+<!--[if gt IE 9]&gt;&lt;!-->
+<html class="no-js" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+ <!--&lt;![endif]-->
+ <head id="MainHead">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+   MuhlenbergConnect - First-Time Login
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/s/resources/pikabu/pikabu.css" />
+  <link id="MainStyle" rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="shortcut icon" href="images/mc16x16.png" type="images/png" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <!-- SV: A~1WEB243#Re // -->
+  <script id="MainScript" language="javascript">
+  </script>
+  <link href="/WebResource.axd?d=EFjvvw03I-qWJ1M2kiKip5Ii7AXnvaVv3e8HSNejDc75KvPsN3mu55QtWiz-_09klvvN_rqT7FuIzyFiK-UxH6gErx0wNQR53Gfxnc3SegyWlyeCJmQQ2xUueXqz7tjtILpBBw2&amp;t=636149971640000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+  <link href="/WebResource.axd?d=iRvtG_52nRe3qtmT7s2t76ibwVnr81yUsXWFJw7T_J_09KXSwVB7D-Mh9NhHvfwrGZyMzObTRApH941b5Q4RCGkZRjtrgeH3jJUq-OOJ-E4oN0UdFCFf3Ivm7KtnuABmzYQ9eBolvpdKXZlGxEwWAYlQpcY1&amp;t=636149971640000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/css/calendar.min.css?v=57.7.0.10285" media="all" />
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/2.1.5/jquery.fancybox.css?v=57.7.0.10285" media="all" />
+  <link rel="stylesheet" type="text/css" href="/css/controls/cms_v2/cms_menubar_v2.min.css?v=57.7.0.10285" media="all" />
+  <link rel="stylesheet" type="text/css" href="/css/controls/cms_v2/menu/css/compiled.min.css?v=57.7.0.10285" media="all" />
+ </head>
+ <body id="MainBody" class="IMOD8">
+  <form name="MainForm" method="post" action="./index.aspx?sid=1570&amp;gid=2&amp;returnUrl=http%3a%2f%2fwww.muhlenbergconnect.com%2fs%2f1570%2findex.aspx%3fsid%3d1570%26gid%3d2%26pgid%3d2079%26cid%3d5080%26ecid%3d5080%26crid%3d0%26calpgid%3d61%26calcid%3d3593%26no_cookie%3d1&amp;pgid=8&amp;cid=46&amp;no_cookie=1" id="MainForm">
+   <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+   <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" type="text/javascript">
+   </script>
+   <script src="https://securelb.imodules.com/scripts/Bundles/DefaultPageBundle.debug.js?jsversion=57.7.0.10285" type="text/javascript">
+   </script>
+   <script type="text/javascript">
+    //&lt;![CDATA[
+GroupQueryString = 'sid=1570&amp;gid=2';
+
+function addDateSelected(datePicker, timePicker, dateSelectedFunction)
+{
+	if (dateSelectedFunction !== null &amp;&amp; typeof(dateSelectedFunction) !== 'undefined')
+	{
+		if (datePicker !== null)
+		{
+			datePicker.add_dateSelected(dateSelectedFunction);
+		}
+
+		if (timePicker !== null)
+		{
+			timePicker.add_dateSelected(dateSelectedFunction);
+		}
+	}
+}
+
+function removeDateSelected(datePicker, timePicker, dateSelectedFunction)
+{
+	if (dateSelectedFunction !== null &amp;&amp; typeof(dateSelectedFunction) !== 'undefined')
+	{
+		if (datePicker !== null)
+		{
+			datePicker.remove_dateSelected(dateSelectedFunction);
+		}
+
+		if (timePicker !== null)
+		{
+			timePicker.remove_dateSelected(dateSelectedFunction);
+		}
+	}
+}
+
+function setDateAndTime(datePicker, timePicker, dateSelectedFunction, value)
+{
+	// disable the onchange event for the date and time textboxes
+	removeDateSelected(datePicker, timePicker, dateSelectedFunction);
+	
+	// set the date textbox value
+	if (datePicker !== null)
+	{
+		datePicker.set_selectedDate(value);
+	}
+
+	// set the time textbox value
+	if (timePicker !== null)
+	{
+		timePicker.set_selectedDate(value);
+	}
+
+	// enable the onchange event for the date and time textboxes
+	addDateSelected(datePicker, timePicker, dateSelectedFunction);
+}
+
+function getTimezoneOffset()
+{
+	var now = new Date(),
+		offset;
+
+	// get the default timezone offset (always use the client settings)
+	offset = (0 - (now.getTimezoneOffset() / 60));
+	
+	// determine if we have an available zones array and a timezone control
+	if (zones &amp;&amp; jQuery('.timezoneSelect').length === 1)
+	{
+		// get the offset from the zones array using the index of the selected option in the timezone select
+		offset = parseFloat(zones[jQuery('.timezoneSelect')[0].selectedIndex]);
+		
+		// round up to the greatest integer
+		offset = Math.ceil(Math.abs(offset)) * (offset &lt; 0 ? -1 : 1);
+	}
+	
+	return offset;
+}
+
+function calculateAdjustedDateAndTime(roundUpHours, roundUpMinutes)
+{
+	// initialize offset, current date, and hours to round up
+	var selectedOffset = getTimezoneOffset(),
+		now = new Date(),
+		roundUpHours = roundUpHours;
+
+	// get the hours adjusted for the selected UTC offset
+	var adjustedHours = selectedOffset === 0 ? now.getUTCHours() : (now.getUTCHours() + selectedOffset);
+
+	// bump the hours by the specified amount
+	adjustedHours += roundUpHours;
+
+	var adjustedMinutes = 0;
+	if (roundUpMinutes &gt; 0)
+	{	
+		// note that the Date construtor is smart enough to made minute values greater than 59, adjusting the hour,
+		//   so no additional code is required here
+		adjustedMinutes = now.getUTCMinutes() + roundUpMinutes;
+	}
+
+	// calculate the adjusted date
+	return new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), adjustedHours, adjustedMinutes, 0, 0);
+}
+
+function calculateSelectedDateAndTime(datePicker, timePicker, roundUpMinutes)
+{
+	var selectedDate = new Date(),
+		selectedTime = new Date(),
+		year = 1753,
+		month = 0,
+		date = 1,
+		hours = 0,
+		minutes = 0;
+	
+	// get the selected date from the date textbox
+	if (datePicker !== null)
+	{	
+		selectedDate = datePicker.get_selectedDate();
+	}
+
+	if (selectedDate !== null)
+	{
+		year = selectedDate.getFullYear();
+		month = selectedDate.getMonth();
+		date = selectedDate.getDate();
+	}
+	
+	// get the selected time (the hour really) from the time textbox
+	if (timePicker !== null)
+	{
+		selectedTime = timePicker.get_selectedDate();			
+	}
+	
+	if (selectedTime !== null)
+	{
+		hours = selectedTime.getHours();
+		if (roundUpMinutes &gt; 0)
+		{	
+			minutes = selectedTime.getMinutes();
+		}
+	}
+
+	return new Date(year, month, date, hours, minutes, 0, 0);
+}
+
+function cid_46_dtLookup_onKeyPress(sender, args)
+{
+	var datePicker = $find('cid_46_dtLookup_radD'),
+		timePicker = $find('cid_46_dtLookup_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtLookup_ensureDateAndTime) === 'undefined' ? null : cid_46_dtLookup_ensureDateAndTime;
+
+	if (args.get_keyCharacter().toLowerCase() === 't')
+	{
+		args.set_cancel(true);
+
+		var today = new Date(),
+			roundUpHours = 0,
+			roundUpMinutes = 0;
+
+		if (roundUpHours &gt; 0 || roundUpMinutes &gt; 0)
+		{
+			today = calculateAdjustedDateAndTime(roundUpHours, roundUpMinutes);
+		}
+		
+		setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, today);
+	}
+}
+
+function cid_46_dtLookup_GetDate()
+{
+	var datePicker = $find('cid_46_dtLookup_radD'),
+		timePicker = $find('cid_46_dtLookup_radT'),
+		selectedDate = null,
+		selectedTime = null;
+
+	if (datePicker !== null)
+	{
+		selectedDate = datePicker.get_selectedDate();
+	}
+
+	if (timePicker !== null)
+	{
+		selectedTime = timePicker.get_selectedTime();
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), selectedTime.getHours(), 0, 0, 0);
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime === null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), 0, 0, 0, 0);
+	}
+
+	if (selectedDate === null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(1, 1, 1, selectedTime.getHours(), 0, 0, 0);
+	}
+}
+
+function cid_46_dtLookup_SetDate(date)
+{
+	var datePicker = $find('cid_46_dtLookup_radD'),
+		timePicker = $find('cid_46_dtLookup_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtLookup_ensureDateAndTime) === 'undefined' ? null : cid_46_dtLookup_ensureDateAndTime;
+
+	setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, date);
+}
+
+function cid_46_dtLookup2_onKeyPress(sender, args)
+{
+	var datePicker = $find('cid_46_dtLookup2_radD'),
+		timePicker = $find('cid_46_dtLookup2_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtLookup2_ensureDateAndTime) === 'undefined' ? null : cid_46_dtLookup2_ensureDateAndTime;
+
+	if (args.get_keyCharacter().toLowerCase() === 't')
+	{
+		args.set_cancel(true);
+
+		var today = new Date(),
+			roundUpHours = 0,
+			roundUpMinutes = 0;
+
+		if (roundUpHours &gt; 0 || roundUpMinutes &gt; 0)
+		{
+			today = calculateAdjustedDateAndTime(roundUpHours, roundUpMinutes);
+		}
+		
+		setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, today);
+	}
+}
+
+function cid_46_dtLookup2_GetDate()
+{
+	var datePicker = $find('cid_46_dtLookup2_radD'),
+		timePicker = $find('cid_46_dtLookup2_radT'),
+		selectedDate = null,
+		selectedTime = null;
+
+	if (datePicker !== null)
+	{
+		selectedDate = datePicker.get_selectedDate();
+	}
+
+	if (timePicker !== null)
+	{
+		selectedTime = timePicker.get_selectedTime();
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), selectedTime.getHours(), 0, 0, 0);
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime === null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), 0, 0, 0, 0);
+	}
+
+	if (selectedDate === null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(1, 1, 1, selectedTime.getHours(), 0, 0, 0);
+	}
+}
+
+function cid_46_dtLookup2_SetDate(date)
+{
+	var datePicker = $find('cid_46_dtLookup2_radD'),
+		timePicker = $find('cid_46_dtLookup2_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtLookup2_ensureDateAndTime) === 'undefined' ? null : cid_46_dtLookup2_ensureDateAndTime;
+
+	setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, date);
+}
+
+function cid_46_dtVerify1_onKeyPress(sender, args)
+{
+	var datePicker = $find('cid_46_dtVerify1_radD'),
+		timePicker = $find('cid_46_dtVerify1_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtVerify1_ensureDateAndTime) === 'undefined' ? null : cid_46_dtVerify1_ensureDateAndTime;
+
+	if (args.get_keyCharacter().toLowerCase() === 't')
+	{
+		args.set_cancel(true);
+
+		var today = new Date(),
+			roundUpHours = 0,
+			roundUpMinutes = 0;
+
+		if (roundUpHours &gt; 0 || roundUpMinutes &gt; 0)
+		{
+			today = calculateAdjustedDateAndTime(roundUpHours, roundUpMinutes);
+		}
+		
+		setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, today);
+	}
+}
+
+function cid_46_dtVerify1_GetDate()
+{
+	var datePicker = $find('cid_46_dtVerify1_radD'),
+		timePicker = $find('cid_46_dtVerify1_radT'),
+		selectedDate = null,
+		selectedTime = null;
+
+	if (datePicker !== null)
+	{
+		selectedDate = datePicker.get_selectedDate();
+	}
+
+	if (timePicker !== null)
+	{
+		selectedTime = timePicker.get_selectedTime();
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), selectedTime.getHours(), 0, 0, 0);
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime === null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), 0, 0, 0, 0);
+	}
+
+	if (selectedDate === null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(1, 1, 1, selectedTime.getHours(), 0, 0, 0);
+	}
+}
+
+function cid_46_dtVerify1_SetDate(date)
+{
+	var datePicker = $find('cid_46_dtVerify1_radD'),
+		timePicker = $find('cid_46_dtVerify1_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtVerify1_ensureDateAndTime) === 'undefined' ? null : cid_46_dtVerify1_ensureDateAndTime;
+
+	setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, date);
+}
+
+function cid_46_dtVerify2_onKeyPress(sender, args)
+{
+	var datePicker = $find('cid_46_dtVerify2_radD'),
+		timePicker = $find('cid_46_dtVerify2_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtVerify2_ensureDateAndTime) === 'undefined' ? null : cid_46_dtVerify2_ensureDateAndTime;
+
+	if (args.get_keyCharacter().toLowerCase() === 't')
+	{
+		args.set_cancel(true);
+
+		var today = new Date(),
+			roundUpHours = 0,
+			roundUpMinutes = 0;
+
+		if (roundUpHours &gt; 0 || roundUpMinutes &gt; 0)
+		{
+			today = calculateAdjustedDateAndTime(roundUpHours, roundUpMinutes);
+		}
+		
+		setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, today);
+	}
+}
+
+function cid_46_dtVerify2_GetDate()
+{
+	var datePicker = $find('cid_46_dtVerify2_radD'),
+		timePicker = $find('cid_46_dtVerify2_radT'),
+		selectedDate = null,
+		selectedTime = null;
+
+	if (datePicker !== null)
+	{
+		selectedDate = datePicker.get_selectedDate();
+	}
+
+	if (timePicker !== null)
+	{
+		selectedTime = timePicker.get_selectedTime();
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), selectedTime.getHours(), 0, 0, 0);
+	}
+
+	if (selectedDate !== null &amp;&amp; selectedTime === null)
+	{
+		return new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate(), 0, 0, 0, 0);
+	}
+
+	if (selectedDate === null &amp;&amp; selectedTime !== null)
+	{
+		return new Date(1, 1, 1, selectedTime.getHours(), 0, 0, 0);
+	}
+}
+
+function cid_46_dtVerify2_SetDate(date)
+{
+	var datePicker = $find('cid_46_dtVerify2_radD'),
+		timePicker = $find('cid_46_dtVerify2_radT'),
+		ensureDateAndTimeCallBack = typeof(cid_46_dtVerify2_ensureDateAndTime) === 'undefined' ? null : cid_46_dtVerify2_ensureDateAndTime;
+
+	setDateAndTime(datePicker, timePicker, ensureDateAndTimeCallBack, date);
+}//]]&gt;
+   </script>
+   <script>
+    imod.dom.AddHandler(window, "load", CreateFloaterDiv); 	
+
+	var CalendarControlASCX = {};
+	CalendarControlASCX.OpenWindow = function(sPrmUrl, w, h, sPrmProperties, iPrmCenterMode) {
+		if (window.CmsMenuBar != null)
+			CmsMenuBar.OpenSubWindow(sPrmUrl, w, h);
+		else
+			imod_OpenWindow(sPrmUrl, w, h, sPrmProperties, iPrmCenterMode);
+	}
+	
+	function CreateFloaterDiv() {
+		window.fd = new imod_FloaterDiv("FloaterDivTitle", "FloaterDivText","","true","","");
+		fd.Width = 400;
+		fd.Height = 200;
+	}
+   </script>
+   <script type="text/javascript">
+    var _gaq = _gaq || [];
+						_gaq.push(['_setAccount', 'UA-42218740-1']); _gaq.push(['_trackPageview']);
+						(function() {
+						var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+						'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(ga, s);
+						})();
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3597() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3597, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3597","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3597&amp;calpgid=8&amp;pgid=252&amp;ecid=3650&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 1&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3597);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3597_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3598() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3598, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3598","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3598&amp;calpgid=8&amp;pgid=252&amp;ecid=3604&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 2&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3598);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3598_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3599() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3599, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3599","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3599&amp;calpgid=8&amp;pgid=252&amp;ecid=3607&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 3&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3599);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3599_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3600() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3600, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3600","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3600&amp;calpgid=8&amp;pgid=252&amp;ecid=3608&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 4&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3600);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3600_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3601() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3601, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3601","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3601&amp;calpgid=8&amp;pgid=252&amp;ecid=3606&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 5&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3601);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3601_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script>
+    function LoadCMSCalendarData_RadCalcid_3602() {
+ if(!window.fd)
+{
+setTimeout(LoadCMSCalendarData_RadCalcid_3602, 100);
+return;
+}
+fd.AddContent("4/13/2015RadCalcid_3602","4/13/2015","&lt;div class=\\\"FloaterDivContentItem\\\"&gt;&lt;b&gt;&lt;a href=\"http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;calcid=3602&amp;calpgid=8&amp;pgid=252&amp;ecid=3605&amp;crid=0&amp;cid=46\"&gt;Mega Nav Pic 6&lt;/a&gt;&lt;/b&gt;&nbsp;&lt;br&gt;Date: 4/13/2015&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=""&gt;Continued...&lt;/a&gt;&lt;/div&gt;");
+}
+imod.dom.AddHandler(window, "load", LoadCMSCalendarData_RadCalcid_3602);
+   </script>
+   <script type="text/javascript">
+    function RadCalendar3602_OnDateSelecting(renderDay, isSelected){ 
+	return false;
+}
+   </script>
+   <script src="/s/resources/jquery/modernizr-latest.js" type="text/javascript">
+   </script>
+   <script src="js/jquery.columnizer.js" type="text/javascript">
+   </script>
+   <script src="js/imods.custom.js" type="text/javascript">
+   </script>
+   <script src="/s/resources/jquery/jquery.bxslider.responsive.min.js" type="text/javascript">
+   </script>
+   <script src="js/navAccordion.js" type="text/javascript">
+   </script>
+   <script src="/s/resources/pikabu/pikabu.min.js" type="text/javascript">
+   </script>
+   <script src="/s/resources/pikabu/pikabu-init.js" type="text/javascript">
+   </script>
+   <script src="https://securelb.imodules.com/scripts/enc-18167.js?jsversion=57.7.0.10285" type="text/javascript">
+   </script>
+   <script src="https://securelb.imodules.com/scripts/Common/imod_FloaterDiv.js?jsversion=57.7.0.10285" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yFhCMw_S-r0zhQsbjHJmwKx-8XDzSgq8KTwnESiunUaVWFPlWmucrWEV8lxENre1jsuG9Xnc5bHR7sRCcZJn3-BLyvzJ-RsZ7249bE4aEhzfzXxoxoW2CVPbGy33b35Q4EN-dvE1&amp;t=ffffffffd416f7fc" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdr7QdbKXW3dDZ5hFjlZySKG_2o_4rRrjMVr6QXZiYTzi4_dbTjBNCxsOVqyyckFsxBDhHu5rSu53YV2vUFRLkdJ5DUVV0&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=Taq5viT0lCo7nhcwUrcGxw021RuK1JhsINmICj9BEv2DwdlL5myBKS7YcjFEO0jT4SNvnBuARV3AduwPtYTTw3KHenXSnkrFdW1lLDkpfpPHMK9bvI4HkazxeP8b8gtikZueZA2&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjF_O7BssOFDr8pNLwqS2sR6QHWmTomq06H6lufyGP31UlbK3jLfxrASkF7M6427RH6v7gnb_xA4J-9uVujP1h2gzrOnwlE7aarflxw2TgwRpOaqakGQ2&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=dnHi0nMgDDe1Bo6v1KTdpGlyWfftcrCW7gnOm_ghpFTKQPAMy1nvdh17NtVu0Qw1h3PULB4g2bb0UUpVT00UB9qqy65zU6Aw-VQhz8fejXRZlf_zN_v1Zy_5D7q-MQlBWzOfZA2&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=U8OMYmPzb2LbIsKauUCqxqsviDFYJe4P1-X3Vmlh17twVEnfrMsPkp-riTl0V1P7VaNHJb2IeEymEVpSqEQJnSYt-UAArkCaRG_-9m1vRO2HgDrDqgKLw4WOoaqqj-6FquPkdXQ_hNm-zhIhr9NmmCBjmoo1&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=6q2f3O5KC8zLZ35GnSZEMpWclqauw9aLR_8L3HH4MoPQzaNHaQPqNl1Lb3J2jHZBqf2cREwamZkhbzlz0N8epfKohKA3PM6hJmgWtr8Y73Ysm69U8EemAb6pHUlor32SWTxayv5AIqRE7w6khrS9Rvbcutk1&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=KlfC4ae2T77svfC92c_tAfjaakiix96GO-Z_j3DbURQSnNsIU3OBORwQdoE6hTnYzNYkf5hSKxJpK9niwpiHduTNL8Fu0R9asFzbsZeCwBJK2S3gT6bebaAIhCOJZBSdz8jRuA2&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <script src="/ScriptResource.axd?d=g97X-aYOf9ZWy9uIiVIsX1GtuzHkCaP4zDOJI6uaeMFsvvKYlhDcwmfEDX3kwpmVnOLPHZaUxwvMHMtoWrgmvsygrL6cCJDeLQVPJ6MUNrNva8vUAO2xCljsynAsre-asHPZNg2&amp;t=16fec49d" type="text/javascript">
+   </script>
+   <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7388B157" />
+   <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kwuZtoubj11/GEuxfKrEw93QxRB5fXQtL3/+AjzC0j7dGFxcN+dndyvRdbxSVteJNPGJIf8hNPhblSgCZkosOBzrIZUFxRzVEhZ01wfNGH1B4miF2Th3f9noDlyrdwVuBVxGwWQqcc3pZNFMkvdhsaRzr4ubk8/bx6BCtevPQjJJ2NgK0JZCEfNTRNfrkso6KifDC/XXKjNS0G+P00/KgWqT2w9UhG3Lui4uM1iC4Wx8hSwD5z3ncma8t85ZeiIAc9MaIMHlGW6RzGZhuks7Z1fQ3KuLh0cAvi9aDgQSRa5R7oTv" />
+   <!-- SiteBuilder // -->
+   <!-- NavMaster // -->
+   <a name="pagetop">
+   </a>
+   <div id="outer-wrap" class="m-pikabu-viewport">
+    <!-- Navigation drawer -->
+    <div class="navWrap m-pikabu-sidebar m-pikabu-left" role="navigation" id="nav">
+     <a href="#" id="nav-close-btn" class="close-btn">
+      <i class="fa fa-times-circle">
+      </i>
+      <span class="sr-only">
+       Return to Content
+      </span>
+     </a>
+     <div id="ContentMobileSearch">
+     </div>
+     <nav id="ContentMobileMTNav" class="mtMobileNav">
+      <ul id="nav3">
+       <li class=" " id="AlumniHome">
+        <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2">
+         Alumni Home
+        </a>
+       </li>
+       <li class=" " id="Login">
+        <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=3&amp;cid=40&amp;returnUrl=https%3a%2f%2fsecurelb.imodules.com%2fs%2f1570%2findex.aspx%3fsid%3d1570%26gid%3d2%26returnUrl%3dhttp%3a%252f%252fwww.muhlenbergconnect.com%252fs%252f1570%252findex.aspx%253fsid%253d1570%2526gid%253d2%2526pgid%253d2079%2526cid%253d5080%2526ecid%253d5080%2526crid%253d0%2526calpgid%253d61%2526calcid%253d3593%2526no_cookie%253d1%26pgid%3d8%26cid%3d46%26no_cookie%3d1">
+         Login
+        </a>
+       </li>
+       <li class=" " id="MakeaGift">
+        <a href="https://www.applyweb.com/public/contribute?s=muhlcont">
+         Make a Gift
+        </a>
+       </li>
+       <li class=" " id="Help">
+        <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=59&amp;cid=211">
+         Help
+        </a>
+       </li>
+       <li class=" " id="ContactUs">
+        <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+         Contact Us
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <nav id="ContentMobileNav" class="mainNav">
+      <ul id="nav1">
+       <li class=" " id="News&amp;Events">
+        <a>
+         News &amp; Events
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="News&amp;Events">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=410">
+           News &amp; Events
+          </a>
+         </li>
+         <li class=" " id="'BerginaBox">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1511">
+           'Berg in a Box
+          </a>
+         </li>
+         <li class=" " id="Alumni&amp;CollegeNews">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=449">
+           Alumni &amp; College News
+          </a>
+         </li>
+         <li class=" " id="AlumniEvents">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=410">
+           Alumni Events
+          </a>
+          <ul id="nav3">
+           <li class=" " id="PresidentialElectionLectureSeries">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2023">
+             Presidential Election Lecture Series
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="SignaturePrograms">
+          <a>
+           Signature Programs
+          </a>
+          <ul id="nav3">
+           <li class=" " id="AlumniAwardWinners">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=441">
+             Alumni Award Winners
+            </a>
+           </li>
+           <li class=" " id="AlumniTravelProgram">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=411">
+             Alumni Travel Program
+            </a>
+           </li>
+           <li class=" " id="AlumniWeekend">
+            <a href="http://www.muhlenbergconnect.com/alumniweekend">
+             Alumni Weekend
+            </a>
+            <ul id="nav4">
+             <li class=" " id="AlumniWeekendGallery">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=425">
+               Alumni Weekend Gallery
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="AnEveningofDistinction">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1601">
+             An Evening of Distinction
+            </a>
+           </li>
+           <li class=" " id="'BergattheBeach">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1529">
+             'Berg at the Beach
+            </a>
+           </li>
+           <li class=" " id="LifelongLearningatMuhlenberg">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1913">
+             Lifelong Learning at Muhlenberg
+            </a>
+            <ul id="nav4">
+             <li class=" " id="ClassesWithoutQuizzes">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1606">
+               Classes Without Quizzes
+              </a>
+             </li>
+             <li class=" " id="LearninYourTown">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2006">
+               Learn in Your Town
+              </a>
+             </li>
+             <li class=" " id="LearnOnline">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2007">
+               Learn Online
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="MuhlenbergWomen'sWeekend">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2012">
+             Muhlenberg Women's Weekend
+            </a>
+           </li>
+           <li class=" " id="T.H.A.W.">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1855">
+             T.H.A.W.
+            </a>
+            <ul id="nav4">
+             <li class=" " id="T.H.A.W.Gallery">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1332">
+               T.H.A.W. Gallery
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="VolunteerSummit&amp;RecognitionAwards">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1109">
+             Volunteer Summit &amp; Recognition Awards
+            </a>
+            <ul id="nav4">
+             <li class=" " id="VolunteerSummitGallery">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1333">
+               Volunteer Summit Gallery
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="WelcometotheCity">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1528">
+             Welcome to the City
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+       <li class=" " id="Communities">
+        <a>
+         Communities
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="Communities">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=451">
+           Communities
+          </a>
+         </li>
+         <li class=" " id="OnlineCommunities">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1572">
+           Online Communities
+          </a>
+         </li>
+         <li class=" " id="AlumniBoard">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=413">
+           Alumni Board
+          </a>
+         </li>
+         <li class=" " id="ClassPages">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=448">
+           Class Pages
+          </a>
+         </li>
+         <li class=" " id="GivingSocieties">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+           Giving Societies
+          </a>
+         </li>
+         <li class=" " id="RegionalClubs">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=412">
+           Regional Clubs
+          </a>
+          <ul id="nav3">
+           <li class=" " id="Baltimore">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1603">
+             Baltimore
+            </a>
+           </li>
+           <li class=" " id="LehighValley">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=416">
+             Lehigh Valley
+            </a>
+           </li>
+           <li class=" " id="LosAngeles">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=417">
+             Los Angeles
+            </a>
+           </li>
+           <li class=" " id="NewEngland">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=419">
+             New England
+            </a>
+           </li>
+           <li class=" " id="NewYorkCity">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=418">
+             New York City
+            </a>
+           </li>
+           <li class=" " id="NorthernNewJersey">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1604">
+             Northern New Jersey
+            </a>
+           </li>
+           <li class=" " id="Philadelphia">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=420">
+             Philadelphia
+            </a>
+           </li>
+           <li class=" " id="Washington,D.C.">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=421">
+             Washington, D.C.
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="SharedInterestGroups">
+          <a>
+           Shared Interest Groups
+          </a>
+          <ul id="nav3">
+           <li class=" " id="RJFellowsAlumniNetwork">
+            <a target="_blank" href="http://rjalumni.blogs.muhlenberg.edu/">
+             RJ Fellows Alumni Network
+            </a>
+           </li>
+           <li class=" " id="MC2Media&amp;CommunicationAlumniNetwork">
+            <a href="http://mc2alumninetwork.org/">
+             MC2 Media &amp; Communication Alumni Network
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="Volunteer-LedOrganizations">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1686">
+           Volunteer-Led Organizations
+          </a>
+          <ul id="nav3">
+           <li class=" " id="MuhlenbergBusinessNetwork">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1687">
+             Muhlenberg Business Network
+            </a>
+            <ul id="nav4">
+             <li class=" " id="MBNLeadership">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1688">
+               MBN Leadership
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="PerformingArtsAlumni">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=536">
+             Performing Arts Alumni
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="YoungAlumni">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=452">
+           Young Alumni
+          </a>
+          <ul id="nav3">
+           <li class=" " id="YoungAlumniCouncil">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=453">
+             Young Alumni Council
+            </a>
+            <ul id="nav4">
+             <li class=" " id="MeettheYoungAlumniCouncil">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1565">
+               Meet the Young Alumni Council
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="CardinalKeySociety">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=865">
+           Cardinal Key Society
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="selected dontsplit" id="Careers&amp;Networking">
+        <a>
+         Careers &amp; Networking
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="Careers&amp;Networking">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1573">
+           Careers &amp; Networking
+          </a>
+         </li>
+         <li class=" " id="CareerCenterResources">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1817">
+           Career Center Resources
+          </a>
+          <ul id="nav3">
+           <li class=" " id="FindaJob">
+            <a target="_blank" href="http://www.themuhlenbergnetwork.com/job">
+             Find a Job
+            </a>
+           </li>
+           <li class=" " id="TheMuhlenbergNetwork">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2011">
+             The Muhlenberg Network
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="CareerWebinars">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2003">
+           Career Webinars
+          </a>
+         </li>
+         <li class=" " id="FindConnections">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1816">
+           Find Connections
+          </a>
+         </li>
+         <li class=" " id="FindClassmates">
+          <a href="/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=6&amp;cid=41">
+           Find Classmates
+          </a>
+         </li>
+         <li class=" " id="VolunteerOpportunities">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1815">
+           Volunteer Opportunities
+          </a>
+          <ul id="nav3">
+           <li class=" " id="ShadowProgram">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2013">
+             Shadow Program
+            </a>
+           </li>
+           <li class=" " id="MentoringProgram">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2014">
+             Mentoring Program
+            </a>
+            <ul id="nav4">
+             <li class=" " id="CampusResourcesforMentors">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2015">
+               Campus Resources for Mentors
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="HireAMule">
+            <a href="https://themuhlenbergnetwork.com/home/index?ReturnUrl=%2fjob%2fcreatejob">
+             Hire A Mule
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+       <li class=" " id="Giveto'Berg">
+        <a>
+         Give to 'Berg
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="Giveto'Berg">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+           Give to 'Berg
+          </a>
+         </li>
+         <li class=" " id="MakeanOnlineGiftNow">
+          <a target="_blank" href="https://www.applyweb.com/public/contribute?s=muhlcont">
+           Make an Online Gift Now
+          </a>
+         </li>
+         <li class=" " id="MuhlenbergHere&amp;Now">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+           Muhlenberg Here &amp; Now
+          </a>
+          <ul id="nav3">
+           <li class=" " id="NewsandEvents">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=812">
+             News and Events
+            </a>
+           </li>
+           <li class=" " id="Muhlenberg'sPosition">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=813">
+             Muhlenberg's Position
+            </a>
+           </li>
+           <li class=" " id="OurAdmissionsPicture">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=814">
+             Our Admissions Picture
+            </a>
+           </li>
+           <li class=" " id="TheLiberalArts">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=815">
+             The Liberal Arts
+            </a>
+           </li>
+           <li class=" " id="AlumniSatisfaction">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=816">
+             Alumni Satisfaction
+            </a>
+           </li>
+           <li class=" " id="OurPerspective">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=817">
+             Our Perspective
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="OpportunitiesforImpact">
+          <a>
+           Opportunities for Impact
+          </a>
+          <ul id="nav3">
+           <li class=" " id="WaystoGiveNow">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=636">
+             Ways to Give Now
+            </a>
+           </li>
+           <li class=" " id="GiftstoFinancialAid">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=811">
+             Gifts to Financial Aid
+            </a>
+           </li>
+           <li class=" " id="GiftstoTheMuhlenbergFund">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=637">
+             Gifts to The Muhlenberg Fund
+            </a>
+            <ul id="nav4">
+             <li class=" " id="TheHenryMelchiorMuhlenbergSociety(HMMS)">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=685">
+               The Henry Melchior Muhlenberg Society (HMMS)
+              </a>
+             </li>
+             <li class=" " id="TheLoyaltySociety">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1600">
+               The Loyalty Society
+              </a>
+             </li>
+             <li class=" " id="MatchingGifts">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=742">
+               Matching Gifts
+              </a>
+             </li>
+             <li class=" " id="GiftsthroughPayrollDeduction">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=743">
+               Gifts through Payroll Deduction
+              </a>
+             </li>
+             <li class=" " id="ReunionGiving">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=744">
+               Reunion Giving
+              </a>
+             </li>
+             <li class=" " id="SCCCorStudentGiving">
+              <a target="_blank" href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=745">
+               SCCC or Student Giving
+              </a>
+             </li>
+             <li class=" " id="ParentGiving">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=746">
+               Parent Giving
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="GiftstoEndowment">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=642">
+             Gifts to Endowment
+            </a>
+           </li>
+           <li class=" " id="MuhlenbergMatchChallenges">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=857">
+             Muhlenberg Match Challenges
+            </a>
+            <ul id="nav4">
+             <li class=" " id="ScholarshipChallenge">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=866">
+               Scholarship Challenge
+              </a>
+             </li>
+             <li class=" " id="EnrichmentChallenge">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=864">
+               Enrichment Challenge
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="GiftstoCapital">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=677">
+             Gifts to Capital
+            </a>
+            <ul id="nav4">
+             <li class=" " id="EastHall">
+              <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/construction/easthall/about.html">
+               East Hall
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="EstateGifts">
+            <a href="http://muhlenbergcircle1848.org/">
+             Estate Gifts
+            </a>
+           </li>
+           <li class=" " id="Corporate,Foundation&amp;GovernmentFunding">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1184">
+             Corporate, Foundation &amp; Government Funding
+            </a>
+           </li>
+           <li class=" " id="Faculty&amp;StaffCampaign">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=679">
+             Faculty &amp; Staff Campaign
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="OurThankstoYou">
+          <a>
+           Our Thanks to You
+          </a>
+          <ul id="nav3">
+           <li class=" " id="Gallery">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=773">
+             Gallery
+            </a>
+           </li>
+           <li class=" " id="PhilanthropyReport">
+            <a target="_blank" href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1737">
+             Philanthropy Report
+            </a>
+           </li>
+           <li class=" " id="AnnualReport">
+            <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/pr/annual_reports/">
+             Annual Report
+            </a>
+           </li>
+           <li class=" " id="GivingSocieties">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+             Giving Societies
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+       <li class=" " id="GetInvolved">
+        <a>
+         Get Involved
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="GetInvolved">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=414">
+           Get Involved
+          </a>
+         </li>
+         <li class=" " id="AlumniBoard">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=413">
+           Alumni Board
+          </a>
+          <ul id="nav3">
+           <li class=" " id="MeettheAlumniBoard">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1352">
+             Meet the Alumni Board
+            </a>
+           </li>
+           <li class=" " id="MemberSelection&amp;Expectations">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=438">
+             Member Selection &amp; Expectations
+            </a>
+           </li>
+           <li class=" " id="StandingCommittees">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=432">
+             Standing Committees
+            </a>
+           </li>
+           <li class=" " id="AlumniAwards">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=440">
+             Alumni Awards
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="'BerginaBox">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1511">
+           'Berg in a Box
+          </a>
+         </li>
+         <li class=" " id="CareerVolunteering">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=254">
+           Career Volunteering
+          </a>
+         </li>
+         <li class=" " id="Communities">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=451">
+           Communities
+          </a>
+         </li>
+         <li class=" " id="GivingSocieties">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+           Giving Societies
+          </a>
+         </li>
+         <li class=" " id="VolunteerSummit&amp;RecognitionAwards">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1109">
+           Volunteer Summit &amp; Recognition Awards
+          </a>
+         </li>
+         <li class=" " id="YoungAlumniCouncil">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=453">
+           Young Alumni Council
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class=" " id="Resources">
+        <a>
+         Resources
+        </a>
+        <ul id="nav2">
+         <li class=" landinglink" id="Resources">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=540">
+           Resources
+          </a>
+         </li>
+         <li class=" " id="AlumniTravelProgram">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=411">
+           Alumni Travel Program
+          </a>
+         </li>
+         <li class=" " id="Classifieds">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=123&amp;type=1&amp;cid=405">
+           Classifieds
+          </a>
+         </li>
+         <li class=" " id="FindClassmates">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=6&amp;cid=41">
+           Find Classmates
+          </a>
+         </li>
+         <li class=" " id="InsuranceDiscounts">
+          <a target="_blank" href="http://meyerandassoc.com/Muhlenberg">
+           Insurance Discounts
+          </a>
+         </li>
+         <li class=" " id="PhilanthropyReports">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1737">
+           Philanthropy Reports
+          </a>
+         </li>
+         <li class=" " id="Policies">
+          <a>
+           Policies
+          </a>
+          <ul id="nav3">
+           <li class=" " id="DonorBillofRights">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=737">
+             Donor Bill of Rights
+            </a>
+           </li>
+           <li class=" " id="CodeofEthicalPrinciples&amp;Standards">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=738">
+             Code of Ethical Principles &amp; Standards
+            </a>
+           </li>
+           <li class=" " id="EndowmentSpendingPolicy">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=732">
+             Endowment Spending Policy
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class=" " id="RequestaTranscript">
+          <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/registrar/transcripts/">
+           Request a Transcript
+          </a>
+         </li>
+         <li class=" " id="WhoWeAre">
+          <a>
+           Who We Are
+          </a>
+          <ul id="nav3">
+           <li class=" " id="StaffListing">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+             Staff Listing
+            </a>
+           </li>
+           <li class=" " id="Mission&amp;VisionStatement">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1050">
+             Mission &amp; Vision Statement
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+     <div class="mobileSocial">
+     </div>
+     <nav id="ContentMobileFooterLeft" class="mobileFooter">
+      <ul id="nav3">
+       <li class=" " id="ProspectiveStudents">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/admissions">
+         Prospective Students
+        </a>
+       </li>
+       <li class=" " id="CurrentStudents">
+        <a target="_blank" href="http://www.muhlenberg.edu/gateways/current-students">
+         Current Students
+        </a>
+       </li>
+       <li class=" " id="Faculty&amp;Staff">
+        <a target="_blank" href="http://www.muhlenberg.edu/gateways/faculty-staff">
+         Faculty &amp; Staff
+        </a>
+       </li>
+       <li class=" " id="Parents">
+        <a target="_blank" href="http://www.muhlenberg.edu/gateways/parents">
+         Parents
+        </a>
+       </li>
+       <li class=" " id="OrderaTranscript">
+        <a target="_blank" href="https://www.studentclearinghouse.org/secure_area/Transcript/to_bridge.asp?t=155718&amp;LoginHome=to_home.asp">
+         Order a Transcript
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <nav id="ContentMobileFooterMiddle" class="mobileFooter">
+      <ul id="nav3">
+       <li class=" " id="About'Berg">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus">
+         About 'Berg
+        </a>
+       </li>
+       <li class=" " id="Admissions">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/admissions">
+         Admissions
+        </a>
+       </li>
+       <li class=" " id="Academics">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/academics">
+         Academics
+        </a>
+       </li>
+       <li class=" " id="CampusLife">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/campuslife">
+         Campus Life
+        </a>
+       </li>
+       <li class=" " id="Bookstore">
+        <a target="_blank" href="http://bergbookshop.com/home.aspx">
+         Bookstore
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <nav id="ContentMobileFooterRight" class="mobileFooter">
+      <ul id="nav3">
+       <li class=" " id="MeettheStaff">
+        <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+         Meet the Staff
+        </a>
+       </li>
+       <li class=" " id="Athletics">
+        <a target="_blank" href="http://www.muhlenberg.edu/sports">
+         Athletics
+        </a>
+       </li>
+       <li class=" " id="News&amp;Events">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/newsevents">
+         News &amp; Events
+        </a>
+       </li>
+       <li class=" " id="AdultLearning">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <li class=" " id="MobileApp">
+        <a target="_blank" href="http://bbmobile.muhlenberg.edu/">
+         Mobile App
+        </a>
+       </li>
+       <li class=" " id="WebPrivacyPolicy">
+        <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/oit/about/policies_procedures/privacy.html">
+         Web Privacy Policy
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+    <div id="inner-wrap" class="m-pikabu-container">
+     <!-- UTILITY BAR -->
+     <div id="utilityBar">
+      <div class="container">
+       <div id="ContentMemberTools" class="hidden-sm hidden-xs">
+        <ul id="nav3">
+         <li class=" " id="AlumniHome">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2">
+           Alumni Home
+          </a>
+         </li>
+         <li class=" " id="Login">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=3&amp;cid=40&amp;returnUrl=https%3a%2f%2fsecurelb.imodules.com%2fs%2f1570%2findex.aspx%3fsid%3d1570%26gid%3d2%26returnUrl%3dhttp%3a%252f%252fwww.muhlenbergconnect.com%252fs%252f1570%252findex.aspx%253fsid%253d1570%2526gid%253d2%2526pgid%253d2079%2526cid%253d5080%2526ecid%253d5080%2526crid%253d0%2526calpgid%253d61%2526calcid%253d3593%2526no_cookie%253d1%26pgid%3d8%26cid%3d46%26no_cookie%3d1">
+           Login
+          </a>
+         </li>
+         <li class=" " id="MakeaGift">
+          <a href="https://www.applyweb.com/public/contribute?s=muhlcont">
+           Make a Gift
+          </a>
+         </li>
+         <li class=" " id="Help">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=59&amp;cid=211">
+           Help
+          </a>
+         </li>
+         <li class=" " id="ContactUs">
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+           Contact Us
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div id="ContentSearch" class="hidden-sm hidden-xs">
+        <label for="cid_1317_tbSearch" id="cid_1317_litSearch">
+        </label>
+        <input name="cid_1317$tbSearch" type="text" size="10" id="cid_1317_tbSearch" style="" placeholder="Search" onclick='if(this.value=="Search")this.value="";' onblur='if(this.value=="")this.value="Search";' />
+        <span class="SearchModuleSpacer">
+         &nbsp;
+        </span>
+        <img src="/s/1570/Resources/SearchButtons/fa0888ad-74fe-476a-a213-43b90e460960.png" id="cid_1317_imgbtnSearch" border="0" style="cursor:pointer;display:;" align="absbottom" onclick="return cid_1317_hbtnSearch_Click();" />
+       </div>
+       <div id="ContentHeaderSocial" class="hidden-sm hidden-xs col-md-3 col-md-push-9">
+        <ul class="social">
+         <li>
+          <a href="https://www.facebook.com/MuhlenbergCollegeAlumni?fref=ts" target="_blank">
+           <em class="fa fa-facebook">
+           </em>
+           <span class="sr-only">
+            Facebook
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.linkedin.com/groups?viewMembers=&amp;gid=112792&amp;sik=1363009462570" target="_blank">
+           <em class="fa fa-linkedin">
+           </em>
+           <span class="sr-only">
+            LinkedIn
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="https://instagram.com/muhlenbergcollegealumni" target="_blank">
+           <em class="fa fa-instagram">
+           </em>
+           <span class="sr-only">
+            Instagram
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="https://twitter.com/MuhlenbergAlum" target="_blank">
+           <em class="fa fa-twitter">
+           </em>
+           <span class="sr-only">
+            Twitter
+           </span>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.youtube.com/user/MuhlenbergCollege" target="_blank">
+           <em class="fa fa-youtube-play">
+           </em>
+           <span class="sr-only">
+            YouTube
+           </span>
+          </a>
+         </li>
+        </ul>
+       </div>
+       <a class="m-pikabu-nav-toggle col-xs-2 col-sm-2 hidden-md hidden-lg" data-role="left">
+        <i class="fa fa-bars">
+        </i>
+        Menu
+       </a>
+      </div>
+     </div>
+     <!-- HEADER -->
+     <header class="structHead" role="banner" id="top">
+      <div class="container">
+       <div id="ContentLogo" class="col-xs-12 col-sm-10 col-md-12 headLogo">
+        <h1>
+         <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2" title="Muhlenberg Connect">
+          <img alt="Muhlenberg Connect" class="logoImg" src="images/muhl_alumni_horizontal.jpg" />
+         </a>
+        </h1>
+       </div>
+      </div>
+     </header>
+     <div id="blackthinbar" class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+     </div>
+     <!-- Desktop Navigation Bar -->
+     <div class="desktopNav hidden-sm hidden-xs">
+      <div class="container">
+       <div class="row">
+        <nav id="ContentTopNav" class="col-md-12 imodSiteMap">
+         <ul id="nav1">
+          <li class=" " id="News&amp;Events">
+           <a>
+            News &amp; Events
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="News&amp;Events">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=410">
+                  News &amp; Events
+                 </a>
+                </li>
+                <li class=" " id="'BerginaBox">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1511">
+                  'Berg in a Box
+                 </a>
+                </li>
+                <li class=" " id="Alumni&amp;CollegeNews">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=449">
+                  Alumni &amp; College News
+                 </a>
+                </li>
+                <li class=" " id="AlumniEvents">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=410">
+                  Alumni Events
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="PresidentialElectionLectureSeries">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2023">
+                    Presidential Election Lecture Series
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="SignaturePrograms">
+                 <a>
+                  Signature Programs
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="AlumniAwardWinners">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=441">
+                    Alumni Award Winners
+                   </a>
+                  </li>
+                  <li class=" " id="AlumniTravelProgram">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=411">
+                    Alumni Travel Program
+                   </a>
+                  </li>
+                  <li class=" " id="AlumniWeekend">
+                   <a href="http://www.muhlenbergconnect.com/alumniweekend">
+                    Alumni Weekend
+                   </a>
+                  </li>
+                  <li class=" " id="AnEveningofDistinction">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1601">
+                    An Evening of Distinction
+                   </a>
+                  </li>
+                  <li class=" " id="'BergattheBeach">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1529">
+                    'Berg at the Beach
+                   </a>
+                  </li>
+                  <li class=" " id="LifelongLearningatMuhlenberg">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1913">
+                    Lifelong Learning at Muhlenberg
+                   </a>
+                  </li>
+                  <li class=" " id="MuhlenbergWomen'sWeekend">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2012">
+                    Muhlenberg Women's Weekend
+                   </a>
+                  </li>
+                  <li class=" " id="T.H.A.W.">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1855">
+                    T.H.A.W.
+                   </a>
+                  </li>
+                  <li class=" " id="VolunteerSummit&amp;RecognitionAwards">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1109">
+                    Volunteer Summit &amp; Recognition Awards
+                   </a>
+                  </li>
+                  <li class=" " id="WelcometotheCity">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1528">
+                    Welcome to the City
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class=" " id="Communities">
+           <a>
+            Communities
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="Communities">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=451">
+                  Communities
+                 </a>
+                </li>
+                <li class=" " id="OnlineCommunities">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1572">
+                  Online Communities
+                 </a>
+                </li>
+                <li class=" " id="AlumniBoard">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=413">
+                  Alumni Board
+                 </a>
+                </li>
+                <li class=" " id="ClassPages">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=448">
+                  Class Pages
+                 </a>
+                </li>
+                <li class=" " id="GivingSocieties">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+                  Giving Societies
+                 </a>
+                </li>
+                <li class=" " id="RegionalClubs">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=412">
+                  Regional Clubs
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="Baltimore">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1603">
+                    Baltimore
+                   </a>
+                  </li>
+                  <li class=" " id="LehighValley">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=416">
+                    Lehigh Valley
+                   </a>
+                  </li>
+                  <li class=" " id="LosAngeles">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=417">
+                    Los Angeles
+                   </a>
+                  </li>
+                  <li class=" " id="NewEngland">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=419">
+                    New England
+                   </a>
+                  </li>
+                  <li class=" " id="NewYorkCity">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=418">
+                    New York City
+                   </a>
+                  </li>
+                  <li class=" " id="NorthernNewJersey">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1604">
+                    Northern New Jersey
+                   </a>
+                  </li>
+                  <li class=" " id="Philadelphia">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=420">
+                    Philadelphia
+                   </a>
+                  </li>
+                  <li class=" " id="Washington,D.C.">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=421">
+                    Washington, D.C.
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="SharedInterestGroups">
+                 <a>
+                  Shared Interest Groups
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="RJFellowsAlumniNetwork">
+                   <a target="_blank" href="http://rjalumni.blogs.muhlenberg.edu/">
+                    RJ Fellows Alumni Network
+                   </a>
+                  </li>
+                  <li class=" " id="MC2Media&amp;CommunicationAlumniNetwork">
+                   <a href="http://mc2alumninetwork.org/">
+                    MC2 Media &amp; Communication Alumni Network
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="Volunteer-LedOrganizations">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1686">
+                  Volunteer-Led Organizations
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="MuhlenbergBusinessNetwork">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1687">
+                    Muhlenberg Business Network
+                   </a>
+                  </li>
+                  <li class=" " id="PerformingArtsAlumni">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=536">
+                    Performing Arts Alumni
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="YoungAlumni">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=452">
+                  Young Alumni
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="YoungAlumniCouncil">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=453">
+                    Young Alumni Council
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="CardinalKeySociety">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=865">
+                  Cardinal Key Society
+                 </a>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class="selected dontsplit" id="Careers&amp;Networking">
+           <a>
+            Careers &amp; Networking
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="Careers&amp;Networking">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1573">
+                  Careers &amp; Networking
+                 </a>
+                </li>
+                <li class=" " id="CareerCenterResources">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1817">
+                  Career Center Resources
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="FindaJob">
+                   <a target="_blank" href="http://www.themuhlenbergnetwork.com/job">
+                    Find a Job
+                   </a>
+                  </li>
+                  <li class=" " id="TheMuhlenbergNetwork">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2011">
+                    The Muhlenberg Network
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="CareerWebinars">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2003">
+                  Career Webinars
+                 </a>
+                </li>
+                <li class=" " id="FindConnections">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1816">
+                  Find Connections
+                 </a>
+                </li>
+                <li class=" " id="FindClassmates">
+                 <a href="/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=6&amp;cid=41">
+                  Find Classmates
+                 </a>
+                </li>
+                <li class=" " id="VolunteerOpportunities">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1815">
+                  Volunteer Opportunities
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="ShadowProgram">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2013">
+                    Shadow Program
+                   </a>
+                  </li>
+                  <li class=" " id="MentoringProgram">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2014">
+                    Mentoring Program
+                   </a>
+                  </li>
+                  <li class=" " id="HireAMule">
+                   <a href="https://themuhlenbergnetwork.com/home/index?ReturnUrl=%2fjob%2fcreatejob">
+                    Hire A Mule
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class=" " id="Giveto'Berg">
+           <a>
+            Give to 'Berg
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="Giveto'Berg">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+                  Give to 'Berg
+                 </a>
+                </li>
+                <li class=" " id="MakeanOnlineGiftNow">
+                 <a target="_blank" href="https://www.applyweb.com/public/contribute?s=muhlcont">
+                  Make an Online Gift Now
+                 </a>
+                </li>
+                <li class=" " id="MuhlenbergHere&amp;Now">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+                  Muhlenberg Here &amp; Now
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="NewsandEvents">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=812">
+                    News and Events
+                   </a>
+                  </li>
+                  <li class=" " id="Muhlenberg'sPosition">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=813">
+                    Muhlenberg's Position
+                   </a>
+                  </li>
+                  <li class=" " id="OurAdmissionsPicture">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=814">
+                    Our Admissions Picture
+                   </a>
+                  </li>
+                  <li class=" " id="TheLiberalArts">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=815">
+                    The Liberal Arts
+                   </a>
+                  </li>
+                  <li class=" " id="AlumniSatisfaction">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=816">
+                    Alumni Satisfaction
+                   </a>
+                  </li>
+                  <li class=" " id="OurPerspective">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=817">
+                    Our Perspective
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="OpportunitiesforImpact">
+                 <a>
+                  Opportunities for Impact
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="WaystoGiveNow">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=636">
+                    Ways to Give Now
+                   </a>
+                  </li>
+                  <li class=" " id="GiftstoFinancialAid">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=811">
+                    Gifts to Financial Aid
+                   </a>
+                  </li>
+                  <li class=" " id="GiftstoTheMuhlenbergFund">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=637">
+                    Gifts to The Muhlenberg Fund
+                   </a>
+                  </li>
+                  <li class=" " id="GiftstoEndowment">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=642">
+                    Gifts to Endowment
+                   </a>
+                  </li>
+                  <li class=" " id="MuhlenbergMatchChallenges">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=857">
+                    Muhlenberg Match Challenges
+                   </a>
+                  </li>
+                  <li class=" " id="GiftstoCapital">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=677">
+                    Gifts to Capital
+                   </a>
+                  </li>
+                  <li class=" " id="EstateGifts">
+                   <a href="http://muhlenbergcircle1848.org/">
+                    Estate Gifts
+                   </a>
+                  </li>
+                  <li class=" " id="Corporate,Foundation&amp;GovernmentFunding">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1184">
+                    Corporate, Foundation &amp; Government Funding
+                   </a>
+                  </li>
+                  <li class=" " id="Faculty&amp;StaffCampaign">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=679">
+                    Faculty &amp; Staff Campaign
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="OurThankstoYou">
+                 <a>
+                  Our Thanks to You
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="Gallery">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=773">
+                    Gallery
+                   </a>
+                  </li>
+                  <li class=" " id="PhilanthropyReport">
+                   <a target="_blank" href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1737">
+                    Philanthropy Report
+                   </a>
+                  </li>
+                  <li class=" " id="AnnualReport">
+                   <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/pr/annual_reports/">
+                    Annual Report
+                   </a>
+                  </li>
+                  <li class=" " id="GivingSocieties">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+                    Giving Societies
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class=" " id="GetInvolved">
+           <a>
+            Get Involved
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="GetInvolved">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=414">
+                  Get Involved
+                 </a>
+                </li>
+                <li class=" " id="AlumniBoard">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=413">
+                  Alumni Board
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="MeettheAlumniBoard">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1352">
+                    Meet the Alumni Board
+                   </a>
+                  </li>
+                  <li class=" " id="MemberSelection&amp;Expectations">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=438">
+                    Member Selection &amp; Expectations
+                   </a>
+                  </li>
+                  <li class=" " id="StandingCommittees">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=432">
+                    Standing Committees
+                   </a>
+                  </li>
+                  <li class=" " id="AlumniAwards">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=440">
+                    Alumni Awards
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="'BerginaBox">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1511">
+                  'Berg in a Box
+                 </a>
+                </li>
+                <li class=" " id="CareerVolunteering">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=254">
+                  Career Volunteering
+                 </a>
+                </li>
+                <li class=" " id="Communities">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=451">
+                  Communities
+                 </a>
+                </li>
+                <li class=" " id="GivingSocieties">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=684">
+                  Giving Societies
+                 </a>
+                </li>
+                <li class=" " id="VolunteerSummit&amp;RecognitionAwards">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1109">
+                  Volunteer Summit &amp; Recognition Awards
+                 </a>
+                </li>
+                <li class=" " id="YoungAlumniCouncil">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=453">
+                  Young Alumni Council
+                 </a>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class=" " id="Resources">
+           <a>
+            Resources
+           </a>
+           <div class="megaNav container">
+            <div class="row">
+             <div class="col-md-12">
+              <div class="megaNavInner">
+               <ul class="col-md-8">
+                <li class=" landinglink" id="Resources">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=540">
+                  Resources
+                 </a>
+                </li>
+                <li class=" " id="AlumniTravelProgram">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=411">
+                  Alumni Travel Program
+                 </a>
+                </li>
+                <li class=" " id="Classifieds">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=123&amp;type=1&amp;cid=405">
+                  Classifieds
+                 </a>
+                </li>
+                <li class=" " id="FindClassmates">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=6&amp;cid=41">
+                  Find Classmates
+                 </a>
+                </li>
+                <li class=" " id="InsuranceDiscounts">
+                 <a target="_blank" href="http://meyerandassoc.com/Muhlenberg">
+                  Insurance Discounts
+                 </a>
+                </li>
+                <li class=" " id="PhilanthropyReports">
+                 <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1737">
+                  Philanthropy Reports
+                 </a>
+                </li>
+                <li class=" " id="Policies">
+                 <a>
+                  Policies
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="DonorBillofRights">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=737">
+                    Donor Bill of Rights
+                   </a>
+                  </li>
+                  <li class=" " id="CodeofEthicalPrinciples&amp;Standards">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=738">
+                    Code of Ethical Principles &amp; Standards
+                   </a>
+                  </li>
+                  <li class=" " id="EndowmentSpendingPolicy">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=732">
+                    Endowment Spending Policy
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+                <li class=" " id="RequestaTranscript">
+                 <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/registrar/transcripts/">
+                  Request a Transcript
+                 </a>
+                </li>
+                <li class=" " id="WhoWeAre">
+                 <a>
+                  Who We Are
+                 </a>
+                 <ul id="nav3">
+                  <li class=" " id="StaffListing">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+                    Staff Listing
+                   </a>
+                  </li>
+                  <li class=" " id="Mission&amp;VisionStatement">
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1050">
+                    Mission &amp; Vision Statement
+                   </a>
+                  </li>
+                 </ul>
+                </li>
+               </ul>
+               <div class="col-md-4 megaNavPic">
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <!-- MAIN CONTENT AREA -->
+     <div role="main" id="main" class="structBody">
+      <div class="container">
+       <div class="row">
+        <section class="col-sm-12 col-md-9 col-md-push-3">
+         <div class="background_solid">
+         </div>
+         <div class="row">
+          <div class="col-sm-12 col-md-12 midWrap">
+           <div id="ContentPageName" class="col-md-12 pageName">
+            <h1>
+             Register Now!
+            </h1>
+            <p>
+            </p>
+            <p>
+             <br />
+            </p>
+           </div>
+           <!-- &lt;nav id="ContentBreadCrumbs" class="col-md-12 hidden-xs breadCrumbs imodSiteMap"&gt;  &lt;li id="bcFirst"&gt;&lt;a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2"&gt;Home&lt;/a&gt;&lt;/li&gt; &lt;li class="nav" id="Careers&amp;Networking"&gt;&lt;a &gt;Careers &amp; Networking&lt;/a&gt;&lt;/li&gt;    &lt;/nav&gt; -->
+           <div id="ContentMiddle" class="col-md-12">
+            <p>
+            </p>
+            <p>
+             <span id="cid_46_lblHeader" class="PageTitleHeader">
+              Account Lookup
+             </span>
+            </p>
+            <div id="cid_46_pnlInstructions" class="instructions">
+             <p>
+              <span id="cid_46_lblInstructions">
+               There's a chance Muhlenberg College already has your information on file.  Please enter the appropriate information below and click "Find."
+              </span>
+             </p>
+            </div>
+            <div id="cid_46_pnlLookup">
+             <div>
+              <span id="cid_46_lblLookup">
+               <strong>
+                First Name:
+               </strong>
+              </span>
+              <br />
+              <input name="cid_46$tbLookup" type="text" id="cid_46_tbLookup" onkeydown="fnTrapKD(document.all.cid_46_btnFind)" />
+              <br />
+              <br />
+              <span id="cid_46_lblLookup2">
+               <strong>
+                Last Name:
+               </strong>
+               <br />
+              </span>
+              <input name="cid_46$tbLookup2" type="text" id="cid_46_tbLookup2" />
+              <br />
+              <br />
+              <input type="submit" name="cid_46$btnFind" value="Find &gt;&gt;" />
+              &gt;" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;cid_46$btnFind&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="cid_46_btnFind" class="button" /&gt;
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <!-- LEFT COLUMN -->
+        <aside class="hidden-xs hidden-sm col-md-3 col-md-pull-9 structLeft">
+         <div id="ContentLeftNavTitle">
+          <ul id="nav1">
+           <li class=" " id="News&amp;Events">
+            <a>
+             News &amp; Events
+            </a>
+           </li>
+           <li class=" " id="Communities">
+            <a>
+             Communities
+            </a>
+           </li>
+           <li class="selected dontsplit" id="Careers&amp;Networking">
+            <a>
+             Careers &amp; Networking
+            </a>
+           </li>
+           <li class=" " id="Giveto'Berg">
+            <a>
+             Give to 'Berg
+            </a>
+           </li>
+           <li class=" " id="GetInvolved">
+            <a>
+             Get Involved
+            </a>
+           </li>
+           <li class=" " id="Resources">
+            <a>
+             Resources
+            </a>
+           </li>
+          </ul>
+         </div>
+         <nav id="ContentLeftNav" class="secondaryNav imodSiteMap">
+          <ul id="nav2">
+           <li class=" landinglink" id="Careers&amp;Networking">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1573">
+             Careers &amp; Networking
+            </a>
+           </li>
+           <li class=" " id="CareerCenterResources">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1817">
+             Career Center Resources
+            </a>
+            <ul id="nav3">
+             <li class=" " id="FindaJob">
+              <a target="_blank" href="http://www.themuhlenbergnetwork.com/job">
+               Find a Job
+              </a>
+             </li>
+             <li class=" " id="TheMuhlenbergNetwork">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2011">
+               The Muhlenberg Network
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class=" " id="CareerWebinars">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2003">
+             Career Webinars
+            </a>
+           </li>
+           <li class=" " id="FindConnections">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1816">
+             Find Connections
+            </a>
+           </li>
+           <li class=" " id="FindClassmates">
+            <a href="/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=6&amp;cid=41">
+             Find Classmates
+            </a>
+           </li>
+           <li class=" " id="VolunteerOpportunities">
+            <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1815">
+             Volunteer Opportunities
+            </a>
+            <ul id="nav3">
+             <li class=" " id="ShadowProgram">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2013">
+               Shadow Program
+              </a>
+             </li>
+             <li class=" " id="MentoringProgram">
+              <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2014">
+               Mentoring Program
+              </a>
+              <ul id="nav4">
+               <li class=" " id="CampusResourcesforMentors">
+                <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=2015">
+                 Campus Resources for Mentors
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li class=" " id="HireAMule">
+              <a href="https://themuhlenbergnetwork.com/home/index?ReturnUrl=%2fjob%2fcreatejob">
+               Hire A Mule
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </nav>
+         <div id="ContentMiddleLayoutLeftBlock1">
+         </div>
+         <div id="ContentLeftBlock2">
+         </div>
+        </aside>
+       </div>
+      </div>
+     </div>
+     <!-- FOOTER -->
+     <footer>
+      <div class="container">
+       <div class="row">
+        <div id="ContentFooterLogo" class="col-xs-12 col-sm-6 col-md-6">
+         <a target="_blank" href="http://muhlenberg.edu/">
+          <img alt="" src="images/footer-logo.png" width="220px;" />
+         </a>
+        </div>
+        <div id="ContentFooterNavLeft" class="hidden-xs col-sm-2 col-md-2">
+         <ul id="nav3">
+          <li class=" " id="ProspectiveStudents">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/admissions">
+            Prospective Students
+           </a>
+          </li>
+          <li class=" " id="CurrentStudents">
+           <a target="_blank" href="http://www.muhlenberg.edu/gateways/current-students">
+            Current Students
+           </a>
+          </li>
+          <li class=" " id="Faculty&amp;Staff">
+           <a target="_blank" href="http://www.muhlenberg.edu/gateways/faculty-staff">
+            Faculty &amp; Staff
+           </a>
+          </li>
+          <li class=" " id="Parents">
+           <a target="_blank" href="http://www.muhlenberg.edu/gateways/parents">
+            Parents
+           </a>
+          </li>
+          <li class=" " id="OrderaTranscript">
+           <a target="_blank" href="https://www.studentclearinghouse.org/secure_area/Transcript/to_bridge.asp?t=155718&amp;LoginHome=to_home.asp">
+            Order a Transcript
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div id="ContentFooterNavMiddle" class="hidden-xs col-sm-2 col-md-2">
+         <ul id="nav3">
+          <li class=" " id="About'Berg">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus">
+            About 'Berg
+           </a>
+          </li>
+          <li class=" " id="Admissions">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/admissions">
+            Admissions
+           </a>
+          </li>
+          <li class=" " id="Academics">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/academics">
+            Academics
+           </a>
+          </li>
+          <li class=" " id="CampusLife">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/campuslife">
+            Campus Life
+           </a>
+          </li>
+          <li class=" " id="Bookstore">
+           <a target="_blank" href="http://bergbookshop.com/home.aspx">
+            Bookstore
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div id="ContentFooterNavRight" class="hidden-xs col-sm-2 col-md-2">
+         <ul id="nav3">
+          <li class=" " id="MeettheStaff">
+           <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=736">
+            Meet the Staff
+           </a>
+          </li>
+          <li class=" " id="Athletics">
+           <a target="_blank" href="http://www.muhlenberg.edu/sports">
+            Athletics
+           </a>
+          </li>
+          <li class=" " id="News&amp;Events">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/newsevents">
+            News &amp; Events
+           </a>
+          </li>
+          <li class=" " id="AdultLearning">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/wescoe/">
+            Adult Learning
+           </a>
+          </li>
+          <li class=" " id="MobileApp">
+           <a target="_blank" href="http://bbmobile.muhlenberg.edu/">
+            Mobile App
+           </a>
+          </li>
+          <li class=" " id="WebPrivacyPolicy">
+           <a target="_blank" href="http://www.muhlenberg.edu/main/aboutus/oit/about/policies_procedures/privacy.html">
+            Web Privacy Policy
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </footer>
+     <div class="megaNavPicsHidden">
+      <div id="ContentMegaNavPic1" class="megaNavPic megaNavPic1">
+       <div id="imodcmscalendar3597" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq300px_636095329759694585.jpg" alt="Mega Nav Pic 1" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3597$hidSelectedDate" type="hidden" id="cid_3597_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+      <div id="ContentMegaNavPic2" class="megaNavPic megaNavPic2">
+       <div id="imodcmscalendar3598" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq300px_636095331747084312.jpg" alt="Mega Nav Pic 2" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3598$hidSelectedDate" type="hidden" id="cid_3598_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+      <div id="ContentMegaNavPic3" class="megaNavPic megaNavPic3">
+       <div id="imodcmscalendar3599" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq_150px_636095328591278890.jpg" alt="Mega Nav Pic 3" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3599$hidSelectedDate" type="hidden" id="cid_3599_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+      <div id="ContentMegaNavPic4" class="megaNavPic megaNavPic4">
+       <div id="imodcmscalendar3600" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq300px_636095331455904545.jpg" alt="Mega Nav Pic 4" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3600$hidSelectedDate" type="hidden" id="cid_3600_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+      <div id="ContentMegaNavPic5" class="megaNavPic megaNavPic5">
+       <div id="imodcmscalendar3601" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq_150px_636095331964454571.jpg" alt="Mega Nav Pic 5" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3601$hidSelectedDate" type="hidden" id="cid_3601_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+      <div id="ContentMegaNavPic6" class="megaNavPic megaNavPic6">
+       <div id="imodcmscalendar3602" class="imodcmscalendar" style="width:100%;">
+        <table class="PhCalendar" border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+          <td>
+           <div style="text-align:left;">
+           </div>
+          </td>
+         </tr>
+         <tr>
+          <td style="width: 100%" valign="top">
+           <div style="clear:both;">
+            <img src="/s/1570/images/content_images/alumni_sq_150px_636095331102767959.jpg" alt="Mega Nav Pic 6" class="itemimg" />
+            <span class="toolIcons">
+            </span>
+           </div>
+          </td>
+         </tr>
+        </table>
+       </div>
+       <input name="cid_3602$hidSelectedDate" type="hidden" id="cid_3602_hidSelectedDate" />
+       <script>
+       </script>
+       <style>
+        .calendar-with-listing-view .cms-listing {
+		float:left;	
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons {
+		float:right;
+	}
+
+	.calendar-with-listing-view .calendar-tool-icons a {
+		margin-left:10px;
+	}
+
+
+	 .calendar-with-listing-view .cms-calendar {
+		float:right;
+		clear:right;
+	 }
+
+	 .calendar-with-listing-view .cms-footer-icons {
+		 clear:both;
+	 }
+       </style>
+      </div>
+     </div>
+     <!-- &lt;div class="toplink visible-xs-block"&gt;&lt;a href="#pagetop"&gt;&lt;i class="fa fa-arrow-circle-o-up"&gt;&lt;/i&gt; Back to Top&lt;/a&gt;&lt;/div&gt; -->
+    </div>
+   </div>
+   <div id="HELPPROVIDER_RadToolTip" style="display:none;position:absolute;">
+    <!-- 2014.2.724.45 -->
+    <div id="HELPPROVIDER_RadToolTip_Content">
+    </div>
+    <input id="HELPPROVIDER_RadToolTip_ClientState" name="HELPPROVIDER_RadToolTip_ClientState" type="hidden" />
+   </div>
+   <script type="text/javascript">
+    //&lt;![CDATA[
+
+if (window.CmsMenuBar) {CmsMenuBar.LogoutUrl = 'https://securelb.imodules.com/?sid=1570&amp;gid=2&amp;pgid=61&amp;logout=1';}
+if (window.CmsMenuBar) {CmsMenuBar.AuthenticationTicket = '';}
+if (window.CmsMenuBar) {CmsMenuBar.SiteId = '1570';}
+if (window.CmsMenuBar) {CmsMenuBar.GroupId = '2';}
+
+//]]&gt;
+   </script>
+   <script>
+    if (window.CmsMenuBar != null) CmsMenuBar.CommunityEnabled = false;
+   </script>
+   <script>
+    if (window.CmsMenuBar != null) CmsMenuBar.ConstituentsEnabled = false;
+   </script>
+   <script>
+    if (window.CmsMenuBar != null) CmsMenuBar.ContentEnabled = false;
+   </script>
+   <script type="text/javascript">
+    //&lt;![CDATA[
+
+RedirectUrl = 'https://securelb.imodules.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;returnUrl=http%3a%2f%2fwww.muhlenbergconnect.com%2fs%2f1570%2findex.aspx%3fsid%3d1570%26gid%3d2%26pgid%3d2079%26cid%3d5080%26ecid%3d5080%26crid%3d0%26calpgid%3d61%26calcid%3d3593%26no_cookie%3d1&amp;pgid=3&amp;cid=421';
+CanRedirect = true; 
+jQuery(document).ready(function()
+{
+	var cookiesEnabled = false;
+	var TEST_COOKIE = 'test_cookie';
+	jQuery.cookie( TEST_COOKIE, true );
+	if ( jQuery.cookie ( TEST_COOKIE ) )
+	{
+	  jQuery.cookie( TEST_COOKIE, null );
+	  cookiesEnabled = true;
+	}
+	if (!cookiesEnabled)
+	{
+		if (CanRedirect)
+        {
+            window.location = RedirectUrl;
+        }
+	}
+});
+function fnTrapKD(btn){
+ if (document.all){
+   if (event.keyCode == 13)
+   { 
+     event.returnValue=false;
+     event.cancel = true;
+     btn.click();
+   } 
+ } 
+}
+//]]&gt;
+   </script>
+   <!--[if IE]&gt;&lt;style type="text/css"&gt;.RadPicker{display: inline-block !important;} * + html .RadPicker{display: inline !important;} * html .RadPicker{display: inline !important;}&lt;/style&gt;&lt;![endif]-->
+   <script type="text/javascript">
+    //&lt;![CDATA[
+
+if (typeof IModController != 'undefined' &amp;&amp; typeof IModController.init == 'function') {
+	IModController.init(1570,2,'MuhlenbergConnect','1.2',0,false,true);
+	IModController.siteLoginUrl = 'https://securelb.imodules.com';
+}
+
+
+jQuery(document).ready(function () {
+	imod.HelpProvider.init({"HelpIconUrl":"\/images\/icons\/v2\/context_help.gif","HelpItems":[]},{helpIconUrl: '/images/icons/v2/context_help.gif'});
+});
+				
+jQuery(document).ready(function(){	
+	imod.SessionData.Data = {"SessionId":null,"SiteViewMode":1};
+});
+
+imod.Security.LogoutUrl = 'https://securelb.imodules.com/?sid=1570&amp;gid=2&amp;pgid=61&amp;logout=1';
+imod.Security.AuthenticationTicket = '';
+imod.Security.SiteId = '1570';
+imod.Security.GroupId = '2';
+imod.Browser.IsSmartPhone = false;
+imod.Browser.IsTablet = false;
+imod.Browser.PlatformName = "Unknown";
+imod.Browser.BrowserName = "Unknown";
+imod.Browser.BrowserVersion = "Unknown";
+imod.Browser.IsMobile = "False";
+imod.Security.IsImodEmployee = false;
+imod.Security.LoginSessionMonitorEnabled = false;
+imod.Security.LoginDomain = "https://securelb.imodules.com";
+
+//]]&gt;
+   </script>
+   <script type="text/javascript">
+    imod$('cid_1317_tbSearch').onkeypress=SearchKeyCheck1317;function SearchKeyCheck1317(e){	if(window.event != null)	{		e = window.event;	}	if(e.keyCode == 13)	{		cid_1317_hbtnSearch_Click();		return false;	}}	function cid_1317_hbtnSearch_Click()	{		var SearchParam = document.getElementById('cid_1317_tbSearch');		if(SearchParam.value.length &gt; 0)		{			window.location = "http://www.muhlenbergconnect.com?sid=1570&amp;gid=2&amp;page_id=8&amp;pgid=253&amp;cid=645&amp;ecid=1317&amp;search=" + escape(SearchParam.value);		}		else		{			SearchParam.style['background'] = 'red';		}		return false;	}
+   </script>
+   <script type="text/javascript">
+    //&lt;![CDATA[
+
+jQuery(document).ready(function(){
+	
+
+// Initialize Flex Slider
+
+  jQuery('.bx_slide').wrapAll('&lt;div class="bx_slider"&gt;&lt;/div&gt;');
+   jQuery('.bx_slider').bxSlider({
+        auto:                   (jQuery(".bx_slider&gt;.bx_slide").length &gt; 1) ? true: false,      // Slides automatically if more than one slide
+        pause:                  '5000',                                                         // Length of slide
+        autoHover:              true,                                                           // Auto show will pause when mouse hovers over slider
+        mode:                   'fade',                                                         // fade transition
+        controls:               (jQuery(".bx_slider&gt;.bx_slide").length &gt; 1) ? true: false,      // Builds next/back buttons if more than one slide
+        nextText:               '&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;',                          // Sets custom next button text
+        prevText:               '&lt;i class="fa fa-chevron-left"&gt;&lt;/i&gt;',                           // Sets custom next button text
+        autoControls:           false,                                                          // Builds start/stop controls
+        autoControlsCombine:    true,                                                           // When slideshow is playing only "Stop" control is displayed and vice-versa
+        pager:                  (jQuery(".bx_slider&gt;.bx_slide").length &gt; 1) ? true: false       // Builds navigation links/buttons if more than one slide
+  });
+
+  // Initialize Absolute to fixed position nav
+
+    var fixed = false;
+
+    jQuery(document).scroll(function() {
+    if( jQuery(this).scrollTop() &gt;= 152 ) {
+      if( !fixed ) {
+        fixed = true;
+        jQuery('.desktopNav').css({position:'fixed',top:'48px'}); // Or set top:20px; in CSS
+      }                                           // It won't matter when static
+    } else {
+      if( fixed ) {
+        fixed = false;
+        jQuery('.desktopNav').css({position:'absolute',top: '198px'});
+      }
+    }
+    });
+
+    // remove remove link on breadcrumbs
+    jQuery("#ContentBreadCrumbs a:last").contents().unwrap();
+
+    /*(function titleScroller(text) {
+        document.title = text;
+        //console.log(text);  //commented out because it's bogging down the console
+        setTimeout(function () {
+            titleScroller(text.substr(1) + text.substr(0, 1));
+        }, 500);
+    }(" MuhlenbergConnect - Welcome Alumni &amp; Friends! "));*/
+
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadToolTip, {"_cssClass":"","_manualCloseButtonText":"Close","clientStateFieldID":"HELPPROVIDER_RadToolTip_ClientState","formID":"MainForm","hideEvent":4,"position":13,"relativeTo":1,"showEvent":16,"skin":"Default","width":"350px"}, null, null, $get("HELPPROVIDER_RadToolTip"));
+});
+//]]&gt;
+   </script>
+  </form>
+ </body>
+</html>

@@ -1,0 +1,3368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noarchive" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/css112/libguides.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/js/dojo-161/dijit/themes/tundra/tundra.css" />
+  <style type="text/css">
+   form { margin: 0px; }
+			#profile_header { padding-bottom: 5px; padding-left: 10px; }
+			#profile_title { font: 18px arial, Trebuchet ms, Tahoma, Arial, Helvetica, sans-serif; padding-left: 0px; padding-bottom: 0px; width: 300px; display: inline;}
+			#profiles_list { float: right; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; }
+			#container {
+				background: url('http://lgimages.s3.amazonaws.com/bg_page_darkblue.gif') repeat-x; 
+				background-color:#FFFFFF;
+			}
+			.std_profile_widget_header {
+				font-weight: bold;
+				padding-bottom: 0px;
+			}
+			.profile_column {}
+			#profile_content_left {
+				width: 275px;
+			}
+			#profile_content_center {
+				width: 384px;
+			}
+			#profile_content_right {
+				width: 290px;
+			}
+			.profile_attr {
+				color: #5F5F5F;
+				font-size: 11px;
+				font-weight: bold;
+				width: 600px;
+			}
+			.profile_property_label {
+				float: left;
+				width: 110px;
+			}
+			.pair_left_field {
+				float: left;
+				width: 100px;
+				border: 0px solid #000;
+			}
+			.left_input {
+				width: 85px;
+			}
+			.right_input {
+				width: 155px;
+			}
+			.field_pair {
+				padding-bottom: 5px;
+			}
+			.input_field {
+				background: none repeat scroll 0 0 #fff;
+				border: 1px solid #bbb;
+				color: #222222;
+				font: 11px Verdana,Arial,Helvetica,sans-serif;
+			}
+			.tab_content {
+				padding: 10px;
+			}
+			.no_content {
+				font-weight: bold;
+				font-family: Tahoma, Arial, Helvetica, sans-serif; 
+				color: #888;
+			}
+			.outerbox {
+			    margin-bottom: 10px;
+			}
+			.add_box {
+			    padding-bottom: 5px;
+			}
+			
+		.headerbox { 
+			background-image:none; background-color:#003050; 
+		}
+		
+		.headerbox h2, .helpdesc { 
+			color: #ffffff; 
+		}.headerbox h2 { color:#FFFFFF; }.outerbox { background-color:#C2C2C2; }.innerbox, .innerboxprofile { background-color:#; }
+  </style>
+  <title>
+   Kelly Cannon - Subject Guides at Muhlenberg College
+  </title>
+  <script type="text/javascript" src="/js/dojo-161/dojo/dojo.js" djconfig="parseOnLoad: true">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript" src="/js112/profilex.js">
+  </script>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script>
+   dojo.require("dijit.form.ValidationTextBox");
+			dojo.require("dijit.form.Textarea");
+			dojo.require("dijit.form.Button");
+			dojo.require("dijit.InlineEditBox");
+			dojo.require("dijit.form.CheckBox");
+			dojo.require("dijit.form.Form");
+			dojo.require("dijit.Dialog");
+			dojo.require("dojo.io.iframe");
+
+			var overID;
+			var thirdDlg;
+			var iid = 3322;
+			var boxshape = 's';
+			var view_mode = 'view';
+			var slug = 'profile/cannon';
+			var alt_url = '';
+			var true_page_url = 'http://libraryguides.muhlenberg.edu/profile.php?uid=63914';
+  </script>
+  <style type="text/css">
+   #tabs12 a { background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tableft-blue.gif) no-repeat scroll left top; }
+#tabs12 a span { color:#hex color for the tab text; background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tabright-blue.gif) no-repeat scroll right top; }
+.dropmenudiv a:hover { color:#FFFFFF; background-color:#0070bb; }
+.guidetitle { font: bold 22px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+.headerbox h2 { font: bold 15px Verdana, Arial, Helvetica, sans-serif; }
+.guidedesc { font: bold 15px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+  </style>
+ </head>
+ <body id="profile_php" class="tundra public_page">
+  <a style="position:absolute;top:-1000px;" href="/print_profile.php?uid=63914" title="Alternate Page for Screenreader Users">
+   Alternate Page for Screenreader Users
+  </a>
+  <div id="wrapper">
+   <div id="container">
+    <noscript>
+     <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+      <h2>
+       <span style="color: #000;">
+        This site requires a JavaScript enabled browser. For more information please visit our
+        <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+         FAQ
+        </a>
+       </span>
+      </h2>
+     </div>
+    </noscript>
+    <div id="custom_header">
+     <style>
+      .guideattr, .lgsearch, #guide_tab_title_bar_page_name, #guide_tab_title_bar_page_print, #breadcrumbsr{display:none;}
+     </style>
+    </div>
+    <a href="http://trexler.muhlenberg.edu/">
+     <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+    </a>
+    <br clear="all" />
+    <div class="topnav">
+     <div id="breadcrumbsr" style="float:right;">
+      <span id="bc_admin_login">
+       <a id="bc_libguides_login" href="https://libguides.com/login.php?iid=3322">
+        Admin Sign In
+       </a>
+      </span>
+     </div>
+     <div id="breadcrumbsl">
+      <span id="bc_library_home">
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+       <span class="breadcrumb_spacer">
+        &raquo;
+       </span>
+      </span>
+      <span id="bc_libguides_home">
+       <a href="http://libraryguides.muhlenberg.edu/index.php">
+        Subject Guides
+       </a>
+      </span>
+     </div>
+    </div>
+    <div id="profile_header">
+     <table width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+       <td>
+        <div id="profile_title">
+         Subject Guides - Kelly Cannon
+        </div>
+       </td>
+       <td>
+        <div id="profiles_list">
+         <form style="margin: 0px; padding: 0px;">
+          <select id="sel_profiles" name="sel_profiles" onchange="profileNav(this);" class="fieldlabel">
+           <option value="0">
+            View another profile...
+           </option>
+           <option value="/profile.php?uid=63914">
+            Cannon, Kelly
+           </option>
+           <option value="/profile.php?uid=102691">
+            Falciani, Susan
+           </option>
+           <option value="/profile.php?uid=63915">
+            Hamelers, Rachel
+           </option>
+           <option value="/profile.php?uid=63912">
+            Hertel, Tina
+           </option>
+           <option value="/profile.php?uid=63913">
+            Jarson, Jennifer
+           </option>
+           <option value="/profile.php?uid=95550">
+            Psillos, Danielle
+           </option>
+          </select>
+         </form>
+        </div>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div id="main_profile_content" style="border-top: 1px solid #ccc; padding: 5px;">
+     <table border="0" cellpadding="3">
+      <tr>
+       <td valign="top">
+        <div id="profile_content_left" class="profile_column">
+         <div class="roundbox outerbox" id="0">
+          <div class="roundbox headerbox" id="0title">
+           <h2>
+            Subject Guide
+           </h2>
+          </div>
+          <div class="roundbox innerbox innerbox_0" id="0content">
+           <div id="boxatt0" class="boxatt">
+            <div class="profileh4">
+             <div class="" style="padding-bottom: 3px;">
+              <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+               <img alt="Profile Image" border="0" src="//lgimages.s3.amazonaws.com/data/profiles/63914/kelly_2_feb_2013.jpg" class="profile_image_align profileimage" />
+              </a>
+             </div>
+             <div class="profile_display_name" style="font-size: 12px; padding-bottom: 10px;">
+              Kelly Cannon
+             </div>
+             <div class="profile_widget_content">
+              <div class="std_profile_widget_header">
+               Contact Info:
+              </div>
+              <div>
+               484-664-3602
+               <br />
+               IM: refcannon (AIM, Yahoo)
+              </div>
+              <div>
+               <a href="mailto:kcannon@muhlenberg.edu">
+                Send Email
+               </a>
+              </div>
+             </div>
+             <div class="profile_widget_content">
+              <div class="std_profile_widget_header">
+               Subjects:
+              </div>
+              <a href="http://libraryguides.muhlenberg.edu/cat.php?search_cat=Humanities+and+Business&amp;mode=profile_search">
+               Humanities and Business
+              </a>
+             </div>
+             <div class="profile_widget_content">
+              <div class="std_profile_widget_header">
+               Links:
+              </div>
+              <div id="profile_contact_guides">
+               <a href="http://libraryguides.muhlenberg.edu/profile/cannon" id="profile_link">
+                Profile &amp; Guides
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </td>
+       <td valign="top">
+        <div id="profile_content_center" class="profile_column">
+         <div class="roundbox outerbox" style="margin-bottom: 10px;">
+          <div class="roundbox headerbox">
+           <h2>
+            Guides
+           </h2>
+          </div>
+          <div class="roundbox innerbox">
+           <div style="">
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/1917" title="View this Guide">
+               1917
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 3, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/acctginfosys" title="View this Guide">
+               Accounting Information Systems
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 24, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/abef" title="View this Guide">
+               Accounting, Business, Economics, &amp; Finance
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 24, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/advancedspanish" title="View this Guide">
+               Advanced Spanish Conversation &amp; Composition
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/africanart" title="View this Guide">
+               African Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/afam" title="View this Guide">
+               Africana Studies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 21, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/textanalysis" title="View this Guide">
+               Approaches to Textual Analysis
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 21, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/arabiannights" title="View this Guide">
+               Arabian Nights Disney Days
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 29, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/art" title="View this Guide">
+               Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 28, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/artages" title="View this Guide">
+               Art and Architecture Through the Ages
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/publicdomain" title="View this Guide">
+               Art and the Public Domain
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 7, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/arthistone" title="View this Guide">
+               Art History I
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 2, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/arthisttwo" title="View this Guide">
+               Art History II
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 31, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/artsnewyork" title="View this Guide">
+               Arts Scene of New York
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/businessandsociety" title="View this Guide">
+               Business and Society
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 6, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics" title="View this Guide">
+               Center for Ethics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 12, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2014" title="View this Guide">
+               Center for Ethics: Civility and Disobedience (2014-2015)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 26, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2009" title="View this Guide">
+               Center for Ethics: Ethics of Space / Power of Place (2009-2010)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2012" title="View this Guide">
+               Center for Ethics: Market Values (2012-2013)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2011" title="View this Guide">
+               Center for Ethics: Memory and Forgetting (2011-2012)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2008" title="View this Guide">
+               Center for Ethics: Politics, Citizenship, and Ethics (2008-2009)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2010" title="View this Guide">
+               Center for Ethics: Science and Sensibility (2010-2011)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethics2013" title="View this Guide">
+               Center for Ethics: Sex, Ethics, and Pleasure Politics (2013-2014)
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/centerforethicsfall2015" title="View this Guide">
+               Center for Ethics: Whose Safety/Whose Security?
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 2, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/civlatam" title="View this Guide">
+               Civilization of Latin America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/coldwaramerica" title="View this Guide">
+               Cold War America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 13, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/colonialamerica" title="View this Guide">
+               Colonial America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 21, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/comingtoamerica" title="View this Guide">
+               Coming to America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 27, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/constitutionhistory" title="View this Guide">
+               Constitutional History of the U.S.
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/contempart" title="View this Guide">
+               Contemporary Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/filmstudiessem" title="View this Guide">
+               CUE: Film Studies Seminar
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 14, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/manhoodtrial" title="View this Guide">
+               CUE: Manhood on Trial
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 3, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/uscities" title="View this Guide">
+               CUE: Twentieth-Century U.S. Cities
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 1, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/cuisineculture" title="View this Guide">
+               Cuisine as Culture
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 21, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/curiosity" title="View this Guide">
+               Cultivating Curiosity
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/deathdesire" title="View this Guide">
+               Death and Desire: Tibetan Buddhism
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/globalidentity" title="View this Guide">
+               Developing Global Identity
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 15, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/identity_network" title="View this Guide">
+               Developing Your Professional Identity and Network
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 27, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/developmentecon" title="View this Guide">
+               Development Economics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 3, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/disorderlycities" title="View this Guide">
+               Disorderly American Cities
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 1, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/18theurope" title="View this Guide">
+               Eighteenth Century Europe
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 8, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/encompass" title="View this Guide">
+               Encompass Search Tips
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jul 30, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/endangeredwriters" title="View this Guide">
+               Endangered Writers
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/english" title="View this Guide">
+               English
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 2, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/envlatamhist" title="View this Guide">
+               Environmental History of Latin America and the Caribbean
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 10, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/filmhistoryone" title="View this Guide">
+               Film History I: 1895-1945
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 15, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/filmhistorytwo" title="View this Guide">
+               Film History II: 1945 to Present
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 15, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/film" title="View this Guide">
+               Film Studies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 28, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/financialrisk" title="View this Guide">
+               Financial Analysis and Risk Management
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 8, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/muse" title="View this Guide">
+               Finding Your Muse
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/frenchpopnovel" title="View this Guide">
+               French Popular Novel
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 13, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/resistance" title="View this Guide">
+               French Theatre of Resistance
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 22, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/zionism" title="View this Guide">
+               From Zion to Zionism
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/genderart" title="View this Guide">
+               Gender &amp; Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/genderislam" title="View this Guide">
+               Gender and Sexuality in Islam
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/gendersensation" title="View this Guide">
+               Gender, Sensation and the Novel
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 4, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/orwell" title="View this Guide">
+               George Orwell
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 4, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/globalmktg" title="View this Guide">
+               Globalization &amp; Marketing
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 7, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/globalempire" title="View this Guide">
+               Globalization: Legacy of Empire
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 25, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/gothic" title="View this Guide">
+               Gothic &amp; Horror
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/history" title="View this Guide">
+               History
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 12, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/modernarchitecture" title="View this Guide">
+               History of Modern Architecture
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 10, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/holocaustcinema" title="View this Guide">
+               Holocaust and Cinema
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 27, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/italyholocaust" title="View this Guide">
+               Holocaust in Italian Literature and Film
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/holocaustgermanyjews" title="View this Guide">
+               Holocaust, Nazi Germany, and Jews
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 23, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/racehorrorfilm" title="View this Guide">
+               Horror of Race on Film
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/filmanalysis" title="View this Guide">
+               Introduction to Film Analysis
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 9, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/inventingamericans" title="View this Guide">
+               Inventing Americans
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 18, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/islamictraditions" title="View this Guide">
+               Islamic Traditions
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 2, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/italtheatre" title="View this Guide">
+               Italian Theatre in Translation
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jesuskrishna" title="View this Guide">
+               Jesus Meets Krishna
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jewishsecular" title="View this Guide">
+               Jewish Experience in a Secular Age
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jewishstudies" title="View this Guide">
+               Jewish Studies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jul 15, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jscapstone" title="View this Guide">
+               Jewish Studies Capstone
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 7, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jewschristians" title="View this Guide">
+               Jews and Christians in the 21st Century
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 16, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/laborecon" title="View this Guide">
+               Labor Economics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/languages" title="View this Guide">
+               Languages, Literatures, and Cultures
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 24, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/latam_environment_justice" title="View this Guide">
+               Latin American and Caribbean Environmental Justice
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 27, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/latamhistcult" title="View this Guide">
+               Latin American History and Culture
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/lgbtq" title="View this Guide">
+               LGBTQ Resources
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 29, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/mktg" title="View this Guide">
+               Marketing
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 15, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/nonprofitmktg" title="View this Guide">
+               Marketing in Not-for-Profit Organizations
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 9, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/mktres" title="View this Guide">
+               Marketing Research
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 4, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/meditation" title="View this Guide">
+               Meditation Resources
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Feb 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/methodsarh" title="View this Guide">
+               Methods of Art History
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/modart" title="View this Guide">
+               Modern Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/moderneurope" title="View this Guide">
+               Modern European History
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 29, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/modlatam" title="View this Guide">
+               Modern Latin American and Caribbean History
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 3, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/music" title="View this Guide">
+               Music
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 1, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/musiccivilrights" title="View this Guide">
+               Music and the Civil Rights Movement
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/danube" title="View this Guide">
+               Music of Blue Danube
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 2, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/neg_identity" title="View this Guide">
+               Negotiating Identity in Contemporary France
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 2, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/nosongbehind" title="View this Guide">
+               No Song Left Behind
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/operations" title="View this Guide">
+               Operations and Information Systems
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 20, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/jewishthought" title="View this Guide">
+               Paths in Jewish Thought
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/persuasiondeception" title="View this Guide">
+               Persuasion, Manipulation, and Deception
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/philosophy" title="View this Guide">
+               Philosophy
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/pilgrimage" title="View this Guide">
+               Pilgrimage: Rites of Way
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/popculturelatin" title="View this Guide">
+               Popular Culture in Latin America and the Caribbean
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 2, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/macroecon" title="View this Guide">
+               Principles of Macroeconomics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 12, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/psycreativity" title="View this Guide">
+               Psychology of Creativity
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/rabbinictexts" title="View this Guide">
+               Rabbinic Texts and Traditions
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 14, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/readingausten" title="View this Guide">
+               Reading Austen
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/fairytales" title="View this Guide">
+               Reading Fairy Tales
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 21, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/lolita" title="View this Guide">
+               Reading Lolita in Allentown
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Apr 14, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/religionviolence" title="View this Guide">
+               Religion and Violence
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/religionamerica" title="View this Guide">
+               Religion in America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/religion" title="View this Guide">
+               Religion Studies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/meaninglife" title="View this Guide">
+               Religions and the Meaning of Life/Jesus Meets Krishna
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/religionsjapan" title="View this Guide">
+               Religions of Japan
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/remember_revolution" title="View this Guide">
+               Remembering the American Revolution
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/repdisabilities" title="View this Guide">
+               Representation of Disabilities in America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 15, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/representbody" title="View this Guide">
+               Representing Body in Art
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 1, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/gradschools" title="View this Guide">
+               Researching Graduate Schools and Finding Money to Attend
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 26, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/revolamerica" title="View this Guide">
+               Revolutionary America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 9, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/revolutionsfrench" title="View this Guide">
+               Revolutions in French History
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/revolsmideast" title="View this Guide">
+               Revolutions in the Middle East
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/riseislam" title="View this Guide">
+               Rise of Islam
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/roadtrip" title="View this Guide">
+               Road Trip: American Literature &amp; Film
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/17theurope" title="View this Guide">
+               Seventeenth-Century Europe
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/bodycaribbean" title="View this Guide">
+               Sex, Beauty and the Body in Brazil and the Caribbean
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/spanishprofessions" title="View this Guide">
+               Spanish for the Professions
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Sep 28, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/speakingdivine" title="View this Guide">
+               Speaking With the Divine
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/specialtopics" title="View this Guide">
+               Special Topics
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated May 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/sbi" title="View this Guide">
+               Summer Business Institute
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Nov 18, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/roosevelt" title="View this Guide">
+               The Age of Roosevelt
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Jan 29, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/detective" title="View this Guide">
+               The Detective in Film and Literature
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 23, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/reformation" title="View this Guide">
+               The Reformation
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Oct 3, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/theatredance" title="View this Guide">
+               Theatre and Dance
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 7, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/davinci" title="View this Guide">
+               Think Like Leonardo da Vinci
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/urbanafrica" title="View this Guide">
+               Urban Africa
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/whyrace" title="View this Guide">
+               Why Race?
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/whywework" title="View this Guide">
+               Why We Work
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 17, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/womensamerica" title="View this Guide">
+               Women's America
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 9, 2015
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/womensstudies" title="View this Guide">
+               Women's Studies
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Mar 31, 2016
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+            <div>
+             <div class="pdisplay_div">
+              <a class="pdisplay_name" href="/ww2eurocinema" title="View this Guide">
+               World War II in European Cinema
+              </a>
+              <br />
+              <span class="pdisplay_light">
+               <span class="pdisplay_author">
+                by
+                <a href="http://libraryguides.muhlenberg.edu/profile/cannon" title="View Profile">
+                 Kelly Cannon
+                </a>
+               </span>
+               <span class="pdisplay_updated">
+                - Last Updated Aug 27, 2014
+               </span>
+               <br />
+              </span>
+              <span class="pdisplay_dark">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </td>
+       <td valign="top">
+        <div id="profile_content_right" class="profile_column">
+         <div style="">
+         </div>
+         <div id="profile_badges">
+         </div>
+        </div>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div id="footer">
+     <div id="footer_topline">
+      Powered by
+      <a href="http://www.springshare.com">
+       Springshare
+      </a>
+      ; All rights reserved.
+      <span id="footer_support_link">
+       <a href="/support.php">
+        Report a tech support issue
+       </a>
+       .
+      </span>
+     </div>
+     <div id="print_link">
+      View this page in a format suitable for
+      <a href="/print_profile.php?uid=63914">
+       printers and screen-readers
+      </a>
+      .
+     </div>
+    </div>
+    <div id="customFooter">
+    </div>
+    <div id="trackingcode">
+    </div>
+   </div>
+  </div>
+  <div id="dp" style="width:850px;">
+   &nbsp;
+  </div>
+  <div id="dp2" style="width:850px;">
+   &nbsp;
+  </div>
+  <div id="descpopup" class="balloon" style="visibility: visible; top:-200px; left:-500px;">
+   <div id="descpopuptitle" class="balloon_head">
+    <h6>
+     Description
+    </h6>
+   </div>
+   <div class="balloon_body" id="descpopupcontent">
+    <p>
+     <img src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading...
+    </p>
+   </div>
+  </div>
+  <img id="tippointer" src="http://lgimages.s3.amazonaws.com/tippointer.gif" />
+  <div id="popupinfo" class="popup" style="visibility: visible; top:-200px; left:-500px;">
+   <div class="popup_head">
+    <table align="right" border="0">
+     <tr>
+      <td valign="bottom" height="18">
+       <a href="#" onclick="return hideAlert('popupinfo')">
+        <img src="http://lgimages.s3.amazonaws.com/window_close_grey.gif" border="0" align="absbottom" />
+       </a>
+      </td>
+     </tr>
+    </table>
+    <div id="popupinfotitle" style="display:inline;">
+     <h6>
+      More Information
+     </h6>
+    </div>
+   </div>
+   <div class="popup_body">
+    <div id="popupinfocontent" style="display:inline;">
+     <img src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading...
+    </div>
+    <br />
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Diversity: Small Victories - 2013-2014 | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        President's Office
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/campusbanners/background.jpg" alt="Haas College Center, Muhlenberg College" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/initiatives/">
+               Initiatives
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+               Diversity at Muhlenberg
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/">
+               Archived Documents
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/">
+               2013-2014
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/victories_022013.html">
+               Diversity: Small Victories
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add10">
+           <p>
+            February, 2013
+           </p>
+           <div class="content-add05">
+            <p>
+             Some years ago, I expressed to psychology professor James Jackson my hesitation to make any public announcements of diversity initiatives at the College, confessing that they seemed like such small steps on such a long pilgrimage that it would be unseemly even to mention them.&nbsp; He replied &ldquo;you must always celebrate small victories &ndash; those celebrations encourage the community and give your allies the opportunity to cheer you on to greater efforts.&rdquo;&nbsp;&nbsp; Perhaps I have neglected that advice in recent years.&nbsp; In partial correction of that oversight, I share the following list of &ldquo;small victories&rdquo; achieved by many members of our community &ndash; faculty, students, administrators, and others -- over the past decade.&nbsp; I call them &ldquo;small victories&rdquo; not to diminish their importance, but to emphasize that
+             <em>
+              they are only a beginning of the important work that remains to be done
+             </em>
+             . Cumulatively, I believe they represent a wide variety of efforts to advance the cause of diversity at Muhlenberg.&nbsp; The list, in roughly chronological order, is not exhaustive and I apologize to any individual or group whose contributions may not be included.&nbsp; I encourage them to contact me with additions to the list so that their efforts can also be recognized as I update this report.
+             <br />
+             <br />
+             The College currently budgets approximately $31 million annually for financial aid.&nbsp; Most of this is designed to support socio-economic diversity in the student body.&nbsp; Financial aid is the second largest item in the Muhlenberg Budget.&nbsp; Only compensation is larger.&nbsp; Over the past decade, the percentage of aid awarded to students of color in the entering class has increased from 13.4% in 2003 to 17.4% in 2012.
+            </p>
+            <ul>
+             <li>
+              The Office of Admissions began a Multicultural Ambassadors Program in 2005.&nbsp; Approximately 12-20 students per year assist Admissions in recruiting students of color.
+             </li>
+             <li>
+              The Office of Admissions has developed relationships with the following institutions to advance recruitment of ethnic minorities:&nbsp; Prep for Prep; TEAK Foundation; Princeton University Preparatory Program; Secondary School for Research; Brooklyn School for Collaborative Studies; Urban School for Law and Justice; Sponsors of Opportunity; New Jersey Leadership, Education and Partnership; NJ SEEDS (Scholars, Educators, Excellence, Dedication, Success); and North Star Academy (Newark, New Jersey).
+             </li>
+             <li>
+              Enrollment trends from 1990-2012 have shown modest but steady increases in racial and ethnic diversity thanks to the efforts of Admissions staff, student Multicultural Ambassadors, and others: from 6.4% students of color in 1990 to 8.8% in 2009 to 11.6% in 2012.&nbsp; The class of 2016 includes 12.12% multicultural students.
+             </li>
+             <li>
+              The number of full-time faculty of color who report their race on the IPEDS data form has risen from nine in 2002 to fourteen in 2013; a further sixteen full-time faculty currently choose not to disclose their race on the IPEDS data form.
+             </li>
+             <li>
+              Between 2004 and 2012 over $1.2 million in external gifts and grants were secured to support the development and maintenance of support programs for students with learning differences. The number of students with disabilities and learning differences has more than doubled in the past decade, from 102 documented cases in 2002 to 271 in 2012, and the College has added staff and programs in response to these increases, and has invested over $525,000 in technology and renovations to assist students with disabilities.
+             </li>
+             <li>
+              In 2004 Performance Evaluations for all managers were changed to incorporate the following performance criterion: &ldquo;How did this manager&rsquo;s efforts during the past year support Muhlenberg&rsquo;s commitment to function as a diverse, caring, supportive community?&rdquo;
+             </li>
+             <li>
+              In 2004 the College established an Athletic Gender Equity Committee which reviews gender equity in our athletic programs annually.
+             </li>
+             <li>
+              &ldquo;Sexual orientation&rdquo; was added to the list of protected categories in the College&rsquo;s non-discrimination policy in the early 1990&rsquo;s.&nbsp; Same-sex partner benefits have been available to all College employees since the mid-1990&rsquo;s.&nbsp; &ldquo;Gender identity&rdquo; was added to College&rsquo;s non-discrimination policy in 2005.
+             </li>
+             <li>
+              In approximately 2005, the College created a partnership with Art Sanctuary of North Philadelphia.
+             </li>
+             <li>
+              The first College Diversity Statement was drafted during the 2005-06 academic year by a Presidential Task Force comprised of fourteen members of the faculty and staff, who shared multiple drafts of the statement with the campus community and ultimately published what was considered by all to be a work-in-progress.
+             </li>
+             <li>
+              The Multicultural Center opened in summer 2006 at 2252 Chew Street, with an initial investment by the College of over $650,000.&nbsp; Several sets of improvements and renovations have been completed in the building since the Center&rsquo;s opening.&nbsp; Two work/study positions were created a year later to provide students with a professional opportunity to assist the Director in her duties. More renovations are planned for the summer of 2013.
+             </li>
+             <li>
+              Twenty-two students, eleven faculty members, ten staff members, and seven alumni served on original Multicultural Center Advisory Board (2006-2011), supporting the work of the Director of Multicultural Life, conducting the search for a New Director and aiding in the transition before and after her arrival in January, 2008, advocating for improvements to the building, and planning events on behalf of the Center.
+             </li>
+             <li>
+              Vice President and Dean of Students Karen Green established Muhlenberg&rsquo;s award-winning Gospel Choir in 2006.
+             </li>
+             <li>
+              The faculty approved an Africana Studies Program in 2007; a new tenure-track line dedicated to Africana Studies and a related discipline was created and Dr. Kim Gallon was hired to fill the position.&nbsp; The program joined existing academic majors, minors, and programs in Asian Traditions, International Studies, Jewish Studies, Latin American &amp; Caribbean Studies, and Women&rsquo;s Studies.
+             </li>
+             <li>
+              Counseling Center Director Anita Kelly was appointed as the College&rsquo;s first LGBTQ Coordinator in 2007.&nbsp; She also represents the College on the Lehigh Valley LGBT Chamber of Commerce.
+             </li>
+             <li>
+              A New Director of Multicultural Life, Ms. Robin Riley-Casey, was appointed in January 2008 and immediately accompanied a busload of Muhlenberg students to Washington D.C. for the inauguration of Barack Obama.
+             </li>
+             <li>
+              The Sedehi Diversity Project, envisioned and led by Desir&eacute;e Sedehi &rsquo;08, brought a diverse group of students together to create an original theatre performance work grounded in interviews with the College Community on diversity and difference at Muhlenberg College, which is presented each fall to the freshman class during Orientation.&nbsp; When the original group of creators graduated, the College negotiated a transfer of ownership (including a cash payment divided between the creators) so that the project could continue to be presented.&nbsp; Each year, the College invests over $8,500 in supporting a new theatre piece presented as part of orientation.
+             </li>
+             <li>
+              Facilitated by Dean Green and former Associate VP for Development Phil Ellmore, the College developed an informal partnership with Allentown&rsquo;s oldest African-American house of worship, Union Baptist Church, in 2008.&nbsp; Programs have included joint worship services, meals, and gospel choir workshop participation.
+             </li>
+             <li>
+              Organized by Professor Erika Sutherland, students have provided Spanish translation services to local hospitals and at polling places for the 2008 and 2012 presidential elections.
+             </li>
+             <li>
+              For approximately a decade, Professor Trevor Knox&rsquo;s &ldquo;Principles of Federal Taxation&rdquo; class has partnered with CACLV to enlist about 30 Muhlenberg students per year in the Volunteer Income Tax Assistance (VITA) program to help low-income families complete their annual federal, state and local income tax forms in the Allentown area. Their work generates approximately $1 million in tax refunds each year for some of the area&rsquo;s most economically disadvantaged families.
+             </li>
+             <li>
+              In 2009 the College sought and obtained a $50,000 Mellon Foundation grant to support faculty development of diversity courses.
+             </li>
+             <li>
+              The College initiated a Jumpstart Program in 2009 to assist selected students in the transition to College.&nbsp; In 2011 this program evolved into The Emerging Leaders Program.&nbsp; Cohorts of six to sixteen students have participated in the program each year.
+             </li>
+             <li>
+              The Provost&rsquo;s Office, Office of Multicultural Life, and Admissions have collaborated to sponsor student/faculty/staff delegations to attend the NCOR National Conference on Diversity in 2009 and 2011.
+             </li>
+             <li>
+              In 2010, in response to discussions with students, the Office of Residential Services implemented a gender-neutral housing policy.
+             </li>
+             <li>
+              Multicultural graduates have been invited to the Senior Staff retreat each summer since 2010 to advise Staff on the campus diversity climate, and to share observations based on their Muhlenberg experiences.
+             </li>
+             <li>
+              The College joined the Consortium for Faculty Diversity (CFD) in 2010.&nbsp; A total of eight faculty have attended annual CFD conferences in 2011 and 2012.&nbsp; Two CFD alumni (Krista Bywater, Kim Gallon) have been hired into tenure-track positions.&nbsp; The College has also hired two CFD Fellows (Neda Maghbouleh, Justin Rose) to fill one-year appointments.
+             </li>
+             <li>
+              Theta Nu Xi Multicultural Sorority was given official recognition by the College in 2010 and was chartered in 2012.
+             </li>
+             <li>
+              Beginning in 2010 kosher meals have been offered as part of the standard Muhlenberg meal contract
+             </li>
+             <li>
+              Consultants have been engaged to advise on diversity initiatives outlined in the College&rsquo;s Strategic Plan:&nbsp; Kristi Ford from Skidmore College for Intergroup Dialogue discussions in 2011; and Blaine Harding from Oklahoma State University for the Emerging Leaders Program, also in 2011.
+             </li>
+             <li>
+              In 2011 the College purchased a vehicle for the Office of Civic Engagement to enable students to travel to volunteer worksites in the community.
+             </li>
+             <li>
+              Admissions partnered with the Afghanistan Girls Financial Assistance Fund in 2011 and our first Afghan student arrived in Fall 2012.
+             </li>
+             <li>
+              In 2011 the College sought and obtained a two-year NCAA Division III Ethnic Minority and Women's Internship Grant (one of 14 schools selected to receive the grant out of 55 applications), designed to enhance opportunities for entry into athletic administration for women and ethnic minorities.&nbsp; Effective Fall 2011, the created position was filled by a woman (who has since advanced in the College&rsquo;s athletic administration); the College provided additional one-year funding to hire an African-American male to assist the Director of Multicultural Life and the Office of Athletics.&nbsp; Effective Fall 2012, with the promotion of the woman to full-time status, the grant was allocated to the African American male.
+             </li>
+             <li>
+              In 2011 after several incidents of racial profiling of students of color by faculty and staff, President Helm and Dean Green addressed this issue in face-to-face meetings with faculty and staff.
+             </li>
+             <li>
+              In 2011-12 the College made a major grant to the Africana Studies program to bring in scholars and artists to speak about the significance of Africa in the world as part of the Seeing Africa Lecture Series.
+             </li>
+             <li>
+              In 2012, after a review of the College&rsquo;s Student Judicial Process, the Dean of Students Office appointed Ms. Lee Kolbe Title IX Coordinator for the College, augmenting her existing duties in Student Life.&nbsp; Ms. Kolbe&rsquo;s responsibilities in this position include disseminating information, coordinating training and ensuring consistency of policies associated with Title IX legislation and case law, as well as ensuring the prompt handling of sexual harassment and sexual assault complaints filed by students.
+             </li>
+             <li>
+              The Administration sponsored one faculty member and one staff member to participate in Intergroup Dialogue Leadership Training at the University of Michigan in 2012.
+             </li>
+             <li>
+              In the fall of 2012 the College installed an
+              <em>
+               eruv
+              </em>
+              to facilitate Shabbat attendance at Hillel events for Orthodox Jewish students.
+             </li>
+             <li>
+              A Human Diversity and Global Engagement requirement, added to the curriculum by the faculty in 2012, doubled the existing diversity requirement from one to two courses.
+             </li>
+             <li>
+              The Provost&rsquo;s Office and Multicultural Center Advisory Board provided twelve faculty course development grants in 2012 for new diversity courses.
+             </li>
+             <li>
+              A room in Seegers Union was designated a Muslim prayer space for this academic year (2012-13), with a more permanent prayer space included in current Multicultural Center renovation plans. &nbsp;Muslim students hosted an Eid dinner in October 2012, sponsored by the Student Activities Office, the Multicultural Center, and the Chaplain's Office.
+             </li>
+             <li>
+              In 2012 and 2013 institutionally supported and widely attended MLK Week celebrations expanded on past MLK Day observances.
+             </li>
+             <li>
+              In 2013 an Alternative Spring Break trip co-sponsored by grants from Admissions, the Chaplain&rsquo;s Office, and the Dean of Students will take a diverse group of students to Memphis for a social justice study trip.
+             </li>
+             <li>
+              Scores of students over the years have contributed to the campus dialogue on diversity through their leadership of the Asian Students Association (ASA), Black Students Association (BSA), Comunidad Latina, Gay-Straight Alliance (GSA -now Students for Queer Advocacy or S.Qu.Ad), The Feminist Collective, the Multicultural Council, and Theta Nu Xi.&nbsp; A Muslim Student Association (MSA) has existed in the past and is currently in the process of being reorganized.
+              <strong>
+               &nbsp;
+              </strong>
+             </li>
+             <li>
+              Now sponsored by the Multicultural Center, annual Progressive Dinners have been a part of the Muhlenberg Community since at least 1998; past co-hosts have included Dean of Students Karen Green, President Helm, and Provost Ramsay and others.
+             </li>
+             <li>
+              The Institute for Jewish Christian Understanding&rsquo;s &ldquo;Youth and Prejudice&rdquo; program has been presented annually since 1995; the program involves approximately 50 Muhlenberg students, 3 Muhlenberg faculty/staff, 65-85 community volunteers, and 1,600 secondary school students
+              <span style="text-decoration: underline;">
+               each
+              </span>
+              <span style="text-decoration: underline;">
+               year
+              </span>
+              .
+             </li>
+             <li>
+              Staff from at least twenty offices across campus have attended &ldquo;Safe Zone Training&rdquo; sessions to familiarize themselves with issues that affect the LGBTQ community; they identify themselves with &ldquo;Safe Zone&rdquo; placards placed prominently in their offices to acknowledge that they are available to serve as allies to, and resources for, LGBTQ students.
+             </li>
+             <li>
+              Alumnus Adrian Shanker &rsquo;09 and Director of Multicultural Life Robin Riley-Casey serve on the Allentown Human Relations Commission; College personnel and programs honored by the AHRC in recent years for their efforts have been the HYPE Program (led by Professor Lora Taub-Pervizpour); Cynthia Amaya Santiago from the Admissions Office; WMUH Radio for the most diversified programming in the Lehigh Valley; Professor Peter Pettit of the IJCU; Professor Erika Sutherland; and Director of Disability Services Pamela Moschini.
+             </li>
+             <li>
+              Under the leadership of Associate Dean Donna Kish-Goodling and with the assistance of numerous faculty members, study abroad programs approved by the Office of Global Education have increased to more than 150 different programs in 60 countries, and now include MILA courses with short-term study abroad opportunities in Bangladesh, Botswana, China, Costa Rica, Ghana, Turkey, and other countries.
+             </li>
+             <li>
+              The Division of Student Affairs is providing training for Campus Safety Officers to better understand the communication styles of students with Aspberger&rsquo;s Syndrome and other neuro-differences.
+             </li>
+             <li>
+              The College&rsquo;s Board of Associates has increased its number of minority members and added an African-American man and Middle Eastern woman to its executive committee.
+             </li>
+             <li>
+              The President&rsquo;s Senior Staff is composed of eight individuals, including three women (one of whom is African-American) and one openly gay man.
+             </li>
+             <li>
+              Two African-American women currently serve on the College&rsquo;s Board of Trustees and three persons of color serve on the Board of Observers.
+             </li>
+             <li>
+              Commencement speakers since 2004 have included Lorene Carey (2005), Ray Suarez (2006), Marion Wright Edelman (2008), and Tony Kushner (2011). &nbsp;Honorary Degree Recipients have included Robert Moses (2004), Judy Shepard (2008), Muhammad Ali (2009), Dr. Benjamin Carson (2011), and James B. Stewart (2011).
+             </li>
+            </ul>
+            <p>
+             If you are aware of items you feel should be added to this list, please send them to me at
+             <a href="mailto:helm@muhlenberg.edu">
+              helm@muhlenberg.edu
+             </a>
+             .
+            </p>
+            <p>
+             Cordially,
+            </p>
+            <p>
+             Randy Helm
+             <br />
+             President
+            </p>
+            <p>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </p>
+           </div>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President's Office
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/letter_01302013.html">
+            An Open Letter to the Community
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/victories_022013.html">
+             Diversity: Small Victories
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/memo-022013.html">
+            Diversity Memo
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/memo-022013.html">
+            Diversity: Minutes
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/letter_01302013.html"&gt;An Open Letter to the Community&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/victories_022013.html"&gt;Diversity: Small Victories&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/memo-022013.html"&gt;Diversity Memo&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/archiveddocuments/2013-2014/memo-022013.html"&gt;Diversity: Minutes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,3373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID - Search collections
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <div id="content-wrapper">
+   <div id="content">
+    <div id="basket-content">
+     <div id="basket-scroll-right">
+     </div>
+     <div id="basket-scroll-left">
+     </div>
+     <div id="basket-thumbs">
+      <br />
+      Your basket is empty.
+     </div>
+    </div>
+    <div style="height: 15px;">
+    </div>
+    <div id="sidebar">
+    </div>
+    <h1>
+     Search collections
+    </h1>
+    <form method="POST" action=".">
+     <div style="display:none">
+      <input type="hidden" name="csrfmiddlewaretoken" value="253a0f0d7fc59958f83b4593f4897169" />
+     </div>
+     <input type="hidden" name="crit-TOTAL_FORMS" value="5" id="id_crit-TOTAL_FORMS" />
+     <input type="hidden" name="crit-INITIAL_FORMS" value="0" id="id_crit-INITIAL_FORMS" />
+     <input type="hidden" name="crit-MAX_NUM_FORMS" id="id_crit-MAX_NUM_FORMS" />
+     Collections:
+     <br />
+     <div id="collections" class="multi-checkbox-list">
+      <ul>
+       <li>
+        <label for="id_coll-collections_0">
+         <input type="checkbox" name="coll-collections" value="5" id="id_coll-collections_0" />
+         MDID1 Collection
+        </label>
+       </li>
+      </ul>
+     </div>
+     <div id="criteria" style="clear: left; padding: 20px 0;">
+      <div>
+       Criteria:
+       <input type="text" name="crit-0-criteria" id="id_crit-0-criteria" />
+       <select name="crit-0-type" id="id_crit-0-type">
+        <option value="t">
+         in
+        </option>
+        <option value="T">
+         not in
+        </option>
+       </select>
+       <select name="crit-0-field" id="id_crit-0-field">
+        <option value="" selected="selected">
+         Any
+        </option>
+        <optgroup label="Dublin Core">
+         <option value="1">
+          Contributor
+         </option>
+         <option value="2">
+          Coverage
+         </option>
+         <option value="3">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="6">
+          Format
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="8">
+          Language
+         </option>
+         <option value="9">
+          Publisher
+         </option>
+         <option value="10">
+          Relation
+         </option>
+         <option value="11">
+          Rights
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="13">
+          Subject
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="15">
+          Type
+         </option>
+        </optgroup>
+        <optgroup label="Tagging">
+         <option value="16">
+          Tags
+         </option>
+        </optgroup>
+        <optgroup label="VRA Core 4">
+         <option value="17">
+          Agent
+         </option>
+         <option value="18">
+          Cultural Context
+         </option>
+         <option value="19">
+          Date
+         </option>
+         <option value="20">
+          Description
+         </option>
+         <option value="21">
+          Inscription
+         </option>
+         <option value="22">
+          Location
+         </option>
+         <option value="23">
+          Material
+         </option>
+         <option value="24">
+          Measurements
+         </option>
+         <option value="25">
+          Relation
+         </option>
+         <option value="26">
+          Rights
+         </option>
+         <option value="27">
+          Source
+         </option>
+         <option value="28">
+          State/Edition
+         </option>
+         <option value="29">
+          Style/Period
+         </option>
+         <option value="30">
+          Subject
+         </option>
+         <option value="31">
+          Technique
+         </option>
+         <option value="32">
+          Textual Reference
+         </option>
+         <option value="33">
+          Title
+         </option>
+         <option value="34">
+          Work Type
+         </option>
+        </optgroup>
+        <optgroup label="Other">
+         <option value="170">
+          Alternate_Title
+         </option>
+         <option value="85">
+          Alternate Title
+         </option>
+         <option value="97">
+          Artist
+         </option>
+         <option value="104">
+          Artist1_Attribution
+         </option>
+         <option value="122">
+          Artist1_Corporate
+         </option>
+         <option value="110">
+          Artist1_RefID
+         </option>
+         <option value="106">
+          Artist1_Vocab
+         </option>
+         <option value="129">
+          Artist
+         </option>
+         <option value="127">
+          Artist2_Corporate
+         </option>
+         <option value="101">
+          Artist2_Gender
+         </option>
+         <option value="84">
+          Artist2_Lifetime
+         </option>
+         <option value="132">
+          Artist2_Nationality
+         </option>
+         <option value="144">
+          Artist2_RefID
+         </option>
+         <option value="82">
+          Artist2_Vocab
+         </option>
+         <option value="125">
+          Artist3_Corporate
+         </option>
+         <option value="138">
+          Artist3_DisplayName
+         </option>
+         <option value="92">
+          Artist3_Gender
+         </option>
+         <option value="102">
+          Artist3_Lifetime
+         </option>
+         <option value="128">
+          Artist3_Nationality
+         </option>
+         <option value="142">
+          Artist3_RefID
+         </option>
+         <option value="133">
+          Artist3_SortName
+         </option>
+         <option value="140">
+          Artist3_Vocab
+         </option>
+         <option value="90">
+          Artist4_Corporate
+         </option>
+         <option value="93">
+          Artist4_DisplayName
+         </option>
+         <option value="98">
+          Artist4_Gender
+         </option>
+         <option value="99">
+          Artist4_Lifetime
+         </option>
+         <option value="100">
+          Artist4_Nationality
+         </option>
+         <option value="119">
+          Artist4_RefID
+         </option>
+         <option value="117">
+          Artist4_SortName
+         </option>
+         <option value="105">
+          Artist4_Vocab
+         </option>
+         <option value="147">
+          Artist5_Corporate
+         </option>
+         <option value="114">
+          Artist5_DisplayName
+         </option>
+         <option value="94">
+          Artist5_Gender
+         </option>
+         <option value="121">
+          Artist5_Lifetime
+         </option>
+         <option value="126">
+          Artist5_Nationality
+         </option>
+         <option value="108">
+          Artist5_RefID
+         </option>
+         <option value="96">
+          Artist5_SortName
+         </option>
+         <option value="148">
+          Artist5_Vocab
+         </option>
+         <option value="89">
+          Artist Dates
+         </option>
+         <option value="107">
+          Artist Surname
+         </option>
+         <option value="124">
+          CatalogNum
+         </option>
+         <option value="136">
+          City
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="165">
+          City_Site
+         </option>
+         <option value="191">
+          City_Site
+         </option>
+         <option value="81">
+          Classification
+         </option>
+         <option value="40">
+          Contributor
+         </option>
+         <option value="68">
+          Contributor
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="166">
+          Copyright
+         </option>
+         <option value="192">
+          Copyright
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="146">
+          Country
+         </option>
+         <option value="162">
+          Country
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="48">
+          Coverage
+         </option>
+         <option value="76">
+          Coverage
+         </option>
+         <option value="36">
+          Creator
+         </option>
+         <option value="163">
+          Creator_1
+         </option>
+         <option value="182">
+          Creator_1
+         </option>
+         <option value="177">
+          Creator_2
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="64">
+          Creator
+         </option>
+         <option value="154">
+          Credit
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="159">
+          Culture
+         </option>
+         <option value="186">
+          Culture
+         </option>
+         <option value="41">
+          Date
+         </option>
+         <option value="175">
+          Date_Digital
+         </option>
+         <option value="188">
+          Date_Digital
+         </option>
+         <option value="164">
+          Date_Original
+         </option>
+         <option value="187">
+          Date_Original
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="69">
+          Date
+         </option>
+         <option value="120">
+          Date
+         </option>
+         <option value="153">
+          Date
+         </option>
+         <option value="143">
+          Depth
+         </option>
+         <option value="38">
+          Description
+         </option>
+         <option value="66">
+          Description
+         </option>
+         <option value="123">
+          Description
+         </option>
+         <option value="152">
+          Description
+         </option>
+         <option value="112">
+          Dimensions
+         </option>
+         <option value="131">
+          Extent
+         </option>
+         <option value="43">
+          Format
+         </option>
+         <option value="173">
+          Format_Digital
+         </option>
+         <option value="196">
+          Format_Digital
+         </option>
+         <option value="172">
+          Format_Physical_Sheet
+         </option>
+         <option value="195">
+          Format_Physical_Sheet
+         </option>
+         <option value="71">
+          Format
+         </option>
+         <option value="118">
+          Gender
+         </option>
+         <option value="91">
+          Height
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="156">
+          ID
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="44">
+          Identifier
+         </option>
+         <option value="72">
+          Identifier
+         </option>
+         <option value="151">
+          Identifier
+         </option>
+         <option value="155">
+          Image URL
+         </option>
+         <option value="79">
+          Inscription
+         </option>
+         <option value="46">
+          Language
+         </option>
+         <option value="74">
+          Language
+         </option>
+         <option value="115">
+          Larger Entity
+         </option>
+         <option value="139">
+          Material of Display
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="78">
+          Medium
+         </option>
+         <option value="158">
+          Medium
+         </option>
+         <option value="183">
+          Medium
+         </option>
+         <option value="95">
+          Museum
+         </option>
+         <option value="141">
+          Museum City
+         </option>
+         <option value="103">
+          Museum Country
+         </option>
+         <option value="137">
+          Nationality
+         </option>
+         <option value="145">
+          Note
+         </option>
+         <option value="178">
+          Note_1
+         </option>
+         <option value="200">
+          Note_1
+         </option>
+         <option value="179">
+          Note_2
+         </option>
+         <option value="201">
+          Note_2
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="160">
+          Period_1
+         </option>
+         <option value="184">
+          Period_1
+         </option>
+         <option value="176">
+          Period_2
+         </option>
+         <option value="185">
+          Period_2
+         </option>
+         <option value="109">
+          Period
+         </option>
+         <option value="39">
+          Publisher
+         </option>
+         <option value="67">
+          Publisher
+         </option>
+         <option value="174">
+          Publisher
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+         <option value="47">
+          Relation
+         </option>
+         <option value="75">
+          Relation
+         </option>
+         <option value="80">
+          RepositoryID
+         </option>
+         <option value="49">
+          Rights
+         </option>
+         <option value="77">
+          Rights
+         </option>
+         <option value="86">
+          Rights
+         </option>
+         <option value="134">
+          Secondary Artist Surname
+         </option>
+         <option value="45">
+          Source
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="73">
+          Source
+         </option>
+         <option value="167">
+          Source
+         </option>
+         <option value="193">
+          Source
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="161">
+          Style_Material
+         </option>
+         <option value="189">
+          Style_Material
+         </option>
+         <option value="88">
+          StylePeriod_RefID
+         </option>
+         <option value="37">
+          Subject
+         </option>
+         <option value="65">
+          Subject
+         </option>
+         <option value="169">
+          Subject
+         </option>
+         <option value="197">
+          Subject
+         </option>
+         <option value="116">
+          Support
+         </option>
+         <option value="202">
+          System Value
+         </option>
+         <option value="35">
+          Title
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="63">
+          Title
+         </option>
+         <option value="111">
+          Title
+         </option>
+         <option value="150">
+          Title
+         </option>
+         <option value="157">
+          Title
+         </option>
+         <option value="181">
+          Title
+         </option>
+         <option value="42">
+          Type
+         </option>
+         <option value="70">
+          Type
+         </option>
+         <option value="171">
+          Type
+         </option>
+         <option value="198">
+          Type
+         </option>
+         <option value="149">
+          Units
+         </option>
+         <option value="83">
+          Vendor
+         </option>
+         <option value="130">
+          VendorCatalogNum
+         </option>
+         <option value="87">
+          View
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="168">
+          View_Notes
+         </option>
+         <option value="194">
+          View_Notes
+         </option>
+         <option value="113">
+          Width
+         </option>
+         <option value="135">
+          WorkType
+         </option>
+        </optgroup>
+       </select>
+      </div>
+      <div>
+       Criteria:
+       <input type="text" name="crit-1-criteria" id="id_crit-1-criteria" />
+       <select name="crit-1-type" id="id_crit-1-type">
+        <option value="t">
+         in
+        </option>
+        <option value="T">
+         not in
+        </option>
+       </select>
+       <select name="crit-1-field" id="id_crit-1-field">
+        <option value="" selected="selected">
+         Any
+        </option>
+        <optgroup label="Dublin Core">
+         <option value="1">
+          Contributor
+         </option>
+         <option value="2">
+          Coverage
+         </option>
+         <option value="3">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="6">
+          Format
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="8">
+          Language
+         </option>
+         <option value="9">
+          Publisher
+         </option>
+         <option value="10">
+          Relation
+         </option>
+         <option value="11">
+          Rights
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="13">
+          Subject
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="15">
+          Type
+         </option>
+        </optgroup>
+        <optgroup label="Tagging">
+         <option value="16">
+          Tags
+         </option>
+        </optgroup>
+        <optgroup label="VRA Core 4">
+         <option value="17">
+          Agent
+         </option>
+         <option value="18">
+          Cultural Context
+         </option>
+         <option value="19">
+          Date
+         </option>
+         <option value="20">
+          Description
+         </option>
+         <option value="21">
+          Inscription
+         </option>
+         <option value="22">
+          Location
+         </option>
+         <option value="23">
+          Material
+         </option>
+         <option value="24">
+          Measurements
+         </option>
+         <option value="25">
+          Relation
+         </option>
+         <option value="26">
+          Rights
+         </option>
+         <option value="27">
+          Source
+         </option>
+         <option value="28">
+          State/Edition
+         </option>
+         <option value="29">
+          Style/Period
+         </option>
+         <option value="30">
+          Subject
+         </option>
+         <option value="31">
+          Technique
+         </option>
+         <option value="32">
+          Textual Reference
+         </option>
+         <option value="33">
+          Title
+         </option>
+         <option value="34">
+          Work Type
+         </option>
+        </optgroup>
+        <optgroup label="Other">
+         <option value="170">
+          Alternate_Title
+         </option>
+         <option value="85">
+          Alternate Title
+         </option>
+         <option value="97">
+          Artist
+         </option>
+         <option value="104">
+          Artist1_Attribution
+         </option>
+         <option value="122">
+          Artist1_Corporate
+         </option>
+         <option value="110">
+          Artist1_RefID
+         </option>
+         <option value="106">
+          Artist1_Vocab
+         </option>
+         <option value="129">
+          Artist
+         </option>
+         <option value="127">
+          Artist2_Corporate
+         </option>
+         <option value="101">
+          Artist2_Gender
+         </option>
+         <option value="84">
+          Artist2_Lifetime
+         </option>
+         <option value="132">
+          Artist2_Nationality
+         </option>
+         <option value="144">
+          Artist2_RefID
+         </option>
+         <option value="82">
+          Artist2_Vocab
+         </option>
+         <option value="125">
+          Artist3_Corporate
+         </option>
+         <option value="138">
+          Artist3_DisplayName
+         </option>
+         <option value="92">
+          Artist3_Gender
+         </option>
+         <option value="102">
+          Artist3_Lifetime
+         </option>
+         <option value="128">
+          Artist3_Nationality
+         </option>
+         <option value="142">
+          Artist3_RefID
+         </option>
+         <option value="133">
+          Artist3_SortName
+         </option>
+         <option value="140">
+          Artist3_Vocab
+         </option>
+         <option value="90">
+          Artist4_Corporate
+         </option>
+         <option value="93">
+          Artist4_DisplayName
+         </option>
+         <option value="98">
+          Artist4_Gender
+         </option>
+         <option value="99">
+          Artist4_Lifetime
+         </option>
+         <option value="100">
+          Artist4_Nationality
+         </option>
+         <option value="119">
+          Artist4_RefID
+         </option>
+         <option value="117">
+          Artist4_SortName
+         </option>
+         <option value="105">
+          Artist4_Vocab
+         </option>
+         <option value="147">
+          Artist5_Corporate
+         </option>
+         <option value="114">
+          Artist5_DisplayName
+         </option>
+         <option value="94">
+          Artist5_Gender
+         </option>
+         <option value="121">
+          Artist5_Lifetime
+         </option>
+         <option value="126">
+          Artist5_Nationality
+         </option>
+         <option value="108">
+          Artist5_RefID
+         </option>
+         <option value="96">
+          Artist5_SortName
+         </option>
+         <option value="148">
+          Artist5_Vocab
+         </option>
+         <option value="89">
+          Artist Dates
+         </option>
+         <option value="107">
+          Artist Surname
+         </option>
+         <option value="124">
+          CatalogNum
+         </option>
+         <option value="136">
+          City
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="165">
+          City_Site
+         </option>
+         <option value="191">
+          City_Site
+         </option>
+         <option value="81">
+          Classification
+         </option>
+         <option value="40">
+          Contributor
+         </option>
+         <option value="68">
+          Contributor
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="166">
+          Copyright
+         </option>
+         <option value="192">
+          Copyright
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="146">
+          Country
+         </option>
+         <option value="162">
+          Country
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="48">
+          Coverage
+         </option>
+         <option value="76">
+          Coverage
+         </option>
+         <option value="36">
+          Creator
+         </option>
+         <option value="163">
+          Creator_1
+         </option>
+         <option value="182">
+          Creator_1
+         </option>
+         <option value="177">
+          Creator_2
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="64">
+          Creator
+         </option>
+         <option value="154">
+          Credit
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="159">
+          Culture
+         </option>
+         <option value="186">
+          Culture
+         </option>
+         <option value="41">
+          Date
+         </option>
+         <option value="175">
+          Date_Digital
+         </option>
+         <option value="188">
+          Date_Digital
+         </option>
+         <option value="164">
+          Date_Original
+         </option>
+         <option value="187">
+          Date_Original
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="69">
+          Date
+         </option>
+         <option value="120">
+          Date
+         </option>
+         <option value="153">
+          Date
+         </option>
+         <option value="143">
+          Depth
+         </option>
+         <option value="38">
+          Description
+         </option>
+         <option value="66">
+          Description
+         </option>
+         <option value="123">
+          Description
+         </option>
+         <option value="152">
+          Description
+         </option>
+         <option value="112">
+          Dimensions
+         </option>
+         <option value="131">
+          Extent
+         </option>
+         <option value="43">
+          Format
+         </option>
+         <option value="173">
+          Format_Digital
+         </option>
+         <option value="196">
+          Format_Digital
+         </option>
+         <option value="172">
+          Format_Physical_Sheet
+         </option>
+         <option value="195">
+          Format_Physical_Sheet
+         </option>
+         <option value="71">
+          Format
+         </option>
+         <option value="118">
+          Gender
+         </option>
+         <option value="91">
+          Height
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="156">
+          ID
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="44">
+          Identifier
+         </option>
+         <option value="72">
+          Identifier
+         </option>
+         <option value="151">
+          Identifier
+         </option>
+         <option value="155">
+          Image URL
+         </option>
+         <option value="79">
+          Inscription
+         </option>
+         <option value="46">
+          Language
+         </option>
+         <option value="74">
+          Language
+         </option>
+         <option value="115">
+          Larger Entity
+         </option>
+         <option value="139">
+          Material of Display
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="78">
+          Medium
+         </option>
+         <option value="158">
+          Medium
+         </option>
+         <option value="183">
+          Medium
+         </option>
+         <option value="95">
+          Museum
+         </option>
+         <option value="141">
+          Museum City
+         </option>
+         <option value="103">
+          Museum Country
+         </option>
+         <option value="137">
+          Nationality
+         </option>
+         <option value="145">
+          Note
+         </option>
+         <option value="178">
+          Note_1
+         </option>
+         <option value="200">
+          Note_1
+         </option>
+         <option value="179">
+          Note_2
+         </option>
+         <option value="201">
+          Note_2
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="160">
+          Period_1
+         </option>
+         <option value="184">
+          Period_1
+         </option>
+         <option value="176">
+          Period_2
+         </option>
+         <option value="185">
+          Period_2
+         </option>
+         <option value="109">
+          Period
+         </option>
+         <option value="39">
+          Publisher
+         </option>
+         <option value="67">
+          Publisher
+         </option>
+         <option value="174">
+          Publisher
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+         <option value="47">
+          Relation
+         </option>
+         <option value="75">
+          Relation
+         </option>
+         <option value="80">
+          RepositoryID
+         </option>
+         <option value="49">
+          Rights
+         </option>
+         <option value="77">
+          Rights
+         </option>
+         <option value="86">
+          Rights
+         </option>
+         <option value="134">
+          Secondary Artist Surname
+         </option>
+         <option value="45">
+          Source
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="73">
+          Source
+         </option>
+         <option value="167">
+          Source
+         </option>
+         <option value="193">
+          Source
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="161">
+          Style_Material
+         </option>
+         <option value="189">
+          Style_Material
+         </option>
+         <option value="88">
+          StylePeriod_RefID
+         </option>
+         <option value="37">
+          Subject
+         </option>
+         <option value="65">
+          Subject
+         </option>
+         <option value="169">
+          Subject
+         </option>
+         <option value="197">
+          Subject
+         </option>
+         <option value="116">
+          Support
+         </option>
+         <option value="202">
+          System Value
+         </option>
+         <option value="35">
+          Title
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="63">
+          Title
+         </option>
+         <option value="111">
+          Title
+         </option>
+         <option value="150">
+          Title
+         </option>
+         <option value="157">
+          Title
+         </option>
+         <option value="181">
+          Title
+         </option>
+         <option value="42">
+          Type
+         </option>
+         <option value="70">
+          Type
+         </option>
+         <option value="171">
+          Type
+         </option>
+         <option value="198">
+          Type
+         </option>
+         <option value="149">
+          Units
+         </option>
+         <option value="83">
+          Vendor
+         </option>
+         <option value="130">
+          VendorCatalogNum
+         </option>
+         <option value="87">
+          View
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="168">
+          View_Notes
+         </option>
+         <option value="194">
+          View_Notes
+         </option>
+         <option value="113">
+          Width
+         </option>
+         <option value="135">
+          WorkType
+         </option>
+        </optgroup>
+       </select>
+      </div>
+      <div>
+       Criteria:
+       <input type="text" name="crit-2-criteria" id="id_crit-2-criteria" />
+       <select name="crit-2-type" id="id_crit-2-type">
+        <option value="t">
+         in
+        </option>
+        <option value="T">
+         not in
+        </option>
+       </select>
+       <select name="crit-2-field" id="id_crit-2-field">
+        <option value="" selected="selected">
+         Any
+        </option>
+        <optgroup label="Dublin Core">
+         <option value="1">
+          Contributor
+         </option>
+         <option value="2">
+          Coverage
+         </option>
+         <option value="3">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="6">
+          Format
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="8">
+          Language
+         </option>
+         <option value="9">
+          Publisher
+         </option>
+         <option value="10">
+          Relation
+         </option>
+         <option value="11">
+          Rights
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="13">
+          Subject
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="15">
+          Type
+         </option>
+        </optgroup>
+        <optgroup label="Tagging">
+         <option value="16">
+          Tags
+         </option>
+        </optgroup>
+        <optgroup label="VRA Core 4">
+         <option value="17">
+          Agent
+         </option>
+         <option value="18">
+          Cultural Context
+         </option>
+         <option value="19">
+          Date
+         </option>
+         <option value="20">
+          Description
+         </option>
+         <option value="21">
+          Inscription
+         </option>
+         <option value="22">
+          Location
+         </option>
+         <option value="23">
+          Material
+         </option>
+         <option value="24">
+          Measurements
+         </option>
+         <option value="25">
+          Relation
+         </option>
+         <option value="26">
+          Rights
+         </option>
+         <option value="27">
+          Source
+         </option>
+         <option value="28">
+          State/Edition
+         </option>
+         <option value="29">
+          Style/Period
+         </option>
+         <option value="30">
+          Subject
+         </option>
+         <option value="31">
+          Technique
+         </option>
+         <option value="32">
+          Textual Reference
+         </option>
+         <option value="33">
+          Title
+         </option>
+         <option value="34">
+          Work Type
+         </option>
+        </optgroup>
+        <optgroup label="Other">
+         <option value="170">
+          Alternate_Title
+         </option>
+         <option value="85">
+          Alternate Title
+         </option>
+         <option value="97">
+          Artist
+         </option>
+         <option value="104">
+          Artist1_Attribution
+         </option>
+         <option value="122">
+          Artist1_Corporate
+         </option>
+         <option value="110">
+          Artist1_RefID
+         </option>
+         <option value="106">
+          Artist1_Vocab
+         </option>
+         <option value="129">
+          Artist
+         </option>
+         <option value="127">
+          Artist2_Corporate
+         </option>
+         <option value="101">
+          Artist2_Gender
+         </option>
+         <option value="84">
+          Artist2_Lifetime
+         </option>
+         <option value="132">
+          Artist2_Nationality
+         </option>
+         <option value="144">
+          Artist2_RefID
+         </option>
+         <option value="82">
+          Artist2_Vocab
+         </option>
+         <option value="125">
+          Artist3_Corporate
+         </option>
+         <option value="138">
+          Artist3_DisplayName
+         </option>
+         <option value="92">
+          Artist3_Gender
+         </option>
+         <option value="102">
+          Artist3_Lifetime
+         </option>
+         <option value="128">
+          Artist3_Nationality
+         </option>
+         <option value="142">
+          Artist3_RefID
+         </option>
+         <option value="133">
+          Artist3_SortName
+         </option>
+         <option value="140">
+          Artist3_Vocab
+         </option>
+         <option value="90">
+          Artist4_Corporate
+         </option>
+         <option value="93">
+          Artist4_DisplayName
+         </option>
+         <option value="98">
+          Artist4_Gender
+         </option>
+         <option value="99">
+          Artist4_Lifetime
+         </option>
+         <option value="100">
+          Artist4_Nationality
+         </option>
+         <option value="119">
+          Artist4_RefID
+         </option>
+         <option value="117">
+          Artist4_SortName
+         </option>
+         <option value="105">
+          Artist4_Vocab
+         </option>
+         <option value="147">
+          Artist5_Corporate
+         </option>
+         <option value="114">
+          Artist5_DisplayName
+         </option>
+         <option value="94">
+          Artist5_Gender
+         </option>
+         <option value="121">
+          Artist5_Lifetime
+         </option>
+         <option value="126">
+          Artist5_Nationality
+         </option>
+         <option value="108">
+          Artist5_RefID
+         </option>
+         <option value="96">
+          Artist5_SortName
+         </option>
+         <option value="148">
+          Artist5_Vocab
+         </option>
+         <option value="89">
+          Artist Dates
+         </option>
+         <option value="107">
+          Artist Surname
+         </option>
+         <option value="124">
+          CatalogNum
+         </option>
+         <option value="136">
+          City
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="165">
+          City_Site
+         </option>
+         <option value="191">
+          City_Site
+         </option>
+         <option value="81">
+          Classification
+         </option>
+         <option value="40">
+          Contributor
+         </option>
+         <option value="68">
+          Contributor
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="166">
+          Copyright
+         </option>
+         <option value="192">
+          Copyright
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="146">
+          Country
+         </option>
+         <option value="162">
+          Country
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="48">
+          Coverage
+         </option>
+         <option value="76">
+          Coverage
+         </option>
+         <option value="36">
+          Creator
+         </option>
+         <option value="163">
+          Creator_1
+         </option>
+         <option value="182">
+          Creator_1
+         </option>
+         <option value="177">
+          Creator_2
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="64">
+          Creator
+         </option>
+         <option value="154">
+          Credit
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="159">
+          Culture
+         </option>
+         <option value="186">
+          Culture
+         </option>
+         <option value="41">
+          Date
+         </option>
+         <option value="175">
+          Date_Digital
+         </option>
+         <option value="188">
+          Date_Digital
+         </option>
+         <option value="164">
+          Date_Original
+         </option>
+         <option value="187">
+          Date_Original
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="69">
+          Date
+         </option>
+         <option value="120">
+          Date
+         </option>
+         <option value="153">
+          Date
+         </option>
+         <option value="143">
+          Depth
+         </option>
+         <option value="38">
+          Description
+         </option>
+         <option value="66">
+          Description
+         </option>
+         <option value="123">
+          Description
+         </option>
+         <option value="152">
+          Description
+         </option>
+         <option value="112">
+          Dimensions
+         </option>
+         <option value="131">
+          Extent
+         </option>
+         <option value="43">
+          Format
+         </option>
+         <option value="173">
+          Format_Digital
+         </option>
+         <option value="196">
+          Format_Digital
+         </option>
+         <option value="172">
+          Format_Physical_Sheet
+         </option>
+         <option value="195">
+          Format_Physical_Sheet
+         </option>
+         <option value="71">
+          Format
+         </option>
+         <option value="118">
+          Gender
+         </option>
+         <option value="91">
+          Height
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="156">
+          ID
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="44">
+          Identifier
+         </option>
+         <option value="72">
+          Identifier
+         </option>
+         <option value="151">
+          Identifier
+         </option>
+         <option value="155">
+          Image URL
+         </option>
+         <option value="79">
+          Inscription
+         </option>
+         <option value="46">
+          Language
+         </option>
+         <option value="74">
+          Language
+         </option>
+         <option value="115">
+          Larger Entity
+         </option>
+         <option value="139">
+          Material of Display
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="78">
+          Medium
+         </option>
+         <option value="158">
+          Medium
+         </option>
+         <option value="183">
+          Medium
+         </option>
+         <option value="95">
+          Museum
+         </option>
+         <option value="141">
+          Museum City
+         </option>
+         <option value="103">
+          Museum Country
+         </option>
+         <option value="137">
+          Nationality
+         </option>
+         <option value="145">
+          Note
+         </option>
+         <option value="178">
+          Note_1
+         </option>
+         <option value="200">
+          Note_1
+         </option>
+         <option value="179">
+          Note_2
+         </option>
+         <option value="201">
+          Note_2
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="160">
+          Period_1
+         </option>
+         <option value="184">
+          Period_1
+         </option>
+         <option value="176">
+          Period_2
+         </option>
+         <option value="185">
+          Period_2
+         </option>
+         <option value="109">
+          Period
+         </option>
+         <option value="39">
+          Publisher
+         </option>
+         <option value="67">
+          Publisher
+         </option>
+         <option value="174">
+          Publisher
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+         <option value="47">
+          Relation
+         </option>
+         <option value="75">
+          Relation
+         </option>
+         <option value="80">
+          RepositoryID
+         </option>
+         <option value="49">
+          Rights
+         </option>
+         <option value="77">
+          Rights
+         </option>
+         <option value="86">
+          Rights
+         </option>
+         <option value="134">
+          Secondary Artist Surname
+         </option>
+         <option value="45">
+          Source
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="73">
+          Source
+         </option>
+         <option value="167">
+          Source
+         </option>
+         <option value="193">
+          Source
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="161">
+          Style_Material
+         </option>
+         <option value="189">
+          Style_Material
+         </option>
+         <option value="88">
+          StylePeriod_RefID
+         </option>
+         <option value="37">
+          Subject
+         </option>
+         <option value="65">
+          Subject
+         </option>
+         <option value="169">
+          Subject
+         </option>
+         <option value="197">
+          Subject
+         </option>
+         <option value="116">
+          Support
+         </option>
+         <option value="202">
+          System Value
+         </option>
+         <option value="35">
+          Title
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="63">
+          Title
+         </option>
+         <option value="111">
+          Title
+         </option>
+         <option value="150">
+          Title
+         </option>
+         <option value="157">
+          Title
+         </option>
+         <option value="181">
+          Title
+         </option>
+         <option value="42">
+          Type
+         </option>
+         <option value="70">
+          Type
+         </option>
+         <option value="171">
+          Type
+         </option>
+         <option value="198">
+          Type
+         </option>
+         <option value="149">
+          Units
+         </option>
+         <option value="83">
+          Vendor
+         </option>
+         <option value="130">
+          VendorCatalogNum
+         </option>
+         <option value="87">
+          View
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="168">
+          View_Notes
+         </option>
+         <option value="194">
+          View_Notes
+         </option>
+         <option value="113">
+          Width
+         </option>
+         <option value="135">
+          WorkType
+         </option>
+        </optgroup>
+       </select>
+      </div>
+      <div>
+       Criteria:
+       <input type="text" name="crit-3-criteria" id="id_crit-3-criteria" />
+       <select name="crit-3-type" id="id_crit-3-type">
+        <option value="t">
+         in
+        </option>
+        <option value="T">
+         not in
+        </option>
+       </select>
+       <select name="crit-3-field" id="id_crit-3-field">
+        <option value="" selected="selected">
+         Any
+        </option>
+        <optgroup label="Dublin Core">
+         <option value="1">
+          Contributor
+         </option>
+         <option value="2">
+          Coverage
+         </option>
+         <option value="3">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="6">
+          Format
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="8">
+          Language
+         </option>
+         <option value="9">
+          Publisher
+         </option>
+         <option value="10">
+          Relation
+         </option>
+         <option value="11">
+          Rights
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="13">
+          Subject
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="15">
+          Type
+         </option>
+        </optgroup>
+        <optgroup label="Tagging">
+         <option value="16">
+          Tags
+         </option>
+        </optgroup>
+        <optgroup label="VRA Core 4">
+         <option value="17">
+          Agent
+         </option>
+         <option value="18">
+          Cultural Context
+         </option>
+         <option value="19">
+          Date
+         </option>
+         <option value="20">
+          Description
+         </option>
+         <option value="21">
+          Inscription
+         </option>
+         <option value="22">
+          Location
+         </option>
+         <option value="23">
+          Material
+         </option>
+         <option value="24">
+          Measurements
+         </option>
+         <option value="25">
+          Relation
+         </option>
+         <option value="26">
+          Rights
+         </option>
+         <option value="27">
+          Source
+         </option>
+         <option value="28">
+          State/Edition
+         </option>
+         <option value="29">
+          Style/Period
+         </option>
+         <option value="30">
+          Subject
+         </option>
+         <option value="31">
+          Technique
+         </option>
+         <option value="32">
+          Textual Reference
+         </option>
+         <option value="33">
+          Title
+         </option>
+         <option value="34">
+          Work Type
+         </option>
+        </optgroup>
+        <optgroup label="Other">
+         <option value="170">
+          Alternate_Title
+         </option>
+         <option value="85">
+          Alternate Title
+         </option>
+         <option value="97">
+          Artist
+         </option>
+         <option value="104">
+          Artist1_Attribution
+         </option>
+         <option value="122">
+          Artist1_Corporate
+         </option>
+         <option value="110">
+          Artist1_RefID
+         </option>
+         <option value="106">
+          Artist1_Vocab
+         </option>
+         <option value="129">
+          Artist
+         </option>
+         <option value="127">
+          Artist2_Corporate
+         </option>
+         <option value="101">
+          Artist2_Gender
+         </option>
+         <option value="84">
+          Artist2_Lifetime
+         </option>
+         <option value="132">
+          Artist2_Nationality
+         </option>
+         <option value="144">
+          Artist2_RefID
+         </option>
+         <option value="82">
+          Artist2_Vocab
+         </option>
+         <option value="125">
+          Artist3_Corporate
+         </option>
+         <option value="138">
+          Artist3_DisplayName
+         </option>
+         <option value="92">
+          Artist3_Gender
+         </option>
+         <option value="102">
+          Artist3_Lifetime
+         </option>
+         <option value="128">
+          Artist3_Nationality
+         </option>
+         <option value="142">
+          Artist3_RefID
+         </option>
+         <option value="133">
+          Artist3_SortName
+         </option>
+         <option value="140">
+          Artist3_Vocab
+         </option>
+         <option value="90">
+          Artist4_Corporate
+         </option>
+         <option value="93">
+          Artist4_DisplayName
+         </option>
+         <option value="98">
+          Artist4_Gender
+         </option>
+         <option value="99">
+          Artist4_Lifetime
+         </option>
+         <option value="100">
+          Artist4_Nationality
+         </option>
+         <option value="119">
+          Artist4_RefID
+         </option>
+         <option value="117">
+          Artist4_SortName
+         </option>
+         <option value="105">
+          Artist4_Vocab
+         </option>
+         <option value="147">
+          Artist5_Corporate
+         </option>
+         <option value="114">
+          Artist5_DisplayName
+         </option>
+         <option value="94">
+          Artist5_Gender
+         </option>
+         <option value="121">
+          Artist5_Lifetime
+         </option>
+         <option value="126">
+          Artist5_Nationality
+         </option>
+         <option value="108">
+          Artist5_RefID
+         </option>
+         <option value="96">
+          Artist5_SortName
+         </option>
+         <option value="148">
+          Artist5_Vocab
+         </option>
+         <option value="89">
+          Artist Dates
+         </option>
+         <option value="107">
+          Artist Surname
+         </option>
+         <option value="124">
+          CatalogNum
+         </option>
+         <option value="136">
+          City
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="165">
+          City_Site
+         </option>
+         <option value="191">
+          City_Site
+         </option>
+         <option value="81">
+          Classification
+         </option>
+         <option value="40">
+          Contributor
+         </option>
+         <option value="68">
+          Contributor
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="166">
+          Copyright
+         </option>
+         <option value="192">
+          Copyright
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="146">
+          Country
+         </option>
+         <option value="162">
+          Country
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="48">
+          Coverage
+         </option>
+         <option value="76">
+          Coverage
+         </option>
+         <option value="36">
+          Creator
+         </option>
+         <option value="163">
+          Creator_1
+         </option>
+         <option value="182">
+          Creator_1
+         </option>
+         <option value="177">
+          Creator_2
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="64">
+          Creator
+         </option>
+         <option value="154">
+          Credit
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="159">
+          Culture
+         </option>
+         <option value="186">
+          Culture
+         </option>
+         <option value="41">
+          Date
+         </option>
+         <option value="175">
+          Date_Digital
+         </option>
+         <option value="188">
+          Date_Digital
+         </option>
+         <option value="164">
+          Date_Original
+         </option>
+         <option value="187">
+          Date_Original
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="69">
+          Date
+         </option>
+         <option value="120">
+          Date
+         </option>
+         <option value="153">
+          Date
+         </option>
+         <option value="143">
+          Depth
+         </option>
+         <option value="38">
+          Description
+         </option>
+         <option value="66">
+          Description
+         </option>
+         <option value="123">
+          Description
+         </option>
+         <option value="152">
+          Description
+         </option>
+         <option value="112">
+          Dimensions
+         </option>
+         <option value="131">
+          Extent
+         </option>
+         <option value="43">
+          Format
+         </option>
+         <option value="173">
+          Format_Digital
+         </option>
+         <option value="196">
+          Format_Digital
+         </option>
+         <option value="172">
+          Format_Physical_Sheet
+         </option>
+         <option value="195">
+          Format_Physical_Sheet
+         </option>
+         <option value="71">
+          Format
+         </option>
+         <option value="118">
+          Gender
+         </option>
+         <option value="91">
+          Height
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="156">
+          ID
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="44">
+          Identifier
+         </option>
+         <option value="72">
+          Identifier
+         </option>
+         <option value="151">
+          Identifier
+         </option>
+         <option value="155">
+          Image URL
+         </option>
+         <option value="79">
+          Inscription
+         </option>
+         <option value="46">
+          Language
+         </option>
+         <option value="74">
+          Language
+         </option>
+         <option value="115">
+          Larger Entity
+         </option>
+         <option value="139">
+          Material of Display
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="78">
+          Medium
+         </option>
+         <option value="158">
+          Medium
+         </option>
+         <option value="183">
+          Medium
+         </option>
+         <option value="95">
+          Museum
+         </option>
+         <option value="141">
+          Museum City
+         </option>
+         <option value="103">
+          Museum Country
+         </option>
+         <option value="137">
+          Nationality
+         </option>
+         <option value="145">
+          Note
+         </option>
+         <option value="178">
+          Note_1
+         </option>
+         <option value="200">
+          Note_1
+         </option>
+         <option value="179">
+          Note_2
+         </option>
+         <option value="201">
+          Note_2
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="160">
+          Period_1
+         </option>
+         <option value="184">
+          Period_1
+         </option>
+         <option value="176">
+          Period_2
+         </option>
+         <option value="185">
+          Period_2
+         </option>
+         <option value="109">
+          Period
+         </option>
+         <option value="39">
+          Publisher
+         </option>
+         <option value="67">
+          Publisher
+         </option>
+         <option value="174">
+          Publisher
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+         <option value="47">
+          Relation
+         </option>
+         <option value="75">
+          Relation
+         </option>
+         <option value="80">
+          RepositoryID
+         </option>
+         <option value="49">
+          Rights
+         </option>
+         <option value="77">
+          Rights
+         </option>
+         <option value="86">
+          Rights
+         </option>
+         <option value="134">
+          Secondary Artist Surname
+         </option>
+         <option value="45">
+          Source
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="73">
+          Source
+         </option>
+         <option value="167">
+          Source
+         </option>
+         <option value="193">
+          Source
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="161">
+          Style_Material
+         </option>
+         <option value="189">
+          Style_Material
+         </option>
+         <option value="88">
+          StylePeriod_RefID
+         </option>
+         <option value="37">
+          Subject
+         </option>
+         <option value="65">
+          Subject
+         </option>
+         <option value="169">
+          Subject
+         </option>
+         <option value="197">
+          Subject
+         </option>
+         <option value="116">
+          Support
+         </option>
+         <option value="202">
+          System Value
+         </option>
+         <option value="35">
+          Title
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="63">
+          Title
+         </option>
+         <option value="111">
+          Title
+         </option>
+         <option value="150">
+          Title
+         </option>
+         <option value="157">
+          Title
+         </option>
+         <option value="181">
+          Title
+         </option>
+         <option value="42">
+          Type
+         </option>
+         <option value="70">
+          Type
+         </option>
+         <option value="171">
+          Type
+         </option>
+         <option value="198">
+          Type
+         </option>
+         <option value="149">
+          Units
+         </option>
+         <option value="83">
+          Vendor
+         </option>
+         <option value="130">
+          VendorCatalogNum
+         </option>
+         <option value="87">
+          View
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="168">
+          View_Notes
+         </option>
+         <option value="194">
+          View_Notes
+         </option>
+         <option value="113">
+          Width
+         </option>
+         <option value="135">
+          WorkType
+         </option>
+        </optgroup>
+       </select>
+      </div>
+      <div>
+       Criteria:
+       <input type="text" name="crit-4-criteria" id="id_crit-4-criteria" />
+       <select name="crit-4-type" id="id_crit-4-type">
+        <option value="t">
+         in
+        </option>
+        <option value="T">
+         not in
+        </option>
+       </select>
+       <select name="crit-4-field" id="id_crit-4-field">
+        <option value="" selected="selected">
+         Any
+        </option>
+        <optgroup label="Dublin Core">
+         <option value="1">
+          Contributor
+         </option>
+         <option value="2">
+          Coverage
+         </option>
+         <option value="3">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="6">
+          Format
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="8">
+          Language
+         </option>
+         <option value="9">
+          Publisher
+         </option>
+         <option value="10">
+          Relation
+         </option>
+         <option value="11">
+          Rights
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="13">
+          Subject
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="15">
+          Type
+         </option>
+        </optgroup>
+        <optgroup label="Tagging">
+         <option value="16">
+          Tags
+         </option>
+        </optgroup>
+        <optgroup label="VRA Core 4">
+         <option value="17">
+          Agent
+         </option>
+         <option value="18">
+          Cultural Context
+         </option>
+         <option value="19">
+          Date
+         </option>
+         <option value="20">
+          Description
+         </option>
+         <option value="21">
+          Inscription
+         </option>
+         <option value="22">
+          Location
+         </option>
+         <option value="23">
+          Material
+         </option>
+         <option value="24">
+          Measurements
+         </option>
+         <option value="25">
+          Relation
+         </option>
+         <option value="26">
+          Rights
+         </option>
+         <option value="27">
+          Source
+         </option>
+         <option value="28">
+          State/Edition
+         </option>
+         <option value="29">
+          Style/Period
+         </option>
+         <option value="30">
+          Subject
+         </option>
+         <option value="31">
+          Technique
+         </option>
+         <option value="32">
+          Textual Reference
+         </option>
+         <option value="33">
+          Title
+         </option>
+         <option value="34">
+          Work Type
+         </option>
+        </optgroup>
+        <optgroup label="Other">
+         <option value="170">
+          Alternate_Title
+         </option>
+         <option value="85">
+          Alternate Title
+         </option>
+         <option value="97">
+          Artist
+         </option>
+         <option value="104">
+          Artist1_Attribution
+         </option>
+         <option value="122">
+          Artist1_Corporate
+         </option>
+         <option value="110">
+          Artist1_RefID
+         </option>
+         <option value="106">
+          Artist1_Vocab
+         </option>
+         <option value="129">
+          Artist
+         </option>
+         <option value="127">
+          Artist2_Corporate
+         </option>
+         <option value="101">
+          Artist2_Gender
+         </option>
+         <option value="84">
+          Artist2_Lifetime
+         </option>
+         <option value="132">
+          Artist2_Nationality
+         </option>
+         <option value="144">
+          Artist2_RefID
+         </option>
+         <option value="82">
+          Artist2_Vocab
+         </option>
+         <option value="125">
+          Artist3_Corporate
+         </option>
+         <option value="138">
+          Artist3_DisplayName
+         </option>
+         <option value="92">
+          Artist3_Gender
+         </option>
+         <option value="102">
+          Artist3_Lifetime
+         </option>
+         <option value="128">
+          Artist3_Nationality
+         </option>
+         <option value="142">
+          Artist3_RefID
+         </option>
+         <option value="133">
+          Artist3_SortName
+         </option>
+         <option value="140">
+          Artist3_Vocab
+         </option>
+         <option value="90">
+          Artist4_Corporate
+         </option>
+         <option value="93">
+          Artist4_DisplayName
+         </option>
+         <option value="98">
+          Artist4_Gender
+         </option>
+         <option value="99">
+          Artist4_Lifetime
+         </option>
+         <option value="100">
+          Artist4_Nationality
+         </option>
+         <option value="119">
+          Artist4_RefID
+         </option>
+         <option value="117">
+          Artist4_SortName
+         </option>
+         <option value="105">
+          Artist4_Vocab
+         </option>
+         <option value="147">
+          Artist5_Corporate
+         </option>
+         <option value="114">
+          Artist5_DisplayName
+         </option>
+         <option value="94">
+          Artist5_Gender
+         </option>
+         <option value="121">
+          Artist5_Lifetime
+         </option>
+         <option value="126">
+          Artist5_Nationality
+         </option>
+         <option value="108">
+          Artist5_RefID
+         </option>
+         <option value="96">
+          Artist5_SortName
+         </option>
+         <option value="148">
+          Artist5_Vocab
+         </option>
+         <option value="89">
+          Artist Dates
+         </option>
+         <option value="107">
+          Artist Surname
+         </option>
+         <option value="124">
+          CatalogNum
+         </option>
+         <option value="136">
+          City
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="165">
+          City_Site
+         </option>
+         <option value="191">
+          City_Site
+         </option>
+         <option value="81">
+          Classification
+         </option>
+         <option value="40">
+          Contributor
+         </option>
+         <option value="68">
+          Contributor
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="166">
+          Copyright
+         </option>
+         <option value="192">
+          Copyright
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="146">
+          Country
+         </option>
+         <option value="162">
+          Country
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="48">
+          Coverage
+         </option>
+         <option value="76">
+          Coverage
+         </option>
+         <option value="36">
+          Creator
+         </option>
+         <option value="163">
+          Creator_1
+         </option>
+         <option value="182">
+          Creator_1
+         </option>
+         <option value="177">
+          Creator_2
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="64">
+          Creator
+         </option>
+         <option value="154">
+          Credit
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="159">
+          Culture
+         </option>
+         <option value="186">
+          Culture
+         </option>
+         <option value="41">
+          Date
+         </option>
+         <option value="175">
+          Date_Digital
+         </option>
+         <option value="188">
+          Date_Digital
+         </option>
+         <option value="164">
+          Date_Original
+         </option>
+         <option value="187">
+          Date_Original
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="69">
+          Date
+         </option>
+         <option value="120">
+          Date
+         </option>
+         <option value="153">
+          Date
+         </option>
+         <option value="143">
+          Depth
+         </option>
+         <option value="38">
+          Description
+         </option>
+         <option value="66">
+          Description
+         </option>
+         <option value="123">
+          Description
+         </option>
+         <option value="152">
+          Description
+         </option>
+         <option value="112">
+          Dimensions
+         </option>
+         <option value="131">
+          Extent
+         </option>
+         <option value="43">
+          Format
+         </option>
+         <option value="173">
+          Format_Digital
+         </option>
+         <option value="196">
+          Format_Digital
+         </option>
+         <option value="172">
+          Format_Physical_Sheet
+         </option>
+         <option value="195">
+          Format_Physical_Sheet
+         </option>
+         <option value="71">
+          Format
+         </option>
+         <option value="118">
+          Gender
+         </option>
+         <option value="91">
+          Height
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="156">
+          ID
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="44">
+          Identifier
+         </option>
+         <option value="72">
+          Identifier
+         </option>
+         <option value="151">
+          Identifier
+         </option>
+         <option value="155">
+          Image URL
+         </option>
+         <option value="79">
+          Inscription
+         </option>
+         <option value="46">
+          Language
+         </option>
+         <option value="74">
+          Language
+         </option>
+         <option value="115">
+          Larger Entity
+         </option>
+         <option value="139">
+          Material of Display
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="78">
+          Medium
+         </option>
+         <option value="158">
+          Medium
+         </option>
+         <option value="183">
+          Medium
+         </option>
+         <option value="95">
+          Museum
+         </option>
+         <option value="141">
+          Museum City
+         </option>
+         <option value="103">
+          Museum Country
+         </option>
+         <option value="137">
+          Nationality
+         </option>
+         <option value="145">
+          Note
+         </option>
+         <option value="178">
+          Note_1
+         </option>
+         <option value="200">
+          Note_1
+         </option>
+         <option value="179">
+          Note_2
+         </option>
+         <option value="201">
+          Note_2
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="160">
+          Period_1
+         </option>
+         <option value="184">
+          Period_1
+         </option>
+         <option value="176">
+          Period_2
+         </option>
+         <option value="185">
+          Period_2
+         </option>
+         <option value="109">
+          Period
+         </option>
+         <option value="39">
+          Publisher
+         </option>
+         <option value="67">
+          Publisher
+         </option>
+         <option value="174">
+          Publisher
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+         <option value="47">
+          Relation
+         </option>
+         <option value="75">
+          Relation
+         </option>
+         <option value="80">
+          RepositoryID
+         </option>
+         <option value="49">
+          Rights
+         </option>
+         <option value="77">
+          Rights
+         </option>
+         <option value="86">
+          Rights
+         </option>
+         <option value="134">
+          Secondary Artist Surname
+         </option>
+         <option value="45">
+          Source
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="73">
+          Source
+         </option>
+         <option value="167">
+          Source
+         </option>
+         <option value="193">
+          Source
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="161">
+          Style_Material
+         </option>
+         <option value="189">
+          Style_Material
+         </option>
+         <option value="88">
+          StylePeriod_RefID
+         </option>
+         <option value="37">
+          Subject
+         </option>
+         <option value="65">
+          Subject
+         </option>
+         <option value="169">
+          Subject
+         </option>
+         <option value="197">
+          Subject
+         </option>
+         <option value="116">
+          Support
+         </option>
+         <option value="202">
+          System Value
+         </option>
+         <option value="35">
+          Title
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="63">
+          Title
+         </option>
+         <option value="111">
+          Title
+         </option>
+         <option value="150">
+          Title
+         </option>
+         <option value="157">
+          Title
+         </option>
+         <option value="181">
+          Title
+         </option>
+         <option value="42">
+          Type
+         </option>
+         <option value="70">
+          Type
+         </option>
+         <option value="171">
+          Type
+         </option>
+         <option value="198">
+          Type
+         </option>
+         <option value="149">
+          Units
+         </option>
+         <option value="83">
+          Vendor
+         </option>
+         <option value="130">
+          VendorCatalogNum
+         </option>
+         <option value="87">
+          View
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="168">
+          View_Notes
+         </option>
+         <option value="194">
+          View_Notes
+         </option>
+         <option value="113">
+          Width
+         </option>
+         <option value="135">
+          WorkType
+         </option>
+        </optgroup>
+       </select>
+      </div>
+     </div>
+     <input type="submit" value="Search" />
+    </form>
+    <div id="footer">
+     Copyright 1997-2011 James Madison University
+    </div>
+   </div>
+  </div>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/explore/search/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/explore/search/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+    $("#criteria :text").each(function() {
+            var f = $('#' + this.id.substring(0, this.id.length - 8) + "field");
+            $(this).autocomplete('/explore/api/autocomplete/', {
+                extraParams: {
+                    field: function() { return f.val(); },
+                    collections: function() {
+                        return Array.join($("#collections :checked").map(function(a,b){return $(b).val()}))
+                        },
+                },
+                formatItem: function(row, pos, num, query) { return decodeURIComponent(row); },
+                formatResult: function(row, pos, num) { return decodeURIComponent(row); },
+                });
+            });
+});
+  </script>
+ </body>
+</html>

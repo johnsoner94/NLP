@@ -1,0 +1,992 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>
+   DSpace at the Trexler Library of Muhlenberg College: Browsing DSpace
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="DSpace" />
+  <link rel="stylesheet" href="/librarydspace/styles.css.jsp" type="text/css" />
+  <link rel="stylesheet" href="/librarydspace/print.css" media="print" type="text/css" />
+  <link rel="shortcut icon" href="/librarydspace/favicon.ico" type="image/x-icon" />
+  <script type="text/javascript" src="/librarydspace/utils.js">
+  </script>
+ </head>
+ <body>
+  <table class="pageBanner" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr class="stripe">
+    <td colspan="3">
+     &nbsp;
+    </td>
+   </tr>
+  </table>
+  <table class="centralPane" width="100%" border="0" cellpadding="3" cellspacing="1">
+   <tr valign="top">
+    <td class="navigationBar">
+     <form method="get" action="/librarydspace/simple-search">
+      <table width="100%" class="searchBox">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0">
+          <tr>
+           <td class="searchBoxLabel">
+            <label for="tequery">
+             Search&nbsp;DSpace
+            </label>
+           </td>
+          </tr>
+          <tr>
+           <td class="searchBoxLabelSmall" valign="middle" nowrap="nowrap">
+            <input type="text" name="query" id="tequery" size="8" />
+            <input type="submit" name="submit" value="Go" />
+            <br />
+            <a href="/librarydspace/advanced-search">
+             Advanced Search
+            </a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/index.jsp">
+         Home
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Browse
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/community-list">
+         Communities
+         <br />
+         &amp;&nbsp;Collections
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow-highlight.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=dateissued">
+         Issue Date
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=author">
+         Author
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=title">
+         Title
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=subject">
+         Subject
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Sign on to:
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/subscribe">
+         Receive email
+         <br />
+         updates
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/mydspace">
+         My DSpace
+        </a>
+        <br />
+        <small>
+         authorized users
+        </small>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/profile">
+         Edit Profile
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <script type="text/javascript">
+         &lt;!-- Javascript starts here
+document.write('&lt;a href="#" onClick="var popupwin = window.open(\'/librarydspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;"&gt;Help&lt;\/a&gt;');
+// --&gt;
+        </script>
+        <noscript>
+         <a href="/librarydspace/help/index.html" target="dspacepopup">
+          Help
+         </a>
+        </noscript>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="http://www.dspace.org/">
+         About DSpace
+        </a>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td class="pageContents" width="100%">
+     <p class="locationBar">
+      <a href="/librarydspace/">
+       DSpace at the Trexler Library of Muhlenberg College
+      </a>
+      &nbsp;&gt;
+     </p>
+     <h2>
+      Browsing  by Issue Date
+     </h2>
+     <div align="center" id="browse_navigation">
+      <form method="get" action="/librarydspace/browse">
+       <input type="hidden" name="type" value="dateissued" />
+       <input type="hidden" name="sort_by" value="2" />
+       <input type="hidden" name="order" value="ASC" />
+       <input type="hidden" name="rpp" value="20" />
+       <input type="hidden" name="etal" value="-1" />
+       <table align="center" border="0" bgcolor="#CCCCCC" cellpadding="0" summary="Browsing by date">
+        <tr>
+         <td>
+          <table border="0" bgcolor="#EEEEEE" cellpadding="2">
+           <tr>
+            <td class="browseBar">
+             <span class="browseBarLabel">
+              Jump to a point in the index:
+             </span>
+             <select name="year">
+              <option selected="selected" value="-1">
+               (Choose year)
+              </option>
+              <option>
+               2016
+              </option>
+              <option>
+               2015
+              </option>
+              <option>
+               2014
+              </option>
+              <option>
+               2013
+              </option>
+              <option>
+               2012
+              </option>
+              <option>
+               2011
+              </option>
+              <option>
+               2010
+              </option>
+              <option>
+               2009
+              </option>
+              <option>
+               2008
+              </option>
+              <option>
+               2007
+              </option>
+              <option>
+               2006
+              </option>
+              <option>
+               2005
+              </option>
+              <option>
+               2004
+              </option>
+              <option>
+               2003
+              </option>
+              <option>
+               2002
+              </option>
+              <option>
+               2001
+              </option>
+              <option>
+               2000
+              </option>
+              <option>
+               1999
+              </option>
+              <option>
+               1998
+              </option>
+              <option>
+               1997
+              </option>
+              <option>
+               1996
+              </option>
+              <option>
+               1995
+              </option>
+              <option>
+               1994
+              </option>
+              <option>
+               1993
+              </option>
+              <option>
+               1992
+              </option>
+              <option>
+               1991
+              </option>
+              <option>
+               1990
+              </option>
+              <option>
+               1985
+              </option>
+              <option>
+               1980
+              </option>
+              <option>
+               1975
+              </option>
+              <option>
+               1970
+              </option>
+              <option>
+               1960
+              </option>
+              <option>
+               1950
+              </option>
+             </select>
+             <select name="month">
+              <option selected="selected" value="-1">
+               (Choose month)
+              </option>
+              <option value="1">
+               January
+              </option>
+              <option value="2">
+               February
+              </option>
+              <option value="3">
+               March
+              </option>
+              <option value="4">
+               April
+              </option>
+              <option value="5">
+               May
+              </option>
+              <option value="6">
+               June
+              </option>
+              <option value="7">
+               July
+              </option>
+              <option value="8">
+               August
+              </option>
+              <option value="9">
+               September
+              </option>
+              <option value="10">
+               October
+              </option>
+              <option value="11">
+               November
+              </option>
+              <option value="12">
+               December
+              </option>
+             </select>
+            </td>
+            <td class="browseBar" rowspan="2">
+             <input type="submit" value="Go!" />
+            </td>
+           </tr>
+           <tr>
+            <td class="browseBar" align="center">
+             <span class="browseBarLabel">
+              Or type in a year:
+             </span>
+             <input type="text" name="starts_with" size="4" maxlength="4" />
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </form>
+     </div>
+     <div align="center" id="browse_controls">
+      <form method="get" action="/librarydspace/browse">
+       <input type="hidden" name="type" value="dateissued" />
+       Sort by:
+       <select name="sort_by">
+        <option value="1">
+         title
+        </option>
+        <option value="2" selected="selected">
+         issue date
+        </option>
+        <option value="3">
+         submit date
+        </option>
+       </select>
+       In order:
+       <select name="order">
+        <option value="ASC" selected="selected">
+         Ascending
+        </option>
+        <option value="DESC">
+         Descending
+        </option>
+       </select>
+       Results/Page
+       <select name="rpp">
+        <option value="5">
+         5
+        </option>
+        <option value="10">
+         10
+        </option>
+        <option value="15">
+         15
+        </option>
+        <option value="20" selected="selected">
+         20
+        </option>
+        <option value="25">
+         25
+        </option>
+        <option value="30">
+         30
+        </option>
+        <option value="35">
+         35
+        </option>
+        <option value="40">
+         40
+        </option>
+        <option value="45">
+         45
+        </option>
+        <option value="50">
+         50
+        </option>
+        <option value="55">
+         55
+        </option>
+        <option value="60">
+         60
+        </option>
+        <option value="65">
+         65
+        </option>
+        <option value="70">
+         70
+        </option>
+        <option value="75">
+         75
+        </option>
+        <option value="80">
+         80
+        </option>
+        <option value="85">
+         85
+        </option>
+        <option value="90">
+         90
+        </option>
+        <option value="95">
+         95
+        </option>
+        <option value="100">
+         100
+        </option>
+       </select>
+       Authors/Record:
+       <select name="etal">
+        <option value="0" selected="selected">
+         All
+        </option>
+        <option value="1">
+         1
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="10">
+         10
+        </option>
+        <option value="15">
+         15
+        </option>
+        <option value="20">
+         20
+        </option>
+        <option value="25">
+         25
+        </option>
+        <option value="30">
+         30
+        </option>
+        <option value="35">
+         35
+        </option>
+        <option value="40">
+         40
+        </option>
+        <option value="45">
+         45
+        </option>
+        <option value="50">
+         50
+        </option>
+       </select>
+       <input type="submit" name="submit_browse" value="Update" />
+      </form>
+     </div>
+     <div align="center" class="browse_range">
+      Showing results 1 to 20 of 2675
+     </div>
+     <div align="center">
+      &nbsp;
+      <a href="/librarydspace/browse?type=dateissued&amp;sort_by=2&amp;order=ASC&amp;rpp=20&amp;etal=-1&amp;null=&amp;offset=20">
+       next&nbsp;&gt;
+      </a>
+     </div>
+     <table align="center" class="miscTable" summary="This table browses all dspace content">
+      <colgroup>
+       <col width="130" />
+       <col width="60%" />
+       <col width="40%" />
+      </colgroup>
+      <tr>
+       <th id="t1" class="oddRowEvenCol">
+        <strong>
+         Issue Date
+        </strong>
+       </th>
+       <th id="t2" class="oddRowOddCol">
+        Title
+       </th>
+       <th id="t3" class="oddRowEvenCol">
+        Author(s)
+       </th>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1868
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2741">
+         Inaugural&#x20;Address.&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Muhlenberg%2C+Frederick+A.">
+          Muhlenberg,&#x20;Frederick&#x20;A.
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1868
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2614">
+         Confessional&#x20;Et&#x20;Extra-Confessional.&#x20;Translated&#x20;From&#x20;the&#x20;German.&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Koons%2C+Edward+J.">
+          Koons,&#x20;Edward&#x20;J.
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1879
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2619">
+         Remarks&#x20;on&#x20;&quot;Art&#x20;in&#x20;Relation&#x20;to&#x20;Worship&#x20;in&#x20;the&#x20;Lutheran&#x20;Church.&quot;&#x20;[FULL&#x20;TEXT
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Richards%2C+Matthias+H.">
+          Richards,&#x20;Matthias&#x20;H.
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1879
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2613">
+         The&#x20;Causes&#x20;and&#x20;the&#x20;Remedies&#x20;of&#x20;the&#x20;Losses&#x20;of&#x20;the&#x20;Lutheran&#x20;Church&#x20;in&#x20;America.&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Sadtler%2C+Benjamin">
+          Sadtler,&#x20;Benjamin
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1881
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2597">
+         Chemical&#x20;Analysis&#x20;of&#x20;the&#x20;Urine&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2633">
+         Liedergeschichten&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Wackernagel%2C+William">
+          Wackernagel,&#x20;William
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2635">
+         Das&#x20;Leben&#x20;Dr.&#x20;Martin&#x20;Luther&#39;s&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Wackernagel%2C+William">
+          Wackernagel,&#x20;William
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2602">
+         Manganese&#x20;Borate&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Thomas%2C+Nathaniel+Wiley">
+          Thomas,&#x20;Nathaniel&#x20;Wiley
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2603">
+         Determination&#x20;of&#x20;Iron&#x20;in&#x20;Hydrochloric&#x20;Acid&#x20;Solutions&#x20;by&#x20;Potassium&#x20;Permanganate&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Thomas%2C+Nathaniel+Wiley">
+          Thomas,&#x20;Nathaniel&#x20;Wiley
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2601">
+         Determination&#x20;of&#x20;Boracic&#x20;Acid&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2605">
+         Corundum&#x20;from&#x20;Lehigh&#x20;County,&#x20;Penn.&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+         ;
+         <a href="/librarydspace/browse?type=author&amp;value=Thomas%2C+Nathaniel+Wiley">
+          Thomas,&#x20;Nathaniel&#x20;Wiley
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1882
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2596">
+         Corundum&#x20;and&#x20;Wavellite&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+         ;
+         <a href="/librarydspace/browse?type=author&amp;value=Thomas%2C+Nathaniel+Wiley">
+          Thomas,&#x20;Nathaniel&#x20;Wiley
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2636">
+         The&#x20;Life&#x20;of&#x20;Dr.&#x20;Martin&#x20;Luther&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Wackernagel%2C+William">
+          Wackernagel,&#x20;William
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2634">
+         Dr.&#x20;Martin&#x20;Luthers&#x20;Liv&#x20;Og&#x20;Levnet&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Wackernagel%2C+William">
+          Wackernagel,&#x20;William
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2598">
+         Some&#x20;Minerals&#x20;from&#x20;Lehigh&#x20;County,&#x20;PA.&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2599">
+         Some&#x20;Minerals&#x20;From&#x20;Berks&#x20;County,&#x20;PA&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2604">
+         Electrolysis&#x20;of&#x20;Bismuth&#x20;Solutions&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+         ;
+         <a href="/librarydspace/browse?type=author&amp;value=Thomas%2C+Nathaniel+Wiley">
+          Thomas,&#x20;Nathaniel&#x20;Wiley
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1883
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2600">
+         Brucite&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Smith%2C+Edgar+Fahs">
+          Smith,&#x20;Edgar&#x20;Fahs
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="evenRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1884
+        </strong>
+       </td>
+       <td headers="t2" class="evenRowOddCol">
+        <a href="/librarydspace/handle/10718/2743">
+         Muhlenberg&#x20;College&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="evenRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Seip%2C+Theodore+L.">
+          Seip,&#x20;Theodore&#x20;L.
+         </a>
+        </em>
+       </td>
+      </tr>
+      <tr>
+       <td headers="t1" class="oddRowEvenCol" nowrap="nowrap" align="right">
+        <strong>
+         1886
+        </strong>
+       </td>
+       <td headers="t2" class="oddRowOddCol">
+        <a href="/librarydspace/handle/10718/2623">
+         Man,&#x20;or&#x20;Machine?&#x20;[FULL&#x20;TEXT]
+        </a>
+       </td>
+       <td headers="t3" class="oddRowEvenCol">
+        <em>
+         <a href="/librarydspace/browse?type=author&amp;value=Richards%2C+Matthias+H.">
+          Richards,&#x20;Matthias&#x20;H.
+         </a>
+        </em>
+       </td>
+      </tr>
+     </table>
+     <div align="center" class="browse_range">
+      Showing results 1 to 20 of 2675
+     </div>
+     <div align="center">
+      &nbsp;
+      <a href="/librarydspace/browse?type=dateissued&amp;sort_by=2&amp;order=ASC&amp;rpp=20&amp;etal=-1&amp;null=&amp;offset=20">
+       next&nbsp;&gt;
+      </a>
+     </div>
+     <p>
+      &nbsp;
+     </p>
+    </td>
+   </tr>
+   <tr class="pageFooterBar">
+    <td colspan="2" class="pageFootnote">
+     <table class="pageFooterBar" width="100%">
+      <tr>
+       <td>
+        <a href="http://validator.w3.org/check?uri=referer">
+         <img src="/librarydspace/image/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" />
+        </a>
+       </td>
+       <td class="pageFootnote">
+        <a target="_blank" href="http://www.dspace.org/">
+         DSpace Software
+        </a>
+        Copyright&nbsp;&copy;&nbsp;2002-2010&nbsp;
+        <a target="_blank" href="http://www.duraspace.org/">
+         Duraspace
+        </a>
+        &nbsp;-
+        <a target="_blank" href="/librarydspace/feedback">
+         Feedback
+        </a>
+        <a href="/librarydspace/htmlmap">
+        </a>
+       </td>
+       <td nowrap="nowrap" valign="middle">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

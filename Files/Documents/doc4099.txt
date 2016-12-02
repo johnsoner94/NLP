@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>
+   DSpace at the Trexler Library of Muhlenberg College: Advanced Search
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="DSpace" />
+  <link rel="stylesheet" href="/librarydspace/styles.css.jsp" type="text/css" />
+  <link rel="stylesheet" href="/librarydspace/print.css" media="print" type="text/css" />
+  <link rel="shortcut icon" href="/librarydspace/favicon.ico" type="image/x-icon" />
+  <script type="text/javascript" src="/librarydspace/utils.js">
+  </script>
+ </head>
+ <body>
+  <table class="pageBanner" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr class="stripe">
+    <td colspan="3">
+     &nbsp;
+    </td>
+   </tr>
+  </table>
+  <table class="centralPane" width="100%" border="0" cellpadding="3" cellspacing="1">
+   <tr valign="top">
+    <td class="navigationBar">
+     <form method="get" action="/librarydspace/simple-search">
+      <table width="100%" class="searchBox">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0">
+          <tr>
+           <td class="searchBoxLabel">
+            <label for="tequery">
+             Search&nbsp;DSpace
+            </label>
+           </td>
+          </tr>
+          <tr>
+           <td class="searchBoxLabelSmall" valign="middle" nowrap="nowrap">
+            <input type="text" name="query" id="tequery" size="8" />
+            <input type="submit" name="submit" value="Go" />
+            <br />
+            <a href="/librarydspace/advanced-search">
+             Advanced Search
+            </a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/index.jsp">
+         Home
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Browse
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/community-list">
+         Communities
+         <br />
+         &amp;&nbsp;Collections
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=dateissued">
+         Issue Date
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=author">
+         Author
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=title">
+         Title
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=subject">
+         Subject
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Sign on to:
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/subscribe">
+         Receive email
+         <br />
+         updates
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/mydspace">
+         My DSpace
+        </a>
+        <br />
+        <small>
+         authorized users
+        </small>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/profile">
+         Edit Profile
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <script type="text/javascript">
+         &lt;!-- Javascript starts here
+document.write('&lt;a href="#" onClick="var popupwin = window.open(\'/librarydspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;"&gt;Help&lt;\/a&gt;');
+// --&gt;
+        </script>
+        <noscript>
+         <a href="/librarydspace/help/index.html" target="dspacepopup">
+          Help
+         </a>
+        </noscript>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="http://www.dspace.org/">
+         About DSpace
+        </a>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td class="pageContents" width="100%">
+     <p class="locationBar">
+      DSpace at the Trexler Library of Muhlenberg College&nbsp;&gt;
+     </p>
+     <form action="/librarydspace/simple-search" method="get">
+      <input type="hidden" name="advanced" value="true" />
+      <table class="miscTable" align="center" summary="Search DSpace Form">
+       <tr>
+        <td class="oddRowEvenCol" align="center">
+         <p>
+          <strong>
+           Search:
+          </strong>
+          &nbsp;
+          <select name="location">
+           <option selected="selected" value="/">
+            All of DSpace
+           </option>
+           <option value="10718/713">
+            Center for Ethics
+           </option>
+           <option value="10718/800">
+            Martin Art Gallery
+           </option>
+           <option value="10718/2733">
+            Muhlenberg College History
+           </option>
+           <option value="10718/7">
+            Muhlenberg Scholarly Publications
+           </option>
+           <option value="10718/2311">
+            Research Data Repository
+           </option>
+           <option value="10718/798">
+            Trexler Library Special Collections and Archives
+           </option>
+          </select>
+         </p>
+         <table cellspacing="2" border="0" width="80%">
+          <tr>
+           <td class="evenRowEvenCol">
+            <table border="0">
+             <tr>
+              <td width="12%" align="left" valign="top">
+              </td>
+              <td width="20%" align="left" valign="top" nowrap="nowrap">
+               <label for="tfield1">
+                Search type:
+               </label>
+               <br />
+               <select name="field1" id="tfield1">
+                <option value="ANY" selected="selected">
+                 Subject
+                </option>
+                <option value="author">
+                 Author
+                </option>
+                <option value="title">
+                 Title
+                </option>
+                <option value="keyword">
+                 ???jsp.search.advanced.type.subject???
+                </option>
+                <option value="abstract">
+                 Abstract
+                </option>
+                <option value="series">
+                 Series
+                </option>
+                <option value="sponsor">
+                 Sponsor
+                </option>
+                <option value="identifier">
+                 ???jsp.search.advanced.type.id???
+                </option>
+                <option value="language">
+                 Language (ISO)
+                </option>
+               </select>
+              </td>
+              <td align="left" valign="top" nowrap="nowrap" width="68%">
+               <label for="tquery1">
+                Search for:
+               </label>
+               <br />
+               <input type="text" name="query1" id="tquery1" value="" size="30" />
+               <br />
+               <p>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td width="12%" align="left" valign="top">
+               <select name="conjunction1">
+                <option value="AND" selected="selected">
+                 AND
+                </option>
+                <option value="OR">
+                 OR
+                </option>
+                <option value="NOT">
+                 NOT
+                </option>
+               </select>
+              </td>
+              <td width="20%" align="left" valign="top" nowrap="nowrap">
+               <select name="field2">
+                <option value="ANY" selected="selected">
+                 Subject
+                </option>
+                <option value="author">
+                 Author
+                </option>
+                <option value="title">
+                 Title
+                </option>
+                <option value="keyword">
+                 ???jsp.search.advanced.type.subject???
+                </option>
+                <option value="abstract">
+                 Abstract
+                </option>
+                <option value="series">
+                 Series
+                </option>
+                <option value="sponsor">
+                 Sponsor
+                </option>
+                <option value="identifier">
+                 ???jsp.search.advanced.type.id???
+                </option>
+                <option value="language">
+                 Language (ISO)
+                </option>
+               </select>
+              </td>
+              <td align="left" valign="top" nowrap="nowrap" width="68%">
+               <input type="text" name="query2" value="" size="30" />
+              </td>
+             </tr>
+             <tr>
+              <td width="12%" align="left" valign="top">
+               <select name="conjunction2">
+                <option value="AND" selected="selected">
+                 AND
+                </option>
+                <option value="OR">
+                 OR
+                </option>
+                <option value="NOT">
+                 NOT
+                </option>
+               </select>
+              </td>
+              <td width="20%" align="left" valign="top" nowrap="nowrap">
+               <select name="field3">
+                <option value="ANY" selected="selected">
+                 Subject
+                </option>
+                <option value="author">
+                 Author
+                </option>
+                <option value="title">
+                 Title
+                </option>
+                <option value="keyword">
+                 ???jsp.search.advanced.type.subject???
+                </option>
+                <option value="abstract">
+                 Abstract
+                </option>
+                <option value="series">
+                 Series
+                </option>
+                <option value="sponsor">
+                 Sponsor
+                </option>
+                <option value="identifier">
+                 ???jsp.search.advanced.type.id???
+                </option>
+                <option value="language">
+                 Language (ISO)
+                </option>
+               </select>
+               <br />
+              </td>
+              <td align="left" valign="top" nowrap="nowrap" width="68%">
+               <input type="text" name="query3" value="" size="30" />
+              </td>
+             </tr>
+            </table>
+           </td>
+          </tr>
+          <tr>
+           <td valign="bottom" align="right" nowrap="nowrap">
+            &nbsp; &nbsp; &nbsp;
+            <input type="submit" name="submit" value="Search" />
+            &nbsp;  &nbsp; &nbsp;
+            <input type="reset" name="reset" value=" Clear" />
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <p>
+      &nbsp;
+     </p>
+    </td>
+   </tr>
+   <tr class="pageFooterBar">
+    <td colspan="2" class="pageFootnote">
+     <table class="pageFooterBar" width="100%">
+      <tr>
+       <td>
+        <a href="http://validator.w3.org/check?uri=referer">
+         <img src="/librarydspace/image/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" />
+        </a>
+       </td>
+       <td class="pageFootnote">
+        <a target="_blank" href="http://www.dspace.org/">
+         DSpace Software
+        </a>
+        Copyright&nbsp;&copy;&nbsp;2002-2010&nbsp;
+        <a target="_blank" href="http://www.duraspace.org/">
+         Duraspace
+        </a>
+        &nbsp;-
+        <a target="_blank" href="/librarydspace/feedback">
+         Feedback
+        </a>
+        <a href="/librarydspace/htmlmap">
+        </a>
+       </td>
+       <td nowrap="nowrap" valign="middle">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,2798 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Restaurants and Local Businesses - Hotels and Restaurants | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Guide to Hotels &amp; Restaurants
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/">
+            About Us
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/tour/places.html">
+            Hotels and Restaurants
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/tour/restaurant.html">
+            Restaurants and Local Businesses
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <table align="left" border="0" class="content-add05" style="width: 100%;">
+          <tbody>
+           <tr valign="top">
+            <td align="left" colspan="3" valign="top">
+             <p>
+              <strong>
+               Restaurants |
+               <a href="#otherservices">
+                Other Services
+               </a>
+              </strong>
+             </p>
+             <p>
+              (Allentown unless otherwise noted)
+              <br />
+              <a href="#farmers">
+               Allentown Farmers Market
+              </a>
+              |
+              <a href="#brazillian">
+               Brazilian
+              </a>
+              |
+              <a href="#caribbean">
+               Caribbean
+              </a>
+              |
+              <a href="#chinese">
+               Chinese
+              </a>
+              |
+              <a href="#halal">
+               Diners
+              </a>
+              |
+              <a href="#halal">
+               Halal
+              </a>
+              |
+              <a href="#family">
+               Family
+              </a>
+              |
+              <a href="#fast">
+               Fast Food
+              </a>
+              |
+              <a href="#fine">
+               Fine Dining
+              </a>
+              |
+              <a href="#indian">
+               Indian
+              </a>
+              |
+              <a href="#italian">
+               Italian
+              </a>
+              |
+              <a href="#japanese">
+               Japanese
+              </a>
+              |
+              <a href="#mexican">
+               Mexican
+              </a>
+              |
+              <a href="#middle">
+               Middle Eastern
+              </a>
+              |
+              <a href="#sports">
+               Sports Bars
+              </a>
+              |
+              <a href="#thai">
+               Thai
+              </a>
+              |
+              <a href="#viet">
+               Vietnamese
+              </a>
+              <br />
+              <br />
+              For more dining resources, visit
+              <a href="http://www.discoverlehighvalley.com/category/eat/restaurants">
+               DiscoverLehighValley
+              </a>
+              <br />
+              <br />
+              Muhlenberg College offers these establishments as a service to its students, parents, alumni and friends. It accepts no responsibility, and a listing in this guide does not imply an endorsement by the College.
+             </p>
+             <p>
+              The below images represent discounts available to the&nbsp;Muhlenberg community members with ID.
+              <strong>
+               Must present Muhlenberg ID at time of payment.
+              </strong>
+             </p>
+             <p>
+              <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10% discount
+             </p>
+             <p>
+              <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+              <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+              &nbsp; 15% discount
+             </p>
+             <p>
+              <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+              <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+              &nbsp; 20% discount
+             </p>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF">
+            <td align="left" valign="top">
+             <strong>
+              Name
+             </strong>
+            </td>
+            <td align="left" valign="top">
+             <strong>
+              Address
+             </strong>
+            </td>
+            <td align="left" valign="top">
+             <strong>
+              Phone Number
+             </strong>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="farmers">
+              </a>
+              Allentown Farmers Market
+             </strong>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Country Pantry
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-217-2535
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Dave's Vacuum Cleaner Service LLC
+            </td>
+            <td align="left" class="body" valign="top">
+             125 S 7th Street, Allentown
+             <br />
+             <em>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2nd location
+             </em>
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-6861
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="center" class="body" valign="top">
+             &nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             <div>
+              Allentown Farmers Market
+             </div>
+             <div>
+              Allentown, PA 18104
+             </div>
+            </td>
+            <td align="left" class="body" valign="top">
+             &nbsp;
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Fairgrounds Grocery Store
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-217-2535
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Foods of the Mediterranean
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-7573
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Heffelfinger's Coffee &amp; Tea
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             484-602-3897
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Johnny's Fresh Meats
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             717-940-8963
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Lil Miss Organic
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             484-747-3434
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <div>
+              <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+              MaryAnn Donut Kitchen
+             </div>
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             484-225-7182
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Southern Delights
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-217-2535
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Two Sisters Bagels
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 West Chew Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-217-2535
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="brazillian">
+              </a>
+              Brazilian and South American
+              <br />
+             </strong>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Cuquita Restaurant (Colombian)
+            </td>
+            <td align="left" valign="top">
+             960 Broadway, Fountain Hill
+            </td>
+            <td align="left" valign="top">
+             610-868-5558
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Ecua-Atlantic Seafood (Ecuadoran)
+            </td>
+            <td align="left" valign="top">
+             621 N. 7th Street, Allentown
+            </td>
+            <td align="left" valign="top">
+             610-434-8755
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             El MachuPicchu (Peruvian)
+            </td>
+            <td align="left" valign="top">
+             1328 E. 4th Street, Bethlehem
+            </td>
+            <td align="left" valign="top">
+             610-865-5838
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Rodizio Grill (Brazilian)
+            </td>
+            <td align="left" valign="top">
+             2805 Lehigh Street
+            </td>
+            <td align="left" valign="top">
+             610-351-2900
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" colspan="3" valign="top">
+             <strong>
+              <a id="caribbean">
+              </a>
+              Caribbean (see also Dominican and Puerto Rican offerings, listed below)
+              <br />
+             </strong>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Island In the Sun
+            </td>
+            <td align="left" valign="top">
+             921 W. Hamilton Street
+            </td>
+            <td align="left" valign="top">
+             610-435-4347
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Winston's
+            </td>
+            <td align="left" valign="top">
+             619 North 7th St
+            </td>
+            <td align="left" valign="top">
+             484-221-9682
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="chinese">
+              </a>
+              Chinese
+             </strong>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Asia
+            </td>
+            <td align="left" valign="top">
+             1102 E Susquehanna St
+            </td>
+            <td align="left" valign="top">
+             610-798-7777
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Bamboo Asian Cuisine &amp; Sushi Bar
+            </td>
+            <td align="left" valign="top">
+             345 S Cedar Crest Blvd
+            </td>
+            <td align="left" valign="top">
+             610-770-8899
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Gourmet Chinese Buffet
+            </td>
+            <td align="left" valign="top">
+             3317 Hamilton Blvd.
+            </td>
+            <td align="left" valign="top">
+             610-770-8888
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Liu's House
+            </td>
+            <td align="left" valign="top">
+             4128 Tilghman St
+            </td>
+            <td align="left" valign="top">
+             610-366-7477
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" valign="top">
+             Mi Chong's
+            </td>
+            <td align="left" valign="top">
+             3100 W. Tilghman Street
+            </td>
+            <td align="left" valign="top">
+             610-820-9555
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             New Garden Chinese Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             1727 West Liberty Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-774-9828
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Diners
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Billy's Downtown Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             840 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-5484
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Colonial Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             701 N. 19th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-7783
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             New City View Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             1831 MacArthur Road, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-4366
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Hamilton Family Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             2027 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-6452
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Nick's Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             1802 West Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-5070
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Parkland Resturant
+            </td>
+            <td align="left" class="body" valign="top">
+             2702 Walbert Ave
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-2745
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Starlite Diner
+            </td>
+            <td align="left" class="body" valign="top">
+             233 North Route 100
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-4031
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <span style="font-family: Arial, Helvetica, sans-serif;">
+               <a id="family">
+               </a>
+              </span>
+              <span class="title">
+               Family Restaurants
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Applebee's
+            </td>
+            <td align="left" class="body" valign="top">
+             1510 Cedar Crest Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-530-7910
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Celebrations Restaurant and Bar
+            </td>
+            <td align="left" class="body" valign="top">
+             2204 Union Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-776-0299
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Chili's
+            </td>
+            <td align="left" class="body" valign="top">
+             815 Grape Street, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-264-4400
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Fairgrounds Hotel
+            </td>
+            <td align="left" class="body" valign="top">
+             448 N. 17th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-7630
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Friendly's
+            </td>
+            <td align="left" class="body" valign="top">
+             460 S.Cedar Crest
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-9883
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Gregory's Steakhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             2201 Schoenersville Road, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-264-9301
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Hanoverville Roadhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             5001 Hanoverville Road, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-837-1122
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Island in the Sun (Jamaican)
+            </td>
+            <td align="left" class="body" valign="top">
+             921 W. Hamilton Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-4347
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Nostos Greek Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             701 N. 19th Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             <div>
+              484-350-3799
+             </div>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Outback Steak House
+            </td>
+            <td align="left" class="body" valign="top">
+             3100 West Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-7117
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             P.J. Whelihan's Pub
+            </td>
+            <td align="left" class="body" valign="top">
+             4595 Broadway
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-2532
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Perkins Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             3124 Hamilton Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-820-5767
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Red Lobster Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             800 Lehigh Valley Mall, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-264-5541
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Red Robin
+            </td>
+            <td align="left" class="body" valign="top">
+             Tilghman Square, 4688A Broadway
+            </td>
+            <td align="left" class="body" valign="top">
+             610-366-1776
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Ritz Barbeque
+            </td>
+            <td align="left" class="body" valign="top">
+             Allentown Fairgrounds, 302 N 17th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-0952
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Ruby Tuesday Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             3995 Tilghman Street101 Lehigh Valley Mall, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-530-8570610-264-7787
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Sunset Grille
+            </td>
+            <td align="left" class="body" valign="top">
+             6751 Ruppsville Road
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-9622
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Syb's West End Deli (Breakfast &amp; Lunch)
+            </td>
+            <td align="left" class="body" valign="top">
+             2151 Liberty Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-3882
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Tavern on Liberty
+            </td>
+            <td align="left" class="body" valign="top">
+             2246 W. Liberty Street
+            </td>
+            <td align="left" class="body" valign="top">
+             484-221-8765
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Texas Roadhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             6268 Hamilton Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-2611
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             TGI Friday's
+            </td>
+            <td align="left" class="body" valign="top">
+             Shoppes at Cedar Point 395 S. Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-776-8188
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Union and Finch
+            </td>
+            <td align="left" class="body" valign="top">
+             1528 W. Union Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             917-771-3572
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Wert's Cafe
+            </td>
+            <td align="left" class="body" valign="top">
+             515 N. 18th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-0951
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Fast Food
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Boston Market
+            </td>
+            <td align="left" class="body" valign="top">
+             385 S. Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-3324
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Cali Burrito
+            </td>
+            <td align="left" class="body" valign="top">
+             3104 Hamilton Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-1791
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Manhattan Bagel
+            </td>
+            <td align="left" class="body" valign="top">
+             3058 Tilghman Street, Village West Shopping Center
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-8555
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             McDonald's Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             721 Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-0511
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Old Country Buffet
+            </td>
+            <td align="left" class="body" valign="top">
+             1245 Whitehall Mall, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-4010
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Panera Bread
+            </td>
+            <td align="left" class="body" valign="top">
+             3100 W. Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-3221
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Primo Hoagies
+            </td>
+            <td align="left" class="body" valign="top">
+             1403 N Cedar Crest Blvd
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-7100
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Saladworks
+            </td>
+            <td align="left" class="body" valign="top">
+             1403 N Cedar Crest Blvd
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-0400
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Subway
+            </td>
+            <td align="left" class="body" valign="top">
+             3337 Hamilton Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-2500
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Subway
+            </td>
+            <td align="left" class="body" valign="top">
+             1313 W. Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-5649
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Subway
+            </td>
+            <td align="left" class="body" valign="top">
+             1901 Hamilton Street Unit 1
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-6645
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Wally's Deli
+            </td>
+            <td align="left" class="body" valign="top">
+             711 N 17th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-7177
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Wendy's Old Fashioned Hamburgers
+            </td>
+            <td align="left" class="body" valign="top">
+             4688 Broadway
+            </td>
+            <td align="left" class="body" valign="top">
+             <span class="body style5">
+              610-391-1204
+             </span>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Wing Stop
+            </td>
+            <td align="left" class="body" valign="top">
+             1601 W. Liberty St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-9464
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Yocco's Hot Dog King
+            </td>
+            <td align="left" class="body" valign="top">
+             2128 Hamilton St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-821-8488
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+              <a id="fine">
+              </a>
+             </span>
+             <strong>
+              <span class="title">
+               Fine Dining
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             1741 on the Terrace
+            </td>
+            <td align="left" class="body" valign="top">
+             437 Main Street, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-625-2226
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Allentown Brew Works
+            </td>
+            <td align="left" class="body" valign="top">
+             812 West Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-7777
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Apollo Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             85 W. Broad Street, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-865-9600
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Bell Hall Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             612 W. Hamilton Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-1825
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Bethlehem Brew Works
+            </td>
+            <td align="left" class="body" valign="top">
+             569 Main Street, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-882-1300
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             The Bethlehem Melting Pot
+            </td>
+            <td align="left" class="body" valign="top">
+             1 E. Broad Street, Bethlehem, PA
+            </td>
+            <td align="left" class="body" valign="top">
+             484-241-4939
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             blue grillhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             4431 Easton Ave, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-691-8400
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Bolete Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             1740 Seidersville Rd, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-868-6505
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Bonefish Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             901 Lehigh Lifestyle Ctr., Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-264-3476
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Hook Seafood &amp; Grille
+            </td>
+            <td align="left" class="body" valign="top">
+             22 N 6th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-3540
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Edge
+            </td>
+            <td align="left" class="body" valign="top">
+             74 W. Broad Street, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-814-0100
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Glasbern Inn
+            </td>
+            <td align="left" class="body" valign="top">
+             2141 Packhouse Rd., Fogelsville
+            </td>
+            <td align="left" class="body" valign="top">
+             610-285-4723
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Grain
+            </td>
+            <td align="left" class="body" valign="top">
+             536 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             484-221-9465
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Grille 3501
+            </td>
+            <td align="left" class="body" valign="top">
+             3501 Broadway
+            </td>
+            <td align="left" class="body" valign="top">
+             484-838-5262
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Hamilton Kitchen &amp; Bar
+            </td>
+            <td align="left" class="body" valign="top">
+             Two City Center, 645 W. Hamilton St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-3535
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Henry's Salt of the Sea
+            </td>
+            <td align="left" class="body" valign="top">
+             1926 W. Allen Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-2628
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Hunan Springs Asian Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             4939 Hamilton Boulevard, Wescosville
+            </td>
+            <td align="left" class="body" valign="top">
+             610-366-8338
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Logan's Roadhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             913 Airport Center Road
+            </td>
+            <td align="left" class="body" valign="top">
+             610-266-7400
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Manor House Inn
+            </td>
+            <td align="left" class="body" valign="top">
+             4508 Old Bethlehem Pike, Center Valley
+            </td>
+            <td align="left" class="body" valign="top">
+             610-865-8166
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Melt
+            </td>
+            <td align="left" class="body" valign="top">
+             2805 Center Valley Parkway, Center Valley
+            </td>
+            <td align="left" class="body" valign="top">
+             610-798-9000
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Morgan's
+            </td>
+            <td align="left" class="body" valign="top">
+             3079 Willow Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-769-4100
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Nawab Indian Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             13 East 4th Street, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-691-0388
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Prime Steak House
+            </td>
+            <td align="left" class="body" valign="top">
+             325 Stoke Park Road
+            </td>
+            <td align="left" class="body" valign="top">
+             610-882-4070
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             ROAR Social House
+            </td>
+            <td align="left" class="body" valign="top">
+             732 Hamilton Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-1230
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Savory Grille
+            </td>
+            <td align="left" class="body" valign="top">
+             2934 Seisholtzville Road, Macungie PA
+            </td>
+            <td align="left" class="body" valign="top">
+             (610) 845-2010&nbsp;
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Shanty on 19th
+            </td>
+            <td align="left" class="body" valign="top">
+             613 N. 19th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-0150
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Stoned Crab
+            </td>
+            <td align="left" class="body" valign="top">
+             1905 Brookside Road, Macungie
+            </td>
+            <td align="left" class="body" valign="top">
+             610-398-8060
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Sunset Grille
+            </td>
+            <td align="left" class="body" valign="top">
+             6751 Ruppsville Road
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-9622
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             The Bay Leaf
+            </td>
+            <td align="left" class="body" valign="top">
+             935 Hamilton St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-4211
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             &zwnj; The Dime
+            </td>
+            <td align="left" class="body" valign="top">
+             12 North Seventh Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             484-273-4010
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             The Grille at Bear Creek
+            </td>
+            <td align="left" class="body" valign="top">
+             101 Doe Mountain Lane, Macungie
+            </td>
+            <td align="left" class="body" valign="top">
+             866-754-2822
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Torre
+            </td>
+            <td align="left" class="body" valign="top">
+             2960 Center Valley parkway, Center Valley,
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-9399
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Yianni's Taverna
+            </td>
+            <td align="left" class="body" valign="top">
+             3760 Old Philadelphia Pike, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-867-8821
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Youell's Oyster House
+            </td>
+            <td align="left" class="body" valign="top">
+             2249 Walnut Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-1203
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Halal
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Aci Halal Turkish Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             34 North 2nd St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-8782
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Indian
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Biryani City
+            </td>
+            <td align="left" class="body" valign="top">
+             1894 Catasauqua Rd, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             &nbsp;
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Nawab Indian Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             13 East 4th St, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-691-0388
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Spice of India
+            </td>
+            <td align="left" class="body" valign="top">
+             2407 Mickley Ave, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-0980
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Italian
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Bellissimo Ristorante
+            </td>
+            <td align="left" class="body" valign="top">
+             1243 Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-7717
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Biaggio's
+            </td>
+            <td align="left" class="body" valign="top">
+             1526 N. Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-395-7006
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             BRAVO! Cucina Italiana
+            </td>
+            <td align="left" class="body" valign="top">
+             950 Lehigh Valley Mall, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-266-4050
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Buca Di Beppo
+            </td>
+            <td align="left" class="body" valign="top">
+             714 Grape Street, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-264-3389
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Carrabas Italian Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             510 S. Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-6100
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             CENTRO
+            </td>
+            <td align="left" class="body" valign="top">
+             530 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-4016
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Chianti Italiano Ristorante
+            </td>
+            <td align="left" class="body" valign="top">
+             4558 Crackersport Road
+            </td>
+            <td align="left" class="body" valign="top">
+             610-391-0080
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Italiano Delite
+            </td>
+            <td align="left" class="body" valign="top">
+             1985 Brookside Rd, Macungie
+            </td>
+            <td align="left" class="body" valign="top">
+             610-366-7166
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Louie's
+            </td>
+            <td align="left" class="body" valign="top">
+             2071 31st St. SW
+            </td>
+            <td align="left" class="body" valign="top">
+             610-791-1226
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             &zwnj; Mario's Pizza
+            </td>
+            <td align="left" class="body" valign="top">
+             3335 Hamilton Blvd
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-4484
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Olive Garden
+            </td>
+            <td align="left" class="body" valign="top">
+             715 Grape Street, Whitehall
+            </td>
+            <td align="left" class="body" valign="top">
+             610-266-6777
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Parma Pizza
+            </td>
+            <td align="left" class="body" valign="top">
+             3100 Tilghman St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-6940
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Paese Mio
+            </td>
+            <td align="left" class="body" valign="top">
+             6561 Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-481-0400
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Penn Pizza &amp; Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             1001 N 19th St1251 S Cedar Crest Blvd1091 Mill Creek Rd, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-820-7111610-434-7366610-530-7366
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Salvatore Ruffino's Brick Oven Pizza
+            </td>
+            <td align="left" class="body" valign="top">
+             1902 Allen Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-3621
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <span style="font-family: Arial, Helvetica, sans-serif;">
+             </span>
+             <span class="title">
+              <strong>
+               Japanese
+              </strong>
+             </span>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             A-1 Japanese Steakhouse
+            </td>
+            <td align="left" class="body" valign="top">
+             3300 Lehigh St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-709-0998
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Bamboo Asian Cuisine
+            </td>
+            <td align="left" class="body" valign="top">
+             345 S. Cedar Crest Blvd.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-8899
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Ichiban
+            </td>
+            <td align="left" class="body" valign="top">
+             1914 Catasaqua Road (in Carmike Theater complex)
+            </td>
+            <td align="left" class="body" valign="top">
+             610-266-7781
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Liu House
+            </td>
+            <td align="left" class="body" valign="top">
+             4128 West Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-366-7477
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Teppan Hibachi Steak House
+            </td>
+            <td align="left" class="body" valign="top">
+             3227 Hamilton Blvd (near Dorney Park)
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-4799
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="latino">
+              </a>
+              Dominican and Puerto Rican
+              <br />
+             </strong>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             7
+             <sup>
+              th
+             </sup>
+             Street Rotisserie Chicken
+            </td>
+            <td align="left" class="body" valign="top">
+             535 N 7th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-740-0800
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Casa Latina Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             527 N 7th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-821-2748
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Cuchifrito Aqu&iacute; Me Quedo
+            </td>
+            <td align="left" class="body" valign="top">
+             105 North 7thStreet
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-1788
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             El Rey del Mofongo
+            </td>
+            <td align="left" class="body" valign="top">
+             937 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-2400
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Las Palmas
+            </td>
+            <td align="left" class="body" valign="top">
+             959 West Turner Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-1680
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Punta Cana Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             801 Union Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-3275
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Rincon Liniero
+            </td>
+            <td align="left" class="body" valign="top">
+             546 N. 7th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-9450
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Sandwichera El Punto
+            </td>
+            <td align="left" class="body" valign="top">
+             410 Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-9170
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Solido's
+            </td>
+            <td align="left" class="body" valign="top">
+             802 North 7th St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-6065
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Tu Nueva Casa Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             223 Hamilton Street and American Parkway
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-2012
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="mexican">
+              </a>
+              <span class="title">
+               Mexican
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Cali Burrito
+            </td>
+            <td align="left" class="body" valign="top">
+             3104 Hamilton Blvd
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-1791
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Diego&rsquo;s Restaurante y Panader&iacute;a
+            </td>
+            <td align="left" class="body" valign="top">
+             1507 South 4th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-709-9992
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             El Azteca
+            </td>
+            <td align="left" class="body" valign="top">
+             405 N. 7th St.
+            </td>
+            <td align="left" class="body" valign="top">
+             610-776-6376
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             El Patr&oacute;n
+            </td>
+            <td align="left" class="body" valign="top">
+             407 North 7th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             856-655-4596
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             El Rey Mexican Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             602 North 12th Street (12th and Allen)
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-1191
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             La Placita M&eacute;xico
+            </td>
+            <td align="left" class="body" valign="top">
+             158 North 12th Street (12th and Turner)
+            </td>
+            <td align="left" class="body" valign="top">
+             610-821-4549
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Taqueria Los Amigos
+            </td>
+            <td align="left" class="body" valign="top">
+             515 N. 7th St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-1316
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="middle">
+              </a>
+              <span class="title">
+               Middle Eastern
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Aladdin Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             651 Union Boulevard
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-4023
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Damascus Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             449 North 2nd Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-2036
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Hummus House
+            </td>
+            <td align="left" class="body" valign="top">
+             1502 W Chew St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-434-8800
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Lazeez Fresh Mediterranean Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             4666 Broadway
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-6897
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Maza Middle Eastern Cuisine
+            </td>
+            <td align="left" class="body" valign="top">
+             2449 Mickley Ave
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-9999
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Mediterranean Cafe &amp; Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             7720 Main Street, Fogelsville
+            </td>
+            <td align="left" class="body" valign="top">
+             610-391-0400
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Olive Branch
+            </td>
+            <td align="left" class="body" valign="top">
+             355 Broadway, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-814-0355
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="sports">
+              </a>
+              <span class="title">
+               Sports Bars
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr bgcolor="#FFFFFF" class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Ringer's Roost
+            </td>
+            <td align="left" class="body" valign="top">
+             1801 Liberty Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-437-4941
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Roosevelt's 21st
+            </td>
+            <td align="left" class="body" valign="top">
+             1328 Tilghman Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-1444
+            </td>
+           </tr>
+           <tr valign="top">
+            <td align="left" class="body" valign="top">
+             Starters Sports Bar and Grill
+            </td>
+            <td align="left" class="body" valign="top">
+             400 Illick's Mill Rd., Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-625-0060
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Tavern on Liberty
+            </td>
+            <td align="left" class="body" valign="top">
+             2246 Liberty Street
+            </td>
+            <td align="left" class="body" valign="top">
+             484-221-8765
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="thai">
+              </a>
+              <span class="title">
+               Thai
+              </span>
+             </strong>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Bay Leaf
+            </td>
+            <td align="left" class="body" valign="top">
+             935 Hamilton Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-4211
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Kow Thai Take-Out
+            </td>
+            <td align="left" class="body" valign="top">
+             1201 W. Linden St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-9100
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Thai Avenue
+            </td>
+            <td align="left" class="body" valign="top">
+             4791 Tilghman St
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-9496
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Thai Kitchen
+            </td>
+            <td align="left" class="body" valign="top">
+             347 Broadway, Bethlehem
+            </td>
+            <td align="left" class="body" valign="top">
+             610-814-2670
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Touch of Thai
+            </td>
+            <td align="left" class="body" valign="top">
+             123 North 2nd St, Easton
+            </td>
+            <td align="left" class="body" valign="top">
+             610-250-0716
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             White Orchid
+            </td>
+            <td align="left" class="body" valign="top">
+             The Promenade Shops at Saucon Valley,2985 Center Valley Parkway, Center Valley # 200
+            </td>
+            <td align="left" class="body" valign="top">
+             610-841-7499
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="viet">
+              </a>
+              Vietnamese
+             </strong>
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Loan's Authentic Vietnamese Bistro
+            </td>
+            <td align="left" class="body" valign="top">
+             1825 W Chew St
+            </td>
+            <td align="left" class="body" valign="top">
+             484-707-9766
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             Pho #1 Vietnamese Restaurant
+            </td>
+            <td align="left" class="body" valign="top">
+             1500 Union Blvd
+            </td>
+            <td align="left" class="body" valign="top">
+             610-432-1218
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" colspan="3" style="background-color: #e5e5e5;" valign="top">
+             <strong>
+              <a id="otherservices">
+              </a>
+              Other Services
+             </strong>
+            </td>
+            <td align="left" class="body" valign="top">
+             &nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             &nbsp;
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Altered Images Hair Studio(10 or 15% depending on service)
+            </td>
+            <td align="left" class="body" valign="top">
+             507 N. 22nd Street, Allentown&nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             &nbsp;484-895-9461
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Amati SkinCare Center&zwnj;
+            </td>
+            <td align="left" class="body" valign="top">
+             725 N. 15th St, Ste 7, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-228-0292
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Assembly 88
+            </td>
+            <td align="left" class="body" valign="top">
+             544 Hamilton Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-7625
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             Blue Mountain Resort (Ticket discounts)
+            </td>
+            <td align="left" class="body" valign="top">
+             1660 Blue Mountain Drive, Palmerton
+            </td>
+            <td align="left" class="body" valign="top">
+             610-826-7700
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Cut Outs Salon
+            </td>
+            <td align="left" class="body" valign="top">
+             950 W Walnut Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-820-3875
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             &zwnj;
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             (
+             <em>
+              Special Only!
+             </em>
+             ) Elements Massage
+            </td>
+            <td align="left" class="body" valign="top">
+             <div>
+              3060 W, Tilghman St, Allentown
+             </div>
+            </td>
+            <td align="left" class="body" valign="top">
+             610-674-6791
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Garden Gate Natural Foods, Inc.
+            </td>
+            <td align="left" class="body" valign="top">
+             17 S 9th Street, Allentown&nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             610-433-8891
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Liberty Bell Museum
+            </td>
+            <td align="left" class="body" valign="top">
+             622 W Hamilton Street, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             610-435-4232
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;LMS Nails
+            </td>
+            <td align="left" class="body" valign="top">
+             620 N 19th St, Allentown&nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             610-439-7899&nbsp;
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Minuteman Press
+            </td>
+            <td align="left" class="body" valign="top">
+             645 W Hamilton St, Suite 103, Allentown&nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             610-351-5390&nbsp;
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/ihear-half.png" alt="" style="     " />
+             Organic Tans &amp; Beauty Bar
+            </td>
+            <td align="left" class="body" valign="top">
+             <div>
+              1752 W. Allen Street, Allentown, PA
+             </div>
+            </td>
+            <td align="left" class="body" valign="top">
+             610-821-8888
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Paint &amp; Party
+            </td>
+            <td align="left" class="body" valign="top">
+             1901 West Allen Street, Allentown&nbsp;
+            </td>
+            <td align="left" class="body" valign="top">
+             214-796-2703&nbsp;
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             &nbsp;Pit Stop Tire and Auto Center
+            </td>
+            <td align="left" class="body" valign="top">
+             708 N 18th Street
+            </td>
+            <td align="left" class="body" valign="top">
+             610-770-0700
+            </td>
+           </tr>
+           <tr class="body" valign="top">
+            <td align="left" class="body" valign="top">
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/contentassets/images/about/iheart.jpg" alt="iheart" style="     " />
+             <img src="/media/migration-feb10094351/main/aboutus/tour/iheart.jpg" alt="" style="     " />
+             South Mountain CrossFit
+            </td>
+            <td align="left" class="body" valign="top">
+             2125 28th St, SW, Ste 500, Allentown
+            </td>
+            <td align="left" class="body" valign="top">
+             267-374-0940
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <center>
+          <!-- Content Template End-->
+         </center>
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

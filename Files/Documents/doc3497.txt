@@ -1,0 +1,775 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Local Churches - Newman Center | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Newman Center
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/campuslife/newman/images/header_banner.jpg" alt="Newman Center" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/">
+               Student Life
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/newmancenter/">
+               Newman Center
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/newmancenter/localchurches/">
+               Local Churches
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3>
+            Churches Located Near Muhlenberg College
+           </h3>
+           <p>
+            If you are unable to attend Mass at 9:00 PM on Sunday evenings, there are other opportunities at Parishes nearby:
+           </p>
+           <h3>
+            Cathedral of Saint Catharine of Siena Parish &mdash; 0.8 miles
+           </h3>
+           <p>
+            Travel east from Muhlenberg College on Chew Street to 18th Street. Turn right on 18th Street and the Church is in the corner of 18th and Turner streets.
+           </p>
+           <table align="right" border="0">
+            <tbody>
+             <tr>
+              <td>
+               <p>
+                <iframe height="200" src="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;daddr=200+N+18th+St,+Allentown,+Lehigh,+Pennsylvania+18104&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=pe&amp;mrcr=0&amp;sll=40.596112,-75.501114&amp;sspn=0.02079,0.04549&amp;ie=UTF8&amp;s=AARTsJrwxoUgDz9h6QU7LbFJqn0QAVmYzA&amp;ll=40.598444,-75.502338&amp;spn=0.013034,0.017166&amp;z=14&amp;output=embed" width="200">
+                 &lt;br /&gt;&lt;small&gt;&lt;a href="http://maps.google.com/maps?f=d&amp;amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;amp;daddr=200+N+18th+St,+Allentown,+Lehigh,+Pennsylvania+18104&amp;amp;hl=en&amp;amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;amp;mra=pe&amp;amp;mrcr=0&amp;amp;sll=40.596112,-75.501114&amp;amp;sspn=0.02079,0.04549&amp;amp;ie=UTF8&amp;amp;ll=40.598444,-75.502338&amp;amp;spn=0.013034,0.017166&amp;amp;z=14&amp;amp;source=embed" style="color: #0000ff; text-align: left;" data-mce-href="http://maps.google.com/maps?f=d&amp;amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;amp;daddr=200+N+18th+St,+Allentown,+Lehigh,+Pennsylvania+18104&amp;amp;hl=en&amp;amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;amp;mra=pe&amp;amp;mrcr=0&amp;amp;sll=40.596112,-75.501114&amp;amp;sspn=0.02079,0.04549&amp;amp;ie=UTF8&amp;amp;ll=40.598444,-75.502338&amp;amp;spn=0.013034,0.017166&amp;amp;z=14&amp;amp;source=embed" data-mce-style="color: #0000ff; text-align: left;"&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;
+                </iframe>
+               </p>
+               <p>
+                <small>
+                 <span style="color: #0000ff; text-align: left;">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </span>
+                 <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+%28Muhlenberg+College%29&amp;daddr=200+N+18th+St,+Allentown,+Lehigh,+Pennsylvania+18104&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=pe&amp;mrcr=0&amp;sll=40.596112,-75.501114&amp;sspn=0.02079,0.04549&amp;ie=UTF8&amp;ll=40.598444,-75.502338&amp;spn=0.013034,0.017166&amp;z=14&amp;source=embed" style="color: #0000ff; text-align: left;">
+                  View Larger Map
+                 </a>
+                </small>
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             Rectory:
+            </strong>
+            610-433-6461
+           </p>
+           <p>
+            <strong>
+             Daily Mass:
+            </strong>
+            Mon&mdash;Fri 6:30, 8:00 AM; Saturday 8:00 AM
+           </p>
+           <p>
+            <strong>
+             Saturday Mass:
+            </strong>
+            4:15 PM
+            <small>
+             (fulfills Sunday obligation)
+            </small>
+           </p>
+           <p>
+            <strong>
+             Sunday Mass:
+            </strong>
+            7:30, 9:00, 10:30 AM, 12:00 Noon
+           </p>
+           <p>
+            <strong>
+             Sacrament of Reconciliation:
+            </strong>
+            Saturdays 3:15 thru 4:00 PM or, 15 minutes before Daily Morning Mass
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <h3>
+            St. Thomas More Parish &mdash; 1.8 miles
+           </h3>
+           <p>
+            Travel south from Muhlenberg College on Ott Street past Hamilton to East Texas Blvd. Turn right on East Texas Blvd. then veer left onto Flexer Avenue. The church is on the right, with parking behind the church.
+           </p>
+           <table align="right" border="0">
+            <tbody>
+             <tr>
+              <td align="right" rowspan="5">
+               <p>
+                <iframe height="200" src="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;daddr=1040+Flexer+Ave.,+18103&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.598425,-75.502395&amp;sspn=0.010395,0.022745&amp;ie=UTF8&amp;s=AARTsJqyVe5olLBu0s5r7rgijDwHmCMD_A&amp;ll=40.586321,-75.511436&amp;spn=0.052146,0.068665&amp;z=12&amp;output=embed" width="200">
+                 <br />
+                 <small>
+                  <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;daddr=1040+Flexer+Ave.,+18103&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.598425,-75.502395&amp;sspn=0.010395,0.022745&amp;ie=UTF8&amp;ll=40.586321,-75.511436&amp;spn=0.052146,0.068665&amp;z=12&amp;source=embed" style="color: #0000ff; text-align: left;">
+                   View Larger Map
+                  </a>
+                 </small>
+                </iframe>
+                <small>
+                 <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+%28Muhlenberg+College%29&amp;daddr=1040+Flexer+Ave.,+18103&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.598425,-75.502395&amp;sspn=0.010395,0.022745&amp;ie=UTF8&amp;ll=40.586321,-75.511436&amp;spn=0.052146,0.068665&amp;z=12&amp;source=embed" style="color: #0000ff; text-align: left;">
+                 </a>
+                </small>
+               </p>
+               <p>
+                <small>
+                 <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+%28Muhlenberg+College%29&amp;daddr=1040+Flexer+Ave.,+18103&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.598425,-75.502395&amp;sspn=0.010395,0.022745&amp;ie=UTF8&amp;ll=40.586321,-75.511436&amp;spn=0.052146,0.068665&amp;z=12&amp;source=embed" style="color: #0000ff; text-align: left;">
+                  View Larger Map
+                 </a>
+                </small>
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             Rectory:
+            </strong>
+            610-433-7413
+           </p>
+           <p>
+            <strong>
+             Daily Mass:
+            </strong>
+            Mon&mdash;Fri 7:00, 8:45 AM, 5:30 PM; Saturday 8:00 AM
+           </p>
+           <p>
+            <strong>
+             Saturday Mass:
+            </strong>
+            5:30, 7:30 PM
+            <small>
+             (each fulfills Sunday obligation)
+            </small>
+           </p>
+           <p>
+            <strong>
+             Sunday Mass:
+            </strong>
+            7:30, 9:00, 10:30 AM; 12:15 PM
+           </p>
+           <p>
+            <strong>
+             Sacrament of Reconciliation:
+            </strong>
+            Saturday 4:30 to 5:30 PM, and 8:15 to 8:45 PM
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <h3>
+            St. Francis of Assisi Parish &mdash; 2 miles
+           </h3>
+           <p>
+            Travel north from Muhlenberg College on Leh Street to Tilghman Street. Turn right on Tilghman Street and head east to 11th Street. Turn left and proceed 2 blocks. The Church is on the corner of 11th &amp; Washington Streets.
+           </p>
+           <table align="right" border="0">
+            <tbody>
+             <tr>
+              <td>
+               <p>
+                <iframe height="200" src="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;daddr=801+11th+St.,+18102&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.587038,-75.507917&amp;sspn=0.020793,0.04549&amp;ie=UTF8&amp;s=AARTsJrxdRjLC1jR7G2Co0eRU3vIsBRyTQ&amp;ll=40.604439,-75.492725&amp;spn=0.026066,0.034332&amp;z=13&amp;output=embed" width="200">
+                 <br />
+                 <small>
+                  <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+(Muhlenberg+College)&amp;daddr=801+11th+St.,+18102&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.587038,-75.507917&amp;sspn=0.020793,0.04549&amp;ie=UTF8&amp;ll=40.604439,-75.492725&amp;spn=0.026066,0.034332&amp;z=13&amp;source=embed" style="color: #0000ff; text-align: left;">
+                   View Larger Map
+                  </a>
+                 </small>
+                </iframe>
+               </p>
+               <p>
+                <small>
+                 <span style="color: #0000ff; text-align: left;">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 </span>
+                 <a href="http://maps.google.com/maps?f=d&amp;saddr=2400+W+Chew+St,+Allentown,+PA+18104+%28Muhlenberg+College%29&amp;daddr=801+11th+St.,+18102&amp;hl=en&amp;geocode=FaV0awIdfNJ_-yE92Yh8hVXaCA%3B&amp;mra=ls&amp;sll=40.587038,-75.507917&amp;sspn=0.020793,0.04549&amp;ie=UTF8&amp;ll=40.604439,-75.492725&amp;spn=0.026066,0.034332&amp;z=13&amp;source=embed" style="color: #0000ff; text-align: left;">
+                  View Larger Map
+                 </a>
+                </small>
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             Rectory:
+            </strong>
+            610-433-6102
+           </p>
+           <p>
+            <strong>
+             Daily Mass:
+            </strong>
+            Monday 8:00 AM; Tuesday 7:00 AM, 6;00 PM; Wednesday 7:00, 8:00 AM; Thursday 7:00 AM, 6:00 PM; Friday 7:00, 8:15 AM.
+           </p>
+           <p>
+            <strong>
+             Saturday Mass:
+            </strong>
+            4:30, 7:00 PM
+            <small>
+             (each fulfills Sunday obligation)
+            </small>
+           </p>
+           <p>
+            <strong>
+             Sunday Mass:
+            </strong>
+            7:30, 9:00, 11:00 AM
+           </p>
+           <p>
+            <strong>
+             Sacrament of Reconciliation:
+            </strong>
+            Saturday 3:30 &mdash; 4:15 PM
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Newman Center
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/student-life/newmancenter/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/thecenter/">
+            The Center
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/activities/">
+            Activities
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/vocations/">
+            Vocations
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/resources/">
+            Resources
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/volunteering/">
+            Volunteering
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/thecenter/"&gt;The Center&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/activities/"&gt;Activities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/vocations/"&gt;Vocations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/volunteering/"&gt;Volunteering&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Community
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/activitiescouncilmac/">
+           Muhlenberg Activities Council (MAC)
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/resserv/">
+           Residential Life
+          </a>
+         </li>
+         <li>
+          Senior Year Experience (SYE)
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Sustainable Living
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Leadership
+        </h3>
+        <ul>
+         <li>
+          <a href="/studorgs/council/">
+           Student Government
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/studentorganizations/">
+           Student Organizations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Diversity
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/multicultural/">
+           Multicultural Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/lgbt/">
+           LGBT
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

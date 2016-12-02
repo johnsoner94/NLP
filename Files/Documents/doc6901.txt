@@ -1,0 +1,699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Get Started with Library Research - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 471100;
+			mySID = 3874385;
+			var myGNAME = "Get+Started+with+Library+Research";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Get Started with Library Research
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 24, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/getstarted">
+          http://libraryguides.muhlenberg.edu/getstarted
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=471100">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856349">
+       Choose a Topic
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856384">
+       Find Information
+      </a>
+      <br />
+      <div style="padding-left:20px;">
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874364">
+        Find Articles
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874366">
+        Find Books
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874371">
+        Find DVDs &amp; Videos
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874373">
+        Find Government Information
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5060595">
+        --Locating U.S. Govt. Publications
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874377">
+        Find Images
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874381">
+        Find Music Recordings &amp; Scores
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874383">
+        Find Primary Sources
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874385">
+        Find Statistics &amp; Data
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874386">
+        Find Reviews
+       </a>
+       <br />
+      </div>
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=4047073">
+       What is Scholarly?
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3878122">
+       Research Tips
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856388">
+       Cite Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5215028">
+       Write an Annotated Bibliography
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_3874385" class="guide_page">
+   <h2>
+    Find Statistics &amp; Data
+   </h2>
+   <div id="content_box_14010160" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Statistics &amp; Data
+     </div>
+     <div style="margin-bottom:10px;">
+      <p style="text-align: left;">
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <p style="text-align: left;">
+       Multi-purpose Sources
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009723">
+         United States
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009724">
+         International
+        </a>
+       </li>
+      </ul>
+      <p style="text-align: left;">
+       Topical Sources
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009725">
+         Agriculture &amp; Food
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009726">
+         Business, Economy, &amp; Labor
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009727">
+         Criminal Justice
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009728">
+         Education
+        </a>
+        &nbsp;&nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009729">
+         Environment
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009730">
+         Health
+        </a>
+        &nbsp;&nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009731">
+         Population &amp; Demographics
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009723" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Multi-purpose Sources: United States and International
+     </div>
+     <ul>
+      <li>
+       Agencies Providing Federal Statistical Information (FedStats)
+       <br />
+       <a href="http://fedstats.sites.usa.gov/agencies/">
+        http://fedstats.sites.usa.gov/agencies/
+       </a>
+       <br />
+       Links to official statistical information produced by the U.S. federal government.  Browse by agency to connect to agencies' websites.
+      </li>
+      <li>
+       Historical Statistics of the United States
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/">
+        https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/
+       </a>
+       <br />
+       Statistics from colonial times to modern day covering population, work and welfare, economic structure and performance, economic sectors, and governance and international relations.
+      </li>
+      <li>
+       ICPSR (Inter-University Consortium for Political and Social Research)
+       <br />
+       <a href="http://www.icpsr.umich.edu/index.html">
+        http://www.icpsr.umich.edu/index.html
+       </a>
+       <br />
+       A data archive of research in the social sciences. Specialized collections of data in education, aging, criminal justice, substance abuse, terrorism, and other fields.  Full access available only to Muhlenberg faculty, students, and staff who create accounts using their Muhlenberg email addresses.
+      </li>
+      <li>
+       Lehigh Valley Research Consortium
+       <br />
+       <a href="http://lehighvalleyresearch.org/">
+        http://lehighvalleyresearch.org/
+       </a>
+       <br />
+       Quantitative and qualitative data on the Lehigh Valley on: demographics, public opinion, economic indicators, non-profit sector, governmental sector, and more.
+      </li>
+      <li>
+       Pennsylvania State Data Center
+       <br />
+       <a href="http://pasdc.hbg.psu.edu/">
+        http://pasdc.hbg.psu.edu/
+       </a>
+       <br />
+       Official source of demographic and economic data for Pennsylvania.
+      </li>
+      <li>
+       ProQuest Statistical Insight
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical
+       </a>
+       <br />
+       Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+      </li>
+      <li>
+       Statistical Abstract of the United States
+       <br />
+       <a href="http://www.census.gov/compendia/statab/">
+        http://www.census.gov/compendia/statab/
+       </a>
+       <br />
+       The authoritative and comprehensive summary of statistics on the social, political, and economic organization of the United States.  Current and archived editions (1995- ) are available online, as well.   Old print editions (1886- ) are in the Trexler Library Government Documents section starting at C 3.134:886.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009724" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Multi-purpose Sources: International
+     </div>
+     <ul>
+      <li>
+       CIA World Factbook
+       <br />
+       <a href="https://www.cia.gov/library/publications/the-world-factbook/">
+        https://www.cia.gov/library/publications/the-world-factbook/
+       </a>
+       <br />
+       Information, including statistics, on the history, people, government, economy, geography, communications, transportation, military, and transnational issues for hundreds of world entities.
+      </li>
+      <li>
+       ICPSR (Inter-University Consortium for Political and Social Research)
+       <br />
+       <a href="http://www.icpsr.umich.edu/index.html">
+        http://www.icpsr.umich.edu/index.html
+       </a>
+       <br />
+       A data archive of research in the social sciences. Specialized collections of data in education, aging, criminal justice, substance abuse, terrorism, and other fields.  Full access available only to Muhlenberg faculty, students, and staff who create accounts using their Muhlenberg email addresses.
+      </li>
+      <li>
+       <b>
+        International Historical Statistics, 1750-2000
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 310 M681i vol. 1-3 (Level B)
+       <br />
+       Provides key economic and social indicators over the last 250 years.
+      </li>
+      <li>
+       ProQuest Statistical Insight
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical
+       </a>
+       <br />
+       Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+      </li>
+      <li>
+       OFFSTATS
+       <br />
+       <a href="http://www.offstats.auckland.ac.nz/">
+        http://www.offstats.auckland.ac.nz/
+       </a>
+       <br />
+       Links to free official, international statistics resources by country, region, and subject.
+      </li>
+      <li>
+       World Bank Data
+       <br />
+       <a href="http://data.worldbank.org/">
+        http://data.worldbank.org/
+       </a>
+       <br />
+       Statistics for countries around the world on a wide variety of topics, including education-related topics.  From the World Bank.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009725" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Agriculture and Food
+     </div>
+     <ul>
+      <li>
+       National Agricultural Statistics Service
+       <br />
+       <a href="http://www.nass.usda.gov/">
+        http://www.nass.usda.gov/
+       </a>
+       <br />
+       Statistics on "virtually every aspect of U.S. agriculture, [including]: production and supplies of food and fiber, prices paid and received by farmers, farm labor and wages, farm finances, chemical use, changes in the demographics of U.S. producers," and more.
+      </li>
+      <li>
+       Food and Agriculture Organization (United Nations)
+       <br />
+       <a href="http://www.fao.org/">
+        http://www.fao.org/
+       </a>
+       <br />
+       Agricultural, food, and food safety statistics by region, country, and world.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009726" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Business, Economy, and Labor
+     </div>
+     <ul>
+      <li>
+       U.S. Bureau of Labor Statistics
+       <br />
+       <a href="http://www.bls.gov/">
+        http://www.bls.gov/
+       </a>
+       <br />
+       Find statistics and data on inflation, spending, employment, wages, productivity, and more. Some international data.
+      </li>
+      <li>
+       World Trade Organization
+       <br />
+       <a href="http://www.wto.org/index.htm">
+        http://www.wto.org/index.htm
+       </a>
+       <br />
+       Trade data by region, sector, product, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009727" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Criminal Justice
+     </div>
+     <ul>
+      <li>
+       Bureau of Justice Statistics
+       <br />
+       <a href="http://www.ojp.usdoj.gov/bjs/">
+        http://www.ojp.usdoj.gov/bjs/
+       </a>
+       <br />
+       "Information on crime, criminal offenders, victims of crime, and the operation of justice systems at all levels of government."
+      </li>
+      <li>
+       Sourcebook of Criminal Justice Statistics
+       <br />
+       <a href="http://purl.access.gpo.gov/GPO/LPS3909">
+        http://purl.access.gpo.gov/GPO/LPS3909
+       </a>
+       <br />
+       Brings together data from more than 100 sources about many aspects of criminal justice in the United States. Print copies of editions from 1981 to the present are available in Trexler Library's Government Documents section starting at J 29.9/6.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009728" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Education
+     </div>
+     <ul>
+      <li>
+       National Center for Education Statistics
+       <br />
+       <a href="http://nces.ed.gov/">
+        http://nces.ed.gov/
+       </a>
+       <br />
+       Find statistics re. early childhood, elementary, secondary, and post-secondary education.  From the U.S. Department of Education.
+      </li>
+      <li>
+       PDE Data and Statistics
+       <br />
+       <a href="http://www.pde.state.pa.us/portal/server.pt/community/data_and_statistics/7202">
+        http://www.pde.state.pa.us/portal/server.pt/community/data_and_statistics/7202
+       </a>
+       <br />
+       Information about schools, student progress, graduation rates, school districts in Pennsylvania.  From the Pennsylvania Department of Education.
+      </li>
+      <li>
+       UNESCO Institute for Statistics
+       <br />
+       <a href="http://www.uis.unesco.org/">
+        http://www.uis.unesco.org/
+       </a>
+       <br />
+       "Global and internationally comparable statistics on education, science, culture and communication."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009729" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Environment
+     </div>
+     <ul>
+      <li>
+       World Resources Institute: EarthTrends
+       <br />
+       <a href="http://earthtrends.wri.org/">
+        http://earthtrends.wri.org/
+       </a>
+       <br />
+       "Comprehensive online database, maintained by the World Resources Institute, that focuses on the environmental, social, and economic trends that shape our world."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009730" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Health
+     </div>
+     <ul>
+      <li>
+       Centers for Disease Control and Prevention (CDC)
+       <br />
+       <a href="http://www.cdc.gov/datastatistics/">
+        http://www.cdc.gov/datastatistics/
+       </a>
+       <br />
+       Covers a wide variety of health topics.
+      </li>
+      <li>
+       Pennsylvania Health Statistics
+       <br />
+       <a href="http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt">
+        http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt
+       </a>
+      </li>
+      <li>
+       World Health Organization (WHO)
+       <br />
+       <a href="http://www.who.int/en/">
+        http://www.who.int/en/
+       </a>
+       <br />
+       International data on mortality, diseases, services, health systems, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009731" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Population and Demographics
+     </div>
+     <ul>
+      <li>
+       American Factfinder
+       <br />
+       <a href="http://factfinder2.census.gov/">
+        http://factfinder2.census.gov/
+       </a>
+       <br />
+       A database from the U.S. Census Bureau with population, housing, and business statistics at the country, state, county, city, and zip code levels.
+      </li>
+      <li>
+       Census of Population and Housing
+       <br />
+       <a href="http://www.census.gov/prod/www/abs/decennial/index.html">
+        http://www.census.gov/prod/www/abs/decennial/index.html
+       </a>
+       <br />
+       Decennial censuses from the U.S. Census Bureau from 1790 to the present are available online. Print copies of the decennial census from 1880 on are available in Trexler Library's Government Documents starting at C3:223.
+      </li>
+      <li>
+       International Data Base (U.S. Census Bureau)
+       <br />
+       <a href="http://www.census.gov/ipc/www/idb/">
+        http://www.census.gov/ipc/www/idb/
+       </a>
+       <br />
+       Basic demographic information by country and region.  From the U.S. Census Bureau.
+      </li>
+      <li>
+       International Statistical Agencies
+       <br />
+       <a href="http://www.census.gov/aboutus/stat_int.html">
+        http://www.census.gov/aboutus/stat_int.html
+       </a>
+       <br />
+       Links to international statistical agencies.  From the U.S. Census Bureau.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943779" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Need more help with this?&nbsp;
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+      <p>
+       <br />
+       Need help with writing?&nbsp; Contact the
+       <a href="http://www.muhlenberg.edu/main/academics/writing/center/">
+        Writing Center
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

@@ -1,0 +1,822 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Leaves - Manager Handbook | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Human Resources
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/hr/background.jpg" alt="Human resources" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/">
+               Human Resources
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/currentemployeesretirees/">
+               Current Employees &amp; Retirees
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/">
+               Resources &amp; Policies
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/">
+               Handbooks
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/">
+               Manager Handbook
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/leaves/">
+               Leaves
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3 align="right" style="text-align: center;">
+            Trustees' Handbook For Managers
+           </h3>
+           <br />
+           <h3>
+            5. SALARIES AND BENEFITS
+            <br />
+            5.6 Leaves
+           </h3>
+           <p>
+            Except for leaves which are required by the Family and Medical Leave Act of 1993, (5 USCA 6381 et seq.) leaves of absence shall be granted at the discretion of the President upon recommendation of the President's Senior Staff and upon written application by the individual. Normally, leaves of absence shall be without salary.
+           </p>
+           <p>
+            During an unpaid leave of absence, an employee's coverage in appropriate benefit plans may be continued if the employee pays the entire cost of such benefits.
+           </p>
+           <p>
+            Leave of Absence application forms are available in the Human Resources Office.
+           </p>
+           <blockquote>
+            <p>
+             <strong>
+              5.6.1 Sick Leave
+             </strong>
+            </p>
+            <p>
+             For full-time managers, full salary may be paid for the first two weeks of an extended absence, regardless of the manager 's length of service to the College. Following this two-week period, full salary may be continued for the number of working days that have been accumulated under the College's sick leave program.
+            </p>
+            <p>
+             Under the College's sick leave program, full-time managers accumulate paid sick leave for use during extended absences due to injury or illness. Accrual is at the rate of five days for each full or partial year of service to the College to a maximum of 130 working days. Sick leave is paid at full salary.
+            </p>
+            <p>
+             No payments will be made for accumulated sick leave at retirement or separation from employment.
+            </p>
+            <p>
+             <strong>
+              5.6.2 Disability
+             </strong>
+            </p>
+            <p>
+             Disability occurs when illness or injury, not compensable under Workers Compensation, prevents the employee from continuing to work. The Human Resources Office administers the disability program of the College.
+            </p>
+            <p>
+             Occasional daily absences of managers, due to illness or injury, are fully paid. Records for the reference of the senior supervisor are kept by the assistant or secretary in the unit and are submitted to the Human Resources Office quarterly.
+            </p>
+            <blockquote>
+             <p>
+              <strong>
+               5.6.2.1 Short-Term Disability
+              </strong>
+             </p>
+             <p>
+              Payment under the Short-Term Disability policy, which takes affect when sick leave has been exhausted, is 60% of the individual's current salary base to a maximum of $3,000 per month (see 5.6.1). All Short-term disabilities are also considered Family and Medical Leaves of Absence (see Appendix C) by the College.
+             </p>
+             <p>
+              The College will discontinue payment of salary under the Short-Term Disability policy when eligibility to the Long-Term Disability policy begins (six months from the onset of disability). See Section 5.6.2.3 for details of the Long Term Disability plan.
+             </p>
+             <p>
+              This program is administered by the Human Resources Office which will secure verification of disability from the employee's personal physician. Confirmation of the disability by a physician of the College's choice may be required by the College.
+             </p>
+             <p>
+              Other benefits (health insurance, life insurance, pension contributions, etc.) will remain in force during a short-term disability absence as if the employee were in active service. The College continues these benefits for the entire month when short-term disability payment is paid for any portion of the month. Employee contributions to benefit plans, where applicable, will also continue during any paid short-term disability as if the employee were in active service.
+             </p>
+             <p>
+              The employee may continue to participate in appropriate benefit programs at his or her own expense should an unpaid leave of absence (including child care) be granted following a paid short-term disability absence.
+             </p>
+             <p>
+              <strong>
+               5.6.2.2 Maternity Leaves
+              </strong>
+             </p>
+             <p>
+              Maternity leaves are granted in accordance with the Family and Medical Leave Act of 1993 and with the College's short term disabilities policy. The disability period for a maternity leave is determined by the attending physician's certification and is often six weeks following the date of delivery. Also see Section 5.6.3 for information regarding Family and Child Care Leaves.
+             </p>
+             <p>
+              <strong>
+               5.6.2.3 Long-Term Total Disability
+              </strong>
+             </p>
+             <p>
+              Total disability occurs when illness or injury, not compensable under Workers Compensation, prevents an employee from continuing to work.
+             </p>
+             <p>
+              After one year of employment at the College, persons who are employed at least 24 hours weekly or 1248 hours per year are covered by total disability insurance. The College pays the entire premium for this insurance.
+             </p>
+             <p>
+              Benefits begin on the first of the month following six consecutive months of total disability and continue during such disability. Certain age restrictions apply.
+             </p>
+             <p>
+              A monthly income benefit
+              <span>
+               ,
+              </span>
+              an annuity premium benefit equal to the amount being paid to a TIAA-CREF retirement plan at the time of disability, and payment of premiums for continuation of existing group life insurance coverage is included for eligible employees.
+             </p>
+            </blockquote>
+            <p>
+             <strong>
+              5.6.3 Child and Family Care Leave
+             </strong>
+            </p>
+            <p>
+             Family and Child Care Leaves are granted in accordance with the Family and Medical Leave Act of 1993 (see Appendix C). Family and Child Care Leaves may be requested by an employee of either sex.
+            </p>
+            <p>
+             <strong>
+              5.6.4 Family and Medical Leave
+             </strong>
+            </p>
+            <p>
+             The Family and Medical Leave Act of 1993 requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for certain family and medical reasons or up to 26 weeks of military caregiver leave to care for a covered service member with a serious injury or illness. Muhlenberg College employees are eligible if they have been employed with the College for at least one year and for at least 1,250 hours over the previous 12 months (see Appendix C).
+            </p>
+            <p>
+             <strong>
+              5.6.5 Bereavement Leave
+             </strong>
+            </p>
+            <p>
+             When a death occurs in your family, you may receive time off with pay within the limits stated below. Such time is not charged against any other accrual and is considered bereavement leave.
+            </p>
+           </blockquote>
+           <table align="center" cellpadding="0" cellspacing="0" style="width: 80%;">
+            <tbody>
+             <tr valign="top">
+              <td width="445">
+               <p>
+                Death of spouse, child or parent
+               </p>
+              </td>
+              <td width="72">
+               <p>
+                4 days
+               </p>
+              </td>
+             </tr>
+             <tr valign="top">
+              <td width="445">
+               <p>
+                Death of brother or sister
+               </p>
+              </td>
+              <td width="72">
+               <p>
+                3 days
+               </p>
+              </td>
+             </tr>
+             <tr valign="top">
+              <td width="445">
+               <p>
+                Death of an aunt, uncle, grandparent or grandchild
+               </p>
+              </td>
+              <td width="72">
+               <p>
+                2 days
+               </p>
+              </td>
+             </tr>
+             <tr valign="top">
+              <td width="445">
+               <p>
+                Death of father-, mother-, brother-, sister-, son-, daughter- or grandparent-in-law
+               </p>
+              </td>
+              <td width="72">
+               <p>
+                1 day
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             5.6.6&nbsp; Military Leave of Absence
+            </strong>
+           </p>
+           <p style="text-align: justify;">
+            You may request a military leave of absence in order to fulfill military obligations. The College has no provision to continue pay during such a leave, although you may choose to use accrued vacation to receive pay.&nbsp; Employees who return to work following military service are granted full reinstatement rights at no loss of seniority or benefits, as specified by Uniformed Services Employment and Reemployment Rights Act (USERRA).&nbsp; Employees must return to work (if service was for less than 31 days) or apply for reemployment (if service was for more than 31 days).&nbsp;
+            <a href="/media/contentassets/pdf/about/hr/AppendixGMilitaryLeavePolicy.pdf">
+             See Appendix G for USERRA policy information.
+            </a>
+           </p>
+           <div style="float: left;">
+            <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/holidays/">
+             Previous
+            </a>
+           </div>
+           <div style="float: right;">
+            <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/socialsecuritypayments/">
+             Next
+            </a>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Human Resources
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/hr/">
+            Home
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/supportstaffhandbook/"&gt;Support Staff Handbook&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/"&gt;Manager Handbook&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

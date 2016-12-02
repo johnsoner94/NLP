@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script type="text/javascript">
+   if(navigator.userAgent.indexOf('iPad') == -1) {
+      var viewport = document.createElement('meta');
+      viewport.setAttribute('name', 'viewport');
+      viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes');
+      document.getElementsByTagName('head')[0].appendChild(viewport);
+    }
+  </script>
+  <title>
+   Muhlenberg College - Full View
+  </title>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap core CSS -->
+  <!-- &lt;link href="/portal/assets/bootstrap/css/bootstrap.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet"&gt; -->
+  <!-- &lt;link href="/portal/assets/css/bootstrap.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <!-- Jquery UI -->
+  <!-- &lt;link href="/portal/assets/css/jquery-ui.min.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <!-- jScrollpane -->
+  <!-- &lt;link href="/portal/assets/css/jquery.jscrollpane.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <!-- &lt;link href="/portal/assets/css/jscrollpane.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <!-- Custom styles for this template -->
+  <link href="/assets/css/combined.min.css" rel="stylesheet" type="text/css" />
+  <!-- &lt;link href="/portal/assets/css/all.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <!-- SuperFish -->
+  <!-- &lt;link href="/portal/assets/css/superfish.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet"&gt; -->
+  <!-- Icomoon font icons -->
+  <link href="/assets/css/stretchfont.css" rel="stylesheet" />
+  <!-- NoUi Slider -->
+  <link href="/assets/css/jquery.nouislider.min.css" rel="stylesheet" />
+  <!-- Date Time Picker -->
+  <!-- &lt;link href="/portal/assets/css/bootstrap-datepicker.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet"&gt; -->
+  <!--[if lt IE 8]&gt;
+&lt;link rel="stylesheet" href="/assets/ie7/ie7.css"&gt;
+&lt;![endif]-->
+  <!-- Credit Card Type Detector Styles -->
+  <!-- &lt;link href="/portal/assets/css/creditCardTypeDetector.css;jsessionid=0A93C576E2F71D0B04F2700C90179491" rel="stylesheet" type="text/css"&gt; -->
+  <style>
+   .portalBackground1 {
+      background-image: url(//neo-cdn.stretchinternet.com/assets/scratchy.jpg);
+    }
+    .geoBlockedColorText {
+      color: #dddddd !important;
+    }
+    .team1PrimaryColor {
+      background-color: #FE0000 !important;
+    }
+    .team1PrimaryColorText {
+      color: #FE0000 !important;
+    }
+    .team1PrimaryColorBorder {
+      border-color: #FE0000 !important;
+    }
+    .team1PrimaryBarColor {
+      background-image: webkit-linear-gradient(45deg, #FE0000 0%, #fff);
+      background-image: -moz-linear-gradient(45deg, #FE0000 0%, #fff);
+      background-image: -o-linear-gradient(45deg, #FE0000 0%, #fff);
+      background-image: linear-gradient(45deg, #FE0000 0%, #fff);
+    }
+    .team1PrimaryShadeColor {
+      background-color: #D90000 !important;
+    }
+    .team1PrimaryShadeColorText {
+      color: #D90000 !important; 
+    }
+    .team1PrimaryShadeColorBorder {
+      border-color: #D90000 !important;
+    }
+    .team1SecondaryColor {
+      background-color: #CCCCCC !important;
+    }
+    .team1SecondaryColorText {
+      color: #CCCCCC !important;
+    }
+    .team1SecondaryColorBorderTop {
+      border-top: 1px solid #CCCCCC !important;
+    }
+    .team1SecondaryColorBorderLeft {
+      border-left: 1px solid #CCCCCC !important;
+    }
+    .team1SecondaryColorBorderBottom {
+      border-bottom: 1px solid #CCCCCC !important;
+    }
+    .team1SecondaryColorBorderRight {
+      border-right: 1px solid #CCCCCC !important;
+    }
+    .team1SupportColor1 {
+      background-color: #FBC407 !important;
+    }
+    .team1SupportColor2 {
+      background-color: #FBC407 !important;
+    }
+    .team1PrimaryTextColor {
+      color: #FFFFFF !important;
+    }
+    .team1SecondaryTextColor {
+      color: #000000 !important;
+    }
+    .team1BackgroundImage {
+      background-image: url() !important;
+    }
+    .team1HeaderImage {
+      background-image: url(//neo-cdn.stretchinternet.com/GyWJWq/header/muhlenbergadmin15.png) !important;
+    }
+    
+    
+
+    
+      
+      
+      .team1LiveStatsPrimaryShadeColor {
+          background-color: #FE0000 !important;
+        }
+        .team1LiveStatsPrimaryShadeColorBorder {
+          border-color: #FE0000 !important;
+        }
+      
+    
+    
+
+    
+    
+  
+
+  /* Hide the drop down arrows on IE10 */
+  .hideSelectArrow::-ms-expand {
+    display: none;
+  }
+  /* Fix the dumb scroll bar on IE10 */
+  @-ms-viewport{ 
+    width: auto !important; 
+  }
+  /* Fix screen shift when modal window appears */
+  body.modal-open {
+    margin-right: 15px;
+  }
+  </style>
+  <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="../assets/images/touchicon.png" />
+  <div id="browserAlertBar" class="team1SecondaryColor team1SecondaryTextColor" style="display: none">
+   <table style="width: 100%;">
+    <tr>
+     <td style="width: 10%; text-align: center;">
+      <span id="alertClose" class="i-close team1SecondaryTextColor" onclick="removeBrowserAlert()">
+      </span>
+     </td>
+     <td style="width: 90%; text-align: center;">
+      <div id="alertMessage">
+       Your browser is out of date and the portal may not function correctly. Please upgrade to the latest version of
+       <a href="https://www.google.com/chrome/browser/">
+        Chrome
+       </a>
+       or
+       <a href="https://www.mozilla.org/en-US/firefox/new/">
+        Firefox
+       </a>
+       for best results.
+      </div>
+     </td>
+    </tr>
+   </table>
+  </div>
+  <script type="text/javascript">
+   function BrowserCheck()
+        {
+          var N= navigator.appName, ua= navigator.userAgent.toLowerCase(), tem;
+          var M= ua.match(/(opera|chrome|safari|firefox|msie|trident|palemoon)\/?\s*(\.?\d+(\.\d+)*)/i);
+          if(M &amp;&amp; (tem= ua.match(/version\/([\.\d]+)/i))!= null) {M[2]=tem[1];}
+          M= M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
+          return M;
+        }
+
+        var browserInfo = {
+           browser:'',
+           version:''
+        };
+
+        var regexp = /^\d+/;
+        browserInfo.browser = BrowserCheck()[0];
+        browserInfo.version = BrowserCheck()[1];
+
+
+        if((browserInfo.browser.toLowerCase() == "chrome" &amp;&amp; browserInfo.version.toString().split(".")[0] &lt; 38) || (browserInfo.browser.toLowerCase() == "firefox" &amp;&amp; browserInfo.version.toString().split(".")[0] &lt; 24) || (browserInfo.browser.toLowerCase() == "opera" &amp;&amp; browserInfo.version.toString().split(".")[0] &lt; 25)  || (browserInfo.browser.toLowerCase() == "trident" &amp;&amp; browserInfo.version.toString().split(".")[0] &lt; 7) || (browserInfo.browser.toLowerCase() == "msie") || ((browserInfo.version.toString().split(".")[0]+"."+browserInfo.version.toString().split(".")[1]) &lt; 6.2)){
+
+          document.getElementById('browserAlertBar').style.display = 'block';
+
+        }
+
+        function removeBrowserAlert(){
+          var elem = document.getElementById("browserAlertBar");
+          elem.parentNode.removeChild(elem);
+        }
+
+        // Redirect to regular http since the load balancer can't handle https yet
+        var locationHref = location.href;
+
+        var DEBUG = false;
+        var DEV_MODE = true;
+        var IS_LIVE = true;
+        var IS_GEO_ALLOWED = true;
+        var IS_FIREFOX = navigator.userAgent.toLowerCase().indexOf('firefox') &gt; -1 ? true : false;
+
+        var HEADER_IMAGE_URL = "//neo-cdn.stretchinternet.com/GyWJWq/header/muhlenbergadmin15.png";
+
+        var CLIENT_URL = "https://neo-client.stretchinternet.com";
+
+        var ASSET_PROP = "assets";
+        var BASE_PATH = "";
+
+
+        var BASE_URL = CLIENT_URL + "/portal-ws/";
+        var SECURE_BASE_URL = " https://neo-client.stretchinternet.com/portal-ws/";
+        var BASE_ASSET_URL = "//neo-cdn.stretchinternet.com/assets/";
+        var ASSET_URL = "//neo-cdn.stretchinternet.com/GyWJWq/";
+        var LIVESTATS_URL = "//ls1.stretchinternet.com/GyWJWq/";
+        var FAVICON = "";
+        var TOUCHICON = "";
+        var PORTAL_URL = "https://portal.stretchinternet.com";
+        var PORTAL_ASSET_URL = "//neo-cdn.stretchinternet.com";
+        var CLIENT_NAME = "muhlenbergcollege";
+
+        var INSTANT_HIGHLIGHTS_URL = BASE_URL + "getInstantHighlights.json?eventID=271172";
+        var INSTANT_HIGHLIGHTS_DETAILS_URL = BASE_URL + "getInstantHighlightsDetails.json?eventID=271172";
+        var INSTANT_HIGHLIGHT_DETAILS_URL = BASE_URL + "getInstantHighlightDetails.json";
+
+        var PARENT_ASSET_URL = "//neo-cdn.stretchinternet.com/GyWJWq/";
+
+        var EVENT_URL = BASE_URL + "getEvent.json";
+        var GET_CLIENT_URL = BASE_URL + "getClient.json";
+        var EVENTS_URL = BASE_URL + "getEvents.json";
+        var SEARCH_EVENTS_URL = BASE_URL + "searchEvents.json";
+        var SCORE_SUMMARY_URL = ASSET_URL + "livestats/portalSummary.json";
+
+        var GEO_MULTIPLE_EVENTS_VALIDATION_URL = "https://neo-client.stretchinternet.com/api/geo/v1/rule/validate/";
+        var GEO_EVENT_VALIDATION_URL = "";
+
+        var CONFERENCE_CLIENT_URL = BASE_URL + "getConferenceClients.json?clientID=161967";
+        var GET_SCHOOLS_URL = BASE_URL + "getSchools.json";
+
+        var PLAY_URL = LIVESTATS_URL + "livestats/271172-play.json";
+        var SUMMARY_URL = LIVESTATS_URL + "livestats/271172-summary.json";
+        var LIVE_STATS_URL = LIVESTATS_URL + "livestats/271172.json";
+
+        var SCHOOL_NEWS_URL = BASE_URL + "getMessages.json?token=blah&amp;messageType=tab&amp;clientID=161967&amp;userID=1&amp;eventID=271172";
+        var TICKER_MESSAGES_URL = BASE_URL + "getMessages.json?token=blah&amp;messageType=ticker&amp;clientID=161967&amp;userID=1&amp;eventID=271172";
+        var SYSTEM_MESSAGES_URL = BASE_URL + "getMessages.json?token=blah&amp;messageType=system&amp;clientID=161967&amp;userID=1&amp;eventID=271172";
+        var HEADER_IMAGE_URL = "//neo-cdn.stretchinternet.com/GyWJWq/header/muhlenbergadmin15.png";
+
+        var TWITTER_URL = ASSET_URL + "socialFeeds/";
+        var FACEBOOK_URL = BASE_URL + "getFBPosts.json";
+
+        var EVENT_TAGS_URL = BASE_URL + "getEventTags.json";
+
+        var TIMEOUT_LASTPLAY = 4000;
+        var TIMEOUT_FEEDS = 31000;
+        var TIMEOUT_SCOREAREA = 4000;
+        var TIMEOUT_SCORESUMMARIES = 4000;
+        var TIMEOUT_STATS = 4000;
+        var TIMEOUT_SOCIAL = 15000;
+        var REQUIREJS_TIMEOUT = 7000;
+        var TIMEOUT_ISLIVE_CHECK = 60000;
+        var TIMEOUT_HIGHLIGHTS = 30000;
+        
+        var MOBILE_BREAK = 939;
+
+        /*if(DEV_MODE) {
+          TIMEOUT_LASTPLAY = 15000;
+          TIMEOUT_FEEDS = 15000;
+          TIMEOUT_SCOREAREA = 30000;
+          TIMEOUT_SCORESUMMARIES = 30000;
+          TIMEOUT_STATS = 30000;
+          TIMEOUT_SOCIAL = 30000;
+          REQUIREJS_TIMEOUT = 0;
+        }*/
+
+
+        //////////////// DEBUG URLS START ////////////////
+        var BASEBALL_LIVE_STATS_URL = "../assets/json/baseball4.json";
+        var BASEBALL_SUMMARY_URL = "../assets/json/baseballSummary2.json";
+        var BASEBALL_PLAY_URL  = "../assets/json/baseballPlay.json";
+        var BASKETBALL_LIVE_STATS_URL = "../assets/json/basketball.json";
+        var BASKETBALL_SUMMARY_URL = "../assets/json/basketballSummary.json";
+        var BASKETBALL_PLAY_URL = "../assets/json/basketballPlay.json";
+        var LACROSSE_LIVE_STATS_URL = "../assets/json/lacrosse3.json";
+        var LACROSSE_SUMMARY_URL = "../assets/json/lacrosseSummary2.json";
+        var LACROSSE_PLAY_URL = "../assets/json/lacrossePlay2.json";
+        var FOOTBALL_LIVE_STATS_URL = "../assets/json/football2.json";
+        var FOOTBALL_SUMMARY_URL = "../assets/json/footballSummary2.json";
+        var FOOTBALL_PLAY_URL = "../assets/json/footballPlay2.json";
+        var VOLLEYBALL_LIVE_STATS_URL = "../assets/json/volleyball.json";
+        var VOLLEYBALL_SUMMARY_URL = "../assets/json/volleyballSummary.json";
+        var VOLLEYBALL_PLAY_URL = "../assets/json/volleyballPlay.json";
+        var SOCCER_LIVE_STATS_URL = "../assets/json/soccer3.json";
+        var SOCCER_SUMMARY_URL = "../assets/json/soccerSummary.json";
+        var SOCCER_PLAY_URL = "../assets/json/soccerPlay2.json";
+        var FIELDHOCKEY_LIVE_STATS_URL = "../assets/json/fieldhockey.json";
+        var FIELDHOCKEY_SUMMARY_URL = "../assets/json/fieldhockeySummary.json";
+        var FIELDHOCKEY_PLAY_URL = "../assets/json/fieldhockeyPlay.json";
+        var ICEHOCKEY_LIVE_STATS_URL = "../assets/json/icehockey.json";
+        var ICEHOCKEY_SUMMARY_URL = "../assets/json/icehockeySummary.json";
+        var ICEHOCKEY_PLAY_URL = "../assets/json/icehockeyPlay.json";
+        
+
+        if(DEBUG) {
+          SCORE_SUMMARY_URL = "../assets/json/baseball.json";
+
+          SCHOOL_NEWS_URL = "../assets/json/schoolNews.json";
+          
+          TWITTER_URL = "../assets/json/twitter.json";
+        }
+        //////////////// DEBUG URLS END ////////////////
+  </script>
+  <!--[if lt IE 9]&gt;&lt;script src="../../docs-assets/js/ie8-responsive-file-warning.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"&gt;&lt;/script&gt;
+      &lt;![endif]-->
+ </head>
+ <body class="team1PrimaryColor">
+  <div class="portalBackground portalBackground1">
+   <div class="team1PrimaryColor">
+   </div>
+  </div>
+  <div id="fb-root">
+  </div>
+  <div id="help">
+   HELP
+   <span class="icon team1PrimaryColor">
+    <i class="team1PrimaryColorBorder">
+    </i>
+    ?
+   </span>
+  </div>
+  <div id="helpContainer">
+   <ul id="helpNav">
+    <li class="active">
+     <a href="#helpFAQs" data-toggle="tab" class="team1LiveStatsPrimaryShadeColorText">
+      FAQS
+     </a>
+    </li>
+    <li>
+     <a href="#helpSupportRequest" data-toggle="tab" class="team1LiveStatsPrimaryShadeColorText">
+      SUBMIT SUPPORT REQUEST
+     </a>
+    </li>
+   </ul>
+   <div class="tab-content" style="height: 80%">
+    <div id="helpFAQs" class="tab-pane active">
+     <div class="helpHeader team1PrimaryColorText">
+      <div class="pull-left headerTitle">
+       Frequently Asked Questions
+      </div>
+      <div class="pull-right mobileHide">
+       <!--&lt;input type="checkbox"&gt; Show Tool Tips -->
+       <a class="team1PrimaryColorText" href="javascript:void(0)" onclick="closeHelp();">
+        CLOSE
+        <span class="i-close team1PrimaryColorText">
+        </span>
+       </a>
+      </div>
+     </div>
+     <div id="helpFAQsContent" style="height:100%; overflow: auto;">
+      <div id="helpFAQsContentInner">
+       <div class="overview">
+        <div class="panel-group" id="helpFAQsAccordion">
+         <div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseOne" class="toggleCollapse">
+             What are the requirements to use the Stretch Internet portal?
+            </a>
+           </h4>
+           <div id="collapseOne" class="collapse">
+            If you're on a desktop or laptop computer, we suggest using the latest
+                      version of
+            <a href="https://www.google.com/chrome/browser/">
+             Chrome
+            </a>
+            or
+            <a href="https://www.mozilla.org/en-US/firefox/new/">
+             Firefox
+            </a>
+            . If you're using
+                      an alternate browser, please ensure you're using the most updated
+                      version of that browser. To access audio or video content, you will also
+                      need
+            <a href="http://get.adobe.com/flashplayer/">
+             Flash 14
+            </a>
+            or later, which
+                      requires Max OS X 10.6 or late, or Windows XP or later. To access live
+                      or on-demand video, you will need a download speed of at least 1.0 Mbps
+                      (1,000 Kbps) for standard definition broadcasts and 3.0 Mbps (3,000
+                      Kbps) for high definition broadcasts. You can measure your download
+                      speed atwww.speedtest.net. Our broadcasts are also compatible on any
+                      Apple mobile devices running iOS 7 or later and on Android devices
+                      running OS 4.4.4 or later. If you're wishing to view the broadcasts on
+                      your TV, we suggest using AppleTV to wirelessly stream content from a
+                      Mac or Apple mobile device – or connecting an HDMI cable from your
+                      computer or device to your TV. While some Smart TVs can also be used to
+                      access our streams, we cannot guarantee compatibility.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseTwo" class="toggleCollapse">
+             Why is the portal not loading correctly or missing information?
+            </a>
+           </h4>
+           <div id="collapseTwo" class="collapse">
+            If you're having issues loading the portal or accessing content on a
+                      computer, please make sure you're using the latest versions of
+            <a href="https://www.google.com/chrome/browser/">
+             Chrome
+            </a>
+            or
+            <a href="https://www.mozilla.org/en-US/firefox/new/">
+             Firefox
+            </a>
+            . We also suggest that you clear your browser's
+            <a href="http://www.wikihow.com/Clear-Your-Browser's-Cache">
+             cache
+            </a>
+            , quit your
+                      web browser, and try to relaunch the portal.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseThree" class="toggleCollapse">
+             Are there multiple viewing options in the portal?
+            </a>
+           </h4>
+           <div id="collapseThree" class="collapse">
+            While viewing a broadcast on a tablet or computer, you will see either 2
+                      or 3 icons at the right of the event description bar near the top of the
+                      portal. The first icon provides a "full view" option with the video
+                      presentation maximizing the portal. The second icon offers a split view
+                      and is helpful if the client is utilizing any other features, such as
+                      Twitter feeds or live stats updates. If you're watching a live sporting
+                      event and the client has live stats available, the third icon offers a
+                      "stats heavy" window with rich statistical information and a minimized
+                      video or audio player. Additionally, you can watch up to four events
+                      simultaneously in the portal by clicking on any of the view icons at the
+                      bottom of the video player, and selecting another available event.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseFour" class="toggleCollapse">
+             Do I need to sign in or register to access an event?
+            </a>
+           </h4>
+           <div id="collapseFour" class="collapse">
+            If you're attempting to watch a live or on-demand event that is free,
+                      you generally will not be required to create an account or sign in. For
+                      live events, simply click on the "Watch" or "Listen" icon and you'll be
+                      redirected immediately to the portal page for the event. If the portal
+                      is set up on a pay-per-view or pay-per-listen basis, you will be
+                      required to register or sign-in, and you'll be guided through the steps
+                      after clicking on the icon for any event.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseFive" class="toggleCollapse">
+             Why am I experiencing low-quality audio or video?
+            </a>
+           </h4>
+           <div id="collapseFive" class="collapse">
+            If you're experiencing video or audio playback that skips, freezes or
+                      buffers, please ensure you have sufficient bandwidth and computer
+                      resources available. Buffering can also occur if there are connection
+                      issues on-site. If you're not experiencing video or audio playback
+                      issues, but encountering other issues, such as pixellated video or
+                      distorted audio, there are very likely issues at the originating site.
+                      We work proactively with our partners to address these issues and
+                      are generally able to resolve them in a timely manner, but certain
+                      conditions are outside our control. Please click the "Submit Support
+                      Request" link inside the "Help" tab if you need assistance addressing
+                      issues.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseSix" class="toggleCollapse">
+             Why do I not see any events listed on my iPad or iPhone?
+            </a>
+           </h4>
+           <div id="collapseSix" class="collapse">
+            Most likely, you have Safari set to browse in "Private Mode." Please
+                      turn "Private Mode" off and try to re-load the page.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseSeven" class="toggleCollapse">
+             Are the live broadcasts available for archived viewing?
+            </a>
+           </h4>
+           <div id="collapseSeven" class="collapse">
+            Archived broadcasts will be available in the "On Demand" tab of the
+                      portal. Keep in mind that our staff manually edits and prepares the
+                      archives for most audio-only events before they are posted to the
+                      portal, so please allow up to 72 hours or more for those to become
+                      available. Video archives are generally available almost immediately
+                      following the event. Keep in mind that many clients choose not to
+                      archive some or all of their events, or choose to password-protect
+                      their archives. If you are asked for a password prompt, please contact
+                      the client directly if you're like to request access.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseEight" class="toggleCollapse">
+             Who do I contact with a complaint about the broadcast production?
+            </a>
+           </h4>
+           <div id="collapseEight" class="collapse">
+            If you don't have any issues with the audio or video playback, but have
+                      a complaint about an element of the production, you can use the "Submit
+                      Support Request" link inside the "Help" tab. While Stretch Internet does
+                      NOT produce the broadcasts and makes no warranties about the content of
+                      any broadcast, we can relay your comments or concerns to the school
+                      producing the event. Examples of production-related complaints include
+                      poor camera operation, mispronunciations, factual inaccuracies, etc.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseNine" class="toggleCollapse">
+             Why are live stats not available for every game?
+            </a>
+           </h4>
+           <div id="collapseNine" class="collapse">
+            Our live stats modules utilize XML code generated by the software used
+                      by the majority of colleges and universities. However, the only sports
+                      that include live stats output are soccer, field hockey, volleyball,
+                      basketball, ice hockey, baseball, softball and lacrosse. Additionally,
+                      some schools choose not to utilize our live stats service, while others
+                      only provide live stats for home games, and that can also be contingent
+                      on the availability of a high-speed Internet connection.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseTen" class="toggleCollapse">
+             Why are the live stats frozen or not synced up with the audio or video?
+            </a>
+           </h4>
+           <div id="collapseTen" class="collapse">
+            Streaming traffic uses a different protocol and transfer mechanism than
+                      live stats, so it's virtually impossible to guarantee a perfect sync
+                      between the two. Also keep in mind that the stats might not be entered
+                      immediately on site, which can result in delays in the live stats. If
+                      the on-site stats computer is experiencing technical difficulties, the
+                      live stats will not update. We contact our schools when the stats have
+                      not been updated for 5 or more minutes, but you're also welcome to
+                      contact us using the support link if you think there might be an issue.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseEleven" class="toggleCollapse">
+             How do I purchase an passport to access an event?
+            </a>
+           </h4>
+           <div id="collapseEleven" class="collapse">
+            You can follow these steps to purchase a passport:
+            <br />
+            1) On the portal landing page, click on the appropriate watch or listen
+                      icon next to the broadcast you're interested in
+            <br />
+            2) Select the passport you'd like to purchase and click "NEXT"
+            <br />
+            3) Login with your username and password or register a new account by
+                      clicking "REGISTER"
+            <br />
+            4) Enter your personal and billing information (this information MUST
+                      match exactly the info on record with your credit card issuing bank) and
+                      click "NEXT"
+            <br />
+            5) Enter your credit card information and click "NEXT"
+            <br />
+            6) Review the details of your order and click "NEXT"
+            <br />
+            7) If your order is successful, you will receive a confirmation e-mail
+                      and you can access your event with15 minutes of the scheduled start time
+                      by clicking on the corresponding watch or listen icon and clicking the
+                      "Sign In" link if you're not already signed in.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseThirteen" class="toggleCollapse">
+             What is your refund policy?
+            </a>
+           </h4>
+           <div id="collapseThirteen" class="collapse">
+            If you are a paying subscriber and are unsatisfied with the quality of the product
+                        or services we provided, we will refund single-event passport fees for live or
+                        on-demand audio or video subscriptions in full if, a) there are confirmed, authenticated
+                        issues originating solely with the Stretch Internet services, including network downtime
+                        and/or latency, or, b) the broadcasting partner experiences technical difficulties which
+                        result in transmission quality deemed as low or unacceptable by the Stretch Internet support
+                        staff, and/or c) the broadcast is canceled or postponed before the completion of the event.
+                        If you have purchased a season or all-access pass that includes the event in question, a
+                        pro-rated refund will be issued upon request. You should always ensure your systems are
+                        compatible with the minimum requirements outlined in the Stretch Internet FAQ section on the
+                        portal. If you experience difficulties during a live event, you should contact us immediately
+                        so as to allow our support staff a chance to remedy any issues in a timely fashion.
+           </div>
+          </div>
+          <div class="panel">
+           <h4>
+            <a href="#collapseFourteen" class="toggleCollapse">
+             What do I do if I'm still experiencing issues?
+            </a>
+           </h4>
+           <div id="collapseFourteen" class="collapse">
+            You can open a support ticket by clicking on the "Submit Support
+                      Request" link inside of the "Help" tab. Please complete all of the form
+                      fields and provide as much information as possible before submitting the
+                      ticket. You can expect to promptly hear back from a member of our
+                      support team.
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="helpSupportRequest" class="tab-pane">
+     <div class="helpHeader team1PrimaryColorText">
+      <div class="pull-left headerTitle">
+       Submit Form Request
+      </div>
+      <div class="pull-right mobileHide">
+       <a href="javascript:void(0)" onclick="closeHelp();" class="team1PrimaryColorText">
+        CLOSE
+        <span class="i-close team1PrimaryColorText">
+        </span>
+       </a>
+      </div>
+     </div>
+     <div id="helpSupportRequestContent" style="height: 100%">
+      <div id="helpSupportContentInner" style="height:100%; overflow: auto;">
+       <form id="supportRequestForm">
+        <div class="form-group">
+         <label for="tbFullName">
+          Full Name*
+         </label>
+         <input type="text" name="name" class="form-control" id="tbFullName" />
+        </div>
+        <div class="form-group">
+         <label for="tbEmailAddress">
+          E-mail Address*
+         </label>
+         <input type="email" name="email" class="form-control" id="tbEmailAddress" />
+        </div>
+        <div class="form-group">
+         <label for="ddlSupportNeed">
+          Need support with:
+         </label>
+         <select name="supportNeed" class="form-control" id="ddlSupportNeed">
+          <option>
+           Choose One...
+          </option>
+          <option>
+           Live Audio
+          </option>
+          <option>
+           Live Video
+          </option>
+          <option>
+           On-Demand Audio
+          </option>
+          <option>
+           On-Demand Video
+          </option>
+          <option>
+           Live Stats
+          </option>
+          <option>
+           Live Chat
+          </option>
+          <option>
+           Registration/Sign-in
+          </option>
+          <option>
+           Purchasing an event
+          </option>
+          <option>
+           eScores/Megaphone Messaging
+          </option>
+          <option>
+           Other
+          </option>
+         </select>
+        </div>
+        <div class="form-group">
+         <label for="tbEventName">
+          What event or station are you trying to access?
+         </label>
+         <input type="text" name="eventName" class="form-control" id="tbEventName" />
+        </div>
+        <div class="form-group">
+         <label for="ddlServiceType">
+          Type of Internet Service:
+         </label>
+         <select name="serviceType" class="form-control" id="ddlServiceType">
+          <option>
+           Choose One...
+          </option>
+          <option>
+           Dial-up
+          </option>
+          <option>
+           Residential DSL/Cable
+          </option>
+          <option>
+           Residential Satellite
+          </option>
+          <option>
+           Office Network
+          </option>
+          <option>
+           Hotel or Public Network
+          </option>
+          <option>
+           Other
+          </option>
+         </select>
+        </div>
+        <div class="form-group">
+         <label for="tbDetail">
+          Please describe the problem:
+         </label>
+         <textarea name="detail" class="form-control" id="tbDetail">
+         </textarea>
+        </div>
+        <input type="hidden" name="manufacturer" id="hfManufacturer" />
+        <input type="hidden" name="os" id="hfOS" />
+        <input type="hidden" name="portalUrl" id="hfPortalUrl" />
+        <input type="hidden" name="screenX" id="hfScreenX" />
+        <input type="hidden" name="screenY" id="hfScreenY" />
+        <input type="hidden" name="videoEdge" id="hfVideoEdge" />
+        <div class="sendSupportRequest">
+         <a href="javascript:void(0)" onclick="sendSupportRequest();" class="team1PrimaryColorText team1SecondaryColor">
+          SUBMIT
+         </a>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+    <div class="helpFooter">
+     <img src="/assets/images/stretchLogoBlack.png" alt="Stretch Internet" />
+    </div>
+   </div>
+  </div>
+  <!--&lt;div id="searchBar" style="width: 100%;"&gt;
+        &lt;div class="searchContent" style="text-align: center; width: 100%;"&gt;
+          &lt;div class="searchContainer" style="display: inline-block;"&gt;-->
+  <div id="searchBar">
+   <div class="searchContent">
+    <div class="searchContainer">
+     <!-- 
+            &lt;h3 class="searchTitle"&gt;SEARCH&lt;/h3&gt; -->
+     <div class="filterbar">
+      <!-- &lt;div class="filter"&gt;
+                &lt;select id="ddlSearchConference" class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor" onchange="changeSearchConference();"&gt;
+                  &lt;option value=""&gt;ALL CONFERENCES&lt;/option&gt;
+                  
+                &lt;/select&gt; &lt;span class="i-drop team1PrimaryTextColor"&gt;&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class="filter"&gt;
+                &lt;select id="ddlSearchSchool" class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor"&gt;
+                  &lt;option value=""&gt;ALL SCHOOLS&lt;/option&gt;
+                  
+                  &lt;option value="161967"&gt;Muhlenberg College&lt;/option&gt;
+                
+              &lt;/select&gt; &lt;span class="i-drop team1PrimaryTextColor"&gt;&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="filter"&gt;
+              &lt;select id="ddlSearchSport" class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor"&gt;
+                &lt;option value=""&gt;ALL SPORTS&lt;/option&gt;
+                
+                &lt;option value="Other"&gt;Other&lt;/option&gt;
+              
+            &lt;/select&gt; &lt;span class="i-drop team1PrimaryTextColor"&gt;&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class="filter"&gt;
+              &lt;select id="ddlSearchPortalTags" class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor"&gt;
+                &lt;option value=""&gt;ALL CATEGORIES&lt;/option&gt;
+                
+            &lt;/select&gt; &lt;span class="i-drop team1PrimaryTextColor"&gt;&lt;/span&gt;
+          &lt;/div&gt; -->
+      <div class="searchBox">
+       <input type="search" id="tbSearchEvents" />
+       <i class="glyphicon glyphicon-search">
+       </i>
+      </div>
+      <div class="searchButton">
+       <a href="javascript:void(0);" onclick="doSearch();">
+        Search
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <script type="text/javascript">
+    function changeSearchConference() {
+      var conference = $("#ddlSearchConference").val();
+      var school = $("#ddlSearchSchool").val();
+
+      if(conference !== '') {
+          require(["backbone/collections/SchoolsCollection"], function(SchoolsCollection) {
+              var schoolsCollection = new SchoolsCollection();
+              schoolsCollection.fetch({
+                  dataType: 'json',
+                  data: {clientID: conference},
+                  error: function(jqXHR, textStatus, errorThrown){
+                      console.log("SchoolsCollection fetch error: " + JSON.stringify(textStatus));
+                  },
+                  success: function(schools){
+                      $("#ddlSearchSchool").find("option:not(:first)").remove();
+                      _.each(schoolsCollection.models, function(school) {
+                          var id = school.get('id');
+                          var name = school.get('name');
+                          $("&lt;option value='" + id + "'&gt;" + name + "&lt;/option&gt;").appendTo($("#ddlSearchSchool"));
+                      });
+                  }
+              });
+          });
+      } else {
+          var defaultSchools = fixStringMap('{161967=Muhlenberg College}');
+          $("#ddlSearchSchool").find("option:not(:first)").remove();
+          _.each(defaultSchools, function(name, key) {
+              $("&lt;option value="" + key + ""&gt;" + name + "&lt;/option&gt;").appendTo($("#ddlSearchSchool"));
+          });
+      }
+  }
+   </script>
+  </div>
+  <div class="container header">
+   <div class="row">
+    <div class="col-md-12">
+     <div id="headerBackground" style="text-align: center;">
+      <a href="index.htm">
+       <img id="logo" src="" alt="" />
+      </a>
+     </div>
+     <div class="col-md-3 col-md-offset-9" id="signInArea">
+      <div class="row">
+       <div class="topBar col-md-12" style="text-align: left;">
+        <div class="col-md-10">
+         <div class="col-md-3 notSignedIn" style="display: none;">
+          <a href="Javascript:void(0);" id="lnkSignIn">
+           Sign In
+          </a>
+         </div>
+         <div class="col-md-3 signedIn" style="display: none;">
+          <a href="Javascript:void(0);" id="lnkMyAccount">
+           My Account
+          </a>
+         </div>
+         <div class="col-md-2 signInBar">
+          |
+         </div>
+         <div class="col-md-3 notSignedIn" style="display: none;">
+          <a href="Javascript:void(0);" id="lnkRegister">
+           Register
+          </a>
+         </div>
+         <div class="col-md-3 signedIn" style="display: none;">
+          <a href="javascript:void(0);" id="lnkSignOut">
+           Sign Out
+          </a>
+         </div>
+        </div>
+        <div class="col-md-2">
+         <a href="javascript:void(0);" id="toggleSearch">
+          <img src="/assets/images/searchIcon.png" alt="Search" />
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <input type="hidden" id="hfClientId" value="161967" />
+   <input type="hidden" id="hfEventId" value="271172" />
+   <input type="hidden" id="hfStreamType" value="video" />
+   <input type="hidden" id="hfAction" value="" />
+   <input type="hidden" id="hfPrevPage" value="" />
+   <input type="hidden" id="hfHasConf" value="false" />
+   <input type="hidden" id="hfInOrg" value="false" />
+   <input type="hidden" id="hfOrgId" value="" />
+   <input type="hidden" id="hfInConf" value="false" />
+   <input type="hidden" id="hfConfId" value="" />
+   <input type="hidden" id="hfRememberMe" value="" />
+   <input type="hidden" id="hfIsPremium" value="" />
+   <input type="hidden" id="hfUserID" val="" />
+   <input type="hidden" id="hfIsHD" val="" />
+   <input type="hidden" id="hfStreamInMultipleBitRates" value="" />
+   <input type="hidden" id="hfIsFullscreen" value="false" />
+   <input type="hidden" id="ihClipNumber" value="" />
+  </div>
+  <div id="eventType" class="lacrosseEvent">
+   <div class="container main" id="fullView">
+    <div class="row">
+     <div id="options" class="col-md-12 team1PrimaryColor">
+      <nav id="nav">
+       <div class="team1PrimaryColorText">
+        MENU
+        <br />
+        <span class="i-menu3 team1PrimaryColorText">
+        </span>
+       </div>
+       <ul id="nav_menu">
+        <li class="team1PrimaryShadeColorBorder">
+         <a href="#" class="team1PrimaryShadeColorBorder">
+          LIVE EVENTS
+          <span class="menuArrow">
+           &gt;
+          </span>
+         </a>
+         <div class="menuContent team1PrimaryShadeColorBorder" id="navLiveEvents">
+          Live Events
+         </div>
+        </li>
+        <li class="team1PrimaryShadeColorBorder">
+         <a href="#" class="team1PrimaryShadeColorBorder">
+          ON DEMAND
+          <span class="menuArrow">
+           &gt;
+          </span>
+         </a>
+         <div class="menuContent team1PrimaryShadeColorBorder" id="navOnDemand">
+          On Demand
+         </div>
+        </li>
+        <li class="team1PrimaryShadeColorBorder" id="navConf">
+         <a href="#" class="team1PrimaryShadeColorBorder">
+          CONFERENCE
+          <span class="menuArrow">
+           &gt;
+          </span>
+         </a>
+         <div class="menuContent team1PrimaryShadeColorBorder" id="navConference">
+          Conference
+         </div>
+        </li>
+       </ul>
+      </nav>
+      <div id="info">
+       <div class="pull-left streamMode team1PrimaryTextColor">
+        DELETED
+       </div>
+       <div class="pull-left i-other team1PrimaryTextColor" style="font-size: 20px; margin-top: 14px">
+       </div>
+       <div class="pull-left teams team1SecondaryColorText" style="width: 50%; text-overflow: ellipsis; overflow: hidden; white-space: nowrap">
+        Zika: Myth and Realities
+       </div>
+       <div class="pull-right">
+        <ul class="views hidden-xs">
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div id="mobileHeader" class="mobileFullWidth">
+      <div id="globalBackButton" class="globalBackButton">
+       <div onclick="goBack()">
+        <img src="../assets/images/mobileBack.svg" />
+       </div>
+      </div>
+      <div class="globalInfo">
+       <div id="globalInfoEventType">
+        <div>
+        </div>
+        <!-- &lt;div class="i-other icon team1SecondaryColorText"&gt;&lt;/div&gt; -->
+        <div>
+         DELETED
+        </div>
+       </div>
+       <div id="globalInfoEvent">
+        Zika: Myth and Realities
+       </div>
+      </div>
+      <div id="globalMenuButton" class="i-globalMenu">
+      </div>
+     </div>
+     <div id="globalMenu" class="mobileMenu">
+      <ul>
+       <!--&lt;li&gt;&lt;a href="#"&gt;Feeds&lt;/a&gt;&lt;/li&gt;-->
+       <!--&lt;li&gt;&lt;a href="#"&gt;Discuss&lt;/a&gt;&lt;/li&gt;-->
+       <li>
+        <a href="./#onDemand">
+         Change Events
+        </a>
+       </li>
+       <li class="schoolPanel team1PrimaryColor">
+        <img id="logoMobileMenu" src="" />
+       </li>
+       <!--&lt;li id="helpMobile" class="allCaps"&gt;&lt;a href="#helpSupportRequest"&gt;Support&lt;/a&gt;&lt;/li&gt;-->
+       <li id="lnkSupportMenuMobile" class="allCaps">
+        <a href="#help">
+         Support
+        </a>
+       </li>
+       <li id="lnkRegisterMobile" class="notSignedIn allCaps">
+        <a href="javascript:void(0)">
+         Register
+        </a>
+       </li>
+       <li id="lnkSignInMobile" class="notSignedIn allCaps">
+        <a href="javascript:void(0)">
+         Sign In
+        </a>
+       </li>
+       <li id="lnkSignOutMobile" class="signedIn allCaps">
+        <a href="javascript:void(0)">
+         Sign Out
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="row">
+     <div style="padding: 0" class="col-md-12">
+      <div id="alertBar" class="team1SecondaryColor team1SecondaryTextColor" style="display: none">
+       <!-- &lt;div class="arrow mobileHide"&gt;
+                &lt;span class="tip"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+              &lt;/div&gt; -->
+       <table style="width: 100%;">
+        <tr>
+         <td style="width: 10%;">
+          <span id="alertClose" class="i-close team1SecondaryTextColor" onclick="$('#alertBar').remove();" style="left:10">
+          </span>
+         </td>
+         <td style="width: 80%;">
+          <div id="alertMessage">
+           <div style="position: relative">
+            Audio commentary will not be available for this broadcast.
+           </div>
+          </div>
+         </td>
+         <td style="width: 10%;">
+          <span class="i-sound-off team1SecondaryTextColor" style="font-size: 28px;top: 0">
+          </span>
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div id="eventMessageBar" class="team1SecondaryColor team1SecondaryTextColor" style="display: none">
+       <!-- &lt;div class="arrow"&gt;
+                &lt;span class="tip"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+              &lt;/div&gt; -->
+       <span id="eventMessageClose" class="i-close team1SecondaryTextColor" onclick="$('#eventMessageBar').hide();">
+       </span>
+       <div id="eventMessage">
+        <div style="position: relative">
+        </div>
+       </div>
+      </div>
+      <div id="videoPlayerContainer">
+      </div>
+      <div class="lastPlayContainer">
+       <div class="arrow">
+        <span class="tip">
+         <span>
+         </span>
+        </span>
+       </div>
+       <div class="col-md-8" id="lastPlay">
+       </div>
+       <div class="col-md-4" id="scores">
+       </div>
+      </div>
+      <div id="schoolNews">
+      </div>
+     </div>
+    </div>
+    <!-- Main Area  -->
+    <div class="row" id="scoreSummaries">
+     <div class="filterbar mobileHide">
+      <div class="filter">
+       <select class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor">
+        <option>
+         ALL SCHOOLS
+        </option>
+       </select>
+       <span class="i-drop">
+       </span>
+      </div>
+      <div class="filter">
+       <select class="hideSelectArrow team1PrimaryColor team1PrimaryTextColor select-sport">
+        <option>
+         ALL SPORTS
+        </option>
+       </select>
+       <span class="i-drop">
+       </span>
+      </div>
+     </div>
+     <div id="scoreSummariesList">
+      <table>
+       <tr>
+        <td id="prevScoreSummary" class="prev">
+         <span class="i-chevronleft">
+         </span>
+        </td>
+        <td id="summaries" class="viewport">
+         <ul id="scoreSummariesContainer" class="quarters overview">
+         </ul>
+        </td>
+        <td id="nextScoreSummary" class="next">
+         <span class="i-chevronright">
+         </span>
+        </td>
+       </tr>
+      </table>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-md-12" style="text-align: center;">
+      <div id="advertisements">
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /container -->
+  </div>
+  <!-- /eventType-->
+  <script type="text/javascript">
+   var requireInit = setInterval(function() {
+        if(typeof(require) !== 'undefined') {
+          clearInterval(requireInit);
+          require([
+            'stretch',
+            'backbone/models/PortalConfigModel',
+            'backbone/views/FullView'
+          ], function(Stretch, PortalConfigModel, FullView){
+              var portalConfigModel = new PortalConfigModel({
+                layout:    'full',
+                eventType: 'other',
+                gender:    '',
+                eventId:   '271172',
+                eventTime: '6:45PM EST',
+                eventDate: 'February 24, 2016',
+                hasVideo:  'false',
+                hasAudio:  'false',
+                title:  'Zika: Myth and Realities',
+                clientId:  '161967',
+                broadcastType: 'deleted',
+                team1Name: 'Muhlenberg College',
+                team2Name: '',
+                team1PrimaryColor:'',
+                team2PrimaryColor:'',
+                team1Logo: '',
+                team2Logo: '',
+                filterByDay: 'false',
+                isOrganization: 'false',
+                isConference: 'false',
+                inOrganization: 'false',
+                orgFilterActivation: 'false',
+                orgId: '',
+                inConference: 'false',
+                confId: '',
+                conferences: '',
+                schools:   '{161967=Muhlenberg College}',
+                sports:    '[Other]',
+                isSportsClient: 'false',
+                hasStats:  'false',
+                hasVideoAudioCommentary:   'true',
+                portalMessage:   '',
+                portalTags:      '[]',
+                freeAudio: 'true',
+                freeVideo: 'true',
+                showGameCentralLogo: 'false',
+                requireRegistration: 'false', 
+                streamType: 'video',
+                tags:      '',
+                todaysDate: '11-30-2016',
+                isCustomMedia: 'false',
+                title: 'Zika: Myth and Realities',
+                showChildEvents: 'true',
+                showSportFilter: 'true',
+                hideOnDemandStats: 'false',
+                schoolFilterText: '',
+                portalMessageInterval: '5',
+                streamInMultipleBitRates: 'false',
+                defaultToHDStreaming: 'true'
+              });
+
+              FullView = new FullView({portalConfig: portalConfigModel});
+
+              checkIsLive('271172');
+              //load in correct modal based on login status
+              
+          });
+        }
+      }, 500);
+
+
+      (function poll(){
+        setTimeout(function(){
+                 $.ajax({ 
+                   url: SECURE_BASE_URL + "getPortalMessage.json",
+                  type: "GET",
+                  data: {eventID: 271172},
+                  success: function(data) {
+                    if($("#eventMessage").children().text() !== data.portalMessage &amp;&amp; data.portalMessage != null 
+                        &amp;&amp; data.portalMessage !== "" &amp;&amp; data.portalMessage != undefined){
+                      $("#eventMessage").children().text(data.portalMessage);
+                      $("#eventMessageBar").show();
+                    }
+                      
+                    poll();
+                  }
+                 });
+            }, 30000);
+        })();
+  </script>
+  <footer>
+   <img src="/assets/images/stretchLogo.png" alt="" />
+   <!--# include file="/environment-indicator/indicator.html" -->
+  </footer>
+  <div id="modalWindow" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <!-- 
+			&lt;a class="modalClose" aria-hidden="true" data-dismiss="modal"&gt;&lt;i class="i-close"&gt;&lt;/i&gt;&lt;/a&gt; -->
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="modalWindowContent">
+     </div>
+     <div id="myAcctModalContent">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="mobileModalContainer" tabindex="-1" role="dialog" style="display: none;">
+  </div>
+  <input type="hidden" value="" id="streamEventId" />
+  <div id="searchModalWindow" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <!--&lt;a class="modalClose" aria-hidden="true" data-dismiss="modal"&gt;&lt;i class="i-close"&gt;&lt;/i&gt;&lt;/a&gt;-->
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="searchEvents">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="chooseGameModalWindow" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <!--&lt;a class="modalClose" aria-hidden="true" data-dismiss="modal"&gt;&lt;i class="i-close"&gt;&lt;/i&gt;&lt;/a&gt;-->
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="chooseGame">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="twitterReply" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+     <i class="i-close">
+     </i>
+    </a>
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="twitterReplyContent">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="fbReply" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+     <i class="i-close">
+     </i>
+    </a>
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="fbReplyContent">
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="gameUnavailableModalWindow" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <!--&lt;a class="modalClose" aria-hidden="true" data-dismiss="modal"&gt;&lt;i class="i-close"&gt;&lt;/i&gt;&lt;/a&gt;-->
+    <div class="modal-content" style="width: 792px;">
+     <a class="modalClose" aria-hidden="true" data-dismiss="modal">
+      <i class="i-close">
+      </i>
+     </a>
+     <div id="gameUnavailable">
+      <img src="/assets/images/gameUnavailableIcon.png" alt="Event Unavailable" />
+      <div id="gameUnavailableContent">
+       <h1>
+        This event is not yet available.
+       </h1>
+       <h3>
+        Please check back within 15 minutes of the scheduled start time.
+       </h3>
+      </div>
+      <img src="/assets/images/stopwatchIcon.png" alt="" class="pull-right" />
+      <img src="/assets/images/stretchLogoBlack.png" alt="" class="stretchLogo" />
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="eventGeoBlockedModalWindow" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
+   <div class="modal-dialog modal-lg">
+    <div class="modal-content" style="width: 792px;">
+     <div id="eventGeoBlocked">
+      <img src="/assets/images/gameUnavailableIcon.png" alt="Event Unavailable" />
+      <div id="eventGeoBlockedContent">
+       <h1>
+        Unable to view at your location.
+       </h1>
+       <h3>
+        Streaming for this event has been restricted for your location.
+       </h3>
+      </div>
+      <img src="/assets/images/stretchLogoBlack.png" alt="" class="stretchLogo" />
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="mobileOverlay">
+   <div class="message">
+    LOADING...
+   </div>
+  </div>
+  <div id="mobileBreak">
+  </div>
+  <!-- Require -->
+  <script src="/assets/js/require.min.js">
+  </script>
+  <script src="/assets/js/main.js">
+  </script>
+  <script src="/assets/js/Autolinker.min.js">
+  </script>
+  <script type="text/javascript">
+   var GA_KEY = "UA-54890113-1";
+
+	  if(GA_KEY != ""){
+	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', GA_KEY, 'auto');
+
+		  ga('send', 'pageview');
+	  }
+  </script>
+  <script type="text/javascript">
+   //&lt;![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&amp;ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]&gt;
+  </script>
+ </body>
+</html>

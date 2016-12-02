@@ -1,0 +1,688 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   John Henry Cardinal Newman - Newman Center | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Newman Center
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/">
+               Student Life
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/newmancenter/">
+               Newman Center
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/newmancenter/johnhenrycardinalnewman/">
+               John Henry Cardinal Newman
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3>
+            <img src="/media/contentassets/images/campuslife/newman/images/cardinal-newman.jpg" alt="Newman Center" style="  padding : 3;   float : left;" />
+            Blessed John Henry Cardinal Newman
+           </h3>
+           <p>
+            by
+            <a href="http://pls.nd.edu/faculty/mary-katherine-tillman/" target="blank">
+             Dr. Mary Katherine Tillman
+            </a>
+            , Professor Emerita, Program of Liberal Studies, University of Notre Dame
+           </p>
+           <p>
+            Born in London, raised with bible religion, Newman experienced conversion at fifteen: luminous awareness of himself and God impressions of creed and dogma, calling to single life. He studied classics and mathematics at Trinity College, Oxford, there developing his evangelical beliefs along Calvinist lines. Ordained an Anglican priest, he became vicar of the university church, St. Mary the Virgin. Fellow and tutor of Oriel College, Oxford, he was influenced by rationalist scholars whose methods included logic and evidences to prove religious matters. Patristic studies, Joseph Butler's Analogy of Religion, friendships, illness, his sister's death, gradually separated him from the liberal leanings of Oriel, centering him in high church or Anglo-Catholic tradition. In 1832 he published his first book, The Arians of the Fourth Century, and, on a Mediterranean voyage, wrote many religious poems (Lyra Apostolica). Recovered from grave illness in Sicily, he returned to England to become leader of the Oxford Movement.
+           </p>
+           <p>
+            From 1833 to 1841, Newman prolifically defended the Via Media of the Anglican church. The far reaching "Tracts for the Times against Popery and Dissent" were complemented by his legendary Parochial and Plain Sermons delivered at St. Mary's. He published Lectures on the Prophetical Office viewed relatively to Romanism and Popular Protestantism, and became editor of the Movement's journal, The British Critic. His and the Movement's last Tract, number ninety, proposing a Catholic reading of the "Thirty-nine Articles," was denounced by church and university. The effect of this blow, other disappointments and doubts, further study of the early church, resulted in resignation from his position and clerical status. After years of intellectual and spiritual struggle, Newman became a Catholic in 1845 while completing An Essay on the Development of Christian Doctrine, which showed continuity from the church of antiquity to the Catholic church of the nineteenth century.
+           </p>
+           <p>
+            Newman went to Rome to study theology for Catholic priesthood, entered and brought to England the Oratory of St. Philip Neri, published two novels of conversion, Loss and Gain (1848) and Callista (1855), and two volumes on ecumenical relations in England, Lectures on Certain Difficulties felt by Anglicans in submitting to the Catholic Church (1850), Lectures on the Present Position of Catholics in England (1851).
+           </p>
+           <p>
+            From 1851 to 1858, Newman founded and presided over the Catholic University of Ireland, justifying Catholic liberal education in the now classic Idea of a University. In 1859 he founded the Birmingham Oratory School for boys, became editor of the Rambler, published a defense of the laity, "On Consulting the Faithful in Matters of Doctrine" (1859), was reported to Rome for it and asked to resign the editorship.
+           </p>
+           <table align="right" border="0">
+            <tbody>
+             <tr>
+              <td>
+               <div style="text-align: center; width: 250px; border: 1px solid #e41c38; padding: 10px; margin: 10px; float: right;">
+                <h3 style="padding: 2px; margin: 0;">
+                 Prayer to obtain the canonization of John Henry Cardinal Newman, 1801-1890
+                </h3>
+                <br />
+                <p>
+                 God our Father, you granted to your servant Blessed John Henry Newman wonderful gifts of nature and of grace, that he should be a spiritual light in the darkness of this world, an eloquent herald of the Gospel, and a devoted servant of the one Church of Christ.
+                </p>
+                <p>
+                 With confidence in his heavenly intercession, we make the following petition:
+                 <em>
+                  [here make your petition]
+                 </em>
+                </p>
+                <p>
+                 For his insight into the mysteries of the kingdom, his zealous defence of the teachings of the Church, and his priestly love for each of your children, we pray that he may soon be numbered among the Saints.
+                </p>
+                <p>
+                 We ask this through Christ our Lord.
+                </p>
+                <p>
+                 <small>
+                  Nihil Obstat: Fr Pat McKinney S.T.L.
+                  <br />
+                  Imprimatur: + Bernard Longley, Archbishop of Birmingham
+                 </small>
+                </p>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            After four years of relative silence, Newman was aroused by Charles Kingsley's published accusation that Newman and the Roman clergy were indifferent to truth and cultivated deception. Newman responded with the Apologia pro Vita Sua (1864), disclosing the history of his religious opinions from childhood, defending both reason and authority with rhetorical magnificence. Enthusiastic response from Anglicans and Catholics reinstated Newman in the public mind. In 1865 he published "The Dream of Gerontius," a long poem about immediate life after death, and "Letter to Pusey" on Marian devotion. His most philosophical work, An Essay in Aid of a Grammar of Assent (1870), aimed at justifying religious faith by describing how ordinary minds think, assent, and reach certitude.
+           </p>
+           <p>
+            Newman declined the invitation by bishops and Pope to serve as theological consultant for the First Vatican Council. As Catholic, he had always believed in papal infallibility, but opposed its conciliar definition saying the Church was not yet ready and episcopal intrigue too dominant. Newman accepted the definition of 1870, pleased with its moderation. His "Letter to the Duke of Norfolk" (1875) defended both the doctrine and Catholic conscience in Anglican England. His last major contribution to ecclesiology was the 1877 Preface to The Prophetical Office, now retitled The Via Media, in which he detailed the Church's three offices and their interrelations: the prophetic, exercised by theologians; the priestly, by laity; the governing, by pope and magisterium.
+           </p>
+           <p>
+            In 1878 Newman became first honorary fellow of Trinity College, Oxford. In 1879 Pope Leo XIII made him cardinal and, in accepting, Newman singled out as his lifelong work the battle against liberalism, the usurpations of reason in matters of religion. His cardinalate motto was "Cor ad cor loquitur" (Heart speaks to heart). After physical decline, Newman died in 1890. The inscription on his grave at Rednal reads: "Ex umbris et imaginibus in veritatem" (Out of shadows and images into truth). Newman's Letters and Diaries (1961-84), when complete, will comprise thirty-one of his nearly eighty published volumes.
+           </p>
+           <p>
+            Man of solitude, man of action, Newman possessed tremendous capacity for friendship and human sympathy. A thinker of great assimilative power, originality and genius, he is one of the foremost stylists of the English language, his writings rich in psychological subtlety, illustration, and satire. He was interested in the personal character of all mental acts; the influence of mind upon mind; the sacred duty of developing one's gifts; liberal education as the cultivation of the healthy mind. His method of investigation included exploring extremes, balancing antagonistic principles, reasoning concretely through the convergence of antecedent probabilities.
+           </p>
+           <p>
+            Newman's spirituality emphasized conscience as connecting principle between self and God, the Holy Spirit's indwelling in individuals and church, the gospel "Image of Christ," God's particular providence, devotion to Mary and the saints, and patience. He celebrated the reality of the invisible world, the sacramentality of the visible world, the holiness of everyday life in consistent fulfillment of one's duties, through friendship and personal influence, not as much by words as by actions.
+           </p>
+           <p>
+            Newman's thought had significant influence at the Second Vatican Council, particularly his ecclesiology, ecumenism, theory of doctrinal development, defense of conscience, theology of the laity. Pope John Paul II declared him "venerable" in 1991.
+           </p>
+           <p>
+            <em>
+             Note: The above work is Copyright of the author. Muhlenberg College takes no credit for this biography.
+            </em>
+           </p>
+           <p>
+            <em>
+             &nbsp;
+            </em>
+           </p>
+           <h3>
+            Update:
+           </h3>
+           <p>
+            In 1991, Cardinal Newman was proclaimed venerable by the Sacred Congregation for the Causes of Saints. In 2009 the miraculous cure of Deacon Jack Sulllivan through the intercession of Cardinal Newman was confirmed by the Congregation for the Causes of Saints paving the way for his beatification. This happened on the 19 September 2010 when Pope Benedict XVI presided at the Beatification of Blessed John Henry Newman at Crofton Park, Birmingham.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <h3>
+            Additional Resources
+           </h3>
+           <ul>
+            <li>
+             <a href="http://www.newmanstudiesinstitute.org/">
+              The National Institute for Newman Studies
+             </a>
+            </li>
+            <li>
+             <a href="http://www.newmanreader.org/">
+              Newman Reader
+             </a>
+            </li>
+            <li>
+             <a href="http://www.newmanfriendsinternational.org/newman/">
+              The International Center of Newman Friends
+             </a>
+            </li>
+            <li>
+             <a href="http://www.birmingham-oratory.org.uk/">
+              The Oratory Birmingham
+             </a>
+            </li>
+            <li>
+             <a href="http://www.newadvent.org/cathen/10794a.htm">
+              John Henry Newman
+             </a>
+             at New Advent Catholic Encyclopedia
+            </li>
+           </ul>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Newman Center
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/student-life/newmancenter/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/thecenter/">
+            The Center
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/activities/">
+            Activities
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/vocations/">
+            Vocations
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/resources/">
+            Resources
+           </a>
+          </li>
+          <li>
+           <a href="/student-life/newmancenter/volunteering/">
+            Volunteering
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/thecenter/"&gt;The Center&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/activities/"&gt;Activities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/vocations/"&gt;Vocations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/student-life/newmancenter/volunteering/"&gt;Volunteering&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Community
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/activitiescouncilmac/">
+           Muhlenberg Activities Council (MAC)
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/resserv/">
+           Residential Life
+          </a>
+         </li>
+         <li>
+          Senior Year Experience (SYE)
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Sustainable Living
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Leadership
+        </h3>
+        <ul>
+         <li>
+          <a href="/studorgs/council/">
+           Student Government
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/studentorganizations/">
+           Student Organizations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Diversity
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/multicultural/">
+           Multicultural Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/lgbt/">
+           LGBT
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

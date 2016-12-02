@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Internships  - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/internships/">
+            Internships
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          &nbsp;
+         </div>
+         <div>
+          &nbsp;
+         </div>
+         <!-- InstanceBeginEditable name="EditMainContent" -->
+         <div class="content-add05">
+          <h3>
+           Volunteering, Community-Based Learning, and Internships
+          </h3>
+          <p>
+           In addition to academic work inside the classroom, Muhlenberg's Psychology students frequently engage in volunteer work, community-based learning experiences, and internships.&nbsp; These experiences are invaluable ways for student to explore their career interests and to learn about civic engagement, community, leadership, and important social justice issues.
+           <a href="/main/campuslife/community-service/">
+            Muhlenberg's Community Service &amp; Civic Engagement Office
+           </a>
+           administrates many of the volunteer opportunities and emphasizes the goal of Muhlenberg and Allentown communities connecting in meaningful, reciprocal relationships in which each party learns from the other.
+          </p>
+          <p>
+           <strong>
+            Volunteering
+           </strong>
+           <br />
+           <br />
+           Students interested in volunteering are encouraged to visit the
+           <a href="/main/campuslife/community-service/">
+            Community Service &amp; Civic Engagement Office
+           </a>
+           , both on the web and in person (lower level of Seeger's Union).
+          </p>
+          <p>
+           <strong>
+            Community-Based Learning
+            <br />
+            <br />
+           </strong>
+           Community-based, or service, learning combines lessons within the classroom and in community to reinforce knowledge and address community needs and desires. Service-learning courses engage students, faculty and community in mutually beneficial relationships allowing for programs/projects that enhance community and provide students the opportunity for reflection on experiences. For example, students in one section of Dr. Sinno's Advanced Developmental Psychology Lab partnered with South Mountain Middle School to aid South Mountain in increasing family engagement and community connectedness. Students developed measures, and collected and analyzed data from a representative sample of middle school students, family members, teachers and administrators. Students in Dr. Harring's Health Psychology class have done many projects, including designing, implementing and evaluating community interventions to address childhood obesity in collaboration with the Allentown Health Bureau and St Luke's Community Health Program. Psychology of Adolescence, Psychology of Women, and Child Psychopathology are additional examples of classes which often include a service-learning component.&nbsp;
+          </p>
+          <p>
+           <strong>
+            Internships
+           </strong>
+           <br />
+           <br />
+           An internship is a work experience characterized by intentional learning. During this experience, the student assumes a responsible role in an organization and actively reflects on what he or she is observing or learning. Muhlenberg Psychology students have held internships in many different settings.&nbsp;Students who wish to receive academic credit for their internship take PSY 960: Internship Seminar. Check with this semester's instructor of the course for more information about the PSY 960.&nbsp;
+          </p>
+          <p>
+           For more information about finding an internship:
+          </p>
+          <br />
+          <ul>
+           <ul>
+            <li>
+             Declared Psychology majors can access a list of specific internship sites our department has a relationship with via the Blackboard page (** in transition to a Canvas page, contact Mrs. Larimer for access until the Canvas site is working).
+            </li>
+            <li>
+             Students interested in clinical or school psychology internships may wish to talk with any of our
+             <a href="http://www.muhlenberg.edu/main/academics/psychology/faculty/">
+              faculty members
+             </a>
+             specializing in clinical or counseling psychology.
+            </li>
+            <li>
+             The&nbsp;
+             <a href="http://www.muhlenberg.edu/main/aboutus/careercenter/students/job/jobs.html">
+              Muhlenberg Career Center has a page
+             </a>
+             with listings and resources for internships.
+            </li>
+            <li>
+             The American Psychological Association (APA) also maintains a
+             <a href="http://www.apa.org/education/undergrad/research-opps.aspx">
+              list of nationwide research and internship programs
+             </a>
+             for undergraduates.
+            </li>
+           </ul>
+          </ul>
+          <p>
+           Check out the list of opportunities below for examples of the breadth of internships available to psychology students at Muhlenberg, in the Lehigh Valley, and across the country.
+           <em>
+            Note: this is not a comprehensive list.
+           </em>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Lehigh Valley Health Network Summer Scholars Program
+           </strong>
+           <br />
+           The Research Scholar Program provides structured educational research opportunities for undergraduate students. The summer session spans 8 weeks, and the fall and spring sessions span 10 weeks each. Within each session, students apply for positions offered by health network departments. Each position involves a combination of research, as well as professional and clinical observations. The program offers educational experience for students and additionally provides valuable assistance to health network departments. For more information, visit:&nbsp;
+           <a href="https://www.lvhn.org/research_and_education/college_student_programs/research_scholar_program">
+            lvhn.org/research_and_education/college_student_programs/research_scholar_program
+           </a>
+           &nbsp;&nbsp;
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Injury Science Research Experience for Undergrads (REU) at Children&rsquo;s Hospital of Philadelphia
+           </strong>
+           <br />
+           The Center for Injury Research and Prevention (CIRP) at The Children&rsquo;s Hospital of Philadelphia (CHOP) is
+           <br />
+           an NSF Research Experiences for Undergraduates (REU) Site and a leading multidisciplinary
+           <br />
+           center engaged in collaborative research toward the prevention of child and adolescent&nbsp;injury. The REU program seeks to provide the best education possible to a diverse pool of talented&nbsp;students and inspire them to pursue careers in injury research. Students receive mentorship and hands-on research experiences in the fields of engineering, behavioral science, population science and statistics as applied to pediatric injury science (i.e., prevention of injury; secondary prevention, post-injury/traumatic stress).&nbsp;During this 10 week summer program, students will work on a focused research project with an assigned&nbsp;CIRP mentor, receiving formal training on presenting research, ethics and technical writing. Students will&nbsp;also attend formal workshops, meetings, field trips, and seminars.&nbsp;Each REU student will receive a stipend. For more info, visit
+           <a href="http://injury.research.chop.edu/training-opportunities/reu">
+            injury.research.chop.edu/training-opportunities/reu
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Pinebrook Family Answers - Family Services Intern
+           </strong>
+           <br />
+           Pinebrook Family Answers provides solutions for generations from infants to seniors. Our goal is to help all types of families become healthy and flourish by providing services and programs to overcome challenges and succeed in daily living. They are committed to providing college students with internships that translate academic knowledge into professional work experience. Internship positions are available for students seeking to fulfill course requirements or to achieve practical experience in the child welfare/behavioral health field. Students meet regularly with their supervisor for supervision, training and guidance. The supervisor will submit written evaluations of the student&rsquo;s performance to the faculty adviser, according to the school&rsquo;s requirements. Upon completion of their internship, students are asked to complete an evaluation of their experience at Pinebrook Family Answers. For more information, see the Employment Opportunities page,&nbsp;
+           <a href="http://pbfalv.org/employment/">
+            pbfalv.org/employment/
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Lehigh Valley Hospital - Hospital Elder Life Program, Allentown PA
+           </strong>
+           <br />
+           This is a research driven initiative which may be of interest to Muhlenberg College students who want to work with older adults, but also an opportunity for other students to get more applied research experience. Please contact the&nbsp;
+           <a href="http://www.muhlenberg.edu/main/campuslife/community-service/">
+            Muhlenberg's Office of Community Service &amp; Civic Engagement
+           </a>
+           if you want more information. &nbsp;
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            National Alliance to End Homelessness
+           </strong>
+           <br />
+           The National Alliance to End Homelessness is a leading voice on the issue of homelessness.&nbsp;The Alliance analyzes policy and develops proven, sensible policy solutions. They work collaboratively with the public, private, and nonprofit sectors to build state and local capacity, leading to stronger programs which help homeless individuals and families make positive changes in their lives. They provide data and research to policymakers and advocate for improved policy. For information,&nbsp;
+           <a href="http://www.endhomelessness.org/pages/aboutus">
+            endhomelessness.org/pages/aboutus
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           Related:&nbsp;
+           <em>
+            National Student Campaign Against Hunger and Homelessness
+           </em>
+           <br />
+           Meet new people, get involved in your community, learn important skills, and make a difference on the issues that matter. Interns take on a leadership role within a campaign, and in many cases are able to receive course credit for their work. Muhlenberg College students can organize with students across the nation and learn how to make a difference on poverty issues in their community. You'll learn how to recruit a team, plan an event, and build grassroots support for the campaign, as well as learning how to educate your peers on the issue. For more information, visit&nbsp;
+           <a href="http://www.studentsagainsthunger.org">
+            studentsagainsthunger.org
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Center for Children and Families - Summer Treatment Program
+           </strong>
+           <br />
+           The CCF hires Undergraduate Counselors, plus several Developmental Aides and Research Assistants for the STP each summer. The nationally known&nbsp;
+           <a href="http://ccf.fiu.edu/for-families/clinical-services/summer-treatment-program/">
+            Summer Treatment Program
+           </a>
+           is for children and adolescents with Attention-Deficit Hyperactivity Disorder (ADHD) and and related behavioral, emotional and learning challenges.&nbsp;The STP program has successfully helped more than 2,500 children and families and is composed of evidence-based intensive treatments incorporated into an eight-week therapeutic summer camp setting. The STP is conducted every summer. For information about applying for an internship, visit&nbsp;
+           <a href="http://ccf.fiu.edu/employment/stp/">
+            ccf.fiu.edu/employment/stp/
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           In addition to their program in Florida, other sites around the country use the Summer Treatment Program model, including Boston, Chicago, NYC, and, in Pennsylvania, Johnstown, Indiana, and Erie. For a list of all of the STP sites, visit&nbsp;
+           <a href="http://ccf.fiu.edu/for-families/clinical-services/summer-treatment-program/stp-around-the-country/">
+            ccf.fiu.edu/for-families/clinical-services/summer-treatment-program/stp-around-the-country/
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Wediko Children's Services in New Hampshire
+           </strong>
+           <br />
+           The Wediko Summer Program is a short term residential treatment program located in New Hampshire. It serves children ages 9-19 with social, emotional, and behavioral challenges. The children who come to Wediko are referred by schools, educational consultants, and clinicians from across the country who believe a fresh-air, therapeutic experience can create positive change. At the Wediko Summer Program, children discover and develop strengths, interests, and hidden talents. They experience healthy challenges and surmount them with the help of a professional clinical staff and college aged camp counselors - challenges like swimming to the dock, riding a mountain bike to the top of a hill, and making a new friend. Through these successes, children develop mastery and self-esteem, which are the building blocks of a future oriented child; one who is inspired to turn dreams into reality.&nbsp;Hiring decisions are made on a rolling basis, starting in October with interviews beginning in January. For more information, visit&nbsp;
+           <a href="http://www.wediko.org/get-involved/employment/summer-openings">
+            wediko.org/get-involved/employment/summer-openings
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Society for the Psychological Study of Social Issues (SPSSI) Student Internship Program in Washington, DC
+           </strong>
+           <br />
+           SPSSI has year round opportunities for graduate student and undergraduate student internships at the SPSSI Central Office in Washington DC. Interns assist SPSSI staff on various projects. Depending on the intern's training and skills, the time of the year and what projects are on the "front burner," interns may work on a range of communications, or administrative projects, such as providing research and/or editorial assistance needed to prepare materials for publication; researching or writing new content for SPSSI website; posting and editing content on SPSSI website; communicating with SPSSI members on various issues assisting association management and administration tasks. For more information, visit
+           <a href="http://www.spssi.org/index.cfm?fuseaction=page.viewpage&amp;pageid=957">
+            spssi.org/index.cfm?fuseaction=page.viewpage&amp;pageid=957
+           </a>
+           .
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Idealist.org
+           </strong>
+           <br />
+           Idealist is all about connecting idealists - people who want to do good - with opportunities for action and collaboration. Their vision is&nbsp;to help build a world where all people can lead free and dignified lives by making sure that no opportunity for action or collaboration is missed or wasted. This is a great site for students to navigate if they are interested in public policy or non-profit organizations. Visit,
+           <a href="http://www.idealist.org/">
+            idealist.org
+           </a>
+          </p>
+          <p style="padding-left: 30px;">
+           &nbsp;
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Opportunities in Related Disciplines
+           </strong>
+           <br />
+           <br />
+           <span style="text-indent: 48px;">
+            Search for a non-scientific summer job at the National Institute of Health:
+            <a href="http://www.jobs.nih.gov/">
+             http://www.jobs.nih.gov/
+            </a>
+            <br />
+            <br />
+            NIH Summer Internship and other programs:
+            <a href="https://www.training.nih.gov/programs">
+             https://www.training.nih.gov/programs
+            </a>
+            <br />
+            <br />
+            Department of Energy:
+            <a href="http://energy.gov/student-programs-and-internships">
+             http://energy.gov/student-programs-and-internships
+            </a>
+            <br />
+            <br />
+            Oak Ridge Institute for Science and Education Internship Program:
+            <a href="http://orise.orau.gov/doescholars">
+             http://orise.orau.gov/doescholars
+            </a>
+           </span>
+          </p>
+          <!-- InstanceEndEditable -->
+         </div>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

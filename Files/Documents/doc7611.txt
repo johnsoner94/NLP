@@ -1,0 +1,1616 @@
+<!doctype html>
+<!--[if IE 8]&gt;&lt;html class="no-js lt-ie10 lt-ie9" lang="en"&gt;&lt;![endif]-->
+<!--[if IE 9]&gt;&lt;html class="no-js lt-ie10" lang="en"&gt;&lt;![endif]-->
+<!--[if gt IE 10]&gt;&lt;!-->
+<html class="no-js" lang="en">
+ <!--&lt;![endif]-->
+ <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/partner/show_ads.js">
+  </script>
+  <title>
+   Videos,Photos - The York Daily Record
+  </title>
+  <meta content="text/html; charset=UTF-8" name="Content-Type" />
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&amp;&amp;(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&amp;&amp;(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&amp;&amp;(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&amp;&amp;e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&amp;&amp;e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c&lt;u;c++)a[c].apply(i,r);var f=s[w[n]];return f&amp;&amp;f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&amp;&amp;(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&amp;&amp;"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&amp;&amp;e.licenseKey&amp;&amp;e.applicationID&amp;&amp;t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&amp;&amp;i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&amp;&amp;v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&amp;&amp;g&amp;&amp;g[p]&amp;&amp;!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"b7ac0e2ada","agent":"","transactionName":"NARUbRdVVhdSBk0MWQ1OcEwLV0wNXAsWCFMHCFcXE11dE0BfUAtSBhk=","applicationID":"20499278","errorBeacon":"bam.nr-data.net","applicationTime":185}
+  </script>
+  <meta name="google" content="notranslate" />
+  <meta name="apple-itunes-app" content="app-id=1025203087" />
+  <meta name="description" content="View videos and photo galleries from The York Daily Record" />
+  <meta name="keywords" content="Videos,Photos" />
+  <meta property="fb:app_id" content="118054614942796" />
+  <meta property="og:site_name" content="The York Daily Record" />
+  <meta name="ROBOTS" content="NOODP, NOYDIR" />
+  <meta name="viewport" content="width=1070" />
+  <link rel="shortcut icon" href="http://www.gannett-cdn.com/sites/ydr/images/favicon.png" />
+  <!--[if gt IE 9]&gt;&lt;!-->
+  <link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main_modern.min.css" />
+  <!--&lt;![endif]-->
+  <!--[if IE 9]&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/common.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/dynamic.min.css"&gt;&lt;![endif]-->
+  <!--[if IE 8]&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/common.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/dynamic.min.css"&gt;&lt;![endif]-->
+  <link rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/print.css" media="print" />
+  <!--[if gt IE 8]&gt;&lt;!-->
+  <style>
+   .marketplace-theme-bg, .marketplace-theme-bg-hover:hover, .site-nav-span.site-nav-marketplace-span.site-nav-active-span, .noimage .headline-asset-item-tile.headline-asset-item-marketplace-tile, .parent-label.marketplace { background-color: rgb(102, 102, 102) !important; } .card-suspender-color.marketplace { background: rgb(102, 102, 102) !important; } .headline-asset-item-tile.headline-asset-item-marketplace-tile { background-color: rgb(102, 102, 102); background-color: rgba(0,0,0,0.5); } .listview .noimage .headline-asset-item-tile.headline-asset-item-marketplace-tile, .listview .headline-asset-item-tile.headline-asset-item-marketplace-tile, .listview .hgpm-link.marketplace-theme-bg-hover, .listview .hgpm-link.marketplace-theme-border-hover:hover { background-color: transparent !important; background-color: rgba(0,0,0,0) !important; } .marketplace-theme-color, .hgpm-list-text .marketplace-theme-color .theme-bg-ssts-label, .hgpm-list-text .hgpm-section &gt; .marketplace-theme-color, .blog-asset-double-wide.marketplace-theme-color .presto-h1, .blog-asset-double-wide.marketplace-theme-color .presto-h2, .blog-asset-double-wide.marketplace-theme-color .presto-h3, .blog-asset-double-wide.marketplace-theme-color .presto-h4, .blog-asset-double-wide.marketplace-theme-color .presto-h5, .blog-asset-double-wide.marketplace-theme-color .presto-h6, .marketplace-theme-color &gt; .shbfm-subnav-link:hover, .marketplace-theme-color &gt; .shbfm-subnav-link.is-selected, .marketplace-theme-color .inline-share-count-blog { color: rgb(102, 102, 102); } .blog-asset-double-wide.marketplace-theme-color blockquote { border-color: rgb(102, 102, 102); } .footer &gt; nav &gt; .fronts &gt; section.marketplace h6 { border-color: rgb(102, 102, 102) !important; } .hero-list-item .hero-list-anchor { font-size: 12px !important; }
+  </style>
+  <!--&lt;![endif]-->
+  <!--[if lt IE 9]&gt;&lt;link rel="stylesheet" href="/services/css/configs.css"&gt;&lt;![endif]-->
+  <style>
+  </style>
+  <!--[if lt IE 9]&gt;&lt;script src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/html5shiv-printshiv.js"&gt;&lt;/script&gt;&lt;script src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/respond/respond.min.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <script type="text/javascript">
+   window.site_vars = {"minimogrifyCrops": [{"width": "60", "hmac": "f7d4a7b736de373bc606f44df59553fdb00fccad", "actions": "r=x63&amp;c=60x60", "height": "60"}, {"width": "84", "hmac": "01465a916f25297401a74796918c35a0b5a54d96", "actions": "r=x87&amp;c=84x84", "height": "84"}, {"width": "90", "hmac": "216c542627c70836c75c2a9c1a17f688326fd4d7", "actions": "r=x71&amp;c=90x68", "height": "68"}, {"width": "140", "hmac": "418e867d18a38165c766af80c5019cf656a9a3f2", "actions": "r=x83&amp;c=140x80", "height": "80"}, {"width": "150", "hmac": "c34762b1f5607e6b1ff9c665d0eb57a7878f1c0f", "actions": "r=x153&amp;c=150x150", "height": "150"}, {"width": "179", "hmac": "8c945dd708cc9352c3f4789070adb2a49d1bbafe", "actions": "r=x137&amp;c=179x134", "height": "134"}, {"width": "210", "hmac": "67c83ee67d2feb09a41f04062f92c6d384c7d157", "actions": "r=x160&amp;c=210x157", "height": "157"}, {"width": "210", "hmac": "796bd718e28a19eb472afc4e89a22b598841182c", "actions": "r=x233&amp;c=210x230", "height": "230"}, {"width": "236", "hmac": "c77595127775e8a1cf2961deeef67539bc747be1", "actions": "r=x205&amp;c=236x202", "height": "202"}, {"width": "239", "hmac": "f261e010c4d960be2a4967aae4de259f4f131960", "actions": "r=x138&amp;c=239x135", "height": "135"}, {"width": "239", "hmac": "27ff70a634dbd02333f2d757733634ad4271ded4", "actions": "r=x205&amp;c=239x202", "height": "202"}, {"width": "239", "hmac": "11e074fb0e8fe615b12ecb471b3eb57931c70011", "actions": "r=x242&amp;c=239x239", "height": "239"}, {"width": "299", "hmac": "80ef5f33829369a24d1dc9028ae4c6a0490ae48b", "actions": "r=x171&amp;c=299x168", "height": "168"}, {"width": "319", "hmac": "f5ff90fdc9946f2686728ff2463209225e65a57a", "actions": "r=x322&amp;c=319x179", "height": "179"}, {"width": "330", "hmac": "e72fe7bbca7952e8181048fa191069f7c64cb181", "actions": "r=x189&amp;c=330x186", "height": "186"}, {"width": "360", "hmac": "a14acc910c2e381961b26e77650caaccf92b2dba", "actions": "r=x483&amp;c=360x483", "height": "480"}, {"width": "405", "hmac": "6fc8d7dd29c4e6030aac5a827cd0bd281738a123", "actions": "r=x408&amp;c=405x405", "height": "405"}, {"width": "479", "hmac": "aecb1bfe84fe2d93dd948cfc4a63eba52c47411e", "actions": "r=x482&amp;c=479x479", "height": "479"}, {"width": "483", "hmac": "f6b8fe19b893e6b7787887084e757d9b03495c8d", "actions": "r=x408&amp;c=483x405", "height": "405"}, {"width": "720", "hmac": "f482b9c7009b17e5fe14467352fe804e20fdb5d8", "actions": "r=x408&amp;c=720x405", "height": "405"}, {"width": "960", "hmac": "9dd8e111171902ea318ebf70a1280234338419b7", "actions": "r=x408&amp;c=960x405", "height": "405"}], "twitter": {"account_prefix": "ydrcom", "default_account": "ydrcom"}, "analytics": ["tealium", "pong", "taboola"], "property_type": "publishing", "aws_site_name": "PPYR", "display_name": "The York Daily Record", "market_id": "PPYR", "site_code": "PPYR", "base_url": "ydr.com", "WEATHER": {"STATION_STATE": "PA", "STATION_CITY": "York", "STATION_ID": "", "LOCAL_ENDPOINT": "/weather/forecast/json/", "STATION_CITY_STATE": "York, PA", "FRONT_LAYOUT": "weather", "FRONT_LAYOUT_SAVED": "weather-saved"}, "DATASPHERE": {}, "siteid": 517, "sections": "news|sports|business|entertainment|lifestyle|opinion|home|marketplace|elections-2016|olympics-rio-2016|insider|things-to-do", "userAuthentication": {"login": {"url": "https://login.ydr.com/PPYR-GUP/authenticate/", "cancel_qsp": "cancel-url", "success_qsp": "success-url"}, "logout": {"url": "https://user.ydr.com/PPYR-GUP/user/logout/", "return_qsp": "return-url"}, "user": {"url": "https://user.ydr.com/PPYR-GUP/user/", "response_user_path": ["response", "user"]}, "personal_link": {"url": "https://login.ydr.com/PPYR-GUP-ET/authenticate/", "qsp": "for-guid", "enabled": true}}, "site_key": "ydr", "ADS": {"LEAVEBEHIND_EXPIRATION_MINUTES": 1080, "a9": {"url": "http://c.amazon-adsystem.com/aax2/amzn_ads.js", "account": "3062", "enabled": true}, "THRESHOLDS": {"BIGPAGE_ASSET": [3, 5], "COVERVIEW": 4, "TRANSITION": [1, 5], "TRANSITION_SNAPSHOT": [3, 3], "TRANSITION_INTERACTIVE": [2, 5], "TRANSITION_GALLERY": [3, 4], "TRANSITION_REFERRER": [1, 1]}, "aol": {"bidkey": "aolbid", "bidfloor": "0.0", "enabled": true, "server": "adserver.adtechus.com", "placements": [{"id": "4113915", "size": "728x90"}, {"id": "4113916", "size": "300x250"}, {"id": "4113917", "size": "300x600"}], "network": "10315.1"}, "DFP": {"ACCOUNTID": "7103", "CMSID": 12768, "ENV": "prod", "ACCOUNTNAME": "pa-yorkdailyrecord-C1287"}, "teads_enabled": true, "leaderboard_on_sponsored": true, "simple_categories": [{"keywords": ["Politics", "Trump", "Pence", "Republican", "Obama", "Clinton", "Kaine", "Democrat", "Johnson", "Stein", "Sex", "War", "Syria", "Aleppo"], "tag": "rei", "type": "exclude"}, {"keywords": ["HDTV", "VR Headset", "4K", "HD Television", "VR Viewer"], "tag": "bestbuy", "type": "target"}], "SLIDER": {"REFRESHTIME": 900000, "CLOSETIME": 15000}, "sourcepoint": {"account": 308, "enabled": false, "domain": "sp.usatoday.com", "aamtarget": []}, "taboola_poster": {"enabled": false}, "story_atf_leaderboard": false, "account_name": "pa-yorkdailyrecord-C1287", "adblock_cookie": "WhiteListed", "story_top_ad": {"enabled": false}, "progressive_gallery_refresh_rate": 5, "sonobi": {"enabled": true}, "cleanup_selectors": ".prWrap, script[id^='prscript'], #prscrscr, #eyeDiv, body &gt; div[id^='adDiv'], body &gt; div[id^='ut_container']", "dfp": {"account_id": "7103", "env": "prod"}, "exclusion_categories": [{"name": "Human Disasters", "tags": ["Samsung Electronics", "9/11", "Al Qaeda", "Assad", "attack", "behead", "benghazi", "blast", "bomb", "crash", "crisis", "disaster", "explosion", "Gun Violence", "hostage", "ISIL", "ISIS", "Islamic State", "Mass Shootings", "migrants", "miner", "mining", "misconduct", "Omar Mateen", "Orlando gay nightclub shooting", "rape", "refugee", "riot", "sept. 11", "september 11", "shoot", "shooter", "shooting", "Syria", "Syrian", "terror", "terrorism", "terrorist", "United 93", "violence", "war", "Chelsea New York explosion", "Ahmad Khan Rahami", "School shootings", "active shooter", "ohio state"]}, {"name": "Transportation Disasters", "tags": ["Fatal vehicle crashes", "EgyptAir", "Flight 804", "crash", "EgyptAir Flight 804 crash", "derailment", "amtrak", "crash", "train derailments", "train crash", "hoboken crash", "chemical spills"]}], "rubicon": {"account": "11324", "enabled": true}, "pubMatic": {"url": "http://ads.pubmatic.com/AdServer/js/gshowad.js", "group": "2", "account": "57752", "enabled": true, "slots": ["ATF@728x90", "BTF@728x90", "ATF@300x250", "BTF@300x250", "ATF@300x600", "ROS@970x250", "ROS@300x1050"]}, "adlite": {"enabled": false, "cookie": "WhiteListed"}, "front_leaderboard_enabled": true, "override": false, "criteo": {"url": "http://rtax.criteo.com/delivery/rta/rta.js", "varName": "crtg_content", "account": "1493", "cookie": "cto_belo", "enabled": true}, "GALLERY": {"SURVEY": true, "REFRESH": true}}, "REFRESH_RATE": 7, "ELECTIONS": {}, "featured_newsletter": {}, "THIRDPARTYAPI": {"CXENSE": {}, "CAREERBUILDER": {"lr": "cbga_ydr", "siteid": "sid_gaydr003"}, "NEON": {"script_url": ""}, "FACEBOOK": {"PERMISSIONS": "email,user_about_me", "ENABLED": true, "APPID": "118054614942796"}, "Taboola": {"apiBase": "http://api.taboola.com/1.1/json/", "presto_recommendation": true, "widget": true, "apiKey": "90393b522c6937bd3b1e815ead8d189cea03650", "ENABLED": true, "api_id": "gannettcompany-yorkdailyrecordydr", "sidebar_widget_mode": "thumbnails-f", "publisher_id": "gannett-network"}, "PIANO": {"enabled": true}, "PONG": {"url": "http://pong.production.gannettdigital.com/pong/v1/"}, "FIREFLY": {"flyoutOverrideArticleViewsRemaining": [], "gps": {"tweener_singular": "CPPWSUB1L", "custom": "CPPWSUB30", "tweener": "CPPWSUB30", "last": "CPPWSUBFIN", "first": "CPPWFIRST"}, "ENABLED": true, "flyoutMessageOverrides": {"tweener_singular": " article left", "tweener": " articles left", "last": "This is your last article!", "first": "Enjoy a limited number of articles over the next 30 days"}}, "COMSCORE": {"customerC2": "6035223", "script_url": "http://www.gannett-cdn.com/360player/comscore/streamsense.5.1.1.160316.min", "site": ""}, "GOOGLEPLUS": {"TURNON": false, "COOKIEPOLICY": "none", "JSLIBURL": "https://apis.google.com/js/client.js", "LOGOUT_URL": "https://accounts.google.com/o/oauth2/revoke"}, "PING": {"url": "http://api.gannett-cdn.com/ping/v1/"}, "MYCAPTURE": {"SITE_OVERRIDE": null, "PRICING_SHEET_ID": "", "ENABLED": true}, "ADSENSE": {"pubId": "partner-gannett"}, "GOOGLECONSUMERSURVEY": {"ad_block_cookie": "__adblocker", "relief_period": 86400000, "gravity_override": false, "need_market_access": true, "ENABLED": true, "content_protection_blacklist": ["free"], "publisher_id": "vfthjxxxyqnw7dqao5sqf6z7k4"}}, "INFO": null, "search": {"ENABLED": true}, "html5video": {"userInactivityTimeout": 2000, "playerId": "B1rw8m9q", "scrollingPlayer": {"nextVideoText": "TOP TRENDING", "dockedWidth": 400, "videoTitleLength": 85, "dockedHeight": 225, "docked": false, "nextVideoTitleLength": 60, "nextVideoType": "most-popular", "nextVideoAPI": "http://api.gannett-cdn.com/ping/v1/{TYPE}/{SITE_ID}/{SECTION}/?t=video&amp;api_key={KEY}", "titleBar": false, "scrollBreakpoint": 0.8, "adBlacklist": ["447257088"]}, "three60": {"moreLinkUrl": "", "appPromoAppleText": "DOWNLOAD FROM&lt;br&gt;THE APP STORE", "hlsSupport": "http://www.gannett-cdn.com/360player/hls/0.6.2-4/hls.min", "appPromoText": "This content is optimized for Chrome, Firefox, and Microsoft Edge&lt;br&gt;or you can download our mobile app to experience life in 360&deg;.", "vrStoriesAppUrl": "https://itunes.apple.com/us/app/vr-stories-by-usa-today/id975006820?mt=8", "userEdDisplayDuration": 5000, "fov": 70, "usatAppPromoText": "&lt;p&gt;USA TODAY NETWORK will bring the news to stunning life in 360\u00b0 video and virtual reality. Technology this bold requires a personality to match, and a break from traditional and stodgy news formats. We don't just tell amazing stories, we let you live them in fully immersive environments, creating human connections like never before. Download the USA TODAY app, now with virtual reality or subscribe to our &lt;a href=\"https://www.youtube.com/vrtuallythere\"&gt;YouTube page&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;Check out a new episode every Thursday for three new thrilling VR experiences.&lt;/p&gt;", "appPromoHeader": "Put Yourself Inside the Story", "moreLinkText": "More from VR Stories ", "endslateHeader": "Like this 360&deg; experience? You may also like:", "usatAppPromoHeader": "VRtually There", "usatPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.usatoday.android.news", "vrStoriesAppText": "Get the VR Stories App", "inactiveTimer": 15000, "usatAppPromoUrl": "https://itunes.apple.com/us/app/usa-today/id504631398?mt=8", "appPromoGoogleText": "DOWNLOAD FROM&lt;br&gt;GOOGLE PLAY STORE", "playerUrl": "http://www.gannett-cdn.com/360player/axis/dist/axis-1.20.7", "userEdText": "This is a 360&deg; video experience. &lt;br&gt;Use your mouse or the arrow keys on your keyboard &lt;br&gt;to see the entire 360&deg; view.", "controlCollapseDelay": 1000, "vrStoriesPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gannett.vrstories&hl;=en", "vrStoriesAppPromoText": "Download our USA TODAY VR Stories app to experience 360&deg; content on your smartphone. Navigate using your finger or simply move the phone around. To get an even more immersive experience, you can put your phone into a cardboard viewer or a headset and fully dive into the world of virtual reality."}, "ima3": {"requestMode": "ondemand", "minimumAdLength": 10, "adRule": 0, "adTechOrder": ["flash", "html5"], "prerollTimeout": 3000, "loadingSpinner": true, "timeout": 3000, "debug": false, "output": "xml_vast3", "nopostroll": true, "requiredSkipAdLength": 25, "secondsBeforeSkip": 15, "hardTimeouts": true}, "accountId": "4303072811001"}, "SMARTPLAYER": true, "abtests": [], "flags": {"elections_primary_2016_enabled": false, "progressive_gallery": true, "expired_credit_card_modal": true, "video_thumbnail_headline": false, "breaking_live_video_ribbon": false, "expired_trial_static": true, "content_override_processing": false, "show_dynamic_video_playlist": true, "elections_primary_2016_route": "", "recommended_flyout": false, "privacy_notice_enabled": false, "topic_page_related_topic_embed": false, "storyrightrail_morestories_add_nationnowstory": true, "comscore_video": true, "tempo": false, "mediaVoice_content": true, "progressive_gallery_fronts": true, "breaking_live_video_sidebar": false, "traffic_cop_defer": true, "related_topic_embed": false, "html5video": true, "cxense_parsing": false, "related_topic_photo_gallery": false}, "utility_bar_modules": [{"name": "utility-bar-module-share", "options": {"submodules": [{"name": "share-facebook"}, {"name": "share-email"}]}}, {"name": "utility-bar-module-comments"}, {"name": "utility-bar-module-print"}, {"name": "utility-bar-module-feedback"}], "contentOverrides": [], "autoplay": {"default": ["sourcepoint", "piano", "high-impact-ad", "google-survey", "pluto-video", "brightcove-video"]}};
+        window.section_arrows = 'news|sports|business|lifestyle|opinion|home';
+        window.section_arrows_display = 'news|sports|business|lifestyle|opinion|home';
+        window.section_display_names = {"sec": "SEC", "pga": "PGA", "nhl": "NHL", "gamehunters": "Game Hunters", "BR": "Book Review", "highschool": "High School", "action-sports": "Action Sports", "personal": "Personal Tech", "driveon": "Drive On", "mwac": "MWAC", "idolchatter": "Idol Chatter", "theoval": "The Oval", "lifelinelive": "Lifeline Live", "thehuddle": "The Huddle", "horse-racing": "Horse Racing", "mlb": "MLB", "fantasywindup": "Fantasy Windup", "wac": "WAC", "happyeverafter": "Happy Ever After", "nfl": "NFL", "gameon": "For The Win", "mls": "MLS", "ondeadline": "On Deadline", "ncaab": "NCAAB", "wnba": "WNBA", "hotelcheckin": "Hotel Checkin", "nascar": "NASCAR", "pac12": "PAC-12", "horseracing": "Horse Racing", "nba": "NBA", "campusrivalry": "Campus Rivalry", "dailypitch": "Daily Pitch", "onpolitics": "On Politics", "usanow": "USA NOW", "ufc": "UFC", "motor-sports": "Motor Sports", "todayinthesky": "Today in the Sky", "lpga": "LPGA", "awardcentral": "Awards Central", "livefrom": "Live From", "mma": "MMA", "acc": "ACC", "high-school": "High School", "fantasyjoe": "Fantasy Joe", "sciencefair": "Science Fair", "popcandy": "Pop Candy", "personalfinance": "Personal Finance", "ncaaf": "NCAAF", "faith&reason;": "Faith &amp; Reason", "lifestages": "Life Stages", "technologylive": "Technology Live", "ncaaw": "NCAAW"};
+        
+        window.site_static_url = 'http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/';
+        
+        window.site_static_path = '/uxstatic/ydr/uscp-web-static-2119.0/';
+        window.site_static_version = '2119.0';
+        window.firefly_urls = {"samSubscribeURL": "https://subscribe.ydr.com/", "onSuccessRedirectURL": "http://www.ydr.com/media/latest/news/?from=global", "samAccountURL": "https://account.ydr.com/", "samServiceURL": "https://accountsolution.ydr.com/"};
+        window.use_minified_css = true;
+        window.isAdDebug = false;
+        window.defaultWeatherLocation = "York, PA"
+    
+        window.tealium_url = '//tags.tiqcdn.com/utag/gci/ydr/prod/utag.js';
+    
+    
+    
+    
+        window.Modernizr=function(a,b,c){function B(a){j.cssText=a}function C(a,b){return B(m.join(a+";")+(b||""))}function D(a,b){return typeof a===b}function E(a,b){return!!~(""+a).indexOf(b)}function F(a,b){for(var d in a){var e=a[d];if(!E(e,"-")&amp;&j;[e]!==c)return b=="pfx"?e:!0}return!1}function G(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:D(f,"function")?f.bind(d||b):f}return!1}function H(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+o.join(d+" ")+d).split(" ");return D(b,"string")||D(b,"undefined")?F(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),G(e,b,c))}function I(){e.input=function(c){for(var d=0,e=c.length;d&lt;e&gt;&lt;style id="s',h,'"&gt;',a,"&lt;/style&gt;"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},x=function(b){var c=a.matchMedia||a.msMatchMedia;if(c)return c(b).matches;var d;return w("@media "+b+" { #"+h+" { position: absolute; } }",function(b){d=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle)["position"]=="absolute"}),d},y=function(){function d(d,e){e=e||b.createElement(a[d]||"div"),d="on"+d;var f=d in e;return f||(e.setAttribute||(e=b.createElement("div")),e.setAttribute&amp;&amp;e.removeAttribute;&amp;&amp;(e.setAttribute(d,""),f=D(e[d],"function"),D(e[d],"undefined")||(e[d]=c),e.removeAttribute(d))),e=null,f}var a={select:"input",change:"input",submit:"form",reset:"form",error:"img",load:"img",abort:"img"};return d}(),z={}.hasOwnProperty,A;!D(z,"undefined")&amp;&amp;!D(z.call,"undefined")?A=function(a,b){return z.call(a,b)}:A=function(a,b){return b in a&amp;&D;(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=u.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(u.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(u.call(arguments)))};return e}),q.touch=function(){var c;return"ontouchstart"in a||a.DocumentTouch&amp;&b; instanceof DocumentTouch?c=!0:w(["@media (",m.join("touch-enabled),("),h,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(a){c=a.offsetTop===9}),c},q.history=function(){return!!a.history&amp;&amp;!!history.pushState},q.csstransforms=function(){return!!H("transform")},q.csstransforms3d=function(){var a=!!H("perspective");return a&amp;&amp;"webkitPerspective"in g.style&amp;&w;("@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}",function(b,c){a=b.offsetLeft===9&amp;&amp;b.offsetHeight;===3}),a},q.csstransitions=function(){return H("transition")},q.video=function(){var a=b.createElement("video"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),c.h264=a.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),c.webm=a.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,"")}catch(d){}return c};for(var J in q)A(q,J)&amp;&amp;(v=J.toLowerCase(),e[v]=q[J](),t.push((e[v]?"":"no-")+v));return e.input||I(),e.addTest=function(a,b){if(typeof a=="object")for(var d in a)A(a,d)&amp;&amp;e.addTest;(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&amp;&f;&amp;&amp;(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},B(""),i=k=null,e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.mq=x,e.hasEvent=y,e.testProp=function(a){return F([a])},e.testAllProps=H,e.testStyles=w,e.prefixed=function(a,b,c){return b?H(a,b,c):H(a,"pfx")},g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+t.join(" "):""),e}(this,this.document);
+  </script>
+ </head>
+ <body class=" site-theme-maroon">
+  <header data-fixed="true" data-open="false" data-default-fixed="false" data-default-open="true" class=" site-header site-header-collapsed ">
+   <div class="site-header-inner-wrap site-header-inner-wrap-fixed ">
+    <div class="site-masthead">
+     <a class="site-masthead-logo-link logo-link" data-ht="Headerydr Headerlogoexpanded" href="/">
+      <img class="site-masthead-logo-img" src="http://www.gannett-cdn.com/sites/ydr/images/site-masthead-logo@2x.png" height="80" alt="The York Daily Record" />
+     </a>
+     <div class="site-masthead-search-wrap site-masthead-search-wrap-collapsed">
+      <form class="site-masthead-search-form ui-ajax-form" action="/search/" method="get" data-mapping="&lt;%= q %&gt;/">
+       &lt;%= q %&gt;/"&gt;
+       <div class="site-masthead-search-input-wrap ui-form-field-container">
+        <input class="site-masthead-search-form-input ui-text-input" data-clearable="true" type="text" name="q" autocomplete="off" placeholder="Search" />
+        <div class="site-masthead-search-btn site-masthead-search-btn-div" data-ht="Headersearchbutton">
+        </div>
+       </div>
+       <input class="site-masthead-search-btn submit" type="submit" value="Search" />
+       <span class="site-masthead-search-close-btn" data-uotrack="Headersearchclosebutton">
+       </span>
+       <div class="site-masthead-subscribe-wrap site-masthead-subscribe-wrap-visible">
+        <a href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/media/latest/news/%3Ffrom%3Dglobal&amp;gps-source=CPHPPRIMARY" class="userAuth-redirect site-masthead-subscribe-link" data-ht="Headersubscribecallout" target="_blank">
+         <span class="site-masthead-subscribe-primary-text">
+          SUBSCRIBE NOW
+         </span>
+         <span class="site-masthead-subscribe-secondary-text">
+          to get full access
+         </span>
+        </a>
+       </div>
+       <div class="site-masthead-special-offers-ad partner-placement">
+       </div>
+      </form>
+     </div>
+    </div>
+    <nav class="site-nav">
+     <ul class="site-nav-list">
+      <li class="site-nav-item site-nav-end-item site-nav-logo-item site-nav-logo-item-expanded">
+       <a class="site-nav-link site-nav-logo-link site-nav-logo-link-expanded" data-ht="Headerlogocollapsed" href="/">
+        <img class="site-nav-logo-img site-nav-logo-img-collapsed" src="http://www.gannett-cdn.com/sites/ydr/images/site-nav-logo@2x.png" height="40" alt="The York Daily Record" />
+       </a>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-end-item site-nav-first-primary-item site-nav-text-item site-nav-home-item site-nav-module site-nav-home-module" id="module-position-PiXBs-A3HYU">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-first-primary-link site-nav-text-link site-nav-home-link" href="/" data-ht="Headerhome">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-first-primary-span site-nav-text-span home-theme-bg-hover maroon-theme-bg-hover site-nav-home-span">
+          Home
+         </span>
+         <span class="site-nav-theme-border home-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-news-item site-nav-module site-nav-news-module" id="module-position-PiXBs-DT7jY">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-news-link" href="/news/" data-ht="Headernews">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span news-theme-bg-hover maroon-theme-bg-hover site-nav-news-span">
+          News
+         </span>
+         <span class="site-nav-theme-border news-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-sports-item site-nav-module site-nav-sports-module" id="module-position-PiXBs-DZi9I">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-sports-link" href="/sports/" data-ht="Headersports">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span sports-theme-bg-hover maroon-theme-bg-hover site-nav-sports-span">
+          Sports
+         </span>
+         <span class="site-nav-theme-border sports-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-business-item site-nav-module site-nav-business-module" id="module-position-PiXBs-CH82E">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-business-link" href="/business/" data-ht="Headerbusiness">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span business-theme-bg-hover maroon-theme-bg-hover site-nav-business-span">
+          Business
+         </span>
+         <span class="site-nav-theme-border business-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-lifestyle-item site-nav-module site-nav-lifestyle-module" id="module-position-PiXBs-C1vu0">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-lifestyle-link" href="/lifestyle/" data-ht="Headerlifestyle">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span lifestyle-theme-bg-hover maroon-theme-bg-hover site-nav-lifestyle-span">
+          Lifestyle
+         </span>
+         <span class="site-nav-theme-border lifestyle-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-things-to-do-item site-nav-module site-nav-things-to-do-module" id="module-position-PiXBs-DAVf0">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-things-to-do-link" href="/things-to-do/" data-ht="Headerthings-to-do">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span things-to-do-theme-bg-hover maroon-theme-bg-hover site-nav-things-to-do-span">
+          FlipSidePA
+         </span>
+         <span class="site-nav-theme-border things-to-do-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-opinion-item site-nav-module site-nav-opinion-module" id="module-position-PiXBs-I7_2E">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-opinion-link" href="/opinion/" data-ht="Headeropinion">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span opinion-theme-bg-hover maroon-theme-bg-hover site-nav-opinion-span">
+          Opinion
+         </span>
+         <span class="site-nav-theme-border opinion-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-obituaries-item site-nav-module site-nav-obituaries-module" id="module-position-PiXBs-IzBdY">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-external-text-link site-nav-text-link site-nav-obituaries-link" href="http://www.legacy.com/obituaries/york" data-ht="Headerobituaries" target="_blank">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span obituaries-theme-bg-hover maroon-theme-bg-hover site-nav-obituaries-span">
+          Obituaries
+         </span>
+         <span class="site-nav-theme-border obituaries-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-elections-2016-item site-nav-module site-nav-elections-2016-module" id="module-position-PiXBs-IrOO8">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-elections-2016-link" href="/elections-2016/" data-ht="Headerelections-2016">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span elections-2016-theme-bg-hover maroon-theme-bg-hover site-nav-elections-2016-span">
+          Elections 2016
+         </span>
+         <span class="site-nav-theme-border elections-2016-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-icon-item site-nav-insider-item site-nav-module site-nav-insider-module" id="module-position-PiXBs-IX7P8">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-icon-link site-nav-insider-link" href="/insider/" data-ht="Headerinsider">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-icon-span insider-theme-bg-hover maroon-theme-bg-hover site-nav-insider-span">
+          Insider
+         </span>
+         <span class="site-nav-theme-border insider-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-watchdog-item site-nav-module site-nav-watchdog-module" id="module-position-PiXBs-Iq9rA">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-watchdog-link" href="/news/watchdog/" data-ht="Headerwatchdog">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span watchdog-theme-bg-hover maroon-theme-bg-hover site-nav-watchdog-span">
+          Watchdog
+         </span>
+         <span class="site-nav-theme-border watchdog-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-retro-york-item site-nav-module site-nav-retro-york-module" id="module-position-PiXBs-I06nU">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-retro-york-link" href="/news/history/" data-ht="Headerretro-york">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span retro-york-theme-bg-hover maroon-theme-bg-hover site-nav-retro-york-span">
+          RETRO YORK
+         </span>
+         <span class="site-nav-theme-border retro-york-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-usa-today-item site-nav-always-visible-item site-nav-module site-nav-usa-today-module" id="module-position-PiXBs-IlsME">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-usa-today-link" href="/section/global/nation-now/" data-ht="Headerusa-today">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span usa-today-theme-bg-hover maroon-theme-bg-hover site-nav-usa-today-span">
+          USA Today
+         </span>
+         <span class="site-nav-theme-border usa-today-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-end-item site-nav-last-primary-item site-nav-icon-item site-nav-media-item site-nav-module site-nav-media-module" id="module-position-PiXBs-JdTn0">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-last-primary-link site-nav-icon-link site-nav-media-link" href="/media/latest/news/" data-ht="Headermedia">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-last-primary-span site-nav-icon-span media-theme-bg-hover maroon-theme-bg-hover site-nav-media-span">
+          Media
+         </span>
+         <span class="site-nav-theme-border media-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-more-item site-nav-text-item site-nav-module site-nav-text-module" id="module-position-">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-more-link site-nav-text-link" href="" data-ht="Headertext">
+         <div class="site-nav-span-wrap site-nav-more-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-more-span site-nav-text-span">
+           More
+          </span>
+         </div>
+        </a>
+        <div class="site-nav-dropdown site-nav-more-dropdown site-nav-more-dropdown-1col">
+         <div class="site-nav-dropdown-inner-wrap site-nav-more-dropdown-inner-wrap">
+          <ul class="site-nav-more-dropdown-list site-nav-more-dropdown-list-1col">
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/" data-ht="Headermorehome">
+             Home
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/" data-ht="Headermorenews">
+             News
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/sports/" data-ht="Headermoresports">
+             Sports
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/business/" data-ht="Headermorebusiness">
+             Business
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/lifestyle/" data-ht="Headermorelifestyle">
+             Lifestyle
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/things-to-do/" data-ht="Headermorethings-to-do">
+             FlipSidePA
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/opinion/" data-ht="Headermoreopinion">
+             Opinion
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="http://www.legacy.com/obituaries/york" data-ht="Headermoreobituaries">
+             Obituaries
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/elections-2016/" data-ht="Headermoreelections-2016">
+             Elections 2016
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/insider/" data-ht="Headermoreinsider">
+             Insider
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/watchdog/" data-ht="Headermorewatchdog">
+             Watchdog
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/history/" data-ht="Headermoreretro-york">
+             RETRO YORK
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col site-nav-more-dropdown-item-hidden">
+            <a class="site-nav-more-dropdown-link" href="/section/global/nation-now/" data-ht="Headermoreusa-today">
+             USA Today
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/media/latest/news/" data-ht="HeadermoreMedia">
+             Media
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-spacer-item site-nav-spacer-item site-nav-module site-nav-spacer-module" id="module-position-">
+       <span class="site-nav-inner-wrap">
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-end-item site-nav-first-secondary-item site-nav-icon-item site-nav-social-item site-nav-module site-nav-social-module" id="module-position-PiXBs-OdKSQ">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-first-secondary-link site-nav-icon-link site-nav-social-link" href="" data-ht="Headersocial">
+         <div class="site-nav-span-wrap site-nav-icon-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-first-secondary-span site-nav-icon-span social-theme-bg-hover maroon-theme-bg-hover site-nav-social-span">
+           social
+          </span>
+         </div>
+         <span class="site-nav-theme-border social-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+        <div class="site-nav-dropdown site-nav-social-module-dropdown">
+         <div class="social-dropdown-item facebook">
+          <iframe src="//www.facebook.com/plugins/like.php?href=https%3A//www.facebook.com/YorkDailyRecord&amp;width=450&amp;height=46&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=118054614942796" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:135px;" allowtransparency="true">
+          </iframe>
+         </div>
+         <div class="social-dropdown-item twitter">
+          <div class="twitter-follow">
+           <a class="twitter-follow-label" href="https://twitter.com/intent/user?screen_name=ydrcom" target="_blank">
+            Follow
+           </a>
+          </div>
+         </div>
+         <div class="social-dropdown-item google-plus">
+          <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/ydr" data-rel="publisher">
+          </div>
+         </div>
+        </div>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-icon-item site-nav-search-item site-nav-module site-nav-search-module" id="module-position-PiXBs-PVn0U">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-icon-link site-nav-search-link" href="/search/" data-ht="Headersearch">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-icon-span search-theme-bg-hover maroon-theme-bg-hover site-nav-search-span">
+          search
+         </span>
+         <span class="site-nav-theme-border search-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-end-item site-nav-last-secondary-item site-nav-icon-item site-nav-firefly-item site-nav-module site-nav-firefly-module" id="module-position-PiXBs-PnBH4">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-last-secondary-link site-nav-external-icon-link site-nav-icon-link site-nav-firefly-link" href="http://account.ydr.com" data-ht="Headerfirefly" target="_blank">
+         <div class="site-nav-span-wrap site-nav-icon-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-last-secondary-span site-nav-icon-span firefly-theme-bg-hover maroon-theme-bg-hover site-nav-firefly-span">
+           Firefly
+          </span>
+         </div>
+         <span class="site-nav-theme-border firefly-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+        <div class="site-nav-dropdown site-nav-firefly-dropdown">
+         <div class="site-nav-firefly-dropdown-section ff-greetings">
+          <p class="site-nav-firefly-dropdown-text">
+           Hi
+           <span class="site-nav-firefly-user-display-name">
+           </span>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-login">
+          <p class="site-nav-firefly-dropdown-text">
+           Already a subscriber?
+          </p>
+          <a class="ui-chunky-btn secondary ff ff-login-btn firefly-signin-btn userAuth-redirect" rel="nofollow" data-ht="HeaderUserAuthLogin" data-user-account="firefly" href="https://login.ydr.com/PPYR-GUP/authenticate/?success-url=http%3A//www.ydr.com/media/latest/news/%3Ffrom%3Dglobal&amp;cancel-url=http%3A//www.ydr.com/media/latest/news/%3Ffrom%3Dglobal">
+           Log in
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-subscribe">
+          <p class="site-nav-firefly-dropdown-text">
+           Subscribe today for full access on your desktop, tablet, and mobile device.
+          </p>
+          <a class="ui-chunky-btn ff subscribe-btn firefly-subscribe-btn userAuth-redirect" href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/media/latest/news/%3Ffrom%3Dglobal&amp;gps-source=CPHPACCOUNT">
+           Subscribe Now
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-activate">
+          <p class="site-nav-firefly-dropdown-text">
+           Already a print edition subscriber, but don't have a login?
+          </p>
+          <a class="ff activate-btn firefly-activate-btn userActivate-redirect" data-user-account="firefly" href="https://subscribe.ydr.com/account-lookup/">
+           Activate your digital access.
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-account">
+          <p class="site-nav-firefly-dropdown-text">
+           Manage your account settings.
+          </p>
+          <a class="ui-chunky-btn ff subscribe-btn firefly-subscribe-btn" data-user-account="firefly" href="https://account.ydr.com/">
+           My Account
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-enewspaper">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff" data-user-account="firefly" href="https://account.ydr.com/enewspaper/" target="_blank">
+            View the E-Newspaper
+           </a>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-newsletters">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff" data-user-account="firefly" href="https://account.ydr.com/newsletters/" target="_self">
+            Manage your Newsletters
+           </a>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-logout">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff-logout-btn userAuth-redirect" data-ht="HeaderUserAuthLogout" href="https://user.ydr.com/PPYR-GUP/user/logout/?return-url=http%3A//www.ydr.com/media/latest/news/%3Ffrom%3Dglobal">
+            Log Out
+           </a>
+          </p>
+         </div>
+        </div>
+       </span>
+      </li>
+     </ul>
+    </nav>
+    <div class="bnm-container">
+    </div>
+   </div>
+   <script type="json/headermodules" class="headermodules headermodules-primary">
+    { "js_modules": [{"layoutType": "NAV_MODULES", "position": "PiXBs-A3HYU", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-DT7jY", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-DZi9I", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-CH82E", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-C1vu0", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-DAVf0", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-I7_2E", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-IzBdY", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-IrOO8", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-IX7P8", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-Iq9rA", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-I06nU", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-IlsME", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-JdTn0", "oembedtype": null, "name": "link", "options": null}] }
+   </script>
+   <script type="json/headermodules" class="headermodules headermodules-secondary">
+    { "js_modules": [{"layoutType": "NAV_MODULES", "position": "PiXBs-PnBH4", "oembedtype": null, "name": "site-nav-firefly-module", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-PVn0U", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiXBs-OdKSQ", "oembedtype": null, "name": "site-nav-social-module", "options": null}] }
+   </script>
+  </header>
+  <section id="media-view" class="media-view">
+   <div class="media-view-viewport">
+    <nav class="media-sidebar">
+     <ul class="media-sidebar-list scrollable-content">
+      <li class="sub active media-sidenav-item" data-section="news">
+       <a href="/media/latest/news/" data-ht="mediaviewnews" class="media-sidenav-link">
+        News
+       </a>
+       <ul class="media-sidenav-sublist">
+       </ul>
+      </li>
+      <li class="sub  media-sidenav-item" data-section="sports">
+       <a href="/media/latest/sports/" data-ht="mediaviewsports" class="media-sidenav-link">
+        Sports
+       </a>
+       <ul class="media-sidenav-sublist">
+        <li>
+         <a class=" media-sidenav-sublink" href="/media/latest/sports/penn-state-football/" data-sub-section="penn-state-football" data-ht="mediaviewsportspenn-state-football">
+          Penn State Football
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="sub  media-sidenav-item" data-section="lifestyle">
+       <a href="/media/latest/lifestyle/" data-ht="mediaviewlifestyle" class="media-sidenav-link">
+        Lifestyle
+       </a>
+       <ul class="media-sidenav-sublist">
+       </ul>
+      </li>
+     </ul>
+    </nav>
+    <div class="media-index-content">
+     <div class="media-filter-wrapper">
+      <ul class="ui-button-toggle ui-dark media-view-filter-button-toggle">
+       <li class="ui-button-toggle-item ui-btn active">
+        <a href="/media/latest/news/" data-ht="media-filter-all" class="ui-button-toggle-item-link media-view-filter-all-btn">
+         All
+        </a>
+       </li>
+       <li class="ui-button-toggle-item ui-btn">
+        <a href="/media/latest/videos/news/" data-ht="media-filter-videos" class="ui-button-toggle-item-link media-view-filter-videos-btn">
+         Videos
+        </a>
+       </li>
+       <li class="ui-button-toggle-item ui-btn">
+        <a href="/media/latest/photos/news/" data-ht="media-filter-photos" class="ui-button-toggle-item-link media-view-filter-photos-btn">
+         Photo Galleries
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="media-content">
+      <h1 class="media-grid-section-h1">
+       News
+      </h1>
+      <ul class="grid media-grid-ul">
+       <li class="mediaview-featured medialistitems">
+        <a href="/media/cinematic/gallery/94680580/photos-new-look-for-the-accomac-in-hellam-twp/" data-ht="mediaview-grid1" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/9e535b447d7605bbd03c6b8c7f59df130751d5db/c=0-233-1999-1362&amp;r=x193&amp;c=340x190/local/-/media/2016/11/30/PAGroup/YorkDailyRecord/636161128660063179-YDR-sub-113016-accomac-11.JPG" src="http://www.gannett-cdn.com/-mm-/9e535b447d7605bbd03c6b8c7f59df130751d5db/c=0-233-1999-1362&amp;r=x193&amp;c=340x190/local/-/media/2016/11/30/PAGroup/YorkDailyRecord/636161128660063179-YDR-sub-113016-accomac-11.JPG" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94680580/photos-new-look-for-the-accomac-in-hellam-twp/" data-ht="mediaview-grid1" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: New look for The Accomac in Hellam Twp
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 30, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/90283370/watch-a-tour-of-covenant-house-for-youth/" data-ht="mediaview-grid2" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/439f8172b526c112dfdd82aa86891065bfff6993/c=0-91-1999-1220&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/09/12/PAGroup/YorkDailyRecord/636093022005464462-YDR-pmk-091216-covenanthouse-1.jpg" src="http://www.gannett-cdn.com/-mm-/439f8172b526c112dfdd82aa86891065bfff6993/c=0-91-1999-1220&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/09/12/PAGroup/YorkDailyRecord/636093022005464462-YDR-pmk-091216-covenanthouse-1.jpg" alt="Covenant House will offer help, a safe place, food, and counseling for youth 13-21 without a support system. Learn more at: http://www.covenanthouse.org/" class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          03:57
+         </span>
+        </div>
+        <a href="/media/cinematic/video/90283370/watch-a-tour-of-covenant-house-for-youth/" data-ht="mediaview-grid2" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: A tour of Covenant House for youth
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 30, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94656394/watch-hip-nut-dancer-finds-her-place/" data-ht="mediaview-grid3" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/fea1b40dd35b4a8f51e901a882549f2e56bd65c2/c=11-0-2388-1343&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/30/PAGroup/YorkDailyRecord/636160877714265495-HIPTHUMB.jpg" src="http://www.gannett-cdn.com/-mm-/fea1b40dd35b4a8f51e901a882549f2e56bd65c2/c=11-0-2388-1343&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/30/PAGroup/YorkDailyRecord/636160877714265495-HIPTHUMB.jpg" alt="Abigail Miller, 15, balances school and dance while finding a place to be herself at Greater York Dance." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label things-to-do">
+          Things To Do
+         </span>
+         <span class="duration">
+          01:10
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94656394/watch-hip-nut-dancer-finds-her-place/" data-ht="mediaview-grid3" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Hip Nut dancer finds her place
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 30, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/74329304/photos-york-adams-most-wanted-list/" data-ht="mediaview-grid4" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/902989095b126d6c3d2943bb6587dab97c53fd4d/c=0-360-817-821&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160364138311583-SCOTT-DOUGLAS.png" src="http://www.gannett-cdn.com/-mm-/902989095b126d6c3d2943bb6587dab97c53fd4d/c=0-360-817-821&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160364138311583-SCOTT-DOUGLAS.png" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          crime
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/74329304/photos-york-adams-most-wanted-list/" data-ht="mediaview-grid4" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: York-Adams Most Wanted list
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 29, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94621960/watch-three-years-later-william-davis-terrells-homicide-is-still-unsolved/" data-ht="mediaview-grid5" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f86eefd7f49a2c973f5589e21ced9fad9a24eb81/c=0-119-285-280&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160148136173232-williamterrell.jpg" src="http://www.gannett-cdn.com/-mm-/f86eefd7f49a2c973f5589e21ced9fad9a24eb81/c=0-119-285-280&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160148136173232-williamterrell.jpg" alt="On November 20, 2013, William Davis Terrell, a.k.a. Dolla Bill, was shot behind his home in West York, and later died in the hospital." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          crime
+         </span>
+         <span class="duration">
+          01:37
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94621960/watch-three-years-later-william-davis-terrells-homicide-is-still-unsolved/" data-ht="mediaview-grid5" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Three years later, William Davis Terrell&#39;s homicide is still unsolved
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 29, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94599650/photos-harley-davidsons-2017-lineup/" data-ht="mediaview-grid6" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/c87ce6e5bc5690c10667150bbf9157aaacdf69c4/c=0-122-2400-1478&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160149460874517-7309.jpg" src="http://www.gannett-cdn.com/-mm-/6470f96f15fa4f95200f2a629448ad90fdfdefe3/c=0-122-2400-1478&amp;r=x93&amp;c=160x90/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160149460874517-7309.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94599650/photos-harley-davidsons-2017-lineup/" data-ht="mediaview-grid6" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: Harley Davidson&#39;s 2017 lineup
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 29, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94605436/watch-what-is-giving-tuesday/" data-ht="mediaview-grid7" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/68a1eedef881115a2c74e96bd7cb9f86c01df6fd/c=0-101-2000-1231&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160189572534848-YDR-PMK-112916-givingtuesday-2.jpg" src="http://www.gannett-cdn.com/-mm-/5f57d3815f53200a2e478f4a701b66a1b8a6dd78/c=0-101-2000-1231&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/29/PAGroup/YorkDailyRecord/636160189572534848-YDR-PMK-112916-givingtuesday-2.jpg" alt="Megan Feeser, chief marketing &amp; development officer for Downtown Inc describes Giving Tuesday." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          00:44
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94605436/watch-what-is-giving-tuesday/" data-ht="mediaview-grid7" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: What is Giving Tuesday
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 29, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94563940/watch-blessing-christmas-tree-for-homeless-in-york/" data-ht="mediaview-grid8" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/e3a76607ee77fbfbea8c2e404e661a9d7e5f1749/c=0-0-1985-1122&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/28/PAGroup/YorkDailyRecord/636159454245167211-YDR-112816-homeless-3.jpg" src="http://www.gannett-cdn.com/-mm-/4328c79c90eb848eb5b381b67365ed1f8ad40628/c=0-0-1985-1122&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/28/PAGroup/YorkDailyRecord/636159454245167211-YDR-112816-homeless-3.jpg" alt="Local Feed The Vets of York County heard about a Blessing Tree set up by owner of Coffee Teas &amp; Thee, in York and decided to help fill out the tree with 40 bags of necessities." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:23
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94563940/watch-blessing-christmas-tree-for-homeless-in-york/" data-ht="mediaview-grid8" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Blessing Christmas tree for homeless in York
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 28, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94547600/watch-first-deer-good-day-for-hunting/" data-ht="mediaview-grid9" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/d31ab656e5f089e8b744c9a2b3fcd441bafe6aee/c=0-40-2000-1170&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/28/PAGroup/YorkDailyRecord/636159323082422556-112816-pmk-deer-4.jpg" src="http://www.gannett-cdn.com/-mm-/12610c083deaadb41930645b5e1db6b3a1c069ed/c=0-40-2000-1170&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/28/PAGroup/YorkDailyRecord/636159323082422556-112816-pmk-deer-4.jpg" alt="It was the first buck for nine-year-old Morgan Posey, of Fawn Township, and the first buck in ten years for Bob Long of Carroll Township as deer rifle season opens in Pennsylvania." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:31
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94547600/watch-first-deer-good-day-for-hunting/" data-ht="mediaview-grid9" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: First deer, good day for hunting
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 28, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94529274/watch-new-life-for-girls-perform-in-york/" data-ht="mediaview-grid10" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f76b274f48e06df3950d139a5726c7047ae56428/r=x193&amp;c=340x190/http/videos.ydr.com/brightcove/http/4303072811001/201611/3297/4303072811001_5226208469001_5226204028001-vs.jpg" src="http://www.gannett-cdn.com/-mm-/bb2daec36a93689d021dd2dd0c833dd54701d267/r=x93&amp;c=160x90/http/videos.ydr.com/brightcove/http/4303072811001/201611/3297/4303072811001_5226208469001_5226204028001-vs.jpg" alt="New Life for Girls, a non-profit rehabilitation program, performs during a service at Bible Tabernacle Christian Center." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          03:53
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94529274/watch-new-life-for-girls-perform-in-york/" data-ht="mediaview-grid10" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          WATCH: New Life for Girls perform in York
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 27, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/89076162/watch-ships-on-lake-redman/" data-ht="mediaview-grid11" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/cea17d6a3d0a174da1703ea2ce19af426a8f4473/c=4-0-1995-1125&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/08/21/PAGroup/YorkDailyRecord/636073821950888431-boat.jpg" src="http://www.gannett-cdn.com/-mm-/e29f2bbb36a6888095d2ace6ac6dd8c439be270f/c=4-0-1995-1125&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/08/21/PAGroup/YorkDailyRecord/636073821950888431-boat.jpg" alt="Explore a detailed model of the USS Pennsylvania, a ship that fought in Pearl Harbor. Daniel Deatrich, of Waynesboro is the ship's builder." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:20
+         </span>
+        </div>
+        <a href="/media/cinematic/video/89076162/watch-ships-on-lake-redman/" data-ht="mediaview-grid11" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Ships on Lake Redman
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 27, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94498126/watch-timelapse-of-penn-states-45-12-victory-over-michigan-state/" data-ht="mediaview-grid12" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f29a76143eeaeddd1128f3a80688d8f5e7c8ca06/c=10-0-2391-1345&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157955840983982-PSUTHUMB.jpg" src="http://www.gannett-cdn.com/-mm-/ce7ab432efe1d5eb66941c67ba0f67d5cd383533/c=10-0-2391-1345&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157955840983982-PSUTHUMB.jpg" alt="A Go Pro attached to the window of the press box offers start to finish photo time lapse of Saturday's PSU game" class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label sports">
+          football
+         </span>
+         <span class="duration">
+          00:30
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94498126/watch-timelapse-of-penn-states-45-12-victory-over-michigan-state/" data-ht="mediaview-grid12" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Timelapse of Penn State&#39;s 45-12 victory over Michigan State
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94495240/photos-a-wide-angle-look-at-penn-state-football/" data-ht="mediaview-grid13" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/b0b43dd0d60c3c3736ef1a4e3cfad60cec1562ab/c=0-222-2400-1578&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157923057685834-YDR-JP-112616-PSU-wide-12-gallery.jpg" src="http://www.gannett-cdn.com/-mm-/7d1d61b7c13ef92af4283b4b892afdfa217513a5/c=0-222-2400-1578&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157923057685834-YDR-JP-112616-PSU-wide-12-gallery.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label sports">
+          football
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94495240/photos-a-wide-angle-look-at-penn-state-football/" data-ht="mediaview-grid13" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: A wide angle look at Penn State football
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94494684/watch-analyzing-penn-states-win-vs-michigan-state/" data-ht="mediaview-grid14" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/199a7904029dd48c52869806c528dc63e05e05d4/c=0-199-2400-1555&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157902912072285-YDR-JP-112616-PSU-wide-15.jpg" src="http://www.gannett-cdn.com/-mm-/75b082b2b3b3678472c11412601432a3c00c9a75/c=0-199-2400-1555&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157902912072285-YDR-JP-112616-PSU-wide-15.jpg" alt="Penn State reporters Frank Bodani and Lindsey Smith talk about PSU after the Nittany Lions' 45-12 victory over Michigan State." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label sports">
+          football
+         </span>
+         <span class="duration">
+          01:42
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94494684/watch-analyzing-penn-states-win-vs-michigan-state/" data-ht="mediaview-grid14" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Analyzing Penn State&#39;s win vs. Michigan State
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/91900698/s-morgan-smith-made-washing-machines-but-also-reinvented-the-wheel/" data-ht="mediaview-grid15" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/b330933e959eb7db8824b0f94efed58c1a109d5a/c=0-37-1993-1163&amp;r=x193&amp;c=340x190/local/-/media/2016/10/11/PAGroup/YorkDailyRecord/636117899792732019-YDR-SUB-101116-Smith-York-College-1.jpg" src="http://www.gannett-cdn.com/-mm-/e84bff60d6b98ed6ad7ed541d25287f507b6e672/c=0-37-1993-1163&amp;r=x93&amp;c=160x90/local/-/media/2016/10/11/PAGroup/YorkDailyRecord/636117899792732019-YDR-SUB-101116-Smith-York-College-1.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          York Town Square
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/91900698/s-morgan-smith-made-washing-machines-but-also-reinvented-the-wheel/" data-ht="mediaview-grid15" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          S. Morgan Smith made washing machines, but also reinvented the wheel
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94479862/watch-paternos-last-psu-recruits-honored-on-senior-day/" data-ht="mediaview-grid16" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/7659cc3bc70bc9e62cce92ffa201fa7bd1014199/c=0-2-2400-1358&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157736987973100-PSU-SENIORS.jpg" src="http://www.gannett-cdn.com/-mm-/c5e2c1add05abca41afb0a0aa433ab7ffc4c6f4d/c=0-2-2400-1358&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157736987973100-PSU-SENIORS.jpg" alt="YDR PSU reporter Frank Bodani talks about the 6 seniors who were the last of the Joe Paterno recruits who stayed at Penn State despite the scandal which they came into." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label sports">
+          football
+         </span>
+         <span class="duration">
+          00:58
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94479862/watch-paternos-last-psu-recruits-honored-on-senior-day/" data-ht="mediaview-grid16" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Paterno&#39;s last PSU recruits honored on senior day
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94474614/photos-coats-of-friendship/" data-ht="mediaview-grid17" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/7cfe68c9da0ac6381f6e4f3d39368161cb8f5cdc/c=0-269-4350-2727&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157637469291316-YDR-KP-112616-coats-03.JPG" src="http://www.gannett-cdn.com/-mm-/355c0fd08c5aeee5b36cbe80d257268f552d6379/c=0-269-4350-2727&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157637469291316-YDR-KP-112616-coats-03.JPG" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94474614/photos-coats-of-friendship/" data-ht="mediaview-grid17" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: Coats of Friendship
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94468320/watch-christmas-magic/" data-ht="mediaview-grid18" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/8b8ba5ca0d9d1e92145d9b1052083b52ff95dc66/c=0-55-4241-2451&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157444679223886-YDR-KP-112516-christmas-2.JPG" src="http://www.gannett-cdn.com/-mm-/89a6c5e24ca17347ebf94c7170467b43f012d171/c=0-55-4241-2451&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/26/PAGroup/YorkDailyRecord/636157444679223886-YDR-KP-112516-christmas-2.JPG" alt="Christmas Magic, a half-mile walking trail of christmas lights through Rocky Ridge County Park, has become a York County tradition." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label life">
+          life
+         </span>
+         <span class="duration">
+          00:27
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94468320/watch-christmas-magic/" data-ht="mediaview-grid18" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Christmas Magic
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 26, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94432020/watch-black-friday-auto-sales/" data-ht="mediaview-grid19" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/16352e1e93f590d9ad8d5b2deea045e36e5d1fe0/c=0-532-2448-1915&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156847172146942-IMG-1896.JPG" src="http://www.gannett-cdn.com/-mm-/4483f3cea11d85da48a3bfbbba184fa494c754a9/c=0-532-2448-1915&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156847172146942-IMG-1896.JPG" alt="John Kocul, general sales manager at Stetler in York talks about what's been bringing in people to shop for cars on Black Friday." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          00:51
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94432020/watch-black-friday-auto-sales/" data-ht="mediaview-grid19" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Black Friday auto sales
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94430136/watch-the-muscle-of-the-black-friday-sale/" data-ht="mediaview-grid20" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/5fd0679d21c119e5c412636a2af915c813f5e433/c=0-170-2400-1526&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156780358342325-YDR-JP-112516-Black-Friday-bag-sale-2.jpg" src="http://www.gannett-cdn.com/-mm-/6f1dcc797a5a0702c0df736a2cf58ea18b948ce5/c=0-170-2400-1526&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156780358342325-YDR-JP-112516-Black-Friday-bag-sale-2.jpg" alt="Deborah Daugherty is the sole helper in the center of the madness in the bag sale at My Girlfriend's Wardrobe Consignment Shop on Black Friday." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          local
+         </span>
+         <span class="duration">
+          01:19
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94430136/watch-the-muscle-of-the-black-friday-sale/" data-ht="mediaview-grid20" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: The &quot;Muscle&quot; of the Black Friday sale
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94425510/photos-thanksgiving-eve-fire-destroys-home/" data-ht="mediaview-grid21" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/0aef378110876140bf7e4ca5b334f4ae23d50f2e/c=0-220-1330-971&amp;r=x193&amp;c=340x190/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156705225056426-fire1.jpg" src="http://www.gannett-cdn.com/-mm-/8ad9cdff83d112ccf1a828aedab84513942b96a8/c=0-220-1330-971&amp;r=x93&amp;c=160x90/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156705225056426-fire1.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94425510/photos-thanksgiving-eve-fire-destroys-home/" data-ht="mediaview-grid21" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: Thanksgiving eve fire destroys home
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94415280/watch-black-friday-at-the-white-rose/" data-ht="mediaview-grid22" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/19f818b6f8f6abd4ef22a4951efee68fffbc7d95/c=0-106-3598-2139&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156562984337424-YDR-JP-112516-Black-Friday-White-Rose.jpg" src="http://www.gannett-cdn.com/-mm-/794ac72a763d4353e2fd9813c741589115051de2/c=0-106-3598-2139&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156562984337424-YDR-JP-112516-Black-Friday-White-Rose.jpg" alt="Go from the front of the line to the end during the early morning of the White Rose Bar &amp; Grill's annual Black Friday half price deal." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          local
+         </span>
+         <span class="duration">
+          02:22
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94415280/watch-black-friday-at-the-white-rose/" data-ht="mediaview-grid22" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Black Friday at the White Rose
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94414558/photos-deadly-thanksgiving-crash/" data-ht="mediaview-grid23" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/610d5c52094c3c077ec42e69c64c41ed45694d41/c=0-302-3264-2146&amp;r=x193&amp;c=340x190/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156554528350812-AP16330176831250.jpg" src="http://www.gannett-cdn.com/-mm-/201cf67bffc421a33ad79bda92719f27ffcd3f9d/c=0-302-3264-2146&amp;r=x93&amp;c=160x90/local/-/media/2016/11/25/PAGroup/YorkDailyRecord/636156554528350812-AP16330176831250.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94414558/photos-deadly-thanksgiving-crash/" data-ht="mediaview-grid23" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: Deadly Thanksgiving crash
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94359972/watch-weekly-crime-wrap-up-nov-19-25/" data-ht="mediaview-grid24" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/de87f2c70041d90b46e0ee59f367980c4f790f8f/c=4-0-1916-1080&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/23/PAGroup/YorkDailyRecord/636155157404518530-ted-xmas.jpg" src="http://www.gannett-cdn.com/-mm-/a7044e4e7618f575ad4b7e1e6d8ba1c0a940f28e/c=4-0-1916-1080&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/23/PAGroup/YorkDailyRecord/636155157404518530-ted-xmas.jpg" alt="This week in the wrap-up: all I want for Christmas, bad idea backpack and smile you're on home security camera." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          crime
+         </span>
+         <span class="duration">
+          02:08
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94359972/watch-weekly-crime-wrap-up-nov-19-25/" data-ht="mediaview-grid24" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Weekly crime wrap-up Nov. 19-25
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 25, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94401318/watch-happiness-drives-joys-passion-for-cooking/" data-ht="mediaview-grid25" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/930e88bdde21101f023abc7eb6985df639d5723b/c=0-229-4512-2778&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/24/PAGroup/YorkDailyRecord/636156083231626213-DSC-0164.JPG" src="http://www.gannett-cdn.com/-mm-/f6071011b78b61bba58b9fe45de86eb1b5a22a3a/c=0-229-4512-2778&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/24/PAGroup/YorkDailyRecord/636156083231626213-DSC-0164.JPG" alt="Joy Anderson continues to cook large meals for her family on the holidays, despite health issues." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:09
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94401318/watch-happiness-drives-joys-passion-for-cooking/" data-ht="mediaview-grid25" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Happiness drives Joy&#39;s passion for cooking
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 24, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94297706/watch-the-judicial-process/" data-ht="mediaview-grid26" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/de87f2c70041d90b46e0ee59f367980c4f790f8f/c=4-0-1916-1080&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154287883085585-judicial-process.jpg" src="http://www.gannett-cdn.com/-mm-/a7044e4e7618f575ad4b7e1e6d8ba1c0a940f28e/c=4-0-1916-1080&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154287883085585-judicial-process.jpg" alt="Here's a look at how the court process works in York County, from arrest to a possible conviction." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          crime
+         </span>
+         <span class="duration">
+          01:40
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94297706/watch-the-judicial-process/" data-ht="mediaview-grid26" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: The Judicial Process
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 23, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94330910/watch-christmas-emergency-fund/" data-ht="mediaview-grid27" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/1ccc5cc0787ac46d1b396242a3ed67dbfb987720/c=3-0-1277-720&amp;r=1280&amp;r=x193&amp;c=340x190/local/-/media/2016/11/23/PAGroup/YorkDailyRecord/636154883767451746-cef-ydr.jpg" src="http://www.gannett-cdn.com/-mm-/977bd7f2be1c9e62305191e19379b6de85a9dfc1/c=3-0-1277-720&amp;r=1280&amp;r=x93&amp;c=160x90/local/-/media/2016/11/23/PAGroup/YorkDailyRecord/636154883767451746-cef-ydr.jpg" alt="The York Daily Record/Sunday News is partnering with the United Way of York County to fund critical needs programs such as shelter services, food security, and emergency services. All donations will benefit families and individuals in York County." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          00:54
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94330910/watch-christmas-emergency-fund/" data-ht="mediaview-grid27" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Christmas Emergency Fund
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 23, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94305092/watch-14-cars-involved-in-mcdonalds-drive-thru-pay-it-forward/" data-ht="mediaview-grid28" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f76b274f48e06df3950d139a5726c7047ae56428/r=x193&amp;c=340x190/http/videos.ydr.com/brightcove/http/4303072811001/201611/3918/4303072811001_5221274110001_5221254042001-vs.jpg" src="http://www.gannett-cdn.com/-mm-/bb2daec36a93689d021dd2dd0c833dd54701d267/r=x93&amp;c=160x90/http/videos.ydr.com/brightcove/http/4303072811001/201611/3918/4303072811001_5221274110001_5221254042001-vs.jpg" alt="Beth Brennan and her son, Luke, were one of 14 cars that paid for cars behind them in the drive-thru at McDonalds." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          local
+         </span>
+         <span class="duration">
+          00:57
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94305092/watch-14-cars-involved-in-mcdonalds-drive-thru-pay-it-forward/" data-ht="mediaview-grid28" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: 14 cars involved in mcdonald&#39;s drive-thru pay it forward
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94298506/photos-a-tour-of-three-mile-island-nuclear-power-plant/" data-ht="mediaview-grid29" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/6d9ca097eac4bd4a96f12be642282b169390931f/c=0-101-2000-1231&amp;r=x193&amp;c=340x190/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154295710761695-YDR-PMK-112216-TMI-12.jpg" src="http://www.gannett-cdn.com/-mm-/087cd8fb1f1d948c0e28447cf8c2aee885a99457/c=0-101-2000-1231&amp;r=x93&amp;c=160x90/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154295710761695-YDR-PMK-112216-TMI-12.jpg" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94298506/photos-a-tour-of-three-mile-island-nuclear-power-plant/" data-ht="mediaview-grid29" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Photos: A tour of Three Mile Island nuclear power plant
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94299646/watch-tmi-uncertain-future/" data-ht="mediaview-grid30" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/00b3987064183dd71c45d2939f4bbb1cbd218615/c=0-474-4698-3128&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154295945075197-YDR-PMK-112216-TMI-1.jpg" src="http://www.gannett-cdn.com/-mm-/9741bfb897eebe3e30107f6d2bbca01613739c8d/c=0-474-4698-3128&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154295945075197-YDR-PMK-112216-TMI-1.jpg" alt="A major employer in York and Dauphin Counties, Three Mile Island looks at ways to remain profitable in the future." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:34
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94299646/watch-tmi-uncertain-future/" data-ht="mediaview-grid30" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: TMI uncertain future
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94083558/watch-kocotek-executive-talks-about-the-companys-move-to-york/" data-ht="mediaview-grid31" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f76b274f48e06df3950d139a5726c7047ae56428/r=x193&amp;c=340x190/http/videos.ydr.com/brightcove/http/4303072811001/201611/3403/4303072811001_5221023031001_5214971861001-vs.jpg" src="http://www.gannett-cdn.com/-mm-/bb2daec36a93689d021dd2dd0c833dd54701d267/r=x93&amp;c=160x90/http/videos.ydr.com/brightcove/http/4303072811001/201611/3403/4303072811001_5221023031001_5214971861001-vs.jpg" alt="Kocotek sells equipment used by food manufacturers, including those in the chocolate industry. In October, the company relocated its headquarters to York from the Hunt Valley area." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label money">
+          business
+         </span>
+         <span class="duration">
+          01:15
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94083558/watch-kocotek-executive-talks-about-the-companys-move-to-york/" data-ht="mediaview-grid31" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Kocotek executive talks about the company&#39;s move to York.
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94266892/watch-pole-split-wires-down-after-crash-on-lake-road-in-jackson-twp/" data-ht="mediaview-grid32" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/f76b274f48e06df3950d139a5726c7047ae56428/r=x193&amp;c=340x190/http/videos.ydr.com/brightcove/http/4303072811001/201611/2094/4303072811001_5220633582001_5220604646001-vs.jpg" src="http://www.gannett-cdn.com/-mm-/bb2daec36a93689d021dd2dd0c833dd54701d267/r=x93&amp;c=160x90/http/videos.ydr.com/brightcove/http/4303072811001/201611/2094/4303072811001_5220633582001_5220604646001-vs.jpg" alt="South Lake Road will be closed for an extended period of time, according to 911." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+         <span class="duration">
+          01:28
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94266892/watch-pole-split-wires-down-after-crash-on-lake-road-in-jackson-twp/" data-ht="mediaview-grid32" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Pole split, wires down after crash on Lake Road in Jackson Twp.
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/89806274/watch-how-a-sobriety-checkpoint-works/" data-ht="mediaview-grid33" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/058a52240178c4502ce8e79e49bc8cd62af28137/c=34-0-2845-1588&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154012127426990-Screen-Shot-2016-11-22-at-8.46.18-AM.png" src="http://www.gannett-cdn.com/-mm-/b717f888e95ab03379e5c5d733d455b3fd8e61f6/c=34-0-2845-1588&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/22/PAGroup/YorkDailyRecord/636154012127426990-Screen-Shot-2016-11-22-at-8.46.18-AM.png" alt="Sobriety checkpoints are designed to remove impaired drivers from the road. Here's what you can expect when you go through one." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          crime
+         </span>
+         <span class="duration">
+          01:17
+         </span>
+        </div>
+        <a href="/media/cinematic/video/89806274/watch-how-a-sobriety-checkpoint-works/" data-ht="mediaview-grid33" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: How a sobriety checkpoint works
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/gallery/94024866/no-potty-talk-underground-restrooms-made-york-comfortable-for-decades/" data-ht="mediaview-grid34" class="media-list-link">
+         <figure class="gallery grid-figure media-list-gallery">
+          <div class="media-gallery-bg one">
+          </div>
+          <div class="media-gallery-bg two">
+          </div>
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/4dd04e234b665a072853eb905d62abc4d56b042f/c=0-23-512-312&amp;r=x193&amp;c=340x190/local/-/media/2016/11/17/PAGroup/YorkDailyRecord/636149829283910033-cs6.JPG" src="http://www.gannett-cdn.com/-mm-/a2a2242d3de6598975c71f0354abe4ec9bfc1f0c/c=0-23-512-312&amp;r=x93&amp;c=160x90/local/-/media/2016/11/17/PAGroup/YorkDailyRecord/636149829283910033-cs6.JPG" alt="" class="thumb-img" />
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          York Town Square
+         </span>
+        </div>
+        <a href="/media/cinematic/gallery/94024866/no-potty-talk-underground-restrooms-made-york-comfortable-for-decades/" data-ht="mediaview-grid34" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          No potty talk: Underground restrooms made York comfortable for decades
+         </figcaption>
+         <ul class="meta type-gallery media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 22, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94238838/watch-former-nfl-players-visit-york-school-with-message-of-hope/" data-ht="mediaview-grid35" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/e676098e3d64581e5841d5db57ba8318661d5e21/c=0-37-1998-1166&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/21/PAGroup/YorkDailyRecord/636153449483217540-YDR-112116-pmk-strength-3.JPG" src="http://www.gannett-cdn.com/-mm-/348d14fedbf0b26a512bdb1343fbfca6f58bae47/c=0-37-1998-1166&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/21/PAGroup/YorkDailyRecord/636153449483217540-YDR-112116-pmk-strength-3.JPG" alt="Shawn King, who played for the Colts and Carolina Panthers and Jerome King who played with the Chicago Bears, visited  Devers K-8 School in York with the John Jacobs' Next Generation Power Force, a strength team with a message to lift the world." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          local
+         </span>
+         <span class="duration">
+          02:53
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94238838/watch-former-nfl-players-visit-york-school-with-message-of-hope/" data-ht="mediaview-grid35" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          Watch: Former NFL players visit York School with message of hope
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 21, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+       <li class=" medialistitems">
+        <a href="/media/cinematic/video/94239124/watch-new-technology-helping-catch-underage-drinkers/" data-ht="mediaview-grid36" class="media-list-link">
+         <figure class="video grid-figure media-list-video">
+          <span class="thumbnail">
+           <img data-large-src="http://www.gannett-cdn.com/-mm-/53086162b1d875efcd66dd901fdd88390b8d5035/c=3-0-1331-750&amp;r=1280x720&amp;r=x193&amp;c=340x190/local/-/media/2016/11/21/PAGroup/YorkDailyRecord/636153440887874442-image1.PNG" src="http://www.gannett-cdn.com/-mm-/df9acf24c99a21162dbb91cdc4f2d2c51f4e0fc4/c=3-0-1331-750&amp;r=1280x720&amp;r=x93&amp;c=160x90/local/-/media/2016/11/21/PAGroup/YorkDailyRecord/636153440887874442-image1.PNG" alt="New card readers, like the ones found at Fat Daddy's Nightclub in Springettsbury, are helping businesses catch underage drinkers. Here's how they work." class="thumb-img" />
+           <span class="play-btn-xl">
+           </span>
+          </span>
+         </figure>
+        </a>
+        <div class="meta media-figure-meta">
+         <span class="parent-label news">
+          news
+         </span>
+        </div>
+        <a href="/media/cinematic/video/94239124/watch-new-technology-helping-catch-underage-drinkers/" data-ht="mediaview-grid36" class="media-list-link">
+         <figcaption class="grid-fig-capt">
+          WATCH: New technology helping catch underage drinkers
+         </figcaption>
+         <ul class="meta type-video media-grid-list-meta">
+          <li class="date media-grid-list-meta-li">
+           Nov 21, 2016
+          </li>
+         </ul>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <script type="json/pageinfo" class="pageinfo">
+     {
+            "contenttype": "media view",
+            "basePageType": "",
+            "media_type": "mixed",
+            "section_name": "mediaview-news",
+            "seotitle": "Videos,Photos - The York Daily Record",
+            "sort_type": "date",
+            "ssts": "mediaview/news",
+            "sub_section_name": "mostpopular",
+            "cst": "mediaview/news"
+        }
+    </script>
+   </div>
+  </section>
+  <div id="ad-staging">
+  </div>
+  <script type="text/javascript" src="http://mtrx.go.sonobi.com/morpheus.usatoday.1587.js">
+  </script>
+  <script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js">
+  </script>
+  <script type="text/javascript" src="http://ads.rubiconproject.com/header/11324.js">
+  </script>
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/aol/pubtaglib-0.4.3-register.min.js">
+  </script>
+  <!--[if lt IE 9]&gt;&lt;script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/jsb/main_legacy.min.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <!--[if gt IE 8]&gt;&lt;!-->
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/jsb/main.min.js">
+  </script>
+  <!--&lt;![endif]-->
+  <div id="fb-root">
+  </div>
+  <script src="http://www.gannett-cdn.com/appservices/gidgits-js/gidgits.min.js" id="gidgits-script">
+  </script>
+  <script type="text/javascript">
+   var mainAd = document.createElement('div');
+        mainAd.id = 'main_ad';
+        mainAd.style.cssText = 'height:1px; width:1px; overflow:auto;position: absolute;left: -999em;';
+        document.body.appendChild(mainAd);
+        var blockPosition = document.getElementById('main_ad');
+        if(blockPosition &amp;&amp; blockPosition.offsetHeight == 1) {
+            window.adsEnabled = true;
+        }
+  </script>
+ </body>
+</html>

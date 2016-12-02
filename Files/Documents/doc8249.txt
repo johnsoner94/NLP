@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Students - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/students/">
+            Students
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          &nbsp;
+         </div>
+         <div>
+          &nbsp;
+         </div>
+         <!-- InstanceBeginEditable name="EditMainContent" -->
+         <div class="content-add05">
+          <h3>
+           Resources for Current Students
+          </h3>
+          <p>
+           Welcome to the home page for psychology students. Here you will find links to many commonly used forms and documents, as well as helpful information about studying, APA style writing, careers, and grad school. Note: this page is under construction (re-construction)
+          </p>
+          <br />
+          <div class="content-add03">
+           <div id="cse" style="width: 90%;">
+            Loading search engine...
+           </div>
+           <script src="http://www.google.com/jsapi" type="text/javascript">
+           </script>
+           <script type="text/javascript">
+            // &lt;![CDATA[
+google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function(){
+    var customSearchControl = new google.search.CustomSearchControl('012459534147010348389:zro9vu9d__m');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+// ]]&gt;
+           </script>
+          </div>
+          <hr />
+          <p>
+           <strong>
+            FREQUENTLY ACCESSED LINKS
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="/main/academics/psychology/learningoutsidetheclassroomloc/">
+             How to Sign-Up for LOC Research Participation with SONA
+            </a>
+           </li>
+           <li>
+            <a href="http://www.surveymethods.com/EndUser.aspx?B692FEE4BFF3E6E0B2">
+             LOC-R Assignment (for Intro Psych students)
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/experimenterforms/">
+             Instructions for Student Researchers (Ethics, Templates)
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/seniorthesis/">
+             Senior Thesis, Department Awards &amp; Honors
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/psychologyday/">
+             Psychology Day
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/psichihonorsociety/">
+             Psi Chi Honor Society
+            </a>
+           </li>
+          </ul>
+          <hr />
+          <p>
+           <strong>
+            PSYCHOLOGICAL RESEARCH
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            Being a Participant in a Research Study
+            <ul>
+             <li>
+              <a href="/main/academics/psychology/learningoutsidetheclassroomloc/">
+               How to Sign-Up for LOC Research Participation with SONA
+              </a>
+             </li>
+             <li>
+              <a href="http://www.surveymethods.com/EndUser.aspx?B692FEE4BFF3E6E0B2">
+               LOC-R Assignment (for Intro Psych students)
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            Conducting Research
+            <ul>
+             <li>
+              <a href="/main/academics/psychology/experimenterforms/">
+               Instructions for Student Researchers (Ethics, Templates)
+              </a>
+             </li>
+             <li>
+              <a href="/main/academics/psychology/research/">
+               Research Opportunities &amp; Funding
+              </a>
+             </li>
+             <li>
+              <a href="/main/academics/psychology/seniorthesis/">
+               Senior Thesis Program
+              </a>
+             </li>
+             <li>
+              <a href="http://www.randomizer.org/form.htm">
+               Random Number Generator
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <hr />
+          <p>
+           <strong>
+            EFFECTIVE STUDYING / READING STRATEGIES
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="/main/aboutus/arc/strategiesforcollegesuccess/">
+             Strategies for Success in College
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/arc/">
+             Muhlenberg&nbsp;Academic Resource Center
+            </a>
+           </li>
+           <li>
+            <a href="http://www.dartmouth.edu/~acskills/success/reading.html">
+             College Level Active Reading Myths &amp; Skills
+            </a>
+           </li>
+          </ul>
+          <ul>
+           <li>
+            Reading Empirical Articles
+            <ul>
+             <li>
+              <a href="http://www.uvm.edu/~dguber/POLS234/articles/read.htm">
+               Jordan &amp; Zanna Article
+              </a>
+             </li>
+             <li>
+              Muhlenberg Resource (coming soon)
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="http://www.youtube.com/watch?v=rFIK5gutHKM">
+             SQ3R Study Technique: Make Things Memorable
+            </a>
+           </li>
+           <li>
+            <a href="http://www.socialpsychology.org/testtips.htm">
+             Tips on Taking Multiple Choice Tests
+            </a>
+           </li>
+          </ul>
+          &nbsp;
+          <hr />
+          <p>
+           <strong>
+            LIBRARY/PsycINFO RESOURCES
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="http://www.muhlenberg.edu/library/">
+             Trexler Library
+            </a>
+           </li>
+           <li>
+            <a href="http://libraryguides.muhlenberg.edu/psychology">
+             Library Instruction Guide for Psychology
+            </a>
+           </li>
+           <li>
+            <a href="http://www.apa.org/pubs/databases/training/ebsco.pdf">
+             Quick PsycINFO Guide from Ebsco
+            </a>
+           </li>
+           <li>
+            Finding Articles for Beginners (coming soon)
+           </li>
+          </ul>
+          <br />
+          <hr />
+          <p>
+           <strong>
+            WRITING &amp; PRESENTATION RESOURCES
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            Writing Empirical Papers for Beginners (coming soon)
+           </li>
+           <li>
+            <a href="http://dbem.ws/WritingArticle.pdf">
+             Writing Empirical Papers: Advanced (Bem Chapter)
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/researchtalk/">
+             Creating an Oral Presentation
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/psychology/posterpresentation/">
+             Creating a Poster Presentation
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/writing/center/">
+             Muhlenberg Writing Center
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/writing/center/onlineresources/">
+             Online Writing Resources
+            </a>
+           </li>
+          </ul>
+          <br />
+          <hr />
+          <p>
+           <strong>
+            APA STYLE
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="http://flash1r.apa.org/apastyle/basics/index.htm">
+             APA Style Basics Tutorial (w/audio)
+            </a>
+           </li>
+           <li>
+            <a href="http://supp.apa.org/style/PM6E-Corrected-Sample-Papers.pdf">
+             Annotated Sample Paper
+            </a>
+           </li>
+           <li>
+            Citing Sources for Beginners (coming soon)
+           </li>
+           <li>
+            <a href="http://supp.apa.org/style/pubman-ch03.00.pdf">
+             APA Guidelines for Unbiased Language
+            </a>
+           </li>
+           <li>
+            <a href="http://supp.apa.org/style/pubman-ch03.12.pdf">
+             APA Language Use for Gender
+            </a>
+           </li>
+           <li>
+            <a href="http://supp.apa.org/style/pubman-ch03.13.pdf">
+             APA Language Use for Sexual Orientation
+            </a>
+           </li>
+           <li>
+            <a href="/media/contentassets/pdf/academics/psychology/stats_reports_apa.pdf">
+             APA Stats Research Reports
+            </a>
+           </li>
+           <li>
+            <a href="http://www.youtube.com/watch?v=9WFK6qSOrs8">
+             How-To: APA Headers in Word 2010 (video)
+            </a>
+           </li>
+          </ul>
+          <hr />
+          <p>
+           <strong>
+            INTERNSHIPS
+           </strong>
+           &nbsp;
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="/main/academics/psychology/internships/">
+             Internships, Service-Learning, Volunteering
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/community-service/">
+             Muhlenberg's Office of Community Engagement
+            </a>
+           </li>
+           <li>
+            Declared Majors:&nbsp;
+            <a href="https://muhlenbergcollege.instructure.com/courses/3366">
+             Psych Major Canvas Site for Announcements
+            </a>
+           </li>
+           <li>
+            PSY 960 Seminar - See Dr. Sinno
+           </li>
+          </ul>
+          <br />
+          <hr />
+          <p>
+           <strong>
+            CAREERS AND GRADUATE SCHOOL
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            General Information
+            <ul>
+             <li>
+              <a href="http://www.apa.org/careers/resources/guides/careers.aspx">
+               APA Overview of Careers in Psychology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm#tab-1">
+               Occupational Outlook Handbook, Psychology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.careerprofiles.info/psychology-careers.html">
+               Career Profiles in Psychology
+              </a>
+             </li>
+             <li>
+              <a href="http://www.psychology.org/degrees/">
+               Overview of Degrees in Psychology
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <ul>
+           <li>
+            Graduate School Advice and Research Findings
+            <ul>
+             <li>
+              <a href="http://psych.iupui.edu/sites/default/files/guidetograduateschool_1.pdf">
+               Is Graduate School Right for You?
+              </a>
+             </li>
+             <li>
+              <a href="http://psych.iupui.edu/sites/default/files/guidetowritingapersonalstatement_1.pdf">
+               Guide to Writing a Personal Statement
+              </a>
+              &nbsp;
+             </li>
+             <li>
+              <a href="/media/contentassets/pdf/academics/psychology/Kisses of Death Handout - Final Edit.pdf">
+               Kisses of Death in Graduate School Applications
+              </a>
+             </li>
+             <li>
+              <a href="/media/contentassets/pdf/academics/psychology/Mitch's Grad School Advice.pdf">
+               Applying to Grad School (Clinical focusl; by M. Prinstein)
+              </a>
+             </li>
+             <li>
+              <a href="http://clinicalpsychgradschool.org/phdor.php">
+               Is Clinical Graduate School Right for You?
+              </a>
+              &zwnj;&nbsp;
+             </li>
+             <li>
+              <a href="http://clinicalpsychgradschool.org/">
+               Guide to Grad School in Clinical Psychology
+              </a>
+             </li>
+             <li>
+              <a href="http://counselor-education.com/">
+               Counseling Psychology Information
+              </a>
+              &zwnj;
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <ul>
+           <li>
+            Links to Resource Lists
+            <ul>
+             <li>
+              <a href="http://www.psychologycareercenter.org/">
+               PsychologyCareerCenter.org
+              </a>
+             </li>
+             <li>
+              <a href="http://personalitypedagogy.arcadia.edu/pmwiki/pmwiki.php?n=Topics.Careers">
+               Careers - Web Resources for Psych Majors
+              </a>
+             </li>
+             <li>
+              <a href="http://psych.hanover.edu/gradframe.html">
+               Career Information Links, Hanover College
+              </a>
+             </li>
+             <li>
+              <a href="http://psych.hanover.edu/gradschool.php">
+               Graduate School Resources, Hanover College
+              </a>
+             </li>
+             <li>
+              <a href="/media/contentassets/pdf/academics/psychology/appleby15students.docx">
+               280 Careers in Psychology
+              </a>
+             </li>
+             <li>
+              <a href="http://counselor-education.com/">
+               Counseling Psychology
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <ul>
+           <li>
+            Curriculum Vitae
+            <ul>
+             <li>
+              <a href="http://www.psychologicalscience.org/index.php/members/apssc/undergraduate_update/undergraduate-update-summer-2013/how-to-write-a-strong-cv">
+               How to Write a CV
+              </a>
+             </li>
+             <li>
+              <a href="http://www.psychologicalscience.org/apssc/uu/articles/curriculumvita.cfm">
+               More on Writing a CV
+              </a>
+             </li>
+             <li>
+              <a href="http://www.ohioupsychology.com/files/images/pdf/SAMPLE_VITA.pdf">
+               Sample CV 1
+              </a>
+             </li>
+             <li>
+              <a href="/media/contentassets/pdf/academics/psychology/example_vita.pdf">
+               Sample CV 2
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <br />
+          <hr />
+          <p>
+           <strong>
+            ORGANIZATIONS
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="/main/academics/psychology/psichihonorsociety/">
+             Psi Chi Honor Society
+            </a>
+           </li>
+           <li>
+            <a href="http://www.psychologicalscience.org/">
+             Association for Psychological Science (APS)
+            </a>
+           </li>
+           <li>
+            <a href="http://www.apa.org/">
+             American Psychological Association (APA)
+            </a>
+           </li>
+           <li>
+            <a href="http://www.easternpsychological.org/">
+             Eastern Psychological Association
+            </a>
+           </li>
+           <li>
+            <a href="http://www.spsp.org/">
+             Society for Personality &amp; Social Psychology
+            </a>
+           </li>
+           <li>
+            <a href="http://www.sfn.org/">
+             Society for Neuroscience
+            </a>
+           </li>
+           <li>
+            <a href="http://www.nasponline.org/">
+             National Association of School Psychologists
+            </a>
+           </li>
+           <li>
+            <a href="http://www.psysr.org/">
+             Psychologists for Social Responsibility
+            </a>
+           </li>
+           <li>
+            <a href="http://www.scra27.org/about">
+             Society for Community Research and Action (SCRA)
+            </a>
+           </li>
+           <li>
+            <a href="http://psychology.msu.edu/CMPR/resources_in_multicultural_psych.aspx">
+             Resources in Multicultural Psychology
+            </a>
+           </li>
+          </ul>
+          <hr />
+          <p>
+           <strong>
+            ADDITIONAL LINKS
+           </strong>
+          </p>
+          <br />
+          <ul>
+           <li>
+            <a href="http://www.classism.org/">
+             Classism.org
+            </a>
+           </li>
+           <li>
+            <a href="http://www.vanguard.edu/psychology/amoebaweb/">
+             AmoebaWeb
+            </a>
+            &nbsp;(over 2000 links to psychology content)
+           </li>
+           <li>
+            <a href="http://www.psychwww.com/">
+             Psych Web
+            </a>
+            &nbsp;(psych information, continually updated)
+           </li>
+           <li>
+            <a href="http://psych.hanover.edu/Krantz/tutor.html">
+             Psychology Tutorials &amp; Demonstrations
+            </a>
+           </li>
+           <li>
+            <a href="http://psych.hanover.edu/psychlinkframe.html">
+             Hanover College Links
+            </a>
+           </li>
+           <li>
+            <a href="http://www.albion.edu/psychology/program-resources">
+             Albion College&nbsp;Links
+            </a>
+           </li>
+           <li>
+            <a href="http://www.socialpsychology.org/">
+             Social Psy Network
+            </a>
+            &nbsp;(one of largest sites for psy research/teaching)
+           </li>
+           <li>
+            <a href="http://www.affordablecollegesonline.org/college-student-mental-health/" target="_blank">
+             College Student Mental Health Issues
+            </a>
+           </li>
+          </ul>
+         </div>
+         <!-- InstanceEndEditable -->
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

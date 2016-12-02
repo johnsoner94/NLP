@@ -1,0 +1,1389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   CorkBoard - Community Service and Civic Engagement | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Community Service &amp; Civic Engagement
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/">
+               Student Life
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/campuslife/community-service/">
+               Community Service and Civic Engagement
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/campuslife/community-service/corkboard/">
+               CorkBoard
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add05">
+           <strong>
+            <a href="https://www.facebook.com/MCOCE" target="_blank">
+             <img alt="" src="http://t4.muhlenberg.edu/terminalfour/SiteManager?ctfn=download&amp;fnno=60&amp;ceid=635579871" style="float: right;" />
+            </a>
+            <a href="http://ocemuhlenberg.blogspot.com/" target="_blank">
+             <img alt="" src="http://t4.muhlenberg.edu/terminalfour/SiteManager?ctfn=download&amp;fnno=60&amp;ceid=607231719" style="float: right;" />
+            </a>
+            &zwnj;&zwnj;
+           </strong>
+           <strong>
+            &zwnj;
+           </strong>
+           <h3>
+            CorkBoard
+           </h3>
+           <p>
+            This bi-weekly bulletin is designed to summarize upcoming volunteer events so that you, and your organizations, can get involved in a variety of service and engagement opportunities. Please feel free to peruse the text descriptions below.
+           </p>
+           <p>
+            Do you have an event you need volunteers for? We are happy to add events to CorkBoard. Please send an email to
+            <a href="mailto:CommunityService@Muhlenberg.edu">
+             CommunityService@Muhlenberg.edu
+            </a>
+            with the event name, date(s), time(s), a description of the event and contact information. We will do our best to post it in our upcoming bulletin.
+           </p>
+           <p>
+            Please feel free to pass CorkBoard on to anyone who may be interested in volunteering and/or attending the described events. Individuals may subscribe to CorkBoard by emailing
+            <a href="mailto:CommunityService@Muhlenberg.edu">
+             CommunityService@Muhlenberg.edu
+            </a>
+            with "subscribe" in the subject
+           </p>
+           <p>
+            Enjoy!
+            <br />
+            The Office of Community Service &amp; Civic Engagement
+           </p>
+           <ol>
+            <li>
+             <h1>
+              <span class="content-add10">
+               ******************************************
+              </span>
+             </h1>
+            </li>
+            <li>
+             <strong>
+              CorkBoard &ndash; Vol. 3.13
+             </strong>
+            </li>
+            <li>
+             &ldquo;Happiness does not consist in pastimes and amusements but in virtuous activities.&rdquo; Aristotle
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              A Campus Discussion of Trayvon Martin
+             </strong>
+            </li>
+            <li>
+             Tuesday, March 27th 12:30-1:45pm
+            </li>
+            <li>
+             Muhlenberg College, the Center
+            </li>
+            <li>
+             A Brown Bag&nbsp;discussion will be held to discuss the&nbsp;Trayvon Martin case and how it could be potentially play out on our campus.
+            </li>
+            <li>
+             For more information contact Robin Riley-Casey at
+             <a href="mailto:robin.riley-casey@muhlenberg.edu">
+              robin.riley-casey@muhlenberg.edu
+             </a>
+             or 484-664-3228
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              BOA funding applications are available!
+             </strong>
+            </li>
+            <li>
+             The Board of Associates (BOA) generously supports student organized events, programs&nbsp;and projects which strive to work with and connect to Allentown communities.&nbsp; A select number of proposals are reviewed by the Board annually.&nbsp; If you, and/or your organization, would like to present a proposal for funding to the BOA you must first complete the attached application.&nbsp; Selected projects will be contacted by the end of the day on Friday, March 30, 2012.&nbsp;
+            </li>
+            <li>
+             <strong>
+              Application Due
+             </strong>
+             : Wednesday, March 28, 2012 by 4:30 PM
+            </li>
+            <li>
+             <em>
+              Presentation date (if project is selected) &ndash;&nbsp;April 5, 2012
+             </em>
+            </li>
+            <li>
+             If you have and questions and/or if you would like to talk through ideas for projects, come by the Office or contact Eveily Freeman at
+             <a href="mailto:eveily.freeman@muhlenberg.edu">
+              eveily.freeman@muhlenberg.edu
+             </a>
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Supporting the Emerging Workforce
+             </strong>
+             (a discussion lead by State Senator Lisa M. Boscola)
+            </li>
+            <li>
+             Thursday, March 29th at 1:00pm
+            </li>
+            <li>
+             Northampton Community College Alumni Hall
+            </li>
+            <li>
+             The Pennsylvania State Democratic Policy Committee invites you to join this roundtable discussion of job creation programs, especially those aimed at assisting the young, emerging workforce. We will discuss the important role played by universities, community colleges, technical and trade schools in career development, and examine how we can match this development with real world jobs.
+            </li>
+            <li>
+             For more information, please feel free to contact Jeff Warren or Laura Collins&nbsp;of Lisa M. Boscola&rsquo;s staff at 610.868.8667.
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Volunteer Nominations for Allentown&rsquo;s Impact Service Plan!
+             </strong>
+            </li>
+            <li>
+             Wednesday, April 18th
+            </li>
+            <li>
+             Muhlenberg College
+            </li>
+            <li>
+             Mayor Pawlowski will discuss Allentown's Impact Service Plan on volunteerism. At the same time he will acknowledge and celebrate volunteers at a luncheon with a SERVAllentown recognition certificate from AARP and Cities of Service.
+            </li>
+            <li>
+             Consider nominating volunteers you know&nbsp;for this special recognition!
+            </li>
+            <li>
+             Please email Ismael Arcelay-
+             <a href="mailto:Ismael.Arcelay@allentowncity.org">
+              Ismael.Arcelay@allentowncity.org
+             </a>
+             with the following information by March 30, 2012
+            </li>
+            <li>
+             <span style="text-decoration: underline;">
+              Criteria for nominations are simple
+             </span>
+             :
+             <ol>
+              <li>
+               &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Volunteerism occurred in Allentown
+              </li>
+              <li>
+               &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Have provided over 100 hours during 2011
+              </li>
+             </ol>
+            </li>
+            <li>
+             <br />
+             <span style="text-decoration: underline;">
+              Categories include
+             </span>
+             :
+             <ol>
+              <li>
+               &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kids &nbsp;10 &ndash; 14, Young Adult &nbsp;15- 24, Adults&nbsp;&nbsp;&nbsp;&nbsp; 25 &ndash; older
+              </li>
+              <li>
+               &middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Faith-Based, Business, Community Organization, Government,
+               <ol>
+                <li>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Education, Community
+                </li>
+               </ol>
+              </li>
+             </ol>
+            </li>
+            <li>
+             <span style="text-decoration: underline;">
+              All nominations must include
+             </span>
+             ;
+             <ol>
+              <li>
+               1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name of nominee: ________________________________
+              </li>
+              <li>
+               2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name and contact information of nominator:_____________
+              </li>
+              <li>
+               3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Brief description of volunteer activity:__________________
+              </li>
+              <li>
+               4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Age category;____________________________________
+              </li>
+              <li>
+               5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Group category: __________________________________
+              </li>
+             </ol>
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Justice or Just Us? A Peace Conference
+             </strong>
+            </li>
+            <li>
+             Friday, March 30th 9:00am-2:30pm
+            </li>
+            <li>
+             Northampton Community College, College Center 220 &amp; Laub Lounge
+            </li>
+            <li>
+             Northampton Community College will be hosting its second annual Peace Conference.&nbsp; "JUSTICE OR JUST US? Activism in the Age of Inequality" will be the theme of this year's conference.&nbsp;
+            </li>
+            <li>
+             Keynote speaker will be Alan Jennings, Executive Director of CACLV (Community Action Committee of the Lehigh Valley).&nbsp; His presentation titled "Patience and Good Manners Won't Win the Fight" should provide the foundation for a vibrant discussion!
+            </li>
+            <li>
+             If you have any questions or need directions, please do not hesitate to contact Debra Bohr at
+             <a href="mailto:dbohr@northampton.edu">
+              dbohr@northampton.edu
+             </a>
+             or 610.861.5061
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              "The School of the Americas and U.S. Foreign Policy in Latin America"&nbsp;&nbsp;
+             </strong>
+             <strong>
+              &nbsp;
+             </strong>
+            </li>
+            <li>
+             Friday, March 30th
+            </li>
+            <li>
+             Dyer Auditorium, Walter Hall, Moravian Academy's Merle-Smith (Upper School) Campus
+            </li>
+            <li>
+             4313 Green Pond Road, Bethlehem, Pa. 18020
+            </li>
+            <li>
+             <strong>
+              &nbsp;
+             </strong>
+            </li>
+            <li>
+             Join us for an evening of Latin American tapas, live music, and a presentation by Father Roy Bourgeois, a Maryknoll Priest. The presentation will include time for questions by the audience. No cost, but please donate a non-perishable food item for the New Bethany Ministries' Food Bank.
+            </li>
+            <li>
+             <strong>
+              &nbsp;
+             </strong>
+            </li>
+            <li>
+             5:00-6:00 p.m. -Reception and Latin American tapas with live music
+            </li>
+            <li>
+             6:00 - 7:15 p.m.: Presentation by Fr. Roy Bourgeois and Q &amp; A.
+            </li>
+            <li>
+             <strong>
+              &nbsp;&nbsp;&nbsp;
+             </strong>
+            </li>
+            <li>
+             Register by contacting: Katherine Burd at 610-691-1600, ext. 349, or email
+             <a href="mailto:kburd@moravianacademy.org">
+              kburd@moravianacademy.org
+             </a>
+            </li>
+            <li>
+             <strong>
+              &nbsp;&nbsp;
+             </strong>
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Chit-Chat &amp; Chow!
+             </strong>
+            </li>
+            <li>
+             Tuesday, April 3rd &amp; 5th &nbsp;
+            </li>
+            <li>
+             Common Hour (12:30-1:45pm)
+            </li>
+            <li>
+             GQ Annex, Seegers Union
+            </li>
+            <li>
+             That's right, we will provide the&nbsp;lunch if you bring your thoughts and reflections on working with agencies and&nbsp;organizations serving adults (April 3rd conversation) and youth (April 5th converstation) in Allentown! What have you learned about the city through these experiences?&nbsp; What have you learned about yourself?
+            </li>
+            <li>
+             Please RSVP (positive only) to Eveily Freeman,
+             <a href="mailto:efreeman@muhlenberg.edu">
+              efreeman@muhlenberg.edu
+             </a>
+             by Friday,&nbsp;March 30.&nbsp;
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Blood Drive - ON CAMPUS!
+             </strong>
+            </li>
+            <li>
+             April 11th
+            </li>
+            <li>
+             Sign-ups: April 3rd-10th
+            </li>
+            <li>
+             The brothers of Sigma Phi Epsilon are pairing up with Miller-Keystone for our twice-annual blood drive.&nbsp; The date of the event is April 11th and brothers will be tabling in early April.&nbsp; We hope you can make it out and donate!!&nbsp;
+            </li>
+            <li>
+             For more information please contact Phil Weisgold,
+             <a href="mailto:pw237487@muhlenberg.edu">
+              pw237487@muhlenberg.edu
+             </a>
+             .
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Allentown Public Library Spring Gala Fundraiser
+             </strong>
+             <br />
+             Saturday, April 21st 6:00pm-9:30pm
+            </li>
+            <li>
+             Allentown Public Library
+            </li>
+            <li>
+             This year the Allentown Public Library will be celebrating its 100th anniversary. The 2nd Annual "A Novel Affair" gala to benefit the Allentown Public Library includes food samplings by area restaurants, caterers and bakeries, a silent auction and prize drawing.
+            </li>
+            <li>
+             Registration is $75 per person or $140 per couple.
+            </li>
+            <li>
+             For information on sponsorships, to donate prizes or to receive an invitation, contact Janet Cimino at
+             <a href="/main/campuslife/community-service/tel:610-767-9138">
+              610-767-9138
+             </a>
+             .
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Free Benefit Concert for Kids!
+             </strong>
+            </li>
+            <li>
+             Saturday, April 21st 3:00pm
+            </li>
+            <li>
+             Faith UCC church in Center Valley (5992 Route 378. Center Valley, PA 18034)
+            </li>
+            <li>
+             El Sistema is a program that was set up to bring in children from impoverished areas, to teach them to play a musical instrument, and give them educational support.&nbsp;The structure and discipline these kids did not receive at home was key to the program, and instilled a strong sense of community, respect, and above all, hope.
+            </li>
+            <li>
+             Come support El Sistema Lehigh Valley! There will be a concert featuring local student and professional musicians, a short performance by the children involved with the program, guest speaker state representative JUSTIN SIMMONS, refreshments, and a free will offering. &nbsp;
+            </li>
+            <li>
+             If you have any questions, please feel free to contact Elise Schaffer or Steven Liu at
+             <a href="mailto:freeESLVconcert@aol.com">
+              freeESLVconcert@aol.com
+             </a>
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Fridays @ Phoebe!
+             </strong>
+            </li>
+            <li>
+             Every Friday: Meet at 1:45 pm in Parent&rsquo;s Plaza
+            </li>
+            <li>
+             Return to campus at 4:00 pm
+            </li>
+            <li>
+             Interested in spending time with the Phoebe Home residents? Fridays @ Phoebe are looking for volunteers! Come participate in activities with the residents along with other Muhlenberg students.
+            </li>
+            <li>
+             For more information or to sign up, email Emily Prawer at EP245088@muhlenberg.edu or Matt Bocchese at
+             <a href="mailto:MB244899@muhlenberg.edu">
+              MB244899@muhlenberg.edu
+             </a>
+             . Or just show up in Parent&rsquo;s Plaza!
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Do you love scrabble?&nbsp;
+             </strong>
+            </li>
+            <li>
+             Are you looking for a fun and easy way to be involved and give back to the Allentown communities?&nbsp; Some of the residents at the Phoebe Home (an elder care facility just blocks from campus) are looking for some students to&nbsp;make a&nbsp;scrabble group with!&nbsp; The Phoebe Home is just a 5 minute walk down Chew Street and you can meet with the residents&nbsp;during your free time - on your schedule!&nbsp;
+            </li>
+            <li>
+             Please contact Kelly Cann,
+             <a href="mailto:kc246501@muhlenberg.edu">
+              kc246501@muhlenberg.edu
+             </a>
+             if you are interested!
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Volunteer for the Civic Theater of Allentown
+             </strong>
+            </li>
+            <li>
+             <strong>
+              &nbsp;
+             </strong>
+            </li>
+            <li>
+             The Civic Theater of Allentown is looking for volunteers to distribute flyers&nbsp;and posters&nbsp;for upcoming performances&nbsp;at local businesses.&nbsp; This can be done on your own time!&nbsp; A list of businesses will be provided to volunteers.&nbsp; This is&nbsp;a great way to stay in the loop regarding happenings at the Civic Theatre&nbsp;and to find out more about local businesses!
+            </li>
+            <li>
+             For more information and to volunteer contact Tiffany Fritz, 610-433-8903, or by email
+             <a href="mailto:Tiffany@civictheatre.com">
+              Tiffany@civictheatre.com
+             </a>
+             and copy (CC) Eveily Freeman,
+             <a href="mailto:efreeman@muhlenberg.edu">
+              efreeman@muhlenberg.edu
+             </a>
+             ,
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Still looking for more volunteers!
+             </strong>
+            </li>
+            <li>
+             <strong>
+              Community Bike Works - It's not all about bikes.
+             </strong>
+            </li>
+            <li>
+             Wednesdays: 3:50-5:30 PM
+            </li>
+            <li>
+             Thursdays: 3:25-5:30 PM **need more volunteers this day!**
+            </li>
+            <li>
+             Community Bike Works is looking for&nbsp;interested volunteers to take part in "drop-in" hours&nbsp;- you do not have to know anything about bikes!! Seeking volunteers who are&nbsp;enthusiastic about spending time with local Allentown students ages 10-17. Transportation is provided!
+            </li>
+            <li>
+             Contact Anvi Patel,
+             <a href="mailto:ap237800@muhlenberg.edu">
+              ap237800@muhlenberg.edu
+             </a>
+             , (848) 391-3705.
+            </li>
+            <li>
+             --
+            </li>
+            <li>
+             <strong>
+              Volunteer at the Steel Stacks with Ride for Life!
+             </strong>
+            </li>
+            <li>
+             May 5th &amp; 6th
+            </li>
+            <li>
+             Muscular Dystrophy Association is seeking volunteers who like to have fun and can help make this the most successful Ride for Life yet! It is going to be a fun, high energy event with live music, street performers, vendor tents, games, auctions, food and more! Help needed in running the kids activities, manning the incentives tent, operating the silent auction, replenishing food and water, accounting, and more.
+            </li>
+            <li>
+             If you have any questions, please contact Emily Patrick at
+             <a href="mailto:empatrick@ursinus.edu">
+              empatrick@ursinus.edu
+             </a>
+             or 717-395-6353.&nbsp;
+            </li>
+            <li>
+             <strong>
+              P.S.
+             </strong>
+            </li>
+            <li class="style2">
+             Spread the word about CorkBoard and the Office of Community Engagement! If you know someone who is interested in being put on the mailing list, please have them e-mail their name to
+             <a href="mailto:communityservice@muhlenberg.edu">
+              communityservice@muhlenberg.edu
+             </a>
+             and write "Subscribe" in the subject line.
+            </li>
+           </ol>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Community Service &amp; Civic Engagement
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/campuslife/community-service/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/news/">
+            News
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/getinvolved/">
+            Get Involved
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/voterregistration/">
+            Voter Registration
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/whatstudentsaresaying/">
+            What Students Are Saying
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/whatpartnersaresaying/">
+            What Partners Are Saying
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/resources/">
+            Resources
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/servicelearning/">
+            Service Learning
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/community-service/contactus/">
+            Contact Us
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/news/"&gt;News&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/getinvolved/"&gt;Get Involved&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/voterregistration/"&gt;Voter Registration&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/whatstudentsaresaying/"&gt;What Students Are Saying&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/whatpartnersaresaying/"&gt;What Partners Are Saying&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/servicelearning/"&gt;Service Learning&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/community-service/contactus/"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Community
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/activitiescouncilmac/">
+           Muhlenberg Activities Council (MAC)
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/resserv/">
+           Residential Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Sustainable Living
+          </a>
+         </li>
+         <li>
+          <a href="https://themuhlenbergnetwork.com/">
+           The Muhlenberg Network
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Leadership
+        </h3>
+        <ul>
+         <li>
+          <a href="/studorgs/council/">
+           Student Government
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/studentorganizations/">
+           Student Organizations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Diversity
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/multicultural/">
+           Multicultural Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/lgbt/">
+           LGBT
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

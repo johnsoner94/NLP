@@ -1,0 +1,722 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html dir="ltr">
+ <head>
+  <link rel="shortcut icon" href="/gw/webaccess/201411160011/images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/css/branding-min.css" />
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/css/gwstyle-min.css" />
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/css/images-min.css" />
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/css/msgedit-min.css" />
+  <!--[if IE 9]&gt;&lt;LINK REL="stylesheet" TYPE="text/css" HREF="/gw/webaccess/201411160011/css/ie9-min.css"&gt;&lt;![endif]-->
+  <style type="text/css">
+   *
+{
+font-size: small;
+font-family: 'lucida grande', 'Segoe UI', Tahoma, Helvetica, Arial, sans-serif;
+}
+div.list,
+table.list th
+{
+background: url('/gw/webaccess/201411160011/images/navbar8.png') repeat-x left top;
+COLOR: black;
+font-weight: normal;
+text-align:left;
+border: 1px solid #8C969C;
+padding: 2px 4pt;
+}
+table.list .selected td
+{
+background-color: Highlight;
+color: HighlightText;
+}
+input.button
+{
+}
+div#toolbarbtns {
+background: ;
+padding-left: 10px;
+border-bottom: 1px solid #436B9E;
+}
+div#toolbarbtns a {
+font-size: 85%;
+color: ;
+padding: 6px 3px;
+}
+div#toolbarbtns a:hover {
+padding: 5px 2px;
+xborder: 1px solid #2A4377;
+xbackground: url('/gw/webaccess/201411160011/images/btnhilite.png') repeat-x left top;
+}
+div#toolbarbtns a.depressed {
+padding: 5px 2px;
+background: url('/gw/webaccess/201411160011/images/btndepressed.png') repeat-x left top;
+border: 1px solid #2A4377;
+}
+/* Toolbars: Msglist, Msgitem, Send, Graphical Calendar */
+div.htmltoolbar
+{
+white-space: nowrap;
+margin-left: -4px;
+}
+div.htmltoolbar a, div.htmltoolbar li
+{
+background: -moz-linear-gradient(center top, #F6F6F6, #ECECEC) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), to(#ECECEC)); /* for webkit browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F6F6', endColorstr='#ECECEC'); /* for IE */
+border: 1px solid #e0e0e0;
+color: black;
+border-radius: 3px;
+-moz-border-radius: 3px;
+margin: 3px 1px 0 0;
+padding: 4px;
+}
+div.htmltoolbar li /* Override margin and padding for HTML editor toolbar buttons, otherwise, they don't display correctly */
+{
+margin-top: 0;
+padding-top: 0;
+padding-bottom: 0;
+}
+div.htmltoolbar a.msglist
+{
+color: WindowText;
+font-size: 85%;
+border: 0px;
+padding: 6px 4px;
+}
+div.htmltoolbar a:hover, div.htmltoolbar li:hover,
+#idHtmlToolbar a.htmltoolbar:hover
+{
+background-color: #D6D6D6; /* for older browsers (ex: FF on SLED 10) */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6D6D6', endColorstr='#a6a6a6'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#a6a6a6)); /* for webkit browsers */
+background: -moz-linear-gradient(top, #D6D6D6, #a6a6a6); /* for firefox 3.6+ */
+border: 1px solid #595959;
+}
+div.htmltoolbar a.depressed, div.htmltoolbar li.depressed
+{
+background-color: #D6D6D6; /* for older browsers (ex: FF on SLED 10) */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D6D6D6', endColorstr='#a6a6a6'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#D6D6D6), to(#a6a6a6)); /* for webkit browsers */
+background: -moz-linear-gradient(top, #D6D6D6, #a6a6a6); /* for firefox 3.6+ */
+border: 1px solid #595959;
+padding: 4px;
+}
+div.htmltoolbar li.depressed /* Override padding for HTML editor toolbar buttons, otherwise, they don't display correctly */
+{
+padding: 0 4px;
+}
+td.send_field_label
+{
+padding-right: 7px;
+text-align: right;
+}
+tr.selected td
+{
+background-color: Highlight;
+color: HighlightText;
+}
+div#toolbarbtns span {
+line-height: 2em;
+}
+.textAlignNormal
+{
+text-align: left;
+}
+.textAlignReverse
+{
+text-align: right;
+}
+  </style>
+  <script language="javascript">
+   var blankSrc = "/gw/webaccess/201411160011/images/blank.gif";
+var webaccFrame = "true";
+var homeURL = "/gw/webacc";
+var inc_homeURL = "/gw/webacc";
+var inc_Host = "gws1.muhlenberg.edu";
+var userContext = "49dc3ff4315a87141865542f2d389410b1ff8dff";
+var inc_provider = "SOAP";
+var userId = "";
+var inc_userName = "";
+var inc_errGenericMsg = "Your request could not be processed due to a connection failure with the server.\nContact your Administrator if the problem persists after re-login.";
+var inc_defaultCalendarView = "Week";
+var inc_use24HourClock = false;
+var inc_securedLogoutURL = "/gw/webacc?User.context=49dc3ff4315a87141865542f2d389410b1ff8dff&amp;action=User.Logout&amp;SSOAware=0&amp;merge=closewin";
+var inc_debugEnabled = false;
+var inc_nameCompletionEnabled = false; //used in sendnc.js
+var inc_lowBandwidth = false;
+var inc_documentDir = "ltr";
+var inc_PopUpBlockerWarning = "It appears that your browser is blocking WebAccess pop up windows. \nTo assure full WebAccess functionality, please set your pop up blocker to allow the following address: \n";
+var inc_templatesImagesUrl = "/gw/webaccess/201411160011/images/";
+var inc_lastFirstNameOrder = false;
+var inc_HtmlComposeSupported = true;
+var inc_HtmlComposeEnabled = false;
+var inc_showCheckboxes = false;
+var inc_stubbedItemWarning = "This message has been stubbed out and can only be opened with GroupWise Client on Windows. Please contact your administrator for further details.";
+var inc_createTaskHint = "Type here to create a task...";
+var inc_editorDialogFile = "File:";
+var inc_editorDialogUpload = "Upload";
+var inc_editorDialogOk = "OK";
+var inc_editorDialogCancel = "Cancel";
+var inc_editorDialogRemove = "Remove";
+var inc_linkDialogLabel = "URL:";
+var inc_imageDialogLabel = "URL:";
+var inc_bgImageDialogLabel = "URL:";
+var inc_linkDialogPrompt = "Link URL";
+var inc_imageDialogPrompt = "Image URL";
+var inc_bgImageDialogPrompt = "Background Image Upload";
+var inc_editorTipRichText = "HTML";
+var inc_editorTipPlainText = "Plain Text";
+var inc_editorTipFontFamily = "Font Family";
+var inc_editorTipFontSize = "Font size";
+var inc_editorTipBold = "Bold";
+var inc_editorTipItalic = "Italic";
+var inc_editorTipUnderline = "Underline";
+var inc_editorTipFontColor = "Font Color";
+var inc_editorTipOrderedList = "Formatting Numbers";
+var inc_editorTipUnorderedList = "Formatting Bullets";
+var inc_editorTipIndent = "Increase Indentation";
+var inc_editorTipUnindent = "Decrease Indentation";
+var inc_editorTipAlignLeft = "Align Left";
+var inc_editorTipAlignRight = "Align Right";
+var inc_editorTipAlignCenter = "Align Center";
+var inc_editorTipHorizontalLine = "Horizontal Line";
+var inc_editorTipInsertLink = "Insert Link";
+var inc_editorTipInsertImage = "Insert Image";
+var inc_editorTipBackgroundImage = "Background Image";
+var inc_editorTipBackgroundColor = "Background Color";
+var inc_editorLabelRichText = "HTML";
+var inc_editorLabelPlainText = "Plain Text";
+var inc_editorLabelIndent = "Increase Indentation";
+var inc_editorLabelAlignLeft = "Align Left";
+var inc_editorLabelAlignRight = "Align Right";
+var inc_editorLabelAlignCenter = "Align Center";
+var inc_editorLabelHorizontalLine = "Horizontal Line";
+var inc_editorLabelInsertLink = "Insert Link";
+var inc_editorLabelInsertImage = "Insert Image";
+var inc_editorLabelBackgroundImage = "Background Image";
+var inc_editorLabelBackgroundColor = "Background Color";
+var inc_editorLabelOrderedList = "Formatting Numbers";
+var inc_editorLabelUnindent = "Decrease Indentation";
+var inc_editorLabelUnorderedList = "Formatting Bullets";
+var inc_editorLabelFontColor = "Font Color";
+var inc_editorLabelBold = "Bold";
+var inc_editorLabelUnderline = "Underline";
+var inc_editorLabelItalic = "Italic";
+var inc_editorLabelFontFamily = "Font";
+var inc_editorLabelFontSize = "Size";
+var inc_editorSmallestFontSize= "Smallest";
+var inc_editorSmallerFontSize= "Smaller (default)";
+var inc_editorSmallFontSize= "Small";
+var inc_editorMediumFontSize= "Medium";
+var inc_editorLargeFontSize= "Large";
+var inc_editorLargerFontSize= "Larger";
+var inc_editorLargestFontSize= "Largest";
+var inc_loadingMsg = "Loading...";
+var inc_replyRequestedWarning = "WARNING- A reply is requested for this item. Delete before replying?";
+var inc_duplicatedSignatureNameMsg = "Signature name already exists.";
+var inc_invalidSignatureNameMsg = "Invalid signature name.";
+var inc_areConflicts = "Accepting this item will cause a conflict.  Accept Appointment?";
+var inc_submitComposeMessage = "Processing...";
+var inc_allowFixBodyWidth = false;
+//Address selector view
+var bAddressSelectorView = false;
+var bProxySelectorView = false;
+// First day of the week (1=Sun, 2=Mon, ... 7=Sat)
+var inc_firstDayOfWorkWeek = "1";
+//Date strings
+var inc_dateStrings = new Object();
+inc_dateStrings.dayNamesShort = [
+"Sun",
+"Mon",
+"Tue",
+"Wed",
+"Thu",
+"Fri",
+"Sat"
+];
+inc_dateStrings.dayNames = [
+"Sunday",
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday"
+];
+inc_dateStrings.monthNamesShort = [
+"Jan",
+"Feb",
+"Mar",
+"Apr",
+"May",
+"Jun",
+"Jul",
+"Aug",
+"Sep",
+"Oct",
+"Nov",
+"Dec"
+];
+inc_dateStrings.monthNames = [
+"January",
+"February",
+"March",
+"April",
+"May",
+"June",
+"July",
+"August",
+"September",
+"October",
+"November",
+"December"
+];
+inc_dateStrings.am = "AM";
+inc_dateStrings.pm = "PM";
+// Date format for date picker input text fields
+var inc_datepickerDateFormat = 'MM/dd/yyyy';
+  </script>
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/js/yui/container/assets/container.css" />
+  <link rel="stylesheet" type="text/css" href="/gw/webaccess/201411160011/js/yui/menu/assets/menu.css" />
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/gwwa-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/inc-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/webacc-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/jquery/jquery-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/yahoo/yahoo-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/connection/connection-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/dom/dom-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/event/event-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/yahoo-dom-event/yahoo-dom-event.js">
+  </script>
+  <script type="text/javascript">
+   // Override jQuery shortcut so we don't conflict with our own version of '$'
+var $J = jQuery.noConflict();
+gwwa.browser =
+{
+"name" : "UNKNOWN",
+"os" : "Unknown",
+"mjrVer" : "0",
+"mnrVer" : "0",
+"flavor" : "UNKNOWN",
+"flvMjrVer" : "0",
+"flvMnrVer" : "0"
+};
+gwwa.user =
+{
+"id" : "",
+"name" : "",
+"lang" : "en",
+"isWebAccessUser" : true,
+"access" :
+{
+"write" :
+{
+"generic" : false,
+"mail" : false,
+"appointment" : false,
+"note" : false,
+"task" : false,
+"phone" : false
+},
+"proxy" : false
+},
+"calpub" :
+{
+"calName" : ""
+},
+"publish" :
+{
+"canPublishCal" : false,
+"isPublishCalLocked" : false,
+"canPublsihFB" : false,
+"isPublishFBLocked" : false,
+"freeBusyURL" : ""
+},
+"calViewSettings" :
+{
+"workdays": "2,3,4,5,6",
+"removeFromInboxOnAccept": "0",
+"appointmentIncludeSelf": "1",
+"startOfWorkday": "08:00",
+"endOfWorkday": "17:00",
+"hilightDaysOfWeek": "1,7",
+"showWeekNumber": "0",
+"firstDayOfWorkWeek": 1
+}
+};
+var bIsIE9 = isIE9();
+var bIsIE10 = isIE10();
+  </script>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="loginID" content="WEBACC_LOGIN_PAGE" />
+  <title>
+   Novell GroupWise
+  </title>
+  <style type="text/css">
+   .yui-panel{
+border: 3px solid #3E6978;
+background-color: #FFF;
+}
+.yui-panel .hd{
+background-color: #999;
+padding: 4px;
+border: 0px;
+}
+.yui-panel .bd{
+padding:5px 5px;
+text-align:center;
+}
+.yui-dialog .ft, .simple-dialog .ft{
+padding: 5px;
+text-align:center;
+margin: 0 10px 5px;
+}
+.button-group button{
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+cursor: pointer;
+padding: 2px 15px 2px 15px;
+color: white;
+font-size: 10pt;
+background: #949494;
+margin: 5px 3px;
+border: 0px;
+}
+.button-group button:hover, .button-group button.hover {
+border: 0px solid #000000;
+background: url(../images/mobile2.png) #59828f no-repeat center -127px;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(129, 178, 189)), to(rgb(89, 130, 143)));
+background: -moz-linear-gradient(0% 0% 270deg, rgb(129, 178, 189), rgb(89, 130, 143), rgb(89, 130, 143) 30%);
+}
+.button-group button.default {
+font-weight:normal;
+}
+  </style>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/dragdrop/dragdrop-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/animation/animation-min.js">
+  </script>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/yui/container/container-min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" media="screen" href="/gw/webaccess/201411160011/css/mobile/mobile-min.css" title="mobile.css" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/gw/webaccess/201411160011/css/mobile/images-min.css" charset="utf-8" />
+  <style type="text/css">
+   body, html
+{
+background-color: #C4C4C4;
+}
+span.branding-error
+{
+color: red;
+}
+.yui-panel
+{
+border: 0px solid #000;
+background-color: #FFF;
+}
+.yui-panel .hd
+{
+background: #e3e3e3;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e3e3e3'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e3e3e3)); /* for webkit browsers */
+background: -moz-linear-gradient(top, #fbfbfb, #e3e3e3 ); /* for firefox 3.6+ */
+color: #000;
+font-size: large;
+padding: 7px;
+}
+.yui-panel .container-close
+{
+background-image: url("/gw/webaccess/201411160011/images/x.png");
+height: 18px;
+width: 18px;
+top: 7px;
+right: 7px;
+}
+.highlight
+{
+color: #5691A6;
+}
+.highlightBrowser
+{
+color: #5691A6;
+}
+  </style>
+  <script type="text/javascript" src="/gw/webaccess/201411160011/js/login-min.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   var str_SettingsClosed = "Options »";
+var str_SettingsOpen = "Options «";
+var dlgBrowserUnsuppored = null;
+var inc_widthDlgInPx = 375;
+var inc_widthDlg1InPx = 540;
+var inc_paddingDlgInPx = 15;
+/********************************************
+* If we ever detect that the login window has
+* loaded in the workspace window, then we will
+* reload the login page in the full window
+********************************************/
+function reloadInFullWindow()
+{
+if( window.name == "workspace" )
+{
+window.parent.location.href = homeURL;
+}
+}
+function showWarning(text, timeout)
+{
+var $login = jQuery("#idLogin");
+var $warning = $login.find(".warning");
+if(!$warning.length)
+{
+$login.append("&lt;div class='warning'&gt;&lt;/div&gt;");
+$warning = $login.find(".warning");
+}
+$warning.text(text);
+// default to 5 seconds
+timeout = timeout || 5000;
+if(timeout &gt; 0)
+{
+setTimeout(function(){ $warning.slideUp(); }, timeout);
+}
+$warning.slideDown();
+}
+/********************************************
+* Initialize some Javascript code...
+********************************************/
+function init(event)
+{
+reloadInFullWindow();
+gwwa.mlogin.init();
+if ( gwwa.mlogin.isInIE7Mode() )
+{
+gwwa.mlogin.showCompatibilityViewDialog();
+}
+else if ( !gwwa.mlogin.isBrowserSupported() )
+{
+gwwa.mlogin.showBrowserUnsupportedDialog();
+}
+// Put error handling in here after we have finished "modifying" the
+// screen via readLoginSettings. This is basically done in place
+// of including error.inc
+//Checking if webaccess is inside of a frame
+detectParentFrame();
+}
+function redirectLogin()
+{
+window.location.href = "";
+}
+function handleSubmit()
+{
+var simpleInterface = $('idSimpleInterface');
+if( simpleInterface.checked )
+{
+document.forms.loginForm.elements['User.interface'].value = "simple";
+writeCookie( "SimpleInterface", "true" );
+}
+else
+{
+deleteCookie( "SimpleInterface" );
+}
+}
+window.onload = init;
+  </script>
+ </head>
+ <body class="gray_bg_6">
+  <div id="idBGFiller" class="bgFiller gray_bg_6">
+  </div>
+  <!-- Login Form -->
+  <form name="loginForm" method="post" action="/gw/webacc" onsubmit="handleSubmit();" class="gray_bg_6">
+   <input type="hidden" name="User.context" value="49dc3ff4315a87141865542f2d389410b1ff8dff" />
+   <input type="hidden" name="error" value="login" />
+   <input type="hidden" name="merge" value="webacc" />
+   <input type="hidden" name="action" value="User.Login" />
+   <input type="hidden" name="Url.hasJavaScript" value="1" />
+   <input type="hidden" id="LowBandwidth" name="Low.bandwidth" value="0" />
+   <input type="hidden" id="UserInterface" name="User.interface" value="css" />
+   <input type="hidden" id="WorkstationDSTStartDate" name="Timezone.Workstation.dstStartDate" />
+   <input type="hidden" id="WorkstationDSTEndDate" name="Timezone.Workstation.dstEndDate" />
+   <input type="hidden" id="WorkstationOffsetAvailable" name="Timezone.Workstation.offsetAvailable" value="0" />
+   <input type="hidden" id="WorkstationGMTOffset" name="Timezone.Workstation.gmtOffset" value="0" />
+   <input type="hidden" id="WorkstationHasDaylight" name="Timezone.Workstation.HasDaylight" value="0" />
+   <input type="hidden" id="WorkstationIsDaylight" name="Timezone.Workstation.IsDaylight" value="0" />
+   <input type="hidden" id="WorkstationStdtz" name="Timezone.Workstation.stdOffset" />
+   <input type="hidden" id="WorkstationDsttz" name="Timezone.Workstation.dstOffset" />
+   <div id="idLogin" class="loginRootContainer" style="width: 320px;">
+    <div class="loginInnercontainer grayblend_2">
+     <div>
+      <img src="/gw/webaccess/201411160011/images/dotzero.png" class="loginBranding1 productLogo" width="1" height="1" />
+      <img src="/gw/webaccess/201411160011/images/dotzero.png" class="loginBranding2 companyLogo" width="1" height="1" />
+     </div>
+     <div class="loginSection">
+      <!-- Due to Security risks, hide the version information -->
+      <!--
+&lt;span class="version gray_4"&gt;
+2012
+&lt;/span&gt;
+&lt;br  /&gt;
+-->
+      <span class="copyright gray_4">
+       &copy; Copyright 1993-2014 Novell, Inc. All rights reserved.
+      </span>
+     </div>
+     <div class="bevel">
+     </div>
+     <div class="loginSection">
+      <p class="loginLabel">
+       <span>
+        Username:
+       </span>
+       <br />
+       <input name="User.id" id="username" tabindex="1" class="gray_bg_9" type="text" value="" autocomplete="off" autocorrect="off" autocapitalize="off" class="text" maxlength="64" />
+      </p>
+      <p class="loginLabel">
+       <span>
+        Password:
+       </span>
+       <br />
+       <input name="User.password" id="password" tabindex="2" class="gray_bg_9" type="password" autocomplete="off" autocorrect="off" autocapitalize="off" maxlength="32" class="text" />
+      </p>
+      <table id="idTimeOutOption">
+       <tr>
+        <td>
+         <input type="radio" tabindex="3" class="checkbox" id="idInternalTimeoutPublic" name="Security.Private.timeout" value="false" onchange="gwwa.mlogin.saveTimeoutCookie(this);" />
+        </td>
+        <td style="font-size: 13px; line-height: 20px;">
+         This is a public or shared computer
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <input type="radio" tabindex="4" class="checkbox" id="idInternalTimeoutPrivate" name="Security.Private.timeout" value="true" onchange="gwwa.mlogin.saveTimeoutCookie(this);" />
+        </td>
+        <td style="font-size: 13px; line-height: 20px;">
+         This is a private computer
+        </td>
+       </tr>
+      </table>
+      <div id="optionsBox" class="hidden">
+       <p id="idSimpleOption">
+        <input onchange="gwwa.mlogin.handleSimpleInterfaceChckbox(this);" type="checkbox" class="checkbox" id="idSimpleInterface" name="User.Interface.simple" />
+        Use the basic interface
+       </p>
+      </div>
+      <div class="textAlignReverse_ltr">
+       <input type="button" tabindex="5" value="Options »" class="loginButton" name="settings" id="settingsBtn" onclick="gwwa.mlogin.toggleSettingsButton();" />
+       <input type="submit" tabindex="6" value="Login &nbsp; &nbsp;" class="loginButton submitButton" name="submit" />
+      </div>
+     </div>
+     <div class="bevel">
+     </div>
+     <div class="loginSection">
+      <a href="#" target="_blank" class="teal_3 help" onclick="popout( '/gw/webaccess/201411160011/images/helpdesk_en.htm', 'helpdesk' ); return false;">
+       Can't log in?
+      </a>
+      <a href="/gw/webaccess/201411160011/help/browserui/en/starting_webaccess.html" target="_blank" class="teal_3 helpdesk">
+       Help
+      </a>
+     </div>
+    </div>
+   </div>
+  </form>
+  <div id="idDlgBrowserUnsupported" style="width:375px; display:none;">
+   <div id="idCaptionDlg" class="hd">
+    UNKNOWN 0 is not supported
+   </div>
+   <div id="idDlg" style="padding:15px;">
+    <div style="padding: 8px">
+     <table cellpadding="3">
+      <tr>
+       <td>
+        <div style="font-weight: bold;">
+         Please use
+         <a href="http://www.mozilla.com">
+          <span class="highlightBrowser">
+           Mozilla Firefox
+          </span>
+         </a>
+         ,
+         <a href="http://www.google.com/chrome">
+          <span class="highlightBrowser">
+           Google Chrome
+          </span>
+         </a>
+         ,
+         <a href="http://www.apple.com/safari/download/">
+          <span class="highlightBrowser">
+           Apple Safari
+          </span>
+         </a>
+         , or
+         <a href="http://windows.microsoft.com">
+          <span class="highlightBrowser">
+           Internet Explorer 8 or newer
+          </span>
+         </a>
+         to access GroupWise WebAccess.
+        </div>
+       </td>
+      </tr>
+      <tr id="idRowMSIE">
+       <td style="padding-top:10px;">
+        <a href="javascript:gwwa.mlogin.installChromeFrame()">
+         <span class="highlight">
+          Use Google Chrome Frame in Internet Explorer
+         </span>
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td style="padding-top:10px;">
+        <a href="javascript:gwwa.mlogin.goToBasicInterface()">
+         <span class="highlight">
+          Use WebAccess basic interface.
+         </span>
+        </a>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </div>
+  </div>
+  <div id="idDlgCompatibilityView" style="width:540px; display:none;">
+   <div id="idCaptionDlg1" class="hd">
+    Compatibility View detected
+   </div>
+   <div id="idDlg1" style="padding:15px;">
+    <div class="highlight" style="font-size: 20px; margin-bottom: 10px;">
+     Internet Explorer currently is running in Compatibility View.
+    </div>
+    <div style="padding: 8px">
+     <table cellpadding="3">
+      <tr>
+       <td>
+        Compatibility View is not supported by GroupWise WebAccess.
+       </td>
+      </tr>
+      <tr>
+       <td>
+        To turn off Compatibility View, click Tools, then click Compatibility View Settings. In the "Websites you've added" box, select the GroupWise WebAccess site, then click Remove.
+       </td>
+      </tr>
+      <tr>
+       <td style="padding-top:10px;">
+        <a href="javascript:gwwa.mlogin.goToBasicInterface()">
+         <span class="highlight" style="font-size: 11px;">
+          Use WebAccess basic interface.
+         </span>
+        </a>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

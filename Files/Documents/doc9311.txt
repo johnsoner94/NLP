@@ -1,0 +1,1751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema">
+ <head id="head1">
+  <title>
+   Maximize Your LinkedIn Webinar Series - 10/11/2016 - Muhlenberg College Calendar
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta id="title1" name="title" content="Maximize Your LinkedIn Webinar Series" />
+  <meta id="description1" name="description" content="Date: 10/11/2016 12:00 PM to 10/13/2016 12:30 PM
+Learn tips and tricks that will make
+LinkedIn work for you with this three-part webinar series brought to you
+by the Career Center. Click here for series details and registration.
+
+
+For location information and other details 
+visit the Alumni Network website" />
+  <meta property="og:title" content="Maximize Your LinkedIn Webinar Series" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Date: 10/11/2016 12:00 PM to 10/13/2016 12:30 PM
+Learn tips and tricks that will make
+LinkedIn work for you with this three-part webinar series brought to you
+by the Career Center. Click here for series details and registration.
+
+
+For location information and other details 
+visit the Alumni Network website" />
+  <meta property="og:image" content="http://shrek.muhlenberg.edu/Calendar/images/facebookLogo.gif" />
+  <link href="Calendar.css" type="text/css" rel="stylesheet" />
+  <script src="jquery.min.js" type="text/javascript">
+  </script>
+  <script src="multiSelect.js" type="text/javascript">
+  </script>
+  <script type="text/javascript" src="PopupWindows.js">
+  </script>
+  <script type="text/javascript" src="QuickTip.js">
+  </script>
+  <script type="text/javascript" src="JSFunctions.js">
+  </script>
+  <script type="text/javascript">
+   function displayKeywordWindow() {
+            // Bug #2897: I enclosed the url for the keyword window in double quotes so that single quotes in the keywords don't allow for script injection;  We also do the encoding server-side now.
+            var new_window = window.open("KeywordList.aspx?keywords=", 'Category\SubCategory', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=380,height=228,left=212,top=50');
+            new_window.focus();
+            document.Form1.dlstCategory.selectedIndex = 0;
+        }
+
+        function displaySelectedLocationsWindow() {
+            var new_window = window.open('SelectedLocationList.aspx?locs=&amp;lFormat=Location - Building', 'Category\SubCategory', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=380,height=228,left=212,top=50');
+            new_window.focus();
+            document.Form1.dlstCategory.selectedIndex = 0;
+        }
+
+        function changeMonth(event) {
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            if ($("#dlstMonth option:selected") != null &amp;&amp; $("#dlstMonth option:selected").index() != 0) {
+                __doPostBack('dlstMonth','');
+            }
+            return false;
+        }
+
+        function changeView(event) {
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            event.preventDefault();
+            if ($("#dlstView option:selected") != null &amp;&amp; $("#dlstView option:selected").index() != 0) {
+                __doPostBack('dlstView','');
+            }
+            return false;
+        }
+
+        function changeCategory(event) {
+
+            // Added this for Bug 4949 (TFS) because Firefox was executing this for both change and blur when the popup was opened
+            $("#dlstCategory").off("change blur");
+
+            // Don't postback when either the default option or the multi-select option is clicked
+            if ($("#dlstCategory option:selected").index() == 0 || $("#dlstCategory option:selected").index() == 2) {
+                event.stopImmediatePropagation();
+                event.preventDefault();
+            }
+            
+            displayMultipleCategoryWindow();
+
+            // Bug 4949:  Reactivate the events after we're done so future dropdown actions work
+            $("#dlstCategory").on("change blur", changeCategory);
+            
+        }
+
+        function changeLocation(event) {
+
+            // Added this for Bug 4949 (TFS) because Firefox was executing this for both change and blur when the popup was opened
+            $("#dlstLocation").off("change blur");
+
+            if ($("#dlstLocation option:selected").index() == 0 || $("#dlstLocation option:selected").index() == 2) {
+                event.stopImmediatePropagation();
+                event.preventDefault();
+            }
+            
+            displayMultipleLocationWindow();
+
+            // Bug 4949:  Reactivate the events after we're done so future dropdown actions work
+            $("#dlstLocation").on("change blur", changeLocation);
+            
+        }
+
+        function dropdownKeyAction(event) {
+
+            // Key code
+            var keyCode = event.which || event.keyCode;
+
+	        // Count the number of dropdown items
+	        var num_items = $(this).children("option").length;
+
+	        // Selected index
+	        var curr_idx = $(this).children("option:selected").index();
+
+	        event.preventDefault();
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+
+	        if(keyCode == 13) { // User hit enter
+		        $(this).trigger('change'); // Do postback, as normal
+	        } else if (keyCode == 38) { // Up Arrow
+		        $(this).prop('selectedIndex', (curr_idx - 1) % num_items);
+	        } else if (keyCode == 40) { // Down Arrow
+		        $(this).prop('selectedIndex', (curr_idx + 1) % num_items);
+	        }
+
+            return false;
+        }
+
+        $(document).ready(function () {
+            $(".expander").css("cursor", "pointer").click(function () {
+                if ($(this).html() == "+") {
+                    $(this).html("-");
+                    $("#" + $(this)[0].id.replace("a", "d")).toggle();
+                }
+                else {
+                    $(this).html("+");
+                    $("#" + $(this)[0].id.replace("a", "d")).toggle();
+                }
+            });
+
+
+            $(".url").hover(
+                   function (e) {
+                       var dataurl = $(this).attr("data-url");
+                       var data = $(this).attr("data");
+                       initQuickTip(dataurl, data, e);
+                   },
+                   function (e) {
+                       removeTimouts();
+                       startexitingQuickTip();
+                   }
+                );
+
+            $("#dlstView").prop('selectedIndex', 0);
+            $("#dlstView").blur();
+
+            $(".openInternetBrowser").click(function (e) {
+                e.stopPropagation();
+                var dataurl = $(this).attr("data-url");
+                openInternetBrowser(dataurl);
+            });
+
+            /*******************************************************************
+             * BUG # 2862: 508 COMPLIANCE DROPDOWN FUNCTIONALITY MODIFICATION  *
+             *******************************************************************/
+
+            $("#linkSubscribe").click(function () {
+                calendarSubscription();
+            });
+
+            $("#dlstCategory").change(changeCategory).keydown(dropdownKeyAction).blur(changeCategory);
+            $("#dlstLocation").change(changeLocation).keydown(dropdownKeyAction).blur(changeLocation);
+            $("#dlstMonth").change(changeMonth).keydown(dropdownKeyAction).blur(changeMonth);
+            $("#dlstView").change(changeView).keydown(dropdownKeyAction).blur(changeView);
+
+            /*******************************************************************/
+
+            /************** From/To Error Message Tweaks ***********************/
+
+            // When the text in the date range boxes changes, hide the server-side error labels so that the client-side ones don't duplicate them
+            $("#txtStartDateSearch").change(function () {
+                $("#lblStartDateError").hide();
+                $("#lblError").hide();
+            });
+
+            // This clears existing errors when the enter key is pressed
+            $("#txtStartDateSearch").keypress(function (event) {
+                if (event.keyCode == 13) {
+                    $("#lblStartDateError").hide();
+                    $("#lblError").hide();
+                }
+            });
+
+            $("#txtEndDateSearch").change(function () {
+                $("#lblEndDateError").hide();
+                $("#lblError").hide();
+            });
+
+            $("#txtEndDateSearch").keypress(function (event) {
+                if (event.keyCode == 13) {
+                    $("#lblEndDateError").hide();
+                    $("#lblError").hide();
+                }
+            });
+
+            // Allow the client-side labels to wrap and remove its color restriction
+            $("[controltovalidate='txtStartDateSearch'],[controltovalidate='txtEndDateSearch']").css("white-space", "normal").css("color", "");
+
+
+            /*******************************************************************/
+
+        });
+
+        function checkBoxSelector(toggle) {
+            $("#cellCBlock input:checkbox").attr("checked", toggle);
+        }
+
+        function openCategorySelector() {
+            var lAutoOpen = "Disable";
+            if (lAutoOpen == "Enable") {
+                var new_window = window.open('CategorySubCategorySelect.aspx', '', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=380,height=400,left=212,top=50');
+                new_window.focus();
+            }
+        }
+  </script>
+  <style type="text/css">
+   .modallayer {
+            background-color: #C0C0C0;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+
+        .divlayer {
+            position: absolute;
+            display: none;
+        }
+
+        .divlayerborder {
+            border: solid 2px #214380;
+        }
+
+        .divlayerbackground {
+            background-color: #FFFFFF;
+        }
+
+        .divlayerpadding {
+            margin: 5px;
+            border: solid 1px #214380;
+        }
+
+        .divlayerclosebar {
+        }
+
+        .divlayercloseaction {
+            float: right;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        .divlayerallaction {
+            float: left;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+
+        .divlayernoneaction {
+            float: left;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+
+        .divlayersaveaction {
+            float: left;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+        .adx_wcag_header {
+            font-size: 1em;
+            font-weight: normal;
+            color: #000000;
+            line-height: normal;
+            margin: 0px;
+        }
+        .adx_wcag_hidden {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+  </style>
+  <link rel="Stylesheet" type="text/css" href="suggestedcategories.css" />
+  <style type="text/css">
+   #cellCBlock {height:150px;overflow-y:scroll;border-top:2px inset #C0C0C0;border-left:2px inset #C0C0C0;border-bottom:1px solid #C0C0C0;border-right:1px solid #C0C0C0;} .ccontainer {width:100%;} .sccontainer {margin-left:30px;display:none;}
+  </style>
+ </head>
+ <body>
+  <div style="position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;">
+   <a href="#skip" title="Skip to content">
+    Skip to content
+   </a>
+  </div>
+ </body>
+</html>
+<html lang="en">
+ <head>
+  <title>
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/colors.css" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/CalendarStaging/T4Assets/new1.css" />
+  <link rel="icon" href="http://www.muhlenberg.edu/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="http://www.muhlenberg.edu/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <!--
+ 
+
+ 
+  
+  	
+ 
+       &lt;link rel="stylesheet" type="text/css" media="all" href="http://www.muhlenberg.edu/media/styleassets/css/shell_all2.css"  /&gt;
+-->
+  <!-- image slideshow libraries -->
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/jquery.cycle.all.js">
+  </script>
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/modernizr.custom.40673.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+ 
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      }
+  </style>
+  <!-- jquery 1.3 2.js -->
+  <!--&lt;script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/jquery132.js"&gt;&lt;/script&gt; -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/admissions" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/incoming/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/current-students/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/faculty-staff" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/parents" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenbergconnect.com/s/1570/start.aspx?gid=2&amp;pgid=61" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="http://www.muhlenberg.edu/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="http://www.muhlenberg.edu/">
+         <img src="http://www.muhlenberg.edu/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="http://www.muhlenberg.edu/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <div style="padding-left:20px;padding-top:5px;height:60px;background-color:#A41D36;color:white; font-size:3.0em">
+        Campus Events
+       </div>
+       <form method="post" action="EventList.aspx?fromdate=10%2f11%2f2016&amp;todate=10%2f11%2f2016&amp;display=Day&amp;type=public&amp;eventidn=28613&amp;view=EventDetails&amp;information_id=78148" id="Form1" enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk2OTk1NDc5NQ8WLB4YRXZlbnREZXRhaWxzSGVscEZpbGVQYXRoBSFDYWxlbmRhckV2ZW50RGV0YWlsc1ZpZXdIZWxwLmFzcHgeFkV2ZW50c0NhbGVuZGFyTGFuZ3VhZ2UFD0V2ZW50cyBDYWxlbmRhch4SU2VsZWN0V2Vla0ltYWdlQWx0BQ5TZWxlY3QgYSB3ZWVrLh4LUlNTSW1hZ2VBbHQFJlN1YnNjcmliZSB0byBSU1MgZmVlZCBvZiBjdXJyZW50IHZpZXcuHg5BbGxEYXlMYW5ndWFnZQUHQWxsIERheR4UTG9jYXRpb25IZWxwRmlsZVBhdGgFHUNhbGVuZGFyTG9jYXRpb25WaWV3SGVscC5hc3B4HglTdGFydFRpbWVlHg9MaXN0Vmlld0hlYWRpbmcFVTxzcGFuIGNsYXNzPSJsaXN0dGFibGVoZWFkZXJ0ZXh0IiBzdHlsZT0iZm9udC13ZWlnaHQ6Ym9sZDsiPkV2ZW50IERldGFpbHMgVmlldzwvc3Bhbj4eBFR5cGUFBnB1YmxpYx4EVmlldwUIRGF0ZVRpbWUeBlRvRGF0ZQUKMTAvMTEvMjAxNh4HRW5kVGltZWUeFENhdGVnb3J5SGVscEZpbGVQYXRoBR1DYWxlbmRhckNhdGVnb3J5Vmlld0hlbHAuYXNweB4MTmV4dEltYWdlQWx0BQROZXh0HhBEYXRlSGVscEZpbGVQYXRoBRlDYWxlbmRhckRhdGVWaWV3SGVscC5hc3B4HglQYWdlVGl0bGUFJ011aGxlbmJlcmcgQ29sbGVnZSBDYWxlbmRhciAtIEdyaWQgVmlldx4MQ2xpY2tUb1ByaW50BRNDbGljayBoZXJlIHRvIFByaW50HhNTdW1tYXJ5SGVscEZpbGVQYXRoBRxDYWxlbmRhclN1bW1hcnlMaXN0Vmlldy5hc3B4HhBQcmV2aW91c0ltYWdlQWx0BQhQcmV2aW91cx4LR3JpZERpc3BsYXkFA0RheR4LRm9yTGFuZ3VhZ2UFA2Zvch4IRnJvbURhdGUFCjEwLzExLzIwMTYWBGYPZBYEAgIPFgIeB2NvbnRlbnQFJU1heGltaXplIFlvdXIgTGlua2VkSW4gV2ViaW5hciBTZXJpZXNkAgMPFgIfFgW6AkRhdGU6IDEwLzExLzIwMTYgMTI6MDAgUE0gdG8gMTAvMTMvMjAxNiAxMjozMCBQTQ0KTGVhcm4gdGlwcyBhbmQgdHJpY2tzIHRoYXQgd2lsbCBtYWtlDQpMaW5rZWRJbiB3b3JrIGZvciB5b3Ugd2l0aCB0aGlzIHRocmVlLXBhcnQgd2ViaW5hciBzZXJpZXMgYnJvdWdodCB0byB5b3UNCmJ5IHRoZSBDYXJlZXIgQ2VudGVyLiBDbGljayBoZXJlIGZvciBzZXJpZXMgZGV0YWlscyBhbmQgcmVnaXN0cmF0aW9uLg0KDQoNCkZvciBsb2NhdGlvbiBpbmZvcm1hdGlvbiBhbmQgb3RoZXIgZGV0YWlscyANCnZpc2l0IHRoZSBBbHVtbmkgTmV0d29yayB3ZWJzaXRlZAIBD2QWDAIBD2QWGmYPDxYCHgRUZXh0BQ9EaXNwbGF5IEZvcm1hdDpkZAIBDxAPFgIeB1Zpc2libGVnZBAVBQZTZWxlY3QJR3JpZCBWaWV3DUNhdGVnb3J5IFZpZXcORGF0ZS9UaW1lIFZpZXcMU3VtbWFyeSBWaWV3FQUGU2VsZWN0CUdyaWQgVmlldw1DYXRlZ29yeSBWaWV3DkRhdGUvVGltZSBWaWV3DFN1bW1hcnkgVmlldxQrAwVnZ2dnZxYBZmQCAg8PFgIfFwUGQWx1bW5pZGQCAw8PFgYeB1Rvb2xUaXAFIkdvIHRvIGFkbWluaXN0cmF0aXZlIGxvZ2luIHNjcmVlbi4fFwUNU3VibWl0IEV2ZW50cx8YaGRkAgQPDxYEHghJbWFnZVVybAUOaW1hZ2VzL0RheS5naWYeDUFsdGVybmF0ZVRleHQFIURpc3BsYXkgYWxsIHRoZSBldmVudHMgZm9yIHRvZGF5LhYCHgVzdHlsZQVdQk9SREVSLVRPUDogI0MxQzFDMSAxcHggc29saWQ7Qk9SREVSLUxFRlQ6ICNDMUMxQzEgMXB4IHNvbGlkO0JPUkRFUi1SSUdIVDogI0MxQzFDMSAxcHggc29saWQ7ZAIFDw8WBB8aBQ9pbWFnZXMvV2Vlay5naWYfGwUsRGlzcGxheSBhbGwgdGhlIGV2ZW50cyBmb3IgdGhlIGN1cnJlbnQgd2Vlay5kZAIGDw8WBB8aBRBpbWFnZXMvTW9udGguZ2lmHxsFLURpc3BsYXkgYWxsIHRoZSBldmVudHMgZm9yIHRoZSBjdXJyZW50IG1vbnRoLmRkAgcPDxYEHxoFD2ltYWdlcy9ZZWFyLmdpZh8bBSxEaXNwbGF5IGFsbCB0aGUgZXZlbnRzIGZvciB0aGUgY3VycmVudCB5ZWFyLmRkAggPFgIfFwW1AjxzcGFuIGNsYXNzPSJib2R5Y29weSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB4OyI+U3VibWl0IGFuIEV2ZW50IHRocm91Z2ggYSAgPGEgaHJlZj0iaHR0cDovL3d3dy5tdWhsZW5iZXJnLmVkdS9jYWxlbmRhci9zdWJtaXQuaHRtbCIgIHRhcmdldD0iX2NoaWxkIj5DYWxlbmRhciBBZG1pbmlzdHJhdG9yPC9hPiA8ZGl2IHN0eWxlPSJwYWRkaW5nLXRvcDoxNXB4Ij5TdGFydCA8YSBocmVmPSJqYXZhc2NyaXB0Ol9fZG9Qb3N0QmFjaygnbGJ0bk5ld1NlYXJjaCcsJycpIj4gbmV3IGNhbGVuZGFyIGV2ZW50IHNlYXJjaDwvZGl2Pjwvc3Bhbj48L3RkPmQCCQ8PFgofGgUUaW1hZ2VzL3N1YnNjcmliZS5naWYfGQUxQ2xpY2sgdG8gc3Vic2NyaWJlIHRvIHRoZSBjdXJyZW50IHZpZXcgb2YgZXZlbnRzLh8XBTFDbGljayB0byBzdWJzY3JpYmUgdG8gdGhlIGN1cnJlbnQgdmlldyBvZiBldmVudHMuHgtOYXZpZ2F0ZVVybAUBIx8YaGRkAgoPDxYIHxoFE2ltYWdlcy9kb3dubG9hZC5naWYfGQU6Q2xpY2sgdG8gZG93bmxvYWQgZXZlbnRzIHNob3duIGluIENTViwgaUNBTCBvciBYTUwgZm9ybWF0Lh8XBTpDbGljayB0byBkb3dubG9hZCBldmVudHMgc2hvd24gaW4gQ1NWLCBpQ0FMIG9yIFhNTCBmb3JtYXQuHxhoZGQCCw8PFggfGgUPaW1hZ2VzL2hlbHAuZ2lmHxkFKkNsaWNrIGZvciBoZWxwIGluIHVzaW5nIGNhbGVuZGFyIGRpc3BsYXlzLh8XBSpDbGljayBmb3IgaGVscCBpbiB1c2luZyBjYWxlbmRhciBkaXNwbGF5cy4fHQUtQ2FsZW5kYXJFdmVudERldGFpbHNWaWV3SGVscC5hc3B4P3R5cGU9cHVibGljZGQCDA8P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BQ1kaXNwbGF5OiBub25lZAIuDw8WAh8XBQYoVmlldykWAh8cBQ1kaXNwbGF5OiBub25lZAIxDw8WAh8XBQYoVmlldykWAh8cBQ1kaXNwbGF5OiBub25lZAIyDw8WAh8XBQtLZXl3b3JkKHMpOmRkAjMPDxYCHxkFOENvbW1hIGRlbGltaXRlZCBsaXN0IG9mIHdvcmRzIHVzZWQgdG8gc2VhcmNoIGZvciBldmVudHMuFgIfHAUMd2lkdGg6MTcycHg7ZAI0DxYCHyUFBihWaWV3KWQCNQ8PFgIfGGhkZAI2Dw8WAh8YaGRkAjcPDxYGHxkFIlNlYXJjaCB0byBuYXJyb3cgdGhlIGV2ZW50cyBzaG93bi4fFwUNU2VhcmNoIEV2ZW50cx8YZ2RkAgMPDxYCHxhoZBYCAgMPFgIfF2VkAgQPFgIfGGhkAgYPFgIfGGhkAggPZBYCZg9kFgJmD2QWAmYPDxYCHxcFcjxhIGhyZWY9Imh0dHA6Ly93d3cuYWN0aXZlY2FsZW5kYXIuY29tLyI+Q2FsZW5kYXIgU29mdHdhcmUgcG93ZXJlZCBieSBBY3RpdmUgQ2FsZW5kYXIgYW5kIEFjdGl2ZSBEYXRhIENhbGVuZGFyPC9hPmRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYIBQdpYnRuRGF5BQhpYnRuV2VlawUJaWJ0bk1vbnRoBQhpYnRuWWVhcgUSY2JsQ3VzdG9tRmllbGRfMSQwBRJjYmxDdXN0b21GaWVsZF8yJDAFEmNibEN1c3RvbUZpZWxkXzMkMAUSY2JsQ3VzdG9tRmllbGRfNCQwsE9mtm+bX91HndPEeeHkCmKf8QA=" />
+        <script src="/Calendar/PopCalendar2008/PopCalendarAjaxNet.js" type="text/javascript">
+        </script>
+        <script src="/Calendar/PopCalendar2008/PopCalendarFunctionsAjaxNet.js" type="text/javascript">
+        </script>
+        <script type="text/javascript">
+         var PopCal_enUS_DaysShort=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+        </script>
+        <script type="text/javascript">
+         var PopCal_enUS_MonthsShort=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];var PopCal_enUS_MonthsFull=['January','February','March','April','May','June','July','August','September','October','November','December'];
+        </script>
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="263A0ECC" />
+        <div class="eventlistdiv">
+         <input type="hidden" value="Location - Building" id="p_LocationColumnField" name="p_LocationColumnField" />
+         <div id="pnlHideHead">
+          <!-- Section 508 Qick Nav Links -->
+          <a href="#search">
+           <img id="search_link" height="1" alt="Search events." src="images/transparent.gif" style="border: 0px; width: 1px;" />
+          </a>
+          <a href="#events">
+           <img id="events_link" height="1" alt="View events." src="images/transparent.gif" style="border: 0px; width: 1px;" />
+          </a>
+          <table id="Table3" cellspacing="0" cellpadding="5" width="100%" align="center" border="0">
+           <tr>
+            <td style="white-space: nowrap; width: 30%;" align="left" valign="top">
+             <label for="dlstView" id="lblDisplayFormat" class="bodycopy">
+              Display Format:
+             </label>
+             &nbsp;
+             <select name="dlstView" id="dlstView" class="bodycopy">
+              <option selected="selected" value="Select">
+               Select
+              </option>
+              <option value="Grid View">
+               Grid View
+              </option>
+              <option value="Category View">
+               Category View
+              </option>
+              <option value="Date/Time View">
+               Date/Time View
+              </option>
+              <option value="Summary View">
+               Summary View
+              </option>
+             </select>
+            </td>
+            <td align="center" style="width: 40%;" valign="top">
+             <h2 class="adx_wcag_header">
+              <span id="lblCategoryHeading" class="title">
+               Alumni
+              </span>
+             </h2>
+            </td>
+            <td style="white-space: nowrap; width: 30%;" align="right" valign="top">
+            </td>
+           </tr>
+          </table>
+          <table style="padding-right: 5px; padding-left: 5px; padding-top: 5px; border-bottom: solid 1px #c1c1c1;" cellspacing="0" cellpadding="0" width="100%" border="0">
+           <tr>
+            <td valign="bottom" style="white-space: nowrap; width: 20%;" align="left">
+             <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+               <td valign="bottom">
+                <label style="display: none" for="ibtnDay">
+                 Day
+                </label>
+                <input type="image" name="ibtnDay" id="ibtnDay" src="images/Day.gif" alt="Display all the events for today." style="BORDER-TOP: #C1C1C1 1px solid;BORDER-LEFT: #C1C1C1 1px solid;BORDER-RIGHT: #C1C1C1 1px solid;" />
+               </td>
+               <td valign="bottom">
+                <label style="display: none" for="ibtnWeek">
+                 Week
+                </label>
+                <input type="image" name="ibtnWeek" id="ibtnWeek" src="images/Week.gif" alt="Display all the events for the current week." />
+               </td>
+               <td valign="bottom">
+                <label style="display: none" for="ibtnMonth">
+                 Month
+                </label>
+                <input type="image" name="ibtnMonth" id="ibtnMonth" src="images/Month.gif" alt="Display all the events for the current month." />
+               </td>
+               <td valign="bottom">
+                <label style="display: none" for="ibtnYear">
+                 Year
+                </label>
+                <input type="image" name="ibtnYear" id="ibtnYear" src="images/Year.gif" alt="Display all the events for the current year." />
+               </td>
+              </tr>
+             </table>
+            </td>
+            <td align="center">
+             <div style="width: 80%; text-align: center;">
+              <h1 class="adx_wcag_header">
+               <span class="bodycopy" style="font-size:11px;">
+                Submit an Event through a
+                <a href="http://www.muhlenberg.edu/calendar/submit.html" target="_child">
+                 Calendar Administrator
+                </a>
+                <div style="padding-top:15px">
+                 Start
+                 <a href="javascript:__doPostBack('lbtnNewSearch','')">
+                  new calendar event search
+                 </a>
+                </div>
+               </span>
+              </h1>
+             </div>
+            </td>
+           </tr>
+          </table>
+         </div>
+         <td valign="bottom" style="white-space: nowrap;" align="right" width="20%">
+          <a id="linkHelp" title="Click for help in using calendar displays." href="CalendarEventDetailsViewHelp.aspx?type=public" target="_blank">
+           <img title="Click for help in using calendar displays." src="images/help.gif" alt="Click for help in using calendar displays." />
+          </a>
+          <a id="linkPrint" title="Print the contents of the current screen." href="EventList.aspx?fromdate=10/11/2016&amp;todate=10/11/2016&amp;display=Day&amp;type=public&amp;eventidn=28613&amp;view=EventDetails&amp;information_id=78148&amp;print=print" target="_blank">
+           <img title="Print the contents of the current screen." src="images/print.gif" alt="Print the contents of the current screen." />
+          </a>
+         </td>
+        </div>
+        <table id="PageTable" cellspacing="0" cellpadding="5" width="100%" border="0">
+         <tr>
+          <td valign="top">
+           <div id="pnlHideSearch">
+            <table id="Table2" cellspacing="0" cellpadding="0" border="0">
+             <tr>
+              <td colspan="2">
+               <div id="CalendarPanel">
+                <table id="CalendarGrid1" cellspacing="0" cellpadding="2" width="100%" style="border-collapse:collapse;">
+                 <tr>
+                  <td>
+                  </td>
+                  <td colspan="7">
+                   <table cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                     <td align="left">
+                      <a id="lbtnADXCalenderPrevious" href="javascript:__doPostBack('lbtnADXCalenderPrevious','')">
+                       <img border="0" src="images/largearrow_left_transparent.gif" alt="Previous" />
+                      </a>
+                     </td>
+                     <td class="titleSmallGrid" align="center" nowrap="nowrap">
+                      October 2016
+                     </td>
+                     <td align="right">
+                      <a id="lbtnADXCalenderNext" href="javascript:__doPostBack('lbtnADXCalenderNext','')">
+                       <img border="0" src="images/largearrow_right_transparent.gif" alt="Next" />
+                      </a>
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                  </td>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Su
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Mo
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Tu
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   We
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Th
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Fr
+                  </th>
+                  <th class="dayheaderSmallGrid" align="center" scope="col">
+                   Sa
+                  </th>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="9/25/2016_10/1/2016" href="javascript:__doPostBack('9/25/2016_10/1/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Sunday, September 25, 2016">
+                   <a href="EventList.aspx?fromdate=9/25/2016&amp;todate=9/25/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    25
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Monday, September 26, 2016">
+                   <a href="EventList.aspx?fromdate=9/26/2016&amp;todate=9/26/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    26
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Tuesday, September 27, 2016">
+                   <a href="EventList.aspx?fromdate=9/27/2016&amp;todate=9/27/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    27
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Wednesday, September 28, 2016">
+                   <a href="EventList.aspx?fromdate=9/28/2016&amp;todate=9/28/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    28
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Thursday, September 29, 2016">
+                   <a href="EventList.aspx?fromdate=9/29/2016&amp;todate=9/29/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    29
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Friday, September 30, 2016">
+                   <a href="EventList.aspx?fromdate=9/30/2016&amp;todate=9/30/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    30
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Saturday, October 01, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/1/2016&amp;todate=10/1/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    1
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="10/2/2016_10/8/2016" href="javascript:__doPostBack('10/2/2016_10/8/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Sunday, October 02, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/2/2016&amp;todate=10/2/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    2
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Monday, October 03, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/3/2016&amp;todate=10/3/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    3
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Tuesday, October 04, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/4/2016&amp;todate=10/4/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    4
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Wednesday, October 05, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/5/2016&amp;todate=10/5/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    5
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Thursday, October 06, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/6/2016&amp;todate=10/6/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    6
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Friday, October 07, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/7/2016&amp;todate=10/7/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    7
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Saturday, October 08, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/8/2016&amp;todate=10/8/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    8
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="10/9/2016_10/15/2016" href="javascript:__doPostBack('10/9/2016_10/15/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Sunday, October 09, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/9/2016&amp;todate=10/9/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    9
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Monday, October 10, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/10/2016&amp;todate=10/10/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    10
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellhiliteSmallGrid" align="center" valign="top" title="Tuesday, October 11, 2016">
+                   <a href="EventList.aspx?fromdate=10/11/2016&amp;todate=10/11/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    11
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Wednesday, October 12, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/12/2016&amp;todate=10/12/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    12
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Thursday, October 13, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/13/2016&amp;todate=10/13/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    13
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Friday, October 14, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/14/2016&amp;todate=10/14/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    14
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Saturday, October 15, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/15/2016&amp;todate=10/15/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    15
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="10/16/2016_10/22/2016" href="javascript:__doPostBack('10/16/2016_10/22/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Sunday, October 16, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/16/2016&amp;todate=10/16/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    16
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Monday, October 17, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/17/2016&amp;todate=10/17/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    17
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Tuesday, October 18, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/18/2016&amp;todate=10/18/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    18
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Wednesday, October 19, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/19/2016&amp;todate=10/19/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    19
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Thursday, October 20, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/20/2016&amp;todate=10/20/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    20
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Friday, October 21, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/21/2016&amp;todate=10/21/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    21
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Saturday, October 22, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/22/2016&amp;todate=10/22/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    22
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="10/23/2016_10/29/2016" href="javascript:__doPostBack('10/23/2016_10/29/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Sunday, October 23, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/23/2016&amp;todate=10/23/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    23
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Monday, October 24, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/24/2016&amp;todate=10/24/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    24
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Tuesday, October 25, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/25/2016&amp;todate=10/25/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    25
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Wednesday, October 26, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/26/2016&amp;todate=10/26/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    26
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Thursday, October 27, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/27/2016&amp;todate=10/27/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    27
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Friday, October 28, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/28/2016&amp;todate=10/28/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    28
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Saturday, October 29, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/29/2016&amp;todate=10/29/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    29
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <a id="10/30/2016_11/5/2016" href="javascript:__doPostBack('10/30/2016_11/5/2016','')">
+                    <img border="0" src="images/smallarrow_right_transparent.gif" alt="Select a week." />
+                   </a>
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Sunday, October 30, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/30/2016&amp;todate=10/30/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    30
+                   </a>
+                   <br />
+                  </td>
+                  <td class="calendarcellSmallGrid" align="center" valign="top" title="Monday, October 31, 2016" onmouseover="this.className='calendarcellhiliteSmallGrid';" onmouseout="this.className='calendarcellSmallGrid';">
+                   <a href="EventList.aspx?fromdate=10/31/2016&amp;todate=10/31/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    31
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Tuesday, November 01, 2016">
+                   <a href="EventList.aspx?fromdate=11/1/2016&amp;todate=11/1/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    1
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Wednesday, November 02, 2016">
+                   <a href="EventList.aspx?fromdate=11/2/2016&amp;todate=11/2/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    2
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Thursday, November 03, 2016">
+                   <a href="EventList.aspx?fromdate=11/3/2016&amp;todate=11/3/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    3
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Friday, November 04, 2016">
+                   <a href="EventList.aspx?fromdate=11/4/2016&amp;todate=11/4/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    4
+                   </a>
+                   <br />
+                  </td>
+                  <td class="otherdaySmallGrid" align="center" valign="top" title="Saturday, November 05, 2016">
+                   <a href="EventList.aspx?fromdate=11/5/2016&amp;todate=11/5/2016&amp;view=DateTime&amp;display=Day&amp;type=public">
+                    5
+                   </a>
+                   <br />
+                  </td>
+                 </tr>
+                </table>
+               </div>
+              </td>
+             </tr>
+             <tr>
+              <td style="PADDING-TOP: 5px; white-space: nowrap;" colspan="2">
+               <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                 <td>
+                  <label for="dlstMonth" id="lblDisplayMonth" class="bodycopy">
+                   Display Month:
+                  </label>
+                 </td>
+                 <td align="right">
+                  <select name="dlstMonth" id="dlstMonth" class="bodycopy">
+                   <option selected="selected" value="Select">
+                    Select
+                   </option>
+                   <option value="January">
+                    January
+                   </option>
+                   <option value="February">
+                    February
+                   </option>
+                   <option value="March">
+                    March
+                   </option>
+                   <option value="April">
+                    April
+                   </option>
+                   <option value="May">
+                    May
+                   </option>
+                   <option value="June">
+                    June
+                   </option>
+                   <option value="July">
+                    July
+                   </option>
+                   <option value="August">
+                    August
+                   </option>
+                   <option value="September">
+                    September
+                   </option>
+                   <option value="October">
+                    October
+                   </option>
+                   <option value="November">
+                    November
+                   </option>
+                   <option value="December">
+                    December
+                   </option>
+                  </select>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <hr width="100%" style="color: Black;" size="1" />
+               <a id="search">
+               </a>
+              </td>
+             </tr>
+             <tr>
+              <td style="white-space: nowrap;" colspan="2">
+               <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                 <td>
+                  <h3 class="adx_wcag_header">
+                   <span id="lblAdvancedSearch" class="bodycopy">
+                    <b>
+                     Advanced Search
+                    </b>
+                   </span>
+                  </h3>
+                 </td>
+                 <td align="right">
+                  <a id="lbtnNewSearch" class="bodycopy" href="javascript:__doPostBack('lbtnNewSearch','')">
+                   <span style="font-size:0.8em">
+                    (New Search)
+                   </span>
+                  </a>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td style="white-space: nowrap;">
+               <label for="txtStartDateSearch" id="lblFrom" class="bodycopy">
+                From:
+               </label>
+               &nbsp;
+              </td>
+              <td style="white-space: nowrap;">
+               <input name="txtStartDateSearch" type="text" value="10/11/2016" id="txtStartDateSearch" class="textboxcopy" calendar="calStartDateSearch" format="m/d/yyyy" dir="ltr" autocomplete="off" onfocus="__PopCalSetFocus(this, event);" invaliddatemessage="Invalid date was entered." />
+               <span id="calStartDateSearch" style="display:none" assembly="RJS.Web.WebControl.PopCalendar.Net.2008.dll" assemblyversion="8.1.3125.36581" popcalendarjsversion="1.0.1" popcalendarfunctionsjsversion="1.0.0">
+               </span>
+               <span id="calStartDateSearch_Control" title="From:" onclick='__PopCalShowCalendar("txtStartDateSearch",this)' style="cursor:pointer;">
+                <img src="/Calendar/PopCalendar2008/Calendar.gif" border="0" align="absmiddle" alt="From:" />
+               </span>
+               <link href="/Calendar/PopCalendar2008/CSS/ADXPublic.css" type="text/css" rel="stylesheet" />
+               <br />
+              </td>
+             </tr>
+             <tr>
+              <td>
+              </td>
+              <td>
+               <span id="calStartDateSearch_MessageError" class="errormessagetext" dir="ltr" messagealignment="MessageContainer" style="visibility:hidden;white-space:nowrap;z-index:+1000;color:red;" controltovalidate="txtStartDateSearch" validationgroup="RJS.PopCalendars" evaluationfunction="__PopCalCustomValidatorEvaluateIsValid" clientvalidationfunction="__PopCalValidateOnSubmit">
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td style="white-space: nowrap;">
+               <label for="txtEndDateSearch" id="lblTo" class="bodycopy">
+                To:
+               </label>
+               &nbsp;
+              </td>
+              <td style="white-space: nowrap;">
+               <input name="txtEndDateSearch" type="text" value="10/11/2016" id="txtEndDateSearch" class="textboxcopy" calendar="calEndDateSearch" format="m/d/yyyy" dir="ltr" autocomplete="off" onfocus="__PopCalSetFocus(this, event);" invaliddatemessage="Invalid date was entered." />
+               <span id="calEndDateSearch" style="display:none" assembly="RJS.Web.WebControl.PopCalendar.Net.2008.dll" assemblyversion="8.1.3125.36581" popcalendarjsversion="1.0.1" popcalendarfunctionsjsversion="1.0.0">
+               </span>
+               <span id="calEndDateSearch_Control" title="To:" onclick='__PopCalShowCalendar("txtEndDateSearch",this)' style="cursor:pointer;">
+                <img src="/Calendar/PopCalendar2008/Calendar.gif" border="0" align="absmiddle" alt="To:" />
+               </span>
+               <link href="/Calendar/PopCalendar2008/CSS/ADXPublic.css" type="text/css" rel="stylesheet" />
+               <br />
+              </td>
+             </tr>
+             <tr>
+              <td>
+              </td>
+              <td>
+               <span id="calEndDateSearch_MessageError" class="errormessagetext" dir="ltr" messagealignment="MessageContainer" style="visibility:hidden;white-space:nowrap;z-index:+1000;color:red;" controltovalidate="txtEndDateSearch" validationgroup="RJS.PopCalendars" evaluationfunction="__PopCalCustomValidatorEvaluateIsValid" clientvalidationfunction="__PopCalValidateOnSubmit">
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+              </td>
+             </tr>
+             <tr>
+              <td style="PADDING-TOP: 2px; white-space: nowrap;" colspan="2">
+               <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                 <td>
+                  <label for="dlstCategory" id="lblCategorys" class="bodycopy">
+                   Category(s):
+                  </label>
+                 </td>
+                 <td align="right">
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td style="white-space: nowrap;" colspan="2">
+               <select name="dlstCategory" id="dlstCategory" class="bodycopy" onclick="openCategorySelector();" style="width:172px;">
+                <option value="Select">
+                 Select
+                </option>
+                <option value="Select All">
+                 Select All
+                </option>
+                <option value="Select Multiple">
+                 Select Multiple
+                </option>
+                <option value="55-0">
+                 Academic Calendar
+                </option>
+                <option value="55-17">
+                 &#160;&#160;&#160;Fall 2016
+                </option>
+                <option value="55-19">
+                 &#160;&#160;&#160;Spring 2017
+                </option>
+                <option value="55-16">
+                 &#160;&#160;&#160;Summer 2016
+                </option>
+                <option value="55-18">
+                 &#160;&#160;&#160;Wescoe Fall 2016
+                </option>
+                <option value="1-0">
+                 Academics &amp; Research
+                </option>
+                <option value="37-0">
+                 Admissions
+                </option>
+                <option value="24-0">
+                 All-Campus
+                </option>
+                <option value="8-0">
+                 Alumni
+                </option>
+                <option value="2-0">
+                 Athletics
+                </option>
+                <option value="47-0">
+                 Common Hour
+                </option>
+                <option value="20-0">
+                 Community
+                </option>
+                <option value="65-0">
+                 Facility Hours
+                </option>
+                <option value="23-0">
+                 Lectures &amp; Forums
+                </option>
+                <option value="64-0">
+                 Orientation
+                </option>
+                <option value="29-0">
+                 Performance, Concerts &amp; Exhibitions
+                </option>
+                <option value="63-0">
+                 Recreation &amp; Wellness
+                </option>
+                <option value="30-0">
+                 Religious
+                </option>
+                <option value="22-0">
+                 Student Life
+                </option>
+               </select>
+               <br />
+              </td>
+             </tr>
+             <tr>
+              <td style="PADDING-TOP: 2px; white-space: nowrap;" colspan="2">
+               <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tr>
+                 <td>
+                  <label for="txtKeyword" id="lblKeywords" class="bodycopy">
+                   Keyword(s):
+                  </label>
+                 </td>
+                 <td align="right">
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td style="white-space: nowrap;" colspan="2">
+               <input name="txtKeyword" type="text" maxlength="50" id="txtKeyword" title="Comma delimited list of words used to search for events." class="textboxcopy" style="width:172px;" />
+               <br />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+              </td>
+             </tr>
+             <tr>
+              <td style="PADDING-TOP: 2px; white-space: nowrap;" colspan="2">
+               <a id="lbtnSearch" title="Search to narrow the events shown." class="bodycopy" href="javascript:__doPostBack('lbtnSearch','')">
+                <b>
+                 Search Events
+                </b>
+               </a>
+              </td>
+             </tr>
+            </table>
+           </div>
+          </td>
+          <td valign="top" align="left" width="100%">
+           <a id="events">
+           </a>
+           <a name="skip">
+           </a>
+           <div id="divTableHolidays">
+           </div>
+           <div id="pnlEventDetails">
+            <table cellspacing="0" cellpadding="0" width="100%">
+             <tr>
+              <td valign="bottom">
+               <table cellspacing="0" cellpadding="2" width="100%">
+                <tr>
+                 <td class="title">
+                  Event Details
+                 </td>
+                </tr>
+               </table>
+              </td>
+              <td>
+               <table cellspacing="0" cellpadding="2" width="100%">
+                <tr>
+                 <td align="right" style="white-space:nowrap;">
+                  <a href="javascript:notifyMe('28613','78148','');">
+                   <img src="images/notifyme1.gif" border="0" alt="Notify me if this event changes." />
+                  </a>
+                  <a href="javascript:iCalendarHowTo('28613','78148','');">
+                   <img src="images/addtomycalendar.gif" border="0" alt="Add this event to my personal calendar." />
+                  </a>
+                  <a href="javascript:displayEmailToFriend('28613','78148','');">
+                   <img src="images/email.gif" border="0" alt="Email this event to a friend." />
+                  </a>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <table cellspacing="0" cellpadding="2" width="100%">
+                <tr>
+                 <td class="dayheaderSmallGrid" align="right">
+                  <a class="dayheaderSmallGrid" href="javascript:history.go(-1);">
+                   Go Back
+                  </a>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <table cellspacing="0" cellpadding="2" width="100%">
+                <tr>
+                 <td class="listheadtext">
+                  <b>
+                   Maximize Your LinkedIn Webinar Series
+                  </b>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td class="detailsview adx-detailsview-left" valign="top" width="50%">
+               <table cellspacing="0" cellpadding="5" width="100%">
+                <tr>
+                 <td>
+                  <table cellspacing="0" cellpadding="1">
+                   <tr>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     <b>
+                      Start Date:&nbsp;
+                     </b>
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     10/11/2016
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     <b>
+                      Start Time:&nbsp;
+                     </b>
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     12:00 PM
+                    </td>
+                   </tr>
+                   <tr>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     <b>
+                      End Date:&nbsp;
+                     </b>
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     10/13/2016
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     <b>
+                      End Time:&nbsp;
+                     </b>
+                    </td>
+                    <td class="detailsview" colspan="1" width="25%" nowrap="nowrap">
+                     12:30 PM
+                    </td>
+                   </tr>
+                  </table>
+                 </td>
+                </tr>
+               </table>
+               <table cellspacing="0" cellpadding="5" width="100%">
+                <tr>
+                 <td class="detailsview">
+                  <b>
+                   Event Description:
+                  </b>
+                  <br />
+                  Date: 10/11/2016 12:00 PM to 10/13/2016 12:30 PM
+                  <p>
+                   Learn tips and tricks that will make
+LinkedIn work for you with this three-part webinar series brought to you
+by the Career Center.
+                   <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=1998&amp;cid=4889&amp;post_id=0">
+                    Click here for series details and registration
+                   </a>
+                   .
+                  </p>
+                  <br />
+                  For location information and other details
+                  <a href="http://www.muhlenbergconnect.com/?sid=1570&amp;gid=2&amp;pgid=410&amp;cid=1244">
+                   visit the Alumni Network website
+                  </a>
+                 </td>
+                </tr>
+               </table>
+               <table cellspacing="0" cellpadding="5" width="100%">
+                <tr>
+                 <td class="detailsview">
+                 </td>
+                </tr>
+               </table>
+              </td>
+              <td class="detailsview adx-detailsview-right" valign="top" width="50%">
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <div id="fb-root">
+               </div>
+               <script src="http://connect.facebook.net/en_US/all.js#xfbml=1&amp;status=0">
+               </script>
+               <fb:like send="true" layout="standard" width="450" font="arial" show_faces="true">
+               </fb:like>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <br />
+          </td>
+         </tr>
+        </table>
+        <table id="tblPoweredByADE" cellspacing="0" cellpadding="0" width="100%" style="padding-right: 5px; padding-left: 5px; padding-top: 5px; border-top: solid 1px #c1c1c1;">
+         <tr>
+          <td align="right">
+           <span id="lblPoweredByADE">
+            <a href="http://www.activecalendar.com/">
+             Calendar Software powered by Active Calendar and Active Data Calendar
+            </a>
+           </span>
+           &nbsp;&nbsp;&nbsp;
+          </td>
+         </tr>
+        </table>
+       </form>
+      </div>
+      <div id="pnlModalPopupSection">
+       <div id="divlayer1" class="divlayer divlayerborder divlayerbackground">
+        <div>
+         <div style="height: 200px; width: 355px; overflow: scroll; background-color: #F5F5F5;">
+          <span id="lblWTS_1" style="font-weight: bold;">
+           Select item(s) to Search
+          </span>
+          <div id="divCF_1" class="divCF_1">
+          </div>
+         </div>
+         <div class="divlayerclosebar" style="width: 355px;">
+          <div>
+           <input type="hidden" name="hfSelectedItems1" id="hfSelectedItems1" />
+           <a class="divlayercloseaction" href="javascript:closeLayer('divlayer1');" style="text-decoration: none;">
+            Close
+           </a>
+           <a class="divlayernoneaction" href="javascript:selectNone('1');" style="text-decoration: none;">
+            Select None
+           </a>
+           <a class="divlayerallaction" href="javascript:selectAll('1');" style="text-decoration: none;">
+            Select All
+           </a>
+           <a class="divlayersaveaction" href="javascript:saveSelectionToSession('CF1');" style="text-decoration: none;">
+            Save
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div id="divlayer2" class="divlayer divlayerborder divlayerbackground">
+        <div>
+         <div style="height: 200px; width: 355px; overflow: scroll; background-color: #F5F5F5;">
+          <span id="lblWTS_2" style="font-weight: bold;">
+           Select item(s) to Search
+          </span>
+          <div id="divCF_2" class="divCF_2">
+          </div>
+         </div>
+         <div class="divlayerclosebar" style="width: 355px;">
+          <div>
+           <input type="hidden" name="hfSelectedItems2" id="hfSelectedItems2" />
+           <a class="divlayercloseaction" href="javascript:closeLayer('divlayer2');" style="text-decoration: none;">
+            Close
+           </a>
+           <a class="divlayernoneaction" href="javascript:selectNone('2');" style="text-decoration: none;">
+            Select None
+           </a>
+           <a class="divlayerallaction" href="javascript:selectAll('2');" style="text-decoration: none;">
+            Select All
+           </a>
+           <a class="divlayersaveaction" href="javascript:saveSelectionToSession('CF2');" style="text-decoration: none;">
+            Save
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div id="divlayer3" class="divlayer divlayerborder divlayerbackground">
+        <div>
+         <div style="height: 200px; width: 355px; overflow: scroll; background-color: #F5F5F5;">
+          <span id="lblWTS_3" style="font-weight: bold;">
+           Select item(s) to Search
+          </span>
+          <div id="divCF_3" class="divCF_3">
+          </div>
+         </div>
+         <div class="divlayerclosebar" style="width: 355px;">
+          <div>
+           <input type="hidden" name="hfSelectedItems3" id="hfSelectedItems3" />
+           <a class="divlayercloseaction" href="javascript:closeLayer('divlayer3');" style="text-decoration: none;">
+            Close
+           </a>
+           <a class="divlayernoneaction" href="javascript:selectNone('3');" style="text-decoration: none;">
+            Select None
+           </a>
+           <a class="divlayerallaction" href="javascript:selectAll('3');" style="text-decoration: none;">
+            Select All
+           </a>
+           <a class="divlayersaveaction" href="javascript:saveSelectionToSession('CF3');" style="text-decoration: none;">
+            Save
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div id="divlayer4" class="divlayer divlayerborder divlayerbackground">
+        <div>
+         <div style="height: 200px; width: 355px; overflow: scroll; background-color: #F5F5F5;">
+          <span id="lblWTS_4" style="font-weight: bold;">
+           Select item(s) to Search
+          </span>
+          <div id="divCF_4" class="divCF_4">
+          </div>
+         </div>
+         <div class="divlayerclosebar" style="width: 355px;">
+          <div>
+           <input type="hidden" name="hfSelectedItems4" id="hfSelectedItems4" />
+           <a class="divlayercloseaction" href="javascript:closeLayer('divlayer4');" style="text-decoration: none;">
+            Close
+           </a>
+           <a class="divlayernoneaction" href="javascript:selectNone('4');" style="text-decoration: none;">
+            Select None
+           </a>
+           <a class="divlayerallaction" href="javascript:selectAll('4');" style="text-decoration: none;">
+            Select All
+           </a>
+           <a class="divlayersaveaction" href="javascript:saveSelectionToSession('CF4');" style="text-decoration: none;">
+            Save
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <script type="text/javascript">
+       &lt;!--if((typeof(PopCalendar)=='undefined')||(PopCalendar.majorVersion==null)||(PopCalendar.minorVersion==null))    alert('Unable to find script library "/Calendar/PopCalendar2008/PopCalendarAjaxNet.js".\n\nTry placing this file manually');else if((PopCalendar.majorVersion&lt;1)||((PopCalendar.majorVersion=1)&amp;&amp;(PopCalendar.minorVersion&lt;0.1)))    alert('This page uses an incorrect version of PopCalendarAjaxNet.js.\n\nThe page expects version 1.0.1 or greater. The script library is ' + PopCalendar.majorVersion + '.' + PopCalendar.minorVersion + '.');else if((typeof(PopCalendarFunctions)=='undefined')||(PopCalendarFunctions.majorVersion==null)||(PopCalendarFunctions.minorVersion==null))    alert('Unable to find script library "/Calendar/PopCalendar2008/PopCalendarFunctionsAjaxNet.js".\n\nTry placing this file manually');else if((PopCalendarFunctions.majorVersion&lt;1)||((PopCalendarFunctions.majorVersion=1)&amp;&amp;(PopCalendarFunctions.minorVersion&lt;0)))    alert('This page uses an incorrect version of PopCalendarFunctionsjaxNet.js.\n\nThe page expects version 1.0.0 or greater. The script library is ' + PopCalendarFunctions.majorVersion + '.' + PopCalendarFunctions.minorVersion + '.');// --&gt;
+      </script>
+      <script type="text/javascript">
+       var calStartDateSearch=PopCalendar.newCalendar('calStartDateSearch');calStartDateSearch.imgDir='/Calendar/PopCalendar2008/CSS/ADXPublic_Images/';calStartDateSearch.CssClass='ADXPublicStyle';calStartDateSearch.startAt=0;calStartDateSearch.todayString='Today is Wednesday, November 30, 2016';calStartDateSearch.selectDateMessage='[Date]';calStartDateSearch.showWeekend=1;calStartDateSearch.centuryLimit=40;calStartDateSearch.forcedToday('2016-11-30','yyyy-mm-dd');calStartDateSearch.dayName=PopCal_enUS_DaysShort;calStartDateSearch.monthName=PopCal_enUS_MonthsFull;calStartDateSearch.monthNameShort=PopCal_enUS_MonthsShort;calStartDateSearch.initCalendar();__PopCalAddCalendarRange('txtStartDateSearch','2011-01-01',0,'','2026-12-31',0,'');
+      </script>
+      <script type="text/javascript">
+       var calEndDateSearch=PopCalendar.newCalendar('calEndDateSearch');calEndDateSearch.imgDir='/Calendar/PopCalendar2008/CSS/ADXPublic_Images/';calEndDateSearch.CssClass='ADXPublicStyle';calEndDateSearch.startAt=0;calEndDateSearch.todayString='Today is Wednesday, November 30, 2016';calEndDateSearch.selectDateMessage='[Date]';calEndDateSearch.showWeekend=1;calEndDateSearch.centuryLimit=40;calEndDateSearch.forcedToday('2016-11-30','yyyy-mm-dd');calEndDateSearch.dayName=PopCal_enUS_DaysShort;calEndDateSearch.monthName=PopCal_enUS_MonthsFull;calEndDateSearch.monthNameShort=PopCal_enUS_MonthsShort;calEndDateSearch.initCalendar();__PopCalAddCalendarRange('txtEndDateSearch','C:txtStartDateSearch',0,'','2026-12-31',0,'');
+      </script>
+     </div>
+    </div>
+   </div>
+   <script type="text/javascript" src="http://www.muhlenberg.edu/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="http://www.muhlenberg.edu/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    function resetCategory() {
+
+document.getElementById('dlstCategory').selectedIndex=1;
+
+   }
+   window.onload=resetCategory();
+   </script>
+   <style>
+    #lblCategoryHeading  
+{
+  background-color:white;
+
+}
+/*
+element.style{
+width:860px;
+}
+.eventlistdiv {
+ width:860px;
+}
+
+#PageTable {
+ width:860px;
+}
+#ibtnSearch {
+width:103px;
+height:39px;
+}
+.eventlistdiv: before {
+ width:860px;
+content:  "Campus Calendar";
+}
+*/
+#content h2
+{ 
+   color:#9d2235;
+   background-color:white;
+   border-bottom:none;
+   padding:0 0 0 0;
+   padding-bottom:19px;
+   font-size:18px;
+
+
+
+}
+.listbodytext{
+padding-right:5px;
+}
+#content h2:before {
+content:  "Searching for events in:  " ;
+}
+table td {
+
+
+padding:15px;
+}
+table td td {
+
+
+padding:0px;
+}
+#lblCategoryHeading span{
+background-color:white; 
+font-weight:Bold;
+
+}
+
+
+  #lblPoweredByADE {visibility:hidden;}
+  #lblNoHighlight {visibility:hidden; line-height:0px}
+  #pnlListviewHeading {padding-top:1px}
+  #pnlListviewHeading h2 {background-color:#CCCCCC; line-height:250px} 
+
+ h2 {background-color:#CCCCCC}
+  /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container" style="vertical-align:bottom">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="http://www.muhlenberg.edu/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College 2015 |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+</html>

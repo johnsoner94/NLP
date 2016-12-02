@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Anthropology Subject Guide - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 357826;
+			mySID = 2926609;
+			var myGNAME = "Anthropology+Subject+Guide";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Anthropology Subject Guide
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Oct 3, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/anthropology">
+          http://libraryguides.muhlenberg.edu/anthropology
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=357826">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Jen Jarson
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:jarson@muhlenberg.edu">
+           jarson@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          jarson@muhlenberg.edu
+          <br />
+          484.664.3552
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357826&amp;sid=2926609">
+       Core Resources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357826&amp;sid=2927042">
+       Finding Background Information
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357826&amp;sid=2927046">
+       Finding Articles
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357826&amp;sid=2927047">
+       Finding Books
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357826&amp;sid=2927048">
+       Citations
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2926609" class="guide_page">
+   <h2>
+    Core Resources
+   </h2>
+   <div id="content_box_10295647" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding More
+     </div>
+     <div style="margin-bottom:10px;">
+      <p href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2894875">
+       For recommendations beyond the core resources listed on this page, use the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357826&amp;sid=2927042">
+        Finding Background Information
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357826&amp;sid=2927046">
+        Finding Articles
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357826&amp;sid=2927047">
+        Finding Books
+       </a>
+       , and
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2894875">
+       </a>
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357826&amp;sid=2927048">
+        Citations
+       </a>
+       tabs across the top.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10267754" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Resources by Course
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Find specific recommendations by course:
+      </p>
+     </div>
+     <ul>
+      <li>
+       Historical Ecology of the Lehigh Valley
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/historicalecologylv">
+        http://libraryguides.muhlenberg.edu/historicalecologylv
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10268289" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Articles and Books
+     </div>
+     <ul>
+      <li>
+       Anthropology Plus
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ant">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ant
+       </a>
+       <br />
+       Citations to scholarly journals and books in anthropology, archaeology, and related fields.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       AnthroSource
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.anthrosource.net/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.anthrosource.net/
+       </a>
+       <br />
+       A database of mostly scholarly journal articles, as well as some books and non-scholarly articles published by the American Anthropological Association.  Some full text is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       A database of scholarly journals for most academic disciplines. The most recent three to five years of most journals are not included.  Full text is linked directly in the database.
+      </li>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10269306" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Background Information
+     </div>
+     <ul>
+      <li>
+       Credo Reference
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas, including many notable titles for anthropology. Full text is linked directly in the database.
+      </li>
+      <li>
+       21st Century Anthropology: A Reference Handbook
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/gvrl/infomark.do?type=aboutBook&amp;prodId=GVRL&amp;eisbn=9781412979283&amp;userGroupName=mul_coll&amp;version=1.0">
+        https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/gvrl/infomark.do?type=aboutBook&prodId;=GVRL&eisbn;=9781412979283&userGroupName;=mul_coll&version;=1.0
+       </a>
+       <br />
+       Highlights the most important anthropology topics, issues, questions, and debates in the 21st century. Includes applied anthropology, archaeology and paleontology, sociocultural anthropology, evolution, linguistics, physical and biological anthropology, and primate studies.  Full text online.
+      </li>
+      <li>
+       Encyclopedia of Anthropology
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/openurl/openurl?url_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;req_dat=info:sid/gale:ugnid:mul_coll&amp;res_id=info:sid/gale:GVRL&amp;ctx_enc=info:ofi:enc:UTF-8&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft_id=info:sid/gale:bmcode:recid/0SDW">
+        https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/openurl/openurl?url_ver=Z39.88-2004&url;_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&req;_dat=info:sid/gale:ugnid:mul_coll&res;_id=info:sid/gale:GVRL&ctx;_enc=info:ofi:enc:UTF-8&rft;_val_fmt=info:ofi/fmt:kev:mtx:book&rft;_id=info:sid/gale:bmcode:recid/0SDW
+       </a>
+       <br />
+       Over 1,000 entries that focus on topics in physical/ biological anthropology, archaeology, cultural/social anthropology, linguistics, and applied anthropology. Also included are relevant articles on geology, paleontology, biology, evolution, sociology, psychology, philosophy, and theology.  Full text online.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10269318" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Citation Resources
+     </div>
+     <ul>
+      <li>
+       American Anthropological Association Style Guide
+       <br />
+       <a href="http://www.aaanet.org/publications/guidelines.cfm">
+        http://www.aaanet.org/publications/guidelines.cfm
+       </a>
+       <br />
+       General guidelines, as well as reference examples.
+       <br />
+      </li>
+      <li>
+       Citation Guides (Muhlenberg College)
+       <br />
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        http://trexler.muhlenberg.edu/research/citation-guides.html
+       </a>
+       <br />
+       Examples of citation formatting in APA, Chicago, and MLA styles.
+      </li>
+      <li>
+       Zotero
+       <br />
+       <a href="http://www.zotero.org/">
+        http://www.zotero.org/
+       </a>
+       <br />
+       "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources."  Download instructions and help available on the site.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2927042" class="guide_page">
+   <h2>
+    Finding Background Information
+   </h2>
+   <div id="content_box_10139332" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Getting Started with Reference Resources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The resources on this page can help you to
+       <strong>
+        brainstorm
+       </strong>
+       topic ideas,
+       <strong>
+        narrow
+       </strong>
+       your topic to make it more manageable, or learn
+       <strong>
+        background
+       </strong>
+       information about a topic you have picked.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10271595" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Encyclopedias, Handbooks, Literature Reviews, and More
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To find more print and online reference books for general anthropology, as well as specific subjects within or related to anthropology, search Encompass Search or ask for help.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Credo Reference
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas, including many notable titles for anthropology. Full text is linked directly in the database.
+      </li>
+      <li>
+       21st Century Anthropology: A Reference Handbook
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/gvrl/infomark.do?type=aboutBook&amp;prodId=GVRL&amp;eisbn=9781412979283&amp;userGroupName=mul_coll&amp;version=1.0">
+        https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/gvrl/infomark.do?type=aboutBook&prodId;=GVRL&eisbn;=9781412979283&userGroupName;=mul_coll&version;=1.0
+       </a>
+       <br />
+       Highlights the most important anthropology topics, issues, questions, and debates in the 21st century. Includes applied anthropology, archaeology and paleontology, sociocultural anthropology, evolution, linguistics, physical and biological anthropology, and primate studies.  Full text online.
+      </li>
+      <li>
+       Annual Review of Anthropology
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/137342787?databaseList=1708,638">
+        https://muhlenberg.on.worldcat.org/oclc/137342787?databaseList=1708,638
+       </a>
+       <br />
+       Literature reviews providing summary and analysis of research in the field of anthropology, published annually. Good for an overview of the state of research on a given topic. Full text is available online for 1972-present.
+      </li>
+      <li>
+       Encyclopedia of Anthropology
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/openurl/openurl?url_ver=Z39.88-2004&amp;url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&amp;req_dat=info:sid/gale:ugnid:mul_coll&amp;res_id=info:sid/gale:GVRL&amp;ctx_enc=info:ofi:enc:UTF-8&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:book&amp;rft_id=info:sid/gale:bmcode:recid/0SDW">
+        https://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/openurl/openurl?url_ver=Z39.88-2004&url;_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&req;_dat=info:sid/gale:ugnid:mul_coll&res;_id=info:sid/gale:GVRL&ctx;_enc=info:ofi:enc:UTF-8&rft;_val_fmt=info:ofi/fmt:kev:mtx:book&rft;_id=info:sid/gale:bmcode:recid/0SDW
+       </a>
+       <br />
+       Over 1,000 entries that focus on topics in physical/ biological anthropology, archaeology, cultural/social anthropology, linguistics, and applied anthropology. Also included are relevant articles on geology, paleontology, biology, evolution, sociology, psychology, philosophy, and theology.  Full text online.
+      </li>
+      <li>
+       Encyclopedia of Evolution
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.oxford-evolution.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.oxford-evolution.com/
+       </a>
+       <br />
+       Entries by leading experts survey essential concepts and theories, present methods, models and findings, and discuss both the history of the field and current controversies.  Full text online.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10295625" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources for Newspapers and Magazines
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas, including psychology. Most full text is linked directly in the database; otherwise use the Get It links to check for full text online or in the library.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       A database of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.  Full text is linked directly in the database.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10295627" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Websites
+     </div>
+     <ul>
+      <li>
+       Anthropology Resources on the Internet (American Anthropological Association)
+       <br />
+       <a href="http://www.aaanet.org/resources/">
+        http://www.aaanet.org/resources/
+       </a>
+       <br />
+       Suggested resources from a key association in the field of anthropology.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2927046" class="guide_page">
+   <h2>
+    Finding Articles
+   </h2>
+   <div id="content_box_10278449" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Defining Key Terms
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       You may be wondering what we mean when we refer to
+       <em>
+        scholarly
+       </em>
+       versus
+       <em>
+        popular
+       </em>
+       .
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Scholarly:
+        </strong>
+        In-depth, research-based articles, books, and book chapters, written by scholars and experts and intended for other researchers, experts, and students.
+       </li>
+       <li>
+        <strong>
+         Popular:
+        </strong>
+        Articles, books, and book chapters written by journalists or professional writers for a general audience in common language (e.g., newspapers and magazines).
+       </li>
+      </ul>
+      <p style="padding-left: 30px;" class="MsoNormal">
+       <em>
+        Learn more:
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073">
+         What is Scholarly?
+        </a>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073">
+        </a>
+       </em>
+      </p>
+      <p>
+       While we're at it, how about a few more key terms...
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Peer-Reviewed:
+        </strong>
+        A process through which some scholarly articles and book chapters are critically evaluated by experts with in-depth knowledge of the research area before publication in order to ensure the information is valid, credible, well-written, and of high quality.
+        <span>
+         &nbsp;
+        </span>
+        <strong>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         Literature:
+        </strong>
+        Scholarly articles, books, and book chapters published on a particular subject.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10295777" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Verifying Peer-Review
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Are you looking especially for
+       <strong>
+        peer-reviewed
+       </strong>
+       articles?&nbsp;
+      </p>
+      <ul>
+       <li>
+        Many databases will tell you if an article has been peer-reviewed.&nbsp; You may even be able to use limits or filters in the database to narrow your search results.&nbsp;
+       </li>
+       <li>
+        If you're still not sure if an article has been peer-reviewed, search the name of the journal in which the article was published in
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+         Ulrichsweb Periodicals Directory
+        </a>
+        .&nbsp; The symbol of a referee's jersey next to the journal name indicates the journal uses peer review.&nbsp; (Refereed is a synonym for peer reviewed.)&nbsp; Note, though, that not all content in peer-reviewed journals is actually peer-reviewed; book or film reviews, letters to the editors, opinion columns, and articles without references are typically not peer-reviewed.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10277779" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases for Scholarly Literature
+     </div>
+     <ul>
+      <li>
+       Anthropology Plus
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ant">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ant
+       </a>
+       <br />
+       Citations to scholarly journals and books in anthropology, archaeology, and related fields.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       AnthroSource
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.anthrosource.net/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.anthrosource.net/
+       </a>
+       <br />
+       A database of mostly scholarly journal articles, as well as some books and non-scholarly articles published by the American Anthropological Association.  Some full text is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       A database of scholarly journals for most academic disciplines. The most recent three to five years of most journals are not included.  Full text is linked directly in the database.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10719765" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Encompass Search for Scholarly and Popular Articles
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only articles, use the Article limit on the left sidebar of your search results page.  Use the Peer-reviewed limit to narrow further to scholarly sources that have been peer-reviewed.  Some full text is linked directly; otherwise, use the Access Online buttons to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10277805" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Other Recommended Databases for Scholarly Literature
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas, including anthropology. Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       A database of scholarly and non-scholarly journals covering various subjects including general sciences, humanities, social sciences, and business.  Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       PrimateLit
+       <br />
+       <a href="http://primatelit.library.wisc.edu/">
+        http://primatelit.library.wisc.edu/
+       </a>
+       <br />
+       Citations to scholarly journal articles, books, technical reports, etc. on nonhuman primates.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       PubMed (Medline)
+       <br />
+       <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed">
+        http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed
+       </a>
+       <br />
+       A database of scholarly journals in the fields of medicine, psychology, health care, and more, with some relevance to anthropology. Some full text is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       Sage Journals Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search">
+        https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search
+       </a>
+       <br />
+       A database of scholarly journals published by Sage, providing wide coverage in all disciplines, but particularly the social sciences.  Full text for articles published 1999 to the present is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       ScienceDirect College Edition Health and Life Sciences, Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of scholarly journals published by Elsevier in the areas of health, life, and physical sciences, with some relevance to anthropology. Some full text is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10295721" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases for Popular Literature
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas. Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       A database of popular newspapers, magazines, and broadcast transcripts, as well as business publications, legal materials, and more.  Full text is linked directly in the database.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10536644" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How do I get the full text of my article?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To get the full text of an article, consider the following options:
+      </p>
+      <p>
+       - If you are in Encompass Search or a library database, look for "Check for Full Text buttons," "Access Online," or "Check eResources" buttons. These buttons will take you the full text of the article or tell you that the full text cannot be found. If the full text is not available from Trexler Library, look for buttons to request the item from another library via interlibrary loan. Or go directly to the
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       request forms.
+      </p>
+      <p>
+       - If you have citation information for the article (i.e., journal title, article title, publication year, etc.), type the information about your article in
+       <a href="http://trexler.muhlenberg.edu/">
+        Encompass Search
+       </a>
+       on the library website. If the library subscribes to the full text, you will be directed to the article (see first bullet above). If not, you can request a copy of the article via
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       .
+      </p>
+      <p>
+       - If Trexler Library does not have access to the full text of the article, search
+       <a href="http://www.google.com/scholar">
+        Google Scholar
+       </a>
+       by article title to see if the author has made a copy freely available online. If not, you can request a copy of the article via
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2927047" class="guide_page">
+   <h2>
+    Finding Books
+   </h2>
+   <div id="content_box_10719880" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Encompass Search for Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only books, use the Books limit on the left sidebar of your search results page.  Many items will be in Trexler Library; note the call number and status of the item to check its location and availability.  For items not in Trexler Library, use the Interlibrary Loan button to request a copy from another library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10720509" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Databases to Find Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       While we typically use databases (like Anthropology Plus and JSTOR) to find journal articles, remember that many databases include citations to (and sometimes full text of) books and book chapters, as well.&nbsp; Check the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357826&amp;sid=2927046">
+        Finding Articles
+       </a>
+       tab for links to helpful databases!
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2927048" class="guide_page">
+   <h2>
+    Citations
+   </h2>
+   <div id="content_box_10271846" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      About Citation Styles
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        AAA Style
+       </strong>
+       is typically preferred for anthropology, but check with your professor for style requirements and recommendations to be sure.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_17987746" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Avoiding Plagiarism
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Plagiarism is the act of using another person's words or ideas without giving him/her proper credit.&nbsp; It is a serious academic offense.&nbsp;
+      </p>
+      <p>
+       The
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/">
+        Academic Integrity
+       </a>
+       page defines plagiarism in more detail and provides information about Muhlenberg's Academic Integrity Code.&nbsp; Check out
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/plagiarism_defined.html">
+        Defining Plagiarism: A Guide for Students
+       </a>
+       with helpful frequently asked questions.&nbsp;
+      </p>
+      <p>
+       Indiana University's plagiarism tutorial also offers helpful information on understanding and recognizing plagiarism, including an
+       <a href="https://www.indiana.edu/~istd/overview.html">
+        overview
+       </a>
+       with basics and recommendations and
+       <a href="https://www.indiana.edu/~istd/examples.html">
+        examples
+       </a>
+       <b>
+        . &nbsp;
+       </b>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10271804" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Citation Resources
+     </div>
+     <ul>
+      <li>
+       American Anthropological Association Style Guide
+       <br />
+       <a href="http://www.aaanet.org/publications/guidelines.cfm">
+        http://www.aaanet.org/publications/guidelines.cfm
+       </a>
+       <br />
+       General guidelines, as well as reference examples.
+       <br />
+      </li>
+      <li>
+       Chicago Manual of Style Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.chicagomanualofstyle.org/16/contents.html">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.chicagomanualofstyle.org/16/contents.html
+       </a>
+       <br />
+       AAA uses The Chicago Manual of Style.  Where no rule is present in the AAA guide, follow Chicago.
+      </li>
+      <li>
+       Citation Guides (Muhlenberg College)
+       <br />
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        http://trexler.muhlenberg.edu/research/citation-guides.html
+       </a>
+       <br />
+       Examples of citation formatting in APA, Chicago, and MLA styles.
+      </li>
+      <li>
+       Documentation (University of Wisconsin)
+       <br />
+       <a href="http://writing.wisc.edu/Handbook/Documentation.html">
+        http://writing.wisc.edu/Handbook/Documentation.html
+       </a>
+       <br />
+       General orientation to major citation styles, with examples.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10173092" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Zotero
+     </div>
+     <ul>
+      <li>
+       Zotero
+       <br />
+       <a href="http://www.zotero.org/">
+        http://www.zotero.org/
+       </a>
+       <br />
+       "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources."  Download instructions and help available on the site.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

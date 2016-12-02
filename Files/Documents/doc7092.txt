@@ -1,0 +1,1352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Psychology Subject Guide - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 353707;
+			mySID = 2893116;
+			var myGNAME = "Psychology+Subject+Guide";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Psychology Subject Guide
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Nov 28, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/psychology">
+          http://libraryguides.muhlenberg.edu/psychology
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=353707">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Jen Jarson
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:jarson@muhlenberg.edu">
+           jarson@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          jarson@muhlenberg.edu
+          <br />
+          484.664.3552
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=2893116">
+       Core Resources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=2893499">
+       Finding Background Information
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=2894859">
+       Finding Articles
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=2894861">
+       Finding Books
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=4389804">
+       Finding Tests and Measures
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=5485381">
+       Finding Multimedia
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353707&amp;sid=2894875">
+       Citations
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2893116" class="guide_page">
+   <h2>
+    Core Resources
+   </h2>
+   <div id="content_box_10134605" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding More
+     </div>
+     <div style="margin-bottom:10px;">
+      <p href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2893499">
+       For recommendations beyond the core resources listed on this page, use the
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2893499">
+       </a>
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2893499">
+        Finding Background Information
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2894859">
+        Finding Articles
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2894861">
+        Finding Books
+       </a>
+       , and
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2894875">
+        Citations
+       </a>
+       tabs across the top.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10133100" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Resources by Course
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Find specific recommendations by course:
+      </p>
+     </div>
+     <ul>
+      <li>
+       Abnormal Psychology (Tjeltveit)
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/abnormalpsychology2">
+        http://libraryguides.muhlenberg.edu/abnormalpsychology2
+       </a>
+      </li>
+      <li>
+       Child Development
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/childdevelopment">
+        http://libraryguides.muhlenberg.edu/childdevelopment
+       </a>
+      </li>
+      <li>
+       Psychology of Creativity
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/psychofcreativity">
+        http://libraryguides.muhlenberg.edu/psychofcreativity
+       </a>
+      </li>
+      <li>
+       Psychology of Women
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/psychologyofwomen">
+        http://libraryguides.muhlenberg.edu/psychologyofwomen
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10133870" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Articles and Books
+     </div>
+     <ul>
+      <li>
+       PsycINFO
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=psyh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=psyh
+       </a>
+       <br />
+       Premier database of scholarly and professional journals and books in psychology and related areas.  Some full text is linked directly in the database; otherwise, use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       ScienceDirect College Edition Health and Life Sciences, Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of scholarly journals published by Elsevier in the areas of health, life, and physical sciences.  Some full text is linked directly in the database; otherwise, search Encompass Search by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10134220" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Background Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       These resources can help you to brainstorm topic ideas, narrow your topic to make it more manageable, or learn background information about a topic you have picked.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Credo Reference
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas, including many notable titles for psychology.  Full text is linked directly in the database.
+      </li>
+      <li>
+       Annual Review of Psychology
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1435605?databaseList=1708,638">
+        https://muhlenberg.on.worldcat.org/oclc/1435605?databaseList=1708,638
+       </a>
+       <br />
+       Literature reviews providing summary and analysis of research in the field of psychology, published annually.  Good for an overview of the state of research on a given topic.  Full text is available online for 1950-present.
+      </li>
+      <li>
+       <b>
+        DSM-IV-TR: Diagnostic and Statistical Manual of Mental Disorders
+       </b>
+       <br />
+       Location: Ready Reference 616.89 A512d4 2000 (Level A)
+       <br />
+       Information about and criteria for the classification of mental disorders. (Published in 2000.)
+      </li>
+      <li>
+       <b>
+        DSM-5: Diagnostic and Statistical Manual of Mental Disorders
+       </b>
+       <br />
+       Location: Ready Reference 616.89 A512d5 (Level A)
+       <br />
+       Information about and criteria for the classification of mental disorders. (Published in 2013.)
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10134553" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Citation Resources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        APA Style
+       </strong>
+       is typically preferred for psychology, but check with your professor for style requirements and recommendations to be sure.
+      </p>
+     </div>
+     <ul>
+      <li>
+       <b>
+        Publication Manual of the American Psychological Association (6th ed.)
+       </b>
+       <br />
+       Location: Ready Reference 808.06615 P976m 2010 (Level A)
+       <br />
+       The authoritative and complete manual for APA Style.
+      </li>
+      <li>
+       Citation Guides (Muhlenberg College)
+       <br />
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        http://trexler.muhlenberg.edu/research/citation-guides.html
+       </a>
+       <br />
+       Examples of citation formatting in APA, Chicago, and MLA styles.
+      </li>
+      <li>
+       Zotero
+       <br />
+       <a href="http://www.zotero.org/">
+        http://www.zotero.org/
+       </a>
+       <br />
+       "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources."  Download instructions and help available on the site.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2893499" class="guide_page">
+   <h2>
+    Finding Background Information
+   </h2>
+   <div id="content_box_10139332" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Getting Started with Reference Resources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The resources on this page can help you to
+       <strong>
+        brainstorm
+       </strong>
+       topic ideas,
+       <strong>
+        narrow
+       </strong>
+       your topic to make it more manageable, or learn
+       <strong>
+        background
+       </strong>
+       information about a topic you have picked.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10140146" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Encyclopedias, Handbooks, Literature Reviews, and More
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To find more print and online reference books for general psychology, as well as specific subjects within or related to psychology, search Encompass Search or ask for help.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Credo Reference
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas, including many notable titles for psychology.  Full text is linked directly in the database.
+      </li>
+      <li>
+       Annual Review of Psychology
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1435605?databaseList=1708,638">
+        https://muhlenberg.on.worldcat.org/oclc/1435605?databaseList=1708,638
+       </a>
+       <br />
+       Literature reviews providing summary and analysis of research in the field of psychology, published annually.  Good for an overview of the state of research on a given topic.  Full text is available online for 1950-present.
+      </li>
+      <li>
+       Encyclopedia of Neuroscience
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://link.springer.com/book/10.1007/978-3-540-29678-2">
+        https://muhlenberg.idm.oclc.org/login?url=http://link.springer.com/book/10.1007/978-3-540-29678-2
+       </a>
+      </li>
+      <li>
+       <b>
+        Encyclopedia of Psychology
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 150.3 E563o vol. 1-8 (Level A)
+       <br />
+       In-depth entries on a wide variety of psychological topics.
+      </li>
+      <li>
+       <b>
+        Handbook of Psychology
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 150 H236o vol. 1-12 (Level A)
+       <br />
+       In-depth entries on a wide variety of psychological topics.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10140228" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      DSM
+     </div>
+     <ul>
+      <li>
+       <b>
+        DSM-IV-TR: Diagnostic and Statistical Manual of Mental Disorders
+       </b>
+       <br />
+       Location: Ready Reference 616.89 A512d4 2000 (Level A)
+       <br />
+       Information about and criteria for the classification of mental disorders. (Published in 2000.)
+      </li>
+      <li>
+       <b>
+        DSM-IV Sourcebook
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 616.89075 A512d4, Suppl. vol. 1-4 (Level B)
+       <br />
+       Explains the rationale and evidence used to develop the criteria set forth in the DSM-IV.
+      </li>
+      <li>
+       <b>
+        DSM-5: Diagnostic and Statistical Manual of Mental Disorders
+       </b>
+       <br />
+       Location: Ready Reference 616.89 A512d5 (Level A)
+       <br />
+       Information about and criteria for the classification of mental disorders. (Published in 2013.)
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10169155" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources for Newspapers and Magazines
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas, including psychology. Most full text is linked directly in the database; otherwise use the Get It links to find the library's other full text or physical copies.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       A database of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.  Full text is linked directly in the database.
+      </li>
+      <li>
+       ScienceDaily
+       <br />
+       <a href="http://www.sciencedaily.com/">
+        http://www.sciencedaily.com/
+       </a>
+       <br />
+       A web site devoted to science news covering "all fields of the physical, biological, earth and applied sciences. Stories are integrated with photographs and illustrations, links to journals and academic studies, related research and topics, encyclopedia articles, and videos."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10172685" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Websites
+     </div>
+     <ul>
+      <li>
+       American Psychological Association
+       <br />
+       <a href="http://www.apa.org/topics/">
+        http://www.apa.org/topics/
+       </a>
+       <br />
+       Links to scholarly research, related news, and more, organized by psychological topic.
+      </li>
+      <li>
+       Association for Psychology Science: Psychology Links
+       <br />
+       <a href="http://www.psychologicalscience.org/index.php/about/psychology-links#orgs">
+        http://www.psychologicalscience.org/index.php/about/psychology-links#orgs
+       </a>
+       <br />
+       Links to U.S. and international psychological societies and related organizations, U.S. government agencies, and more.
+      </li>
+      <li>
+       National Institute of Mental Health
+       <br />
+       <a href="http://www.nimh.nih.gov/index.shtml">
+        http://www.nimh.nih.gov/index.shtml
+       </a>
+       <br />
+       Information on signs, symptoms, treatment, as well as statistics and more regarding mental health disorders and issues.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2894859" class="guide_page">
+   <h2>
+    Finding Articles
+   </h2>
+   <div id="content_box_10140609" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Defining Key Terms
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       You may be wondering what we mean when we refer to
+       <em>
+        scholarly
+       </em>
+       versus
+       <em>
+        popular
+       </em>
+       .
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Scholarly:
+        </strong>
+        In-depth, research-based articles, books, and book chapters, written by scholars and experts and intended for other researchers, experts, and students.
+       </li>
+       <li>
+        <strong>
+         Popular:
+        </strong>
+        Articles, books, and book chapters written by journalists or professional writers for a general audience in common language (e.g., newspapers and magazines).
+       </li>
+      </ul>
+      <p style="padding-left: 30px;" class="MsoNormal">
+       <em>
+        Learn more:
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073">
+         What is Scholarly?
+        </a>
+       </em>
+      </p>
+      <p>
+       While we're at it, how about a few more key terms...
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Empirical:
+        </strong>
+        Based on experiment or observation
+        <strong>
+         .
+         <br />
+        </strong>
+       </li>
+       <li>
+        <strong>
+         Peer-Reviewed:
+        </strong>
+        A process through which some scholarly articles and book chapters are critically evaluated by experts with in-depth knowledge of the research area before publication in order to ensure the information is valid, credible, well-written, and of high quality.
+        <span>
+         &nbsp;
+        </span>
+        <strong>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         Literature:
+        </strong>
+        Scholarly articles, books, and book chapters published on a particular subject.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10173314" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Verifying Peer-Review
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Are you looking especially for
+       <strong>
+        peer-reviewed
+       </strong>
+       articles?&nbsp;
+      </p>
+      <ul>
+       <li>
+        Many databases will tell you if an article has been peer-reviewed.&nbsp; You may even be able to use limits or filters in the database to narrow your search results.&nbsp;
+       </li>
+       <li>
+        If you're still not sure if an article has been peer-reviewed, search the name of the journal in which the article was published in
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+         Ulrichsweb Periodicals Directory
+        </a>
+        .&nbsp; The symbol of a referee's jersey next to the journal name indicates the journal uses peer review.&nbsp; (Refereed is a synonym for peer reviewed.)&nbsp; Note, though, that not all content in peer-reviewed journals is actually peer-reviewed; book or film reviews, letters to the editors, opinion columns, and articles without references are typically not peer-reviewed.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10140312" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases for Scholarly Literature
+     </div>
+     <ul>
+      <li>
+       PsycINFO
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=psyh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=psyh
+       </a>
+       <br />
+       Premier database of scholarly and professional journals and books in psychology and related areas.  Some full text is linked directly in the database; otherwise, use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       ScienceDirect College Edition Health and Life Sciences, Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of scholarly journals published by Elsevier in the areas of health, life, and physical sciences.  Some full text is linked directly in the database; otherwise, search Encompass Search by journal titles to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10719765" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Encompass Search for Scholarly and Popular Articles
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only articles, use the Article limit on the left sidebar of your search results page.  Use the Peer-reviewed limit to narrow further to scholarly sources that have been peer-reviewed.  Some full text is linked directly; otherwise, use the Access Online buttons to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10140320" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Other Recommended Databases for Scholarly Literature
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas, including psychology.  Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       ASSIA: Applied Social Sciences Index and Abstracts
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/assiashell/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/assiashell/ip?accountid=40980
+       </a>
+       <br />
+       Citations to scholarly journals in sociology, psychology, political science, health, social work, education, and more.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       CogPrints
+       <br />
+       <a href="http://cogprints.org/">
+        http://cogprints.org/
+       </a>
+       <br />
+       A database of self-archived journal articles, book chapters, conference papers and posters, and more regarding cognition in areas of psychology, neuroscience, and linguistics, as well as computer science, philosophy, biology, medicine, and anthropology.  Full text is linked directly in the database.
+      </li>
+      <li>
+       ERIC
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=eric">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=eric
+       </a>
+       <br />
+       A database of scholarly and professional journals, books, documents, and more in education and related areas, including psychology.  Some full text is linked directly in the database; otherwise, use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       A database of scholarly journals for most academic disciplines. The most recent three to five years of most journals are not included.  Full text is linked directly in the database.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       A database of scholarly and non-scholarly journals covering various subjects including general sciences, humanities, social sciences, and business.  Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       PILOTS Database
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/pilots/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/pilots/ip?accountid=40980
+       </a>
+       <br />
+       Citations for scholarly books and articles on post-traumatic stress disorder (PTSD) and other mental-health consequences of exposure to traumatic events.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       PsycARTICLES
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=pdh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=pdh
+       </a>
+       <br />
+       A database of scholarly journals published by the American Psychological Association and allied organizations.  Note that these articles are included in PsycINFO; no need to search PsycARTICLES if you are already searching PsycINFO.  Full text is linked directly in the database.
+      </li>
+      <li>
+       PubMed (Medline)
+       <br />
+       <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed">
+        http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed
+       </a>
+       <br />
+       A database of scholarly journals in the fields of medicine, psychology, health care, and more.  Some full text is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       Sage Journals Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search">
+        https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search
+       </a>
+       <br />
+       A database of scholarly journals published by Sage, providing wide coverage in all disciplines, but particularly the social sciences.  Full text for articles published 1999 to the present is linked directly in the database; otherwise, search the library catalog by journal titles to check for full text online or in the library.
+      </li>
+      <li>
+       Social Services Abstracts
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/socialservicesshell/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/socialservicesshell/ip?accountid=40980
+       </a>
+       <br />
+       Citations to scholarly journals in social work, human services, and related areas, including social welfare, social policy, and community development.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       SpringerLink
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/
+       </a>
+       <br />
+       A database of scholarly journals and books published by Springer-Verlag with coverage from 1997 to present. Subjects covered focus on the natural sciences, but also include significant titles in behavioral sciences, humanities, social sciences and law.  Most full text is linked directly in the database; otherwise, search the library catalog by journal titles or book titles to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10168900" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases for Popular Literature
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       A database of both scholarly and popular publications in a wide variety of disciplines and subject areas. Most full text is linked directly in the database; otherwise use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       A database of popular newspapers, magazines, and broadcast transcripts, as well as business publications, legal materials, and more.  Full text is linked directly in the database.
+      </li>
+      <li>
+       ScienceDaily
+       <br />
+       <a href="http://www.sciencedaily.com/">
+        http://www.sciencedaily.com/
+       </a>
+       <br />
+       A web site devoted to science news covering "all fields of the physical, biological, earth and applied sciences. Stories are integrated with photographs and illustrations, links to journals and academic studies, related research and topics, encyclopedia articles, and videos."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10536644" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How do I get the full text of my article?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To get the full text of an article, consider the following options:
+      </p>
+      <p>
+       - If you are in Encompass Search or a library database, look for "Check for Full Text buttons," "Access Online," or "Check eResources" buttons. These buttons will take you the full text of the article or tell you that the full text cannot be found. If the full text is not available from Trexler Library, look for buttons to request the item from another library via interlibrary loan. Or go directly to the
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       request forms.
+      </p>
+      <p>
+       - If you have citation information for the article (i.e., journal title, article title, publication year, etc.), type the information about your article in
+       <a href="http://trexler.muhlenberg.edu/">
+        Encompass Search
+       </a>
+       on the library website. If the library subscribes to the full text, you will be directed to the article (see first bullet above). If not, you can request a copy of the article via
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       .
+      </p>
+      <p>
+       - If Trexler Library does not have access to the full text of the article, search
+       <a href="http://www.google.com/scholar">
+        Google Scholar
+       </a>
+       by article title to see if the author has made a copy freely available online. If not, you can request a copy of the article via
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2894861" class="guide_page">
+   <h2>
+    Finding Books
+   </h2>
+   <div id="content_box_10177246" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Don't Forget About Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       While scholarly journals are most commonly used in psychology research, scholarly books can be very relevant, as well.&nbsp; Many scholarly books in psychology are actually edited collections of chapters.&nbsp; A chapter in an edited collection can be much like a scholarly journal article; many even go through peer-review before publication.&nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10719880" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Encompass Search for Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only books, use the Books limit on the left sidebar of your search results page.  Many items will be in Trexler Library; note the call number and status of the item to check its location and availability.  For items not in Trexler Library, use the Interlibrary Loan button to request a copy from another library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10295813" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using Databases to Find Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       While we typically use databases (like PsycINFO) to find journal articles, remember that many databases include citations to (and sometimes full text of) books and book chapters, as well.&nbsp; Check the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=353707&amp;sid=2894859">
+        Finding Articles
+       </a>
+       tab for links to helpful databases!
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4389804" class="guide_page">
+   <h2>
+    Finding Tests and Measures
+   </h2>
+   <div id="content_box_20544465" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding Tests and Measures: Selected Resources
+     </div>
+     <ul>
+      <li>
+       PsycTESTS
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=pst">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=pst
+       </a>
+       <br />
+       PsycTESTS is a research database that provides access to psychological tests, measures, scales and other assessments, most of which are available for immediate download and use.
+      </li>
+      <li>
+       PsycINFO
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=psyh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=psyh
+       </a>
+       <br />
+       Sometimes authors of a journal article will describe a scale, test, or measure that they either used or created for their research. The authors will occasionally include the scale in the appendix of their article.  Search the PsycINFO database for journal articles in psychology that describe use of a scale, test, or measure and/or its full text.
+      </li>
+      <li>
+       <b>
+        Measures for Clinical Practice: A Sourcebook
+       </b>
+       <br />
+       <b>
+        Location: On reserve; ask at the Circulation Desk on level A of the library.
+       </b>
+       <br />
+       A collection of "rapid assessment instruments" (RAIs), including many questionnaires and scales, which assess problems commonly encountered in clinical practice.
+      </li>
+      <li>
+       <b>
+        Measures of Personality and Social Psychological Attitudes
+       </b>
+       <br />
+       <b>
+        Location: On reserve; ask at the Circulation Desk on level A of the library.
+       </b>
+       <br />
+       Includes measures of attitude or personality.
+      </li>
+      <li>
+       <b>
+        Mental Measurements Yearbook
+       </b>
+       <br />
+       <b>
+        Location: The most recent five editions are on reserve; ask at the Circulation Desk on level A of the library. Earlier editions are located in the main collection at 151.2 B967m.
+       </b>
+       <br />
+       "Includes consumer-oriented test reviews, providing evaluative information to promote and encourage informed test selection. Typical MMY test entries include descriptive information, one or two professional reviews, and reviewer references. To be reviewed in the MMY a test must be commercially available, be published in the English language, and be new, revised, or widely used since it last appeared in the MMY series."
+      </li>
+      <li>
+       <b>
+        Tests in Print
+       </b>
+       <br />
+       <b>
+        Location: The most recent two editions are on reserve; ask at the Circulation Desk on level A of the library. Earlier editions are located in the main collection at 016.37126 B967t.
+       </b>
+       <br />
+       "Serves as a comprehensive bibliography to all known commercially available tests that are currently in print in the English language. [Includes] test purpose, test publisher, in-print status, price, test acronym, intended test population, administration times, publication date(s), and test author(s)."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5485381" class="guide_page">
+   <h2>
+    Finding Multimedia
+   </h2>
+   <div id="content_box_20544548" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding Multimedia: Selected Resources
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       Encompass Search finds information by searching through a massive collection of books, scholarly journals, newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more. TO FIND ONLY MEDIA, use the Video limit on the left sidebar of your search results page.
+      </li>
+      <li>
+       Psychological Experiments Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/pexp">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/pexp
+       </a>
+       <br />
+       "A multimedia collection that synthesizes the most important psychological experiments of the 20th and 21st centuries."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2894875" class="guide_page">
+   <h2>
+    Citations
+   </h2>
+   <div id="content_box_10169241" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      About Citation Styles
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        APA Style
+       </strong>
+       is typically preferred for psychology, but check with your professor for style requirements and recommendations to be sure.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_17987746" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Avoiding Plagiarism
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Plagiarism is the act of using another person's words or ideas without giving him/her proper credit.&nbsp; It is a serious academic offense.&nbsp;
+      </p>
+      <p>
+       The
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/">
+        Academic Integrity
+       </a>
+       page defines plagiarism in more detail and provides information about Muhlenberg's Academic Integrity Code.&nbsp; Check out
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/plagiarism_defined.html">
+        Defining Plagiarism: A Guide for Students
+       </a>
+       with helpful frequently asked questions.&nbsp;
+      </p>
+      <p>
+       Indiana University's plagiarism tutorial also offers helpful information on understanding and recognizing plagiarism, including an
+       <a href="https://www.indiana.edu/~istd/overview.html">
+        overview
+       </a>
+       with basics and recommendations and
+       <a href="https://www.indiana.edu/~istd/examples.html">
+        examples
+       </a>
+       <b>
+        . &nbsp;
+       </b>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10296051" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      APA Style Resources
+     </div>
+     <ul>
+      <li>
+       <b>
+        Publication Manual of the American Psychological Association (6th ed.)
+       </b>
+       <br />
+       Location: Ready Reference 808.06615 P976m 2010 (Level A)
+       <br />
+       The authoritative and complete manual for APA Style.
+      </li>
+      <li>
+       APA Documentation Guide (University of Wisconsin)
+       <br />
+       <a href="http://writing.wisc.edu/Handbook/DocAPA.html">
+        http://writing.wisc.edu/Handbook/DocAPA.html
+       </a>
+       <br />
+       Examples of citation formatting (in-text and reference list) in APA style.
+      </li>
+      <li>
+       APA Style (American Psychological Association)
+       <br />
+       <a href="http://apastyle.org/">
+        http://apastyle.org/
+       </a>
+       <br />
+       Overview of basics re. formatting and citations.
+      </li>
+      <li>
+       APA Style (Purdue Online Writing Lab)
+       <br />
+       <a href="https://owl.english.purdue.edu/owl/section/2/10/">
+        https://owl.english.purdue.edu/owl/section/2/10/
+       </a>
+       <br />
+       General orientation to APA Style, plus examples of paper and citation formatting.
+      </li>
+      <li>
+       Citation Guides (Muhlenberg College)
+       <br />
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        http://trexler.muhlenberg.edu/research/citation-guides.html
+       </a>
+       <br />
+       Examples of citation formatting in APA, Chicago, and MLA styles.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10173092" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Zotero
+     </div>
+     <ul>
+      <li>
+       Zotero
+       <br />
+       <a href="http://www.zotero.org/">
+        http://www.zotero.org/
+       </a>
+       <br />
+       "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources."  Download instructions and help available on the site.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

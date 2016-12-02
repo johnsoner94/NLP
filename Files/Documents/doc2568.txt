@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>
+   Abram Samuels Sheet Music Collection
+  </title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="skeleton.css" />
+  <style>
+   th { cursor: pointer; }
+    .sort-asc:after { content: '▲'; }
+    .sort-desc:after { content: '▼'; }
+  </style>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-67896102-1', 'auto');
+      ga('send', 'pageview');
+  </script>
+ </head>
+ <body>
+  <div class="container">
+   <img src="banner.jpg" />
+   <h1>
+    Abram Samuels Sheet Music Collection
+   </h1>
+   <p>
+    Sheet music may be searched by title, composer ("Author"), or keyword. Please select your preference from the drop-down list on the left. Sheet music may be requested using the call number from your search (e.g. "BB-103," "W-99") by using a Special Collections call slip, available at the Lending Services Desk.
+   </p>
+   <p>
+    The Samuels Collection is housed in Special Collections, and must be accessed by a library staff member. The material may not leave the library. If a photocopy is needed, a staff member will make the copy for you.
+   </p>
+   <div class="row">
+    <div class="twelve columns">
+     <form class="row">
+      <select id="scope" class="two columns">
+       <option value="kw">
+        Keyword
+       </option>
+       <option value="ti">
+        Title
+       </option>
+       <option value="au">
+        Author
+       </option>
+      </select>
+      <input type="text" id="query" class="eight columns" />
+      <button type="submit" class="two columns">
+       Search
+      </button>
+     </form>
+    </div>
+   </div>
+   <div class="row">
+    <div id="results" class="twelve columns">
+     <table class="u-full-width">
+      <caption>
+      </caption>
+      <thead>
+      </thead>
+      <tbody>
+      </tbody>
+     </table>
+    </div>
+   </div>
+  </div>
+  <script src="turkleton.js">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,1508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Center for Ethics: Civility and Disobedience (2014-2015) - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 611097;
+			mySID = 5048379;
+			var myGNAME = "Center+for+Ethics%3A+Civility+and+Disobedience+%282014-2015%29";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Center for Ethics: Civility and Disobedience (2014-2015)
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 26, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/centerforethics2014">
+          http://libraryguides.muhlenberg.edu/centerforethics2014
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=611097">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+          <br />
+          IM: refcannon (AIM, Yahoo)
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=611097&amp;sid=5048379">
+       Home
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_5048379" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18744883" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Barbara Cruikshank (2 September 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Barbara Cruikshank
+        <br />
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        "Feminism and Punishment."
+        <i>
+         Signs: Journal of Women in Culture &amp; Society
+        </i>
+        . 24.4 (1999). Available
+        <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/4587126214">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Too, and Too Little."
+        <i>
+         Politics &amp; Gender
+        </i>
+        . 1.2 (2005): 336-341. Available
+        <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/360243655">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <i>
+         The Will to Empower: Democratic Citizens and Other Subjects
+        </i>
+        . Ithaca, NY: Cornell University Press, 1999. Available in the Muhlenberg Room, Trexler Library, call # 324.630973 C955w.
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Barbara Cruikshank
+        <br />
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Alvarez, Cruikshank Receive Mellon LASA Seminars Initiative Award
+        </em>
+        . University of Massachusetts, 2013. 11 July 2014. Available
+        <a href="https://polsci.umass.edu/news_and_events/newslist/view/289/">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         Barbara Cruikshank
+        </em>
+        . University of Massachusetts, 2014. Web. 11 July 2014. Available
+        <a href="https://polsci.umass.edu/profiles/cruikshank_barbara">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about activism and protest movements
+        <br />
+       </strong>
+      </p>
+      <blockquote>
+       Hall, Simon.
+       <i>
+        American Patriotism, American Protest: Social Movements Since the Sixties
+       </i>
+       . Philadelphia: University of Pennsylvania Press, 2011. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/761340909">
+        here
+       </a>
+       .
+      </blockquote>
+      <blockquote>
+       Lin, Nan.
+       <i>
+        Social Capital: A Theory of Social Structure and Action
+       </i>
+       . Cambridge: Cambridge University Press, 2001. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/51296811">
+        here
+       </a>
+       .
+      </blockquote>
+      <blockquote>
+       McAnany, Emile G.
+       <i>
+        Saving the World: A Brief History of Communication for Development and Social Change
+       </i>
+       . Urbana: University of Illinois Press, 2012. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/826443610">
+        here
+       </a>
+       .
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18757472" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Muhlenberg Alumni Activism (12 September 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+      </p>
+      <p>
+       <strong>
+        Works about the panelists
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Alexander Lotorto
+       </em>
+       . 2011. Available
+       <a href="http://alexlotorto.blogspot.com/">
+        here
+       </a>
+       .&nbsp;
+      </p>
+      <p style="padding-left: 30px;">
+       <span>
+        <em>
+         Alumni Profiles: Kelly Howe
+        </em>
+        . N.d. Available
+        <a href="http://www.muhlenberg.edu/main/academics/theatre-dance/meetourAlumni/howe.html">
+         here
+        </a>
+        .
+        <br />
+       </span>
+      </p>
+      <p style="padding-left: 30px;">
+       <span>
+        Baxter, Christopher. "Newsmaker Q&amp;A: Adrian Shanker Gay Rights Advocate."&nbsp;
+       </span>
+       <i>
+        Morning Call,
+       </i>
+       <span>
+        &nbsp;Jan 23, 2011. Available
+        <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com.muhlenberg.idm.oclc.org/docview/847080335?accountid=40980">
+         here
+        </a>
+        .
+        <br />
+       </span>
+      </p>
+      <p style="padding-left: 30px;">
+       Brelje, Beth. "Practiced Protesters Lock Arms Against Tennessee Pipeline."&nbsp;
+       <em>
+        Pocono Record,&nbsp;
+       </em>
+       Feb 19, 2013. Available
+       <a href="http://www.poconorecord.com/apps/pbcs.dll/article?AID=/20130219/NEWS/302190327">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Schiavo, Christine. "Advocate for Gays, Lesbians Newsmaker Q&amp;A: Adrian Shanker."&nbsp;
+       <i>
+        Morning Call,
+       </i>
+       &nbsp;Jan 27, 2013. Available
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com.muhlenberg.idm.oclc.org/docview/1282198524?accountid=40980">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about activism
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Daisey, Mike. "The Sin Of Activism."
+       <i>
+        American Theatre
+       </i>
+       29.4 (2012): 10-11. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=73955152&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Fritsvold, Erik D. "Under The Law: Legal Consciousness And Radical Environmental Activism."
+       <i>
+        Law &amp; Social Inquiry
+       </i>
+       34.4 (2009): 799-824.Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=45231717&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Stephenson, Wen. "We Have To Shut It Down."
+       <i>
+        Nation
+       </i>
+       297.5/6 (2013): 24-28. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=89152614&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Swank, Eric, and Breanne Fahs. "An Intersectional Analysis of Gender and Race for Sexual Minorities Who Engage in Gay and Lesbian Rights Activism."
+       <i>
+        Sex Roles
+       </i>
+       68.11/12 (2013): 660-674. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=87563775&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18761574" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Scott Lemieux (17 September 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by
+       </strong>
+       <strong>
+        Scott Lemieux
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "Author Page for Scott Lemieux." Web blog post.&nbsp;
+       <em>
+        Lawyers, Guns &amp; Money
+       </em>
+       . 2014. Available
+       <a href="http://www.lawyersgunsmoneyblog.com/author/scott-lemieux">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "Scalia Gets It Right." Web blog post.&nbsp;
+       <em>
+        The American Prospect
+       </em>
+       . 3 June 2013. Available
+       <a href="http://prospect.org/article/scalia-gets-it-right">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       &ldquo;The Zimmerman Acquittal Isn&rsquo;t about &lsquo;Stand Your Ground.&rsquo;&rdquo; Web blog post.&nbsp;
+       <em>
+        The American Prospect
+       </em>
+       . 14 July 2013. Available
+       <a href="http://prospect.org/article/zimmerman-acquittal-isnt-about-stand-your-ground">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about
+       </strong>
+       <strong>
+        Scott Lemieux
+       </strong>
+       <br />
+      </p>
+      <blockquote>
+       <em>
+        Lemieux, Scott
+       </em>
+       . 2014. Available
+       <a href="http://www.strose.edu/academics/schoolofartsandhumanities/historypoliticalscience/faculty/drscottlemieux">
+        here
+       </a>
+       .
+      </blockquote>
+      <p>
+       <strong>
+        Works about blogging as activism
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Amin, Ramtin. "The Empire Strikes Back: Social Media Uprisings And The Future Of Cyber Activism."
+       <i>
+        Kennedy School Review
+       </i>
+       10.(2010): 64-66. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=59832558&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Keren, Michael. "Blogging And Mass Politics."
+       <i>
+        Biography: An Interdisciplinary Quarterly
+       </i>
+       33.1 (2010): 110-126. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=51499562&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Ma'anit, Adam. "A World Wide Web Of Change."
+       <i>
+        New Internationalist
+       </i>
+       435 (2010): 21-24. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=52920255&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Ortiz, David G., and Stephen F. Ostertag. "Katrina Bloggers And The Development Of Collective Civic Action: The Web As A Virtual Mobilizing Structure."
+       <i>
+        Sociological Perspectives
+       </i>
+       57.1 (2014): 52-78. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=94873668&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18766119" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      The Molly Maguires (23 September 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works about
+       </strong>
+       <strong>
+        the film
+        <em>
+         The Molly Maguires
+        </em>
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <font class="TF">
+        <font class="tf">
+         Guy, F. "James Bond, what are You Doing in that Coal Mine?"
+         <em>
+          New York Times
+         </em>
+         : 1. Jun 16 1968.Available
+         <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com.muhlenberg.idm.oclc.org/docview/118303816?accountid=40980">
+          here
+         </a>
+         .
+        </font>
+       </font>
+      </p>
+      <p style="padding-left: 30px;">
+       <strong>
+       </strong>
+       <strong>
+        <em>
+        </em>
+       </strong>
+       <em>
+       </em>
+       Rapold, Nicolas. "The Molly Maguires."
+       <i>
+        Film Comment
+       </i>
+       49.5 (2013): 76. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=f3h&amp;AN=90062700&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       <font class="TF">
+        <font class="tf">
+         Roger, G. "Screen: 'Molly Maguires'."
+         <i>
+          New York Times
+         </i>
+         : 46. Feb 09 1970. Available
+         <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com.muhlenberg.idm.oclc.org/docview/119081576?accountid=40980">
+          here
+         </a>
+         .
+         <br />
+        </font>
+       </font>
+      </p>
+      <p style="padding-left: 30px;">
+       <font class="TF">
+        <font class="tf">
+         <font class="TF">
+          <font class="tf">
+           Thomas, O. "Martin Ritt: Human Relationships and Moral Choices Fuel His Movies."
+           <i>
+            New York Times
+           </i>
+           : 2. Jan 12 1986. Available
+           <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com.muhlenberg.idm.oclc.org/docview/110931205?accountid=40980">
+            here
+           </a>
+           .
+           <br />
+          </font>
+         </font>
+        </font>
+       </font>
+      </p>
+      <p>
+       <strong>
+        Background about the Molly Maguires
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Bimba, Anthony.
+       <i>
+        The Molly Maguires
+       </i>
+       . New York: International Publishers, 1950. Available in Trexler Library, Muhlenberg Room, call # 364.14 B611m.
+      </p>
+      <p style="padding-left: 30px;">
+       Bloom, Joseph H. "Undermining The Molly Maguires."
+       <i>
+        American History
+       </i>
+       34.3 (1999): 54. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=2112056&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Kenny, Kevin.
+       <i>
+        Making Sense of the Molly Maguires
+       </i>
+       . New York: Oxford University Press, 1998. Available in Trexler Library, Muhlenberg Room, call # 364.14 K36m and as an
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/36138393">
+        e-book
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Kenny, Kevin. "The Molly Maguires In Popular Culture."
+       <i>
+        Journal Of American Ethnic History
+       </i>
+       14.4 (1995): 27. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=9508283533&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18767762" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Erik Loomis (24 September 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Work
+        <em>
+        </em>
+       </strong>
+       <strong>
+        s by Erik Loomis
+        <em>
+        </em>
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "Author Page for Erik Loomis." Web blog post.&nbsp;
+       <em>
+        Lawyers, Guns &amp; Money
+       </em>
+       . 2014. Available
+       <a href="http://www.lawyersgunsmoneyblog.com/author/erik.loomis/">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       ["
+       <em>
+        Labor Online
+       </em>
+       &nbsp;Blog Posts by Erik Loomis."]&nbsp;
+       <em>
+        Labor and Working Class History Association.
+       </em>
+       2014. Available
+       <a href="http://lawcha.org/wordpress/author/eloomis/">
+        here.
+       </a>
+       <strong>
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Loomis, E, and R Edgington. "Lives Under the Canopy: Spotted Owls and Loggers in Western Forests."
+       <i>
+        Natural Resources Journal
+       </i>
+       . 52.1 (2013): 99-134. Available
+       <a href="http://www.lexisnexis.com.muhlenberg.idm.oclc.org/lnacui2api/api/version1/getDocCui?lni=56RG-6PS0-01TH-N02J&amp;csi=271800&amp;hl=t&amp;hv=t&amp;hnsd=f&amp;hns=t&amp;hgn=t&amp;oc=00240&amp;perma=true">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about Erik Loomis
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Dr. Erik Loomis
+       </em>
+       . University of Rhode Island, 2014. Available
+       <a href="http://www.uri.edu/artsci/his/Erik_Loomis.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "University of Rhode Island Issues New Statement on Erik Loomis."
+       <em>
+        Crooked Timber
+       </em>
+       . 24 December 2012. Available
+       <a href="http://crookedtimber.org/2012/12/24/university-of-rhode-island-issues-new-statement-on-erik-loomis/">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about labor and environmentalism
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <strong>
+       </strong>
+       Barca, Stefania. "Laboring The Earth: Transnational Reflections On The Environmental History Of Work."
+       <i>
+        Environmental History
+       </i>
+       19.1 (2014): 3-27. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=93064597&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Dreyfus, Philip. "Nature, Militancy, And The Western Worker: Socialist Shingles, Syndicalist Spruce."
+       <i>
+        Labor: Studies In Working Class History Of The Americas
+       </i>
+       1.3 (2004): 71-96. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=16709936&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Kiester, Edwin. "A Town Buries The Axe."
+       <i>
+        Smithsonian
+       </i>
+       30.4 (1999): 70. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=1974158&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Peck, Gunther. "The Nature Of Labor: Fault Lines and Common Ground in Environmental and Labor History."
+       <i>
+        Environmental History
+       </i>
+       11.2 (2006): 212-238. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=31h&amp;AN=21063658&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18768794" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Ursula Rucker (11 October 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Work
+        <em>
+        </em>
+       </strong>
+       <strong>
+        s by Ursula Rucker
+        <em>
+        </em>
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "l.o.v.e."&nbsp;
+       <em>
+        YouTube
+       </em>
+       . 2010. Available&nbsp;
+       <a href="http://www.youtube.com/watch?v=Rsl_SSuIGcI">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "For Women."&nbsp;&nbsp;
+       <em>
+        YouTube
+       </em>
+       . N.d. Available&nbsp;
+       <a href="http://www.youtube.com/watch?v=yNq4JRs10OM">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "I Ain't (Yo Punk Ass Bitch)."&nbsp;
+       <em>
+        YouTube
+       </em>
+       . 2010. Available
+       <a href="http://www.youtube.com/watch?v=n5CPjBU3OTQ">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "Lonely Can Be Sweet."&nbsp;
+       <em>
+        YouTube
+       </em>
+       . 2010. Available
+       <a href="http://www.youtube.com/watch?v=sZR2UlDT8SU">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about Ursula Rucker
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+       </em>
+       Bost, Suzanne. &ldquo;&lsquo;Be Deceived If Ya Wanna Be Foolish&rsquo;: (Re)constructing Body, Genre, and Gender in Feminist Rap.&rdquo;
+       <em>
+        Postmodern Culture
+       </em>
+       12.1 (2001): n. pag. Available
+       <a href="https://muse.jhu.edu.muhlenberg.idm.oclc.org/journals/postmodern_culture/v012/12.1bost.html">
+        here
+       </a>
+       .
+       <em>
+       </em>
+      </p>
+      <p style="padding-left: 30px;">
+       Nopper, Sheila. "Ma'at Mama."
+       <i>
+        Herizons
+       </i>
+       20.4 (2007): 40-41. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=24102488&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Roseberry, Craig. "'Supa Sista' Ursula Rucker Makes Poetic Debut On K7."
+       <i>
+        Billboard
+       </i>
+       113.36 (2001): 42. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=5100367&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about spoken word poetry
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Biggs-El, Cynthia. "Spreading The Indigenous Gospel Of Rap Music And Spoken Word Poetry: Critical Pedagogy In The Public Sphere As A Stratagem Of Empowerment And Critique."
+       <i>
+        Western Journal Of Black Studies
+       </i>
+       36.2 (2012): 161-168. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=84634888&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Fisher, Maisha T. "The Song Is Unfinished": The New Literate And Literacy And Their Institutions."
+       <i>
+        Written Communication
+       </i>
+       21.3 (2004): 290-309. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=13819030&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Ingalls, Rebecca. "'Stealing The Air': The Poet-Citizens Of Youth Spoken-Word."
+       <i>
+        Journal Of Popular Culture
+       </i>
+       45.1 (2012): 99-117. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=71885526&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18779697" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      David Pellow (20 October 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Work
+        <em>
+        </em>
+       </strong>
+       <strong>
+        s by Daniel Pellow
+        <em>
+        </em>
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Brulle, Robert J, and David N. Pellow. "Environmental Justice: Human Health and Environmental Inequalities."
+       <em>
+        Annual Review of Public Health
+       </em>
+       . 27.1 (2006). Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/4562528214">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "From "Just Us" to Justice: Connecting the Environment, Community, and Academy."
+       <i>
+        Sociological Forum
+       </i>
+       . 14.2 (1999). Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/4556183190">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       <i>
+        Garbage Wars: The Struggle for Environmental Justice in Chicago
+       </i>
+       . Cambridge, Mass: MIT, 2004. Available in Trexler Library, Muhlenberg Room, call # 363.728 P392g.
+      </p>
+      <p style="padding-left: 30px;">
+       Park, Lisa S.-H, and David N. Pellow.
+       <i>
+        The Slums of Aspen: Immigrants Vs. the Environment in America's Eden
+       </i>
+       . New York: New York University Press, 2011. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/751983195">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Pellow, David N, and Lisa S.-H. Park.
+       <i>
+        The Silicon Valley of Dreams: Environmental Injustice, Immigrant Workers, and the High-Tech Global Economy
+       </i>
+       . New York: New York University Press, 2002. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/50479220">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Smith, Ted, David A. Sonnenfeld, and David N. Pellow.
+       <i>
+        Challenging the Chip: Labor Rights and Environmental Justice in the Global Electronics Industry
+       </i>
+       . Philadelphia: Temple University Press, 2006. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/166422517">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Weinberg, Adam S, David N. Pellow, and Allan Schnaiberg.
+       <i>
+        Urban Recycling and the Search for Sustainable Community Development
+       </i>
+       . Princeton, N.J: Princeton University Press, 2000. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/43227418">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about Daniel Pellow
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Daniel Pellow
+       </em>
+       . 2014. Available
+       <a href="https://www.soc.umn.edu/people/pellow_d.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Desai, Uday. "Resisting Global Toxics Transnational Movements For Environmental Justice &ndash; By David Naguib Pellow."
+       <i>
+        Review Of Policy Research
+       </i>
+       25.6 (2008): 584-586. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=36108382&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Potter, Will. &ldquo;FBI Harasses Sociology Professor Who Has Spoken Out Against the Green Scare.&rdquo;
+       <em>
+        Green Is The New Red
+       </em>
+       . 18 May 2010. Available
+       <a href="http://www.greenisthenewred.com/blog/david-pellow-visited-by-fbi/2848/">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Replogle, Jill. "Aspen Logic."
+       <i>
+        NACLA Report On The Americas
+       </i>
+       45.4 (2012): 76-78. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=85244398&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about environmental justice
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Hall, Matthew.
+       <i>
+        Victims of Environmental Harm: Rights, Recognition and Redress Under National and International Law
+       </i>
+       . Florence, KY: Taylor and Francis, 2013. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/841852588">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Wilks, Sarah.
+       <i>
+        Seeking Environmental Justice
+       </i>
+       . Amsterdam: Rodopi, 2008. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/228506750">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18781374" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Caroll Bogert (27-30 October)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Work
+        <em>
+        </em>
+       </strong>
+       <strong>
+        s by Caroll Bogert
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       &ldquo;What Are the BRICS Building?&rdquo;
+       <em>
+        Slate
+       </em>
+       . The Slate Group, 28 Mar. 2013. Available
+       <a href="http://www.slate.com/articles/news_and_politics/foreigners/2013/03/brics_summit_in_durban_south_africa_is_this_odd_economic_coalition_becoming.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       &ldquo;Old Hands, New Voice.&rdquo;
+       <em>
+        Columbia Journalism Review
+       </em>
+       . 24 March 2009. Available
+       <a href="http://www.cjr.org/feature/old_hands_new_voice.php">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       &ldquo;Similar Paths, Different Missions: International Journalists and Human Rights Observers.&rdquo;
+       <em>
+        Nieman Reports
+       </em>
+       . 1 October 2010. Available
+       <a href="http://www.nieman.harvard.edu/reportsitem.aspx?id=102468">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       &ldquo;There&rsquo;s Something You Need to See at Guantanamo Bay.&rdquo;
+       <em>
+        POLITICO Magazine
+       </em>
+       . 22 January 2014. Available
+       <a href="http://www.politico.com/magazine/story/2014/01/guantanamo-bay-something-you-need-to-see-102481.html#.U8gKolPSQ24">
+        here
+       </a>
+       .
+       <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Nieman%20Reports%20%7C%20Similar%20Paths%2C%20Different%20Missions%3A%20International%20Journalists%20and%20Human%20Rights%20Observers&amp;rft.description=As%20some%20journalists%20migrate%20to%20Human%20Rights%20Watch%2C%20one%20reason%20might%20be%20that%20they%20are%20%E2%80%98tired%20of%20treating%20all%20stories%20with%20the%20same%20pretense%20of%20aloofness%E2%80%94especially%20the%20ones%20who%20have%20covered%20mass%20atrocities.%E2%80%99&amp;rft.identifier=http%3A%2F%2Fwww.nieman.harvard.edu%2Freportsitem.aspx%3Fid%3D102468">
+       </span>
+      </p>
+      <p>
+       <strong>
+        Works about Caroll Bogert
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "Caroll Bogert."
+       <em>
+        Human Rights Watch
+       </em>
+       . Human Rights Watch, 2014. Available
+       <a href="http://www.hrw.org/bios/carroll-bogert">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about media coverage of human rights
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       AbuZayyad, Ziad Khalil. "Human Rights, The Internet And Social Media: Has Technology Changed The Way See Things?."
+       <i>
+        Palestine-Israel Journal Of Politics, Economics &amp; Culture
+       </i>
+       18.4 (2013): 38-40. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=89586588&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Apodaca, Clair. "The Whole World Could Be Watching: Human Rights And The Media."
+       <i>
+        Journal Of Human Rights
+       </i>
+       6.2 (2007): 147-164. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=25729274&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Gulati, Girish. "News Frames And Story Triggers In The Media's Coverage Of Human Trafficking."
+       <i>
+        Human Rights Review
+       </i>
+       12.3 (2011): 363-379. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=64307773&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Shaw, Ibrahim S.
+       <i>
+        Human Rights Journalism: Advances in Reporting Distant Humanitarian Interventions
+       </i>
+       . Houndmills, Basingstoke, Hampshire: Palgrave Macmillan, 2012. Available in Trexler Library, Muhlenberg Room, call # 070.449323 S534h.
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+      <p style="padding-left: 30px;">
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18785596" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Nancy Fraser (13 November 2014)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Work
+        <em>
+        </em>
+       </strong>
+       <strong>
+        s by Nancy Fraser
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "Abnormal Justice."
+       <i>
+        Critical Inquiry
+       </i>
+       34.3 (2008): 393-422. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=32724960&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Fraser, Nancy, and Axel Honneth.
+       <em>
+        <i>
+         Redistribution or Recognition?: A Political-Philosophical Exchange
+        </i>
+        .
+       </em>
+       London: Verso, 2003. Available in the Muhlenberg Room, Trexler Library at call #&nbsp;303.372 F842r.
+      </p>
+      <p style="padding-left: 30px;">
+       "Injustice At Intersecting Scales: On 'Social Exclusion' And The 'Global Poor.'"
+       <i>
+        European Journal Of Social Theory
+       </i>
+       13.3 (2010): 363-371. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=52687096&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Justice Interruptus: Critical Reflections on the "Postsocialist" Condition.
+       </em>
+       New York: Routledge, 1997. Available in Trexler Library, Muhlenberg Room, call #&nbsp;320.011 F842j.
+      </p>
+      <p style="padding-left: 30px;">
+       "Recognition Without Ethics?."
+       <i>
+        Theory, Culture &amp; Society
+       </i>
+       18.2/3 (2001): 21. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=6555346&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       <i>
+        Scales of Justice: Reimagining Political Space in a Globalizing World
+       </i>
+       . New York: Columbia University Press, 2009. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/698589717">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       <i>
+        Unruly Practices: Power, Discourse, and Gender in Contemporary Social Theory
+       </i>
+       . Minneapolis: University of Minnesota Press, 1989. Available
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/19555907">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about Nancy Fraser and her scholarship
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Funk, Nanette. "Contra Fraser On Feminism And Neoliberalism."
+       <i>
+        Hypatia
+       </i>
+       28.1 (2013): 179-196. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=85318943&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Gransow, Bettina. "Reclaiming The Neighbourhood."
+       <i>
+        China Perspectives
+       </i>
+       2014.2 (2014): 17-25. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=96166043&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "Nancy Fraser."
+       <em>
+        New School for Social Research.
+       </em>
+       New School, 2014. Available
+       <a href="http://www.newschool.edu/nssr/faculty.aspx?id=10288">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about justice from feminist perspectives
+        <br />
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Enns, Carolyn Z, and Ada L. Sinacore.
+       <i>
+        Teaching and Social Justice: Integrating Multicultural and Feminist Theories in the Classroom
+       </i>
+       . Washington, DC: American Psychological Association, 2005. Available in Trexler Library, Muhlenberg Room, call # 370.115 E59t.
+      </p>
+      <p style="padding-left: 30px;">
+       Fabos, Anita, and Emily Haddad. "Toward A Feminist Analysis Of 'Impact': Sondra Hale's Scholarship And Activism In And Beyond The University."
+       <i>
+        Journal Of Middle East Women's Studies
+       </i>
+       10.1 (2013): 53-81. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=93274280&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Matthews, Sally. "Reflections On The Appropriate Use Of Unjustly Conferred Privilege."
+       <i>
+        Theoria: A Journal Of Social &amp; Political Theory
+       </i>
+       60.135 (2013): 23-41. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=89395940&amp;login.asp&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

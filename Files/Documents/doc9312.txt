@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="description" content="The Muhlenberg experience is about more than a great liberal arts education. It’s about a call to action from a College you can believe. That’s what the 2016 I Believe campaign is about – a call to action. Your call to action. Make your gift today before the Fiscal Year ends June 30. It goes directly to The Muhlenberg Fund." />
+  <meta name="author" content="Muhlenberg College" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <meta property="og:title" content="Believe In 'Berg!" />
+  <meta property="og:description" content="The Muhlenberg experience is about more than a great liberal arts education. It’s about a call to action from a College you can believe. That’s what the 2016 I Believe campaign is about – a call to action. Your call to action. Make your gift today before the Fiscal Year ends June 30. It goes directly to The Muhlenberg Fund." />
+  <meta property="og:url" content="ibelieve.muhlenberg.edu" />
+  <meta property="og:image" content="assets/images/facebook-share.jpg" />
+  <title>
+   Believe In 'Berg!
+  </title>
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/isotope.css" rel="stylesheet" />
+  <link href="assets/css/content-slider.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="assets/css/ekko-lightbox.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 9]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="css/ie8-and-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lte IE 8]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="css/ie8-and-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if IE 9]&gt;
+        	&lt;link rel="stylesheet" type="text/css" href="css/ie9.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="ie8-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+          &lt;link rel="stylesheet" type="text/css" href="/assets/css/ie9-and-down.css"  /&gt;
+      &lt;![endif]-->
+  <!--[if lte IE 9]&gt;
+          &lt;link rel="stylesheet" type="text/css" href="/assets/css/ie9-form-hack.css"  /&gt;
+      &lt;![endif]-->
+  <style>
+   .error-message {position:relative;}
+            .item a {cursor:pointer;}
+            .recent-donors .donor-message, .recent-donors .donor-name {width:100%; float:left;}
+            .show-bracket-image {background:rgba(0,0,0,.75); width:100%; height:100%; position:fixed; z-index:200; top:0; left:0; cursor:default;}
+            .show-bracket-image .content {overflow:scroll; height:100%; width:100%; left:0; margin-left:0; top:0; margin-top:0; position:relative;}
+			.show-bracket-image .content .close-bracket {position:fixed; top:15px; right:15px; height:60px; width:60px; background:black; background:rgba(0,0,0,.3); color:white; cursor:pointer;}
+			.show-bracket-image .content .close-bracket h1 {line-height:56px; font-size:60px; text-align:center; text-shadow:none;}
+  </style>
+ </head>
+ <body class="mulementum-page">
+  <div data-form-overlay="data-form-overlay" hidden="hidden">
+  </div>
+  <!-- MODALS -->
+  <!--   MODAL FOR OLD BROWSERS   -->
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h2 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h2>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome">
+       <img src="assets//images/chrome.png" alt="Chrome" />
+      </a>
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="assets//images/firefox.png" alt="Firefox" />
+      </a>
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="assets//images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="assets//images/safari.png" alt="Safari" />
+      </a>
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="assets//images/opera.png" alt="Opera" />
+      </a>
+      <div style="clear:both;">
+      </div>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!--   MODAL FOR OLD BROWSERS   -->
+  <div class="modal" id="theme-modal">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h2 class="modal-title">
+       Giving Back
+      </h2>
+     </div>
+     <div class="modal-body">
+      <p>
+       Dear Muhlenberg family,
+      </p>
+      <p>
+       The Muhlenberg experience is about more than an opportunity to learn and grow. It’s about a call to action from a College you can believe in. That’s what the 2016 I Believe campaign is about – a call to action.
+       <i>
+        Your call
+       </i>
+       to action.
+      </p>
+      <br />
+      <p class="bold">
+       When Muhlenberg celebrated Thanks Appreciation Gratitude (TAG) Day on April 7, it wasn’t just another day on the calendar, it was 15 percent better. Why? Because TAG Day marks the day when tuition dollars run out and the remaining 15 percent of the academic year is covered by gifts to the College. Giving back is something worth believing in. Make your gift today and support the 2016 I Believe campaign. Today’s Muhlenberg students are going to impact tomorrow’s world. They are worth it.
+      </p>
+      <br />
+      <p>
+       As a former student, I’m grateful for people who believed in me by giving back to Muhlenberg. That’s why I’m asking you to believe in Muhlenberg’s future. Make your gift today before the Fiscal Year ends June 30. It goes directly to The Muhlenberg Fund. The Muhlenberg Fund is vital to every aspect of the exceptional education Muhlenberg provides – supporting personalized faculty-student collaboration, engaging campus life, providing a life-changing curriculum and preparing students for life after college. You name it, The Muhlenberg Fund pays for it.
+      </p>
+      <br />
+      <div class="signature-image theme-one pull-left">
+      </div>
+      <p class="pull-left">
+       <span class="bold">
+        Thank you,
+       </span>
+       <br />
+       Sarah Cromwell ’16
+      </p>
+      <div style="clear:both;">
+      </div>
+     </div>
+     <!--.modal-body-->
+     <div class="modal-footer">
+      <button class="pull-right btn submit-btn" data-dismiss="modal" aria-label="Close">
+       Close
+      </button>
+      <div class="clearfix">
+      </div>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!--   FULL-SCREEN INTRO (CONTAINS ALL FORM ELEMENTS)   -->
+  <div id="countdown-bg">
+   <div id="progress-bar-container">
+    <div class="container">
+     <div class="row">
+      <div class="col-xs-12" data-timer="data-timer">
+       <h4>
+        Hurry up and give a gift, the campaign ends in
+        <span data-timer-hour="data-timer-hour">
+         80
+        </span>
+        :
+        <span data-timer-min="data-timer-min">
+         50
+        </span>
+        :
+        <span data-timer-secs="data-timer-secs">
+         30
+        </span>
+       </h4>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-10 col-xs-offset-1">
+      <img class="mule-logo" src="assets/images/believe-logo.png" alt="I Believe In 'Berg!" />
+      <h3 class="tagline">
+       The Muhlenberg experience is about more than a great liberal arts education. It’s about a call to action from a College you can believe in. That’s what the 2016 I Believe campaign is about – a call to action. Your call to action. Make your gift today before the Fiscal Year ends
+       <span class="bold">
+        June 30
+       </span>
+       to support all the great initiatives that you believe in.
+      </h3>
+     </div>
+     <div class="clearfix">
+     </div>
+     <div id="header-boxes" class="col-xs-12">
+      <div class="col-lg-4 col-lg-offset-1 col-sm-6 col-xs-12" id="form">
+       <form data-form-validate="data-form-validate" action="/php/submitDonation.php" data-show-errors="custom" class="form-horizontal" method="post" id="donate-form" accept-charset="utf-8" novalidate="novalidate">
+        <!--HIDDEN REFERRAL DATA FROM URL-->
+        <input type="hidden" class="" id="input_16" name="referralcode" value="" />
+        <div data-form-steps="data-form-steps" data-show-errors="custom" class="form-container donate-form first-step">
+         <div id="step-1" class="form-padding">
+          <div class="form-heading">
+           <h3 class="red-text bold">
+            Thank you for your support!
+           </h3>
+          </div>
+          <p>
+           Thank you to everyone who helped to make the Believe Campaign a success. If you missed out and would like to make a gift, just go to
+           <a href="https://www.applyweb.com/public/contribute?s=muhlcont" target="_blank">
+            muhlenberg.edu/makeagift
+           </a>
+          </p>
+         </div>
+        </div>
+       </form>
+      </div>
+      <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-md-6 hidden-xs">
+       <div id="profile" class="theme-exceptional-education">
+        <h3>
+         MUHLENBERG BELIEVES IN:
+        </h3>
+        <div class="profile-image pull-left">
+        </div>
+        <div class="pull-left theme-text">
+         <h4>
+          Giving Back
+         </h4>
+         <p>
+          “Today’s Muhlenberg students are going to impact tomorrow’s world. They are worth it."
+         </p>
+         <a data-toggle="modal" data-target="#theme-modal">
+          Read Sarah Cromwell's Letter
+         </a>
+        </div>
+        <div class="clearfix">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="muletivation" class="progress-div" style="padding:20px 0;">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-8 col-sm-offset-2 text-center">
+      <p>
+       We're
+       <span class="bold">
+        86%
+       </span>
+       on the way to our goal. Keep on giving to show you believe!
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="you-are-muhlenberg">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-8">
+      <h2>
+       WHY
+       <i>
+        <u>
+         YOU
+        </u>
+       </i>
+       SHOULD BELIEVE IN MUHLENBERG
+      </h2>
+      <h4>
+       A Muhlenberg degree can change your life and lives of others. It provides students the curiosity to think big and the confidence to act on it. A liberal arts education focuses on developing integrative skills and spanning multiple domains of knowledge. This gives our students an incredible edge in thriving in a faster-paced, more dynamic world.
+      </h4>
+     </div>
+     <div class="col-xs-4 hidden-xs">
+      <div class="image-box">
+       <!--&lt;img src="assets/images/why-believe.jpg"&gt;-->
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   WHAT IS MULE MADNESS SECTION (TAN BG IMAGE WITH CONTENT SLIDER)   -->
+  <div class="what-is-mule">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-4 hidden-xs">
+      <div class="image-box">
+      </div>
+     </div>
+     <div class="col-sm-8">
+      <h2>
+       WHY
+       <i>
+        <u>
+         YOU
+        </u>
+       </i>
+       SHOULD INVEST IN THE I BELIEVE CAMPAIGN
+      </h2>
+      <h4>
+       Your gift supports The Muhlenberg Fund. The Muhlenberg Fund is vital to every aspect of the exceptional education Muhlenberg provides. It supports the personalized interaction between faculty and students. It helps create engaging campus life. It provides the life-changing curriculum that prepares students for a life after Muhlenberg. You name it, The Muhlenberg Fund pays for it.
+      </h4>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   FAQ SECTION (ACCORDION OF QUESTIONS/ANSWERS)   -->
+  <div id="faq">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h2 class="white-header">
+       THE MUHLENBERG FUND MAKES IT ALL POSSIBLE
+      </h2>
+     </div>
+     <div class="col-sm-6">
+      <h3>
+       Quick Facts
+      </h3>
+      <div id="darkblue">
+       <div data-content-slider="data-content-slider" data-content-slider-anim="slide-horz" data-slider-scroll="data-slider-scroll">
+        <div data-slider-content="data-slider-content">
+         <div data-slider-content-slide="data-slider-content-slide" data-update-button="/fake/path" class="current" data-toggle="lightbox" href="assets/images/slide1.jpg">
+          <img src="assets/images/slide1.jpg" alt="Total Muhlenberg Fund: 5,395 donors" />
+         </div>
+         <div data-slider-content-slide="data-slider-content-slide" data-update-button="/fake/path/path" class="" data-toggle="lightbox" href="assets/images/slide2.jpg">
+          <img src="assets/images/slide2.jpg" alt="Mulementum surpassed the goal by 16%" />
+         </div>
+        </div>
+        <div data-slider-indicator="data-slider-indicator" class="indicators">
+         <div data-slider-ind-trig="data-slider-ind-trig" class="step-indicator">
+         </div>
+         <div data-slider-ind-trig="data-slider-ind-trig" class="step-indicator">
+         </div>
+        </div>
+        <div class="clearfix">
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="col-sm-6">
+      <h3>
+       Your Support Makes a Difference
+      </h3>
+      <div id="darkblue">
+       <p>
+        Muhlenberg means many things to different people. Click on a person’s profile to see why Muhlenberg matters to them.
+       </p>
+       <ul id="profile-images" class="">
+        <li class="col-xs-4 col-md-3 christian">
+         <div data-toggle="lightbox" href="assets/images/christian-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 dimmig">
+         <div data-toggle="lightbox" href="assets/images/dimmig-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 crist">
+         <div data-toggle="lightbox" href="assets/images/crist-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 cromwell">
+         <div data-toggle="lightbox" href="assets/images/cromwell-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 anderson">
+         <div data-toggle="lightbox" href="assets/images/anderson-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 gary">
+         <div data-toggle="lightbox" href="assets/images/gary-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 steinberg">
+         <div data-toggle="lightbox" href="assets/images/steinberg-testimonial.jpg">
+         </div>
+        </li>
+        <li class="col-xs-4 col-md-3 oshane">
+         <div data-toggle="lightbox" href="assets/images/oshane-testimonial.jpg">
+         </div>
+        </li>
+        <li class="clearfix">
+        </li>
+       </ul>
+       <div class="clearfix">
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   SOCIAL FOOTER (DARK BG WITH SHARE BUTTONS)   -->
+  <div class="social-footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <!--&lt;h2&gt;
+                        	Share why you plan to give on &lt;span class="fb-txt"&gt;Facebook&lt;/span&gt;
+                        &lt;/h2&gt;
+                        &lt;h2&gt;
+                        	Join the conversation via Twitter on &lt;span class="tw-txt"&gt;@TWITTERHANDLE&lt;/span&gt;
+                        &lt;/h2&gt;-->
+      <h2 class="white-header">
+       SHARE WHY YOU ARE PARTICIPATING IN
+       <a href="https://www.facebook.com/MuhlenbergCollegeAlumni/?fref=ts" target="_blank">
+        <span class="mule-txt">
+         #BELIEVEINBERG
+        </span>
+       </a>
+      </h2>
+     </div>
+     <div class="col-xs-10 col-xs-offset-1">
+      <hr />
+     </div>
+     <div class="col-xs-12">
+      <div class="action-buttons">
+       <p class="pull-left">
+        <a class="action-btn fb-btn" role="button" href="https://www.facebook.com/MuhlenbergCollegeAlumni/?fref=ts" target="_blank">
+         <span class="fa fa-facebook">
+         </span>
+         follow
+         <span class="hidden-xs">
+          on facebook
+         </span>
+        </a>
+       </p>
+       <p class="pull-left">
+        <a class="action-btn tw-btn" role="button" href="https://twitter.com/muhlenbergalum" target="_blank">
+         <span class="fa fa-twitter">
+         </span>
+         follow
+         <span class="hidden-xs">
+          on twitter
+         </span>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div hidden="hidden" class="social-footer only-when-fixed">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h4 id="white-header">
+       SHARE WHY YOU ARE PARTICIPATING IN
+       <a href="https://www.facebook.com/events/1125740404138640/" target="_blank">
+        <span class="fb-txt">
+         #BELIEVEINBERG
+        </span>
+       </a>
+       <a data-scroll-to=".social-footer" data-scroll-to-dur="800" href="#" class="footer-top">
+        Return to top
+       </a>
+      </h4>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+        ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script src="assets/js/bootstrap.min.js">
+  </script>
+  <script src="assets/js/ekko-lightbox.min.js">
+  </script>
+  <script src="assets/js/content-sliders.js">
+  </script>
+  <!--[if IE 9]&gt; &lt;script src="js/ie9.js"&gt;&lt;/script&gt; &lt;![endif]-->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]&gt;
+              &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+              &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+          &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+            &lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+            &lt;![endif]-->
+  <script type="text/javascript" src="https://js.stripe.com/v2/">
+  </script>
+  <script src="https://checkout.stripe.com/checkout.js">
+  </script>
+  <script>
+   Stripe.setPublishableKey('pk_live_qCI87CcblgIiceSnH56pQUDZ');
+  </script>
+  <script src="assets/js/form-validation.js">
+  </script>
+  <script src="assets/js/form.js">
+  </script>
+  <script src="assets/js/global.js">
+  </script>
+  <script src="assets/js/site.js">
+  </script>
+  <script src="assets/js/content-sliders.js">
+  </script>
+  <script src="assets/js/countdown.js">
+  </script>
+  <script>
+   $(function() {
+                new Countdown({
+					start : new Date(),
+					end : new Date('June 30, 2016 23:59:00'),
+					complete : function() {
+						$('[data-timer]').css('opacity', 0);
+					},
+				});
+
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					$(this).ekkoLightbox();
+				});
+				$('.video-thumb').css({backgroundSize: "cover"});
+
+                var targetSliders = $('[data-content-slider]');
+        		$.each(targetSliders, function() {
+        		    var newSlider = new ContentSliders({
+                        slider : $(this),
+                        auto_play : {
+    						status : 1,
+    						interval : 8000,
+    					},
+                        fixed_height : true,
+                        prevent_reset : false,
+                    });
+        		});
+            });
+  </script>
+ </body>
+</html>

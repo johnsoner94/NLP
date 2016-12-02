@@ -1,0 +1,1514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Muhlenberg College World War II Correspondence Collection - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 631742;
+			mySID = 5227004;
+			var myGNAME = "Muhlenberg+College+World+War+II+Correspondence+Collection";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Muhlenberg College World War II Correspondence Collection
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Nov 10, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/wwii">
+          http://libraryguides.muhlenberg.edu/wwii
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_desc_row">
+        <td class="guide_label">
+         Description:
+        </td>
+        <td class="guide_val">
+         Finding aid for Muhlenberg College World War II Correspondence Collection, Trexler Library, Special Collections and Archives.
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=631742">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Susan Falciani
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:sfalciani@muhlenberg.edu">
+           sfalciani@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484.664.3694
+          <br />
+          sfalciani@muhlenberg.edu
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5227004">
+       About the Collection
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5230817">
+       Names of Correspondents
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5230813">
+       Accessing the Collection
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=631742&amp;sid=5236425">
+       Related Resources
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_5227004" class="guide_page">
+   <h2>
+    About the Collection
+   </h2>
+   <div id="content_box_19490704" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Charles L. Carter '44
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <a target="_blank" title="Hancock" href="http://libapp.muhlenberg.edu/falciani/LibGuide_hancock_smallish.jpg">
+        <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/libguide_hancock_small.jpg" />
+       </a>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII='); top: 18px; left: 18px;">
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19490573" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Scope and Contents
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Historical Note
+        </span>
+       </strong>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        During World War II, Muhlenberg College staff members Gordon Fister, Director of Public Relations, and John Wagner, Alumni Secretary, corresponded with Muhlenberg students and alumni who were serving in the armed forces. Fister and Wagner attempted to keep current with the addresses of those serving, in order to facilitate communication among the Muhlenberg community. They published a biweekly newsletter which was sent to the troops, and sent gifts of stationery with the image of &ldquo;General Pete&rdquo; Muhlenberg on the letterhead. Wagner himself was on active duty from 1944-46, leaving the bulk of the correspondent responsibilities to Gordon Fister.
+       </span>
+      </p>
+      <p>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Scope
+        </span>
+       </strong>
+      </p>
+      <p>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        The collection comprises correspondence to and from
+        <span style="color: #000000;">
+         262
+        </span>
+        Muhlenberg students and alumni. Carbon copies of Gordon Fister&rsquo;s and John Wagner&rsquo;s replies are included in the folders along with the original letters from the servicemen. Correspondence takes the form of letters, postcards, and V-mail. Folder contents vary from a few change-of-address postcards to detailed letters describing battles and experiences in the European and Pacific theatres, as well as many from men in U.S training camps and medical schools. A few folders contain photographs or newspaper clippings.
+       </span>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Extent
+        </span>
+       </strong>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+        </span>
+       </strong>
+       <span style="font-family: georgia,palatino;">
+        3.1
+       </span>
+       <span style="font-family: georgia,palatino;">
+        linear
+       </span>
+       <span style="font-family: georgia,palatino;">
+        feet
+       </span>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         <br />
+        </span>
+       </strong>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5230817" class="guide_page">
+   <h2>
+    Names of Correspondents
+   </h2>
+   <div id="content_box_19490486" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      &nbsp;
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <a target="_blank" title="Postcard" href="http://libapp.muhlenberg.edu/falciani/Libguide_postcard1.jpg">
+        <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/libguide_postcard1.jpg" />
+       </a>
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII='); top: 18px; left: 18px;">
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19490890" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Correpondents
+     </div>
+     <div style="margin-bottom:10px;">
+      <div class="WordSection1">
+       <div class="WordSection1">
+        <p>
+         <em>
+          Where possible, graduation years have been included.
+         </em>
+        </p>
+        <p>
+        </p>
+        <p>
+         Fister, Gordon S.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1933
+        </p>
+        <p>
+         Wagner, John H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1931
+        </p>
+        <hr />
+        <p>
+        </p>
+        <p>
+         Abbott, Eugene C.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Abel, George H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Achey, Calvin S.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1943
+        </p>
+        <p>
+         Anderson, Robert
+        </p>
+        <p>
+         Andrejeski, Alexander E.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1949
+        </p>
+        <p>
+         Albano, Angelo
+        </p>
+        <p>
+         Allen, James D.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Arner, Rodney D.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Baietti, Henry T.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Becker, Harry J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Beisel, William, R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Benjamin, Harold, B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Berghorn, George L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; Class of 1942
+        </p>
+        <p>
+         Berry, Ralph H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Best, Seymour&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Bisset, John R.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Bistritz, Donald J.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Blair, Jack H. III&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1938
+        </p>
+        <p>
+         Blanck, Robert F. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;Class of 1947
+        </p>
+        <p>
+         Bokrosh, Joseph&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1936
+        </p>
+        <p>
+         Boyer, George E.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1941
+        </p>
+        <p>
+         Brobst, Donald A.
+        </p>
+        <p>
+         Brown, Charles W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Brown, Edward J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1946
+        </p>
+        <p>
+         Brown, James F. Jr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Brown, J. Henry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Burkart, Robert P.D.
+        </p>
+        <p>
+         Burkhauser, Valentine J.&nbsp;&nbsp; &nbsp;&nbsp;Class of 1938
+        </p>
+        <p>
+         Carter, C.L. "Roy
+        </p>
+        <p>
+         Cioffi, Louis J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Clauser, Alton L. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1935
+        </p>
+        <p>
+         Cohn, Elliot L.
+        </p>
+        <p>
+         Cota, Sherwood J.
+        </p>
+        <p>
+         Cressman, Paul G.
+        </p>
+        <p>
+         Cressman, Wilmer H.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1942
+        </p>
+        <p>
+         DeLawter, Dewitt E.
+        </p>
+        <p>
+         Dent, Richard
+        </p>
+        <p>
+         Diefenderfer, Andrew K.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1940
+        </p>
+        <p>
+         Diefenderfer, Clark
+        </p>
+        <p>
+         Diehl, Charles F.
+        </p>
+        <p>
+         Doeringer, Clifford W.
+        </p>
+        <p>
+         Doolin, Jack&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1935
+        </p>
+        <p>
+         Dowd, Herbert W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Class of 1943
+        </p>
+        <p>
+         Edwards, Edward B., Jr.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Egan, Joseph M.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1947
+        </p>
+        <p>
+         Eldon, William A.C.&rdquo;
+        </p>
+        <p>
+         Elliot, John&rdquo;
+        </p>
+        <p>
+         Erb, Richard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Evans, William H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Everly, Joseph C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Feeman, James F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Feller, Walter&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Feltman, Frank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Class of 1942
+        </p>
+        <p>
+         Fesig, Lamar A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1946
+        </p>
+        <p>
+         Fidorack, Michael G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         File, George R.
+        </p>
+        <p>
+         Fiore, Alexander Joseph
+        </p>
+        <p>
+         Fleischmann, Joseph&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1945
+        </p>
+        <p>
+         Flexner, Sidney D.
+        </p>
+        <p>
+         Fluck, Lewis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Fluck, Mildred
+        </p>
+        <p>
+         Fox, George&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1943
+        </p>
+        <p>
+         Frederick, James E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1942
+        </p>
+        <p>
+         Freed, Frederick W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1938
+        </p>
+        <p>
+         Fritsch, Paul W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1940
+        </p>
+        <p>
+         Fritz, William F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Fry, William
+        </p>
+        <p>
+         Fugale, Frank W.
+        </p>
+        <p>
+         Fulmer, John M.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1941
+        </p>
+        <p>
+         Garis, Philip L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1946
+        </p>
+        <p>
+         Gaskill, John Pyatt
+        </p>
+        <p>
+         Gearhart, Luther F.
+        </p>
+        <p>
+         Geiger, Marvin R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Class of 1937
+        </p>
+        <p>
+         Geissler, Richard
+        </p>
+        <p>
+         Getz, Arthur L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Class of 1944
+        </p>
+        <p>
+         Geyer, Donald H.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Gilbert, Bertram C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Gilmour, Albert A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1937
+        </p>
+        <p>
+         Glaab, James A.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Class of 1944
+        </p>
+        <p>
+         Glass, William F.
+        </p>
+        <p>
+         Gleason, Edwin A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1941
+        </p>
+        <p>
+         Goretzka, Edwin C.&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Gottlieb, David A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Grace, Harry A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Graeber, William&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Grant, Leo R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1934
+        </p>
+        <p>
+         Griesemer, Raymond&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Growich, John&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1946
+        </p>
+        <p>
+         Guth, Woodrow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Class of 1941
+        </p>
+        <p>
+         Haas, Willard&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Class of 1939
+        </p>
+        <p>
+         Haldeman, Eilus F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Class of 1940
+        </p>
+        <p>
+         Hale, Robert G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1944
+        </p>
+        <p>
+         Halperin, Edward&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Class of 1944
+        </p>
+        <p>
+         Harayda, John&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Class of 1943
+        </p>
+        <p>
+         Haring, Howard R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1946
+        </p>
+        <p>
+         Hauze, Ralph C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1942
+        </p>
+        <p>
+         Hawk, Lewis R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Hayden, Lawrence A.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1946
+        </p>
+        <p>
+         Heller, J. Rolland&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Class of 1923
+        </p>
+        <p>
+         Hellerich, Mahlon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Class of 1940
+        </p>
+        <p>
+         Hemphill, Arthur C.
+        </p>
+        <p>
+         Hemstreet, James A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Henry, James E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1945
+        </p>
+        <p>
+         Hess, John H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Hibler, Robert F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Hibler, William&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Class of 1944
+        </p>
+        <p>
+         Hickok, Richard S.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         High, Jack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class of 1943
+        </p>
+        <p>
+         Himmelberger, Warren&nbsp;&nbsp; &nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Hofaman, Albert G.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Hoffman, Norman C.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Hoffman, Philip F.
+        </p>
+        <p>
+         Holben, Richard M.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Class of 1944
+        </p>
+        <p>
+         Holtz, William H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Hood, George R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Horger, Ulrich Peter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Houston, Joseph&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1936
+        </p>
+        <p>
+         Howell, J.R.
+        </p>
+        <p>
+         Howells, F.D.
+        </p>
+        <p>
+         Huber, Charles&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; Class of 1944
+        </p>
+        <p>
+         Hultsch, John G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Hutchings, Robert M.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Iandolo, Joseph&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Ibsen, Robert B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Class of 1934
+        </p>
+        <p>
+         Jacobs, Benjamin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Jacobs, Richard A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Jenkins, Franklin A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Johnson, Harold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Johnson, Robert E.
+        </p>
+        <p>
+         Jones, Benjamin&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Jones, Edward E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Jones, Edward L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Jupina, Jack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1941
+        </p>
+        <p>
+         Kaplan, Abraham&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Keiter, James M.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Kern, John R., Jr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Kern, Roy C., Jr.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Kindt, Willard F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Kistler, Kirmit K.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Class of 1938
+        </p>
+        <p>
+         Kline, Henry
+        </p>
+        <p>
+         Koplin, Ira J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Kramer, Howard
+        </p>
+        <p>
+         Kranzley, Louis S.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Krapf, Russell L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1935
+        </p>
+        <p>
+         Kreindel, Irvin D.
+        </p>
+        <p>
+         Kreuzer, Julius E. Jr.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Class of 1945
+        </p>
+        <p>
+         Krimmel, Robert&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Kuhnsman, Donald&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1948
+        </p>
+        <p>
+         Kulp, William H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1947
+        </p>
+        <p>
+         Kuntz, Bruce H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Leeland, Harland G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Lehne, Richard K.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1941
+        </p>
+        <p>
+         Lehr, Karl M.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1936
+        </p>
+        <p>
+         Lehrkinder, Donald W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Levinstone, Bert&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Lewis, Arlington&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Lieberman, Robert&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Main, Donald H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Major, James E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Makoid, Chester A.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Marles, Frederick A.&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Class of 1950
+        </p>
+        <p>
+         Marshall, George W.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1939
+        </p>
+        <p>
+         Martin, Donald I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Mayfarth, Herman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         McClure, Mack R.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         McCullough, Harold L., Jr.&nbsp; Class of 1944
+        </p>
+        <p>
+         McGinley, James R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         McGlade, Henry F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         McKeone, Joseph E.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Menzel, Walter E. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1942
+        </p>
+        <p>
+         Meredith, Thomas R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Miles, Norman U.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Class of 1935
+        </p>
+        <p>
+         Miller, Joseph A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Class of 1942
+        </p>
+        <p>
+         Miller, Kenneth W.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1947
+        </p>
+        <p>
+         Miller, Richard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Milnes, Frank J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Moehling, Henry W.
+        </p>
+        <p>
+         More, John&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1945
+        </p>
+        <p>
+         Mount, Howell E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Morentz, Paul E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Muller, Edward F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Napp, Frank J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Newman, Frank E.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1943
+        </p>
+        <p>
+         Nicholas, Harry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Nicholas, Paul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of1940
+        </p>
+        <p>
+         Nies, Raphael B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Nyce, Clarence B.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         O'Shea, Edward L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1955
+        </p>
+        <p>
+         Pauly, Fredrick R.
+        </p>
+        <p>
+         Pierce, Alfred E.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Purcell, Maurice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1931
+        </p>
+        <p>
+         Rabuck, Paul J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Rank, Harry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1950
+        </p>
+        <p>
+         Rasser, Jacques C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1948
+        </p>
+        <p>
+         Reaser, Harold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Rebaza, John J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of1945
+        </p>
+        <p>
+         Reisner, Frank H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Remaley, James F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Rice, Harold E.
+        </p>
+        <p>
+         Rumpf, Walter&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Rupert, Earl&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Sand, George J.
+        </p>
+        <p>
+         Schaadt, Woodrow K.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Schaertel, Elmer G.
+        </p>
+        <p>
+         Schappel, Vernon M.
+        </p>
+        <p>
+         Schartz, Winfield L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1934
+        </p>
+        <p>
+         Schifreen, Harold&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Schmidt, Clifford L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Schneck, Eugene G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1936
+        </p>
+        <p>
+         Schweitzer, Wayne F.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Seitzinger, Robert L.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Sexton, Burton H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Shore, Ronald William
+        </p>
+        <p>
+         Shuman, Mervin J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Sikorski, Edward
+        </p>
+        <p>
+         Silverman, Morton I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1934
+        </p>
+        <p>
+         Simpson, Carl
+        </p>
+        <p>
+         Skinner, Watson W.
+        </p>
+        <p>
+         Slemmer, Carl W. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1948
+        </p>
+        <p>
+         Snyder, Herman P.
+        </p>
+        <p>
+         Snyder, Lee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Snyder, Nevin D.
+        </p>
+        <p>
+         Snyder, Paul H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1940
+        </p>
+        <p>
+         Spohn, Arnold P.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1939
+        </p>
+        <p>
+         Stackhouse, William C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Stanley, Warren
+        </p>
+        <p>
+         Stead, Allan G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Steinberg, Paul L.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1945
+        </p>
+        <p>
+         Steinhauer, Milton H.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1926
+        </p>
+        <p>
+         Stiles, Edward&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Stoyeck, John M.
+        </p>
+        <p>
+         Sweda, George&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+        <p>
+         Trumbower, Earl M., Jr.
+        </p>
+        <p>
+         Tully, Lawrence E.
+        </p>
+        <p>
+         Ursic, Anthony B.
+        </p>
+        <p>
+         VanKempen, Jay R.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Class of 1962
+        </p>
+        <p>
+         VanReed, Charles E.
+        </p>
+        <p>
+         Vooz, Philip&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Wagner, Richard G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Wahl, Byron R.
+        </p>
+        <p>
+         Wallander, Ernest H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Walton, Carl K. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Watkins, Donald R.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Wavrek, Robert K.
+        </p>
+        <p>
+         Weber, David&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Webster, Dennis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Weiss, Albert J.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class of 1942
+        </p>
+        <p>
+         Wescoe, Clarke, W.
+        </p>
+        <p>
+         Wetherhold, Harry K.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Wetherhold, Leonard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1942
+        </p>
+        <p>
+         Whiting, Richard A.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Wilber, William C.
+        </p>
+        <p>
+         Wilder, James D.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1945
+        </p>
+        <p>
+         Wille, Carroll G.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Wilson, A. Stewart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1946
+        </p>
+        <p>
+         Windish, Joseph
+        </p>
+        <p>
+         Woodley, George M.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Woodring, Richard H.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1944
+        </p>
+        <p>
+         Zellers, Richard J.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Class of 1943
+        </p>
+       </div>
+       &nbsp;
+      </div>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        &nbsp;
+       </span>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5230813" class="guide_page">
+   <h2>
+    Accessing the Collection
+   </h2>
+   <div id="content_box_19524156" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Ensign James Wilder '45
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <a target="_blank" title="James Wilder" href="http://libapp.muhlenberg.edu/falciani/Libguide_Wilder_postcard.jpg">
+        <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/libguide_wilder_postcard.jpg" />
+       </a>
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII='); top: 18px; left: 18px;">
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19490984" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Access and Administrative Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         Arrangement
+        </span>
+       </strong>
+      </p>
+      <p style="text-align: left;">
+       <span style="font-family: georgia,palatino;">
+        The collection is arranged in folders alphabetically by name; it is contained in three (3) boxes. A guide containing the dates, postmarks, formats, and notable content is available in Special Collections &amp; Archives.
+        <strong>
+        </strong>
+       </span>
+      </p>
+      <p>
+       <strong>
+        <span style="font-family: georgia,palatino;">
+         <span class="ccardlabel">
+          Restrictions
+         </span>
+        </span>
+       </strong>
+       <strong>
+        <span style="font-family: georgia,palatino; font-size: small;">
+         <span class="ccardlabel">
+         </span>
+        </span>
+       </strong>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino;">
+        This collection is open for research. It is held in Trexler Library's Special Collections &amp; Archives, and is available for viewing and research by appointment.
+        <br />
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+       </span>
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         Copyright Statement
+        </strong>
+       </span>
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         &nbsp;
+        </strong>
+       </span>
+      </p>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        Copyright for material in this collection is retained by the authors of items in these papers, or their descendants, as stipulated by United States copyright law.
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          &nbsp;
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          Preferred Citation
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        &nbsp;
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        [Identification of item], Muhlenberg College World War II Correspondence Collection, Special Collections &amp; Archives, Trexler Library, Muhlenberg College.
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          &nbsp;
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          Acquisitions Information
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          &nbsp;
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        Estate of Gordon S. Fister; Muhlenberg College Alumni Relations &amp; Development Offices
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          &nbsp;
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        <strong>
+         <b>
+          Processing Information
+         </b>
+        </strong>
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        &nbsp;
+       </span>
+      </div>
+      <div class="ccardcontent">
+       <span style="font-family: georgia,palatino;">
+        Processed by Special Collections &amp; Archives staff, July 2014.
+        <br />
+       </span>
+      </div>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5236425" class="guide_page">
+   <h2>
+    Related Resources
+   </h2>
+   <div id="content_box_19512970" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Related Trexler Library Resources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         <span style="text-decoration: underline;">
+          Title
+         </span>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <span style="text-decoration: underline;">
+          Call Number
+          <br />
+         </span>
+        </strong>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         Victory Flashes at Muhlenberg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a target="_blank" href="http://library.muhlenberg.edu/search/?searchtype=X&amp;SORT=D&amp;searcharg=victory+flashes">
+          T M952v
+         </a>
+        </strong>
+        <br />
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        Biweekly newsletter sent to students and alumni of the College
+        <br />
+        serving in the war effort. Written by either Gordon Fister,
+        <br />
+        Director of Public Relations or John Wagner, Alumni Secretary.
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <span style="color: #000000;">
+         <strong>
+          [Log books of the Navy V-5 Unit] [manuscript]&nbsp;&nbsp; 13 vols.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a target="_blank" href="http://library.muhlenberg.edu/search~S0?/X%28log+books%29&amp;SORT=D/X%28log+books%29&amp;SORT=D&amp;SUBKEY=%28log+books%29/1%2C48%2C48%2CB/frameset&amp;FF=X%28log+books%29&amp;SORT=D&amp;1%2C1%2C">
+           E N327aL
+          </a>
+         </strong>
+        </span>
+        <span style="color: #000000;">
+         <strong>
+         </strong>
+        </span>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        v.1-6. Log books, Aug. 22, 1943-July 27, 1944.--v.7. Parcel post,
+        <br />
+        telegrams, special delivery. v.8. Arrival and departure of civilians.
+        <br />
+        v.9 Airport log.--v.10. Airport extra duty.--v.11. Extra duty log book.
+        <br />
+        v.12. Extra duty (arranged by cadets)--v.13. Liberty book.
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         Muhlenberg College Alumni Quarterly
+        </strong>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong>
+         &nbsp;
+         <a target="_blank" href="http://library.muhlenberg.edu/search~S0?/Xa%3Blumni+magazine&amp;SORT=DZ/Xa%3Blumni+magazine&amp;SORT=DZ&amp;extended=0&amp;SUBKEY=a%3Blumni+magazine/1%2C1391%2C1391%2CB/frameset&amp;FF=Xa%3Blumni+magazine&amp;SORT=DZ&amp;3%2C3%2C">
+          T M952A
+         </a>
+        </strong>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         &nbsp;
+        </strong>
+       </span>
+      </p>
+      <p>
+       <a target="_blank" title="Muhlenberg Weekly" href="http://trexler.muhlenberg.edu/collections/special-collections/muhlenberg-weekly.html">
+        <span style="font-family: georgia,palatino; font-size: small;">
+         <strong>
+          The Muhlenberg Weekly Archive Online
+         </strong>
+        </span>
+       </a>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         <br />
+        </strong>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         <a target="_blank" title="V-12" href="http://libraryguides.muhlenberg.edu/v-12">
+          Muhlenberg College World War II Navy V-12 and V-5 Collection Finding Aid
+         </a>
+         <br />
+        </strong>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <span style="font-family: georgia,palatino;">
+         The collection comprises photographs, class lists, course schedules, promotional brochures,
+         <br />
+         and correspondence pertaining to the implementation of the V-12 and V-5 programs,
+         <br />
+         covering the period from 1942-1946.
+        </span>
+       </span>
+      </p>
+      <p>
+       <span style="font-family: georgia,palatino; font-size: small;">
+        <strong>
+         &nbsp;
+        </strong>
+       </span>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

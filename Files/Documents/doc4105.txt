@@ -1,0 +1,604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>
+   DSpace at the Trexler Library of Muhlenberg College: Browsing DSpace
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="DSpace" />
+  <link rel="stylesheet" href="/librarydspace/styles.css.jsp" type="text/css" />
+  <link rel="stylesheet" href="/librarydspace/print.css" media="print" type="text/css" />
+  <link rel="shortcut icon" href="/librarydspace/favicon.ico" type="image/x-icon" />
+  <script type="text/javascript" src="/librarydspace/utils.js">
+  </script>
+ </head>
+ <body>
+  <table class="pageBanner" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr class="stripe">
+    <td colspan="3">
+     &nbsp;
+    </td>
+   </tr>
+  </table>
+  <table class="centralPane" width="100%" border="0" cellpadding="3" cellspacing="1">
+   <tr valign="top">
+    <td class="navigationBar">
+     <form method="get" action="/librarydspace/simple-search">
+      <table width="100%" class="searchBox">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0">
+          <tr>
+           <td class="searchBoxLabel">
+            <label for="tequery">
+             Search&nbsp;DSpace
+            </label>
+           </td>
+          </tr>
+          <tr>
+           <td class="searchBoxLabelSmall" valign="middle" nowrap="nowrap">
+            <input type="text" name="query" id="tequery" size="8" />
+            <input type="submit" name="submit" value="Go" />
+            <br />
+            <a href="/librarydspace/advanced-search">
+             Advanced Search
+            </a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/index.jsp">
+         Home
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Browse
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/community-list">
+         Communities
+         <br />
+         &amp;&nbsp;Collections
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=dateissued">
+         Issue Date
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=author">
+         Author
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=title">
+         Title
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow-highlight.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=subject">
+         Subject
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Sign on to:
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/subscribe">
+         Receive email
+         <br />
+         updates
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/mydspace">
+         My DSpace
+        </a>
+        <br />
+        <small>
+         authorized users
+        </small>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/profile">
+         Edit Profile
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <script type="text/javascript">
+         &lt;!-- Javascript starts here
+document.write('&lt;a href="#" onClick="var popupwin = window.open(\'/librarydspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;"&gt;Help&lt;\/a&gt;');
+// --&gt;
+        </script>
+        <noscript>
+         <a href="/librarydspace/help/index.html" target="dspacepopup">
+          Help
+         </a>
+        </noscript>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="http://www.dspace.org/">
+         About DSpace
+        </a>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td class="pageContents" width="100%">
+     <p class="locationBar">
+      <a href="/librarydspace/">
+       DSpace at the Trexler Library of Muhlenberg College
+      </a>
+      &nbsp;&gt;
+     </p>
+     <h2>
+      Browsing  by Subject
+     </h2>
+     <div align="center" id="browse_navigation">
+      <form method="get" action="/librarydspace/browse">
+       <input type="hidden" name="type" value="subject" />
+       <input type="hidden" name="order" value="ASC" />
+       <input type="hidden" name="rpp" value="20" />
+       <table align="center" border="0" bgcolor="#CCCCCC" cellpadding="0" summary="Browse the respository">
+        <tr>
+         <td>
+          <table border="0" bgcolor="#EEEEEE" cellpadding="2">
+           <tr>
+            <td class="browseBar">
+             <span class="browseBarLabel">
+              Jump to:
+             </span>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=0">
+              0-9
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=A">
+              A
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=B">
+              B
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=C">
+              C
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=D">
+              D
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=E">
+              E
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=F">
+              F
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=G">
+              G
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=H">
+              H
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=I">
+              I
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=J">
+              J
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=K">
+              K
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=L">
+              L
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=M">
+              M
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=N">
+              N
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=O">
+              O
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=P">
+              P
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=Q">
+              Q
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=R">
+              R
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=S">
+              S
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=T">
+              T
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=U">
+              U
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=V">
+              V
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=W">
+              W
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=X">
+              X
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=Y">
+              Y
+             </a>
+             <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;starts_with=Z">
+              Z
+             </a>
+            </td>
+           </tr>
+           <tr>
+            <td class="browseBar" align="center">
+             <span class="browseBarLabel">
+              or enter first few letters:&nbsp;
+             </span>
+             <input type="text" name="starts_with" />
+             &nbsp;
+             <input type="submit" value="Go!" />
+            </td>
+           </tr>
+          </table>
+         </td>
+        </tr>
+       </table>
+      </form>
+     </div>
+     <div align="center" id="browse_controls">
+      <form method="get" action="/librarydspace/browse">
+       <input type="hidden" name="type" value="subject" />
+       Order:
+       <select name="order">
+        <option value="ASC" selected="selected">
+         Ascending
+        </option>
+        <option value="DESC">
+         Descending
+        </option>
+       </select>
+       Results/Page
+       <select name="rpp">
+        <option value="5">
+         5
+        </option>
+        <option value="10">
+         10
+        </option>
+        <option value="15">
+         15
+        </option>
+        <option value="20" selected="selected">
+         20
+        </option>
+        <option value="25">
+         25
+        </option>
+        <option value="30">
+         30
+        </option>
+        <option value="35">
+         35
+        </option>
+        <option value="40">
+         40
+        </option>
+        <option value="45">
+         45
+        </option>
+        <option value="50">
+         50
+        </option>
+        <option value="55">
+         55
+        </option>
+        <option value="60">
+         60
+        </option>
+        <option value="65">
+         65
+        </option>
+        <option value="70">
+         70
+        </option>
+        <option value="75">
+         75
+        </option>
+        <option value="80">
+         80
+        </option>
+        <option value="85">
+         85
+        </option>
+        <option value="90">
+         90
+        </option>
+        <option value="95">
+         95
+        </option>
+        <option value="100">
+         100
+        </option>
+       </select>
+       <input type="submit" name="submit_browse" value="Update" />
+      </form>
+     </div>
+     <div align="center" class="browse_range">
+      Showing results 1 to 20 of 736
+     </div>
+     <div align="center">
+      &nbsp;
+      <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;offset=20">
+       next&nbsp;&gt;
+      </a>
+     </div>
+     <table align="center" class="miscTable" summary="This table displays a list of results">
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=16th+century">
+         16th&#x20;century
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=17th+century">
+         17th&#x20;century
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1890-1899">
+         1890-1899
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1900-1909">
+         1900-1909
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1900-1910">
+         1900-1910
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1900-1930">
+         1900-1930
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1910-1919">
+         1910-1919
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920-1929">
+         1920-1929
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920+-+1950">
+         1920&#x20;-&#x20;1950
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920-1950">
+         1920-1950
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+-1930s">
+         1920s&#x20;-1930s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+-+1930s">
+         1920s&#x20;-&#x20;1930s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+-1940s">
+         1920s&#x20;-1940s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s-1940s">
+         1920s-1940s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+-+1950s">
+         1920s&#x20;-&#x20;1950s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+-%2730s">
+         1920s&#x20;-&#39;30s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+and++%2730s">
+         1920s&#x20;and&#x20;&#x20;&#39;30s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1920s+and+%2730s">
+         1920s&#x20;and&#x20;&#39;30s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="oddRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=1930s+-+1950s">
+         1930s&#x20;-&#x20;1950s
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td class="evenRowOddCol">
+        <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;value=19th+century">
+         19th&#x20;century
+        </a>
+       </td>
+      </tr>
+     </table>
+     <div align="center" class="browse_range">
+      Showing results 1 to 20 of 736
+     </div>
+     <div align="center">
+      &nbsp;
+      <a href="/librarydspace/browse?type=subject&amp;order=ASC&amp;rpp=20&amp;offset=20">
+       next&nbsp;&gt;
+      </a>
+     </div>
+     <p>
+      &nbsp;
+     </p>
+    </td>
+   </tr>
+   <tr class="pageFooterBar">
+    <td colspan="2" class="pageFootnote">
+     <table class="pageFooterBar" width="100%">
+      <tr>
+       <td>
+        <a href="http://validator.w3.org/check?uri=referer">
+         <img src="/librarydspace/image/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" />
+        </a>
+       </td>
+       <td class="pageFootnote">
+        <a target="_blank" href="http://www.dspace.org/">
+         DSpace Software
+        </a>
+        Copyright&nbsp;&copy;&nbsp;2002-2010&nbsp;
+        <a target="_blank" href="http://www.duraspace.org/">
+         Duraspace
+        </a>
+        &nbsp;-
+        <a target="_blank" href="/librarydspace/feedback">
+         Feedback
+        </a>
+        <a href="/librarydspace/htmlmap">
+        </a>
+       </td>
+       <td nowrap="nowrap" valign="middle">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

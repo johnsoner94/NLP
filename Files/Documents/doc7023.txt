@@ -1,0 +1,912 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+ <head>
+  <!--META-->
+  <link rel="stylesheet" type="text/css" media="screen, projection, print" href="/css112/libguides.css" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=4.0, user-scalable=yes" name="viewport" />
+  <link href="/iWebKit5.04/Framework/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+  <link rel="stylesheet" href="/css112/mobile.css" type="text/css" media="handheld, all" />
+  <script src="/iWebKit5.04/Framework/javascript/functions.js" type="text/javascript">
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="description" content="Subject Guides. Physics." />
+  <meta name="keywords" content="Physics Subject Guides" />
+  <meta name="author" content="Rachel Hamelers" />
+  <meta name="copyright" content="Copyright Muhlenberg College 2016" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <script type="text/javascript" charset="utf-8" src="http://yui.yahooapis.com/3.1.1/build/yui/yui-min.js">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript" src="/js112/mobile.js">
+  </script>
+  <script type="text/javascript" src="/js112/box.js">
+  </script>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="/include/lib_spring_track.php?action=init&amp;iid=3322">
+  </script>
+  <title>
+   Physics - Muhlenberg College Mobile
+  </title>
+  <style>
+   /* Webkit overrides. */
+                            body {
+                                background:-webkit-gradient(linear,left top,right top,from(#9196a1),color-stop(71%, #9196a1),color-stop(72%, #999ea9),to(#999ea9));
+                                font-family: Verdana, Arial;
+                                font-size: 10px;
+                                -webkit-touch-callout: default !important;
+                            }
+                            .textbox { margin: 7px; font-size: 10pt; }
+                            #title { padding: 0px; padding-top: 5px; position: relative; height: 100%; border: 0px solid #00ff00; line-height: 40px;}
+                            #topbar { height: 45px; width: auto; }
+                            /* search results styles */
+                            #topbar{
+                                position:relative;
+                                left:0;
+                                top:0;
+                                width:auto;
+                                background:-webkit-gradient(linear,0% 0%,0% 100%,from(#c5d5df),color-stop(3%,#b0bccd),color-stop(50%,#889bb3),color-stop(51%,#8195af),color-stop(97%,#6d84a2),to(#2d3642));
+                                margin-bottom:13px
+                            }
+                            input[type="radio"] {-webkit-appearance: radio; position: relative; margin: 7px; width: 10px; height: auto;}
+                            .pageitem { margin: 0px; margin-bottom: 10px; }
+                            /* Links box list */
+                            .linklist ul, #sidelist ul {
+                                margin: 3px 20px;
+                            }
+                            .sel_guides {
+                                font-size: 14px !important; padding-left: 5px; width: 80%;
+                            }
+  </style>
+  <script>
+   var guide_config = {
+                pid : '364800',
+                sid : '2985597',
+                guide_name : "Physics"
+            }
+            
+            // Backwards compatibility with standard guide page.
+            var myPID = guide_config.pid;
+            var mySID = guide_config.sid;
+            var myGNAME = guide_config.guide_name;
+            var myTNAME = 'mobile_page';
+            var content_config = {};
+            content_config.la_iid = 0;
+            
+            var open_page_section = '';
+            
+            // SpringTracking
+            SpringTrack.init({
+                    '_st_sid' : guide_config.sid,
+                    '_st_pid' : guide_config.pid,
+                    '_st_iid' : 3322                });
+                
+            SpringTrack.trackPage({ 'st_type' : TRACKING_TYPE_PAGE_MOBILE });
+  </script>
+  <style>
+   .content { font-size: 12px; }
+  </style>
+ </head>
+ <body onload="openPageSection();" class="tundra">
+  <div style="position:absolute;top:-1000px;" title="Information for Screenreader Users">
+   This is the "Physics" guide.
+   <br />
+   <a href="/print_content.php?pid=364800&amp;sid=2985597" title="Alternate Page for Screenreader Users">
+    Alternate Page for Screenreader Users
+   </a>
+   <br />
+   <a href="#content" title="Skip to Page Content">
+    Skip to Page Content
+   </a>
+   <br />
+  </div>
+  <div id="topbar">
+   <a href="/mobile.php" style="text-decoration: none;">
+    <div id="title">
+     Muhlenberg College Mobile
+    </div>
+   </a>
+  </div>
+  <div class="searchbox ">
+   <form action="/mobile.php" method="get" style="width: 75%;">
+    <input type="text" name="search" id="search" placeholder="Search LibGuides" value="" style="width: 100%;" onfocus="if ( this.value = 'Search LibGuides') { this.value = ''; }" />
+    <input type="hidden" name="action" value="8" />
+    <input type="hidden" name="iid" value="3322" />
+    <input type="hidden" name="gid" value="" />
+    <input type="hidden" name="pid" value="364800" />
+   </form>
+  </div>
+  <div id="guide_info_box_364800" class="guide_info_box" style="margin-left: 10px; margin-right: 10px;">
+   <ul class="pageitem">
+    <li class="textbox">
+     <div style="padding-bottom: 5px; border-bottom: 1px dotted #a7a7a7;">
+      <span class="header">
+       Physics
+      </span>
+      <div class="guide_desc">
+      </div>
+     </div>
+     <div class="guideattr" style="margin-left: 0px;">
+      <div style="padding-bottom: 3px;">
+       <span style="font-weight: bold;">
+        Last update:
+       </span>
+       <span style="font-weight: normal;">
+        Sep 17, 2015
+       </span>
+      </div>
+      <div style="padding-top: 3px; padding-bottom: 3px;">
+       <span style="font-weight: n;">
+        URL:
+       </span>
+       <span style="font-weight: normal;">
+        http://libraryguides.muhlenberg.edu/content_mobile.php?pid=364800
+       </span>
+      </div>
+     </div>
+    </li>
+   </ul>
+  </div>
+  <div style="margin: 10px">
+   <div id="box_2985597" style="border:solid 1px #bbb;">
+    <div id="box_title_2985597" class="mobile_box_header">
+     <div id="box_open_2985597">
+     </div>
+     Home
+    </div>
+    <div id="box_content_2985597" class="mobile_box_content" style="display:none;">
+     <div class="content">
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10500957">
+         <div class="roundbox headerbox" id="title10500957">
+          <div class="bi_search">
+           &nbsp;
+          </div>
+          <h2>
+           Search Google Scholar for Journal Articles
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_20" id="content10500957">
+          <div id="boxatt10500957" class="boxatt">
+           <label for="searchText10500957">
+            <img alt="Google Scholar Logo" src="http://lgimages.s3.amazonaws.com/google_scholar.jpg" />
+           </label>
+           <br />
+           <input type="text" value="" id="searchText10500957" class="google_search_box" title="Google scholar search" />
+           <br />
+           <input type="button" onclick="var queryString = document.getElementById('searchText10500957').value;queryString = queryString.replace(/\\+/g, '+');var url = 'http://scholar.google.com/scholar?q=' + queryString;window.open(url,'GScholar');" value="Search" />
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="21307689">
+         <div class="roundbox headerbox" id="title21307689">
+          <div class="bi_video">
+           &nbsp;
+          </div>
+          <h2>
+           Find Background Information on a Topic
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_7" id="content21249436">
+          <div id="boxatt21249436" class="boxatt">
+           <div class="embedclass">
+            <img src="http://corp.credoreference.com/images/logos/Credo-Black-landscape-%20147x50.png" alt="Credo Logo" />
+            <form action="javascript:void;" onsubmit="javascript:return credoMultiSearchBasic(document.forms.credoMultiSearchFormBasic);" method="GET" name="credoMultiSearchFormBasic">
+             <input type="hidden" name="ubasic" value="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com/search/advanced/?include={0}&amp;headingsOnly=false&amp;sort=relevance" />
+             <label for="qbasic">
+              Search
+             </label>
+             <input type="text" id="qbasic" value="" size="15" />
+             <input type="image" border="0" name="Submit" value="search" src="http://literati.credoreference.com/images/tools/go_button.png" alt="Submit Button" width="54" height="31" style="top:10px; position:relative;" />
+             <br />
+             <script type="text/javascript">
+              function credoMultiSearchBasic(f){if(f.qbasic.value=='Search for...'||f.qbasic.value==''){alert('Please enter a search.');}else{var qbasic=escape(f.qbasic.value);var ubasic=f.ubasic.value.replace("{0}",qbasic);window.open(ubasic,"_blank");}return false;}
+             </script>
+            </form>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10499439">
+         <div class="roundbox headerbox" id="title10499439">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           Scholarly Journal Articles
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content10499439">
+          <div id="boxatt10499439" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link12758915">
+              <a id="link_12758915" href="http://arxiv.org/" target="_blank" onclick="hit(12758915,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12758915}); ">
+               ArXiv.org
+              </a>
+              <div class="linkdesc">
+               Full text articles in the advanced fields of physics, mathematics, non-linear science, computer science, quantitative biology, and statistics.
+              </div>
+             </li>
+             <li id="link12759638">
+              <a id="link_12759638" href="https://muhlenberg.idm.oclc.org/login?url=http://prola.aps.org/" target="_blank" onclick="hit(12759638,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12759638}); ">
+               PROLA: Physical Review Online Archive
+              </a>
+              <div class="linkdesc">
+               Full-text articles in Physics, the online archive for Physical Review Letters, Reviews of Modern Physics, and Physical Review A-E, containing all APS journal articles published from 1893 to 4 years ago.
+              </div>
+             </li>
+             <li id="link12759650">
+              <a id="link_12759650" href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/" target="_blank" onclick="hit(12759650,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12759650}); ">
+               ScienceDirect College Edition Health and Life Sciences, Physical Sciences
+              </a>
+              <div class="linkdesc">
+               A database of 1000+ full-text Elsevier journals in the areas of health, life, and physical sciences.
+              </div>
+             </li>
+             <li id="link12759662">
+              <a id="link_12759662" href="http://www.slac.stanford.edu/spires/" target="_blank" onclick="hit(12759662,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12759662}); ">
+               SPIRES
+              </a>
+              <div class="linkdesc">
+               The SPIRES-HEP is a database of particle physics literature run by the Stanford Linear Accelerator Center(SLAC) since the late 1960's.
+              </div>
+             </li>
+             <li id="link12759690">
+              <a id="link_12759690" href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h" target="_blank" onclick="hit(12759690,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12759690}); ">
+               Academic Search Complete
+              </a>
+              <div class="linkdesc">
+               Full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10500922">
+         <div class="roundbox headerbox" id="title10500922">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           News Articles
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content10500922">
+          <div id="boxatt10500922" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link12759678">
+              <a id="link_12759678" href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic" target="_blank" onclick="hit(12759678,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12286621}); ">
+               LexisNexis Academic
+              </a>
+              <div class="linkdesc">
+               Provides full text of thousands of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.
+              </div>
+             </li>
+             <li id="link12759681">
+              <a id="link_12759681" href="http://www.sciencedaily.com/" target="_blank" onclick="hit(12759681,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12286628}); ">
+               Science Daily
+              </a>
+              <div class="linkdesc">
+               News articles, videos, and images in the subjects of health, math, and the sciences.
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="16900052">
+         <div class="roundbox headerbox" id="title16900052">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           Annual Reviews
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content16900052">
+          <div id="boxatt16900052" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link19939120">
+              <a id="link_19939120" href="https://muhlenberg.on.worldcat.org/oclc/1481495?databaseList=1708&amp;databaseList=638" target="_blank" onclick="hit(19939120,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19939120}); ">
+               Annual Review of Astronomy and Astrophysics
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+             <li id="link19940503">
+              <a id="link_19940503" href="http://www.arctbds.com/" target="_blank" onclick="hit(19940503,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19940503}); ">
+               Annual Review of Chaos Theory, Bifurcations and Dynamical Systems
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+             <li id="link19940514">
+              <a id="link_19940514" href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/conmatphys" target="_blank" onclick="hit(19940514,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19940514}); ">
+               Annual Review of Condensed Matter Physics
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+             <li id="link19940567">
+              <a id="link_19940567" href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/earth" target="_blank" onclick="hit(19940567,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19940567}); ">
+               Annual Review of Earth and Planetary Sciences
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+             <li id="link19940578">
+              <a id="link_19940578" href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/direct.asp?db=aph&amp;jid=83O&amp;scope=site" target="_blank" onclick="hit(19940578,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19940578}); ">
+               Annual Review of Fluid Mechanics
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+             <li id="link19940638">
+              <a id="link_19940638" href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/nucl" target="_blank" onclick="hit(19940638,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 19940638}); ">
+               Annual Review of Nuclear and Particle Science
+              </a>
+              <div class="linkdesc">
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <div id="box_close_2985597" class="mobile_box_close">
+      close
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var bt_obj_2985597 = document.getElementById("box_title_2985597");
+                                        var bc_obj_2985597 = document.getElementById("box_content_2985597");
+                                        var bc_link_obj_2985597 = document.getElementById("box_close_2985597");
+                                        var bo_link_obj_2985597 = document.getElementById("box_open_2985597");
+                                        var init_vis_2985597 = "none";
+                                        var bc_vis_2985597 = ( init_vis_2985597 == "block" ? false : true );
+                                        bo_link_obj_2985597.innerHTML = ( init_vis_2985597 == "block" ? " - " : " + " );
+                                        bt_obj_2985597.onclick = tx_2985597;
+                                        bc_link_obj_2985597.onclick = tx_2985597;
+                                        function tx_2985597() { bc_obj_2985597.style.display = ( bc_vis_2985597 ? "block" : "none" ); bo_link_obj_2985597.innerHTML = ( bc_vis_2985597 ? " - " : " + " ); bc_vis_2985597 = !bc_vis_2985597; }
+  </script>
+  <div style="margin: 10px">
+   <div id="box_3003021" style="border:solid 1px #bbb;">
+    <div id="box_title_3003021" class="mobile_box_header">
+     <div id="box_open_3003021">
+     </div>
+     Finding Primary Articles in the Sciences
+    </div>
+    <div id="box_content_3003021" class="mobile_box_content" style="display:none;">
+     <div class="content">
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10131969">
+         <div class="roundbox headerbox" id="title10131969">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           Is my article Peer-Reviewed?
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content10131969">
+          <p>
+           Journal articles that are peer-reviewed have been critiqued by other experts before publication.
+          </p>
+          <p>
+           To determine if an article is peer-reviewed or not, you need to check if the
+           <strong>
+            journal
+           </strong>
+           in which the article was published is peer-reviewed. You can do this by using the database
+           <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+            Ulrich's web
+           </a>
+           . For instance, in the following citation:
+          </p>
+          <p>
+           Barthlott, W, Wiersch, S, Čolić, Z, &amp; Koch, K 2009, 'Classification of trichome types within species of the water fern Salvinia, and ontogeny of the egg-beater trichomes',
+           <i>
+            Botany
+           </i>
+           , 87, 9, pp. 830-836.
+          </p>
+          <p>
+           <em>
+            Botany
+           </em>
+           is the journal title. Using
+           <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+            Ulrich's web
+           </a>
+           , type in the name of the journal, in this case&nbsp;
+           <em>
+            Botany.
+           </em>
+           (Do NOT enter the title of the article.) If the journal is listed as "refereed" (another word for peer-reviewed), your article is in a peer-reviewed journal. Therefore, most articles in this journal will be peer-reviewed. Exceptions to peer-reviewed articles in a peer-reviewed journal include news items, commentaries, and letters to the editor.
+          </p>
+          <p>
+           In some databases, such as
+           <em>
+            Academic Search Complete
+           </em>
+           , you can click on the name of the journal and the database will list information about the journal, including if the journal is peer-reviewed or not. Other databases allow you to limit to see only results that are peer-reviewed. To determine if you can limit to peer-reviewed journals, look in the database's help section.
+          </p>
+          <div id="boxatt10131969" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link12324431">
+              <a id="link_12324431" href="https://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/" target="_blank" onclick="hit(12324431,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12324431}); ">
+               Ulrich's Web
+              </a>
+              <div class="linkdesc">
+               Ulrich's Directory is a database that provides bibliographic information, including if a journal is refereed or not (refereed is another word for peer-reviewed) on international periodicals.
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10132206">
+         <div class="roundbox headerbox" id="title10132206">
+          <div class="bi_text">
+           &nbsp;
+          </div>
+          <h2>
+           What is a Primary Source/Article in the Sciences?
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_1" id="content10132206">
+          <p>
+           In the sciences, a scholarly source is usually a primary article appearing in a peer-reviewed journal. A primary scientific article or source is one where the author is describing new experiments or new observations done by the author or authors. Primary articles are usually divided into sections: introduction, method, discussion/results, and conclusion.
+          </p>
+          <p>
+           Another type of article that appears in peer-reviewed journals is the review article. Review articles summarize and compare several studies or sets of observations. A review article may look like a primary article in that it may be broken into similar sections like introduction, discussion, and at times even a methods section. However, a review article is not a primary source. The author of a review article is not describing new experiments or observations done by his or herself. Instead a review article is a summary of other scientist's works.
+          </p>
+          <p>
+           Secondary sources or articles are summaries of primary research, usually written for the popular press or geared toward non-scientists. Some examples of secondary sources are newspaper articles, magazine articles, book chapters, blog postings, and news stories.
+          </p>
+          <div id="boxatt10132206" class="boxatt">
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10341323">
+         <div class="roundbox headerbox" id="title10341323">
+          <div class="bi_text">
+           &nbsp;
+          </div>
+          <h2>
+           How do I find a Scholarly source (an Article that is Primary and Peer-Reviewed)?
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_1" id="content10341323">
+          <p>
+           To find a scholarly article for your research paper or project, try searching one of the Core Databases listed on the home page of the Biology subject guide. Enter keywords relevant to your topic.
+          </p>
+          <p>
+           Once you have found a relevant article, skim to find out if it is a primary article. Ask yourself:
+          </p>
+          <p>
+           - What new observations or experiments are the authors doing?
+          </p>
+          <p>
+           If the paper only describes the actions or experiments of other researchers, the article is not primary. It is a Review article or a secondary source.
+          </p>
+          <p>
+           Once you have found a primary article on your topic, use Ulrich's Web to find out if the article appeared in a peer-reviewed (refereed) journal or not.
+          </p>
+          <p>
+           If your article is primary and peer reviewed, it is a scholarly source.
+          </p>
+          <div id="boxatt10341323" class="boxatt">
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <div id="box_close_3003021" class="mobile_box_close">
+      close
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var bt_obj_3003021 = document.getElementById("box_title_3003021");
+                                        var bc_obj_3003021 = document.getElementById("box_content_3003021");
+                                        var bc_link_obj_3003021 = document.getElementById("box_close_3003021");
+                                        var bo_link_obj_3003021 = document.getElementById("box_open_3003021");
+                                        var init_vis_3003021 = "none";
+                                        var bc_vis_3003021 = ( init_vis_3003021 == "block" ? false : true );
+                                        bo_link_obj_3003021.innerHTML = ( init_vis_3003021 == "block" ? " - " : " + " );
+                                        bt_obj_3003021.onclick = tx_3003021;
+                                        bc_link_obj_3003021.onclick = tx_3003021;
+                                        function tx_3003021() { bc_obj_3003021.style.display = ( bc_vis_3003021 ? "block" : "none" ); bo_link_obj_3003021.innerHTML = ( bc_vis_3003021 ? " - " : " + " ); bc_vis_3003021 = !bc_vis_3003021; }
+  </script>
+  <div style="margin: 10px">
+   <div id="box_3003025" style="border:solid 1px #bbb;">
+    <div id="box_title_3003025" class="mobile_box_header">
+     <div id="box_open_3003025">
+     </div>
+     Getting the Full-Text of an Article
+    </div>
+    <div id="box_content_3003025" class="mobile_box_content" style="display:none;">
+     <div class="content">
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10390246">
+         <div class="roundbox headerbox" id="title10390246">
+          <div class="bi_text">
+           &nbsp;
+          </div>
+          <h2>
+           How do I get the Full-text of my article?
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_1" id="content10390246">
+          <p>
+           To get the full-text of an article:
+          </p>
+          <p>
+           - If you are in a library database with "Get-it" buttons, click on "Get-it." This button will take you the full text of your article or tell you that the full text cannot be found. If the full text is not available from Trexler Library,
+           <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+            interlibrary loan
+           </a>
+           the book or article.
+          </p>
+          <p>
+           - If you have citation information for the article (title, author, etc.), type the information about your article into
+           <a href="https://muhlenberg.on.worldcat.org/discovery">
+            Encompass
+           </a>
+           . Find the article on the results list, and click on the title. If you have access to the article via Trexler Library, a link to full text or view-now will be provided.&nbsp; If not, you can request a copy of the article by clicking the "Request Item" button.
+          </p>
+          <p>
+           - If Trexler Library does not have access to the full text of the article, you can also search
+           <a href="http://www.google.com/scholar">
+            Google Scholar
+           </a>
+           by article title to see if the author has made a copy freely available online. Look to the far right of the article's title to see if there is a link to a freely available copy.&nbsp;
+          </p>
+          <div id="boxatt10390246" class="boxatt">
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <div id="box_close_3003025" class="mobile_box_close">
+      close
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var bt_obj_3003025 = document.getElementById("box_title_3003025");
+                                        var bc_obj_3003025 = document.getElementById("box_content_3003025");
+                                        var bc_link_obj_3003025 = document.getElementById("box_close_3003025");
+                                        var bo_link_obj_3003025 = document.getElementById("box_open_3003025");
+                                        var init_vis_3003025 = "none";
+                                        var bc_vis_3003025 = ( init_vis_3003025 == "block" ? false : true );
+                                        bo_link_obj_3003025.innerHTML = ( init_vis_3003025 == "block" ? " - " : " + " );
+                                        bt_obj_3003025.onclick = tx_3003025;
+                                        bc_link_obj_3003025.onclick = tx_3003025;
+                                        function tx_3003025() { bc_obj_3003025.style.display = ( bc_vis_3003025 ? "block" : "none" ); bo_link_obj_3003025.innerHTML = ( bc_vis_3003025 ? " - " : " + " ); bc_vis_3003025 = !bc_vis_3003025; }
+  </script>
+  <div style="margin: 10px">
+   <div id="box_3003027" style="border:solid 1px #bbb;">
+    <div id="box_title_3003027" class="mobile_box_header">
+     <div id="box_open_3003027">
+     </div>
+     Finding Books
+    </div>
+    <div id="box_content_3003027" class="mobile_box_content" style="display:none;">
+     <div class="content">
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10520124">
+         <div class="roundbox headerbox" id="title10520124">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           Finding Books in Trexler Library and in Libraries Worldwide
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content10520124">
+          <div id="boxatt10520124" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link24673321">
+              <a id="link_24673321" href="http://trexler.muhlenberg.edu/" target="_blank" onclick="hit(24673321,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 13011281}); ">
+               Encompass Search
+              </a>
+              <div class="linkdesc">
+               To find only books, use the Book limit box on the left sidebar of your search results page. You can also limit to Muhlenberg College or search books in Libraries worldwide.
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+      <ul class="pageitem">
+       <li class="textbox">
+        <div class="roundbox outerbox" id="10520187">
+         <div class="roundbox headerbox" id="title10520187">
+          <div class="bi_links">
+           &nbsp;
+          </div>
+          <h2>
+           To Find E-books
+          </h2>
+         </div>
+         <div class="roundbox innerbox innerbox_3" id="content10520187">
+          <div id="boxatt10520187" class="boxatt">
+           <div class="itemlist">
+            <ul>
+             <li id="link12781971">
+              <a id="link_12781971" href="http://www.springerlink.com/books/" target="_blank" onclick="hit(12781971,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12781971}); ">
+               Springer E-books
+              </a>
+              <div class="linkdesc">
+               Books in various disciplines, but focusing on the sciences, Trexler library has access to thousands of e-books through Springerlink. The full text of many books can be accessed through this link. Those books not accessible to Trexler Library patrons can be interlibrary loaned.
+              </div>
+             </li>
+             <li id="link12782172">
+              <a id="link_12782172" href="http://www.google.com/books" target="_blank" onclick="hit(12782172,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12782172}); ">
+               GoogleBooks
+              </a>
+              <div class="linkdesc">
+               Google has digitized millions of books, some of which are freely available online. Muhlenberg affiliated atrons of Trexler Library can interlibrary loan books not freely available as full text.
+              </div>
+             </li>
+             <li id="link12782294">
+              <a id="link_12782294" href="http://archive.org/details/texts" target="_blank" onclick="hit(12782294,'links','1', {'link_obj' : this, 'guide_name' : '', 'page_name' : ''}); return SpringTrack.trackLink(this, {st_type : TRACKING_TYPE_LINK, link_id: 12782294}); ">
+               Internet Archive
+              </a>
+              <div class="linkdesc">
+               Millions of freely available texts that have been digitized by the Internet archive.
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <div id="box_close_3003027" class="mobile_box_close">
+      close
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var bt_obj_3003027 = document.getElementById("box_title_3003027");
+                                        var bc_obj_3003027 = document.getElementById("box_content_3003027");
+                                        var bc_link_obj_3003027 = document.getElementById("box_close_3003027");
+                                        var bo_link_obj_3003027 = document.getElementById("box_open_3003027");
+                                        var init_vis_3003027 = "none";
+                                        var bc_vis_3003027 = ( init_vis_3003027 == "block" ? false : true );
+                                        bo_link_obj_3003027.innerHTML = ( init_vis_3003027 == "block" ? " - " : " + " );
+                                        bt_obj_3003027.onclick = tx_3003027;
+                                        bc_link_obj_3003027.onclick = tx_3003027;
+                                        function tx_3003027() { bc_obj_3003027.style.display = ( bc_vis_3003027 ? "block" : "none" ); bo_link_obj_3003027.innerHTML = ( bc_vis_3003027 ? " - " : " + " ); bc_vis_3003027 = !bc_vis_3003027; }
+  </script>
+  <div style="margin: 10px">
+   <div id="box_user_63915" style="border:solid 1px #bbb;">
+    <div id="box_title_user_63915" class="mobile_box_header">
+     <div id="box_open_user_63915">
+     </div>
+     Subject Guide
+    </div>
+    <div id="box_content_user_63915" class="mobile_box_content" style="display:none;">
+     <div class="content">
+      <div class="profileh4">
+       <div class="" style="padding-bottom: 3px;">
+        <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" title="View Profile">
+         <img alt="Profile Image" border="0" src="//lgimages.s3.amazonaws.com/data/profiles/63915/Rachel_Hamelers__cropped_.JPG" class="profile_image_align profileimage" />
+        </a>
+       </div>
+       <div class="profile_display_name" style="font-size: 12px; padding-bottom: 10px;">
+        Rachel Hamelers
+       </div>
+       <div class="profile_widget_content">
+        <div class="std_profile_widget_header">
+         Contact Info:
+        </div>
+        <div>
+         Phone: 484-664-3601
+         <br />
+         E-mail: rhamelers@muhlenberg.edu
+        </div>
+        <div>
+         <a href="mailto:rhamelers@muhlenberg.edu">
+          Send Email
+         </a>
+        </div>
+       </div>
+       <div class="profile_widget_content">
+        <div class="std_profile_widget_header">
+         Links:
+        </div>
+        <div id="profile_contact_guides">
+         <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915" id="profile_link">
+          Profile &amp; Guides
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="box_close_user_63915" class="mobile_box_close">
+      close
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var bt_obj_user_63915 = document.getElementById("box_title_user_63915");
+                                        var bc_obj_user_63915 = document.getElementById("box_content_user_63915");
+                                        var bc_link_obj_user_63915 = document.getElementById("box_close_user_63915");
+                                        var bo_link_obj_user_63915 = document.getElementById("box_open_user_63915");
+                                        var init_vis_user_63915 = "none";
+                                        var bc_vis_user_63915 = ( init_vis_user_63915 == "block" ? false : true );
+                                        bo_link_obj_user_63915.innerHTML = ( init_vis_user_63915 == "block" ? " - " : " + " );
+                                        bt_obj_user_63915.onclick = tx_user_63915;
+                                        bc_link_obj_user_63915.onclick = tx_user_63915;
+                                        function tx_user_63915() { bc_obj_user_63915.style.display = ( bc_vis_user_63915 ? "block" : "none" ); bo_link_obj_user_63915.innerHTML = ( bc_vis_user_63915 ? " - " : " + " ); bc_vis_user_63915 = !bc_vis_user_63915; }
+  </script>
+  <div id="descpopup" class="balloon" style="visibility: visible; top:-200px; left:-500px;">
+   <div id="descpopuptitle" class="balloon_head">
+    <h6>
+     Description
+    </h6>
+   </div>
+   <div class="balloon_body" id="descpopupcontent">
+    <p>
+     <img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading content... please wait
+    </p>
+   </div>
+  </div>
+  <img alt="" id="tippointer" src="http://lgimages.s3.amazonaws.com/tippointer.gif" />
+  <div id="popupinfo" class="popup" style="visibility: visible; top:-200px; left:-500px;">
+   <div class="popup_head">
+    <table align="right" border="0">
+     <tr>
+      <td valign="bottom" height="18">
+       <a href="#" onclick="return hideAlert('popupinfo')">
+        <img alt="Close" src="http://lgimages.s3.amazonaws.com/window_close_grey.gif" border="0" align="absbottom" />
+       </a>
+      </td>
+     </tr>
+    </table>
+    <div id="popupinfotitle" style="display:inline;">
+     <h6>
+      More Information
+     </h6>
+    </div>
+   </div>
+   <div class="popup_body">
+    <div id="popupinfocontent" style="display:inline;">
+     <img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" />
+     &nbsp; Loading content... please wait
+    </div>
+    <br />
+    <center>
+     <a href="#" onclick="hideAlert('popupinfo'); return false;">
+      Close window
+     </a>
+    </center>
+   </div>
+  </div>
+  <div id="dp" style="width:850px; display:none;">
+   &nbsp;
+  </div>
+  <div id="mobile_footer_nav">
+   <span id="footer_top_link">
+    <a href="#">
+     ^ Top
+    </a>
+   </span>
+   <span id="footer_top_link_spacer">
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+   </span>
+   <span id="footer_home_page_link">
+    <a href="/mobile.php">
+     Home Page
+    </a>
+   </span>
+   <span id="footer_home_page_link_spacer">
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+   </span>
+   <span id="footer_full_site_link">
+    <a href="/index.php?full_site=1">
+     Full Site
+    </a>
+   </span>
+  </div>
+  <div id="mobile_footer">
+   <div style="text-align: center;">
+    <div id="footer_powered_by">
+     Powered by
+     <a href="http://www.springshare.com">
+      Springshare
+     </a>
+     and iWebKit.
+    </div>
+    <div id="footer_rights">
+     All rights reserved.
+    </div>
+    <div id="footer_support_link">
+     <a href="http://libraryguides.muhlenberg.edu/support.php">
+      Report a tech support issue.
+     </a>
+    </div>
+   </div>
+  </div>
+  <div id="mobile_custom_footer_3850" class="mobile_custom_footer">
+   <script>
+    // changing "home page" links to lib website, removing "full site" from mobile
+(function() {
+  var title = document.querySelector("#topbar a"),
+        homePage = document.querySelector("#footer_home_page_link a"),
+        fullLink = document.getElementById("footer_full_site_link"),
+        fullSpacer = document.getElementById("footer_home_page_link_spacer");
+
+  title.href = "http://trexler.muhlenberg.edu";
+  homePage.href = "http://trexler.muhlenberg.edu";
+  fullLink.style.display = "none";
+  fullSpacer.style.display = "none";
+})()
+   </script>
+  </div>
+ </body>
+</html>

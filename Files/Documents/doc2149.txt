@@ -1,0 +1,1261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Alumni Publications - Biology | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Biology Department
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/biology/bg-intro02.jpg" alt="Biology" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/">
+               Biology
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/alumnipublications/">
+               Alumni Publications
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <p align="center">
+            <strong>
+             Alumni Publications
+            </strong>
+           </p>
+           <p>
+            The Biology Department at Muhlenberg College encourages our students to become actively engaged in research. Graduates from the Biology Department have gone on to Ph.D. programs at leading research institutions. Listed below is a sampling of some recent publications in the biological sciences by Biology, Biochemistry and Neuroscience majors who graduated from Muhlenberg.
+           </p>
+           <p align="center">
+            <strong>
+             Selected Recent Alumni Publications
+             <br />
+            </strong>
+            (alumni authors are underlined with graduation year indicated)
+           </p>
+           <div class="content-add05">
+            <p align="left" class="style14">
+             Oren-Suissa M,
+             <span style="text-decoration: underline;">
+              Bayer EA ('14)
+             </span>
+             , Hobert O. Sex-specific pruning of neuronal synapses in Caenorhabditis elegans.
+             <a href="doi:%2010.1038/nature17977">
+              Nature. 2016 May 4;&nbsp;
+              <span>
+               533:206-211
+              </span>
+             </a>
+             . PubMed PMID: 27144354.
+            </p>
+            <p align="left" class="style14">
+             Poureetezadi SJ,
+             <span style="text-decoration: underline;">
+              Wingert RA ('99
+             </span>
+             ). Little fish, big catch: zebrafish as a model for kidney disease.
+             <a href="doi:10.1016/j.kint.2016.01.031">
+              Kidney Int. 2016 Jun;89(6):1204-10
+             </a>
+             . Epub 2016 Apr 16. PubMed PMID: 27165832; PubMed Central PMCID: PMC4868790.
+            </p>
+            <p align="left" class="style14">
+             Kaufman CK, Mosimann C, Fan ZP, Yang S, Thomas AJ, Ablain J, Tan JL, Fogley RD, van Rooijen E, Hagedorn EJ, Ciarlo C, White RM, Matos DA, Puller AC, Santoriello C, Liao EC, Young RA,
+             <span style="text-decoration: underline;">
+              Zon LI ('79)
+             </span>
+             . A zebrafish melanoma model reveals emergence of neural crest identity during melanoma initiation.
+             <a href="doi:%2010.1126/science.aad2197">
+              Science. 2016 Jan 29;351(6272):aad2197
+             </a>
+             . Epub 2016 Jan 28. PubMed PMID: 26823433; PubMed Central PMCID: PMC4868069.
+            </p>
+            <p align="left" class="style14">
+             Jennings JH, Ung RL, Resendez SL, Stamatakis AM, Taylor JG, Huang J, Veleta K,&nbsp;Kantak PA, Aita M,
+             <span style="text-decoration: underline;">
+              Shilling-Scrivo K ('13)
+             </span>
+             , Ramakrishnan C, Deisseroth K, Otte S,&nbsp;Stuber GD. Visualizing hypothalamic network dynamics for appetitive and&nbsp;consummatory behaviors.
+             <a href="http://www.sciencedirect.com/science/article/pii/S0092867414016328">
+              Cell. 2015 Jan 29;160(3):516-27
+             </a>
+             . PubMed PMID: 25635459; PubMed Central PMCID:&nbsp;PMC4312416.
+            </p>
+            <p align="left" class="style14">
+             Vais H, Mallilankaraman K, Mak DO, Hoff H, Payne R,
+             <span style="text-decoration: underline;">
+              Tanis JE ('02)
+             </span>
+             , Foskett JK. EMRE Is a Matrix Ca(2+) Sensor that Governs Gatekeeping of the Mitochondrial Ca(2+) Uniporter.
+             <a href="doi:%2010.1016/j.celrep.2015.12.054">
+              Cell Rep. 2016 Jan 26;14(3):403-10
+             </a>
+             . Epub 2016 Jan 7. PubMed PMID: 26774479; PubMed Central PMCID: PMC4731249.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Alvaro CG ('10)
+             </span>
+             , Aindow A, Thorner J. Differential Phosphorylation Provides a Switch to Control How &alpha;-Arrestin Rod1 Down-Regulates Mating Pheromone Response in Saccharomyces cerevisiae.
+             <a href="DOI:%2010.1534/genetics.115.186122">
+              Genetics. 2016 Feb 26.&nbsp;
+              <span class="highwire-cite-metadata-volume highwire-cite-metadata">
+               203(
+              </span>
+              <span class="highwire-cite-metadata-issue highwire-cite-metadata">
+               1)&nbsp;
+              </span>
+              <span class="highwire-cite-metadata-pages highwire-cite-metadata">
+               299-317
+              </span>
+             </a>
+             . [Epub ahead of print] PubMed PMID: 26920760.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Alvaro CG ('10)
+             </span>
+             , Thorner J. Heterotrimeric G Protein-coupled Receptor Signaling in Yeast Mating Pheromone Response.
+             <a href="doi:%2010.1074/jbc.R116.714980">
+              J Biol Chem. 2016 Apr 8;291(15):7788-95
+             </a>
+             . Epub 2016 Feb 23. Review. PubMed PMID: 26907689; PubMed Central PMCID: PMC4824985.
+            </p>
+            <p align="left" class="style14">
+             Drummond BE,
+             <span style="text-decoration: underline;">
+              Wingert RA ('99
+             </span>
+             ). Insights into kidney stem cell development and regeneration using zebrafish.
+             <a href="doi:10.4252/wjsc.v8.i2.22">
+              World J Stem Cells. 2016 Feb 26;8(2):22-31
+             </a>
+             . Review. PubMed PMID: 26981168; PubMed Central PMCID: PMC4766248.
+            </p>
+            <p align="left" class="style14">
+             Marra AN,
+             <span style="text-decoration: underline;">
+              Wingert RA ('99
+             </span>
+             ). Epithelial cell fate in the nephron tubule is mediated by the ETS transcription factors etv5a and etv4 during zebrafish kidney development.
+             <a href="doi:10.1016/j.ydbio.2016.01.035">
+              Dev Biol. 2016 Mar 15;411(2):231-45
+             </a>
+             . Epub 2016 Jan 29. PubMed PMID: 26827902; PubMed Central PMCID: PMC4783290.
+            </p>
+            <p align="left" class="style14">
+             Ma Z,
+             <span style="text-decoration: underline;">
+              Tanis JE ('02)
+             </span>
+             , Taruno A, Foskett JK. Calcium homeostasis modulator (CALHM) ion channels.
+             <a href="doi:%2010.1007/s00424-015-1757-6">
+              Pflugers Arch. 2016 Mar;468(3):395-403
+             </a>
+             . Epub 2015 Nov 25. PubMed PMID: 26603282.
+            </p>
+            <p>
+             Iyer R, Wehrmann L,
+             <span style="text-decoration: underline;">
+              Golden RL ('15)
+             </span>
+             , Naraparaju K, Croucher JL, MacFarland SP, Guan P, Kolla V, Wei G, Cam N, Li G, Hornby Z, Brodeur GM.Entrectinib is a potent inhibitor of Trk-driven neuroblastomas in a xenograft mouse model.&nbsp;
+             <a href="doi:%2010.1016/j.canlet.2016.01.018">
+              Cancer Lett. 2016 Mar 28;372(2):179-86
+             </a>
+             . Epub 2016 Jan 18.
+            </p>
+            <p>
+             Glineur D, Papadatos S, Grau JB, Shaw RE,
+             <span style="text-decoration: underline;">
+              Kuschner CE ('15)
+             </span>
+             , Aphram G, Mairy Y, Vanbelighen C, Etienne PY.&nbsp;Complete myocardial revascularization using only bilateral internal thoracic arteries provides a low-risk and durable 10-year clinical outcome.
+             <a href="http://ejcts.oxfordjournals.org/content/early/2016/04/14/ejcts.ezw120.abstract">
+              Eur J Cardiothorac Surg
+             </a>
+             . 2016 Apr 15.
+            </p>
+            <p align="left" class="style14">
+             Cheng CN,&nbsp;
+             <span>
+              Wingert RA ('99
+             </span>
+             ). Nephron proximal tubule patterning and corpuscles of Stannius formation are regulated by the sim1a transcription factor and retinoic acid in zebrafish.&nbsp;
+             <a href="doi:%2010.1016/j.ydbio.2014.12.020">
+              Dev Biol. 2015 Mar 1;399(1):100-16
+             </a>
+             . Epub 2014 Dec 25. PubMed PMID: 25542995; PubMed Central PMCID: PMC4339448.
+            </p>
+            <p>
+             Grau JB,
+             <span style="text-decoration: underline;">
+              Kuschner CE ('15)
+             </span>
+             , Johnson CK, Ferrari G, Zapolanski A, Brizzio ME, Shaw RE. The effects of using a radial artery in patients already receiving bilateral internal mammary arteries during coronary bypass grafting: 30-day outcomes and 14-year survival in a propensity-matched cohort.
+             <a href="doi:%2010.1093/ejcts/ezv176">
+              Eur J Cardiothorac Surg. 2016 Jan;49(1):203-10
+             </a>
+             . Epub 2015 May 23.
+            </p>
+            <p>
+             Grau JB,
+             <span style="text-decoration: underline;">
+              Kuschner CE ('15)
+             </span>
+             , Ferrari G, Wilson SR, Brizzio ME, Zapolanski A, Yallowitz J, Shaw RE. Effects of a protocol-based management of type A aortic dissections.
+             <a href="%20doi:%2010.1016/j.jss.2015.04.018.">
+              J Surg Res. 2015 Aug;197(2):265-9
+             </a>
+             . Epub 2015 Apr 9.
+            </p>
+            <p align="left" class="style14">
+             Vais H,
+             <span style="text-decoration: underline;">
+              Tanis JE ('02)
+             </span>
+             , M&uuml;ller M, Payne R, Mallilankaraman K, Foskett JK. MCUR1, CCDC90A, Is a Regulator of the Mitochondrial Calcium Uniporter.
+             <a href="doi:%2010.1016/j.cmet.2015.09.015">
+              Cell Metab. 2015 Oct 6;22(4):533-5
+             </a>
+             . PubMed PMID: 26445506.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Marjoram L ('04
+             </span>
+             ), Bagnat M. Infection, Inflammation and Healing in Zebrafish:Intestinal Inflammation.
+             <a href="http://www.ncbi.nlm.nih.gov/pubmed/26236567">
+              Curr Pathobiol Rep. 2015 Jun 1;3(2):147-153.
+             </a>
+             PubMed PMID: 26236567; PubMed Central PMCID: PMC4520400.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Marjoram L ('04
+             </span>
+             ), Alvers A, Deerhake ME, Bagwell J, Mankiewicz J, Cocchiaro JL, Beerman RW, Willer J, Sumigray KD, Katsanis N, Tobin DM, Rawls JF, Goll MG, Bagnat M. Epigenetic control of intestinal barrier function and inflammation inzebrafish.
+             <a href="%20doi:10.1073/pnas.1424089112">
+              Proc Natl Acad Sci U S A. 2015 Mar 3;112(9):2770-5
+             </a>
+             . Epub 2015 Feb 17. PubMed PMID: 25730872; PubMed Central PMCID: PMC4352795.
+            </p>
+            <p align="left" class="style14">
+             Weyand AC,
+             <span style="text-decoration: underline;">
+              Lombel RM ('04)
+             </span>
+             , Pipe SW, Shavit JA. The Role of Platelets and&nbsp;&epsilon;-Aminocaproic Acid in Arthrogryposis, Renal Dysfunction, and Cholestasis (ARC)&nbsp;Syndrome Associated Hemorrhage.
+             <a href="http://onlinelibrary.wiley.com/doi/10.1002/pbc.25814/abstract">
+              Pediatr Blood Cancer. 2015 Oct 27
+             </a>
+             . [Epub ahead of print] PubMed PMID: 26505894.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Alvaro CG ('10
+             </span>
+             ), O'Donnell AF, Prosser DC, Augustine AA, Goldman A, Brodsky JL, Cyert MS, Wendland B, Thorner J. Specific &alpha;-arrestins negatively regulate Saccharomyces cerevisiae pheromone response by down-modulating the G-protein-coupled receptor Ste2.
+             <a href="http://mcb.asm.org/content/34/14/2660.long">
+              Mol Cell Biol. 2014 Jul;34(14):2660-81
+             </a>
+             . PubMed PMID: 24820415; PubMed Central PMCID: PMC4097657.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Tiedeken EJ ('10)
+             </span>
+             , Stout JC, Stevenson PC, Wright GA. Bumblebees are not deterred by ecologically relevant concentrations of nectar toxins.
+             <a href="http://jeb.biologists.org/content/217/9/1620.abstract">
+              J Exp Biol. 2014 Feb 13
+             </a>
+             .
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Gallagher MD
+             </span>
+             ('07) et al., TMEM106B is a genetic modifier of frontotemporal lobar degeneration with C9orf72 &nbsp;hexanucleotide repeat expansions.
+             <a href="doi:%20%2010.1007/s00401-013-1239-x">
+              Acta Neuropathol. 2014 Mar;127(3):407-18
+             </a>
+             . Epub 2014 Jan 19. PubMed PMID: 24442578; PubMed Central PMCID: PMC4003885.
+            </p>
+            <p align="left" class="style14">
+             Krajacic P, Pistilli EE,&nbsp;
+             <span style="text-decoration: underline;">
+              Tanis JE ('02)
+             </span>
+             , Khurana TS, Lamitina ST. FER-1/Dysferlin promotes cholinergic signaling at the neuromuscular junction in C. elegans and mice.&nbsp;
+             <a href="http://bio.biologists.org/content/2/11/1245.long">
+              Biol Open. 2013 Oct 15;2(11):1245-52. doi: 10.1242/bio.20135637
+             </a>
+             . eCollection 2013. PubMed PMID: 24244862; PubMed Central PMCID: PMC3828772.
+            </p>
+            <p align="left" class="style14">
+             Chen-Plotkin AS, Unger TL,
+             <span style="text-decoration: underline;">
+              Gallagher MD ('07)
+             </span>
+             , Bill E, Kwong LK, Volpicelli-Daley L, Busch JI, Akle S, Grossman M, Van Deerlin V, Trojanowski JQ, Lee VM. TMEM106B, the risk gene for frontotemporal dementia, is regulated by the microRNA-132/212 cluster and affects progranulin pathways.
+             <a href="doi:%2010.1523/JNEUROSCI.0521-12.2012">
+              J Neurosci. 2012 Aug 15;32(33):11213-27
+             </a>
+             . PubMed PMID: 22895706; PubMed Central PMCID: PMC3446826.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Lombel RM ('04
+             </span>
+             ), Gipson DS, Hodson EM; Kidney Disease: Improving Global Outcomes.&nbsp;Treatment of steroid-sensitive nephrotic syndrome: new guidelines from KDIGO.&nbsp;
+             <a href="http://link.springer.com/article/10.1007%2Fs00467-012-2304-8">
+              Pediatr Nephrol. 2013 Mar;28(3):415-26. doi: 10.1007/s00467-012-2310-x
+             </a>
+             . Epub 2012
+             <br />
+             Oct 3. Review. PubMed PMID: 23052651.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Tanis JE ('02)
+             </span>
+             , Ma Z, Krajacic P, He L, Foskett JK, Lamitina T. CLHM-1 is a functionally conserved and conditionally toxic Ca2+-permeable ion channel in Caenorhabditis elegans.
+             <a href="http://www.jneurosci.org/content/33/30/12275.long">
+              J Neurosci. 2013 Jul 24;33(30):12275-86. doi: 10.1523/JNEUROSCI.5919-12.2013
+             </a>
+             . PubMed PMID: 23884934; PubMed Central PMCID: PMC3721838.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Kelleher, A. R ('07)
+             </span>
+             ., Kimball, S. R., Dennis, M. D., Schilder, R. J., &amp; Jefferson, L. S. (2013). The mTORC1 signaling repressors REDD1/2 are rapidly induced and activation of p70S6K1 by leucine is defective in skeletal muscle of an immobilized rat hindlimb.
+             <a href="http://ajpendo.physiology.org/content/304/2/E229.short">
+              American Journal of Physiology-Endocrinology And Metabolism, 304(2), E229-E236
+             </a>
+             .
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              McGuire, K.L ('01)
+             </span>
+             ., Fierer, N., Bateman, C., Treseder, K.K., Turner, B.L. 2012. Fungal community composition in Neotropical rain forests: the influence of tree diversity and precipitation.
+             <em>
+              Microbial Ecology
+             </em>
+             63:804-812.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              McGuire, K.L
+             </span>
+             ('01)., Primack, R.B., Losos, E.C. 2012. Dramatic improvements and persistent challenges for women ecologists.
+             <em>
+              BioScience
+             </em>
+             62:189-196.
+            </p>
+            <p align="left" class="style14">
+             <span style="text-decoration: underline;">
+              Frye, MJ ('04
+             </span>
+             ), J Hough-Goldstein, and K. A. Kidd. 2012. Response of Kudzu (Pueraria montana var. lobata) Seedlings and Naturalized Plants to Simulated Herbivory.
+             <a href="http://www.bioone.org/loi/ipsm">
+              Invasive Plant Science and Management
+             </a>
+             October- Vol. 5, Issue 4, pg(s) 417-426.
+             <br />
+             <br />
+             <span style="text-decoration: underline;">
+              Frye, MJ ('04
+             </span>
+             ), J Hough-Goldstein, and K. A. Kidd. 2012. Response of kudzu (Pueraria montana var. lobata) to different types and levels of simulated insect herbivore damage. Biological Control 61(1)71-77.
+             <br />
+             <br />
+             <span style="text-decoration: underline;">
+              Gevens, A.J ('99
+             </span>
+             ).,Seidl, A.C. 2013. First Report of Late Blight Caused by
+             <em>
+              Phytophthora infestans
+             </em>
+             Clonal Lineage US-24 on Potato (
+             <em>
+              Solanum tuberosum
+             </em>
+             ) in Wisconsin. Plant Disease 97:152.
+             <br />
+             <br />
+             Zarnetske, PL, Skelly DK,
+             <span style="text-decoration: underline;">
+              Urban MC ('98)
+             </span>
+             (2012). Biotic multipliers of climate change.&nbsp;
+             <em>
+              <a href="http://www.sciencemag.org/content/336/6088/1516.summary">
+               Science
+              </a>
+             </em>
+             <a href="http://www.sciencemag.org/content/336/6088/1516.summary">
+              336: 1516-1517.
+             </a>
+            </p>
+            <p>
+             Calder&oacute;n Villalobos LI, Lee S, De Oliveira C, Ivetac A, Brandt W, Armitage L,
+             <span style="text-decoration: underline;">
+              Sheard LB
+             </span>
+             (
+             <span style="text-decoration: underline;">
+              '07
+             </span>
+             ), Tan X, Parry G, Mao H, Zheng N, Napier R, Kepinski S, Estelle M. (2012). A combinatorial TIR1/AFB-Aux/IAA co-receptor system for differential sensing of auxin.
+             <a href="http://www.nature.com/nchembio/journal/v8/n5/full/nchembio.926.html">
+              <em>
+               Nat Chem Biol
+              </em>
+              . 8(5):477-85.
+             </a>
+            </p>
+            <p>
+             <span style="text-decoration: underline;">
+              McGuire, K.L. ('01),
+             </span>
+             Primack, R.B., Losos, E.C.( 2012). Dramatic improvements and persistent challenges for women ecologists.
+             <a href="http://bc.barnard.edu/~kmcguire/pdfs/McGuire%20et%20al.%202012%20BioScience.pdf">
+              <em>
+               BioScience
+              </em>
+              62:189-196
+             </a>
+             .
+            </p>
+            <p>
+             <span style="text-decoration: underline;">
+              Collins MA, ('08
+             </span>
+             ), Bednar F, Zhang Y, Brisset JC, Galb&aacute;n S, Galb&aacute;n CJ, Rakshit S, Flannagan KS, Adsay NV, Pasca di Magliano M. (2012). Oncogenic Kras is required for both the initiation and maintenance of pancreatic cancer in mice.
+             <em>
+              <a href="http://www.jci.org/articles/view/59227">
+               J Clin Invest
+              </a>
+             </em>
+             <a href="http://www.jci.org/articles/view/59227">
+              122(2):639-53.
+             </a>
+            </p>
+            <p>
+             Lengerke C,
+             <span style="text-decoration: underline;">
+              Wingert R ('99
+             </span>
+             ), Beeretz M, Grauer M, Schmidt AG, Konantz M, Daley GQ,&nbsp;Davidson AJ.&nbsp; (2011). Interactions between Cdx genes and retinoic acid modulate early&nbsp;cardiogenesis.
+             <em>
+              <a href="http://www.sciencedirect.com/science/article/pii/S0012160611002065">
+               Dev Biol.
+              </a>
+             </em>
+             <a href="http://www.sciencedirect.com/science/article/pii/S0012160611002065">
+              2011 Jun 1;354(1):134-42
+             </a>
+             .
+            </p>
+            <p>
+             Diep CQ, Ma D, Deo RC, Holm TM, Naylor RW, Arora N,
+             <span style="text-decoration: underline;">
+              Wingert RA ('99)
+             </span>
+             , Bollig F,&nbsp;Djordjevic G, Lichman B, Zhu H, Ikenaga T, Ono F, Englert C, Cowan CA, Hukriede&nbsp;NA, Handin RI, Davidson AJ.(2011). Identification of adult nephron progenitors capable&nbsp;of kidney regeneration in zebrafish.
+             <a href="http://www.nature.com/nature/journal/v470/n7332/full/nature09669.html">
+              <em>
+               Nature
+              </em>
+              .470(7332):95-100.
+             </a>
+            </p>
+            <p>
+             Burns, JH, TL Ashman,
+             <span style="text-decoration: underline;">
+              JA Steets ('01
+             </span>
+             ), A Harmon-Threatt, and TM Knight. (2011). A phylogenetically controlled analysis of the roles of reproductive traits in plant invasions.
+             <em>
+              Oecologia
+             </em>
+             166(4):1009-1017.
+            </p>
+            <p>
+             Andrews S,
+             <span style="text-decoration: underline;">
+              Snowflack DR ('03
+             </span>
+             ), Clark IE, Gavis ER (2011).&nbsp; Multiple mechanisms collaborate to repress nanos translation in the Drosophila ovary and embryo.
+             <a href="http://rnajournal.cshlp.org/content/17/5/967.long">
+              <em>
+               RNA
+              </em>
+              . 17(5):967-77
+             </a>
+             .
+            </p>
+            <p>
+             <span style="text-decoration: underline;">
+              Marjoram (Bransom) L ('04)
+             </span>
+             , Wright C, (2011). Rapid differential transport of Nodal and Lefty on sulfated proteoglycan-rich extracellular matrix regulates left-right asymmetry in Xenopus.
+             <a href="http://dev.biologists.org/content/138/3/475.long">
+              <em>
+               Development
+              </em>
+              . 138(3):475-85
+             </a>
+             .
+            </p>
+            <p>
+             Polanco TA
+             <strong>
+              ,
+             </strong>
+             <span style="text-decoration: underline;">
+              Crismale-Gann C ('04)
+             </span>
+             Cohick WS.(2011). Alcohol Exposure In Utero Leads to Enhanced Prepubertal Mammary Development and Alterations in Mammary IGF and Estradiol Systems.
+             <a href="http://www.ncbi.nlm.nih.gov/pubmed/21761112">
+              <em>
+               Horm Cancer
+              </em>
+              2(4):239-48.
+             </a>
+            </p>
+            <p>
+             Lin, BB, Chappell, MJ, Vandermeer, J, Smith, G, Quintero, E, Bezner-Kerr, R, Griffith, DM, Ketcham, S, Latta, SC, McMichael, P,
+             <span style="text-decoration: underline;">
+              McGuire, KL ('01
+             </span>
+             ), Nigh, R, Rocheleau, D, Soluri, J, Perfecto, I 2011. Effects of industrial agriculture on climate change and the mitigation potential of small-scale agroecological farms.
+             <em>
+              <a href="http://bc.barnard.edu/~kmcguire/pdfs/Lin%20et%20al.%202011.pdf">
+               CAB Reviews
+              </a>
+             </em>
+             <a href="http://bc.barnard.edu/~kmcguire/pdfs/Lin%20et%20al.%202011.pdf">
+              6:1-18
+             </a>
+             .
+            </p>
+            <p>
+             Eller, ASD,
+             <span style="text-decoration: underline;">
+              McGuire, KL ('01
+             </span>
+             ), Sparks, JP 2011. Responses of sugar maple and hemlock seedlings to elevated carbon dioxide under altered above- and belowground nitrogen sources.
+             <em>
+              <a href="http://bc.barnard.edu/~kmcguire/pdfs/Eller%20et%20al.%202011.pdf">
+               Tree Physiology
+              </a>
+             </em>
+             <a href="http://bc.barnard.edu/~kmcguire/pdfs/Eller%20et%20al.%202011.pdf">
+              31:391-401
+             </a>
+             .
+            </p>
+            <p>
+             <span style="text-decoration: underline;">
+              Tavernia, B ('04),
+             </span>
+             M. Reed.(2011). Spatial, temporal, and life history assumptions influence consistency of landscape effects on species distributions.
+             <em>
+              Landscape Ecology
+             </em>
+             , Vol. 25
+            </p>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Biology Department
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/biology/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/missionstatement/">
+            Mission Statement
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/programgoals/">
+            Program Goals
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/">
+            Biology Curriculum
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/facultystaff/">
+            Faculty &amp; Staff
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/news/">
+            News
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/seminarseries/">
+            Seminar Series
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/infoforstudents/">
+            Info for Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/research/">
+            Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/facilities/">
+            Facilities
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/interdisciplinaryprograms/">
+            Interdisciplinary Programs
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/biology/alumnipublications/">
+             Alumni Publications
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/biology/acopiancenterforornithology/">
+            Acopian Center for Ornithology
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/biology/missionstatement/"&gt;Mission Statement&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/programgoals/"&gt;Program Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/"&gt;Biology Curriculum&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/facultystaff/"&gt;Faculty &amp; Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/news/"&gt;News&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/seminarseries/"&gt;Seminar Series&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/infoforstudents/"&gt;Info for Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/research/"&gt;Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/facilities/"&gt;Facilities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/interdisciplinaryprograms/"&gt;Interdisciplinary Programs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/biology/alumnipublications/"&gt;Alumni Publications&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/acopiancenterforornithology/"&gt;Acopian Center for Ornithology&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

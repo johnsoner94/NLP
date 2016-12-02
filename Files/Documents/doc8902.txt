@@ -1,0 +1,1319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Cache-Control" content="max-age=3600" />
+  <title>
+   Muhlenberg College Videos
+  </title>
+  <meta name="Description" content="Video Sharing Site" />
+  <meta name="Keywords" content="video sharing, video uploads, phpmotion V3 video cms" />
+  <base href="http://media.muhlenberg.edu/" />
+  <link rel="alternate" type="application/rss+xml" title="Muhlenberg College Videos" href="http://media.muhlenberg.edu/rssmotion.php?channel=&amp;group=&amp;member_id=" />
+  <link href="http://media.muhlenberg.edu/themes/default/css/main.css" rel="stylesheet" type="text/css" media="all" />
+  <!--[if lte IE 6]&gt;
+      &lt;link rel="stylesheet" href="http://media.muhlenberg.edu/themes/default/css/ie6.css" type="text/css"&gt;
+	&lt;![endif]-->
+  <!--[if IE 7]&gt;
+      &lt;link rel="stylesheet" href="http://media.muhlenberg.edu/themes/default/css/ie7.css" type="text/css"&gt;
+	&lt;![endif]-->
+  <link href="css/rating_style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/thickbox.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="greybox/gb_styles.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="javascripts/jquery.jcarousel.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="http://media.muhlenberg.edu/themes/default/thirdparty/jcarousel/skin.css" rel="stylesheet" type="text/css" media="all" />
+  <!--uploader style -->
+  <style type="text/css">
+   .info {font:18px Arial;}
+        .data {background-color:#1A1A1A; border:1px solid #317db7; width:40%;}
+        .data tr td {background-color:#1A1A1A; font:13px Arial; width:35%;}
+        .bar1 {background-color:#1A1A1A; position:relative; text-align:left; height:20px; width:px; border:1px solid #317db7;}
+        .bar2 {background-color:#68a4d2; position:relative; text-align:left; height:20px; width:0%;}
+  </style>
+  <!-- uploader style end-->
+  <!-- ajax js in play -->
+  <!-- end ajax -->
+  <script type="text/javascript" src="http://media.muhlenberg.edu/javascripts/ahah.js">
+  </script>
+  <script type="text/javascript" src="http://media.muhlenberg.edu/javascripts/swfobject.js">
+  </script>
+  <script type="text/javascript">
+   var GB_ROOT_DIR = "http://media.muhlenberg.edu/greybox/";
+  </script>
+  <!--start of video uploader section -->
+  <!-- end of video uploader -->
+  <!--start of audio uploader section -->
+  <!-- end of audio uploader -->
+  <!-- start of thickbox -->
+  <!-- end of thickbox -->
+  <!--FCKEDITOR-->
+  <!--FCKEDITOR-->
+  <!-- Audio player - basic setup-->
+  <!-- Audio player -->
+  <script type="text/javascript">
+   function clickclear(thisfield, defaulttext)
+		{
+			if (thisfield.value == defaulttext) {
+				thisfield.value = '';
+			}
+		}
+		function clickrecall(thisfield, defaulttext) {
+			if (thisfield.value == "") {
+				thisfield.value = defaulttext;
+			}
+		}
+  </script>
+  <!-- V3 google suggest scripts -->
+  <script type="text/javascript" src="http://media.muhlenberg.edu/javascripts/search_js/prototype.js">
+  </script>
+  <script type="text/javascript" src="http://media.muhlenberg.edu/javascripts/search_js/effects.js">
+  </script>
+  <script type="text/javascript" src="http://media.muhlenberg.edu/javascripts/search_js/controls.js">
+  </script>
+  <!-- end V3 google suggest -->
+ </head>
+ <body>
+  <!--Begin Wrapper.  This is the main container of the template.  It sets the overall width of the tempalate as well as centers it-->
+  <div id="wrapper">
+   <!--Begin Header-->
+   <div id="header">
+    <!--Begin Left Header.  This is where the logo is contained-->
+    <div id="header-left">
+     <!--Begin Greeting. (Welcome message, Login/out links etc...)-->
+     <div id="greeting">
+      Welcome&nbsp;&nbsp;to&nbsp;Muhlenberg College Videos
+      <span style="margin:0px 2px 0px 4px;">
+       <a href="join.php">
+        Register Today
+       </a>
+      </span>
+      &nbsp;/&nbsp;
+      <span style="margin:0px 0px 0px 2px;">
+       <a href="login.php">
+        Login
+       </a>
+      </span>
+     </div>
+     <!--End Greeting-->
+     <!--Begin Logo-->
+     <div id="logo">
+      <a href="http://media.muhlenberg.edu">
+       <img src="http://media.muhlenberg.edu/themes/default/images/logo-main.gif" alt="PHPmotion" />
+      </a>
+     </div>
+     <!--End Logo-->
+    </div>
+    <!--End Left Header-->
+    <!--Begin main Header.  This is where the main navigation is contained-->
+    <div id="header-main">
+     <!--Begin Search Bar-->
+     <div id="search-bar">
+      <form method="get" action="search.php" autocomplete="off" name="form_search">
+       <select size="1" name="type" style="font-family: verdana; font-weight:bold; font-size: 10pt; width:88px; color:#FFFFFF; border: 1px inset #F5F5F5; background-color: #815007">
+        <option value="videos">
+         Videos
+        </option>
+        <option value="audios">
+         Audios
+        </option>
+        <option value="images">
+         Images
+        </option>
+        <option value="groups">
+         Groups
+        </option>
+       </select>
+       <input autocomplete="off" id="keyword" name="keyword" value="Search Muhlenberg College Videos" onclick="clickclear(this, 'Search Muhlenberg College Videos')" onblur="clickrecall(this,'Search Muhlenberg College Videos')" style="font-family: verdana; font-weight:bold; font-size: 10pt;  height:18px; width:188px; color:#FFFFFF; border: 1px inset #F5F5F5; background-color: #815007" />
+       <input type="submit" value="Search" style="font-family: verdana; font-weight:bold; font-size: 10pt; width:88px; color:#FFFFFF; border: 1px; #F5F5F5; background-color: #815007" />
+       <div id="searchBoxSuggestions">
+       </div>
+      </form>
+     </div>
+     <!--End Search Bar-->
+     <script type="text/javascript">
+      GoogleSuggestAutocompleter = Class.create();
+    		Object.extend(Object.extend(GoogleSuggestAutocompleter.prototype, Autocompleter.Local.prototype), {
+        	cache: {},
+        	getUpdatedChoices: function() {
+            	var tok = this.getToken().toLowerCase();
+            	if (this.cache[tok]) return this.Suggest_apply( null, tok, this.cache[tok] );
+            		var script = document.createElement('script');
+            		script.type = 'text/javascript';
+            		script.src = 'word-suggest.php?action=suggest_words&amp;check='+ encodeURIComponent(tok)+ '&amp;type=' + document.form_search.type.value;
+           		     	document.body.appendChild(script);
+        		},
+        		Suggest_apply: function( meh, tok, list ) {
+            		if (!list) return this.updateChoices( '&lt;ul&gt;&lt;/ul&gt;' );
+            			if (!this.cache[tok]) this.cache[tok] = list;
+            				var values = [];
+            				for (var i=1; i&lt;list.length&gt;&lt;b&gt;'+v.slice(0, tok.length)+'&lt;/b&gt;'+v.slice(tok.length));
+            				}
+            				this.updateChoices( '&lt;ul&gt;&lt;li&gt;' + values.join('&lt;/li&gt;&lt;li&gt;') + '&lt;/li&gt;&lt;ul&gt;' );
+        				}
+    				});
+
+    			var frameElement, google = {};
+
+    			Event.observe(window, 'load', function(event) {
+
+        		google.ac = new GoogleSuggestAutocompleter( "keyword", "searchBoxSuggestions", null, {
+            		minChars: 1, frequency: 0.2, autosubmit: true
+        		} );
+
+    		}, 'false');
+     </script>
+     <!--Begin Navigation-->
+     <div id="nav-bar">
+      <div id="nav-left">
+      </div>
+      <!--Main Navigation. Buttons go here-->
+      <div id="nav-main">
+       <ul>
+        <li>
+         <a href="http://media.muhlenberg.edu">
+          Home
+         </a>
+        </li>
+        <li>
+         <a href="videos/load/recent">
+          Videos
+         </a>
+        </li>
+        <li>
+         <a href="audios/load/recent">
+          Audios
+         </a>
+        </li>
+        <li>
+         <a href="albums/load/recent">
+          Images
+         </a>
+        </li>
+        <li>
+         <a href="groups">
+          Groups
+         </a>
+        </li>
+        <li>
+         <a href="people">
+          People
+         </a>
+        </li>
+        <li>
+         <a href="upload-media">
+          Upload
+         </a>
+        </li>
+       </ul>
+      </div>
+      <!--End Main Navigation-->
+      <div id="nav-right">
+      </div>
+     </div>
+     <!--End Navigation-->
+    </div>
+    <!--End main Header-->
+    <!--Begin Header Bottom.  The only purpose for this is to give the bottom of the header rounded corners-->
+    <div id="header-bottom">
+    </div>
+    <!--End Header Bottom-->
+    <!--Begin Sub-Navigation.  This only appears when a user is logged in.-->
+    <div class="sub-nav">
+     <!--submenu 1-->
+     <!--submenu 2-->
+    </div>
+    <!--End Sub-Navigation-->
+   </div>
+   <!--End Header-->
+   <!--Begin Top Advert Space-->
+   <div id="advert-top">
+   </div>
+   <!--End Top Advert Space-->
+   <!--Begin Notiications-->
+   <!--End Notiications-->
+   <!--Begin Inner Templates Container.  This is where all of the other template files are displayed.-->
+   <div id="inner-templates-container">
+    <!--Begin Left Column-->
+    <title>
+     ads
+    </title>
+    <div id="column-left-1">
+     <div class="header-wide">
+      Latest Videos
+     </div>
+     <!--Video Player Container.  This is where the player embed code goes-->
+     <div id="index-player-container">
+      <div id="myAlternativeContent">
+       <a href="http://www.adobe.com/go/getflashplayer">
+        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+       </a>
+      </div>
+      <script type="text/javascript">
+       var flashvars = {};
+			var params = {};
+			var attributes = {};
+			flashvars.player_mode = "playlist";
+			flashvars.display_ads = "no";
+			flashvars.playlist = "yes";
+			flashvars.playlist_xml = "http://media.muhlenberg.edu/playlist.php";
+			flashvars.autoplay = "false";
+			flashvars.color_nav_bar_top = "0x478dc2";
+			flashvars.color_nav_bar_bottom = "0xE7EBEC";
+			flashvars.ads_background_color = "0x00CCFF";
+			flashvars.ads_border_color = "0xCCCCCC";
+			flashvars.scrubber_position_color = "0x6AA1CE";
+			flashvars.scrubber_load_color = "0x888888";
+			flashvars.scrubber_background_color = "0xBBBBBB";
+			flashvars.volume_bar_color = "0xBBBBBB";
+			flashvars.buffering_time = 1;
+			flashvars.aspect_ratio="stretch";
+			params.allowfullscreen = "true";
+			params.allowscriptaccess = "sameDomain";
+			swfobject.embedSWF("http://media.muhlenberg.edu/player.swf", "myAlternativeContent", "710", "350", "9.0.0", false, flashvars, params, attributes);
+      </script>
+     </div>
+     <!--End Video Player Container-->
+     <!--Begin Promoted Videos-->
+     <div class="header-wide-2">
+      Promoted Videos
+     </div>
+     <!--Begin Promototed Videos Container-->
+     <div class="container-wide">
+      <div id="promoted-container">
+       <div class="ts-1">
+        <div class="ts-1-1">
+         <div align="center" class="ts-2-1">
+         </div>
+         <div align="center" class="ts-2-2">
+          <a href="videos/760/issues-of-food-labeling">
+           <img height="90" alt="thumb" src="uploads/thumbs/L1xCFZWIZu5lXBzJwCI5.jpg" width="120" />
+          </a>
+         </div>
+         <div align="center" class="ts-2-3">
+          Issues of Food La...
+         </div>
+         <div align="center" class="ts-2-4">
+          Added:&nbsp;0 days ago
+         </div>
+         <div align="center" class="ts-2-5">
+         </div>
+        </div>
+        <div class="ts-1-2">
+         <div align="center" class="ts-2-1">
+         </div>
+         <div align="center" class="ts-2-2">
+          <a href="videos/705/test65">
+           <img height="90" alt="thumb" src="uploads/thumbs/eGVEZi1D4HLm5oPdhdtD.jpg" width="120" />
+          </a>
+         </div>
+         <div align="center" class="ts-2-3">
+          test65
+         </div>
+         <div align="center" class="ts-2-4">
+          Added:&nbsp;0 days ago
+         </div>
+         <div align="center" class="ts-2-5">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!--End Promoted Videos Container-->
+     <div class="container-wide-footer">
+     </div>
+     <!--Begin Video Browser. (Featured, Most Views, etc...)-->
+     <div class="header-wide">
+      Browse Videos
+      <div class="browse-nav">
+       <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=video&amp;load=featured', 'videos-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+        Featured
+       </a>
+       &nbsp;|&nbsp;
+       <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=video&amp;load=viewed', 'videos-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+        Most Viewed
+       </a>
+       &nbsp;|&nbsp;
+       <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=video&amp;load=recent', 'videos-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+        Most Recent
+       </a>
+       &nbsp;|&nbsp;
+       <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=video&amp;load=comments', 'videos-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+        Most Commented
+       </a>
+       &nbsp;|&nbsp;
+       <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=video&amp;load=rated', 'videos-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+        Highest Rated
+       </a>
+      </div>
+     </div>
+     <!--Begin Video Browser Container-->
+     <!-- we need a fixed height here if done this way to stablize the ajax load -->
+     <div class="container-wide">
+      <div class="browse-videos" style="height: 332px;">
+       <div id="videos-ajax">
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/510/stephanie-flackman-spread-the-word">
+            <div class="browse-videos-title">
+             Stephanie Fla...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/ltaub">
+             <b>
+              ltaub
+             </b>
+            </a>
+           </div>
+           <a href="videos/510/stephanie-flackman-spread-the-word">
+            <img src="uploads/thumbs/s1uvVUQXMhDxvrHm3jVP.jpg" title="Stephanie Flackman - Spread the Word" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             02:09
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/275/the-mexican-food-stand-by-bianca-johnson">
+            <div class="browse-videos-title">
+             The Mexican F...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/ltaub">
+             <b>
+              ltaub
+             </b>
+            </a>
+           </div>
+           <a href="videos/275/the-mexican-food-stand-by-bianca-johnson">
+            <img src="uploads/thumbs/zmDzMLq2i30k35WwiAGY.jpg" title="The Mexican Food Stand By Bianca Johnson" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             02:18
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/773/phoebe-home-sasha-nussbaum">
+            <div class="browse-videos-title">
+             Phoebe Home -...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/MrAnthonyDalton">
+             <b>
+              MrAnthonyDalt...
+             </b>
+            </a>
+           </div>
+           <a href="videos/773/phoebe-home-sasha-nussbaum">
+            <img src="uploads/thumbs/pMWhaCEH5yFF2kgGAeQT.jpg" title="Phoebe Home - Sasha Nussbaum" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             05:08
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/430/walson-hall-tour">
+            <div class="browse-videos-title">
+             Walson Hall T...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/billkeller">
+             <b>
+              billkeller
+             </b>
+            </a>
+           </div>
+           <a href="videos/430/walson-hall-tour">
+            <img src="uploads/thumbs/In1vTFqNbdqT1BAh2gNW.jpg" title="Walson Hall Tour" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             03:18
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/1078/jerry-evensky-lecture:-" adam-smith="adam-smith">
+            <div class="browse-videos-title">
+             Jerry Evensky...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/govtownpro">
+             <b>
+              govtownpro
+             </b>
+            </a>
+           </div>
+           <a href="videos/1078/jerry-evensky-lecture:-" adam-smith="adam-smith">
+            <img src="uploads/thumbs/iCmkLqihl5zPEgK4Y1Ce.jpg" title="Jerry Evensky Lecture: " adam="Adam" smith="Smith" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             01:18:36
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/1584/" sex-is-too-important-to-be-left-to-the-pornographers="sex-is-too-important-to-be-left-to-the-pornographers">
+            <div class="browse-videos-title">
+             "Sex is Too I...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/govtownpro">
+             <b>
+              govtownpro
+             </b>
+            </a>
+           </div>
+           <a href="videos/1584/" sex-is-too-important-to-be-left-to-the-pornographers="sex-is-too-important-to-be-left-to-the-pornographers">
+            <img src="uploads/thumbs/t0tfViVqIbDb4IGUpKNF.jpg" title="" sex="Sex" is="is" too="Too" important="Important" to="To" be="Be" left="Left" to="to" the="the" pornographers="Pornographers" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             01:15:04
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/723/hype-by-dylan-white">
+            <div class="browse-videos-title">
+             HYPE by Dylan...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/MrAnthonyDalton">
+             <b>
+              MrAnthonyDalt...
+             </b>
+            </a>
+           </div>
+           <a href="videos/723/hype-by-dylan-white">
+            <img src="uploads/thumbs/Z0FFvQHCjOfbRSTsnyBB.jpg" title="HYPE by Dylan White" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             02:59
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+        <div id="videoajax">
+         <ul>
+          <li>
+           <a href="videos/1277/branko-milanovic-twenty-years-of-globalization-national-and-glob">
+            <div class="browse-videos-title">
+             Branko Milan...
+            </div>
+           </a>
+           <div class="browse-videos-member">
+            By:&nbsp;&nbsp;
+            <a href="members/govtownpro">
+             <b>
+              govtownpro
+             </b>
+            </a>
+           </div>
+           <a href="videos/1277/branko-milanovic-twenty-years-of-globalization-national-and-glob">
+            <img src="uploads/thumbs/iLOTSooJlP0gzD2Zsgcb.jpg" title=" Branko Milanovic Twenty Years of Globalization National and Glob" width="120" height="90" alt="video pic" />
+           </a>
+           <div class="browse-videos-duration">
+            <b>
+             01:06:24
+            </b>
+           </div>
+           <div class="browse-videos-rating">
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+            <img border="0" src="themes/default/images/star_grey.gif" width="11" height="11" alt="1 Star" />
+           </div>
+           <div class="browse-videos-date">
+            Added:&nbsp;0 days ago
+           </div>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="clear-fix">
+       </div>
+      </div>
+     </div>
+     <!--End Video Browser Container-->
+     <div class="container-wide-footer">
+     </div>
+     <!--Begin Image Browser. (Featured, Most Views, etc...)-->
+     <!-- we need a fixed height here if done this way to stablize the ajax load -->
+     <features_images>
+      <div class="header-wide-2">
+       Browse Images
+       <div class="browse-nav-2">
+        <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=image&amp;load=featured', 'images-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+         Featured
+        </a>
+        &nbsp;|&nbsp;
+        <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=image&amp;load=viewed', 'images-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+         Most Viewed
+        </a>
+        &nbsp;|&nbsp;
+        <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=image&amp;load=recent', 'images-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+         Most Recent
+        </a>
+        &nbsp;|&nbsp;
+        <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=image&amp;load=comments', 'images-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+         Most Commented
+        </a>
+        &nbsp;|&nbsp;
+        <a onclick="javascript:ahahscript.ahah('index_ajax.php?type=image&amp;load=rated', 'images-ajax', '', 'GET', '', this);" style="cursor:pointer;">
+         Highest Rated
+        </a>
+       </div>
+      </div>
+      <!--Begin Image Browser Container-->
+      <div class="container-wide">
+       <div class="browse-videos" style="height: 332px;">
+        <div id="images-ajax">
+        </div>
+        <div class="clear-fix">
+        </div>
+       </div>
+      </div>
+      <!--End images Browser Container-->
+      <div class="container-wide-footer">
+      </div>
+     </features_images>
+    </div>
+    <!--End Left Column-->
+    <!--Begin Right Column-->
+    <div id="column-right-1">
+     <!-- phpmotion login -->
+     <div id="login-box">
+      <form action="login.php" method="post" accept-charset="UTF-8" class="middletext">
+       <ul>
+        <li>
+         <label>
+          <font class="font4_13">
+           Username:
+          </font>
+         </label>
+         <span class="username">
+          <input type="text" name="user_name_login" size="16" style="width:138px;" />
+         </span>
+        </li>
+        <li>
+         &nbsp;
+        </li>
+        <li>
+         <label>
+          <font class="font4_13">
+           Password:
+          </font>
+         </label>
+         <span class="password">
+          <input type="password" name="password_login" size="16" style="width:138px;" />
+         </span>
+        </li>
+        <li>
+         &nbsp;
+        </li>
+        <li>
+         <label>
+          <font class="font4_13">
+           How Long:
+          </font>
+         </label>
+         <span class="howlong">
+          <select name="cookie_time">
+           <option value="1440">
+            1 Day
+           </option>
+           <option value="10080">
+            1 Week
+           </option>
+           <option value="43200">
+            1 Month
+           </option>
+           <option value="-1" selected="selected">
+            Forever
+           </option>
+          </select>
+         </span>
+         <input type="submit" value="Login Now" class="button-form" />
+        </li>
+        <li>
+         &nbsp;
+        </li>
+        <li>
+         <a href="login.php">
+          Password Reminder
+         </a>
+         &nbsp;
+         <b>
+          |
+         </b>
+         &nbsp;
+         <a href="join.php">
+          Register Today
+         </a>
+         <input type="hidden" name="submitted" value="yes" />
+         <input type="hidden" name="remember_me" value="remember_me" />
+         <input type="hidden" name="referer_url" value="http://media.muhlenberg.edu" />
+        </li>
+       </ul>
+      </form>
+     </div>
+     <!-- end phpmotion login -->
+     <!-- smf login -->
+     <!-- end smf login -->
+     <!--Begin News Flash-->
+     <div class="header-narrow">
+      Latest News
+     </div>
+     <div class="container-narrow">
+      <ul class="content-list-narrow">
+       <li>
+       </li>
+       <li>
+        <a href="news.php?id=1">
+         New Video Server
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="container-narrow-bottom">
+     </div>
+     <!--End News Flash-->
+     <!--Begin Right Advert-->
+     <features_ads>
+      <div class="container-narrow-top">
+      </div>
+      <div id="advert-right">
+      </div>
+      <div class="container-narrow-bottom">
+      </div>
+     </features_ads>
+     <!--End Right Advert-->
+     <!-- Start Video Categories -->
+     <span id="vid_cats">
+      <div class="header-narrow-2">
+       Video Channels
+      </div>
+      <div class="browse-audios">
+       <ul>
+        <li>
+         <div>
+          <div style="margin-left:3px; float:left;">
+           <a href="category/landscapes">
+            Landscapes
+           </a>
+          </div>
+          <div style="margin-right:22px; float:right;">
+           10&nbsp;Videos
+          </div>
+         </div>
+         <br />
+         <div>
+          <div style="margin-left:3px; float:left;">
+           <a href="category/people">
+            People
+           </a>
+          </div>
+          <div style="margin-right:22px; float:right;">
+           648&nbsp;Videos
+          </div>
+         </div>
+         <br />
+         <div>
+          <div style="margin-left:3px; float:left;">
+           <a href="category/places">
+            Places
+           </a>
+          </div>
+          <div style="margin-right:22px; float:right;">
+           223&nbsp;Videos
+          </div>
+         </div>
+         <br />
+         <div>
+          <div style="margin-left:3px; float:left;">
+           <a href="category/submissions">
+            Submissions
+           </a>
+          </div>
+          <div style="margin-right:22px; float:right;">
+           46&nbsp;Videos
+          </div>
+         </div>
+         <br />
+         <div>
+          <div style="margin-left:3px; float:left;">
+           <a href="category/wildlife">
+            Wildlife
+           </a>
+          </div>
+          <div style="margin-right:22px; float:right;">
+           55&nbsp;Videos
+          </div>
+         </div>
+         <br />
+        </li>
+       </ul>
+      </div>
+      <div class="container-narrow-bottom">
+      </div>
+     </span>
+     <!-- End categories -->
+     <!--Begin Audio Browser. (Featured, Most Views, etc...)-->
+     <features_audio>
+      <div class="header-narrow-2">
+       Featured Audios
+      </div>
+      <!--Begin Audio Browser Container-->
+      <div class="browse-audios">
+       <ul>
+        <li>
+         <a href="audio/1/blind-willie">
+          <img src="http://media.muhlenberg.edu/themes/default/images/icons/audio_video_small.png" alt="watched" class="stats-thumb" />
+          <span class="audio-lable">
+           Blind Willie
+          </span>
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="container-narrow-bottom">
+      </div>
+     </features_audio>
+     <!--End Audio Browser Container-->
+     <!--Begin Popular Media-->
+     <div class="header-narrow-2">
+      Popular Media
+     </div>
+     <div class="container-narrow">
+      <div style="height:12px">
+       &nbsp;
+      </div>
+      <span class="popular-lable">
+       &nbsp;Popular Videos
+      </span>
+      <ul>
+       <li>
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="videos/510/stephanie-flackman-spread-the-word">
+           Stephanie Flackman - Spread the Word
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          36,087&nbsp;Views
+         </div>
+        </div>
+        <br />
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="videos/275/the-mexican-food-stand-by-bianca-johnson">
+           The Mexican Food Stand By Bianca...
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          14,871&nbsp;Views
+         </div>
+        </div>
+        <br />
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="videos/773/phoebe-home-sasha-nussbaum">
+           Phoebe Home - Sasha Nussbaum
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          14,276&nbsp;Views
+         </div>
+        </div>
+        <br />
+       </li>
+       <li>
+        &nbsp;
+       </li>
+       <features_audio>
+        <span class="popular-lable">
+         &nbsp;Popular Audios
+        </span>
+       </features_audio>
+       <li>
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="audio/7/01-introduction-by-the-narrator">
+           01 Introduction by the Narrator
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          4,018&nbsp;Plays
+         </div>
+        </div>
+        <br />
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="audio/24/introduction-by-narrator">
+           Introduction by Narrator
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          3,029&nbsp;Plays
+         </div>
+        </div>
+        <br />
+        <div>
+         <div style="margin-left:20px; float:left;">
+          <a href="audio/1/blind-willie">
+           Blind Willie
+          </a>
+         </div>
+         <div style="margin-right:20px; float:right;">
+          2,506&nbsp;Plays
+         </div>
+        </div>
+        <br />
+       </li>
+       <li>
+        &nbsp;
+       </li>
+      </ul>
+     </div>
+     <div class="container-narrow-bottom">
+     </div>
+     <!--End Popular Media-->
+     <!--Begin Popular Tags-->
+     <div class="header-narrow">
+      Popular Tags
+     </div>
+     <div class="container-narrow">
+      <font color="000099">
+       <b>
+        Popular Tags:
+       </b>
+      </font>
+      &nbsp;
+      <a href="search.php?keyword=DANA&amp;type=videos" class="tag_cloud">
+       <font size="5">
+        DANA
+       </font>
+      </a>
+      <a href="search.php?keyword=2013&amp;type=videos" class="tag_cloud">
+       <font size="5">
+        2013
+       </font>
+      </a>
+      <a href="search.php?keyword=Syb's&amp;type=videos" class="tag_cloud">
+       <font size="4">
+        Syb's
+       </font>
+      </a>
+      <a href="search.php?keyword=West&amp;type=videos" class="tag_cloud">
+       <font size="4">
+        West
+       </font>
+      </a>
+      <a href="search.php?keyword=End&amp;type=videos" class="tag_cloud">
+       <font size="4">
+        End
+       </font>
+      </a>
+      <a href="search.php?keyword=Deli&amp;type=videos" class="tag_cloud">
+       <font size="4">
+        Deli
+       </font>
+      </a>
+      <a href="search.php?keyword=DANA&amp;type=videos" class="tag_cloud">
+       <font size="3">
+        DANA
+       </font>
+      </a>
+      <a href="search.php?keyword=forum&amp;type=videos" class="tag_cloud">
+       <font size="3">
+        forum
+       </font>
+      </a>
+      <a href="search.php?keyword=2011&amp;type=videos" class="tag_cloud">
+       <font size="3">
+        2011
+       </font>
+      </a>
+      <a href="search.php?keyword=Wescoe&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        Wescoe
+       </font>
+      </a>
+      <a href="search.php?keyword=graduation&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        graduation
+       </font>
+      </a>
+      <a href="search.php?keyword=chapel&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        chapel
+       </font>
+      </a>
+      <a href="search.php?keyword=alumni&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        alumni
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="1">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2013&amp;type=videos" class="tag_cloud">
+       <font size="1">
+        2013
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="0">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2013&amp;type=videos" class="tag_cloud">
+       <font size="0">
+        2013
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-1">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2014&amp;type=videos" class="tag_cloud">
+       <font size="-1">
+        2014
+       </font>
+      </a>
+      <br />
+      <font color="000099">
+       <b>
+        More Tags:
+       </b>
+      </font>
+      &nbsp;
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2012&amp;type=videos" class="tag_cloud">
+       <font size="2">
+        2012
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="1">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2013&amp;type=videos" class="tag_cloud">
+       <font size="1">
+        2013
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="0">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2013&amp;type=videos" class="tag_cloud">
+       <font size="0">
+        2013
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-1">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2011&amp;type=videos" class="tag_cloud">
+       <font size="-1">
+        2011
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-2">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2011&amp;type=videos" class="tag_cloud">
+       <font size="-2">
+        2011
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-3">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2010&amp;type=videos" class="tag_cloud">
+       <font size="-3">
+        2010
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-4">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2010&amp;type=videos" class="tag_cloud">
+       <font size="-4">
+        2010
+       </font>
+      </a>
+      <a href="search.php?keyword=CFE&amp;type=videos" class="tag_cloud">
+       <font size="-5">
+        CFE
+       </font>
+      </a>
+      <a href="search.php?keyword=2011&amp;type=videos" class="tag_cloud">
+       <font size="-5">
+        2011
+       </font>
+      </a>
+     </div>
+     <div class="container-narrow-bottom">
+     </div>
+     <!--End Popular Tags-->
+     <!--Begin Site Stats-->
+     <div id="site_stats">
+      <div class="header-narrow-2">
+       Stats
+      </div>
+      <div class="container-stats">
+       <ul>
+        <li>
+         <img src="http://media.muhlenberg.edu/themes/default/images/icons/display_small.png" alt="watched" class="stats-thumb" />
+         <span class="stats-lable">
+          Videos Watched:
+         </span>
+         <span class="stats-value">
+          958,362
+         </span>
+        </li>
+        <features_audio>
+        </features_audio>
+        <li>
+         <img src="http://media.muhlenberg.edu/themes/default/images/icons/audio_video_small.png" alt="watched" class="stats-thumb" />
+         <span class="stats-lable">
+          Audios Played:
+         </span>
+         <span class="stats-value">
+          41,654
+         </span>
+        </li>
+        <!-- -->
+        <features_images>
+        </features_images>
+        <li>
+         <img src="http://media.muhlenberg.edu/themes/default/images/icons/image.png" alt="watched" class="stats-thumb" />
+         <span class="stats-lable">
+          Images Viewed:
+         </span>
+         <span class="stats-value">
+          56,276
+         </span>
+        </li>
+        <!-- -->
+        <li>
+         <img src="themes/default/images/icons/members.png" alt="members" width="22" height="22" align="absmiddle" class="stats-thumb" />
+         <span class="stats-lable">
+          Total Members:
+         </span>
+         <span class="stats-value">
+          367
+         </span>
+        </li>
+        <li>
+         <span class="stats-lable">
+          Newest Member:
+         </span>
+         <span class="stats-value">
+          PVEVelda77
+         </span>
+        </li>
+        <li>
+         <span class="stats-lable">
+          Viewers Online:
+         </span>
+         <span class="stats-value">
+          3
+         </span>
+        </li>
+        <li>
+         <span class="stats-lable">
+          Members Online:
+         </span>
+        </li>
+        <li>
+        </li>
+       </ul>
+       <div class="clear-fix">
+       </div>
+      </div>
+      <div class="container-narrow-bottom">
+      </div>
+      <!--End Site Stats-->
+     </div>
+     <!-- end hide show stats div //-->
+    </div>
+    <!--End Right Column-->
+   </div>
+   <!--End Inner Templates Container-->
+   <!--Begin bottom Advert Space-->
+   <div id="advert-bottom" style="clear:both">
+   </div>
+   <!--End bottom Advert Space-->
+  </div>
+  <!--End Wrapper-->
+  <!--Begin Footer-->
+  <div id="footer">
+   <div id="footer-wrapper">
+   </div>
+  </div>
+  <!--End Footer-->
+ </body>
+</html>
+<div align="center" style="height:105px">
+ <table border="0" cellpadding="0" cellspacing="0" width="225">
+  <tr>
+   <td width="204">
+    &nbsp;
+   </td>
+  </tr>
+  <tr>
+   <td height="18" style="border: 1px solid #999999" bgcolor="#FFFFFF" width="204">
+    <p align="center">
+     <font color="#6B8FDA" face="Arial" size="1">
+      <a href="http://www.phpmotion.com">
+       Powered Free by PHPmotion
+      </a>
+      -
+      <a href="http://www.phpmotion.com">
+       Video Script
+      </a>
+     </font>
+    </p>
+   </td>
+  </tr>
+ </table>
+ <br />
+</div>

@@ -1,0 +1,872 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Speeches - Communications | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        President's Office
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/">
+               Communications
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/speeches/">
+               Speeches
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: News - Main-->
+          <table border="0" width="95%">
+           <tbody>
+            <tr>
+             <td>
+              <a href="">
+               <b>
+                Above and Beyond
+               </b>
+              </a>
+              <br />
+              President Williams' address to the community upon the occasion of his Inauguration as the Twelfth President of Muhlenberg College
+              <br />
+              <a href="">
+              </a>
+              <p>
+               <b>
+               </b>
+               <br />
+               Sun, 25 Oct 2015 03:30:00 EDT
+              </p>
+              <div class="content-add05">
+               <p>
+                Chairman Crist, board of trustees, distinguished delegates, faculty, students, staff, alumni, parents and friends&hellip;
+               </p>
+               <p>
+                I am deeply honored and delighted to accept the mantle of the presidency of Muhlenberg College, a college that bears the proud name and rich legacy of one of our nation&rsquo;s great families.
+               </p>
+               <p>
+                I am excited to lead Muhlenberg in the next chapter of its long and illustrious history as a revered institution of higher learning.
+               </p>
+               <p>
+                I do so with feelings of awe and deep respect for the eleven presidents who have led this College so well for the past 167 years, and the countless faculty, staff and supporters who have propelled this great institution along its path!
+               </p>
+               <p>
+                Indeed, this is a highly personal moment for me, one that blends perfectly a great many elements of my life. I am, of course, delighted that my family can be here, including my wife, Diane, my son, Miguel and his wife, Marilyn, my two daughters, Ashley and Arianna, and my granddaughter, Kailani. &hellip;and Miriam, who first came to us years ago as an exchange student from Madrid, and has since become a dear member of our family.
+               </p>
+               <p>
+                I was adopted at the age of one month by an incredibly generous and hard-working African American couple, then living in Queens, NY. As I stand here today, I&rsquo;m sure that my late, German-American, Lutheran birth-mother from Brooklyn could not have anticipated that I would eventually become the first African American president of a liberal arts college with such strong German, Lutheran roots, and where, for so many years, faculty were required to be Lutheran and most courses were taught in German. And I am delighted that, while my 95-year-old dad and my late mom &ndash; who worked so hard to send their son to prep school, college, and graduate school &ndash; are unable to be here today, my dad is able to follow along due to the wonders of the Internet, while my sister, Laura-Jean, daughter of my birth-mother, is here with me, along with two of her three sons, Witter and Silas, my dear nephews. And I&rsquo;m so delighted to have several cousins and so many dear friends &ndash; both old and new &ndash; here on this momentous day.
+               </p>
+               <p>
+                Through the years, Muhlenberg has earned distinction as one of our nation&rsquo;s most highly regarded liberal arts colleges. And this is as it should be... From the very beginning, this College has endeavored to offer the finest education to students in the broadest possible sense &ndash; fostering intellectual development, but not stopping there; proceeding on to connect the head and the heart; building and sustaining both intellect and character.
+               </p>
+               <p>
+                Established in the mid-Nineteenth Century, in the same era as the Great Impressionist Painters, including Renoir, Monet, and Van Gogh, Muhlenberg College has developed a vision of the liberal arts with a unique approach to composition, technique, and color, to produce a true masterpiece that embraces &ndash; perhaps in equal measure &ndash; the intellect and the soul. Muhlenberg aims not only to expand the possible and question the expected, but to encourage and nurture the aspirational and serendipitous as well.
+               </p>
+               <p>
+                As Fredrick Augustus Muhlenberg said in his inaugural address in 1867 as the first president of the newly-renamed Muhlenberg College:
+               </p>
+               <p style="padding-left: 30px;">
+                &ldquo;The object at which the College shall aim, and toward which it shall constantly reach, shall be the securing of the broadest literary and scientific education of the best collegiate institutions, so as to give a thorough general culture and the preparation for all the professions and occupations to which learning is useful.
+               </p>
+               <p style="padding-left: 30px;">
+                &ldquo;We do not regard an education as complete that aims only at improving the intellect&hellip; No education is complete unless it prepares [students] to discharge all [their] duties properly in this world, and qualifies [them] for the rewards and employments of eternity. This kind of education contemplates the education of [the] conscience and the cultivation of [the] heart&hellip;&rdquo;
+               </p>
+               <p>
+                Named in honor of Henry Melchior Muhlenberg, the patriarch of the Lutheran Church in America, Muhlenberg College was founded on the idea that education is more than a foundation for learning. We believe that expanding one&rsquo;s goals and exceeding one&rsquo;s preconceived potential is a basic and necessary act of humanity.
+               </p>
+               <p>
+                Together, our community is committed to an ethos of reaching ever higher; guiding and driving students of extraordinary promise to reach above and beyond their preconceived talents, skills, and objectives to achieve prominence and effect change in whatever professions, interests, and causes they choose to pursue.
+               </p>
+               <p>
+                Throughout our history, the Muhlenberg experience has always been more than an opportunity to learn and grow. It is a call to action&mdash; to go above and beyond &mdash; and extend the power of our spirit and desire to achieve good.
+               </p>
+               <p>
+                Yes, at Muhlenberg, we are called to serve. We are called to look beyond ourselves in service to each other, our college, our community, and the global communities of which we are a part.
+               </p>
+               <p>
+                At Muhlenberg, "service" is not something we do because it looks good on a resume. Service is not something we do solely because "it makes us feel good." No, at Muhlenberg, the call to serve is at the center of our ethos.
+               </p>
+               <p>
+                For the Muhlenberg family, &ldquo;service&rdquo; began with service to God. As an extension of that commitment, the Muhlenberg family first served their community of fellow Lutherans. Then, in ever-broadening circles, they served their communities of fellow German Americans, their fellow Pennsylvanians, fellow colonists, and, finally, their fellow Americans.
+               </p>
+               <p>
+                Their service was not without sacrifice. Henry Melchior Muhlenberg, his family, and their descendants truly went above and beyond in service to our nation. Henry&rsquo;s son, Major General John Peter Gabriel Muhlenberg fought for American independence and later served Pennsylvania as a representative to the very first United States Congress.
+               </p>
+               <p>
+                John&rsquo;s brother, Frederick Augustus Conrad Muhlenberg, helped draft our constitution, serving as a delegate for Pennsylvania in the Continental Congress, then as the first Speaker of the United States House of Representatives (a position, it seems, that can be hard to fill these days). Indeed, his signature as Speaker lives above that of then Vice President John Adams on the legislation that later became known as our Bill of Rights. A ship named in his honor, the F.A.C. Muhlenberg, served the U.S. Navy during World War II. Frederick and John&rsquo;s sister, Eve Elizabeth &ldquo;Betsey&rdquo; Muhlenberg, a force in her own right, reared John Andrew Melchior Schulze, who served as governor of Pennsylvania from 1823-1829. Indeed, seven members of the Muhlenberg family served this nation in Congress&mdash;and countless others served in our nation&rsquo;s defense.
+               </p>
+               <p>
+                Henry Melchior Muhlenberg&rsquo;s descendants served as educators, exploring both the boundaries of science and spirit, as clergy, as teachers, scientists, and physicians.
+               </p>
+               <p>
+                And now, going forward from this time and place, our challenge is to preserve the essential elements of their legacy that have endured and combined to make our College great. At the same time, we must reinvent residential liberal arts education for a new generation of students, who will go on to leadership roles within a rapidly changing, increasingly diverse and interconnected world.
+               </p>
+               <p>
+                Of course, the Muhlenberg of today is much different from the institution founded back in 1848 as a Lutheran seminary. Our faculty now direct a rich and expansive curriculum, one that connects and combines classical liberal arts with outstanding pre-professional study. We support 40 majors (and nearly as many minors) in the humanities, fine arts, social sciences, and natural sciences, as well as preparation in areas such as pre-medicine and allied health, pre-law, business, education, and pre-theological studies.
+               </p>
+               <p>
+                Gone are the days when only Lutherans could aspire to a position on this faculty, even more so the presidency. Fully one-third of our students are now Jewish, almost a third are Roman Catholic; and there have been many other changes.
+               </p>
+               <p>
+                Yet, our core philosophy, and the Muhlenberg spirit that pervades all that we do, remain constant. Everywhere you turn on this campus, you encounter students, faculty and staff who are not content with the merely good enough. Here at Muhlenberg, it is in our nature always to work to be better &ndash; in the classroom, the laboratory, the studio, on the stage, on our athletic fields, and in our surrounding community. You need look no further than the exhibits of student research on display this weekend.
+               </p>
+               <p>
+                In fact, one of the many factors that drew me to Muhlenberg is this continuous striving for improvement and enhancement. For example, while a single major suffices to meet our graduation requirements, the vast majority of our students pursue two; often with a minor thrown in for good measure. Now, double-majoring has long been a trend at many colleges; but here we have taken it to another level.
+               </p>
+               <p>
+                The vast majority of the leading liberal arts colleges require students to complete 32 courses for the bachelor&rsquo;s degree. Four courses per semester, eight semesters; 32 courses; simple arithmetic...
+               </p>
+               <p>
+                Well, here at Muhlenberg, we require students to complete 34 courses to graduate. Now, at first, I thought we might be being a little too tough on our students&hellip; until I learned they graduate having taken an average of 36 courses! In other words, compared to students at most other leading liberal arts colleges, our graduates have packed the equivalent of nine semesters&rsquo; worth of education into eight!
+               </p>
+               <p>
+                Naturally, this over-performance doesn&rsquo;t begin and end with our students. Our faculty lead the way. For example, we publish &ndash; directly in our mission statement &ndash; a detailed list of learning objectives for our students, and then hold our faculty hold themselves accountable for attaining those goals. Our faculty work tirelessly to teach and advise our students, both in and out of the classroom, laboratory, and studio to produce fine scholarship and to contribute service to the College in so many ways.
+                <br />
+                With equal perseverance and passion, our staff leave no stone unturned in keeping the College functioning at the highest level. Our reputation as a caring community is well-earned. On no other campus I know is the staff more committed to helping students feel safe, secure, comfortable, and well-supported &ndash; with the ultimate aim of having them ready to learn.
+               </p>
+               <p>
+                And Allentown, our home city, is spreading its wings and soaring also! Allentown is in the middle of an amazing, downtown renaissance. Muhlenberg College has long been and continues to be engaged deeply and extensively in the Allentown community and we will work to be a full partner in the transformation and renewal of the great and beautiful city we call home.
+               </p>
+               <p>
+                These are early days yet for me at Muhlenberg but, already, I couldn&rsquo;t be more proud of our beautiful, little college on the hill, and most importantly the people of the global Muhlenberg community. That is why this Inauguration event is not just about the installation of a new president; it is a celebration of the efforts and accomplishments of the Muhlenberg community.
+               </p>
+               <p>
+                Of course, as we all know, this is a challenging time for private, liberal arts colleges. As ubiquitous as small, liberal arts colleges may be, particularly here in Pennsylvania, colleges like Muhlenberg represent only about 2% of total U.S. undergraduate enrollments. That&rsquo;s a decline from 5-6% about 20 years ago.
+               </p>
+               <p>
+                Sadly, in that time, some students and families have turned away from the liberal arts, reasoning that a more vocationally-oriented education, perhaps one focused on a career in a STEM field, or Science, Technology, Engineering and Math, will produce a greater return on investment.
+               </p>
+               <p>
+                Now, I have no quarrel with tech or vocational training. For some, it is the ideal fit. In many cases, however, foregoing a liberal arts education may be short-sighted. For starters, the natural sciences and math &ndash; literally the alpha and omega of STEM &ndash; are core elements of a liberal arts education. Indeed, Muhlenberg&rsquo;s outstanding programs in biology, biochemistry, neuroscience, mathematics, computer science and physics provide excellent preparation for students interested in fields that require scientific and/or quantitative fluency.
+               </p>
+               <p>
+                But even more important, our liberal arts students are preparing for leadership roles within the new Creative Economy, where a fusing of left and right brains, the rational and the creative, the mind and the soul, are essential to success. Strategically, our students are well-positioned, as the future will value those who can bring to the table most effectively new and innovative ideas &ndash; including disruptive new business models &ndash; and see them through to implementation.
+               </p>
+               <p>
+                For this new generation of leaders, the most important skills are integrative and creative thinking, spanning multiple domains of knowledge and frameworks, including the arts, humanities, social sciences, and the natural sciences, all coupled with the ability to formulate cogent arguments and to communicate clearly and powerfully.
+               </p>
+               <p>
+                These are the very skills our students are learning here today at Muhlenberg. By blending art and science, today&rsquo;s Muhlenberg students are forging the new talents that will provide the superstructure for the future.
+               </p>
+               <p>
+                Recently, one of our faculty members remarked, &ldquo;some of our best pre-meds are dancers!&rdquo; Indeed! Our students pursue and show the way to new and innovative combinations of interests; say, in theatre and neuroscience, or dance and physics.
+               </p>
+               <p>
+                Creativity abounds throughout our campus and, like the newly-discovered Higgs Boson, our students serve as the force-carriers.
+               </p>
+               <p>
+                In the famous words of the great one, Wayne Gretzky, who many view as the National Hockey League&rsquo;s greatest player ever, today&rsquo;s students must skate not to where the puck is, but to where the puck is going to be.
+               </p>
+               <p>
+                When the members of the Class of 2019 (our first-year class) were born, Google didn&rsquo;t exist, and Siri wasn&rsquo;t even a gleam in Apple&rsquo;s eye. By the time the members of this class are old and grey, say 30, they will very likely already be working on products, processes, and technologies that are unknown today.
+               </p>
+               <p>
+                And, speaking of Apple, its co-founder and legendary CEO, the late Steve Jobs, went to a liberal arts college &ndash; Reed College in Oregon.
+               </p>
+               <p>
+                As we know, Jobs presided over what has become the most highly-valued company in history; one that truly has changed the world in many ways.
+               </p>
+               <p>
+                However, if Jobs hadn&rsquo;t taken a course in calligraphy through which he developed a deep aesthetic sensibility, the world would almost certainly be a very different place today, filled with fewer beautifully-designed products, and more of us would still be listening to vinyl record albums purchased in retail stores and played on turntables.
+               </p>
+               <p>
+                But the liberal arts aren&rsquo;t important just because they might lead you to build the most valuable company in history like Steve Jobs, or win a Nobel Prize in Medicine like Harold Varmus, who majored in English, or become a cellist impresario like Yo-Yo Ma, who went to Harvard instead of Juilliard and had a passion for anthropology. The liberal arts enrich your life in ways that go far beyond career success. For, in addition to helping you earn a living, a liberal arts education helps you to have a life worth living.
+               </p>
+               <p>
+                Through the study of the liberal arts, we gain appreciation not only for the whats in life&hellip; but also the whys and the why nots. Increasingly, technology platforms will deliver the whats, even to the palm of your hand. But the pursuit of meaning is a peculiarly human endeavor; one for which a liberal arts education is the ideal foundation.
+               </p>
+               <p>
+                The liberal arts foster a manner of integrative thinking that, by connecting the previously unconnected, can yield breakthroughs less likely to develop from linear thinking. Liberal arts thinking is almost uniquely American, and is one reason why, while North America represents only about 5% of the world&rsquo;s population, we are responsible for 25% of the world&rsquo;s patents.
+               </p>
+               <p>
+                Going forward, we will stay the course here at Muhlenberg and remain committed to our special blend of the liberal arts and selected pre-professional programs. But we are already exploring new models &ndash; both pedagogical and operating models &ndash; for how we go about our work.
+               </p>
+               <p>
+                To that end, we are pursuing exciting new partnerships to help our students achieve powerful outcomes. For example, we have recently entered into an agreement with the University of Groningen in the Netherlands, that will allow our students to have an inside track on some exciting new opportunities to pursue exchanges as well as masters programs in one of the world&rsquo;s finest universities.
+               </p>
+               <p>
+                We are also entering an articulation agreement with Harvard Law School via HarvardX, so that our students will have the opportunity, using the latest digital learning techniques, to take a course in copyright law right here on our campus from one of the world's leading legal scholars, my former teacher, Professor Terry Fisher; and we hope this will lead to more such courses in this innovative partnership.
+               </p>
+               <p>
+                To further strengthen our legendary pre-med program, we are exploring new relationships with medical schools to complement the 4+4 program we already have with Drexel University College of Medicine.
+               </p>
+               <p>
+                We have a special focus to strengthen our career services. We have already moved our Career Center organizationally to our office of Advancement because that will enable even stronger partnerships with our alumni and parents, who can open more doors for our students.
+                <br />
+                Further in this regard, we are developing &ndash; with a planned introduction for next fall &ndash; what we hope will be a leading mentoring program, pairing our alumni and parents with students (to complement the advising relationships students already have with our faculty). This new mentoring will be designed to provide help and advice regarding not only the transition to career, but to life more broadly.
+               </p>
+               <p>
+                On the cost and sustainability side, with the able and generous assistance of one of our loyal alumni, we are taking a comprehensive look at our energy use, and have identified several areas where we can both cut operating expense and reduce our carbon footprint.
+               </p>
+               <p>
+                We are thinking in ways that reflect a new, network paradigm, whereby all in our global community benefit from activating as many connections as possible. Combining our alumni, parents, students, faculty, staff and friends, our global network numbers over 30,000 people. The number of connections is driven by Metcalf&rsquo;s Law, or N times (N-1). For those of you who haven&rsquo;t already done the math in your head, that equates to approximately 900 million opportunities for us to serve and assist one another at any given moment. Thinking and working together in network terms will, over time, permit us to &ldquo;punch above our weight.&rdquo;
+               </p>
+               <p>
+                We are working to strengthen our network by making it more wide-ranging and diverse. Today&rsquo;s most forward-looking prospective college students demand a diverse learning community in the college they choose to attend. They know that, once they graduate from college, they will be inheriting a far more diverse and globally-connected world.
+               </p>
+               <p>
+                By 2043, the U.S. will be a majority-minority nation. In fact, children born today in the U.S. are already majority-minority. Moreover, careers increasingly cross international borders. Seeking greater diversity at Muhlenberg is no longer an option; it&rsquo;s a strategic imperative. This is one reason the board of trustees endorsed a Diversity Strategic Plan last year, which is guiding our efforts.
+               </p>
+               <p>
+                Our current students are already pursuing a global agenda. We encourage students in all majors to study abroad at quality institutions in Europe, Australia, Asia, Latin America and Africa. We are thrilled by the rate at which our students take advantage of this opportunity. For example, over 50% of the class of 2015 studied abroad.
+               </p>
+               <p>
+                At the same time, we are committed to bringing more of the nation&rsquo;s and the world&rsquo;s best talent to this campus. To that end, we are broadening our geographic and cultural scope by expanding our admissions staff and sending them off to new recruiting areas for us, such as Phoenix and San Antonio, as well as to Mumbai and New Delhi. Our efforts are bearing fruit, as our current first year class is the most diverse in the College&rsquo;s history, with domestic students of color representing a record 18% of the class. In addition, 5% of the class are from countries outside the U.S.
+               </p>
+               <p>
+                Another path to diversity is our Wescoe School of Continuing Education, through which we have reached and embraced adult learners for well over a century. Our Wescoe students make incredible sacrifices and demonstrate awe-inspiring commitment to invest in life-transforming education. Their stories are heartwarming and profound. We extend and enhance our mission through these efforts, and we are determined to expand our reach substantially in the years ahead.
+               </p>
+               <p>
+                I must also mention our high-priority efforts to expand in the area of digital learning. We are not pursuing the MOOC path, or massively-open, online courses. Rather, we are exploring how best to incorporate digital learning into our pedagogy in ways that continue to emphasize close collaboration; and our early efforts have been strongly encouraging. We will continue to find ways to strengthen our academic program and make it more accessible and flexible by incorporating new digital learning tools and techniques.
+               </p>
+               <p>
+                In closing, as I think about the environment within which we operate today, I am reminded of some lines from Bob Dylan&rsquo;s 1964 classic,
+               </p>
+               <p style="padding-left: 30px;">
+                The line it is drawn, the curse it is cast.
+                <br />
+                The slow one now will later be fast.
+                <br />
+                As the present now will later be past.
+                <br />
+                The order is rapidly fadin'
+                <br />
+                And the first one now will later be last
+                <br />
+                For the times they are a-changin'.
+               </p>
+               <p>
+                The times, they are certainly a-changin&rsquo;: here in Allentown, in our nation and in the broader world. Here at Muhlenberg College, we are evolving our strategy accordingly to ensure our enduring success. Through it all, we will honor our past while we raise our sights to the future.
+               </p>
+               <p>
+                At the same time that we connect with and build upon the strengths of our past, we look ahead and dare to dream of a bold future, one in which Muhlenberg College thrives within a new, more competitive, more innovative landscape for higher education; a future in which our students will graduate even better equipped for a faster-paced, more diverse and dynamic world; one in which we unite as a global network to open doors for one another.
+               </p>
+               <p>
+                Together, we will continue to soar above and beyond! Thank you.
+               </p>
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+           <a class="addthis_button_preferred_1">
+           </a>
+           <a class="addthis_button_preferred_2">
+           </a>
+           <a class="addthis_button_google_plusone" g:plusone:annotation="none">
+           </a>
+           <a class="addthis_counter addthis_bubble_style">
+           </a>
+          </div>
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b4c69f3ef53994">
+          </script>
+          <!-- AddThis Button END -->
+          <!-- Content Template End: News - Main-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President's Office
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/press/">
+            Press
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/messages/">
+            Messages
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/president/communications/speeches/">
+             Speeches
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/officehours/">
+            Office Hours
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/press/"&gt;Press&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/messages/"&gt;Messages&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/president/communications/speeches/"&gt;Speeches&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/officehours/"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,749 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID - Browse collections
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <div id="content-wrapper">
+   <div id="content">
+    <div id="basket-content">
+     <div id="basket-scroll-right">
+     </div>
+     <div id="basket-scroll-left">
+     </div>
+     <div id="basket-thumbs">
+      <br />
+      Your basket is empty.
+     </div>
+    </div>
+    <div style="height: 15px;">
+    </div>
+    <div id="sidebar">
+    </div>
+    <h1>
+     Browse collections
+    </h1>
+    <table id="browse-forms">
+     <tr>
+      <td>
+       <label for="c">
+        Collection:
+       </label>
+      </td>
+      <td>
+       <form method="GET" action=".">
+        <select name="c">
+         <option value="mdid1-collection" selected="selected">
+          MDID1 Collection
+         </option>
+        </select>
+        <input type="submit" value="Browse" />
+        <div>
+         <input type="hidden" name="sessionid" value="93e05470b64bb7f6db762a3a23224b29" />
+        </div>
+       </form>
+      </td>
+     </tr>
+     <tr>
+      <td>
+       <label for="f">
+        Fields:
+       </label>
+      </td>
+      <td>
+       <form method="GET" action=".">
+        <select name="f">
+         <option value="3" selected="selected">
+          Creator
+         </option>
+         <option value="4">
+          Date
+         </option>
+         <option value="5">
+          Description
+         </option>
+         <option value="7">
+          Identifier
+         </option>
+         <option value="12">
+          Source
+         </option>
+         <option value="14">
+          Title
+         </option>
+         <option value="50">
+          ID
+         </option>
+         <option value="51">
+          Title
+         </option>
+         <option value="52">
+          Creator
+         </option>
+         <option value="53">
+          Date
+         </option>
+         <option value="54">
+          Medium
+         </option>
+         <option value="55">
+          Culture
+         </option>
+         <option value="56">
+          Period
+         </option>
+         <option value="57">
+          Style_Material
+         </option>
+         <option value="58">
+          Country
+         </option>
+         <option value="59">
+          City_Site
+         </option>
+         <option value="60">
+          Source
+         </option>
+         <option value="61">
+          Copyright
+         </option>
+         <option value="62">
+          View_Notes
+         </option>
+         <option value="180">
+          ID
+         </option>
+         <option value="190">
+          Country
+         </option>
+         <option value="199">
+          Publisher
+         </option>
+        </select>
+        <input type="submit" value="Browse" />
+        <div>
+         <input type="hidden" name="sessionid" value="93e05470b64bb7f6db762a3a23224b29" />
+        </div>
+       </form>
+      </td>
+     </tr>
+    </table>
+    Jump to:
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=A&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     A
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=B&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     B
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=C&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     C
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=D&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     D
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=E&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     E
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=F&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     F
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=G&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     G
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=H&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     H
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=I&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     I
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=J&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     J
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=K&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     K
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=L&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     L
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=M&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     M
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=N&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     N
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=O&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     O
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=P&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     P
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=Q&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     Q
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=R&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     R
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=S&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     S
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=T&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     T
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=U&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     U
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=V&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     V
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=W&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     W
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=X&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     X
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=Y&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     Y
+    </a>
+    <a href="/explore/browse/5/mdid1-collection/?f=3&amp;s=Z&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+     Z
+    </a>
+    <div class="pagination">
+     <span class="disabled prev">
+      &lsaquo;&lsaquo; previous
+     </span>
+     <span class="current page">
+      1
+     </span>
+     <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      2
+     </a>
+     <a href="?page=3&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      3
+     </a>
+     <a href="?page=4&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      4
+     </a>
+     ...
+     <a href="?page=12&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      12
+     </a>
+     <a href="?page=13&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      13
+     </a>
+     <a href="?page=14&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      14
+     </a>
+     <a href="?page=15&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      15
+     </a>
+     <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="next">
+      next &rsaquo;&rsaquo;
+     </a>
+    </div>
+    <div class="browsecolumn">
+     <div style="font-size: x-large; font-weight: bolder;">
+      A
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Abramovic%2C%20Marina&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Abramovic, Marina
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Adeagbo%2C%20Georges&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Adeagbo, Georges
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Ad%C3%A9agbo%2C%20Georges&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Adéagbo, Georges
+      </a>
+      (6)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Adenaike%2C%20Tayo&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Adenaike, Tayo
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:after%20Oliver%2C%20Isaac%2C%20I&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       after Oliver, Isaac, I
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Aguilar%2C%20Laura&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Aguilar, Laura
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Aguilar%2C%20Regina&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Aguilar, Regina
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Ainslie%2C%20Bill&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Ainslie, Bill
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Alberti%2C%20Leon%20Battista&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Alberti, Leon Battista
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Alexander%2C%20Jane&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Alexander, Jane
+      </a>
+      (6)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Alexander%2C%20John%20White&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Alexander, John White
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Amasis%20Painter&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Amasis Painter
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Amorales%2C%20Carlos&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Amorales, Carlos
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Anatsui%2C%20El&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Anatsui, El
+      </a>
+      (3)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Andokides%20Painter&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Andokides Painter
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Andre%2C%20Carl&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Andre, Carl
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Andrea%20Pisano&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Andrea Pisano
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Angelico%2C%20Fra&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Angelico, Fra
+      </a>
+      (3)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Ankomah%2C%20Owusu&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Ankomah, Owusu
+      </a>
+      (3)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Anquetin%2C%20Louis&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Anquetin, Louis
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Antonello%20da%20Messina&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Antonello da Messina
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arbus%2C%20Diane&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arbus, Diane
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Archelaos%20of%20Priene&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Archelaos of Priene
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Archipenko%2C%20Alexander&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Archipenko, Alexander
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arcimboldi%2C%20Giuseppe&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arcimboldi, Giuseppe
+      </a>
+      (1)
+     </div>
+    </div>
+    <div class="browsecolumn">
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Aristokles&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Aristokles
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arman&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arman
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arneson%2C%20Robert%20Carston&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arneson, Robert Carston
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arowogun%20of%20Osi-Ilorin%2C%20attributed%20to&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arowogun of Osi-Ilorin, attributed to
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Arp%2C%20Hans&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Arp, Hans
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Asante%20People&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Asante People
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Asteas&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Asteas
+      </a>
+      (2)
+     </div>
+     <div style="font-size: x-large; font-weight: bolder;">
+      B
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Baca%2C%20Judith%20F.&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Baca, Judith F.
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Balducci%2C%20Giovanni&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Balducci, Giovanni
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Baldung%2C%20Hans&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Baldung, Hans
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bandinelli%2C%20Baccio&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bandinelli, Baccio
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Barbey%2C%20Bruno&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Barbey, Bruno
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Barney%2C%20Tina&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Barney, Tina
+      </a>
+      (7)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Barthel%2C%20Melchior&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Barthel, Melchior
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Barye%2C%20Antoine-Louis&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Barye, Antoine-Louis
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Baselitz%2C%20Georg&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Baselitz, Georg
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Baum%2C%20Walter%20Emerson&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Baum, Walter Emerson
+      </a>
+      (3)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Becker%2C%20Julie&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Becker, Julie
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bell%2C%20Vanessa&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bell, Vanessa
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bellange%2C%20Jacques&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bellange, Jacques
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Belli%2C%20Patricia&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Belli, Patricia
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bellini%2C%20Gentile&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bellini, Gentile
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bellini%2C%20Giovanni&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bellini, Giovanni
+      </a>
+      (2)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bellotto%2C%20Bernardo&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bellotto, Bernardo
+      </a>
+      (1)
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5&amp;c=dc.creator_s:Bellows%2C%20George%20Wesley&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+       Bellows, George Wesley
+      </a>
+      (3)
+     </div>
+    </div>
+    <div style="clear: both;">
+    </div>
+    <div class="pagination">
+     <span class="disabled prev">
+      &lsaquo;&lsaquo; previous
+     </span>
+     <span class="current page">
+      1
+     </span>
+     <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      2
+     </a>
+     <a href="?page=3&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      3
+     </a>
+     <a href="?page=4&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      4
+     </a>
+     ...
+     <a href="?page=12&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      12
+     </a>
+     <a href="?page=13&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      13
+     </a>
+     <a href="?page=14&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      14
+     </a>
+     <a href="?page=15&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="page">
+      15
+     </a>
+     <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29" class="next">
+      next &rsaquo;&rsaquo;
+     </a>
+    </div>
+    <div id="footer">
+     Copyright 1997-2011 James Madison University
+    </div>
+   </div>
+  </div>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/explore/browse/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/?sessionid=93e05470b64bb7f6db762a3a23224b29" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/?sessionid=93e05470b64bb7f6db762a3a23224b29" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/explore/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd&amp;sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/?sessionid=93e05470b64bb7f6db762a3a23224b29">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+        <div>
+         <input type="hidden" name="sessionid" value="93e05470b64bb7f6db762a3a23224b29" />
+        </div>
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+    $("#browse-forms select").change(function () { this.form.submit(); });
+    $("#browse-forms :submit").remove();
+});
+  </script>
+ </body>
+</html>

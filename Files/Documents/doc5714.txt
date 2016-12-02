@@ -1,0 +1,781 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+   Graduway | Empowering Alumni Networks
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="/Content/minimalist.css" />
+  <link rel="stylesheet" type="text/css" href="/Content/custom-form.css" />
+  <link rel="stylesheet" type="text/css" href="/Content/jquery.jscrollpane.css" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/Content/all.css?v=21" />
+  <link rel="stylesheet" type="text/css" media="(max-width: 992px)" href="/Content/tablet-mobile-styles/tablet-mobile.css" />
+  <link rel="stylesheet" type="text/css" href="/Content/slider-home/slider-home.css" />
+  <script type="text/javascript" src="/Scripts/jquery-1.8.2.min.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/customPopup.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.tabs.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.carouFredSel-6.2.1-packed.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/simple-slideshow.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/main.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.tools.min.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.form.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.jscrollpane.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.mousewheel.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.equalheights-fixed.js">
+  </script>
+  <link rel="stylesheet" href="/Scripts/slick/slick.css" />
+  <link rel="stylesheet" href="/Scripts/slick/slick-theme.css" />
+  <script type="text/javascript" src="/Scripts/slick/slick.js">
+  </script>
+  <script type="text/javascript" src="/Scripts/jquery.contentPagination.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="/Scripts/tooltipster/css/tooltipster.bundle.min.css" />
+  <script type="text/javascript" src="/Scripts/tooltipster/js/tooltipster.bundle.min.js">
+  </script>
+ </head>
+ <body id="mainBody">
+  <div class="wrapper hp">
+   <div id="header">
+    <div class="center-holder">
+     <div class="header-holder">
+      <strong class="logo">
+       <a href="/">
+        Graduway
+       </a>
+      </strong>
+      <button type="button" class="nav-bar-btn hidden-md">
+       <span class="icon-bar">
+       </span>
+       <span class="icon-bar">
+       </span>
+       <span class="icon-bar">
+       </span>
+      </button>
+      <ul id="nav">
+       <li>
+        <a href="/about">
+         About
+        </a>
+       </li>
+       <li>
+        <a href="/demo">
+         Features
+        </a>
+       </li>
+       <li>
+        <a href="/testimonials">
+         Testimonials
+        </a>
+       </li>
+       <li>
+        <a href="/casestudy">
+         Case studies
+        </a>
+       </li>
+       <li>
+        <a href="/resources/Library">
+         Library
+        </a>
+       </li>
+       <li class="hidden-sm hidden-xs">
+        <a href="/pressrelease">
+         News
+        </a>
+       </li>
+       <li class="submenu hidden-md">
+        <div class="submenu-ttl">
+         <span>
+          News &gt;
+         </span>
+        </div>
+        <ul>
+         <li>
+          <div class="submenu-row">
+           <a href="/pressrelease">
+            <span>
+             Press releases
+            </span>
+           </a>
+          </div>
+         </li>
+         <li>
+          <div class="submenu-row">
+           <a href="/recentpress">
+            <span>
+             Recent press
+            </span>
+           </a>
+          </div>
+         </li>
+        </ul>
+       </li>
+       <li>
+        <a class="under-submenu" href="http://blog.graduway.com/blog/">
+         Blog
+        </a>
+       </li>
+       <li>
+        <a href="/book">
+         Book
+        </a>
+       </li>
+       <li>
+        <a href="/resources/UpcomingEvents">
+         GLS
+        </a>
+       </li>
+       <li>
+        <a class="request-link" href="/requestdemo">
+         Live Demo
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div id="menuOverlay">
+    </div>
+   </div>
+   <div id="cookiePolicyBanner" class="header-cookie-policy-banner hidden-xs hidden-sm">
+    <img class="svg ico-info" src="/Content/images/ico-info.svg" />
+    <span>
+     This website uses cookies to improve our service. By using this site, you agree to this use. See our
+    </span>
+    &nbsp;
+    <a id="cookiePolicyBannerLink" href="/cookiepolicy">
+     Cookie Policy
+    </a>
+    <span id="cookiePolicyBannerClose" class="close">
+     x
+    </span>
+   </div>
+   <div class="join-us-line">
+    <a href="/resources/UpcomingEvents">
+    </a>
+    <p>
+     Join us for
+     <span>
+      Global Leaders
+      <br />
+      Summit 2017
+      <img src="/Content/images/arrow-right.png" alt="&gt;" />
+      " /&gt;
+     </span>
+    </p>
+   </div>
+   <div id="main">
+    <div class="visual">
+     <div class="video-wrapper">
+      <div class="glow-wrapper">
+       <div class="main-title hidden-md">
+        <h1>
+         Maximize engagement. Minimize effort.
+        </h1>
+       </div>
+       <div class="video-box">
+        <a href="#" class="btn-play-video">
+         play
+        </a>
+       </div>
+       <div class="glow-wrapper-h">
+        <h1 class="hidden-sm hidden-xs">
+         Maximize engagement. Minimize effort.
+        </h1>
+        <strong class="list-ttl">
+         Your Alumni Networking Platform
+        </strong>
+        <ul class="list02">
+         <li>
+          Ensure your CRM is always up to date
+         </li>
+         <li>
+          Maximize engagement and donations
+         </li>
+         <li>
+          Find lost alumni and members in minutes
+         </li>
+        </ul>
+       </div>
+       <a href="/requestdemo" class="btn-request">
+        Free Demo &amp; Book
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="section slider-section">
+     <div class="slider-white">
+      <div class="container">
+       <div class="row">
+        <div class="col-xs-12">
+         <!-- ** -->
+         <div class="slider-nav">
+          <div>
+           <img class="img-color" src="/Content/images/blackbaud.png" alt="" />
+           <img class="img-grey" src="/Content/images/blackbaud_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/tulane_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/tulane_gr.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/rotman.png" alt="" />
+           <img class="img-grey" src="/Content/images/rotman_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/purdue.png" alt="" />
+           <img class="img-grey" src="/Content/images/purdue_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/holderness-logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/holderness-logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/wisconsin_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/wisconsin_logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/sauder_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/sauder_logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/ucl_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/ucl_logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/mgs_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/mgs_logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/tias_Logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/tias_Logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/queensland_logo.png" alt="" />
+           <img class="img-grey" src="/Content/images/queensland_logo_bw.png" alt="" />
+          </div>
+          <div>
+           <img class="img-color" src="/Content/images/jhu_logo_t.png" alt="" />
+           <img class="img-grey" src="/Content/images/jhu_logo_t_gray.png" alt="" />
+          </div>
+         </div>
+         <!-- // -->
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="slider-purple">
+      <div class="container">
+       <div class="row">
+        <div class="col-xs-12">
+         <!-- ** -->
+         <div class="slider-for">
+          <div>
+           <!-- blackbaud -->
+           <blockquote>
+            <p>
+             This partnership will help our clients combine the strength of Graduway’s alumni engagement platform with their existing Blackbaud products.
+            </p>
+            <div class="cite">
+             <cite>
+              Chris Clinton, Blackbaud’s Vice President, global channels and partner ecosystem
+              <br />
+              <a href="/releases/blackbaud">
+               Graduway entered into an official technology partnership with Blackbaud in December 2013
+              </a>
+              <br />
+              <a href="/releases/partneroftheyear">
+               Graduway won Blackbaud's prestigious 'Partner of the Year' award in 2015
+              </a>
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- tulane -->
+           <blockquote>
+            <p>
+             Working with Graduway is awesome. Their customer service is outstanding. They are committed to innovation and treat us like partners. However best of all - it actually works. In the last month alone we have seen average engagement levels of 78x higher than with our prior solutions.
+            </p>
+            <div class="cite">
+             <cite>
+              James Stofan, Vice President for Alumni Relations
+              <br />
+              Tulane University, USA
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- rotman -->
+           <blockquote>
+            <p>
+             Graduway's alumni platform impressed us when we first saw it. They helped us develop, test and implement quickly and have continued to innovate and add useful features. The alumni response has been great and users love the vibrant, professional look and feel.
+            </p>
+            <div class="cite">
+             <cite>
+              Rod Lohin, Executive Director, Rotman Alumni Network
+              <br />
+              Rotman School of Management, University of Toronto, Canada
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- purdue -->
+           <blockquote>
+            <p>
+             We are delighted to be working with Graduway and providing our alumni with a cutting edge networking product that will improve our professional offering of jobs, careers and mentoring.
+            </p>
+            <div class="cite">
+             <cite>
+              Erika Murphy, Director of Alumni Relations
+              <br />
+              Krannert School of Management, USA
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- holderness -->
+           <blockquote>
+            <p>
+             We are very pleased to be partnering with Graduway to build a world class on-line network integral to fostering our on-line community and interactions between students and our global constituencies.
+            </p>
+            <div class="cite">
+             <cite>
+              Robert M. Caldwell, Assistant Head of School for Institutional Advancement
+              <br />
+              Holderness School, USA
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- wisconsin -->
+           <blockquote>
+            <p>
+             We are very pleased to be partnering with Graduway to build what will be a vibrant, engaged and valuable professional community for our alumni.
+            </p>
+            <div class="cite">
+             <cite>
+              Paula Bonner, President
+              <br />
+              Wisconsin Alumni Association, USA
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- sauder -->
+           <blockquote>
+            <p>
+             We were looking for a product that would take our alumni directory to the next level. Graduway provides a dynamic platform that will positively enhance our alumni experience
+            </p>
+            <div class="cite">
+             <cite>
+              Jessica Chan, Alumni Data Coordinator
+              <br />
+              The Sauder School of Business at the University of British Columbia, Canada
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- ucl -->
+           <blockquote>
+            <p>
+             We chose Graduway to enable our global alumni to connect and engage around features such as careers, mentoring and networking. This new platform will positively enhance our alumni and student experience and will integrate seamlessly with our Blackbaud CRM.
+            </p>
+            <div class="cite">
+             <cite>
+              Lori Houlihan, Executive Director of Development and Alumni Relations
+              <br />
+              UCL, UK
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- mgs -->
+           <blockquote>
+            <p>
+             Our new Graduway networking and mentoring platform will maximise alumni to alumni engagement and enable us to take our successful communications strategy to the next level whilst integrating with Raiser’s Edge.
+            </p>
+            <div class="cite">
+             <cite>
+              Simon Jones, Director of Development
+              <br />
+              Manchester Grammar School, UK
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- tias -->
+           <blockquote>
+            <p>
+             The new platform is very user-friendly, has great integrations with LinkedIn and is exactly what we are looking for to better engage with our alumni.
+            </p>
+            <div class="cite">
+             <cite>
+              Gretchen van der Spek, Director Alumni Relations and Head of Career Development
+              <br />
+              TIAS School for Business and Society, Netherlands
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- queensland -->
+           <blockquote>
+            <p>
+             We chose Graduway as a trusted solution used by other top global business schools to enable our alumni to connect and engage around features such as careers, mentoring and networking. This new platform will positively enhance our alumni and student experience.
+            </p>
+            <div class="cite">
+             <cite>
+              Libby Marshall, Associate MBA Director
+              <br />
+              UQ Business School, Australia
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+          <div>
+           <!-- jhu -->
+           <blockquote>
+            <p>
+             Within the first two months of our launch, we have surpassed 4,000 registered users.  Graduway offers a convenient and visually appealing platform; one where our alumni can connect with one another, students can seek mentorship, and both students and alumni can learn about events, job openings and university news.  The Graduway team has been responsive to our needs and has provided very customized service.  We look forward to growing our network and adopting many of the new features that Graduway is building.
+            </p>
+            <div class="cite">
+             <cite>
+              Jason Heiserman, Director of Regional, Student and Young Alumni Programs
+              <br />
+              Johns Hopkins University, USA
+             </cite>
+            </div>
+           </blockquote>
+          </div>
+         </div>
+         <!-- // -->
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="video-popup" class="popup">
+    <a class="btn-close" href="#">
+     close
+    </a>
+    <div id="video-holder">
+    </div>
+   </div>
+   <div id="popup01" class="popup summit-popup">
+    <a class="btn-close" href="#">
+     close
+    </a>
+    <div class="popup-holder">
+     <img class="summit-photo" src="/Content/images/img103.jpg" alt="image" width="465" height="241" />
+     <div class="summit-holder">
+      <div class="summit-text">
+       <span class="logo-img">
+        <img src="/Content/images/logo104.png" alt="image" width="418" height="42" />
+       </span>
+       <p>
+        Held at UCLA, Los Angeles, USA
+       </p>
+      </div>
+      <div class="date-row">
+       <em class="date">
+        5+6 April 2016
+       </em>
+       <a href="/gls2016" class="btn-see">
+        See details &gt;
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <script type="text/javascript">
+    function showVideo() {
+        var html = '&lt;iframe  width="640" height="480" src="https://www.youtube.com/embed/PsqWYKUmrbk?list=PLi-M8K6C5wZkpqCAUoVhp6gEPXly30G60" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;';
+        document.getElementById('video-holder').innerHTML = html;
+    }
+
+
+    $(document).ready(function () {
+        $(".btn-play-video").click(function () {
+            showVideo();
+            loadPopup("video-popup");
+            //setTimeout('playVideo()', 1000);
+            return false;
+        });
+       
+        $(".popup .btn-close, #BackgroundPopup").click(function () {
+            disablePopup();
+            document.getElementById('video-holder').innerHTML = "";
+            return false;
+        });
+    });
+   </script>
+  </div>
+  <div id="footer">
+   <div class="footer-frame hidden-sm hidden-xs">
+    <strong class="logo-small">
+     <a href="/">
+      Graduway
+     </a>
+    </strong>
+    <div class="contacts">
+     <a class="mail-lnk" href="mailto:info@graduway.com">
+      info@graduway.com
+     </a>
+     <dl class="footer-phones">
+      <dt>
+       US:
+      </dt>
+      <dd>
+       +1 978 522 4335
+      </dd>
+      <dt>
+       UK:
+      </dt>
+      <dd>
+       +44 207 989 0885
+      </dd>
+     </dl>
+    </div>
+    <p class="copy">
+     &copy; 2016 Graduway
+    </p>
+    <div class="soc-list-holder">
+     <a href="/Assets/Download/Graduway Brochure.pdf" class="btn-download01">
+      Download our brochure
+     </a>
+     <div class="soc-list">
+      <ul>
+       <li>
+        <a target="_blank" href="https://www.facebook.com/pages/Graduway/455334097848566?ref=hl" class="soc02">
+         facebook
+        </a>
+       </li>
+       <li>
+        <a target="_blank" href="http://www.twitter.com/graduway" class="soc03">
+         twitter
+        </a>
+       </li>
+       <li>
+        <a target="_blank" href="https://www.youtube.com/channel/UCd5_tEcGbwWwSbrerc4jBnQ" class="soc05">
+         youtube
+        </a>
+       </li>
+       <li>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript">
+         lang: en_US
+        </script>
+        <script type="IN/FollowCompany" data-id="2855056">
+        </script>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <div class="footer-frame-responsive hidden-md">
+    <a href="https://graduway.com/" class="footer-logo">
+     <img src="../content/images/tablet-mobile/footer/graduway-footer-logo.png" alt="" />
+    </a>
+    <a href="https://graduway.com/Assets/Download/Graduway%20Brochure.pdf" class="download-brochure rounded-corners">
+     Download our brochure
+    </a>
+    <div class="socials">
+     <a href="https://www.linkedin.com/company/2855056?trk=cws-btn-overview-0-0" target="_blank" class="soc-in">
+     </a>
+     <a href="https://www.facebook.com/pages/Graduway/455334097848566?ref=hl" target="_blank" class="soc-f">
+     </a>
+     <a href="http://www.twitter.com/graduway" target="_blank" class="soc-tw">
+     </a>
+     <a href="#" target="_blank" class="soc-gpl">
+     </a>
+     <a href="https://www.youtube.com/channel/UCd5_tEcGbwWwSbrerc4jBnQ" target="_blank" class="soc-yt">
+     </a>
+    </div>
+    <div class="border-line">
+    </div>
+    <div class="contact-us">
+     <div class="mail">
+      <img src="../content/images/tablet-mobile/footer/mail-icon.png" alt="" />
+      <a href="mailto:info@graduway.com">
+       info@graduway.com
+      </a>
+     </div>
+     <div class="phone">
+      <img src="../content/images/tablet-mobile/footer/phone-icon.png" alt="" />
+      <a href="tel:+19785224335">
+       US: +1 978 522 4335
+      </a>
+      <a href="tel:+4402079890885" class="last-child">
+       UK: +44 (0) 207 989 0885
+      </a>
+     </div>
+    </div>
+    <p class="copyright">
+     © 2016 Graduway
+    </p>
+   </div>
+  </div>
+  <div id="ajaxLoadingDiv" style="background: #0a000f; opacity: 0.7; filter: alpha(opacity=70); display: none; position: fixed; z-index: 1010;">
+   <div style="position: absolute;" id="foo">
+   </div>
+  </div>
+  <script type="text/javascript">
+   function sendContactForm() {
+        if ($('#HighlightFullName').val() != 'Full name' &amp;&amp; $('#HighlightEmail').val() != 'Email address') {
+            $.post("/resources/sendhighlightscontactform", { FullName: $('#HighlightFullName').val(), Email: $('#HighlightEmail').val()}, function (response) {
+            initImages();
+            disablePopup();
+        });}
+    }
+
+    function initImages(element) {
+        if (!element) {
+            element = $(".img-list li a");
+        }
+        element.fancybox({
+            wrapCSS: 'fancybox-custom',
+            helpers: {
+                title: {
+                    type: 'inside'
+                }
+            },
+            padding: [32, 5, 5, 5],
+            afterLoad: function () {
+                var btnDownload = $(this.element).next(".btn-extra-download").clone();
+                if (btnDownload.length) {
+                    this.skin.prepend(btnDownload);
+                };
+            }
+        });
+    }
+
+    var cookiePolicyBannerComponent = (function () {
+        var cookiePolicyBannerLink = $('#cookiePolicyBannerLink');
+        var cookiePolicyBannerClose = $('#cookiePolicyBannerClose');
+        var cookiePolicyBanner = $('#cookiePolicyBanner');
+        var keyCookiePolicy = 'shouldShowCookiePolicyBanner';
+
+        function init() {
+            cookiePolicyBannerLink.click(approveCookiePolicy);
+            cookiePolicyBannerClose.click(approveCookiePolicy);
+
+            checkApproval();
+        }
+
+        function checkApproval() {
+            if (shouldShowCookiePolicyBanner()) {
+                cookiePolicyBanner.show();
+
+                return;
+            }
+
+            cookiePolicyBanner.slideUp('slow');
+        }
+
+        function shouldShowCookiePolicyBanner() {
+            if (localStorage &amp;&amp; localStorage[keyCookiePolicy] === 'false') {
+                return false;
+            }
+
+            localStorage[keyCookiePolicy] = true;
+
+            return true;
+        }
+
+        function approveCookiePolicy() {
+            localStorage.setItem(keyCookiePolicy, false);
+            checkApproval();
+        }
+
+        return {
+            init: init,
+            checkApproval: checkApproval
+        };
+    })();
+
+    $(document).ready(function () {
+        if (window.location.href.indexOf('Error') &gt; -1) {
+            $("#mainBody div").removeClass('wrapper');
+        }
+
+        cookiePolicyBannerComponent.init();
+    });
+  </script>
+  <script>
+   (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41222496-2', 'graduway.com');
+        ga('send', 'pageview');
+  </script>
+  <!-- Google Code for Remarketing Tag -->
+  <!--------------------------------------------------
+    Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+    --------------------------------------------------->
+  <script type="text/javascript">
+   /* &lt;![CDATA[ */
+        var google_conversion_id = 953161566;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]&gt; */
+  </script>
+  <div style="position:absolute; left:-9999px; top:-9999px;">
+   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+   </script>
+  </div>
+  <noscript>
+   <div style="display: inline;">
+    <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/953161566/?value=0&amp;guid=ON&amp;script=0" />
+   </div>
+  </noscript>
+  <div id="BackgroundPopup">
+  </div>
+  <!-- live2support codes starts -->
+  <div id="l2s_trk" style="z-index:99;">
+  </div>
+  <script type="text/javascript">
+   var l2slhight = 400; var l2slwdth = 350; var l2slay_mnst = "#l2snlayer {}"; var l2slv = 3; var l2slay_hbgc = "#0097C2"; var l2slay_bcolor = "#0097C2"; var l2sdialogofftxt = "Live Chat Offline"; var l2sdialogontxt = "Live Chat Online"; var l2sminimize = true; var l2senblyr = true; var l2slay_pos = "R"; (function () { var l2s_pht = escape(location.protocol); if (l2s_pht.indexOf("http") == -1) l2s_pht = 'http:'; var l2scd = document.createElement('script'); l2scd.type = 'text/javascript'; l2scd.async = true; l2scd.src = unescape(l2s_pht) + '//s01.live2support.com/js/lsjs1.php?stid=26952&amp;jqry=Y&amp;l2stxt='; var l2sscr = document.getElementsByTagName('script')[0]; l2sscr.parentNode.insertBefore(l2scd, l2sscr); })();
+  </script>
+  <!-- live2support codes ends -->
+  <!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+   (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/2645269.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+  <!-- End of Async HubSpot Analytics Code -->
+ </body>
+</html>

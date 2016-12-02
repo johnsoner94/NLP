@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery-ui-1.8.10.custom.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/accordionImageMenu-0.4.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/swfobject.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.main.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- Google Analytics -->
+  <script type="text/javascript" src="/media/contentassets/js/GoogleAnalytics.js">
+  </script>
+  <style>
+   .content-box-athletics { background:#39637F; }
+.content-box-athletics ul { background:#CC092F; color:#F4EAC5; font-size:12px ;}
+.content-box-athletics { border:thin solid  #003050;text-align:center;z-index:100; width:190px; margin:0 0 20px -30px; overflow:hidden; }
+    .content-box-athletics a { color:#F4EAC5; font-size:12px ;padding:6px 10px 9px 9px; }
+    .content-box-athletics h3 { background:#7A0109; color:#F4EAC5; font-size:12px }
+  </style>
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Muhlenberg College A Message from the Chair
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up); 
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.panelgallery-1_2.js">
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <div class="header-holder">
+     <div id="header">
+      <!-- navigation object : Header - Related -->
+      <!-- Content Template Start: Header elements-->
+      <div class="header-add01">
+       <form action="http://search.muhlenberg.edu/NSearch/SearchServlet?" method="get" name="SearchForm" id="SearchForm">
+        <fieldset>
+         <div class="search-form">
+          <!--&lt;span class="search-txt"&gt;&lt;input type="text" value="Search"  /&gt;&lt;/span&gt;
+
+									&lt;input type="button" class="btn-search" value="Go"  /&gt;-->
+          <input name="collection" type="hidden" id="collection" value="www.Muhlenberg.edu" />
+          <span class="search-txt">
+           <input name="query0" type="text" size="0" id="query0" value="Search" onfocus="this.value=''" />
+          </span>
+          <input type="Submit" class="btn-search" value="Go" />
+          <span class="social-media">
+           &nbsp;
+           <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+            <img src="/media/styleassets/images/facebook.jpg" border="0" />
+           </a>
+           <a target="_child" href="http://twitter.com/muhlenberg">
+            <img src="/media/styleassets/images/twitter.jpg" border="0" />
+           </a>
+          </span>
+         </div>
+        </fieldset>
+       </form>
+       <ul>
+        <li>
+         <a href="/tactical/contact.htm">
+          Contact
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/tour/map.html">
+          Campus Map
+         </a>
+        </li>
+        <li>
+         <a href="/tactical/azfind.htm">
+          A-Z Index
+         </a>
+        </li>
+        <li>
+         <a href="/cgi-bin/namesearch/namesearch.pl">
+          Directory
+         </a>
+        </li>
+        <li>
+         <a href="http://trexler.muhlenberg.edu">
+          Library
+         </a>
+        </li>
+       </ul>
+      </div>
+      <h1>
+       <a href="/index.html">
+        <span>
+         Muhlenberg college
+        </span>
+       </a>
+      </h1>
+      <div class="header-add02">
+       <ul>
+        <li>
+         <a href="/main/admissions/">
+          Prospective Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/current-students/">
+          Current Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/faculty-staff">
+          Faculty &amp; Staff
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/parents">
+          Parents
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/alumni">
+          Alumni
+         </a>
+        </li>
+       </ul>
+       <span>
+        Information for:
+       </span>
+      </div>
+      <!-- Content Template End: Header elements-->
+     </div>
+    </div>
+    <div class="nav-holder">
+     <a name="navigation" style="display:none">
+     </a>
+     <div class="nav">
+      <!-- navigation object : Main Menu -->
+      <ul>
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <ul>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <!--&lt;a href="../index.html"&gt;index.html&lt;/a&gt;-->
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/presidentialsearch/search.jpg" alt="The Search for Muhlenberg College's Next President" style="width : 780px; height : 276px;     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Social Media Share -->
+          <div class="content-add05">
+           <!-- navigation object : Breadcrumbs -->
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/presidentialsearch/">
+               Presidential Search
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/presidentialsearch/searchupdates/">
+               Search Updates
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/presidentialsearch/searchupdates/amessagefromthechair/">
+               A Message from the Chair
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+           <!-- Content Template Start: General Content-->
+           <h1>
+            A Message from the Chair of the Presidential Search Committee
+           </h1>
+           <p>
+            April 24, 2014
+           </p>
+           <p>
+            Dear members of the Muhlenberg College community:
+           </p>
+           <p>
+            The search for the next President of Muhlenberg College has begun. Over the past several weeks, seeking input from every constituency, Rich Crist, the Chair of the Board of Trustees, has appointed a search committee whose membership includes trustee, faculty, staff, student and alumni representatives. We are committed to an inclusive process and welcome additional input from everyone; we invite you to offer your thoughts and ideas through a voluntary survey which you can find here:&nbsp;
+            <a href="https://www.surveymonkey.com/s/MuhlenbergSurvey" target="_blank">
+             https://www.surveymonkey.com/s/MuhlenbergSurvey
+            </a>
+            .
+           </p>
+           <p>
+            We are also pleased to announce that Park Square Executive Search will partner with the search committee to help identify candidates and to lead us through the search process. The search committee selected Park Square this past week and looks forward to working with two key members of the firm: Jonathan Fortescue, Ph.D., Managing Partner in the firm&rsquo;s higher education practice, and Richard &ldquo;Dick&rdquo; Celeste, former President of Colorado College and a lifelong public servant. Jonathan and Dick will be joining us this week on campus as we kick off the search and then working with us throughout the summer and fall as we recruit candidates who will enhance our already strong reputation for providing a transformative liberal arts education.&nbsp;
+           </p>
+           <p>
+            On behalf of all members of the search committee, let me say that we are extremely proud to serve all of you and to represent Muhlenberg College in this important search. We look forward to finding an excellent successor to Randy Helm.
+           </p>
+           <p>
+            Sincerely,
+            <br />
+            Eric Berg '78
+           </p>
+           <!-- Content Template End-->
+          </div>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- navigation object : General - Right box -->
+         <!-- navigation object : Left Side Links 1 -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Left Side Links 1 -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         About the Search
+        </h3>
+        <ul>
+         <li>
+          <a href="/presidentialsearch/">
+           Home
+          </a>
+         </li>
+         <li>
+          <a href="/presidentialsearch/searchupdates/">
+           Search Updates
+          </a>
+         </li>
+         <!--&lt;li&gt;&lt;a href="SiteManager?ctfn=hierarchy&amp;amp;amp;fnno=10&amp;amp;amp;sid=2159&amp;amp;amp;lang=en&amp;amp;amp;sslinkid=9" title="Home%20%BB%20Muhlenberg%20College%20%BB%20Presidential%20Search%20%BB%20Message%20from%20Chairman%20Crist | Links to: Home &amp;amp;raquo; Muhlenberg College &amp;amp;raquo; Presidential Search &amp;amp;raquo; Search Updates &amp;amp;raquo; Message from Chairman Crist"&gt;Message from Chairman Crist&lt;/a&gt;&lt;/li&gt;-->
+         <li>
+          <a href="/presidentialsearch/searchcommittee/">
+           Search Committee Members
+          </a>
+         </li>
+         <li>
+          <a href="/presidentialsearch/searchfirmrepresentatives/">
+           Search Firm Representatives
+          </a>
+         </li>
+         <li>
+          <a href="mailto:boardchair@muhlenberg.edu">
+           Contact the Search Committee
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/">
+           About Muhlenberg&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!--&lt;!-- navigation object : Link Boxes Related -->
+      </div>
+      <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+     </div>
+    </div>
+   </div>
+   <div class="footer-holder">
+    <!-- navigation object : Footer Boxes Related -->
+    <!-- Content Template Start: Footer Boxes-->
+    <div id="footer">
+     <div class="footer-add01">
+      <ul class="footer-menu01">
+       <li>
+        <a href="/main/admissions/">
+         Prospective Students
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/current-students/">
+         Current Students
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; Faculty &amp; Staff" href="/gateways/faculty-staff/">
+         Faculty &amp; Staff
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/parents/">
+         Parents
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com" target="_blank">
+         Alumni
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu02">
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu03">
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; News &amp; Events" href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow" target="_blank">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <li>
+        <a href="http://bbmobile.muhlenberg.edu/" target="_blank">
+         Mobile App
+        </a>
+       </li>
+       <li>
+        <a href="/main/aboutus/oit/about/policies_procedures/privacy.html">
+         Web Privacy Policy
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-add02">
+      <address>
+       <strong>
+        Muhlenberg College
+       </strong>
+       <span>
+        2400 Chew St. Allentown, PA 18104-5586
+       </span>
+       <span>
+        484-664-3100
+       </span>
+       <span>
+        484-664-3623 (TTY)
+       </span>
+       <br />
+       <span>
+        &copy;Muhlenberg College 2013&nbsp;
+       </span>
+      </address>
+      <ul>
+      </ul>
+     </div>
+    </div>
+    <!-- Content Template End-->
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+  </div>
+ </body>
+</html>
+<!-- InstanceEnd -->

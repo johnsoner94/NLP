@@ -1,0 +1,760 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Local Jewish Resources - Hillel | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Hillel, Jewish, Living, Kosher, Bagel Brunch" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Hillel
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- Content Template Start: General Slideshow -->
+       <div class="content-add09">
+        <ul class="imagecol" id="imgcol">
+         <li>
+          <img src="/media/contentassets/images/campuslife/hillel/slideshow1.jpg" alt="" style="     " />
+         </li>
+        </ul>
+        <script type="text/javascript">
+         var maxImages=10;
+      var img="";
+      var j=0;
+      var ptr=0;
+      var img2='&lt;img src="/media/contentassets/images/campuslife/hillel/slideshow2.jpg" alt="" style="     "  /&gt;';
+      var img3='&lt;img src="/media/contentassets/images/campuslife/hillel/slideshow3.jpg" alt="" style="     "  /&gt;';
+      var img4='&lt;img src="/media/contentassets/images/campuslife/hillel/slideshow4.jpg" alt="" style="     "  /&gt;';
+      var img5='&lt;img src="/media/contentassets/images/campuslife/hillel/slideshow5.jpg" alt="" style="     "  /&gt;';
+      var img6='';
+      var img7='';
+      var img8='';
+      var img9='';
+      var img10='';      
+      
+      for (j=1; j&lt;maxImages; j++) {
+                             
+        ptr=j+1;
+      
+       if (eval("img" + ptr) ) {
+        img = '&lt;li&gt;' + eval("img" + ptr) + '&lt;/li&gt;';
+        document.getElementById('imgcol').innerHTML +=img;                  
+       }
+                                 
+      }
+        </script>
+        <div class="intro-add01">
+         <div class="intro-add02-slideshow">
+          <a name="content">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Content Template End: Image Panel-->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/">
+               Student Life
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/hillel/">
+               Hillel
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/hillel/localjewishresources/">
+               Local Jewish Resources
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <p>
+           <strong>
+            Local Jewish Resources
+           </strong>
+          </p>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <p>
+           Muhlenberg College is located in the heart of the Jewish community of Allentown. All local Jewish resources are in the neighborhood of the college and all extend a warm welcome to Muhlenberg students. There are many opportunities for students to participate in services at area synagogues, intern at local institutions, teach at area Hebrew schools or just be adopted as a surrogate son or daughter by a local family. Below are some of our local resources:
+          </p>
+          <p>
+           <strong>
+            Synagogues
+            <br />
+           </strong>
+           <em>
+            All synagogues welcome students to all of their services and activities. Admission for the High Holidays is also free with tickets distributed by Hillel. Students are invited to contact synagogues directly for information on teaching and volunteer opportunities.
+           </em>
+          </p>
+          <blockquote>
+           <blockquote>
+            <blockquote>
+             <blockquote>
+              <blockquote>
+               <blockquote>
+                <blockquote>
+                 <blockquote>
+                  <blockquote>
+                   <blockquote>
+                    <blockquote>
+                     <blockquote>
+                      <blockquote>
+                       <p>
+                        <em>
+                         Conservative:
+                        </em>
+                        <br />
+                        Temple Beth El
+                        <br />
+                        1305 Springhouse Road - 610-435-3521
+                        <br />
+                        <a href="http://www.bethelallentown.org">
+                         www.bethelallentown.org
+                        </a>
+                       </p>
+                       <p>
+                        <em>
+                         Orthodox:
+                         <br />
+                        </em>
+                        Congregation Sons of Israel
+                        <br />
+                        2715 Tilghman Street - 610-433-6089
+                        <br />
+                        <a href="http://www.sonsofisrael.net">
+                         www.sonsofisrael.net
+                        </a>
+                       </p>
+                       <p>
+                        <em>
+                         Reform:
+                         <br />
+                        </em>
+                        Congregation Keneseth Israel
+                        <br />
+                        2227 Chew Street - 610-435-9074
+                        <br />
+                        <a href="http://www.kiallentown.org">
+                         www.kiallentown.org
+                        </a>
+                       </p>
+                       <p>
+                        Reconstructionist:
+                        <br />
+                        Congregation Am Haskalah
+                        <br />
+                        meeting at 1190 West Macada Road Bethlehem, PA 18017 610-435-3775
+                        <br />
+                        <a href="http://www.amhaskalah.org" target="_blank">
+                         www.amhaskalah.org
+                        </a>
+                       </p>
+                      </blockquote>
+                     </blockquote>
+                    </blockquote>
+                   </blockquote>
+                  </blockquote>
+                 </blockquote>
+                </blockquote>
+               </blockquote>
+              </blockquote>
+             </blockquote>
+            </blockquote>
+           </blockquote>
+          </blockquote>
+          <p>
+           <strong>
+            Jewish Community Center
+           </strong>
+           <br />
+           702 North 22nd Street - 610-435-3571
+           <br />
+           <a href="http://www.allentownjcc.org:">
+            www.allentownjcc.org
+           </a>
+           <br />
+           The JCC is located at 22nd &amp; Tilghman Streets and offers students a reduced membership for full use of the facility which includes a swimming pool, gym programs, handball and racquetball courts and a fitness center.
+          </p>
+          <p>
+           <strong>
+            Jewish Federation of the Lehigh Valley
+           </strong>
+           <br />
+           located in JCC - 610-821-5500
+           <br />
+           <a href="http://www.jewishlehighvalley.org/">
+            http://www.jewishlehighvalley.org
+           </a>
+           <br />
+           The JFLV is our local federation. The JFLV's primary responsibility is the raising and allocating of funds for Jewish organizations (such as Hillel) here in Allentown and surrounding communities, in Israel, and throughout the world. Locally, the JFLV coordinates many community-wide efforts dealing with the interests and needs of the entire community. The JFLV publishes HaKol, the Lehigh Valley's Jewish newspaper. HaKol offers students internship opportunities as writers and photographers.
+          </p>
+          <p>
+           <strong>
+            Jewish Family Service
+           </strong>
+           <br />
+           2004 Allen St. - 610-821- 8722
+           <br />
+           <a href="http://www.jewishfamilyservice-lv.org/">
+            http://www.jewishfamilyservice-lv.org
+           </a>
+           <br />
+           JFS provides professional counseling services and offers students the opportunity to volunteer or intern in a variety of social service settings. Hillel has an ongoing partnership for community service work with JFS.
+          </p>
+          <p>
+           <strong>
+            Jewish Day School
+           </strong>
+           <br />
+           2313 Pennsylvania St. - 610-437-0721
+           <br />
+           <a href="http://www.jdslv.org/">
+            http://www.jdslv.org
+           </a>
+           <br />
+           The Jewish Day School, the local synagogues and the JCC have fully accredited courses of study from Nursery School through High School. From time to time, these organizations need Muhlenberg students as volunteers, tutors, teachers, coaches and counselors for certain activities.
+          </p>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Hillel
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/hillel/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/hillel/faqs/">
+            FAQs
+           </a>
+          </li>
+          <li>
+           <a href="/hillel/staff/">
+            Staff
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/hillel/localjewishresources/">
+             Local Jewish Resources
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/hillel/givingopportunities/">
+            Giving Opportunities
+           </a>
+          </li>
+          <li>
+           <a href="/hillel/israel/">
+            Israel
+           </a>
+          </li>
+          <li>
+           <a href="/media/contentassets/pdf/campuslife/hillel/Hillel%20Annual%20Report.online.pdf">
+            Hillel Annual Report
+           </a>
+          </li>
+          <li>
+           <a href="/hillel/contacthillel/">
+            Contact Hillel
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/hillel/faqs/"&gt;FAQs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hillel/staff/"&gt;Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/hillel/localjewishresources/"&gt;Local Jewish Resources&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hillel/givingopportunities/"&gt;Giving Opportunities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hillel/israel/"&gt;Israel&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/media/contentassets/pdf/campuslife/hillel/Hillel%20Annual%20Report.online.pdf"&gt;Hillel Annual Report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hillel/contacthillel/"&gt;Contact Hillel&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Community
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/activitiescouncilmac/">
+           Muhlenberg Activities Council (MAC)
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/resserv/">
+           Residential Life
+          </a>
+         </li>
+         <li>
+          Senior Year Experience (SYE)
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Sustainable Living
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Leadership
+        </h3>
+        <ul>
+         <li>
+          <a href="/studorgs/council/">
+           Student Government
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/studentorganizations/">
+           Student Organizations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Diversity
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/multicultural/">
+           Multicultural Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/lgbt/">
+           LGBT
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

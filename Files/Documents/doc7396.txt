@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID - Browse Presentations
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <form action="/presentation/browse/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd" method="POST">
+   <div style="display:none">
+    <input type="hidden" name="csrfmiddlewaretoken" value="f195b0b1f984ecb8a140a94560016e63" />
+   </div>
+   <div id="content-wrapper">
+    <div id="content">
+     <div id="basket-content">
+      <div id="basket-scroll-right">
+      </div>
+      <div id="basket-scroll-left">
+      </div>
+      <div id="basket-thumbs">
+       <br />
+       Your basket is empty.
+      </div>
+     </div>
+     <div style="height: 15px;">
+     </div>
+     <h1>
+      Browse Presentations
+     </h1>
+     <ul class="actionbar">
+      <li>
+       <span class="dropdown-anchor">
+        Tags
+        <img src="/static/images/down_arrow.png" />
+       </span>
+       <div class="dropdown tags-dropdown">
+        <input type="hidden" name="all_tags" value="" />
+        <div style="max-height: 200px; overflow: auto;">
+        </div>
+        <br />
+        Assign new tags:
+        <br />
+        <input type="text" name="new_tags" />
+        <br />
+        <br />
+        <input type="submit" name="update_tags" value="Update" style="float: right;" />
+       </div>
+      </li>
+      <li class="pagination">
+       &nbsp;
+      </li>
+     </ul>
+     <br style="clear: left;" />
+     <div id="sidebar">
+      <div class="facet active-facet" id="presentations_sidebar_keywords">
+       <div class="facet-header">
+        Keywords
+       </div>
+       <div class="facet-body">
+        <input type="hidden" name="okw" value="" />
+        <input type="text" id="keywords" name="kw" value="" />
+        <input type="image" class="image" src="/static/images/med_go_button.png" value="Go" name="keywords_go" />
+       </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+       <a href="/presentation/browse/?kw=">
+        Reset Search
+       </a>
+      </div>
+     </div>
+     <table summary="List of Presentations" class="itemactions wide-table" cellspacing="0">
+      <!-- need cellspacing for IE7 -->
+      <tr>
+       <th>
+       </th>
+       <th>
+        Title
+       </th>
+       <th>
+        Presenter
+       </th>
+       <th>
+        Tags
+       </th>
+       <th>
+        Items
+       </th>
+       <th>
+       </th>
+      </tr>
+      <tr>
+       <td>
+        <input type="checkbox" name="h" value="73" />
+       </td>
+       <td>
+        Sky Images Slideshow
+       </td>
+       <td>
+        Mahar, Bob
+       </td>
+       <td>
+        &nbsp;
+       </td>
+       <td>
+        6
+       </td>
+       <td class="item-actions">
+        <a href="/viewers/view/73/sky-images-slideshow/?next=/presentation/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd" target="_blank" class="item-action-important">
+         View
+        </a>
+        <a href="/viewers/flashcards/73/sky-images-slideshow/?next=/presentation/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd" target="_blank">
+         Flash Cards
+        </a>
+        <a href="/viewers/printview/73/sky-images-slideshow/?next=/presentation/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd" target="_blank">
+         Print View
+        </a>
+        <a href="/viewers/powerpoint/73/sky-images-slideshow/?next=/presentation/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd" target="_blank">
+         PowerPoint
+        </a>
+       </td>
+      </tr>
+     </table>
+     <div id="footer">
+      Copyright 1997-2011 James Madison University
+     </div>
+    </div>
+   </div>
+  </form>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/presentation/browse/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/presentation/browse/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+    $("#delete").click(function() {
+      return confirm("Are you sure you want to delete the selected presentations?");
+    })
+  });
+  </script>
+ </body>
+</html>

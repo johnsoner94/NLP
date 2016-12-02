@@ -1,0 +1,975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Courses - History | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        History
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/history/Untitled-2.jpg" alt="main header image Ettinger" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/history/">
+               History
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/history/courses/">
+               Courses
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3 style="text-align: center;">
+            <strong>
+             Courses in History are numbered as follows:
+             <br />
+             <br />
+            </strong>
+           </h3>
+           <ul>
+            <li>
+             <strong>
+              100-149:
+             </strong>
+             &nbsp;&nbsp; Designed to acquaint beginning students with the academic study of history.
+             <strong>
+              <br />
+             </strong>
+            </li>
+            <li>
+             <strong>
+              200-299:
+             </strong>
+             &nbsp;&nbsp; Concentrate on broad chronological studies of countries or regions.&nbsp; Generally intended for students with one prior college-level history course.
+            </li>
+            <li>
+             <strong>
+              300-399:
+             </strong>
+             &nbsp;&nbsp; Examine&nbsp; topics&nbsp; or&nbsp; themes&nbsp; in&nbsp; history.&nbsp;&nbsp; Generally&nbsp; designed&nbsp; for students with one or more prior college-level history courses.
+            </li>
+            <li>
+             <strong>
+              400-449:
+             </strong>
+             &nbsp; Reading Seminar in History
+             <strong>
+              and
+             </strong>
+             <br />
+             <strong>
+              450-499:
+             </strong>
+             &nbsp; Research Seminar in History are designed as capstone experiences for majors and minors.
+             <br />
+             <br />
+            </li>
+           </ul>
+           <h4 style="text-align: center;">
+            <a href="http://catalog.muhlenberg.edu/preview_entity.php?catoid=2&amp;ent_oid=82&amp;returnto=47" target="_blank">
+             Click here to view a listing of our Courses
+            </a>
+           </h4>
+           <p>
+            <em>
+             <strong>
+              <span class="style1">
+               <br />
+               History 100 Courses
+              </span>
+             </strong>
+            </em>
+           </p>
+           <p>
+            These thematic courses are designed to introduce students (both majors and non) to the discipline of history and foster an appreciation of the diversity of the historical past. Each course will familiarize students with the appropriate primary and secondary sources in the field and teach them some of the basic analytical and writing skills historians use to interpret the past.
+           </p>
+           <p>
+            <em>
+             *majors/minors can apply only one (1) HST-100 course towards completion of program.
+            </em>
+            &nbsp;
+           </p>
+           <p>
+            <strong style="text-align: justify;">
+             HST-101 - Introduction to History: "Democracy in America
+            </strong>
+            <br />
+            When the French aristocrat, Alexis deTocqueville, visited the United States in the 1830s he was struck most by the degree of democracy he observed in the American nation.&nbsp; For most modern-day Americans, however, democracy is something we too often take for granted. &nbsp;This course, which broadly surveys American history from colonial times to the present, will explore the establishment and growth of democracy in America, as well as the significant threats it sometimes faced.&nbsp; Topics, which will variously focus on political economic, and social forms of democracy, include:&nbsp; colonial demography, forms of government, slavery, and the movement for women's equality
+            <br />
+            <br />
+            <strong>
+             HST-103 &ndash; Introduction to History:&nbsp; &ldquo;Cultural Encounters &amp; American Identity&rdquo;&nbsp;
+             <br />
+            </strong>
+            America has long prided itself on being a cultural "melting pot." Since the time of Europe's first contact with the Americas in 1492, America has served as a meeting place for many different peoples, races, and/or ethnic groups. This course will take a comparative perspective to the process of cultural encounter, and by using a variety of source materials, including first-person accounts, autobiographies, travel narratives, films, and scholarly secondary works, will get students thinking and writing in broad, historical terms about how American identity has been shaped through time by the cultural contacts first Europeans, then Americans, had with various Indian, African, and Asian peoples. Specifically, we will discuss Spanish, French, and English encounters with the Indians in the 1500s and 1600s, American encounters with African-Americans in the 1800s and 1900s, and American encounters with the Vietnamese during the Vietnam War.
+           </p>
+           <p>
+            <strong>
+             HST-104 &ndash; Introduction to History: &ldquo;Radicalism in American History&rdquo;
+             <br />
+            </strong>
+            This course will examine radicalism in U.S. history from the American Revolution of the 1770s to the radical protests of the 1990s. The movements to be examined will be selected from among the following: revolutionary, republicanism, abolitionism, women's right, the labor movement, environmentalism, anarchism, socialism, communism, civil rights and black power, feminism, the New Left, and the emerging radical movements of today.
+           </p>
+           <p>
+            <strong>
+             HST-105 &ndash; Introduction to History: &ldquo;Themes in Modern European History&rdquo;
+             <br />
+            </strong>
+            This course offers a one-semester introduction to the History of Europe and the development of European Civilization from the late Middle Ages to the present. It will focus on issues and problems in European history and try to explore major trends in the development of European thought and society and the growth of the modern state. After a two-week introductory section examining some ideas of "history" as a discipline of study, the course will spend roughly two weeks on each century from the fifteenth to the twentieth. In the process, we will focus on the Hundred Years War, the Bubonic Plagues and Great Schism of the late Middle Ages, and the concurrent rise of "national monarchies"; the Renaissance and Humanism; Luther, Calvin, and the Protestant Reformation; the growth of the modern state and the Scientific Revolution of the seventeenth century; the Enlightenment and political and social revolutions of the eighteenth century; the industrialization of Europe and development of nationalistic and revolutionary ideologies in the nineteenth century; and the world wars of the twentieth century.
+           </p>
+           <p>
+            <strong>
+             HST-106 Introduction to History:&nbsp; "The American Dream"
+             <br />
+            </strong>
+            This course explores the concept of the American Dream.&nbsp; Students will read a combination of speeches, literature, and scholarly works that illuminate the belief in and pursuit of the American Dream.&nbsp; Selections will range from the seventeenth century through the twentieth century to show interpretations over time.&nbsp; Readings will pay attention to those who have been denied access to the American Dream and those who have become disenchanted with its promise, as well as those who achieved the American Dream.&nbsp; Issues of race, class, and gender will be highlighted
+           </p>
+           <p>
+            <strong>
+             HST-108 &ndash; Introduction to History:&nbsp; &ldquo;World War I and the 20th Century&rdquo;
+             <br />
+            </strong>
+            As the Twentieth Century draws to a close, the century as a whole seems to have certain themes: social revolution, emergence of national states, the development of mass wealth and political participation, the appearance and then, seemingly, the passing of global conflict. Why did these develop in the Twentieth Century? Can they be traced to a common source? This course will look at the origin of these developments by examining the impact of the First World War (1914-1918) on individuals, and on the social and political order.
+           </p>
+           <p>
+            <strong>
+             HST-110 Introduction to History:&nbsp; "Heroes and Outcasts in the Ancient World
+             <br />
+            </strong>
+            Who was lionized, and who reviled, by the ancient Greeks and Romans, and why?&nbsp; What did heroes and outcasts have in common and how did they differ?&nbsp; What qualities were admirable or dangerous, and under what circumstances?&nbsp; What can this tell us about these two societies and their cultures?&nbsp; This seminar will try to shed light on the classical world by studying these basic questions through literature (in translation) composed by various Greek and Latin poets, dramatists, politicians, and historians-especially Homer, Aeschylus, Aristotle, Plutarch, Vergil, Cicero, and Tactitus.&nbsp; We will combine an emphasis upon social and cultural history and political philosophy with the close reading of texts and the study of the ancient conventions of genre and modes of public performance.
+           </p>
+           <p>
+            <strong>
+             HST-112 Introduction to History: "Movie-Made America"
+             <br />
+            </strong>
+            Since their invention in the late 19th Century movies have both reflected and helped to shape our understanding of the American nation.&nbsp; Through selected readings in secondary and primary historical sources, and through careful analysis of feature films, this course seeks to explore both how our understanding of American history has been reflected in these forms of popular entertainment, and how the films have helped shape our view of the nation.
+           </p>
+           <p>
+            <strong>
+             HST-115 Introduction to History:&nbsp; "Disorderly American Cities"
+             <br />
+            </strong>
+            Congestion, frustration and violence currently plague American cities.&nbsp; Are these problems endemic to urban living?&nbsp; What are the sources of disruption?&nbsp; Is disorder necessary and sometimes desirable?&nbsp; What larger social, economic, political and international issues have contributed to urban tensions?&nbsp; This course explores the history of U.S. urban disorder in several key periods including:&nbsp; the riotous cities of Jacksonian America; late nineteenth century riot and strike torn industrial cities; American cities during the Great Depression; disrupted cities of war protest and racial violence during the 1960s; and finally, a brief look at current urban issues.
+           </p>
+           <p>
+            <strong>
+             HST-117 &ndash; Introduction to History: &ldquo;Mediterranean Encounters&rdquo;
+             <br />
+            </strong>
+            The Mediterranean Sea has long been the arena for interactions between the peoples and cultures of Europe, Africa, and the Middle East. This course will explore the changing diplomatic, military, economic, and cultural relationships in the Mediterranean during the Early Modern period. Particular focus will be on the encounters between the Ottoman Empire and its European counterparts. Readings will emphasize the experiences of both European and Ottoman travelers, merchants, captives, soldiers, and diplomats.
+           </p>
+           <p>
+            <strong>
+             HST-119
+            </strong>
+            <strong>
+             Introduction to History
+            </strong>
+            :
+            <strong>
+             &ldquo;Frontiers in History:&rdquo;
+             <br />
+            </strong>
+            This course uses the frontier as an excellent perspective from which to study history -- an approach that is particularly useful when placed in a comparative context. The course will first examine the theoretical and historiographic study of frontiers, including Frederick Jackson Turner's "Frontier Thesis" of American history and its critics, attempts to apply Turner's ideas to other parts of the world, Owen Lattimore's work on Inner Asial, and recent anthropological studies of frontiers and colonial expansion.&nbsp; This will be followed by an analysis of specific problems and cases from a variety of cultures and historic periods, including frontiers in ancient Rome; frontier conflicts in medieval Spain and England; the interactions between the Ottoman and Habsburg Empires in the early modern period; European expansion in North America and Southern Africa; ethnicity and identity among frontier populations; and depictions of frontiers in literature and film.
+           </p>
+           <p>
+            <strong>
+             HST-121 Introduction to History &ldquo;The City in American History&rdquo;
+             <br />
+            </strong>
+            While the frontier has long been considered characteristic of American culture, cities have, in fact been the site where American culture has taken shape.&nbsp; In spite of a continuing hostility to urban life, American writers, painters, musicians, and dramatists have migrated to the cities where they found a vibrant and sustaining cultural life.&nbsp; This course will look at several cities at particular time periods, such as Jefferson&rsquo;s Philadelphia (l790s), Whitman;s New York (1850s), and Langston Hughes&rsquo;s Harlem (1920s), to explore the close connections between urbanism and American culture.&nbsp; This course will focus on the interaction of politics, economics, culture, and society.
+           </p>
+           <p>
+            <strong>
+             HST-125&nbsp; Introduction to History:&nbsp; &ldquo;Coming of Age in America&rdquo;
+             <br />
+            </strong>
+            This course will focus on the ways in which young men and women came of age in America from Jamestown in the early 17th century to the early twenty-first century.&nbsp; This topic will serve as a lens to examine some broad trends in American social and cultural history.&nbsp; It will explore the experiences of young adults as they were educated, found jobs, left home, married and began to raise families.&nbsp; The course will also examine the ways in which factors such as culture, religion, geography, economic and social class, race, and gender affected the process of becoming an adult from the early 17th century to the late 20th century.
+           </p>
+           <p>
+            <strong>
+             HST-126&nbsp; Introduction to History: &ldquo;Coming to America&rdquo;
+             <br />
+            </strong>
+            Since its &ldquo;discovery,&rdquo; America has been the destination for a staggering number of immigrants.&nbsp; Many of these immigrants, especially those of European origin, came to America largely by choice.&nbsp; Leaving the Old World behind, they came here in pursuit of freedom&mdash;be it defined in religious, political, or economic terms.&nbsp; By contrast, others, such as Africans, came here involuntarily.&nbsp; In this course, we&rsquo;ll look at the narratives written by various male and female immigrants of differing races and ethnicities from the 1700s to the present day.&nbsp; We&rsquo;ll use these narratives, along with the works of historians, to talk about why and how various peoples came to America and what they hoped to find or achieve here. We&rsquo;ll also talk about how such factors as race, ethnicity, gender, and class shaped their experiences once they got here.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>
+             <br />
+            </strong>
+           </p>
+           <p>
+            <strong>
+             HST-128 Introduction to History: &ldquo;Technology in Modern America&rdquo;
+            </strong>
+            <br />
+            This course explores the role technology has played in American life from 1865 to the present.&nbsp; We will examine the impact of technology on society, culture, politics, and the military.&nbsp; Among the themes we will explore are the advent of radio, television, and computers; technology and the work place; government and technology; the space race; the Cold War; and the environmental movement.
+           </p>
+           <p>
+            <strong>
+             HST-130 Introduction to History: &ldquo;America&rsquo;s Consumer Nation&rdquo;
+             <br />
+            </strong>
+            Modern America is a nation of consumers.&nbsp; Not only do we purchase products to use, but we also define our political, social, and personal identity through the consumption of goods and services.&nbsp; This course explores the evolution of America&rsquo;s consumer ethos from the early ideal of thrift and ad industry to the current &ldquo;I need to buy it now&rdquo; mentality.&nbsp; U.S. consumer history has been shaped by wars, the frontier experience, depressions, the growth of downtowns and shopping malls, industrialization and deindustrialization, the evolution of advertising and credit, the global economy, as well as by gender, race and class.&nbsp; In this course, we will analyze the history of America through the eyes of our buying habits.
+           </p>
+           <p>
+            <strong>
+             HST-131 Introduction to History: &ldquo;World War and Memory&rdquo;
+             <br />
+            </strong>
+            The course examines the memory and commemoration of World War I and World War II, with an emphasis on European memories. Students will study the political, social, and cultural construction of both personal and national memories during and after the wars. We will read about and discuss the fierce debates regarding major political decisions, personal initiatives, the experience of war, and issues of personal and national guilt and responsibility for war crimes in order to understand the practice of history.
+           </p>
+           <p>
+            <strong>
+             HST-135 Introduction to History: &ldquo;Latin American History through Women&rsquo;s Eyes&rdquo;
+             <br />
+            </strong>
+            This course will examine women's ways of telling history through a comparative study of memoirs and fiction, and political and economic histories of Latin America written by and about women.&nbsp; This approach will take into account religious, racial, class, and ethnic differences, and reflect on the hybridization of cultures born out of native, European, and African cultures. The course will begin with an examination of broader issues of women's history such as alternative subjects, sources, and periodizations.
+           </p>
+           <p>
+            <strong>
+             HST-136 Introduction to History:&nbsp; &ldquo;The Nazi in the Popular Imagination&rdquo;
+             <br />
+            </strong>
+            The course examines the representation of the Nazi in popular novels and films and assesses these images in light of past and recent historical scholarship. We will begin by establishing a good understanding of the origins and development of Nazism in Germany from the 1920s to 1945.&nbsp; Students will spend most the course analyzing how different countries and different eras refashioned the Nazi as people&rsquo;s hero, inhuman monster, sympathetic dupe, comedic object, ambitious common man, criminal clown, and cruel perpetrator of crimes against humanity.&nbsp; This examination will expose students to cultural roots of the changing interpretation of Nazism since its inception.
+            <br />
+            <br />
+            <strong>
+             HST-138 &ndash; Introduction to History: &ldquo;Becoming American:&nbsp; Immigration/Ethnicity&rdquo;
+            </strong>
+            <br />
+            The course will explore the myths and realities of immigration and ethnicity in American history and life. In order to do so, we will examine successive waves of immigration from Europe, Africa, Asia and Latin America, from the Colonial era to the present day. Particular attention will be paid to continuity and changes in the immigrant experience.
+           </p>
+           <p>
+            <strong>
+             HST-139 &ndash; Introduction to History: &ldquo;Visual Culture in Latin America&rdquo;
+             <br />
+            </strong>
+            This course explores how Latin American personal and national identities are formed and expressed through visual mediums, such as film, caricatures, sketches, paintings, photography, and the written word from the point of European contact to the present.&nbsp; Through selected images and text, we will explore how images are transmitted, consider how Latin Americans project and receive images of themselves, and trace change over time. Materials for the course include political cartoons from and about Latin America, and a text that examines images of race and ethnicity in Brazil.&nbsp; Identifying what images and texts reveal (and obscure), this course considers the creation of nations through race, ethnicity, gender, and politics.&nbsp;
+           </p>
+           <p>
+            <strong>
+             HST-143&nbsp;&nbsp; Introduction to History: &ldquo;Epidemic America&rdquo;
+             <br />
+            </strong>
+            This course examines American history through the prism of epidemic diseases from the 1721 smallpox epidemic in Boston to the AIDS epidemic at the end of the 20th Century.&nbsp; How society and culture responded to these crisis points in American history reveals much about the changes in America from the early 18th Century to the early 21st Century.&nbsp; The course will explore how epidemic diseases have had an impact on religion, science, medicine, the rise of the city, sanitation, public health, and civil rights.
+           </p>
+           <p>
+            <strong>
+             HST-147&nbsp; Introduction to History: &ldquo;Popular Culture in Latin America&rdquo;
+             <br />
+            </strong>
+            Examining the culture &ldquo;of the people&rdquo; of Latin America, this course explores a wide spectrum of &ldquo;popular&rdquo; practices located outside the realm of &ldquo;high culture,&rdquo; including samba, carnivals, folk ritual and magic, oral narratives, sports, and televised soap operas, or
+            <em>
+             telenovelas
+            </em>
+            .&nbsp; By underscoring broad and diverse cultural production, this course demonstrates how popular culture facilitated mobilization and resistance of the people. It also examines western influences, portrayals of race, class, gender, and how state regulation of culture influenced these processes.
+            <br />
+            <br />
+            <strong>
+             HST &ndash; 148&nbsp; Introduction to History:&nbsp; &ldquo;Creating the Nation&rdquo;
+            </strong>
+            <br />
+            Nations are often depicted as simply the &ldquo;natural&rdquo; way of organizing human societies, but in fact, ideas about what constitutes a nation and its relationship to countries and governments have developed over time and in response to different historical circumstances. This class will examine the evolution of some of those ideas by exploring nationalism and nationalist movements in the United States, Eastern and Western Europe, and within European colonial territories, in the late-eighteenth, nineteenth and early-twentieth centuries. We will read theoretical works by scholars of nationalism like Benedict Anderson and Liah Greenfeld, and use their theories to help us analyze primary texts such as national anthems, museums, bicentennial celebrations, history textbooks, and public monuments. We will consider how conceptions of race, ethnicity, gender, language, ideology and history shaped notions of national identity, and consider how the nation came to play such a powerful role in the organization of the modern world.&nbsp;
+            <br />
+            <strong>
+             &nbsp;
+            </strong>
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            History
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/history/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/currentstudents/">
+            Current Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/prospectivestudents/">
+            Prospective Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/aboutus/">
+            About Us
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/majorminorrequirements/">
+            Major/Minor Requirements
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/facultystaff/">
+            Faculty &amp; Staff
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/history/courses/">
+             Courses
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/history/studyabroad/">
+            Study Abroad
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/honorsprizes/">
+            Honors &amp; Prizes
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/history/contactus/">
+            Contact Us
+           </a>
+          </li>
+          <li>
+           <a href="http://libraryguides.muhlenberg.edu/content.php?pid=353809" target="_blank">
+            History Resources at Trexler Library
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/history/currentstudents/"&gt;Current Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/prospectivestudents/"&gt;Prospective Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/aboutus/"&gt;About Us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/majorminorrequirements/"&gt;Major/Minor Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/facultystaff/"&gt;Faculty &amp; Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/history/courses/"&gt;Courses&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/studyabroad/"&gt;Study Abroad&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/honorsprizes/"&gt;Honors &amp; Prizes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/history/contactus/"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://libraryguides.muhlenberg.edu/content.php?pid=353809" target="_blank"&gt;History Resources at Trexler Library&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

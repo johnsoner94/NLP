@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID - Collection Overview
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <div id="content-wrapper">
+   <div id="content">
+    <div id="basket-content">
+     <div id="basket-scroll-right">
+     </div>
+     <div id="basket-scroll-left">
+     </div>
+     <div id="basket-thumbs">
+      <br />
+      Your basket is empty.
+     </div>
+    </div>
+    <div style="height: 15px;">
+    </div>
+    <div id="sidebar">
+    </div>
+    <h1>
+     Collection Overview
+    </h1>
+    <div id="collection-overview">
+     <h2>
+      MDID1 Collection
+     </h2>
+     <div>
+      Collection imported from MDID1
+     </div>
+     <div>
+      <a class="related-images" href="/explore/explore/?c=allcollections:5">
+       Explore 23,272
+        records
+      </a>
+      <a href="/explore/browse/5/mdid1-collection/">
+       Browse
+      </a>
+     </div>
+    </div>
+    <div id="footer">
+     Copyright 1997-2011 James Madison University
+    </div>
+   </div>
+  </div>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/explore/overview/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/explore/overview/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+ </body>
+</html>

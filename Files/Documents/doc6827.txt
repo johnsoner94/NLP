@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>
+   DSpace at the Trexler Library of Muhlenberg College: Art
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="DSpace" />
+  <link rel="stylesheet" href="/librarydspace/styles.css.jsp" type="text/css" />
+  <link rel="stylesheet" href="/librarydspace/print.css" media="print" type="text/css" />
+  <link rel="shortcut icon" href="/librarydspace/favicon.ico" type="image/x-icon" />
+  <link rel="alternate" type="application/rdf+xml" title="Items in Collection" href="/librarydspace/feed/rss_1.0/10718/20" />
+  <link rel="alternate" type="application/rss+xml" title="Items in Collection" href="/librarydspace/feed/rss_2.0/10718/20" />
+  <link rel="alternate" type="application/rss+xml" title="Items in Collection" href="/librarydspace/feed/atom_1.0/10718/20" />
+  <script type="text/javascript" src="/librarydspace/utils.js">
+  </script>
+ </head>
+ <body>
+  <table class="pageBanner" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr class="stripe">
+    <td colspan="3">
+     &nbsp;
+    </td>
+   </tr>
+  </table>
+  <table class="centralPane" width="100%" border="0" cellpadding="3" cellspacing="1">
+   <tr valign="top">
+    <td class="navigationBar">
+     <form method="get" action="/librarydspace/simple-search">
+      <table width="100%" class="searchBox">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0">
+          <tr>
+           <td class="searchBoxLabel">
+            <label for="tequery">
+             Search&nbsp;DSpace
+            </label>
+           </td>
+          </tr>
+          <tr>
+           <td class="searchBoxLabelSmall" valign="middle" nowrap="nowrap">
+            <input type="text" name="query" id="tequery" size="8" />
+            <input type="submit" name="submit" value="Go" />
+            <br />
+            <a href="/librarydspace/advanced-search">
+             Advanced Search
+            </a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/index.jsp">
+         Home
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Browse
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/community-list">
+         Communities
+         <br />
+         &amp;&nbsp;Collections
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=dateissued">
+         Issue Date
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=author">
+         Author
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=title">
+         Title
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=subject">
+         Subject
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Sign on to:
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/subscribe">
+         Receive email
+         <br />
+         updates
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/mydspace">
+         My DSpace
+        </a>
+        <br />
+        <small>
+         authorized users
+        </small>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/profile">
+         Edit Profile
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <script type="text/javascript">
+         &lt;!-- Javascript starts here
+document.write('&lt;a href="#" onClick="var popupwin = window.open(\'/librarydspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;"&gt;Help&lt;\/a&gt;');
+// --&gt;
+        </script>
+        <noscript>
+         <a href="/librarydspace/help/index.html" target="dspacepopup">
+          Help
+         </a>
+        </noscript>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="http://www.dspace.org/">
+         About DSpace
+        </a>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td class="pageContents" width="100%">
+     <p class="locationBar">
+      <a href="/librarydspace/">
+       DSpace at the Trexler Library of Muhlenberg College
+      </a>
+      &nbsp;&gt;
+      <br />
+      <a href="/librarydspace/handle/10718/7">
+       Muhlenberg Scholarly Publications
+      </a>
+      &nbsp;&gt;
+     </p>
+     <table border="0" cellpadding="5" width="100%">
+      <tr>
+       <td width="100%">
+        <h1>
+         Art
+        </h1>
+        <h3>
+         Collection home page
+        </h3>
+       </td>
+       <td valign="top">
+       </td>
+      </tr>
+     </table>
+     <table class="miscTable" align="center" summary="This table allows you to search through all collections in the repository">
+      <tr>
+       <td class="evenRowEvenCol" colspan="2">
+        <form method="get" action="">
+         <table>
+          <tr>
+           <td class="standard" align="center">
+            <label for="tlocation">
+             <small>
+              <strong>
+               In:
+              </strong>
+             </small>
+            </label>
+            &nbsp;
+            <select name="location" id="tlocation">
+             <option value="/">
+              All of DSpace
+             </option>
+             <option selected="selected" value="10718/7">
+              Muhlenberg Scholarly Publications
+             </option>
+             <option selected="selected" value="10718/20">
+              Art
+             </option>
+            </select>
+           </td>
+          </tr>
+          <tr>
+           <td class="standard" align="center">
+            <label for="tquery">
+             <small>
+              <strong>
+               Search
+              </strong>
+              &nbsp;for&nbsp;
+             </small>
+            </label>
+            <input type="text" name="query" id="tquery" />
+            &nbsp;
+            <input type="submit" name="submit_search" value="Go" />
+           </td>
+          </tr>
+         </table>
+        </form>
+       </td>
+      </tr>
+      <tr>
+       <td align="center" class="standard" valign="middle">
+        <small>
+         or&nbsp;
+         <strong>
+          browse
+         </strong>
+         &nbsp;
+        </small>
+        <div class="browse_buttons">
+         <form method="get" action="/librarydspace/handle/10718/20/browse">
+          <input type="hidden" name="type" value="dateissued" />
+          <input type="submit" name="submit_browse" value="Issue Date" />
+         </form>
+        </div>
+        <div class="browse_buttons">
+         <form method="get" action="/librarydspace/handle/10718/20/browse">
+          <input type="hidden" name="type" value="author" />
+          <input type="submit" name="submit_browse" value="Author" />
+         </form>
+        </div>
+        <div class="browse_buttons">
+         <form method="get" action="/librarydspace/handle/10718/20/browse">
+          <input type="hidden" name="type" value="title" />
+          <input type="submit" name="submit_browse" value="Title" />
+         </form>
+        </div>
+        <div class="browse_buttons">
+         <form method="get" action="/librarydspace/handle/10718/20/browse">
+          <input type="hidden" name="type" value="subject" />
+          <input type="submit" name="submit_browse" value="Subject" />
+         </form>
+        </div>
+       </td>
+      </tr>
+     </table>
+     <table width="100%" align="center" cellspacing="10">
+      <tr>
+       <td>
+       </td>
+       <td class="oddRowEvenCol">
+        <form method="get" action="">
+         <table>
+          <tr>
+           <td class="standard">
+            <small>
+             Subscribe to this collection to receive daily e-mail notification of new additions
+            </small>
+           </td>
+           <td class="standard">
+            <input type="submit" name="submit_subscribe" value="Subscribe" />
+           </td>
+          </tr>
+         </table>
+        </form>
+       </td>
+      </tr>
+     </table>
+     <div align="center">
+      <form method="get" action="/librarydspace/displaystats">
+       <input type="hidden" name="handle" value="10718/20" />
+       <input type="submit" name="submit_simple" value="View Statistics" />
+      </form>
+     </div>
+     <p class="copyrightText">
+     </p>
+     <p>
+      &nbsp;
+     </p>
+    </td>
+    <td class="sidebar">
+     <h3>
+      Recent&nbsp;Submissions
+     </h3>
+     <p class="recentItem">
+      <a href="/librarydspace/handle/10718/2435">
+       New York Glyptic
+      </a>
+     </p>
+     <p class="recentItem">
+      <a href="/librarydspace/handle/10718/2419">
+       The Steel: Photographs of the Bethlehem Steel Plant, 1989-1996
+      </a>
+     </p>
+     <p class="recentItem">
+      <a href="/librarydspace/handle/10718/2417">
+       Phonography: Art or Documentation? [Linked full text]
+      </a>
+     </p>
+     <p class="recentItem">
+      <a href="/librarydspace/handle/10718/2416">
+       Clones for a Queer Nation: George Segal's 'Gay Liberation' and Temporality
+      </a>
+     </p>
+     <p class="recentItem">
+      <a href="/librarydspace/handle/10718/2377">
+       Photography in Heritage Research: In Search of Digital Standards for Image Capture, Image Processing, and Image Delivery [FULL TEXT]
+      </a>
+     </p>
+     <p>
+      &nbsp;
+     </p>
+     <center>
+      <h4>
+       RSS Feeds
+      </h4>
+      <a href="/librarydspace/feed/rss_1.0/10718/20">
+       <img src="/librarydspace/image/rss1.gif" alt="RSS Feed" width="80" height="15" vspace="3" border="0" />
+      </a>
+      <a href="/librarydspace/feed/rss_2.0/10718/20">
+       <img src="/librarydspace/image/rss2.gif" alt="RSS Feed" width="80" height="15" vspace="3" border="0" />
+      </a>
+      <a href="/librarydspace/feed/atom_1.0/10718/20">
+       <img src="/librarydspace/image/rss.gif" alt="RSS Feed" width="36" height="15" vspace="3" border="0" />
+      </a>
+     </center>
+    </td>
+   </tr>
+   <tr class="pageFooterBar">
+    <td colspan="3" class="pageFootnote">
+     <table class="pageFooterBar" width="100%">
+      <tr>
+       <td>
+        <a href="http://validator.w3.org/check?uri=referer">
+         <img src="/librarydspace/image/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" />
+        </a>
+       </td>
+       <td class="pageFootnote">
+        <a target="_blank" href="http://www.dspace.org/">
+         DSpace Software
+        </a>
+        Copyright&nbsp;&copy;&nbsp;2002-2010&nbsp;
+        <a target="_blank" href="http://www.duraspace.org/">
+         Duraspace
+        </a>
+        &nbsp;-
+        <a target="_blank" href="/librarydspace/feedback">
+         Feedback
+        </a>
+        <a href="/librarydspace/htmlmap">
+        </a>
+       </td>
+       <td nowrap="nowrap" valign="middle">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Home | My Connection from Cox
+  </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="utf-8" />
+  <script type="text/javascript">
+   (window.NREUM||(NREUM={})).loader_config={xpid:"UA8DVFJADwEAU1ZRBw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&amp;&amp;console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&amp;&amp;"function"==typeof console.log&amp;&amp;(c.console=!0,o.indexOf("dev")!==-1&amp;&amp;(c.dev=!0),o.indexOf("nr_dev")!==-1&amp;&amp;(c.nrDev=!0))}catch(s){}c.nrDev&amp;&amp;i.on("internal-error",function(t){r(t.stack)}),c.dev&amp;&amp;i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&amp;&amp;(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{h?h-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&amp;&amp;f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&amp;&amp;(t(12),t(11),"addEventListener"in window&amp;&amp;t(6),s.xhrWrappable&amp;&amp;t(13),u=!0)}c.on("fn-start",function(t,e,n){u&amp;&amp;(h+=1)}),c.on("fn-err",function(t,e,n){u&amp;&amp;(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&amp;&amp;!this.thrown&amp;&amp;h&gt;0&amp;&amp;(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){j++,S=y.hash,this[u]=Date.now()}function o(){j--,y.hash!==S&amp;&amp;i(0,!0);var t=Date.now();this[l]=~~this[l]+t-this[u],this[h]=t}function i(t,e){x.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=Date.now()})}var c="-start",s="-end",f="-body",u="fn"+c,h="fn"+s,p="cb"+c,d="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location;if(w[v]){var g=t(9),b=t(10),x=t(8),E=t(6),T=t(12),O=t(7),R=t(13),P=t("ee"),D=P.get("tracer");t(14),t("loader").features.spa=!0;var S,N=w[v],j=0;P.on(u,r),P.on(p,r),P.on(h,o),P.on(d,o),P.buffer([u,h,"xhr-done","xhr-resolved"]),E.buffer([u]),T.buffer(["setTimeout"+s,"clearTimeout"+c,u]),R.buffer([u,"new-xhr","send-xhr"+c]),O.buffer([m+c,m+"-done",m+f+c,m+f+s]),x.buffer(["newURL"]),g.buffer([u]),b.buffer(["propagate",p,d,"executor-err","resolve"+c]),D.buffer([u,"no-"+u]),a(R,"send-xhr"+c),a(P,"xhr-resolved"),a(P,"xhr-done"),a(O,m+c),a(O,m+"-done"),x.on("pushState-end",i),x.on("replaceState-end",i),N("hashchange",i,!0),N("load",i,!0),N("popstate",function(){i(0,j&gt;1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&amp;&amp;window.performance.timing&amp;&amp;window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",h="bstResource",p="resource",d="-start",l="-end",m="fn"+d,v="fn"+l,w="bstTimer",y="pushState";t("loader").features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&amp;&amp;(this.bstStart=Date.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&amp;&amp;i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+d,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&amp;&amp;(window.performance["c"+s]?window.performance[f](u,function(t){i(h,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(h,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&amp;&amp;!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&amp;&amp;o(e)}function o(t){c.inPlace(t,[u,h],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(21)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",h="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&amp;&amp;(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(h+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&amp;&amp;(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,h=a.Response,p=a.fetch,d="prototype";u&amp;&amp;h&amp;&amp;p&amp;&amp;(i(f,function(t,e){r(u[d],e,s),r(h[d],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(21)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(21)(r),i=NREUM.o.MO;e.exports=r,i&amp;&amp;(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(21),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&amp;&amp;(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&amp;&amp;a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&amp;&amp;!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&amp;&amp;e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(21)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",h="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+h),a.inPlace(window,[s],s+h),a.inPlace(window,[f,"clearImmediate"],f+h),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){h.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState&gt;3&amp;&amp;!e.resolved&amp;&amp;(e.resolved=!0,u.emit("xhr-resolved",[],t)),h.inPlace(t,v,"fn-",c)}function i(t){w.push(t),l&amp;&amp;(g=-g,b.data=g)}function a(){for(var t=0;t&lt;w.length;t++)r([],w[t]);w.length&amp;&amp;(w=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),h=t(21)(u),p=NREUM.o,d=p.XHR,l=p.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new d(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(d,y),y.prototype=d.prototype,h.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var g=1,b=document.createTextNode(g);new l(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&amp;&amp;t[0].type===m||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r&lt;h;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&amp;&amp;(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&amp;&amp;(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&amp;&amp;null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],h=u.length,p=t("id"),d=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,d&amp;&amp;(d&gt;34||d&lt;10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&amp;&amp;"xpid"in NREUM.loader_config&amp;&amp;this.sameOrigin&amp;&amp;e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&amp;&amp;r){var i=l(r);i&amp;&amp;(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&amp;&amp;(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&amp;&amp;(o.onloadCalled||"function"!=typeof e.onload))&amp;&amp;o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a&lt;h;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&amp;&amp;"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&amp;&amp;!this.xhrGuids[n]&amp;&amp;(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&amp;&amp;this.xhrGuids[n]&amp;&amp;(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&amp;&amp;"load"===t[0]&amp;&amp;f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&amp;&amp;("onload"===n&amp;&amp;(this.onload=!0),("load"===(t[0]&amp;&amp;t[0].type)||this.onload)&amp;&amp;(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&amp;&amp;f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&amp;&amp;o[1]&amp;&amp;(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&amp;&amp;"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&amp;&amp;(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&amp;&amp;e.port===n.port;return r.sameOrigin=i&amp;&amp;(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],h="api-",p=h+"ixn-";a(u,function(t,e){f[e]=o(h+e,!0,"api")}),f.addPageAction=o(h+"addPageAction",!0),f.setCurrentRouteName=o(h+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&amp;&amp;(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&amp;&amp;t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&amp;&amp;t instanceof ArrayBuffer&amp;&amp;t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&amp;&amp;t instanceof Blob&amp;&amp;t.size)return t.size;if(!("undefined"!=typeof FormData&amp;&amp;t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&amp;&amp;(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&amp;&amp;(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&amp;&amp;(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){function r(t){return!(t&amp;&amp;t instanceof Function&amp;&amp;t.apply&amp;&amp;!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(h){throw u(e+"err",[r,a,h],c),h}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,h(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s&lt;e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){p([a,n,r,o])}s=i}}function h(t,e){if(Object.defineProperty&amp;&amp;Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&amp;&amp;(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&amp;&amp;t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!p.aborted){t&amp;&amp;t(n,r,o);for(var i=e(o),a=l(n),c=a.length,s=0;s&lt;c;s++)a[s].apply(i,r);var f=u[y[n]];return f&amp;&amp;f.push([g,n,r,i]),i}}function d(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return h[t]=h[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},g={on:d,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&amp;&amp;(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},h={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&amp;&amp;"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=h.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&amp;&amp;t.licenseKey&amp;&amp;t.applicationID&amp;&amp;e))return f.abort();s(w,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=h.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===h.readyState&amp;&amp;i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(19),f=t("ee"),u=window,h=u.document,p="addEventListener",d="attachEvent",l=u.XMLHttpRequest,m=l&amp;&amp;l.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:l,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(16);var v=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-998.min.js"},y=l&amp;&amp;m&amp;&amp;m[p]&amp;&amp;!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:v,features:{},xhrWrappable:y};h[p]?(h[p]("DOMContentLoaded",i,!1),u[p]("load",r,!1)):(h[d]("onreadystatechange",o),u[d]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,14,5,3,4]);
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":1,"licenseKey":"aaf23b031f","agent":"","transactionName":"MQYHNRZYCkZVBxcKVghMIxQKWhBcWwpMAkkWTQYOCk0WWlgIBhEXEAoAFhcDDFpZAQ==","applicationID":"7207730","errorBeacon":"bam.nr-data.net","applicationTime":284}
+  </script>
+  <!--[if lte IE 9]&gt; &lt;meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cox.com/app/presentation/upgrade/index.html"&gt; &lt;![endif]-->
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <script src="/static/scripts/lib/jquery.min.js">
+  </script>
+  <script src="/static/scripts/cookies.js">
+  </script>
+  <script src="http://static-segments.beringmedia.com/dfp/1/bmi.segments.js">
+  </script>
+  <script>
+   var adPageName
+    if($.inArray('home', ['home', 'weather', 'searchresults']) &gt; -1){
+        adPageName = 'cox_myconnection_home'
+    } else if('home' == 'article'){
+        adPageName = ('cox_myconnection_article_').toLowerCase();
+    } else {
+        adPageName = ('cox_myconnection_category_home').toLowerCase();
+    }
+
+/*
+    if($.inArray('home', ['home', 'weather', 'searchresults']) &gt; -1){
+        adPageName = 'cox_myconnection_home'
+    } else {
+        if('home' == 'National'){
+            adPageName = 'cox_myconnection_category_nationalnews'
+        } else if('home' == 'Trending'){
+            adPageName = 'cox_myconnection_category_trendingstories'
+        } else if('home' == 'News'){
+            adPageName = 'cox_myconnection_category_localnews'
+        } else if('home' == 'Sports' &amp;&amp; '' !== 'None'){
+            adPageName = 'cox_myconnection_category_localsports'
+        } else if('home' == 'article'){
+            if('' == 'Trending'){
+                adPageName = 'cox_myconnection_article_trendingstories'
+            } else if('' == 'National'){
+                adPageName = 'cox_myconnection_article_nationalnews'
+            } else if('' == 'News'){
+                adPageName = 'cox_myconnection_article_localnews'
+            } else {
+                adPageName = ('cox_myconnection_article_').toLowerCase()
+            }
+        } else {
+            adPageName = ('cox_myconnection_category_home').toLowerCase()
+        }
+    }
+*/
+
+    console.log('ad page name: ', adPageName)
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    var segmentStr = '';
+    if (bmi)
+        { bmi.segments.getSegments({ timeoutMs: 1000, publisherId: '52ac4a92-fb84-4f60-a518-13cd6da99f3d',
+          callback: function(segments) { if (segments &amp;&amp; segments.length &gt; 0) { segmentStr = segments; } } }); }
+  </script>
+  <!-- begin styles -->
+  <link href="/static/css/lib/bootstrap.min.css" rel="stylesheet" />
+  <link href="/static/css/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="/static/css/lib/swiper.min.css" rel="stylesheet" />
+  <!--
+            &lt;link href="/static/css/overwrites.less" rel="stylesheet/less"&gt;
+            &lt;link href="/static/css/navigation.less" rel="stylesheet/less"&gt;
+            &lt;link href="/static/css/video.less" rel="stylesheet/less"&gt;
+            &lt;link href="/static/css/weather.less" rel="stylesheet/less"&gt;
+            &lt;link href="/static/css/accessibility.less" rel="stylesheet/less"&gt;
+            -->
+  <link href="/static/css/overwrites.css" rel="stylesheet" />
+  <link href="/static/css/navigation.css" rel="stylesheet" />
+  <link href="/static/css/video.css" rel="stylesheet" />
+  <link href="/static/css/weather.css" rel="stylesheet" />
+  <link href="/static/css/accessibility.css" rel="stylesheet" />
+  <!-- begin fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700,600,800,400" rel="stylesheet" type="text/css" />
+  <link href="/static/css/cci-weather/css/cci-weather.css" rel="stylesheet" />
+  <link href="/static/css/cci/css/cci.css" rel="stylesheet" />
+  <!-- end fonts -->
+  <script src="//images.cox.com/presentation/cmsjs/api?v=2.0&amp;appid=cmsresidential">
+  </script>
+  <script src="/static/scripts/lib/less-1.7.4.min.js">
+  </script>
+  <!-- end styles -->
+  <script>
+   function loginFormSubmit(username) {
+            var words = CryptoJS.enc.Utf8.parse(username);
+            var base64 = CryptoJS.enc.Base64.stringify(words);
+
+            var id = null;
+
+            var width = $(window).width();
+            if (width &lt; 768) {
+              id = "rememberme-modal";
+            } else {
+              id = "rememberme-popover";
+            } 
+
+            if ($('#' + id).is(':checked')) {
+              document.cookie = 'cox-rememberme-user=' + base64 + '; domain=.cox.com; expires=Sat, 1 Jan 2050 00:00:00 UTC; path=/'
+            } else {
+              document.cookie = 'cox-rememberme-user=; domain=.cox.com; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+            }
+          }
+  </script>
+ </head>
+ <body class="cci-homepage">
+  <script type="text/javascript">
+   function isMobile() {
+        var width = $(window).width();
+        if (width &lt; 768) {
+            return true;
+        }
+        return false;
+    }
+
+    var utag_data = {};
+    responsiveDisplayType = (isMobile() ? 'mobile' : 'desktop');
+
+    utag_data={
+        'businessUnit': 'res',
+        'channel': 'cox:res:myconnection',
+        'localeName': coxCurrentSite, 
+        'pageName': 'cox:res:myconnection:home',
+        'pageType': 'myconnection',
+        'pageURL': 'http://myconnection.cox.com/',
+        'responsiveDisplayType': responsiveDisplayType,
+        'subSection': 'cox:res:myconnection',
+        'language': 'en',
+        'zip': coxCurrentZipcodeForTealium,
+        
+    };
+
+    console.log("Tealium utag_data: " + JSON.stringify(utag_data));
+  </script>
+  <script type="text/javascript">
+   (function(a,b,c,d){
+  console.log("running Tealium code...");
+  a='//tags.tiqcdn.com/utag/cox/main/prod/utag.js',
+  b=document;c='script';d=b.createElement(c);d.src=a;
+  d.type='text/java'+c;d.async=true;
+  a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)
+})();
+  </script>
+  <!-- BEGIN: TIER -->
+  <!--
+          prod
+        -->
+  <!-- END: TIER -->
+  <div id="cci-sticky">
+   <div id="cci-my-card-search" class="container">
+    <div class="cci-my-card">
+     <div class="row">
+      <!-- can this be done better -->
+      <div class="col-sm-9 hidden-xs cci-search clearfix">
+       <div class="navbar-form clearfix">
+        <div class="input-group">
+         <label for="search_term" class="cci-accessibility">
+          Search Terms
+         </label>
+         <input type="text" class="form-control" title="Search Terms" placeholder="Search Terms" name="search_term" value="" tabindex="1" />
+         <div class="input-group-btn search-source">
+          <button type="button" class="btn btn-default 
+                    dropdown-toggle" data-toggle="dropdown" tabindex="1">
+           <span class="current-search-type">
+            <a href="javascript:void(0)" alt="web search" tabindex="1">
+             Web
+            </a>
+           </span>
+           <span class="caret">
+           </span>
+          </button>
+          <ul class="dropdown-menu">
+           <li data-search="news">
+            <a href="javascript:void(0)" alt="News" tabindex="1">
+             News
+            </a>
+           </li>
+           <li data-search="cox">
+            <a href="javascript:void(0)" alt="Cox.com" tabindex="1">
+             Cox.com
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <button id="cci-search-submit" class="btn btn-cci web" tabindex="1">
+         Search
+        </button>
+        <div class="cci-search-powered-by">
+         <img src="/static/images/google_logo.png" alt="Powered by: Google" />
+        </div>
+       </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 cci-connect clearfix">
+       <div class="row">
+        <div class="col-xs-6 visible-xs hidden-sm hidden-md hidden-lg heading">
+         <span>
+          My Connection
+         </span>
+        </div>
+        <div class="my-card-icon-holder">
+         <div class="col-xs-2 col-sm-4 voicemail">
+          <span class="holder">
+           <span id="voicemail-link-holder" style="display: none">
+            <a href="https://phonetools.cox.com/history?type=voice" tabindex="1">
+             <span class="cci-indicator" id="voicemail-count">
+             </span>
+             <i class="icon-voicemail">
+             </i>
+             <span>
+              VoiceMail
+             </span>
+            </a>
+           </span>
+          </span>
+         </div>
+         <div class="col-xs-2 col-sm-4 webmail" id="sign-in-popover-holder" style="display: none">
+          <a id="sign-in-popover" data-toggle="popover" tabindex="1">
+           <i class="icon-email">
+           </i>
+           <span>
+            Sign In
+           </span>
+          </a>
+         </div>
+         <div class="col-xs-2 col-sm-4 webmail" id="mobile-sign-in-holder" style="display: none">
+          <a href="javascript:void(0)" id="sign-in-modal" data-toggle="modal" data-target=".bs-example-modal-sm" alt="Webmail" tabindex="1">
+           <i class="icon-email">
+           </i>
+           <span>
+            Sign In
+           </span>
+          </a>
+         </div>
+         <div class="col-xs-2 col-sm-4 webmail" id="webmail-link-holder" style="display: none">
+          <a href="http://webmail.cox.net" id="link-to-webmail" tabindex="1">
+           <span class="cci-indicator" id="email-count">
+           </span>
+           <i class="icon-email">
+           </i>
+           <span>
+            WebMail
+           </span>
+          </a>
+         </div>
+         <div class="col-xs-2 col-sm-4 weather">
+          <a href="javascript:void(0)" alt="Weather" tabindex="1">
+           <span class="cci-accessibility">
+            Weather
+           </span>
+           <div class="weather-alerts-indicator">
+            <i class="fa fa-exclamation-triangle">
+            </i>
+           </div>
+           <i class="weather-icon">
+           </i>
+           <span class="temp">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- search moves under of mobile breakpoint -->
+      <!-- can this be done better -->
+      <div class="hidden-sm hidden-md hidden-lg cci-search clearfix">
+       <div class="navbar-form clearfix">
+        <div class="col-xs-12">
+         <table cellspacing="0" cellpadding="0">
+          <tr>
+           <td class="cci-search-input">
+            <label for="search_term" class="cci-accessibility">
+             Search Terms
+            </label>
+            <input type="text" id="search_term" class="" title="Search Terms" placeholder="Search Terms" name="search_term" value="" />
+           </td>
+           <td>
+            <div class="input-group-btn search-source">
+             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <span class="current-search-type">
+               Web
+              </span>
+              <span class="caret">
+              </span>
+             </button>
+             <ul class="dropdown-menu">
+              <li data-search="news">
+               News
+              </li>
+              <li data-search="cox">
+               Cox.com
+              </li>
+             </ul>
+            </div>
+           </td>
+           <td>
+            <button id="cci-mobile-search-submit" class="btn btn-cci mobile">
+             Search
+            </button>
+           </td>
+          </tr>
+         </table>
+        </div>
+        <div class="col-xs-12">
+         <div class="cci-search-powered-by">
+          <img src="/static/images/google_mobile_logo.png" alt="Powered by: Google" />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- login popover -->
+   <div class="popover-html">
+    <form onsubmit="loginFormSubmit(this.username.value)" id="pf-signin-form" class="form-horizontal" enctype="application/x-www-form-urlencoded" name="sign-in" class="form" action="https://idm.east.cox.net/idm/coxnetlogin" method="post">
+     <input type="hidden" value="COX.net" name="targetFN" />
+     <input type="hidden" value="@cox.net" name="emaildomain" />
+     <input type="hidden" value="https://www.cox.com/residential/sign-in.cox?onsuccess=http%3A//myconnection.cox.com/%3Fsubject%3D50th%252520Reunion%252520Class%252520Memories" name="onfailure" id="pf-onfailure" />
+     <input type="hidden" value="http%3A//myconnection.cox.com/%3Fsubject%3D50th%252520Reunion%252520Class%252520Memories" name="onsuccess" id="pf-onsuccess" />
+     <!-- TEST VALUES
+    &lt;input type="hidden" value="https://www.int.dev.cox.com/residential/sign-in.cox?onsuccess=http%3A%2F%2Fmyconnection.int.dev.cox.com%2Fcategory%2Fentertainment%2F" name="onfailure" id="pf-onfailure"&gt;
+    &lt;input name="onsuccess" id="onsuccess" value="http%3A%2F%2Fmyconnection.int.dev.cox.com%2F" type="hidden"  /&gt; -->
+     <div data-toggle="popover-close" class="cci-popover-close">
+      <i class="icon-close">
+      </i>
+     </div>
+     <h4>
+      Sign In
+     </h4>
+     <div id="username-and-password-required" style="display: none">
+      <span class="alert-danger">
+       Username and password are required.
+      </span>
+     </div>
+     <div class="form-group" id="userid-form-group">
+      <label for="inputEmail3" class="control-label">
+       User ID
+      </label>
+      <input type="text" class="form-control" id="coxCurrentRememberMeUserId" name="username" value="" tabindex="1" />
+     </div>
+     <div class="form-group" id="password-form-group">
+      <label for="inputPassword3" class="control-label">
+       Password
+      </label>
+      <input type="password" class="form-control" id="inputPassword3" name="password" tabindex="1" />
+     </div>
+     <div class="form-group secure-submit">
+      <button type="submit" class="btn btn-cci" id="pf-signin-submit" name="pf-signin-submit" tabindex="1">
+       Sign In
+      </button>
+      <i class="fa fa-lock">
+      </i>
+     </div>
+     <div class="form-group">
+      <div class="checkbox">
+       <label>
+        <input type="checkbox" name="rememberme-popover" id="rememberme-popover" checked="checked" />
+        Remember User ID
+       </label>
+      </div>
+     </div>
+     <p>
+      <a href="https://idm.east.cox.net/selfservice2/registerresidentialaccountholder.action">
+       No Account? Register Now!
+      </a>
+     </p>
+     <p>
+      <a href="https://idm.east.cox.net/selfservice2/lookupuserid.action">
+       Forgot User ID
+      </a>
+      /
+      <a href="https://idm.east.cox.net/selfservice2/resetpassword.action">
+       Password?
+      </a>
+     </p>
+    </form>
+    <script>
+     function validate_cred_fields() {
+      $('#username-and-password-required').hide();
+      $('#userid-form-group').removeClass('has-error');
+      $('#password-form-group').removeClass('has-error');
+      var errors = false
+      if ($('#inputEmail3').val() === '') {
+        $('#userid-form-group').addClass('has-error');
+        errors = true
+      }
+      if ($('#inputPassword3').val() === '') {
+        $('#password-form-group').addClass('has-error');
+        errors = true;
+      }
+      if (errors === true) {
+        $('#username-and-password-required').show();
+        return false;
+      }
+    }
+    </script>
+    <!-- closes the popover - must stay in the popover html -->
+    <script type="text/javascript">
+     $('[data-toggle="popover-close"]').click(function(){
+            $('#sign-in-popover').popover('hide');
+        });
+    </script>
+   </div>
+   <div id="cci-site-nav" class="container-fluid hidden-xs visible-sm visible-md visible-lg">
+    <div class="container cci-nav">
+     <div class="row">
+      <div class="col-sm-12">
+       <div class="btn-group btn-group-justified" role="group">
+        <a href="/" class="btn nav-home active" alt="Home" tabindex="1">
+         Home
+        </a>
+        <a href="/category/nationalnews/" class="btn nav-national" alt="National News" tabindex="1">
+         National News
+        </a>
+        <a href="/category/entertainment/" class="btn nav-entertainment" alt="Entertainment" tabindex="1">
+         Entertainment
+        </a>
+        <a href="/category/nationalsports/" class="btn nav-single nav-sports" alt="Sports" tabindex="1">
+         Sports
+        </a>
+        <div class="btn-group nav-multiple" role="group">
+         <button type="button" class="btn dropdown-toggle more-sports" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="1">
+          Sports
+          <i class="fa fa-angle-up fa-angle-down">
+          </i>
+         </button>
+         <ul class="dropdown-menu pull-right" role="menu">
+          <li>
+           <a href="/category/nationalsports/" class="nav-sports" alt="National">
+            National
+           </a>
+          </li>
+          <li>
+           <a href="javascript:void(0)" class="nav-sports-local" alt="Local">
+            Local
+           </a>
+          </li>
+         </ul>
+        </div>
+        <a href="javascript:void()" class="btn nav-weather" alt="Weather" tabindex="1">
+         Weather
+        </a>
+        <div class="btn-group" role="group">
+         <button type="button" class="btn dropdown-toggle more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="1">
+          More
+          <i class="fa fa-angle-up fa-angle-down">
+          </i>
+         </button>
+         <ul class="dropdown-menu pull-right">
+          <li>
+           <a href="/category/trending/" class="nav-trending" alt="What's Trending">
+            What's Trending
+           </a>
+          </li>
+          <li>
+           <a href="/category/world/" class="nav-world" alt="World">
+            World
+           </a>
+          </li>
+          <li>
+           <a href="/category/politics/" class="nav-politics" alt="Politics">
+            Politics
+           </a>
+          </li>
+          <li>
+           <a href="/category/health/" class="nav-health" alt="Health">
+            Health
+           </a>
+          </li>
+          <li class="nav-multiple">
+           <a href="javascript:void(0)" class="nav-news" alt="Local News">
+            Local News
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="cci-mobile-sticky" class="visible-xs hidden-sm hidden-md hidden-lg">
+    <div class="cci-nav-swiper swiper-container">
+     <div class="swiper-wrapper">
+      <div class="swiper-slide">
+       <a href="/" class="nav-home active">
+        Home
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/nationalnews/" class="nav-national">
+        National News
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/entertainment/" class="nav-entertainment">
+        Entertainment
+       </a>
+      </div>
+      <div class="swiper-slide nav-single">
+       <a href="/category/nationalsports/" class="nav-sports">
+        Sports
+       </a>
+      </div>
+      <div class="swiper-slide nav-multiple">
+       <a href="/category/nationalsports/" class="nav-sports">
+        National Sports
+       </a>
+      </div>
+      <div class="swiper-slide nav-multiple">
+       <a href="javascript:void(0)" class="nav-sports-local">
+        Local Sports
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="javascript:void()" class="nav-weather">
+        Weather
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/trending/" class="nav-trending">
+        What's Trending
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/world/" class="nav-world">
+        World
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/politics/" class="nav-politics">
+        Politics
+       </a>
+      </div>
+      <div class="swiper-slide">
+       <a href="/category/health/" class="nav-health">
+        Health
+       </a>
+      </div>
+      <div class="swiper-slide nav-multiple">
+       <a href="javascript:void(0)" class="nav-news">
+        Local News
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="container-fluid cci-content-outer">
+   <div id="cci-content-well" class="container">
+    <h1 class="cci-accessibility">
+     Home
+    </h1>
+    <div class="row">
+     <div id="cci-ad-dp06" class="col-sm-12 cci-ad">
+      <script>
+       googletag.cmd.push(
+        function() {
+            var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [])
+              .addSize([320, 0], [])
+              .addSize([768, 0], [[970, 90], [970, 250]])
+              .build();
+
+            googletag.defineSlot('/131/' + coxCurrentSite + '.cox.com', [[970, 90], [970, 250]], 'cci-ad-dp06')
+                .defineSizeMapping(mapping)
+                .setCollapseEmptyDiv(true)
+                .addService(googletag.pubads())
+                .setTargeting('pg', adPageName)
+                .setTargeting('pos', 'cci-ad-dp06')
+                .setTargeting('brg', segmentStr);
+            googletag.enableServices();
+            googletag.display('cci-ad-dp06');
+        }
+    );
+      </script>
+     </div>
+     <div class="col-sm-8">
+      <div class="row">
+       <div id="cci-ad-mp01" class="col-xs-12 cci-ad text-center">
+        <script>
+         googletag.cmd.push(
+        function() {
+            var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [320,50])
+              .addSize([320, 0], [320,50])
+              .addSize([768, 0], [])
+              .build();
+
+            googletag.defineSlot('/131/' + coxCurrentSite + '.cox.com', [320,50], 'cci-ad-mp01')
+                .defineSizeMapping(mapping)
+                .setCollapseEmptyDiv(true)
+                .addService(googletag.pubads())
+                .setTargeting('pg', adPageName)
+                .setTargeting('pos', 'cci-ad-mp01')
+                .setTargeting('brg', segmentStr);
+            googletag.enableServices();
+            googletag.display('cci-ad-mp01');
+        }
+    );
+        </script>
+       </div>
+      </div>
+      <div class="swiper-outer">
+       <div class="cci-swiper swiper-container" tabindex="1">
+        <div class="swiper-wrapper">
+         <div class="swiper-slide" id="swiper-slide-1">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/entertainment/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAzMTgv/">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/c0/59/GettyImages-499034356.jpg" class="horizontal" alt="Taylor Swift, Beyonce, others make Forbes' highest-paid artists list" />
+           <div class="cci-content">
+            <span class="headline" alt="Taylor Swift, Beyonce, others make Forbes' highest-paid artists list">
+             Taylor Swift, Beyonce, others make Forbes&#39;...
+            </span>
+            <p class="copy" alt="It turns out the tour tickets still make many musicians the most money. In an age where music itself doesn't sell as much as it used to, it's one of the metrics Forbes used to determine which artist is the most-paid artist of 2016.">
+             It turns out the tour tickets still make many musicians t...
+            </p>
+           </div>
+          </a>
+         </div>
+         <div class="swiper-slide" id="swiper-slide-2">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAyNjMv/">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/e8/6d/7559623962_17aa891e60_o.jpg" class="horizontal" alt="Woman sneaks corn on the cob into movie theater for snack" />
+           <div class="cci-content">
+            <span class="headline" alt="Woman sneaks corn on the cob into movie theater for snack">
+             Woman sneaks corn on the cob into movie th...
+            </span>
+            <p class="copy" alt="Most people's snack of choice when watching a film at the movie theater is popcorn. But one Texas woman likes her corn another way -- on the cob.">
+             Most people&#39;s snack of choice when watching a film at the...
+            </p>
+           </div>
+          </a>
+         </div>
+         <div class="swiper-slide" id="swiper-slide-3">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/trending/dXJuOnB1YmxpY2lkOmFwLm9yZzplZWJiNzUyYmM4MzI0ZjY5OGVlMzYyMTNkNzZiZjE1ZQ==/">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:7c034e32781346fba78c65bba328011a2016-12-30_4bec7164611c99fa797445357206720a2d531195.jpg" class="horizontal" alt="Campus critters are nuts for Penn State's 'Squirrel Girl'" />
+           <div class="cci-content">
+            <span class="headline" alt="Campus critters are nuts for Penn State's 'Squirrel Girl'">
+             Campus critters are nuts for Penn State&#39;s ...
+            </span>
+            <p class="copy" alt=" Penn State students know her as the Squirrel Whisperer, or even Squirrel Girl. Which suits Mary Krupa just fine.">
+             Penn State students know her as the Squirrel Whisperer,...
+            </p>
+           </div>
+          </a>
+         </div>
+         <div class="swiper-slide" id="swiper-slide-4">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAxNjUv/">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/ff/08/GettyImages-578664104_2.jpg" class="horizontal" alt="Man with autism apologizes for suggesting Barron Trump may have autism" />
+           <div class="cci-content">
+            <span class="headline" alt="Man with autism apologizes for suggesting Barron Trump may have autism">
+             Man with autism apologizes for suggesting ...
+            </span>
+            <p class="copy" alt="A video that suggested Barron Trump, Donald Trump's youngest son, might have autism was removed from YouTube Tuesday after Melania Trump's lawyer threatened to sue the man that uploaded the video.">
+             A video that suggested Barron Trump, Donald Trump&#39;s young...
+            </p>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Add Pagination -->
+       <div class="swiper-pagination" style="display:none">
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzphYjY5MGE2OWY1NmQ0MGQwOGExYjMyNWI5YjJlMTk1NA==/" tabindex="1">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:4eb882d827a84db8bce5bb09fa53801f2016-12-30_8ab6ad985d123196d54471cbec7293ec942fdfbe.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/nationalnews" alt="national news">
+           <div class="cci-tag nationalnews">
+            national news
+           </div>
+          </a>
+         </div>
+         <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzphYjY5MGE2OWY1NmQ0MGQwOGExYjMyNWI5YjJlMTk1NA==/" alt="Prosecutor to jury: Believe bystander's video, not fired cop" tabindex="1">
+          <div class="cci-content">
+           <span class="headline">
+            Prosecutor to jury: Believe bystander&#39;s video, not fired cop
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:56:41Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/nationalsports/dXJuOnB1YmxpY2lkOmFwLm9yZzoxZDVhY2E1MmEyOTQ0MWIxODEzOGJiNzQ4YWZiZWFmMQ==/" tabindex="2">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:a008a93b8e2d4b7b922b0cb1856748832016-12-30_7e959adb391c62631a2863a6a346ce02c7fcaf62.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/nationalsports" alt="national sports">
+           <div class="cci-tag nationalsports">
+            national sports
+           </div>
+          </a>
+         </div>
+         <a href="/article/nationalsports/dXJuOnB1YmxpY2lkOmFwLm9yZzoxZDVhY2E1MmEyOTQ0MWIxODEzOGJiNzQ4YWZiZWFmMQ==/" alt="Chapecoense vows to compete, possibly with borrowed players" tabindex="2">
+          <div class="cci-content">
+           <span class="headline">
+            Chapecoense vows to compete, possibly with borrowed players
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:56:31Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzpjMTc2YTVjZWI4Yjk0ZmViYjdmOWZhZDBhMDQwZGI5OA==/" tabindex="3">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:48f14a78ea5f470d8198a01c17bc94842016-12-30_370cbd6b30af8f351da14d6be0181b668dc09ad6.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/nationalnews" alt="national news">
+           <div class="cci-tag nationalnews">
+            national news
+           </div>
+          </a>
+         </div>
+         <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzpjMTc2YTVjZWI4Yjk0ZmViYjdmOWZhZDBhMDQwZGI5OA==/" alt="Vegas police seek random shooter in parking lot slaying" tabindex="3">
+          <div class="cci-content">
+           <span class="headline">
+            Vegas police seek random shooter in parking lot slaying
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:55:34Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzoyOWFhMzhlNTEwNGU0YzgxODc0OGI2MWE5NmU1Y2JmMQ==/" tabindex="4">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:3a07468ef58645e98d2dacdabe6b7b482016-12-30_61c21686495c7753dc45133d9ef1282edfb43a97.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/nationalnews" alt="national news">
+           <div class="cci-tag nationalnews">
+            national news
+           </div>
+          </a>
+         </div>
+         <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzoyOWFhMzhlNTEwNGU0YzgxODc0OGI2MWE5NmU1Y2JmMQ==/" alt="3 more bodies found in Tennessee wildfire ruins, toll at 7" tabindex="4">
+          <div class="cci-content">
+           <span class="headline">
+            3 more bodies found in Tennessee wildfire ruins, toll at 7
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:48:11Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/world/dXJuOnB1YmxpY2lkOmFwLm9yZzpkOGVmYWY1MThhOTU0MTIwYTAyNmI4NDg2OGI3Y2UwNQ==/" tabindex="5">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:a008a93b8e2d4b7b922b0cb1856748832016-12-30_7e959adb391c62631a2863a6a346ce02c7fcaf62.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/world" alt="world">
+           <div class="cci-tag world">
+            world
+           </div>
+          </a>
+         </div>
+         <a href="/article/world/dXJuOnB1YmxpY2lkOmFwLm9yZzpkOGVmYWY1MThhOTU0MTIwYTAyNmI4NDg2OGI3Y2UwNQ==/" alt="Pilot told Colombia controllers 'no fuel' before crash" tabindex="5">
+          <div class="cci-content">
+           <span class="headline">
+            Pilot told Colombia controllers &#39;no fuel&#39; before crash
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:47:07Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="col-xs-12 col-sm-6">
+        <div class="cci-tile medium">
+         <div class="cci-image-container">
+          <span class="vertical-image-helper">
+          </span>
+          <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzozZTg3MDg0OWQ1N2E0NmQyODU0MzczZmNhNWQ1NGRjNA==/" tabindex="6">
+           <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:a569e95cf0624ea68db6b657eb9007332016-12-30_4e6477861a88908da0f89f9960c92bac5be17cad.jpg" class="horizontal" alt="" />
+          </a>
+          <a href="/category/nationalnews" alt="national news">
+           <div class="cci-tag nationalnews">
+            national news
+           </div>
+          </a>
+         </div>
+         <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzozZTg3MDg0OWQ1N2E0NmQyODU0MzczZmNhNWQ1NGRjNA==/" alt="The Latest: Official: OSU attacker likely radicalized online" tabindex="6">
+          <div class="cci-content">
+           <span class="headline">
+            The Latest: Official: OSU attacker likely radicalized online
+           </span>
+           <span class="timestamp">
+            2016-11-30T21:42:10Z
+           </span>
+          </div>
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="col-sm-4">
+      <div class="row">
+       <div class="cci-right-rail-container clearfix">
+        <div id="cci-ad-dp01" class="col-sm-12 cci-ad dp01 text-center">
+         <script>
+          googletag.cmd.push(
+        function() {
+            var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [])
+              .addSize([320, 0], [])
+              .addSize([768, 0], [[300,250], [300, 600]])
+              .build();
+
+            googletag.defineSlot('/131/' + coxCurrentSite + '.cox.com', [[300,250], [300, 600]], 'cci-ad-dp01')
+                .defineSizeMapping(mapping)
+                .setCollapseEmptyDiv(true)
+                .addService(googletag.pubads())
+                .setTargeting('pg', adPageName)
+                .setTargeting('pos', 'cci-ad-dp01')
+                .setTargeting('brg', segmentStr);
+            googletag.enableServices();
+            googletag.display('cci-ad-dp01');
+        }
+    );
+         </script>
+        </div>
+        <div class="cci-trending clearfix">
+         <div class="col-sm-12">
+          <h2>
+           Trending Stories
+          </h2>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/dXJuOnB1YmxpY2lkOmFwLm9yZzo3YTkwMDg0NDcyZWI0YzQzODQ0NjFiNGFhYWUxMWUxMg==/" alt="Tallow tensions: Vegans want 'fat-free' UK 5-pound bank note" title="Tallow tensions: Vegans want 'fat-free' UK 5-pound bank note" tabindex="5">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:7993f7f4d3cc49528bb48688b3b0abf12016-12-30_3b9f37b75614f4fd70dd2c01f759f1d52a708085.jpg" class="horizontal" alt="Tallow tensions: Vegans want 'fat-free' UK 5-pound bank note" title="Tallow tensions: Vegans want 'fat-free' UK 5-pound bank note" />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              Tallow tensions: Vegans want &#39;fat-free&#39; UK 5-po...
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAxNDMv/" alt="Report: Mom douses daughter in gasoline, flicks lighter for bad grade" title="Report: Mom douses daughter in gasoline, flicks lighter for bad grade" tabindex="6">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/ea/4a/police_lights.jpg" class="horizontal" alt="Report: Mom douses daughter in gasoline, flicks lighter for bad grade" title="Report: Mom douses daughter in gasoline, flicks lighter for bad grade" />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              Report: Mom douses daughter in gasoline, flicks...
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwNzYv/" alt="Netflix enables offline access to content " title="Netflix enables offline access to content " tabindex="7">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/0c/67/GettyImages-455692394.jpg" class="horizontal" alt="Netflix enables offline access to content " title="Netflix enables offline access to content " />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              Netflix enables offline access to content
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwODMv/" alt="McDonald's franchisee who created Big Mac dies" title="McDonald's franchisee who created Big Mac dies" tabindex="8">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/ad/3e/big_mac_creator_20161130181044274_6716563_ver1.0_640_360.jpg" class="horizontal" alt="McDonald's franchisee who created Big Mac dies" title="McDonald's franchisee who created Big Mac dies" />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              McDonald&#39;s franchisee who created Big Mac dies
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwNjIv/" alt="Hunter facing charges for killing man's dogs" title="Hunter facing charges for killing man's dogs" tabindex="9">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/b7/16/Dogs_20161130172625185_6715972_ver1.0_640_360.jpg" class="horizontal" alt="Hunter facing charges for killing man's dogs" title="Hunter facing charges for killing man's dogs" />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              Hunter facing charges for killing man&#39;s dogs
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-sm-12">
+          <!-- this is the include for all small tiles except search-results.html -->
+          <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwMzYv/" alt="Florida kayaker suffers 8-inch leg gash from gator attack" title="Florida kayaker suffers 8-inch leg gash from gator attack" tabindex="10">
+           <div class="cci-tile small">
+            <div class="cci-image-container clearfix">
+             <span class="vertical-image-helper">
+             </span>
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/f6/de/GettyImages-72776849.jpg" class="horizontal" alt="Florida kayaker suffers 8-inch leg gash from gator attack" title="Florida kayaker suffers 8-inch leg gash from gator attack" />
+            </div>
+            <div class="cci-content">
+             <span class="headline">
+              Florida kayaker suffers 8-inch leg gash from ga...
+             </span>
+            </div>
+            <div class="clearfix">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-xs-12 col-md-12">
+          <div class="cci-tile medium">
+           <div class="cci-image-container">
+            <span class="vertical-image-helper">
+            </span>
+            <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwMTUv/" tabindex="11">
+             <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/img/photos/2016/11/30/92/c1/APTOPIX_Deep_South_Se_Seig.jpg" class="horizontal" alt="" />
+            </a>
+            <a href="/category/trending/" alt="trending">
+             <div class="cci-tag trending">
+              trending
+             </div>
+            </a>
+           </div>
+           <a href="/article/trending/aHR0cHM6Ly9pZGVudGlmaWVycy5jbWdkaWdpdGFsLmNvbS9tZWRsZXkvcHJvZC9uZXdzLm1lZGxleXN0b3J5LzM1NDAwMTUv/" alt="Tennessee wildfire death toll rises to 4; heavy damage for tourist mecca" tabindex="11">
+            <div class="cci-content">
+             <span class="headline">
+              Tennessee wildfire death toll rises to 4; heavy damage fo...
+             </span>
+             <span class="timestamp">
+              2016-11-30T17:54:27Z
+             </span>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzphMzRhMmNmMzUxMDA0MDIwYTRmYWFjNjQ2YTc4MDY2NA==/" tabindex="7">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:caac8dce13624a8b8407c271e80a06b62016-12-30_9c791b8abd81065008261d196b79ab319f8de7a8.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/politics" alt="politics">
+         <div class="cci-tag politics">
+          politics
+         </div>
+        </a>
+       </div>
+       <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzphMzRhMmNmMzUxMDA0MDIwYTRmYWFjNjQ2YTc4MDY2NA==/" alt="Conflict rules hardly the same for president, others" tabindex="7">
+        <div class="cci-content">
+         <span class="headline">
+          Conflict rules hardly the same for president, others
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:41:18Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzozZWRkNGU2ZTA5MDA0MjM2ODM2Y2UyYThlMDQ3MjE0Nw==/" tabindex="8">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:4b19a02703dd4e21a963d157e09fc6cb2016-12-30_931792e79c19dee7e5f9b8aea6a1a3019c83fc59.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/nationalnews" alt="national news">
+         <div class="cci-tag nationalnews">
+          national news
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzozZWRkNGU2ZTA5MDA0MjM2ODM2Y2UyYThlMDQ3MjE0Nw==/" alt="Advocates decry another immigrant death at Arizona facility" tabindex="8">
+        <div class="cci-content">
+         <span class="headline">
+          Advocates decry another immigrant death at Arizona facility
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:40:57Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzoyN2QzZDhjMWNhYWM0MGViYWI1YzcwNDFmYjc4NDE0Yg==/" tabindex="9">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:8d6b632b43d843aeb8e152c3db269cc52016-12-30_2ee444d3b746af561ab726597e52eb81ca9afb88.jpg" class="vertical" alt="" />
+        </a>
+        <a href="/category/nationalnews" alt="national news">
+         <div class="cci-tag nationalnews">
+          national news
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzoyN2QzZDhjMWNhYWM0MGViYWI1YzcwNDFmYjc4NDE0Yg==/" alt="Wife of slain California mayor pleads guilty to manslaughter" tabindex="9">
+        <div class="cci-content">
+         <span class="headline">
+          Wife of slain California mayor pleads guilty to manslaughter
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:40:48Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/world/dXJuOnB1YmxpY2lkOmFwLm9yZzpjMjFhNTk3YmQ5ODE0M2E0ODdkOTVmMTEzYmQ3MjZlZQ==/" tabindex="10">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:9c20ce332b12495cb10af53c6f15bd5f2016-12-30_30b98c40c6ac67a5fd72befe03a8e64cf063f023.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/world" alt="world">
+         <div class="cci-tag world">
+          world
+         </div>
+        </a>
+       </div>
+       <a href="/article/world/dXJuOnB1YmxpY2lkOmFwLm9yZzpjMjFhNTk3YmQ5ODE0M2E0ODdkOTVmMTEzYmQ3MjZlZQ==/" alt="Death toll rises to 8 in cave-in at Polish copper mine" tabindex="10">
+        <div class="cci-content">
+         <span class="headline">
+          Death toll rises to 8 in cave-in at Polish copper mine
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:40:07Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/entertainment/dXJuOnB1YmxpY2lkOmFwLm9yZzozMWFiZTJiMzNhNTQ0MjI3YTUyYjFjMDk5NDJjMmIxNQ==/" tabindex="11">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:39042bf977ab4cd58dfac12798f89e782016-12-30_2ed9dd96a9817ebc1e1f3e4db5822bb6d8698a0a.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/entertainment" alt="entertainment">
+         <div class="cci-tag entertainment">
+          entertainment
+         </div>
+        </a>
+       </div>
+       <a href="/article/entertainment/dXJuOnB1YmxpY2lkOmFwLm9yZzozMWFiZTJiMzNhNTQ0MjI3YTUyYjFjMDk5NDJjMmIxNQ==/" alt="Sundance unveils diverse slate of competition films" tabindex="11">
+        <div class="cci-content">
+         <span class="headline">
+          Sundance unveils diverse slate of competition films
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:35:03Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzoxNjFmNjc5MGQ2ODc0MWZiOWZhODYwZGU0MDdkYzQzZA==/" tabindex="12">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:657fb63c854b477ca8696269adf7a9362016-12-30_4719aed76b5008da19b98f2501fe9572d5bc427e.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/politics" alt="politics">
+         <div class="cci-tag politics">
+          politics
+         </div>
+        </a>
+       </div>
+       <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzoxNjFmNjc5MGQ2ODc0MWZiOWZhODYwZGU0MDdkYzQzZA==/" alt="The Latest: Women's march organizers expect big names" tabindex="12">
+        <div class="cci-content">
+         <span class="headline">
+          The Latest: Women&#39;s march organizers expect big names
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:33:41Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzplMjM2MjI1Zjg2NTg0ZDE1YjBkN2Y2ZTc3ZTg5OTRlMA==/" tabindex="13">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:f1db57b0e76f44d3aee8660ede92afc02016-12-30_a5bd45c844044de77f46493eddafa23105d88f02.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/politics" alt="politics">
+         <div class="cci-tag politics">
+          politics
+         </div>
+        </a>
+       </div>
+       <a href="/article/politics/dXJuOnB1YmxpY2lkOmFwLm9yZzplMjM2MjI1Zjg2NTg0ZDE1YjBkN2Y2ZTc3ZTg5OTRlMA==/" alt="Trump's Cabinet: 'Draining the swamp' or diving right in?" tabindex="13">
+        <div class="cci-content">
+         <span class="headline">
+          Trump&#39;s Cabinet: &#39;Draining the swamp&#39; or diving right in?
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:30:37Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/entertainment/dXJuOnB1YmxpY2lkOmFwLm9yZzpjYjc1NWFlMTBlMTY0YzNhYWNhOGM0NDViOWUzNzA4Yg==/" tabindex="14">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:1c1808ef942e4ec7a60f91bb5dd06c542016-12-30_4a6d5e737bef88aefdb750f453d8f264a26ccd3d.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/entertainment" alt="entertainment">
+         <div class="cci-tag entertainment">
+          entertainment
+         </div>
+        </a>
+       </div>
+       <a href="/article/entertainment/dXJuOnB1YmxpY2lkOmFwLm9yZzpjYjc1NWFlMTBlMTY0YzNhYWNhOGM0NDViOWUzNzA4Yg==/" alt="'Moana' a Disney hit but portrayal irks some in the Pacific" tabindex="14">
+        <div class="cci-content">
+         <span class="headline">
+          &#39;Moana&#39; a Disney hit but portrayal irks some in the Pacific
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:30:08Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo0ZGRkMjg3NTNhYTI0OTAxOWRlMDU5MDBjMjE3OTI5NQ==/" tabindex="15">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:f700d4636f114a2d8b1f00bfb74cdea22016-12-30_d3e1d0eb19cf51736be4cd0b708fa99aaa71182f.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/nationalnews" alt="national news">
+         <div class="cci-tag nationalnews">
+          national news
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo0ZGRkMjg3NTNhYTI0OTAxOWRlMDU5MDBjMjE3OTI5NQ==/" alt="Sheriff: California mom found with message burned onto skin" tabindex="15">
+        <div class="cci-content">
+         <span class="headline">
+          Sheriff: California mom found with message burned onto skin
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:28:16Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalsports/dXJuOnB1YmxpY2lkOmFwLm9yZzo0ZmFjNzQ0NTM5NmI0ZTBlYjU5Yjg3ODNjNTRmYmRiOQ==/" tabindex="16">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:327b0e4eb2624b63a90e72e4d48147712016-12-30_122de2b13189319de50eb4ddd8541c303136ed56.jpg" class="vertical" alt="" />
+        </a>
+        <a href="/category/nationalsports" alt="national sports">
+         <div class="cci-tag nationalsports">
+          national sports
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalsports/dXJuOnB1YmxpY2lkOmFwLm9yZzo0ZmFjNzQ0NTM5NmI0ZTBlYjU5Yjg3ODNjNTRmYmRiOQ==/" alt="AP COLLEGE FOOTBALL PICKS: Championship weekend spoilers" tabindex="16">
+        <div class="cci-content">
+         <span class="headline">
+          AP COLLEGE FOOTBALL PICKS: Championship weekend spoilers
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:27:53Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo1ODA0MmIxMGY0MzY0MTg5YWJmODllNzg4OGY4NjhhMw==/" tabindex="17">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:6b4ad5f4991f45bb950db4d073dd85d12016-12-30_9969c34b3d31de972a0b1778d091e5aeb7802c85.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/nationalnews" alt="national news">
+         <div class="cci-tag nationalnews">
+          national news
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo1ODA0MmIxMGY0MzY0MTg5YWJmODllNzg4OGY4NjhhMw==/" alt="Lawsuits challenge abortion restrictions in 3 states" tabindex="17">
+        <div class="cci-content">
+         <span class="headline">
+          Lawsuits challenge abortion restrictions in 3 states
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:27:37Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-4">
+      <div class="cci-tile medium">
+       <div class="cci-image-container">
+        <span class="vertical-image-helper">
+        </span>
+        <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo1ZmNiYWJmODVmYzk0MzBjYTUxZmVjY2Q1MTJlYzZiZQ==/" tabindex="18">
+         <img src="http://media.cmgdigital.com/shared/lt/lt_cache/thumbnail/620/ap/urn:publicid:ap.org:b2083a1a2523493ab5d85d1a5d2e8aa42016-12-30_d9dd1ef5220fe19c72368e81c6caa22e16fbcd0a.jpg" class="horizontal" alt="" />
+        </a>
+        <a href="/category/nationalnews" alt="national news">
+         <div class="cci-tag nationalnews">
+          national news
+         </div>
+        </a>
+       </div>
+       <a href="/article/nationalnews/dXJuOnB1YmxpY2lkOmFwLm9yZzo1ZmNiYWJmODVmYzk0MzBjYTUxZmVjY2Q1MTJlYzZiZQ==/" alt="The Latest: Prosecutor says trust the video, not the defense" tabindex="18">
+        <div class="cci-content">
+         <span class="headline">
+          The Latest: Prosecutor says trust the video, not the defense
+         </span>
+         <span class="timestamp">
+          2016-11-30T21:27:15Z
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-sm-12 clearfix">
+      <div class="cci-taboola">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="cci-ad-mp02" class="cci-ad text-center">
+   <script>
+    googletag.cmd.push(
+        function() {
+            var mapping = googletag.sizeMapping()
+              .addSize([0, 0], [300,250])
+              .addSize([320, 0], [300,250])
+              .addSize([768, 0], [])
+              .build();
+
+            googletag.defineSlot('/131/' + coxCurrentSite + '.cox.com', [300,250], 'cci-ad-mp02')
+                .defineSizeMapping(mapping)
+                .setCollapseEmptyDiv(true)
+                .addService(googletag.pubads())
+                .setTargeting('pg', adPageName)
+                .setTargeting('pos', 'cci-ad-mp02')
+                .setTargeting('brg', segmentStr);
+            googletag.enableServices();
+            googletag.display('cci-ad-mp02');
+        }
+    );
+   </script>
+  </div>
+  <script src="/static/scripts/lib/bootstrap.min.js">
+  </script>
+  <!--script src="/static/scripts/bcresponsivepl.js"&gt;&lt;/script-->
+  <script src="/static/scripts/lib/moment.min.js">
+  </script>
+  <script src="/static/scripts/lib/moment-timezone.min.js">
+  </script>
+  <script src="/static/scripts/lib/swiper.min.js">
+  </script>
+  <script src="/static/scripts/lib/core-min.js">
+  </script>
+  <script src="/static/scripts/lib/enc-utf16-min.js">
+  </script>
+  <script src="/static/scripts/lib/enc-base64-min.js">
+  </script>
+  <script src="/static/scripts/navigation.js">
+  </script>
+  <script src="/static/scripts/weather.js">
+  </script>
+  <script src="/static/scripts/utilities.js">
+  </script>
+  <!--             &lt;script&gt;CCIPF.init("https://www.cox.com/presentation/api/tsw/header/myconnection/home.cox","https://www.cox.com/presentation/api/tsw/footer/myconnection/home.cox","true");&lt;/script&gt; -->
+  <script>
+   $( document ).ready(function() {
+                
+              });
+  </script>
+ </body>
+</html>
+<!-- login modal -->
+<!-- has to be at the bottom of the page -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-sm">
+  <div class="modal-content">
+   <div class="modal-html">
+    <form onsubmit="loginFormSubmit(this.username.value)" id="pf-signin-form" class="form-horizontal" enctype="application/x-www-form-urlencoded" name="sign-in" class="form" action="https://idm.east.cox.net/idm/coxnetlogin" method="post">
+     <input type="hidden" value="COX.net" name="targetFN" />
+     <input type="hidden" value="@cox.net" name="emaildomain" />
+     <input type="hidden" value="https://www.cox.com/residential/sign-in.cox?onsuccess=http%3A//myconnection.cox.com/%3Fsubject%3D50th%252520Reunion%252520Class%252520Memories" name="onfailure" id="pf-onfailure" />
+     <input type="hidden" value="http%3A//myconnection.cox.com/%3Fsubject%3D50th%252520Reunion%252520Class%252520Memories" name="onsuccess" id="pf-onsuccess" />
+     <!-- TEST VALUES
+    &lt;input type="hidden" value="https://www.int.dev.cox.com/residential/sign-in.cox?onsuccess=http%3A%2F%2Fmyconnection.int.dev.cox.com%2Fcategory%2Fentertainment%2F" name="onfailure" id="pf-onfailure"&gt;
+    &lt;input name="onsuccess" id="onsuccess" value="http%3A%2F%2Fmyconnection.int.dev.cox.com%2F" type="hidden"  /&gt; -->
+     <div data-dismiss="modal" class="cci-popover-close">
+      <i class="icon-close">
+      </i>
+     </div>
+     <h4>
+      Sign In
+     </h4>
+     <div id="username-and-password-required" style="display: none">
+      <span class="alert-danger">
+       Username and password are required.
+      </span>
+     </div>
+     <div class="form-group" id="userid-form-group">
+      <label for="inputEmail3" class="control-label">
+       User ID
+      </label>
+      <input type="text" class="form-control" id="coxCurrentRememberMeUserId" name="username" value="" tabindex="1" />
+     </div>
+     <div class="form-group" id="password-form-group">
+      <label for="inputPassword3" class="control-label">
+       Password
+      </label>
+      <input type="password" class="form-control" id="inputPassword3" name="password" tabindex="1" />
+     </div>
+     <div class="form-group secure-submit">
+      <button type="submit" class="btn btn-cci" id="pf-signin-submit" name="pf-signin-submit" tabindex="1">
+       Sign In
+      </button>
+      <i class="fa fa-lock">
+      </i>
+     </div>
+     <div class="form-group">
+      <div class="checkbox">
+       <label>
+        <input type="checkbox" name="rememberme-modal" id="rememberme-modal" checked="checked" />
+        Remember User ID
+       </label>
+      </div>
+     </div>
+     <p>
+      <a href="https://idm.east.cox.net/selfservice2/registerresidentialaccountholder.action">
+       No Account? Register Now!
+      </a>
+     </p>
+     <p>
+      <a href="https://idm.east.cox.net/selfservice2/lookupuserid.action">
+       Forgot User ID
+      </a>
+      /
+      <a href="https://idm.east.cox.net/selfservice2/resetpassword.action">
+       Password?
+      </a>
+     </p>
+    </form>
+    <script>
+     function validate_cred_fields() {
+      $('#username-and-password-required').hide();
+      $('#userid-form-group').removeClass('has-error');
+      $('#password-form-group').removeClass('has-error');
+      var errors = false
+      if ($('#inputEmail3').val() === '') {
+        $('#userid-form-group').addClass('has-error');
+        errors = true
+      }
+      if ($('#inputPassword3').val() === '') {
+        $('#password-form-group').addClass('has-error');
+        errors = true;
+      }
+      if (errors === true) {
+        $('#username-and-password-required').show();
+        return false;
+      }
+    }
+    </script>
+   </div>
+  </div>
+ </div>
+</div>

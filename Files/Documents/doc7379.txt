@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/js/dojo-161/dijit/themes/tundra/tundra.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/css112/libguides.css" />
+  <title>
+   Search - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   #container { background: url('http://lgimages.s3.amazonaws.com/bg_page_darkblue.gif') repeat-x; background-color:#FFFFFF; }
+
+			.headerbox {  background-image:none; background-color: #003050;} .headerbox h2 {color: #FFFFFF ;} .outerbox {background-color: #C2C2C2 ;} .innerbox, .innerboxprofile {background-color: # ;}
+  </style>
+  <script type="text/javascript" src="/js/dojo-161/dojo/dojo.js" djconfig="parseOnLoad: true">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="/include/lib_spring_track.php?action=init&amp;iid=3322">
+  </script>
+  <script type="text/javascript">
+   function handleEnterSearch(e, formobj, func) {
+				var evtobj=window.event? event : e 
+				var keycode = evtobj.keyCode;
+				if (keycode == 13) { eval(func); return false; }
+				else { return true; }
+			}
+
+			function searchlist() {
+				document.getElementById('instlist').innerHTML = '&lt;img alt=Loading src=http://lgimages.s3.amazonaws.com/loading_lg.gif border=0  /&gt;&nbsp;&nbsp;&lt;span style=color=#CCCCCC;font-size:18px;font-weight:bold;&gt;Searching guides...&lt;/span&gt;';
+				
+				var gid = "0";
+				var gid_drop = document.searchform.gid;
+				var default_search_field = 'pname';
+				var do_secondary_search = ('1' == '');
+				
+				if ( !gid &amp;&amp; gid_drop ) {
+					gid = gid_drop.options[gid_drop.options.selectedIndex].value;
+				}
+                // Spring Tracking
+                SpringTrack.trackSearch({ st_type: TRACKING_TYPE_SEARCH, _st_gid : gid, search_terms: document.searchform.search.value });
+                
+				dojo.xhrGet ({
+					url: '/search_process.php?search=' + encodeURIComponent(document.searchform.search.value) + '&gid;=' + gid + '&iid;=3322' + '&pid;=&c;=0&search;_field=pname&display;_mode=1',
+					load: function (data) {
+						if ( do_secondary_search &amp;&amp; data.search(/No matches were found/i) != -1 ) {
+							document.location.replace('/search.php?search=' + encodeURI(document.searchform.search.value) + '&gid;=' + gid + '&iid;=3322' + '&pid;=&c;=0&search;_field=' + default_search_field + '&display;_mode=1');
+						} else {
+							document.getElementById('instlist').innerHTML = data;
+						}
+					 },
+					error: function (error) {document.getElementById('instlist').innerHTML = "Sorry, a processing error occurred: " + error;}
+				});			
+				return false;
+			}
+            
+			// SpringTracking
+			SpringTrack.init({
+						_st_pid : '',
+						_st_iid : 3322					});
+  </script>
+  <style type="text/css">
+   #tabs12 a { background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tableft-blue.gif) no-repeat scroll left top; }
+#tabs12 a span { color:#hex color for the tab text; background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tabright-blue.gif) no-repeat scroll right top; }
+.dropmenudiv a:hover { color:#FFFFFF; background-color:#0070bb; }
+.guidetitle { font: bold 22px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+.headerbox h2 { font: bold 15px Verdana, Arial, Helvetica, sans-serif; }
+.guidedesc { font: bold 15px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+  </style>
+ </head>
+ <body id="search_php" class="tundra public_page">
+  <a name="top">
+  </a>
+  <div id="wrapper">
+   <div id="container">
+    <noscript>
+     <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+      <h2>
+       <span style="color: #000;">
+        This site requires a JavaScript enabled browser. For more information please visit our
+        <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+         FAQ
+        </a>
+       </span>
+      </h2>
+     </div>
+    </noscript>
+    <div id="custom_header">
+     <style>
+      .guideattr, .lgsearch, #guide_tab_title_bar_page_name, #guide_tab_title_bar_page_print, #breadcrumbsr{display:none;}
+     </style>
+    </div>
+    <a href="http://trexler.muhlenberg.edu/">
+     <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+    </a>
+    <br clear="all" />
+    <div class="topnav">
+     <div id="breadcrumbsr" style="float:right;">
+      <span id="bc_admin_login">
+       <a id="bc_libguides_login" href="https://libguides.com/login.php?iid=3322">
+        Admin Sign In
+       </a>
+      </span>
+     </div>
+     <div id="breadcrumbsl">
+      <span id="bc_library_home">
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+       <span class="breadcrumb_spacer">
+        &raquo;
+       </span>
+      </span>
+      <span id="bc_libguides_home">
+       <a href="http://libraryguides.muhlenberg.edu/index.php">
+        Subject Guides
+       </a>
+      </span>
+     </div>
+    </div>
+    <div class="pagetitle">
+     Subject Guides - Search
+    </div>
+    <div class="pagedesc">
+    </div>
+    <div style="padding:5px">
+     <form name="searchform" method="GET" action="search.php" style="padding-left:5px">
+      <input type="hidden" name="iid" value="3322" />
+      <input type="hidden" name="c" value="0" />
+      <input type="hidden" name="pid" value="" />
+      <label for="search_field" style="display:none;">
+       Select Field
+      </label>
+      <select name="search_field" id="search_field">
+       <option value="">
+        All Guide Content
+       </option>
+       <option value="pdesc">
+        Guide Description
+       </option>
+       <option value="pslug">
+        Guide Friendly Name
+       </option>
+       <option value="sname">
+        Guide Page Name
+       </option>
+       <option value="pname" selected="selected">
+        Guide Title
+       </option>
+       <option value="pcats">
+        Subjects
+       </option>
+       <option value="ptags">
+        Tags
+       </option>
+      </select>
+      <label for="search" style="display:none;">
+       Search Text
+      </label>
+      <input type="text" id="search" style="width:330px; font-weight:bold;" name="search" value="Administration" onkeypress="return handleEnterSearch(event,'searchform','document.searchform.submit()');" />
+      <input type="button" value="Search" onclick="document.searchform.submit();" />
+      <br />
+      <div style="font-size:11px; color:#464646; padding:7px 0 5px 0;">
+       Search tips: The default search is AND, i.e. it will search for all the words entered. To perform OR search use | character, e.g. hello | world. To exclude words use !, e.g. hello ! world will search for matches where there is the word hello but not world. To search for a phrase enter it in quotes, e.g. "hello world".
+      </div>
+     </form>
+    </div>
+    <div class="stitle">
+     <div id="search_message">
+     </div>
+     <span style="color:#5a5a5a">
+      Search results:
+     </span>
+    </div>
+    <div id="content">
+     <div id="contentcenter" style="width:705px; padding-left:5px; margin-left:0px; margin-right:13px; float:left;">
+      <div id="instlist">
+      </div>
+      <script type="text/javascript">
+       searchlist();
+      </script>
+     </div>
+     <div id="contentright" style="width:250px; float:left; padding-right:0px;">
+      <div class="roundbox outerbox">
+       <div class="roundbox headerbox">
+        <h2>
+         You may also
+        </h2>
+       </div>
+       <div class="roundbox innerbox">
+        <div id="sidelist" style="padding-top:5px;">
+         <ul>
+          <li id="browse_all">
+           <a href="browse.php">
+            Browse All Guides
+           </a>
+          </li>
+          <li id="browse_subject">
+           <a href="browse.php?o=s">
+            Browse By Subject
+           </a>
+          </li>
+          <li id="browse_librarian">
+           <a href="browse.php?o=a">
+            Browse By Librarian
+           </a>
+          </li>
+          <li id="browse_tag">
+           <a href="searchtags.php">
+            Browse By Tag
+           </a>
+          </li>
+          <li id="return_homepage">
+           <a href="index.php">
+            Return to Homepage
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer">
+     <div id="footer_topline">
+      Powered by
+      <a href="http://www.springshare.com">
+       Springshare
+      </a>
+      ; All rights reserved.
+      <span id="footer_support_link">
+       <a href="/support.php">
+        Report a tech support issue
+       </a>
+       .
+      </span>
+     </div>
+    </div>
+    <div id="customFooter">
+    </div>
+    <div id="trackingcode">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

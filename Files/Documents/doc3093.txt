@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>
+   Honors Programs | Muhlenberg College
+  </title>
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.transitions.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/kdg.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/print.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <!--Style for right-side links -->
+  <style>
+   #admissionUpdate li ul li {
+    font-size: .75em;
+    padding-left: 15px;
+    
+    }
+  </style>
+ </head>
+ <body>
+  <noscript>
+   <div class="noscript-modal">
+    <input type="checkbox" class="modal-closing-trick" id="modal-closing-trick" />
+    <div class="noscript-overlay">
+    </div>
+    <div class="modal">
+     <h3 class="red">
+      Whoops! Please enable Javascript
+     </h3>
+     <p>
+      We've worked hard to update this site with the latest technology. To ensure that you are getting the best experience, please enable Javascript in your browser's settings. Thank you!
+     </p>
+     <label class="button red" for="modal-closing-trick">
+      Close
+     </label>
+    </div>
+   </div>
+  </noscript>
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h4 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h4>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome" target="_blank">
+       <img src="/media/kdmedia/images/chrome.png" alt="Chrome" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="/media/kdmedia/images/firefox.png" alt="Firefox" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="/media/kdmedia/images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="/media/kdmedia/images/safari.png" alt="Safari" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="/media/kdmedia/images/opera.png" alt="Opera" />
+      </a>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!-- navigation object : Tool I Am Links -->
+  <div class="collapse" id="iam-navigation">
+   <ul>
+    <li>
+     <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+      Prospective Student
+     </a>
+    </li>
+    <li>
+     <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+      Incoming Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+      Current Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+      Faculty &amp; Staff
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+      Parent
+     </a>
+    </li>
+    <li>
+     <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+      Alumni
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <div class="collapse" id="tool-navigation">
+   <ul>
+    <li>
+     <a href="/contact">
+      Contact
+     </a>
+    </li>
+    <li>
+     <a href="/main/aboutus/campus-map/">
+      Campus Map
+     </a>
+    </li>
+    <li>
+     <a href="/tactical/azfind.htm">
+      A-Z Index
+     </a>
+    </li>
+    <li>
+     <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+      Directory
+     </a>
+    </li>
+    <li>
+     <a href="http://trexler.muhlenberg.edu/">
+      Library
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <nav class="navbar" id="top">
+   <div class="container">
+    <div class="row">
+     <div class="expand-buttons">
+      <ul>
+       <a href="/alumni/give">
+       </a>
+       <li class="give-btn hidden-xs">
+        Give
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+       </a>
+       <li class="tool-button">
+        Tools
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+       </a>
+       <li class="iam-button">
+        I am
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <div class="clearfix">
+       </div>
+      </ul>
+     </div>
+     <!--/expand-buttons-->
+     <div class="col-xs-12 col-sm-6">
+      <a href="/">
+       <img src="/media/kdmedia/images/header-logo.png" />
+      </a>
+      <a data-toggle="collapse" href="#mobile-nav" aria-expanded="false" aria-controls="mobile-nav" class="mobile-menu hidden-lg hidden-md hidden-sm">
+       <span class="fa fa-bars">
+       </span>
+      </a>
+     </div>
+     <div class="col-xs-12 col-sm-6 hidden-xs">
+      <div class="header-right">
+       <div class="search ">
+        <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+         <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+         <button type="Submit" class="btn btn-search">
+          <span class="fa fa-search">
+          </span>
+         </button>
+        </form>
+        <a target="_child" href="http://twitter.com/muhlenberg">
+         <span class="fa fa-twitter">
+         </span>
+        </a>
+        <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+         <span class="fa fa-facebook">
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--row-->
+   </div>
+   <div class="inner-nav hidden-xs">
+    <div class="container">
+     <div class="row">
+      <div class="nav-holder">
+       <a name="navigation" style="display:none">
+       </a>
+       <div class="nav">
+        <!-- navigation object : Main Menu KD -->
+        <ul>
+         <li>
+          <a href="/main/aboutus/">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Admissions
+          </a>
+         </li>
+         <li>
+          <a href="/academics/">
+           Academics
+          </a>
+         </li>
+         <li>
+          <a href="/student-life/">
+           Student Life
+          </a>
+         </li>
+         <li>
+          <a href="http://muhlenbergsports.com/" target="_blank">
+           Athletics
+          </a>
+         </li>
+         <li>
+          <a href="/news-and-events/index.php">
+           News &amp; Events
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/">
+           Adult Learning
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <!--row-->
+    </div>
+   </div>
+  </nav>
+  <div id="mobile-nav" class="collapse hidden-sm hidden-md hidden-lg">
+   <div class="search ">
+    <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+     <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+     <button type="Submit" class="btn btn-search">
+      <span class="fa fa-search">
+      </span>
+     </button>
+    </form>
+   </div>
+   <!-- navigation object : Main Menu KD -->
+   <ul>
+    <li>
+     <a href="/main/aboutus/">
+      About Us
+     </a>
+    </li>
+    <li>
+     <a href="/main/admissions/">
+      Admissions
+     </a>
+    </li>
+    <li>
+     <a href="/academics/">
+      Academics
+     </a>
+    </li>
+    <li>
+     <a href="/student-life/">
+      Student Life
+     </a>
+    </li>
+    <li>
+     <a href="http://muhlenbergsports.com/" target="_blank">
+      Athletics
+     </a>
+    </li>
+    <li>
+     <a href="/news-and-events/index.php">
+      News &amp; Events
+     </a>
+    </li>
+    <li>
+     <a href="/main/wescoe/">
+      Adult Learning
+     </a>
+    </li>
+   </ul>
+   <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+    <span class="fa fa-facebook">
+    </span>
+   </a>
+   <a target="_child" href="http://twitter.com/muhlenberg">
+    <span class="fa fa-twitter">
+    </span>
+   </a>
+   <a href="/alumni/give" class="btn primary-btn">
+    Give
+   </a>
+  </div>
+  <div class="container">
+   <div class="row mobile-row">
+    <div class="row two-col page-content about-us">
+     <!--Page Content-->
+     <div class="col-lg-9 col-sm-8 col-xs-12">
+      <div class="page-header" style='background-image:url("/media/kdmedia/images/page-headers/common-questions.jpg");'>
+       <h1>
+        Honors Programs
+       </h1>
+      </div>
+      <div class="cta-section hidden-sm hidden-md hidden-lg" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <!-- Content Template Start: General Content-->
+      <h1>
+      </h1>
+      <p>
+       <a href="/main/aboutus/dean-academic/honorsrecognition/societies/">
+        <strong>
+         Academic Honor Societies
+        </strong>
+       </a>
+      </p>
+      <p>
+       In addition to the prestigious
+       <a href="/main/aboutus/dean-academic/honorsrecognition/societies/phibetakappa/">
+        Phi Beta Kappa
+       </a>
+       , Muhlenberg has several active chapters of nationally recognized Honor Societies to distinguish those students who have demonstrated high scholarship and leadership within a field of study.
+      </p>
+      <p>
+       Phi Sigma IotaRomance Languages
+      </p>
+      <table border="0" cellpadding="0" cellspacing="0" class="content-add05">
+       <tbody>
+        <tr>
+         <td>
+          <strong class="title">
+           Name
+          </strong>
+         </td>
+         <td>
+          <strong class="title">
+           Field of Study
+          </strong>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Delta Phi Alpha
+         </td>
+         <td>
+          German
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Dobro-Slovo
+         </td>
+         <td>
+          Slavic Studies
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Omicron Delta Epsilon
+         </td>
+         <td>
+          Economics
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Omicron Delta Kappa
+         </td>
+         <td>
+          Leadership
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Order of Omega
+         </td>
+         <td>
+          Greek
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Phi Alpha Theta
+         </td>
+         <td>
+          History
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Phi Sigma Iota
+         </td>
+         <td>
+          &nbsp;Romance Languages
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Phi Sigma Tau
+         </td>
+         <td>
+          Philosophy
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Pi Mu Epsilon
+         </td>
+         <td>
+          Mathematics
+         </td>
+         <td>
+          &nbsp;
+         </td>
+         <td>
+          &nbsp;
+         </td>
+         <td>
+          &nbsp;
+         </td>
+         <td>
+          &nbsp;
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Pi Sigma Alpha
+         </td>
+         <td>
+          Political Science
+         </td>
+        </tr>
+        <tr>
+         <td>
+          Psi Chi
+         </td>
+         <td>
+          &nbsp;Psychology
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <p>
+       &nbsp;
+      </p>
+      <p>
+       <a href="/main/academics/dana-scholars/">
+        <strong>
+         Dana Scholars
+        </strong>
+       </a>
+      </p>
+      <p>
+       The Dana Associates Program of Muhlenberg College provides a four-year experience for outstanding students. As applications for admission are received by the College, exceptional applicants are identified and invited to submit a separate Dana application.
+      </p>
+      <p>
+       Invitees typically are near the top of their high school class, score 1350 (Critical Reading and Math) or greater on the Scholastic Aptitude Test, and, equally important, exhibit distinctive creativity, versatility, and intellectual curiosity.
+      </p>
+      <p>
+       <a href="/main/academics/muhlenberg-scholars/">
+        <strong>
+         Muhlenberg Scholars
+        </strong>
+       </a>
+      </p>
+      <p>
+       The Muhlenberg Scholars Program is designed to nurture talented students by providing a rich and stimulating environment in which they can realize their true potential. It seeks to foster creativity, independence and self-realization by bringing together faculty and students committed to the highest ideals of a liberal education. Through innovative course offerings, unique co-curricular programs and close student/faculty interaction, it strives to create a community of inquiry where the free exchange of ideas leads to new insights into one's self and one's world.
+      </p>
+      <p>
+       Scholars courses are small, interdisciplinary, discussion-oriented courses in which the student is encouraged to grapple creatively with problems at the forefront of current research. The emphasis is on original source materials rather than textbooks. The goal is to create a community of inquiry where professor and student reason together about topics of current interest.
+      </p>
+      <p>
+       Outstanding first-year students are invited to join the Scholars Program when they are admitted to the College. These individuals will normally have Scholastic Aptitude Test scores of 1350 (Critical Reading and Math) or greater, have graduated in the top 10th of their high school class, and have significant extracurricular accomplishments.
+      </p>
+      <p>
+       <a href="/main/aboutus/dean-academic/honorsrecognition/societies/phibetakappa/">
+        <strong>
+         Phi Beta Kappa
+        </strong>
+       </a>
+      </p>
+      <p>
+       Established in 1776 at the College of William and Mary, Phi Beta Kappa is the oldest and most prestigious of honorary societies in America. This distinguished fellowship of scholars is devoted to intellectual pursuits in the liberal arts and sciences. Muhlenberg College was granted a charter from the national organization in 1967.
+      </p>
+      <p>
+       The chapter is maintained by Muhlenberg faculty who are also members of Phi Beta Kappa. Current Muhlenberg seniors are elected by the faculty and initiated into the society each year. The criteria for membership are strict and have been developed on the basis of national Phi Beta Kappa guidelines. Eligibility guidelines include attention to a student's grade point average, the coursework completed while at Muhlenberg, class standing and recommendations from faculty members. Students who meet the eligibility requirements will receive a letter of invitation from our chapter sometime during their senior year.
+      </p>
+      <p>
+       <a href="/main/academics/rjfellows/">
+        <strong>
+         RJ Fellows
+        </strong>
+       </a>
+      </p>
+      <p>
+       The RJ Fellows Program is an honors community established at Muhlenberg College with support from the Scheller Family Foundation to foster and strengthen the decision-making and leadership competencies of liberal arts students whose intellectual curiosity is matched by a commitment to ethical change.
+      </p>
+      <p>
+       Outstanding applicants to Muhlenberg College who exhibit these qualities in their applications are invited to join the RJ Fellows Program. As well as being among the top graduates of their high school class with Scholastic Aptitude Test scores of 1350 or higher (Critical Reading and Math), individuals invited to participate in the RJ Fellows community demonstrate a passion for leadership and change in their academic and extracurricular achievements, including community service.
+      </p>
+      <!-- Content Template End-->
+     </div>
+     <div class="col-lg-3 col-sm-4 col-xs-12">
+      <div class="cta-section hidden-xs" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <!-- navigation object : Admissions Sidebar Accordion Links -->
+      <div class="sidebar-links">
+       <!--Muhl can add up to three sidebar sections-->
+       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <!--Link section-->
+        <div class="panel panel-default">
+         <a data-toggle="collapse" data-parent="#accordion" href="#get-to-know" aria-expanded="true" aria-controls="get-to-know">
+          <div class="panel-heading" role="tab" id="headingOne">
+           <h3 class="panel-title pull-left">
+            Get to Know Us
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-up">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </div>
+         </a>
+         <div id="get-to-know" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+           <div class="side-links">
+            <ul id="admissionUpdate">
+             <li>
+              <a href="/main/admissions/types-of-visits/">
+               Types of Visits
+              </a>
+             </li>
+             <li>
+              <a href="http://finaid.muhlenberg.edu/Calendar/default.aspx?type=&amp;view=Grid&amp;category=37-0&amp;range=currentmonth">
+               Visit Calendar
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB  %20Muhlenberg%20College%20%BB%20Academics%20%BB%20Majors%2C%20Minors%20%26%20Certification" href="/main/academics/majorsandprograms.html">
+               Majors, Minors &amp; Programs
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/muhlenberg-at-a-glance/">
+               Muhlenberg at a Glance
+               <br />
+               <br />
+              </a>
+              <ul>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_English.pdf">
+                 Muhlenberg Fact Sheet
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Hindi.pdf">
+                 Muhlenberg College ki jaankaari (Hindi)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Korean.pdf">
+                 뮤렌버그 대학교 안내 (Korean)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Mandarin.pdf">
+                 关于默兰伯格学院的信息 (Mandarin)
+                </a>
+               </li>
+               <li>
+                <a href="http://t4.muhlenberg.edu/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Spanish.pdf">
+                 Informaci&oacute;n acerca de Muhlenberg College (Spanish)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Vietnamese.pdf">
+                 Thông tin về trường đại học Muhlenberg (Vietnamese)
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/main/admissions/admissions-counselor/">
+               Meet Your Admissions Counselor
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/what-people-are-saying/">
+               What People are Saying
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/common-questions/">
+               Common Questions
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/success-after-muhlenberg/">
+               Success After Muhlenberg
+              </a>
+             </li>
+             <li>
+              <a title="Home &raquo; Muhlenberg College &raquo; Academics &raquo; Student Research and Scholarship &raquo; Student   Scholars" href="/main/academics/research/scholars/">
+               Student Scholar Spotlight
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+        <!--End Link section-->
+        <!--Link section-->
+        <div class="panel panel-default">
+         <div class="panel-heading" role="tab" id="headingTwo">
+          <a data-toggle="collapse" data-parent="#accordion" href="#how-to-apply" aria-expanded="true" aria-controls="how-to-apply">
+           <h3 class="panel-title pull-left">
+            How to Apply
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-down">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </a>
+         </div>
+         <div id="how-to-apply" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+           <ul class="side-links">
+            <ul>
+             <li>
+              <a href="/main/admissions/howwereviewapplications/">
+               How We Review Applications
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/earlydecisionchecklist/">
+               Early Decision Checklist
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/regulardecisionchecklist/">
+               Regular Decision Checklist
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingtoacooperativeprogram/">
+               Applying to a Cooperative Program
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingasaninternationalstudent/">
+               Applying as an International Student
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingasatransfer/">
+               Applying as a Transfer
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/transferchecklist/">
+               Transfer Checklist
+              </a>
+             </li>
+            </ul>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="panel panel-default">
+         <div class="panel-heading" role="tab" id="headingThree">
+          <a data-toggle="collapse" data-parent="#accordion" href="#paying-for-muhlenberg" aria-expanded="true" aria-controls="paying-for-muhlenberg">
+           <h3 class="panel-title pull-left">
+            Paying for Muhlenberg
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-down">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </a>
+         </div>
+         <div id="paying-for-muhlenberg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+           <ul class="side-links">
+            <ul>
+             <li>
+              <a href="/main/aboutus/finaid/">
+               Office of Financial Aid
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/costsandopportunities/">
+               Costs &amp; Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/therealdealonfinancialaid/">
+               The Real Deal on Financial Aid
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/finaid/prospectivestudents/merit.html">
+               Merit Scholarship
+              </a>
+             </li>
+            </ul>
+           </ul>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!--/end accordion-->
+      </div>
+      <!--Sidebar links-->
+      <div class="contact-box" data-sidebar-contact-target="data-sidebar-contact-target">
+      </div>
+     </div>
+     <a kdg-scroll-to="body, html" kdg-scroll-to-dur="500" class="hidden-sm hidden-md hidden-lg">
+      <div class="back-to-top">
+       <h5>
+        <span class="fa fa-chevron-up">
+        </span>
+       </h5>
+      </div>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--/container-->
+  <footer>
+   <div class="container">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!--JS Goes Here-->
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/kdg-ui.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/owl.carousel.min.js">
+  </script>
+  <!-- navigation object : Inline JS Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js">
+  </script>
+  <script>
+   var largeGrid = $('body, html').find('.grid-sizer');
+  $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'masonry',
+    percentPosition: (largeGrid.length) ? true : false,
+    masonry: {
+  		columnWidth: (largeGrid.length) ? '.grid-sizer' : null
+    }
+  });
+  </script>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

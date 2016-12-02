@@ -1,0 +1,2851 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css02/public.css" rel="stylesheet" />
+  <link href="/css02/common.css" rel="stylesheet" />
+  <link href="/css02/print.css" rel="stylesheet" media="print" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <title>
+   Calendar
+  </title>
+  <style>
+   .bootstrap-select.btn-group .btn .filter-option { font-size: 90%;}
+  </style>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js">
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js">
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js">
+  </script>
+  <script src="/js02/public.js">
+  </script>
+  <style>
+   /* adjust header width, desktop vs mobile */
+#s-lc-public-banner-img { width: 50%; }
+
+@media (max-width: 1024px) {
+    #s-lc-public-banner-img { width: 100%; }
+}
+
+/* adjust LibCal's header styling to better match Bootstrap's */ 
+h1#s-lc-public-header-title {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.s-lc-public-header-text {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* our own classes */
+.event-sidebar {
+    margin-bottom: .5em;
+}
+
+/* embiggen */
+.event-information {
+    font-size: 1.25em;
+}
+
+/* make the footer match the rest of the page */
+.s-lc-public-footer {
+    background-color: #fff;
+    border-top-color: #eee;
+}
+  </style>
+ </head>
+ <body id="index_php" class="s-lc-public s-lc-public-page-1">
+  <a id="s-lc-public-skiplink" class="alert-info" href="#s-lc-page-maincontent">
+   Skip to Main Content
+  </a>
+  <div class="sr-only" title="Information for Screenreader Users">
+  </div>
+  <div class="container">
+   <div id="s-lc-public-banner" class="row" role="banner">
+    <a href="http://trexler.muhlenberg.edu">
+     <img alt="Trexler Library Calendar" class="img-responsive" id="s-lc-public-banner-img" src="//lcimages.s3.amazonaws.com/data/headers/814/banner_-_logo_and_text_-_color.png" />
+    </a>
+   </div>
+   <div id="s-lc-public-bc" class="row">
+    <div class="col-md-12">
+     <ol class="breadcrumb">
+      <li>
+       <a href="http://trexler.muhlenberg.edu">
+        Trexler Library
+       </a>
+      </li>
+      <li class="active">
+       Calendar
+      </li>
+     </ol>
+    </div>
+   </div>
+   <noscript>
+    <div class="alert alert-danger" id="noscript">
+     Your browser has javascript disabled. Without javascript some functions will not work.
+    </div>
+   </noscript>
+   <div id="s-lc-public-header" class="s-lc-header row clearfix">
+    <div class="col-md-12">
+     <div class="s-lc-public-header-text">
+      <h1 id="s-lc-public-header-title">
+      </h1>
+      <div class="s-lc-public-header-description">
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="s-lc-page-maincontent" role="main">
+    <div class="s-lc-row row">
+     <div id="s-lc-page-column-0" class="s-lc-column-top col-md-12">
+      <div id="s-lc-box-12283-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-thinborder s-lc-box-type-1 s-lc-box-position-1">
+       <div id="s-lc-box-12283" class="s-lc-box s-lc-box-html">
+        <div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border">
+         <h2>
+          Building Hours
+         </h2>
+        </div>
+        <div class="s-lc-box-content clearfix">
+         <div id="s-lc-content-hours-12147" class="s-lc-content-hours s-lc-content s-lc-content-hours-t-2">
+          <div class="s-lc-h-w-cont cf">
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w1-12147" style="display: block;">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" disabled="disabled" title="Previous week" onclick="jQuery('#s-lc-w-w1-12147').hide();jQuery('#s-lc-w-w1-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w1-12147').hide();jQuery('#s-lc-w-w2-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Nov 27
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Nov 28
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Nov 29
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="s-lc-h-today-h">
+                <span class="s-lc-h-head-date">
+                 Nov 30
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 01
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 02
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 03
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                6pm &ndash; 1am
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Thanksgiving Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td class="s-lc-h-today">
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w2-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w2-12147').hide();jQuery('#s-lc-w-w1-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w2-12147').hide();jQuery('#s-lc-w-w3-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 04
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 05
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 06
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 07
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 08
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 09
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 10
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 12am
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w3-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w3-12147').hide();jQuery('#s-lc-w-w2-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w3-12147').hide();jQuery('#s-lc-w-w4-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 11
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 12
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 13
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 14
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 15
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 16
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 17
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-allday">
+                24 Hours
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-allday">
+                24 Hours
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-allday">
+                24 Hours
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                2am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w4-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w4-12147').hide();jQuery('#s-lc-w-w3-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w4-12147').hide();jQuery('#s-lc-w-w5-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 18
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 19
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 20
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 21
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 22
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 23
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 24
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w5-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w5-12147').hide();jQuery('#s-lc-w-w4-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w5-12147').hide();jQuery('#s-lc-w-w6-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 25
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 26
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 27
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 28
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 29
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 30
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Dec 31
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Christmas Holiday
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Christmas Holiday
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Christmas Holiday
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Christmas Holiday
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Christmas Holiday
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w6-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w6-12147').hide();jQuery('#s-lc-w-w5-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w6-12147').hide();jQuery('#s-lc-w-w7-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 01
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 02
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 03
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 04
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 05
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 06
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 07
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w7-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w7-12147').hide();jQuery('#s-lc-w-w6-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w7-12147').hide();jQuery('#s-lc-w-w8-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 08
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 09
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 10
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 11
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 12
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 13
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 14
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                9am &ndash; 5pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w8-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w8-12147').hide();jQuery('#s-lc-w-w7-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w8-12147').hide();jQuery('#s-lc-w-w9-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 15
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 16
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 17
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 18
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 19
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 20
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 21
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed">
+                Closed
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                6pm &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w9-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w9-12147').hide();jQuery('#s-lc-w-w8-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w9-12147').hide();jQuery('#s-lc-w-w10-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 22
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 23
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 24
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 25
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 26
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 27
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 28
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w10-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w10-12147').hide();jQuery('#s-lc-w-w9-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w10-12147').hide();jQuery('#s-lc-w-w11-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 29
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 30
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Jan 31
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 01
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 02
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 03
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 04
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w11-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w11-12147').hide();jQuery('#s-lc-w-w10-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w11-12147').hide();jQuery('#s-lc-w-w12-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 05
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 06
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 07
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 08
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 09
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 10
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 11
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w12-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w12-12147').hide();jQuery('#s-lc-w-w11-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w12-12147').hide();jQuery('#s-lc-w-w13-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 12
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 13
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 14
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 15
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 16
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 17
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 18
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w13-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w13-12147').hide();jQuery('#s-lc-w-w12-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w13-12147').hide();jQuery('#s-lc-w-w14-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 19
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 20
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 21
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 22
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 23
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 24
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 25
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w14-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w14-12147').hide();jQuery('#s-lc-w-w13-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w14-12147').hide();jQuery('#s-lc-w-w15-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 26
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 27
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Feb 28
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 01
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 02
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 03
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 04
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                8am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w15-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w15-12147').hide();jQuery('#s-lc-w-w14-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w15-12147').hide();jQuery('#s-lc-w-w16-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 05
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 06
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 07
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 08
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 09
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 10
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 11
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                9am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                9am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                9am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                9am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                9am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w16-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w16-12147').hide();jQuery('#s-lc-w-w15-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w16-12147').hide();jQuery('#s-lc-w-w17-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 12
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 13
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 14
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 15
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 16
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 17
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 18
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                6pm &ndash; 1am
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Spring Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w17-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w17-12147').hide();jQuery('#s-lc-w-w16-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w17-12147').hide();jQuery('#s-lc-w-w18-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 19
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 20
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 21
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 22
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 23
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 24
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 25
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w18-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w18-12147').hide();jQuery('#s-lc-w-w17-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w18-12147').hide();jQuery('#s-lc-w-w19-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 26
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 27
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 28
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 29
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 30
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Mar 31
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 01
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w19-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w19-12147').hide();jQuery('#s-lc-w-w18-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" title="Next week" onclick="jQuery('#s-lc-w-w19-12147').hide();jQuery('#s-lc-w-w20-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 02
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 03
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 04
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 05
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 06
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 07
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 08
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 10pm
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                10am &ndash; 7pm
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+           <div class="s-lc-h-sw table-responsive" id="s-lc-w-w20-12147">
+            <table class="table table-condensed table-hover s-lc-h-w">
+             <caption class="sr-only">
+              Display of Opening hours
+             </caption>
+             <thead>
+              <tr>
+               <th class="s-lc-h-bh">
+                <button class="btn btn-default btn-sm" title="Previous week" onclick="jQuery('#s-lc-w-w20-12147').hide();jQuery('#s-lc-w-w19-12147').fadeIn();">
+                 <i class="fa fa-angle-double-left">
+                 </i>
+                </button>
+                <button class="btn btn-default btn-sm" disabled="disabled" title="Next week" onclick="jQuery('#s-lc-w-w20-12147').hide();jQuery('#s-lc-w-w20-12147').fadeIn();">
+                 <i class="fa fa-angle-double-right">
+                 </i>
+                </button>
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 09
+                 <br />
+                </span>
+                Sunday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 10
+                 <br />
+                </span>
+                Monday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 11
+                 <br />
+                </span>
+                Tuesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 12
+                 <br />
+                </span>
+                Wednesday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 13
+                 <br />
+                </span>
+                Thursday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 14
+                 <br />
+                </span>
+                Friday
+               </th>
+               <th class="">
+                <span class="s-lc-h-head-date">
+                 Apr 15
+                 <br />
+                </span>
+                Saturday
+               </th>
+              </tr>
+             </thead>
+             <tr class="s-lc-h-loc s-lc-h-tr_2229 libbg_2229">
+              <td class="s-lc-h-locname">
+               <a href="http://trexler.muhlenberg.edu">
+                Trexler Library
+               </a>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                11am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time">
+                8am &ndash; 1am
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-time s-lc-h-excep">
+                8am &ndash; 5pm
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Easter Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Easter Recess
+               </span>
+              </td>
+              <td>
+               <span class="s-lc-closed s-lc-h-excep">
+                Closed
+               </span>
+               <span class="s-lc-note s-lc-h-excep">
+                Easter Recess
+               </span>
+              </td>
+             </tr>
+            </table>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div id="s-lc-box-12306-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-borderless s-lc-box-type-1 s-lc-box-position-2">
+       <div id="s-lc-box-12306" class="s-lc-box s-lc-box-html">
+        <div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border">
+         <h2>
+          All Events
+         </h2>
+        </div>
+        <div class="s-lc-box-content clearfix">
+         <div id="s-lc-content-cal-12174" class="s-lc-content-cal s-lc-content">
+          <div class="s-lc-content-cal-filters" style="clear:both;">
+           <select name="cats" id="s-lc-content-cal-cats12174" onchange="filter12174();" class="selectpicker" multiple="multiple" title="Category" data-size="15" data-selected-text-format="count&gt;2">
+            2"&gt;
+            <option value="24331">
+             Event
+            </option>
+            <option value="23805">
+             Film Screening
+            </option>
+            <option value="24329">
+             Library Instruction
+            </option>
+            <option value="24332">
+             Library Staff
+            </option>
+            <option value="24330">
+             Meeting
+            </option>
+           </select>
+          </div>
+          <div id="s-lc-content-cal-12174-2633" class="s-lc-calcon" style="clear:both;">
+          </div>
+          <script>
+           var baseURL12174 = "/process_cal.php?c=2633&amp;sp=0";
+		var cal_ops12174 = {"head_l":"prev,next today","head_c":"title","head_r":"basicWeek agendaDay,agendaWeek,month","title_d":"dddd, MMM D, YYYY","title_w":"MMMM D","title_m":"MMMM YYYY","col_d":"dddd M\/D","col_w":"ddd M\/D","col_m":"ddd","time_a":"h(:mm)a","time_d":"h(:mm)a","time_m":"h(:mm)a","start":0,"weekends":true,"first":"08:00:00","min_time":"00:00:00","max_time":"01:00:00","timeslots":"00:30:00","eoverlap":false,"default_view":"month","sp":0,"eventLimit":4,"set":false,"search_evt_template":"&lt;div class=\"media s-lc-c-evt\"&gt;&lt;div class=\"media-body\"&gt; &lt;h3 class=\"media-heading\"&gt;&lt;a href=\"{{url}}\"&gt;{{title}}&lt;\/a&gt;&lt;\/h3&gt; &lt;div class=\"s-lc-c-evt-des\"&gt;{{{shortdesc}}}&lt;\/div&gt; &lt;dl class=\"dl-horizontal\"&gt; &lt;dt&gt;Date:&lt;\/dt&gt;&lt;dd&gt;{{date}}&lt;\/dd&gt;&lt;dt&gt;Time:&lt;\/dt&gt;&lt;dd&gt;{{start}}{{#end}} - {{end}}{{\/end}}&lt;\/dd&gt; &lt;dt&gt;Location:&lt;\/dt&gt;&lt;dd&gt;{{#location}}{{location}}, {{\/location}}{{#campus}}{{campus}}{{\/campus}}&lt;\/dd&gt; &lt;dt&gt;Categories:&lt;\/dt&gt;&lt;dd&gt;{{#categories_arr}}&lt;span class=\"label\" style=\"background-color:{{color}}\"&gt;{{name}}&lt;\/span&gt; {{\/categories_arr}}&lt;\/dd&gt;&lt;\/dd&gt;&lt;dt&gt;&lt;\/dt&gt;&lt;dd&gt;{{#seats}}&lt;a href=\"{{url}}\" class=\"btn btn-success btn-sm margin-top-med\"&gt;Register! {{#seatsleft}} - {{seatsleft}} seats left{{\/seatsleft}}&lt;\/a&gt;{{\/seats}}&lt;\/dd&gt; &lt;\/dl&gt;&lt;\/div&gt;{{#featured_image}} &lt;div class=\"media-right\"&gt; &lt;a href=\"{{url}}\"&gt; &lt;img class=\"media-object img-thumbnail s-lc-c-evt-fi\" src=\"{{featured_image}}\" alt=\"{{title}}\"&gt; &lt;\/a&gt; &lt;\/div&gt; {{\/featured_image}} &lt;\/div&gt;","month_cal_template":"&lt;div class=\"s-lc-mc-evt\" style=\"border-left:3px solid {{color}}\"&gt;&lt;a href=\"{{url}}\" data-toggle=\"popover\" data-placement=\"top\" data-container=\"body\" data-html=\"true\" data-trigger=\"hover\" title=\"{{title}}\" data-content=\"&lt;dl class=dl-horizontal&gt;&lt;dt&gt;Time&lt;\/dt&gt;&lt;dd&gt;{{start}} {{end}}&lt;\/dd&gt; {{#loc}}&lt;dt&gt;Location&lt;\/dt&gt;&lt;dd&gt;{{loc}}&lt;\/dd&gt;{{\/loc}} {{#campus}}&lt;dt&gt;Campus&lt;\/dt&gt;&lt;dd&gt;{{campus}}&lt;\/dd&gt;{{\/campus}} {{#categories}}&lt;dt&gt;Categories&lt;\/dt&gt;&lt;dd&gt;{{#categories_arr}}&lt;span class=label style=background-color:{{color}}&gt;{{name}}&lt;\/span&gt; {{\/categories_arr}}&lt;\/dd&gt;{{\/categories}} {{#presenter}}&lt;dt&gt;Presenter&lt;\/dt&gt;&lt;dd&gt;{{presenter}}&lt;\/dd&gt;{{\/presenter}} {{#seats}}&lt;dt&gt;Seats&lt;\/dt&gt;&lt;dd&gt;{{seatsleft}} seats remaining \/ {{seats}} seats. &lt;\/dd&gt;{{\/seats}} {{#shortdesc}}&lt;dt&gt;Description&lt;\/dt&gt;&lt;dd&gt;{{shortdesc}}&lt;\/dd&gt;{{\/shortdesc}}&lt;\/dl&gt;\"&gt;{{title}}&lt;\/a&gt;&lt;br&gt;&lt;div class=\"s-lc-mc-evt-loc\"&gt;{{location}}&lt;\/div&gt;&lt;div class=\"s-lc-mc-evt-time\"&gt;{{start}}&lt;\/div&gt;&lt;\/div&gt;","default_public_view":"m"};
+		var colors12174 = {"cttc":"#000000","chtc":"#000000","chbc":"#F3F3F3","cbc":"#D0D0D0","cdnc":"#000000"};
+		var cal12174 = jQuery("#s-lc-content-cal-12174-2633");
+		 		
+		jQuery(function(){ 
+			jQuery("#s-lc-content-cal-cats12174").selectpicker({
+				countSelectedText: "Category",
+				header: "Filter by Category:",
+				width: "130px",
+				style: "btn-sm"
+
+			});
+			
+			jQuery("#s-lc-content-cal-camps12174").selectpicker({
+				countSelectedText: "",
+				header: "Filter by :",
+				width: "130px",
+				style: "btn-sm"
+
+			});				
+		
+			cal12174.fullCalendar({
+				schedulerLicenseKey: "1275660714-fcs-1440079714",
+				header: {
+					left: cal_ops12174.head_l,
+					center: cal_ops12174.head_c,
+					right: cal_ops12174.head_r
+				},
+				timeFormat: {
+					basic: cal_ops12174.time_a,
+					agenda: cal_ops12174.time_d,
+					month: cal_ops12174.time_m 
+				},
+				columnFormat: {
+					month: cal_ops12174.col_m,
+					week: cal_ops12174.col_w,
+					day: cal_ops12174.col_d
+				},
+				titleFormat: {
+					month: cal_ops12174.title_m,
+					week: cal_ops12174.title_w,
+					day: cal_ops12174.title_d
+				},
+				firstDay: cal_ops12174.start,
+				weekends: cal_ops12174.weekends,
+				scrollTime: cal_ops12174.first,
+				defaultView: cal_ops12174.default_view,
+				minTime: cal_ops12174.min_time,
+				maxTime: cal_ops12174.max_time,
+				slotDuration: cal_ops12174.timeslots,
+				slotEventOverlap: cal_ops12174.eoverlap,
+				displayEventEnd: { "month": cal_ops12174.set, "basicWeek": cal_ops12174.set, "agendaWeek": cal_ops12174.set, "day": cal_ops12174.set, "default":cal_ops12174.set },
+				events: baseURL12174,
+				eventLimit:	{  "basic": false, "default": cal_ops12174.eventLimit },				
+				buttonText: {
+					today:    "Today",
+					week:     "Week",
+					month:    "Month",
+					day:      "Day",
+					basicWeek: "Agenda"
+				},
+				monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+				monthNamesShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+				dayNames: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+				dayNamesShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+				allDayText: "All Day",
+				height: "auto",
+				loading: function(bool) {
+					if (bool){ jQuery("#s-lc-cal-loading").show(); }
+					else { jQuery("#s-lc-cal-loading").hide(); }
+				},
+				eventClick: function(calEvent, jsEvent, view) {
+					jQuery("#ett"+calEvent.id).fadeOut(100).remove();
+					window.location.href = calEvent.url;
+				},
+				eventMouseover: function(calEvent, jsEvent, view) {
+					var content = "&lt;strong class=\"s-lc-cal-tip-title\"&gt;"+calEvent.title+"&lt;/strong&gt;";
+					if(calEvent.allDay){
+						content+= "&lt;span id=""&gt;&lt;strong&gt;Time:&lt;/strong&gt; All Day&lt;br&gt;&lt;/span&gt;";
+					}else{
+						content+= "&lt;span id=""&gt;&lt;strong&gt;Time:&lt;/strong&gt; "+jQuery.fullCalendar.moment(calEvent.start).format(cal_ops12174.time_m) + " - ";
+						content+= jQuery.fullCalendar.moment(calEvent.end).format(cal_ops12174.time_m) + "&lt;br&gt;&lt;/span&gt;";
+					}
+					if(calEvent.location !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;Location:&lt;/strong&gt; "+calEvent.location + "&lt;br&gt;&lt;/span&gt;"; }
+					if(calEvent.campus !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;:&lt;/strong&gt; "+calEvent.campus + "&lt;br&gt;&lt;/span&gt;"; } 
+					if(calEvent.pres !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;Presenter:&lt;/strong&gt; "+calEvent.pres + "&lt;br&gt;&lt;/span&gt;"; }
+					if(calEvent.categories !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;Categories:&lt;/strong&gt; "+calEvent.categories + "&lt;br&gt;&lt;/span&gt;"; } 
+					if(calEvent.seats !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;Seats:&lt;/strong&gt; "+ calEvent.seats + "&lt;br&gt;&lt;/span&gt;"; }
+					if(calEvent.short_desc !=""){ content+= "&lt;span id=""&gt;&lt;strong&gt;Description:&lt;/strong&gt; "+ calEvent.short_desc + "&lt;br&gt;&lt;/span&gt;"; }
+					
+					jQuery("body").append("&lt;div class=""&gt;"+content+"&lt;/div&gt;");
+					
+					jQuery("#ett"+calEvent.id).css("z-index","99999")
+										 .css("top",jsEvent.pageY+15)
+										 .css("left",jsEvent.pageX-15)
+										 .css("background-color",calEvent.backgroundColor)
+										 .css("border-color",calEvent.borderColor)
+										 .css("color",calEvent.textColor)
+										 .fadeIn(400);
+					jQuery(".s-lc-cal-tip-title").css("border-color",calEvent.borderColor);
+				},
+				eventMouseout: function(calEvent, jsEvent, view) {
+					jQuery("#ett"+calEvent.id).fadeOut(100).remove();
+				},
+				viewRender: function(view, el) {
+					colorize12174();
+					
+				}
+					
+			}); //end cal
+			
+			jQuery( ".fc-button" ).each(function() {
+			  jQuery( this ).addClass("btn btn-default").removeClass("fc-button fc-state-default fc-corner-left fc-corner-right fc-button-next fc-button-prev");
+			});
+			
+			
+		});
+
+			
+		function filter12174(){
+
+			cal12174.fullCalendar( "removeEventSource", baseURL12174);
+			var cats = jQuery("#s-lc-content-cal-cats12174").val();
+			var camp = jQuery("#s-lc-content-cal-camps12174").val();
+			baseURL12174 = "/process_cal.php?c=2633&sp;=0&cats;="+cats+"&camps;="+camp;
+			cal12174.fullCalendar( "addEventSource", baseURL12174);
+			return false;
+		}
+
+	
+		function colorize12174(){
+			jQuery("#s-lc-content-cal-12174-2633 .fc-header-title h2").css("color",colors12174.cttc);
+			jQuery("#s-lc-content-cal-12174-2633 .fc-widget-header").css("color",colors12174.chtc);
+			jQuery("#s-lc-content-cal-12174-2633 .fc-widget-header").css("background-color",colors12174.chbc);
+			jQuery("#s-lc-content-cal-12174-2633 .fc-widget-header, .fc-widget-content").css("border-color",colors12174.cbc);
+			jQuery("#s-lc-content-cal-12174-2633 .fc-day-number").css("color",colors12174.cdnc);
+		
+		}
+          </script>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="s-lc-row row">
+     <div id="s-lc-page-column-1" class="s-lc-page-column col-md-6">
+      <div id="s-lc-box-12282-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-thinborder s-lc-box-type-1 s-lc-box-position-1">
+       <div id="s-lc-box-12282" class="s-lc-box s-lc-box-html">
+        <div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border">
+         <h2>
+          Upcoming Events
+         </h2>
+        </div>
+        <div class="s-lc-box-content clearfix">
+         <div id="s-lc-content-evt-12146" class="s-lc-content-evt s-lc-content">
+          <div class="s-lc-evt">
+           <div class="s-lc-evt-date">
+            <div class="s-lc-evt-date-m">
+             Nov
+            </div>
+            <div class="s-lc-evt-date-d">
+             30
+            </div>
+           </div>
+           <div class="s-lc-evt-title">
+            <a href="http://muhlenberg.libcal.com/event/2797586">
+             FRN 204 - Delicatessen
+            </a>
+           </div>
+           <div>
+            6:00pm - 8:00pm,
+    B-02
+           </div>
+           <div>
+            <span class="label" style="background-color:#C7C7C7">
+             Film Screening
+            </span>
+           </div>
+          </div>
+          <div class="s-lc-evt">
+           <div class="s-lc-evt-date">
+            <div class="s-lc-evt-date-m">
+             Dec
+            </div>
+            <div class="s-lc-evt-date-d">
+             1
+            </div>
+           </div>
+           <div class="s-lc-evt-title">
+            <a href="http://muhlenberg.libcal.com/event/2914280">
+             Senior Portraits-RBR
+            </a>
+           </div>
+           <div>
+            8:00am - 11:00pm,
+    Rare Books Room
+           </div>
+           <div>
+            <span class="label" style="background-color:#F5E105">
+             Event
+            </span>
+           </div>
+          </div>
+          <div class="s-lc-evt">
+           <div class="s-lc-evt-date">
+            <div class="s-lc-evt-date-m">
+             Dec
+            </div>
+            <div class="s-lc-evt-date-d">
+             1
+            </div>
+           </div>
+           <div class="s-lc-evt-title">
+            <a href="http://muhlenberg.libcal.com/event/2777500">
+             HST 405 - Civilisation - Pt. 7 Grandeur and Obedience
+            </a>
+           </div>
+           <div>
+            12:30pm - 1:45pm,
+    B-02
+           </div>
+           <div>
+            <span class="label" style="background-color:#C7C7C7">
+             Film Screening
+            </span>
+           </div>
+          </div>
+          <div class="s-lc-evt">
+           <div class="s-lc-evt-date">
+            <div class="s-lc-evt-date-m">
+             Dec
+            </div>
+            <div class="s-lc-evt-date-d">
+             1
+            </div>
+           </div>
+           <div class="s-lc-evt-title">
+            <a href="http://muhlenberg.libcal.com/event/2770703">
+             Sherri Young-Writing
+            </a>
+           </div>
+           <div>
+            1:15pm - 3:15pm,
+    Fulford Room
+           </div>
+           <div>
+            <span class="label" style="background-color:#70D488">
+             Meeting
+            </span>
+           </div>
+          </div>
+          <div class="s-lc-evt">
+           <div class="s-lc-evt-date">
+            <div class="s-lc-evt-date-m">
+             Dec
+            </div>
+            <div class="s-lc-evt-date-d">
+             1
+            </div>
+           </div>
+           <div class="s-lc-evt-title">
+            <a href="http://muhlenberg.libcal.com/event/2995916">
+             ATH 284 Seminar
+            </a>
+           </div>
+           <div>
+            1:30pm - 3:30pm,
+    Seminar C
+           </div>
+           <div>
+            <span class="label" style="background-color:#F5E105">
+             Event
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="s-lc-page-column-2" class="s-lc-page-column col-md-6">
+      <div id="s-lc-box-12268-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-thinborder s-lc-box-type-1 s-lc-box-position-1">
+       <div id="s-lc-box-12268" class="s-lc-box s-lc-box-html">
+        <div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border">
+         <h2>
+          Search
+         </h2>
+        </div>
+        <div class="s-lc-box-content clearfix">
+         <div id="s-lc-content-text-12113" class="s-lc-content-text s-lc-content cf">
+         </div>
+         <div id="s-lc-content-evts-12114" class="s-lc-content-evts s-lc-content">
+          <form action="#" role="search" method="get" onsubmit="return runSearch_12114();">
+           <label for="esq_12114" class="sr-only">
+            Search
+           </label>
+           <div class="input-group">
+            <input type="text" class="form-control" name="q" id="esq_12114" placeholder="Search for event..." aria-required="true" aria-label="Search for event..." autocomplete="off" />
+            <span class="input-group-btn">
+             <button class="btn btn-info" type="submit" id="esqb_12114">
+              Search
+             </button>
+            </span>
+           </div>
+          </form>
+          <div id="search_res_12114" class="margin-top-med s-lc-search_res">
+          </div>
+          <script>
+           var template = '&lt;div class=\"media s-lc-c-evt\"&gt;&lt;div class=\"media-body\"&gt; &lt;h3 class=\"media-heading\"&gt;&lt;a href=\"{{url}}\"&gt;{{title}}&lt;/a&gt;&lt;/h3&gt; &lt;div class=""&gt;{{{shortdesc}}}&lt;/div&gt; &lt;dl class=""&gt; &lt;dt&gt;Date:&lt;/dt&gt;&lt;dd&gt;{{date}}&lt;/dd&gt;&lt;dt&gt;Time:&lt;/dt&gt;&lt;dd&gt;{{start}}{{#end}} - {{end}}{{/end}}&lt;/dd&gt; &lt;dt&gt;Location:&lt;/dt&gt;&lt;dd&gt;{{#location}}{{location}}, {{/location}}{{#campus}}{{campus}}{{/campus}}&lt;/dd&gt; &lt;dt&gt;Categories:&lt;/dt&gt;&lt;dd&gt;{{#categories_arr}}&lt;span class="label" style=""&gt;&lt;a href=""&gt;{{name}}&lt;/a&gt;&lt;/span&gt; {{/categories_arr}}&lt;/dd&gt;&lt;dt&gt;&lt;/dt&gt;&lt;dd&gt;{{#seats}}&lt;a href=""&gt;Register! {{#seatsleft}} - {{seatsleft}} seats left{{/seatsleft}}&lt;/a&gt;{{/seats}}&lt;/dd&gt; &lt;/dl&gt;&lt;/div&gt;{{#featured_image}} &lt;div class=""&gt; &lt;a href=""&gt; &lt;img class=""&gt; &lt;/a&gt; &lt;/div&gt; {{/featured_image}} &lt;/div&gt;';
+	
+						jQuery("#esqb_12114").click(function() {
+							runSearch_12114();
+							return false;
+						});
+						jQuery("#esq_12114").keyup(function(e){
+							if(e.keyCode == 13){
+								runSearch_12114();
+								return false;
+							}
+						});
+						function runSearch_12114(){
+							var q = jQuery("#esq_12114").val();
+							var sr = jQuery("#search_res_12114");
+							
+							if(q.length &lt; 2) {
+								sr.html('').removeClass('s-lc-search_results');
+								errorAlert("Search string must be at least 2 characters.");
+								return false;
+							}
+
+							sr.html('&lt;p class="text-center"&gt;&lt;br&gt;&lt;i class="fa fa-spinner fa-spin fa-3x"&gt;&lt;/i&gt;&lt;/p&gt;');
+
+							$.ajax({
+								url: "/process_search.php?site_id=7272&cal;_id=0&perpage;=10&q;="+encodeURIComponent(q)+"&callback;=?",
+								dataType: "jsonp",
+								success: function(searchData){
+									
+									var output = "";
+									if(searchData.status == 0){
+										output = "&lt;p&gt;"+searchData.error+"&lt;/p&gt;";
+									}
+									if(searchData.status == 1){
+										
+										var results = searchData.results.length;
+										if(results &lt; 1){
+											output = "&lt;p class=""&gt;No results found!...&lt;/p&gt;";
+										}else{
+											//Loop over each result
+											for(var i=0;i&lt;results&gt;
+          </script>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="s-lc-row row">
+     <div id="s-lc-page-column-4" class="s-lc-column-bottom col-md-12">
+     </div>
+    </div>
+   </div>
+   <div id="s-lc-public-footer" class="s-lc-public-footer row" role="contentinfo">
+    <div id="s-lc-public-footer-brand">
+     <span title="LC2">
+      Powered by
+     </span>
+     <a href="http://www.springshare.com">
+      Springshare
+     </a>
+     .
+    </div>
+    <div id="s-lc-public-footer-rights">
+     All rights reserved.
+    </div>
+    <div id="s-lc-footer-support-link">
+     <a href="mailto:tclarke@muhlenberg.edu">
+      Report a tech support issue.
+     </a>
+    </div>
+    <div id="s-lc-public-footer-admin-links">
+     <a id="s-lc-sign-in" href="https://muhlenberg.libapps.com/libapps/login.php?site_id=7272&amp;target=">
+      Login to LibApps
+     </a>
+    </div>
+   </div>
+  </div>
+  <script src="//api3.libcal.com/js02/myscheduler.js">
+  </script>
+  <script>
+   jQuery('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+						jQuery(".s-lc-calcon").fullCalendar("render");
+					});
+  </script>
+  <script>
+   hit('814','home','r');
+  </script>
+ </body>
+</html>

@@ -1,0 +1,1368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Notetaking Strategies - Disability Services | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Disability Services
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/disabilities/">
+               Disability Services
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/disabilities/notetakingstrategies/">
+               Notetaking Strategies
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <p>
+            <strong>
+             Introduction to Note Taking
+            </strong>
+           </p>
+           <p>
+            Note taking is an essential learning skill for college students to implement during and outside of class time. The notes recorded during a class lecture should be compiled of the important facts or ideas presented by the professor. Implementing a system of note taking is important for several reasons. First, the faculty member may be presenting supplemental material not found in your text book but critical for you to learn in order to make a connection to prior knowledge or introduce new material within your textbook. Secondly, the information presented within a lecture may be used for future assessments (quizzes, exams, reflection papers).&nbsp; Finally, a system of good note taking is an important study strategy. Actively listening and taking notes during class increases the retention of the material. Reviewing the notes immediately after class to add additional points or to generate questions for clarification creates opportunity for additional retention and understanding. Effective note taking skills will assist in preparing for exams and future knowledge base of material.
+           </p>
+           <p>
+            <strong>
+             Getting Organized
+            </strong>
+           </p>
+           <p>
+            A 3-ring binder is usually the most organized system for note taking. This allows you to place your syllabi in the front, insert handouts by date, and add notes as needed. It also allows you to remove sections of notes and place them side by side to create a &ldquo;big picture&rdquo; view of a main point, chapter, or section.
+           </p>
+           <p>
+            <strong>
+             Before Class
+            </strong>
+           </p>
+           <p>
+            <em>
+             Effective note taking begins prior to class by creating a framework of reference. This strategy provides familiarity with terms, ideas and concepts discussed in lecture and leads to an active role in your own learning.
+             <br />
+             <br />
+            </em>
+           </p>
+           <ul>
+            <li>
+             Determine the lecture topic and review past readings and notes
+            </li>
+            <li>
+             Complete readings assigned to lecture topics and preview any other auxiliary material (Power Point presentation, video clips, etc&hellip;)
+            </li>
+            <li>
+             Prepare questions you may have from the readings
+            </li>
+           </ul>
+           <p>
+            <strong>
+             During Class
+            </strong>
+           </p>
+           <p>
+            <a href="http://www.dartmouth.edu/~acskills/videos/video_nt.html">
+             http://www.dartmouth.edu/~acskills/videos/video_nt.html
+            </a>
+           </p>
+           <p>
+            <em>
+             Depending on the type of class and personal learning style, you will develop your own method of taking notes. Here are some guidelines and methods to assist with the process:
+             <br />
+             <br />
+            </em>
+           </p>
+           <ul>
+            <li>
+             Date your notes
+            </li>
+            <li>
+             Keep the objective/theme of the class in mind
+            </li>
+            <li>
+             Record notes in your own words
+            </li>
+            <li>
+             Make your notes brief
+            </li>
+            <li>
+             If you fall behind, stop. Make a mark in your notebook, listen for a few minutes until you feel caught up, then begin taking notes again.&nbsp; It is better to listen and get the information later.
+            </li>
+           </ul>
+           <p>
+            <strong>
+             Three Common Note Taking Methods:
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Cornell Method
+            </strong>
+           </p>
+           <p>
+            The Cornell Method is a systematic and simple method for note taking that breaks the note page into three sections to allow for organized recording and review.&nbsp; You can use it while reading your text or taking lecture notes.
+            <br />
+            <a href="/media/contentassets/pdf/about/disabilities/Cornell Note.pdf">
+             Cornell Note-Taking Template
+            </a>
+            <br />
+            <a href="/media/contentassets/pdf/about/disabilities/Cornell Notes2.pdf">
+             Cornell Notes Example
+            </a>
+           </p>
+           <p>
+            <strong>
+             Outlining
+            </strong>
+           </p>
+           <p>
+            Record main ideas to the left of the page.&nbsp; Indent more specific information underneath and further indent examples.
+            <br />
+            <a href="/media/contentassets/pdf/about/disabilities/Outlining.pdf">
+             Outlining Example
+            </a>
+           </p>
+           <p>
+            <strong>
+             Charting
+            </strong>
+           </p>
+           <p>
+            Charting is a good strategy for courses that require comparison/contrast of specific dates, places, people, events, importance and how the information relates.
+            <br />
+            <a href="/media/contentassets/pdf/about/disabilities/Charting.pdf">
+             Charting Example
+            </a>
+           </p>
+           <p>
+            <strong>
+             After Class
+            </strong>
+           </p>
+           <p>
+            <em>
+             To solidify your understanding and connect new concepts with previous concepts, review your notes as soon as possible following class.
+             <br />
+             <br />
+            </em>
+           </p>
+           <ul>
+            <li>
+             Immediately after class, remain in the classroom or find a quiet space close by and review notes.
+            </li>
+            <li>
+             Connect with another member of the class and create an interactive discussion about the lecture.
+            </li>
+            <li>
+             Visit your professor during office hours with questions. Be specific, state what you understand and ask if you missed any important concepts.
+            </li>
+            <li>
+             Instead of recopying your notes, record yourself reviewing what you wrote. Speaking out loud is an interactive process that leads to a more in depth understanding. Additionally, you will have a recording that can be played back.
+            </li>
+           </ul>
+           <p>
+            <strong>
+             Additional Resources
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="http://www.byui.edu/academic-support-centers/study-skills/study-skills-videos/note-taking">
+              http://www.byui.edu/academic-support-centers/study-skills/study-skills-videos/note-taking
+             </a>
+            </li>
+            <li>
+             <a href="http://web2.scranton.edu/ctle-tutorials/videos/note_taking/note_taking.html">
+              http://web2.scranton.edu/ctle-tutorials/videos/note_taking/note_taking.html
+             </a>
+            </li>
+            <li>
+             <strong>
+              <a onclick="toggleContent('1')">
+               Note Taking Apps
+              </a>
+             </strong>
+            </li>
+           </ul>
+           <div id="1" style="display: none;">
+            <table border="1" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px; width: 110px;" valign="middle">
+                <p>
+                 <strong>
+                  General
+                 </strong>
+                </p>
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="https://evernote.com/?var=c" target="_blank">
+                  Evernote
+                 </a>
+                 <br />
+                 <a href="https://evernote.com/?var=c" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/1-70x70.png" alt="1" style="     " />
+                 </a>
+                 &zwnj;
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 For note-taking, research, creating to-dos, lists and attaching images, and PDF's. Instantly synchronizes from computer to smartphone, tablet and the web.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS and Android compatible.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="https://www.dropbox.com/" target="_blank">
+                  Dropbox
+                 </a>
+                 <br />
+                 <a href="https://www.dropbox.com/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/2-70x70.png" alt="2" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Free service that lets you store your photos, docs, and videos in the cloud and share them easily. Synchronizes from computer to smartphone, tablet and the web..
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS and Android compatible
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://www.bridworks.com/anote/en/main/index.php" target="_blank">
+                  Awesome Note
+                 </a>
+                 <br />
+                 <a href="http://www.bridworks.com/anote/en/main/index.php" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/3-70x70.png" alt="3" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                 &zwnj;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Note-taking application and to-do manager that allow you to combine notes with to-do flexibility
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS and GalaxyNote compatible.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <strong>
+                  Mapping
+                 </strong>
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://www.inspiration.com/" target="_blank">
+                  Inspiration
+                 </a>
+                 <br />
+                 <a href="http://www.inspiration.com/" target="_blank">
+                  &zwnj;
+                  <img src="/media/contentassets/images/about/disabilities/4-70x70.png" alt="4" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 App for mind maps and graphic organizers to help you: brainstorm and visualize ideas with maps and diagrams; organize thoughts and information; make sense of complex concepts and projects.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS compatibility only.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://www.simpleapps.eu/simplemind/" target="_blank">
+                  Simple Mind
+                 </a>
+                 <br />
+                 <a href="http://www.simpleapps.eu/simplemind/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/5-70x70.jpg" alt="5" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Mind mapping tool that turns your iPad, iPhone or iPod Touch into a brainstorming, idea collection and thought structuring device.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS compatibility only.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="https://coggle.it/" target="_blank">
+                  Coggle
+                 </a>
+                 <br />
+                 <a href="https://coggle.it/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/6-70x70.png" alt="6" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Mapping tool allows users several advanced features to diagram information and use it for collaborative aspects project management, report writing, and just brainstorming.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            <table border="1" cellpadding="0" cellspacing="0">
+             <tbody>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px; width: 110px;" valign="middle">
+                <p>
+                 <strong>
+                  Note Taking
+                 </strong>
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://gingerlabs.com/" target="_blank">
+                  Noteability
+                 </a>
+                 <br />
+                 <a href="http://gingerlabs.com/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/7-70x70.png" alt="7" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Note-Taking app that allows you to create, illustrate, outline, annotate, record, capture photos. Automatic cloud synchronizing to iPhone and iPad..
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS compatibility only
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://notesplusapp.com/" target="_blank">
+                  Notesplus
+                 </a>
+                 <br />
+                 <a href="http://notesplusapp.com/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/8-70x70.png" alt="8" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Note-Taking app that allows you to type, draw or record notes. Import and annotate and highlight on PDF's. Easily allows for exporting to various outlets.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS compatibility only.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://www.iannotate.com/" target="_blank">
+                  iAnnotate PDF
+                 </a>
+                 <br />
+                 <a href="http://www.iannotate.com/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/9-70x70.png" alt="9" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 PDF document reader that allows for reading, annotating and sharing PDF documents, Word/PowerPoint files and images.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS and Android compatible.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="http://www.adobe.com/" target="_blank">
+                  Adobe Acrobat Reader
+                 </a>
+                 <br />
+                 <a href="http://www.adobe.com/" target="_blank">
+                  <img src="/media/contentassets/images/about/disabilities/10-70x70.jpg" alt="10" style="     " />
+                 </a>
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 PDF document reader app that allows for reading and annotating PDF's across various platforms.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 iOS and Android compatible.
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <strong>
+                  Other Technology
+                 </strong>
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 <a href="https://www.livescribe.com/en-us/smartpen/" target="_blank">
+                  Smart Pen
+                  <img src="/media/contentassets/images/about/disabilities/11-70x70.jpg" alt="11" style="     " />
+                 </a>
+                 &zwnj;
+                 <br />
+                 <br />
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 A smartpen that synchronizes handwritten notes with recorded audio and converts them into digital format.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Digital Voice Recorder
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 Digital voice recorders convert sound into a digital file that can be moved from one electronic device to another, played back by a computer, tablet or smartphone and stored as a digital file.
+                </p>
+               </td>
+               <td align="center" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="middle">
+                <p>
+                 &nbsp;
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <p>
+            <strong>
+             Reference List
+            </strong>
+           </p>
+           <p>
+            Thum, C.&nbsp; (Producer). (1996) Academic Success Videos.
+            <em>
+             Notetaking
+            </em>
+            . Video retrieved
+           </p>
+           <p>
+            &nbsp;&nbsp;&nbsp;&nbsp; from http://www.dartmouth.edu/~acskills/videos/video_nt.html
+           </p>
+           <p>
+            <em>
+             Note Taking
+            </em>
+            . Video retrieved from
+           </p>
+           <p>
+            &nbsp;&nbsp;&nbsp;&nbsp; http://www.byui.edu/academic-support-centers/study-skills/study-skills-videos/note-taking
+           </p>
+           <p>
+            Learning Strategies.
+            <em>
+             Effective Note Taking
+            </em>
+            . Video retrieved from
+           </p>
+           <p>
+            &nbsp;&nbsp;&nbsp; http://web2.scranton.edu/ctle-tutorials/videos/note_taking/note_taking.html
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            &nbsp;
+           </p>
+          </div>
+          <!-- Content Template End-->
+          <script type="text/javascript">
+           function toggleContent(id) {
+  // Get the DOM reference
+  var contentId = document.getElementById(id);
+  // Toggle 
+  contentId.style.display == "block" ? contentId.style.display = "none" : 
+contentId.style.display = "block"; 
+}
+          </script>
+          <script type="text/javascript">
+           function toggleContent(id) {
+
+
+
+
+
+
+
+  // Get the DOM reference
+
+
+
+
+
+
+
+  var contentId = document.getElementById(id);
+
+
+
+
+
+
+
+  // Toggle 
+
+
+
+
+
+
+
+  contentId.style.display == "block" ? contentId.style.display = "none" : 
+
+
+
+
+
+
+
+contentId.style.display = "block"; 
+
+
+
+
+
+
+
+}
+          </script>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Disability Services
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/disabilities/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/accessibility/">
+            Accessibility
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/accommodations/">
+            Accommodations
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/advising/">
+            Advising
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/assistivetechnology/">
+            Assistive Technology
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilitydeterminationchecklist/">
+            Disability Determination Checklist
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilitydisclosure/">
+            Disability Disclosure
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilityguideforfacultyandstaff/">
+            Disability Guide for Faculty and Staff
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/documentationguidelines/">
+            Documentation Guidelines
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/emotionalsupportanimalpolicy/">
+            Emotional Support Animal Policy
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/exceptions/">
+            Exceptions
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/faq/">
+            FAQ
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/grievanceprocedures/">
+            Grievance Procedures
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/missionstatement/">
+            Mission Statement
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/disabilities/notetakingstrategies/">
+             Notetaking Strategies
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/personalcareattendantpolicies/">
+            Personal Care Attendant Policies
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/personalmobilitydevices/">
+            Personal Mobility Devices
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/recordsretentionandrequestpolicy/">
+            Records, Retention, and Request Policy
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/resources/">
+            Resources
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/serviceanimalpolicy/">
+            Service Animal Policy
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/specialdiningservicesrequest/">
+            Special Dining Services Request
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/specialhousingrequests/">
+            Special Housing Requests
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/technologytoolbox/">
+            Technology Toolbox
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/accessibility/"&gt;Accessibility&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/accommodations/"&gt;Accommodations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/advising/"&gt;Advising&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/assistivetechnology/"&gt;Assistive Technology&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilitydeterminationchecklist/"&gt;Disability Determination Checklist&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilitydisclosure/"&gt;Disability Disclosure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilityguideforfacultyandstaff/"&gt;Disability Guide for Faculty and Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/documentationguidelines/"&gt;Documentation Guidelines&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/emotionalsupportanimalpolicy/"&gt;Emotional Support Animal Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/exceptions/"&gt;Exceptions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/faq/"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/grievanceprocedures/"&gt;Grievance Procedures&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/missionstatement/"&gt;Mission Statement&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/disabilities/notetakingstrategies/"&gt;Notetaking Strategies&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/personalcareattendantpolicies/"&gt;Personal Care Attendant Policies&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/personalmobilitydevices/"&gt;Personal Mobility Devices&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/recordsretentionandrequestpolicy/"&gt;Records, Retention, and Request Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/serviceanimalpolicy/"&gt;Service Animal Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/specialdiningservicesrequest/"&gt;Special Dining Services Request&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/specialhousingrequests/"&gt;Special Housing Requests&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/technologytoolbox/"&gt;Technology Toolbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

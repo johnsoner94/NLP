@@ -1,0 +1,1406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Net Drive - Information Technology | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="The Office of Information Technology is located on the lower level of the Ettinger Building. The Main Office is in Suite 014 and is open Monday - Friday, from 8:00 a.m. - 5:00 p.m." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Information Technology
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/oit/background.jpg" alt="Information Technology" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/oit/">
+               Information Technology
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/oit/netdrive/">
+               Net Drive
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add05">
+           <h3>
+            NetDrive QuickStart
+           </h3>
+           <br />
+           <ul>
+            <li>
+             <a href="#whatis">
+              What is NetDrive?
+             </a>
+            </li>
+            <li>
+             <a href="#secruity">
+              Security Concerns
+             </a>
+            </li>
+            <li>
+             <a href="#usingnd">
+              Using NetDrive
+             </a>
+            </li>
+            <li>
+             <a href="#install">
+              Installing NetDrive
+             </a>
+            </li>
+           </ul>
+           <br />
+           <br />
+           <div>
+            <strong>
+             N&nbsp;O&nbsp;T&nbsp;I&nbsp;C&nbsp;E
+            </strong>
+           </div>
+           <div>
+            <p>
+             <strong>
+              This version of NetDrive has been tested by OIT
+             </strong>
+             to work on typical installations of Windows.
+             <span class="italic">
+              However, there are
+              <strong>
+               many
+              </strong>
+              reasons why NetDrive
+              <strong>
+               may not work on your home computer system
+              </strong>
+              .
+             </span>
+             It is
+             <strong>
+              impossible
+             </strong>
+             for OIT to determine the configuration of Windows running on any computer that has not been configured by OIT.
+             <strong>
+              You should be aware that OIT is not able to provide support for users' home computers.
+             </strong>
+            </p>
+            <p>
+             If you have completely followed the NetDrive installation instructions and you are having problems with NetDrive, then it is likely that NetDrive will not work on your system. You should uninstall NetDrive by going into the Control Panel, choosing Add/Remove Programs, selecting NetDrive and then uninstall.
+             <br />
+             <br />
+            </p>
+           </div>
+           <h4>
+            <span class="italic">
+             What Is NetDrive?
+             <a id="whatis">
+             </a>
+            </span>
+           </h4>
+           <br />
+           <div>
+            <p>
+             NetDrive allows you to access your Network (H: Drive) files from any computer, even from home. NetDrive is a sophisticated FTP and WebDAV client which allows you to create a
+             <span class="italic">
+              drive letter
+             </span>
+             for an FTP or WebDAV site. So, instead of having to deal with dowloading and uploading files via FTP, you can access these files as you would on any other drive.
+            </p>
+            <h5>
+             <span class="italic">
+              Who Can Use NetDrive?
+             </span>
+            </h5>
+            <br />
+            <p>
+             Faculty and Staff can already access the contents of their H: drives via FTP and WebDAV. So it is possible for staff and faculty to use NetDrive to access their files from any computer on which NetDrive is installed.
+             <strong>
+              Since your H: drive may contain sensitive materials, you should obtain permission of your department head prior to using NetDrive from off campus.
+             </strong>
+            </p>
+            <br />
+            <h5>
+             <span class="italic">
+              Why Would I Use NetDrive?
+             </span>
+            </h5>
+            <p>
+             <strong>
+              Use NetDrive to access presentations, documents, and other files from the classroom.
+             </strong>
+             NetDrive allows you to keep a
+             <span class="italic">
+              single copy
+             </span>
+             of your materials in your H: drive, and access it from wherever you lecture. NetDrive can be used in place of, or as a backup plan for, USB based "thumb drives," burning CDs, or accessing classroom shared folders. In many cases, NetDrive can be used in place of these other methods. Obviously there are applications where USB drives, or CD's are preferable. But NetDrive has the advantage of always being up to date, and eliminates having to distribute copies of your lecture materials. From a cost perspective, NetDrive uses existing technologies and is essentially costless. In addition, NetDrive will eliminate the complicated array of classroom shared drives you access from your office, preventing them from being tampered with.
+            </p>
+            <p>
+             <strong>
+              You can use NetDrive to access your files from any location.
+             </strong>
+             When visiting people in other departments, you can view or edit your documents on another person's computer. NetDrive is also accessible from off campus. You could install NetDrive on your home PC and access your H: drive files from home (provided you have up to date anti-virus software, and the permission of your supervisor!) For our road warriors, NetDrive could be used to retrieve documents while on the road. Obviously large documents will take a while to transfer over slow internet connections. With a broadband connection, the performance is normally acceptable, though obviously slower than being on campus.
+            </p>
+            <p>
+             <strong>
+              You can use NetDrive to access
+              <span class="italic">
+               any
+              </span>
+              FTP or WebDAV site.
+             </strong>
+             If you are frequently performing FTP transfers, or manage web pages on HAL, you can use NetDrive to give you a drive letter to your web site to make editing and updating easier.
+            </p>
+           </div>
+           <br />
+           <br />
+           <h3>
+            Security Concerns - Please Read!
+            <a id="secruity">
+            </a>
+           </h3>
+           <div>
+            <p>
+             <strong>
+              NetDrive is as secure as the underlying communications: FTP or WebDAV.
+             </strong>
+             FTP is as secure as e-mail communications, and while not impossible, it is highly unlikely that someone can gain unauthorized access to your data. WebDAV uses HTTPS for communications, meaning that the data and your passwords are encrypted. For extremely sensitive documents accessed from off campus, use the WebDAV URL to access your H: drive.
+             <strong>
+              By far the biggest security issue is
+              <span class="italic">
+               carelessly leaving your NetDrive connected
+              </span>
+              on an unattended or public PC.
+             </strong>
+             If you leave yourself logged in, and walked away, someone could do whatever they wanted to your files. This issue is completely preventable:
+             <span style="text-decoration: underline;">
+              Be sure you
+              <strong>
+               Disconnect
+              </strong>
+              and
+              <strong>
+               Flush Cache
+              </strong>
+              your NetDrives after you are finished.
+             </span>
+             This will prevent unauthorized access to your account. See instructions below.
+             <br />
+             <br />
+             <strong>
+              NetDrive is probably inappropriate for people who keep academic, financial, or medical records of others in their H: drive.
+             </strong>
+             Like any other drive, NetDrive contents can be infected by computer viruses. If using NetDrive from off campus, you need to ensure that the PC has current antivirus software. The data transmitted by NetDrive is (currently) not encrypted, but because of our network architecture it is virtually impossible to "wiretap" or "sniff" this traffic while on campus. However this is
+             <span class="italic">
+              not true
+             </span>
+             of Internet communications. For this reason, please use WebDAV to access your file, as WebDAV data is excrypted and more difficult to "sniff."
+             <br />
+             <br />
+             <strong>
+              Before you use NetDrive, please understand these security issues to minimize your risk.
+             </strong>
+             Staff should
+             <span class="italic">
+              always
+             </span>
+             consult their department head prior to using NetDrive from off campus so that departmental policies can be adhered to.
+            </p>
+           </div>
+           <br />
+           <br />
+           <h4>
+            Using NetDrive
+            <a id="usingnd">
+            </a>
+           </h4>
+           <ol>
+            <li>
+             1.&nbsp;&nbsp;&nbsp;
+             <strong>
+              Step 1.
+             </strong>
+             NetDrive must first be installed on PC. for you to use it. First look for NetDrive in the "system tray" of icons next to the clock on the Start bar:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndsystrayicon.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             2.&nbsp;&nbsp;&nbsp;If the NetDrive icon is present, skip to Step 2.
+             <br />
+             If you don't see the circled icon, check Start --&gt; Programs for NetDrive:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/nd1sttime.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             3.&nbsp;&nbsp;&nbsp;Start NetDrive, and it will display a large window.
+             <span style="text-decoration: underline;">
+              Once this window appears, close it.
+             </span>
+             The NetDrive icon will appear in the system tray as shown above, and should re-appear, even if you restart your PC.
+            </li>
+            <li>
+             4.&nbsp;&nbsp;&nbsp;
+             <strong>
+              Step 2.
+             </strong>
+             Connect to "My H Drive" by right clicking on the NetDrive system tray icon. A popup menu will appear:
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndconnect1.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             5.&nbsp;&nbsp;&nbsp;Click the "Connect To" menu item to list possible connections. Then select "My H Drive." A login box will appear:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndlogin1.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             6.&nbsp;&nbsp;&nbsp;
+             <strong>
+              Step 3:
+             </strong>
+             Enter your Network login ID and password. This is the password you use when you login to the network when starting your computer. For Username, enter your
+             <span style="text-decoration: underline;">
+              full
+             </span>
+             NDS login ID. This will normally be
+             <strong>
+              .
+              <span style="text-decoration: underline;">
+               firstname
+              </span>
+              .
+              <span style="text-decoration: underline;">
+               department
+              </span>
+              .admin
+             </strong>
+             for example
+             <strong>
+              .bob.oit.admin
+             </strong>
+             or
+             <strong>
+              .jimmy.physics.admin
+             </strong>
+             The initial period must be present, and all staff and faculty account end in
+             <strong>
+              .admin
+             </strong>
+             .
+             <br />
+             <br />
+             Hint: To find your full login ID, from your office PC, open the "Novell-delivered Applications..." window - the title will show your fiull login ID.
+            </li>
+            <li>
+             7.&nbsp;&nbsp;&nbsp;
+             <strong>
+              Step 4:
+             </strong>
+             After a few seconds, you should see an Explorer folder open up with your NetDrive drive letter. Since H: is already in use on most PC's,
+             <span class="italic">
+              the M: drive will contain the contents of your own H: drive.
+             </span>
+             So use M: as you would your H: drive.
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndexplorer1.gif" alt="Information Technology" style="     " />
+              <br />
+              <br />
+             </div>
+            </li>
+            <li>
+             8.&nbsp;&nbsp;&nbsp;You can access your files from this window, or close the window and access your files directly from various programs.
+             <span class="italic">
+              Closing this window does
+              <span style="text-decoration: underline;">
+               not
+              </span>
+              log you out!
+             </span>
+             The M: drive points to the same files and folders as the H: drive on your office PC.
+             <br />
+             <br />
+             For example, you could double click on the Excel spreadsheet above and after a couple seconds it will open. If you make changes to it, they will be saved back to the Network. This can take a while for large files, and will typically take 2 - 5 seconds even for small files. During long transfers you will see a status box appear:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndtransfer1.gif" alt="Information Technology" style="     " />
+             </div>
+             <br />
+             This may happen several times when viewing a folder for the first time, since Windows may try to open files to extract icons, or obtain file type information. For computer on campus the transfer rates for large files should be 1 to 3 MB / second, which is comparable to directly accessing the files on your H: drive. If this becomes annoying, you can check the "Don't display this dialog again" checkbox.
+            </li>
+            <li>
+             9.&nbsp;&nbsp;&nbsp;
+             <strong>
+              Step 5
+             </strong>
+             : Be Sure To Logout!
+            </li>
+            <li>
+             10.&nbsp;&nbsp;To ensure that your account is protected from unauthorized use, when done using the PC, be sure to flush the cache:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndflushcache1.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             11.&nbsp;&nbsp;Then be sure to Disconnect the NetDrive:
+             <br />
+             <br />
+             <div>
+              <img src="/media/contentassets/images/about/oit/ndconnect1.gif" alt="Information Technology" style="     " />
+             </div>
+            </li>
+            <li>
+             12.&nbsp;&nbsp;Check to make sure the M: drive has disappeared. If it is gone, then you are logged out!
+            </li>
+           </ol>
+           <div>
+            <h4>
+             Installing NetDrive
+             <a id="install">
+             </a>
+            </h4>
+            <p>
+             If you don't have NetDrive on your office PC, you can install it using the Novell App Launcher, which starts automatically when you login. The installation is mostly clicking "Next..." and so on. Here is the sequence of screens you should expect:
+             <br />
+             <br />
+             <strong>
+              Step 1a (If On Campus):
+             </strong>
+             Locate the "Novell-Delivered" task on your task bar and click on it... Resize the window as needed.
+            </p>
+            <p class="center">
+             <img src="/media/contentassets/images/about/oit/ndnalicon.gif" alt="Information Technology" style="     " />
+            </p>
+            <p>
+             <strong>
+              Step 1b (If Off Campus):
+             </strong>
+             If you want to use NetDrive
+             <span class="italic">
+              from home
+             </span>
+             , please
+             <a href="mailto:support@muhlenberg.edu">
+              <strong>
+               contact the Support Desk to request the necessary files
+              </strong>
+             </a>
+             <strong>
+              .
+             </strong>
+            </p>
+            <p>
+             Once you receive the files, download the NetDrive installer (ndint.exe) to a convenient location.
+             <br />
+             <br />
+             <strong>
+              Step 2:
+             </strong>
+             Double click on the "W2K NetDrive Install" icon as shown above
+             <strong>
+              -or-
+             </strong>
+             run ndint.exe downloaded above. After a few seconds the setup program will run. Select English as the install language:
+            </p>
+            <div>
+             <img src="/media/contentassets/images/about/oit/ndinst1.gif" alt="Information Technology" style="     " />
+            </div>
+            <br />
+            <strong>
+             Step 3:
+            </strong>
+            You will see the Novell NetDrive 4.1 setup screen. Select Next...
+            <br />
+            <p align="center">
+             <img src="/media/contentassets/images/about/oit/ndinst2-504x378.gif" alt="Information Technology" style="     " />
+            </p>
+            <p align="left">
+             <strong>
+              Step 4:
+             </strong>
+             You will see the license agreement screen, click Yes...
+            </p>
+            <div>
+             <p align="center">
+              <img src="/media/contentassets/images/about/oit/ndinst3.gif" alt="Information Technology" style="     " />
+             </p>
+             <p align="left">
+              <strong>
+               Step 5:
+              </strong>
+              The Destination Folder Location dialog will appear, Click Next...
+             </p>
+            </div>
+            <div>
+             <p>
+              <img src="/media/contentassets/images/about/oit/ndinst4.gif" alt="Information Technology" style="     " />
+             </p>
+             <p align="left">
+              <strong>
+               Step 6:
+              </strong>
+              You may be prompted to reboot. If so, select "No, I will restart my computer" and click Finish.
+             </p>
+            </div>
+            <div>
+             <img src="/media/contentassets/images/about/oit/ndinst5.gif" alt="Information Technology" style="     " />
+            </div>
+            <div>
+             <br />
+             <strong>
+              Step 7: (When Off Campus Only)
+             </strong>
+             To create your NetDrive drive letters download the NetDrive.reg file (contact
+             <a href="mailto:support@muhlenberg.edu?subject=Netdrive%20File%20Request">
+              support@muhlenberg.edu
+             </a>
+             to request the URL) to a convenient location. Then double click on it. This will add registry entries for the default FTP and WebDAV profiles to NetDrive. Either profile can be used from off campus, but the WebDAV profile uses encrypted data for added security for sensitive data and to protect your passwords.
+             <strong>
+              <br />
+              <br />
+              Step 8:
+             </strong>
+             Close any running applications and restart your PC... After you restart, the NetDrive system tray icon should be visible:
+            </div>
+            <div>
+             <img src="/media/contentassets/images/about/oit/ndsystrayicon.gif" alt="Information Technology" style="     " />
+            </div>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Information Technology
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/oit/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/about/">
+            About IT
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/campustechnology/">
+            Campus Technology
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/facultyandstaffcomputing/">
+            Faculty and Staff Computing
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/studentcomputing/">
+            Student Computing
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/webresources/">
+            Web Resources
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/servicecatalog/">
+            Service Catalog
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/referencematerials/">
+            Reference Materials
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/oit/siteindex/">
+            Site Index
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/about/"&gt;About IT&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/campustechnology/"&gt;Campus Technology&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/facultyandstaffcomputing/"&gt;Faculty and Staff Computing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/studentcomputing/"&gt;Student Computing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/webresources/"&gt;Web Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/servicecatalog/"&gt;Service Catalog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/referencematerials/"&gt;Reference Materials&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/oit/siteindex/"&gt;Site Index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How did Erica Wenzel '14 take a new look at MLB history with mathematics?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/ericawenzel/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/EricaWenzel-TOC-r.jpg" alt="Rotating teaser for Erica Wenzel '14 TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

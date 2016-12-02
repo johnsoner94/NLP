@@ -1,0 +1,816 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  START -->
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  END -->
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css"  /&gt;-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeNR.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors-wescoe.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeLayoutNR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css"  /&gt;-->
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Checklist - Veterans Portal | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links (2) Wescoe -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/wescoe/prospectivestudents/" style='background-image:url("/media/contentassets/wescoesite/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/TransferGuides.html" style='background-image:url("/media/contentassets/wescoesite/currentImage.jpg");'>
+        Transfer Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/currentstudentsfaculty/" style='background-image:url("/media/contentassets/wescoesite/veteran.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/aboutus/staff.html" style='background-image:url("/media/contentassets/wescoesite/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenbergconnect.com/s/1570/start.aspx?gid=2&amp;pgid=61" style='background-image:url("/media/contentassets/wescoesite/alumni1.jpg");'>
+        Alumni
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/communitypartners/" style='background-image:url("/media/contentassets/wescoesite/CommunityPartnersImage.jpg");'>
+        Community Partner
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/main/wescoe">
+         <img src="/media/contentassets/wescoesite/logo.fw.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="https://www.linkedin.com/company/the-wescoe-school-of-muhlenberg-college">
+           <span class="fa fa-linkedin">
+           </span>
+          </a>
+          <a target="_child" href="https://twitter.com/wescoeschool">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="https://www.facebook.com/WescoeSchool/">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+          <a target="_child" href="http://www.muhlenberg.edu/">
+           <span class="fa fa-home">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD Wescoe -->
+          <ul>
+           <li>
+            <a href="/main/wescoe/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/programcourseofferings/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/veteransportal/">
+             Veterans Portal
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/stories/">
+             Success Stories
+            </a>
+           </li>
+           <li>
+            <a href="http://shrek.muhlenberg.edu/Calendar">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/wescoe/contactus">
+             Contact
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Checklist
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/wescoe/wescoe/page-militaryfriendly/Veteran Checklist.jpg" alt="" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/index.php">
+               Wescoe School
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/prospectivestudents/">
+               Prospective Students
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/prospectivestudents/veteransportal/">
+               Veterans Portal
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/prospectivestudents/veteransportal/checklist/">
+               Checklist
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3>
+            <strong>
+             School Enrollment Checklist
+            </strong>
+           </h3>
+           <p>
+            *For a printable version, please click the&nbsp;
+            <a href="/media/contentassets/pdf/wescoe/veteransportal/School Enrollment Checklist.pdf">
+             School Enrollment Checklist
+            </a>
+            .
+           </p>
+           <p>
+            Forms can be completed on&nbsp;
+            <a href="http://vabenefits.vba.va.gov/vonapp/main.asp">
+             Veterans Online Application&nbsp;(VONAPP)
+            </a>
+            &nbsp;or on
+            <a href="http://www.ebenefits.va.gov">
+             eBenefits
+            </a>
+            .&nbsp;
+           </p>
+           <p>
+            Read all instructions before completing. A copy should be printed out and given to the School Certifying Official (SCO).
+            <br />
+            <br />
+           </p>
+           <ul>
+            <li>
+             Veteran (Spouse or Child) (Student) determines eligibility.&nbsp;
+             <br />
+             They contact the VA at 1-888-442-4551.&nbsp; They visit the GI Bill&reg;&nbsp;web site for benefit comparison information.&nbsp; The student must consider all chapter benefit options before making a decision on which benefit to apply for.&nbsp; If student is eligible for the Post-9/11 GI Bill&reg;&nbsp;(Chapter 33) and another chapter benefit, they must understand the implications of applying for one or the other.&nbsp; Application for a specific benefit may be irrevocable.&nbsp; School Certifying Officials (SCO) can provide basic benefit information but cannot make the decision for students.
+             <br />
+             <br />
+            </li>
+            <li>
+             Veteran (Spouse or Child) applies for Veterans Education Benefits.
+             <br />
+             <ul>
+              <li>
+               Veterans who did not use benefits previously:&nbsp; VA Form 22-1990
+               <ul>
+                <li>
+                 Provide a copy of DD From 214, member copy 4; orz
+                </li>
+                <li>
+                 Notice Of Basic Eligibility (DD Form 2384) (if required)
+                </li>
+               </ul>
+              </li>
+              <li>
+               Dependent who did not use benefits previously:&nbsp; VA Form 22-5490z
+               <ul>
+                <li>
+                 Apply using veteran&rsquo;s file number, not SSN
+                </li>
+               </ul>
+              </li>
+              <li>
+               Spouse or Child who received transferred benefits:&nbsp; VA Form 22-1990E
+               <ul>
+                <li>
+                 Provide a copy of transferability paperwork from the DoD web site
+                </li>
+               </ul>
+              </li>
+              <li>
+               Spouse or Child applying for Fry Scholarship:&nbsp; VA Form 22-5490
+              </li>
+             </ul>
+            </li>
+           </ul>
+           <ul>
+            <li>
+             Students who previously used benefits at another school or in another training program.
+             <br />
+             <ul>
+              <li>
+               Veteran:&nbsp; VA Form 22-1995
+              </li>
+              <li>
+               Dependent:&nbsp; VA Form 22-5495
+              </li>
+              <li>
+               Spouse or Child who received transferred benefits:&nbsp; VA From 22-1995
+              </li>
+              <li>
+               Spouse or Child receiving Fry Scholarship:&nbsp; VA From 22-1995
+              </li>
+             </ul>
+            </li>
+           </ul>
+           <ul>
+            <li>
+             Student completes the application process at the school.&nbsp; The application fee is not paid by VA.
+             <br />
+             <br />
+            </li>
+            <li>
+             The School Certifying Official (SCO) must be notified when the application process has been completed and the student has registered for classes.&nbsp; The SCO cannot certify enrollment to VA until the student has been accepted to the school AND&nbsp;registered&nbsp;for classes.&nbsp; Students may only register for classes that apply to their degree/certificate/diploma program in accordance with the school&rsquo;s catalog.&nbsp; SCO certifies enrollment in VA-ONCE.
+             <br />
+             <br />
+            </li>
+            <li>
+             Student establishes a premium login on eBenefits at&nbsp;www.ebenefits.va.gov.
+             <br />
+             GI Bill&reg;&nbsp;is a registered trademark attribution of the U.S. Department of Veterans Affairs (VA).&nbsp; More information about education benefits offered by VA is available to the official U.S. government Web site at:&nbsp;http://www.benefits.va.gov/GIBILL.
+             <br />
+             <br />
+            </li>
+            <li>
+             Student obtains&nbsp;
+             <span style="text-decoration: underline;">
+              Official
+             </span>
+             &nbsp;copies of transcripts from previous schools and/or military service and provides them to the school so they can be evaluated for credit for prior training.
+             <br />
+             <br />
+            </li>
+            <li>
+             Student applies for financial aid using the Free Application for Federal Student Aid (FAFSA) at&nbsp;www.fafsa.ed.gov.&nbsp; All veterans and dependents should apply for financial aid.&nbsp; Veterans education benefits are no longer considered when determining Title IV financial aid.
+             <br />
+             <br />
+            </li>
+            <li>
+             If student applies for Federal Tuition Assistance (TA), they must provide a copy of their approved TA document to the School Certifying Official (SCO) and the student account/bursar&rsquo;s office as soon as they receive it.&nbsp; TA is considered federal funding and must be considered when the SCO determines actual net cost for Chapter 33 benefits.
+             <br />
+             <br />
+            </li>
+            <li>
+             If the student is receiving National Guard Education Assistance Program (EAP) funds, they must notify your School Certifying Official (SCO)&nbsp;and&nbsp;student account/bursar&rsquo;s office each term/semester they receive an award letter (found on the PHEAA web site).
+             <br />
+             <br />
+            </li>
+            <li>
+             Students must notify the School Certifying Official of&nbsp;ALL&nbsp;changes in their enrollment status ASAP.&nbsp; SCOs must report all enrollment changes to the VA.&nbsp; (See last bullet.)
+             <br />
+             <br />
+            </li>
+            <li>
+             When the student receives a Certificate of Eligibility (CoE) or a Benefits Award Letter from VA, they should provide a copy to the School Certifying Official immediately.&nbsp; A CoE is not needed to register for classes and is not necessary for the School Certifying Official to certify enrollment but the SCO does need a copy when the student receives it.
+             <br />
+             <br />
+            </li>
+            <li>
+             After the student has received a benefits award letter, they must verify their enrollment monthly on WAVE the last of the day of each month at&nbsp;www.gibill.va.gov/wave/index.do&nbsp; (Chapters 30, 1606, and 1607) (Not required for Chapters 33 and 35).
+             <br />
+             <br />
+            </li>
+            <li>
+             Students should contact VA with payment questions:&nbsp; 1-888-442-4551 or use &ldquo;Submit A Question&rdquo; on the GI Bill&reg;&nbsp;web site (www.benefits.va.gov/gibill).
+             <br />
+             <br />
+            </li>
+            <li>
+             Students must keep their address current with your School Certifying Official and VA. &nbsp;To change their address with VA, they call 1-888-442-4551 or change it on WAVE or eBenefits. &nbsp;Students must keep their direct deposit information current with VA.&nbsp; Students update direct deposit information on WAVE, eBenefits, or call 1-877-838-2778.
+             <br />
+             <br />
+            </li>
+            <li>
+             Students must be aware that if they drop or withdraw from classes before the end of a term/semester, they may be in an overpayment status and VA may require them to pay back tuition, fees, and monthly housing allowance funds they received prorated for the period they did not complete classes.&nbsp; VA will determine the overpayment, not the School Certifying Official.&nbsp; Student debt will be to the VA.&nbsp; Students must comply ASAP with the instructions in any debt letter they receive.
+            </li>
+           </ul>
+           <p>
+            To request information&nbsp;
+            <a href="http://www.muhlenberg.edu/main/wescoe/prospectivestudents/appointment.html">
+             click here
+            </a>
+            , or to schedule an appointment with an advisor, email us at&nbsp;
+            <a class='"style2"&gt;wescoe@muhlenberg.edu&lt;/a&gt;&lt;/td&gt;' href="mailto:wescoe@muhlenberg.edu" target="_blank">
+             wescoe@muhlenberg.edu
+            </a>
+            &nbsp;or call us at 484-664-3300.
+           </p>
+           <p>
+            <img alt="Wescoe School Official Logo" src="http://www.muhlenberg.edu/media/contentassets/images/wescoe/RedLogoSm.jpg" />
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <div class="box02">
+          <!-- navigation object : Callout Links Related -->
+         </div>
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Prospective Students
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/wescoe/prospectivestudents/">
+            Home
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/wescoe/prospectivestudents/veteransportal/checklist/">
+             Checklist
+            </a>
+           </span>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/wescoe/prospectivestudents/theyellowribbonprogram/"&gt;The Yellow Ribbon Program&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/wescoe/prospectivestudents/veteransportal/"&gt;Veterans Portal&lt;/a&gt;&lt;/span&gt;
+&lt;ul class="multilevel-linkul-0"&gt;
+&lt;li&gt;&lt;span class="currentbranch1"&gt;&lt;a href="/main/wescoe/prospectivestudents/veteransportal/checklist/"&gt;Checklist&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Prospective Students
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/">
+           Summary
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+           Getting Started
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/informationsessions/">
+           Information Sessions
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/veteransportal/">
+           Veteran's Portal
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/TransferGuides.html">
+           Transfer Guides
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/tuition.html">
+           Tuition &amp; Fees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/tuitionbenefits/">
+           Tuition Benefits
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/relatedforms/">
+           Related Forms
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/finaid/wescoestudents/generalinformation/">
+           Financial Aid
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/request-info.html">
+           Request Information&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs &amp; Course Offerings
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/">
+           Academic Overview
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/traditionaldegrees/">
+           Traditional Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/accelerateddegrees/">
+           Accelerated Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/teachercertification/">
+           Teacher Certification/ACT 48
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/communitypartners/corporatepartnerships/">
+           Corporate Partnerships
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/summer.html">
+           Summer Study
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/frmss03w.html">
+           Course Selections&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Current Students/Faculty
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/currentstudentsfaculty/academicadvising/">
+           Academic Advising
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="https://muhlenbergcollege.instructure.com/login/canvas">
+           Canvas
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/" target="_blank">
+           CapStone Online
+          </a>
+         </li>
+         <li>
+          <a href="http://www.studentclearinghouse.org/" target="_blank">
+           Order Transcripts
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/staff.html">
+           Staff Directory&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3300 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College Wescoe School of Continuing Education
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

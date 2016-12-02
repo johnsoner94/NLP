@@ -1,0 +1,357 @@
+<!doctype html>
+<!--[if lt IE 7 ]&gt; &lt;html class="ie6"&gt; &lt;![endif]-->
+<!--[if IE 7 ]&gt;    &lt;html class="ie7"&gt; &lt;![endif]-->
+<!--[if IE 8 ]&gt;    &lt;html class="ie8"&gt; &lt;![endif]-->
+<!--[if IE 9 ]&gt;    &lt;html class="ie9"&gt; &lt;![endif]-->
+<!--[if (gt IE 9)|!(IE)]&gt;&lt;!-->
+<html>
+ <!--&lt;![endif]-->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- icons &amp; favicons -->
+  <link rel="shortcut icon" href="/TMS/content/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/TMS/content/images/apple-touch-icon.png" />
+  <!-- default stylesheet -->
+  <link type="text/css" rel="stylesheet" href="/TMS/content/default.css" />
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+   window.jQuery || document.write(unescape('%3Cscript src="/TMS/scripts/jquery-1.5.1.min.js"%3E%3C/script%3E'))
+  </script>
+  <!-- CSS Modernizer Script -->
+  <script type="text/javascript" src="/TMS/scripts/modernizr-1.7.min.js">
+  </script>
+  <!-- Afford Script -->
+  <script type="text/javascript" src="/TMS/scripts/afford.js">
+  </script>
+  <!-- Link Script -->
+  <!-- Link Script -->
+  <script type="text/javascript" src="/TMS/scripts/config.js">
+  </script>
+  <script type="text/javascript" src="/TMS/scripts/linkBuilder.js">
+  </script>
+  <script type="text/javascript">
+   document.domain = "afford.com";
+  </script>
+  <!-- Afford stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/TMS/content/afford.css" />
+  <title>
+   Afford.com - Home | Tuition Management Systems
+  </title>
+ </head>
+ <body>
+  <div id="top-bar">
+   <div id="blue-bar">
+    <div class="wrap-align">
+     <div id="admin-login-button">
+      <a href="/SchoolLogin.aspx" class="fill affSchlLink">
+       Administrator Login
+      </a>
+     </div>
+    </div>
+   </div>
+   <header role="banner" class="wrap-align">
+    <div id="logo-top">
+     <a href="/">
+      <img src="/TMS/content/images/tms-logo.png" alt="TMS Logo" width="381" height="55" />
+     </a>
+    </div>
+   </header>
+   <nav role="navigation">
+    <div class="wrap-align">
+     <div class="menu">
+      <ul>
+       <li class="first">
+        <a class="main" href="/TMS/afford-education">
+         Explore Your Options
+        </a>
+        <ul class="sub-menu sub1">
+         <li>
+          <a href="/TMS/afford-education/payment-plan.htm">
+           Payment Plan
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/afford-education/combining-payment-plans.htm">
+           Combine Plans &amp; Loans
+          </a>
+         </li>
+         <li>
+          <a href="https://borrowsmart.afford.com/brs/BorrowSmart.html?detectflash=false&amp;referrer=afford.com">
+           BorrowSmart
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/afford-education/faq.htm">
+           FAQ
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="second">
+        <a class="main" href="/TMS/payment-plans">
+         Payment Plans
+        </a>
+        <ul class="sub-menu sub2">
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Enroll
+          </a>
+         </li>
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Reactivate
+          </a>
+         </li>
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Login to My Account
+          </a>
+         </li>
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Register for Online Access
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/payment-plans/faq.htm">
+           FAQ
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="third">
+        <a class="main" href="/TMS/make-payment">
+         Make A Payment
+        </a>
+        <ul class="sub-menu sub3">
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Payment Plan
+          </a>
+         </li>
+         <li>
+          <a href="/SchoolSearch/" class="sfsLink">
+           Pay in Full
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/make-payment/faq.htm">
+           FAQ
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="fourth">
+        <a class="main" href="/TMS/school-refunds">
+         School Refunds
+        </a>
+        <ul class="sub-menu sub4">
+         <li>
+          <a href="/TMS/school-refunds">
+           All Refunds
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/school-refunds/educatecard.htm">
+           educatecard
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/school-refunds/ach.htm">
+           ACH
+          </a>
+         </li>
+         <li>
+          <a href="/TMS/school-refunds/refund-checks.htm">
+           Paper Check
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+     <div class="secondary-menu">
+      <ul>
+       <li class="about">
+        <a href="/TMS/about-us">
+         About Us
+        </a>
+       </li>
+       <li class="contact">
+        <a href="/TMS/contact">
+         Contact
+        </a>
+       </li>
+       <li class="student-family">
+        <a href="/SchoolSearch/" class="sfsLink">
+         Student/Family
+                    Login
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </div>
+  <div id="content">
+   <div id="homepage">
+    <div id="home-upper">
+     <div class="wrap-align">
+      <img id="home-main-image" src="TMS/content/images/home-upper-image.png" width="620" height="383" alt="Mother and Daughter" />
+      <div class="right">
+       <h1>
+        Partnering with your school to make education more affordable.
+       </h1>
+       <p>
+        Tuition Management Systems offers payment plans and BorrowSmart
+        <sup>
+         &reg;
+        </sup>
+        education payment counseling. Learn how either option, or a combination of both,
+                    can help you save on education costs.
+       </p>
+       <div class="action">
+        <div id="get-started">
+         <a href="/SchoolSearch/" class="fill sfsLink">
+         </a>
+        </div>
+        <span>
+         or
+        </span>
+        <a href="TMS/payment-plans" class="see-how">
+         See how it works
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="home-lower">
+     <div class="wrap-align">
+      <div class="cell one">
+       <h2>
+        Why Choose Us?
+       </h2>
+       <p>
+        Relax. The challenges of financing an education can appear overwhelming.
+        <strong>
+         That's
+                        where we come in.
+        </strong>
+       </p>
+      </div>
+      <div class="cell two">
+       <h3>
+        An Easier Way To Pay Your Bill
+       </h3>
+       <p>
+        Pay your expenses over smaller monthly payments instead of one large lump sum payment.
+                    No approval is necessary.
+       </p>
+      </div>
+      <div class="cell three">
+       <h3>
+        How to BorrowSmart
+       </h3>
+       <p>
+        Minimize debt by combining your loan with a payment plan. Let us show you how.
+       </p>
+      </div>
+      <div class="cell four">
+       <h3>
+        Make A Payment
+       </h3>
+       <p>
+        Why wait in line? Here's a convenient way to make online payments to your school
+                    using a checking account, statement savings account, or credit card.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--content -->
+  <footer role="contentinfo">
+   <div class="wrap-align">
+    <div class="left">
+     <div class="cell phone">
+      <!-- &lt;span class="phonenumber"&gt;Call 800-722-4867&lt;/span&gt; -->
+      <!-- comment out MKapadia-->
+      <p>
+       Call 800-722-4867
+       <br />
+       Need Help? Call Us:
+       <br />
+       8 AM - 10 PM M-F (ET)
+       <br />
+      </p>
+     </div>
+     <div class="cell">
+      <!-- &lt;span class="phonenumber"&gt;Call 800-722-4867&lt;/span&gt; -->
+      <!-- comment out MKapadia-->
+      <p>
+       Outside U.S. and Canada
+       <br />
+       Call 401-921-3999
+       <br />
+      </p>
+     </div>
+     <div class="cell">
+      <h4>
+       <a href="http://www.tuitionmanagementsystems.com">
+        Administrators
+       </a>
+      </h4>
+      <p>
+       College, University and K12
+      </p>
+     </div>
+     <div class="cell no-border">
+      <h4>
+       All Rights Reserved
+                    
+                    2016
+      </h4>
+      <ul class="bullets">
+       <li>
+        <a href="/TMS/content/pdf/TMS_Privacy_Policy.pdf">
+         Privacy Statement
+        </a>
+       </li>
+       <li>
+        <a href="http://www.firstmarblehead.com/careers/">
+         Careers
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="right">
+     <img src="//seal.qualys.com/sealserv/seal.gif?i=9b9e5a9b-3433-4749-aaeb-b3c42f708cdc" alt="Qualys Secure" onclick="window.open('https://seal.qualys.com/sealserv/info/?i=9b9e5a9b-3433-4749-aaeb-b3c42f708cdc','qualysSealInfo', 'height=600,width=851,resizable=1')" />
+     <img src="/TMS/content/images/logo-footer-white.png" alt="TMS Logo Small" />
+    </div>
+   </div>
+  </footer>
+  <!--[if lt IE 9]&gt;
+			&lt;script type="text/javascript" src="/TMS/scripts/ie/selectivizr.js"&gt;&lt;/script&gt;
+		&lt;![endif]-->
+  <!--[if lt IE 7 ]&gt;
+    		&lt;script type="text/javascript" src="/TMS/scripts/ie/dd_belatedpng.js"&gt;&lt;/script&gt;
+    		&lt;script type="text/javascript"&gt;DD_belatedPNG.fix("img, .png_bg");&lt;/script&gt;
+  		&lt;![endif]-->
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3271532-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+ </body>
+</html>

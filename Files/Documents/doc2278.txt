@@ -1,0 +1,1325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Business  - Economics  | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Accounting, Business &amp; Economics
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/">
+               Accounting, Business, Economics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/economics/">
+               Economics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/abe/economics/business/">
+               Business
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <br />
+           <table style="width: 100%;">
+            <tbody>
+             <tr>
+              <td align="center" style="border-right: 1px solid #E31635; border-left: 1px solid #E31635;" width="38%">
+               <a href="#canDo">
+                <span class="jumplink">
+                 What can a
+                 <br />
+                 Business major do?
+                </span>
+               </a>
+              </td>
+              <td align="center" style="border-right: 1px solid #E31635;" width="33%">
+               <a href="#events">
+                <span class="jumplink">
+                 Programs &amp; Events
+                </span>
+               </a>
+              </td>
+              <td align="center" style="border-right: 1px solid #E31635;" width="25%">
+               <a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=105" target="_blank">
+                <span class="jumplink">
+                 Courses in Business
+                </span>
+               </a>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             About the Business Program
+            </strong>
+            <br />
+            <span class="info">
+             The business program at Muhlenberg is nurtured by the liberal arts tradition of the institution, and provides students with an excellent preparation for both a career and graduate school. Business majors have successfully launched their careers in a wide range of fields and activities, including the non-profit, arts, media, healthcare, and financial services industries. Some students combine a business major with accounting and have been especially successful in finding positions with "Big Four" accounting firms. Business is often the major of choice for students who wish to apply for law school. Many students, regardless of major, will eventually pursue a Master's degree in Business Administration (MBA). A business major provides an excellent foundation for MBA studies.
+             <br />
+             <br />
+             The business program offered at Muhlenberg is especially appropriate for liberal arts students who want to understand more fully the international society in which we live and its aspirations. It emphasizes critical thinking, effective communication, and collaborative effort. The international, environmental, and ethical dimensions of business decisions are interwoven throughout the business curriculum, and there is a deep faculty commitment to instilling a love of learning and an appreciation of learning as a lifetime activity. The business program offers students four areas of concentration, plus an education abroad alternative , that build upon a commonly shared combination of foundation and core courses. In addition, all business majors, regardless of their concentration, enroll in the capstone course Business Policy &amp; Strategy. This culminating experience, taken in spring of the senior year, integrates all earlier work in the major and exposes students to the interaction between the various functional areas within an organization.
+             <br />
+             <br />
+             Concentrations are available in the following areas: Arts Administration,
+             <span class="info">
+              Entrepreneurial Studies
+             </span>
+             , Management and Organization Studies, and Marketing. Students interested in finance may choose the Finance Major in the Accounting, Business and Economics Department. In addition, participation in a department approved education abroad program may be substituted for, or used to complement, a concentration in meeting the requirements of the business major. In consultation with their advisors, students also may "self-design" a concentration. Students who are business majors or minors cannot take accounting, business, economics, or finance courses on a pass/fail basis.
+            </span>
+           </p>
+           <br />
+           <!--BEGIN "WHAT CAN I DO?"-->
+           <p>
+            <strong>
+             What can a Business major do?
+             <a id="canDo">
+             </a>
+            </strong>
+            <br />
+            <span class="info">
+             Click to learn more:
+            </span>
+           </p>
+           <p id="whattodo">
+            <!-- New Profile -->
+           </p>
+           <div id="third2">
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/wolk.jpg" alt="" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('new')">
+                  Gaining Early Success
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   Jordan Wolkstein
+                   <br />
+                   Major(s): Business Administration
+                   <br />
+                  </em>
+                 </span>
+                 <em>
+                  Concentration in management and a minor in political science
+                 </em>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="new" style="width: 450px; background: #FFFFFF; display: none;">
+            <span class="info">
+             <br />
+            </span>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <p>
+             <img src="/media/contentassets/images/academics/abe/wolk-1.jpg" alt="" style="  padding : 3px;   float : left;" />
+             I believe my liberal arts education at Muhlenberg College has already paid dividends to me in the real world at work.
+            </p>
+            <p>
+             In my first two years at Muhlenberg College, I focused primarily on completing my General Academic Requirements. While these classes were far out of my comfort zone and I often dreaded attending them; they taught me to think outside the box, to not be afraid to question the status quo and most of all, embrace the fact that in order to truly learn and grow in life, you must be willing to step out of your comfort zone. In my final two years at school, my business professors not only helped me further develop these skills, they cultivated and fostered an environment where I could learn the fundamentals of business and establish core philosophies about business, leadership, management and team work that will remain with me for the rest of my life.
+            </p>
+            <p>
+             I graduated from Muhlenberg College in May of 2015 and accepted a position working at J.P. Morgan Chase shortly thereafter. While I have only been in the real world for less than a year, I have the business department &ndash; and many of the other professors I had the privilege of learning under &ndash; to thank for my early success.
+            </p>
+            <p>
+             <span class="info">
+              <em>
+               &nbsp;
+              </em>
+             </span>
+            </p>
+            <p>
+             <span class="info">
+              <em>
+               &nbsp;
+              </em>
+             </span>
+            </p>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <!-- NEW PROFILE-->
+           <!-- SECOND-->
+           <div id="SecPro">
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/salzman.jpg" alt="" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('profileNew2')">
+                  Applying my Experience to my Career
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   David Salzman
+                   <br />
+                   Major(s): Finance and Business Administration
+                   <br />
+                   Concentration in International Business
+                   <br />
+                  </em>
+                 </span>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="profileNew2" style="width: 450px; background: #FFFFFF; display: none;">
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <p>
+             While at Muhlenberg, I benefited in many ways by choosing a course of study within the Accounting, Business, Economics, and Finance department &ndash; specifically as a double major in Finance and Business Administration with a concentration in International Business which was completed while studying abroad as a part of the Maastricht University program through Muhlenberg. Not only was I able to obtain a double major in two practical courses of study, I was also afforded the opportunity to take classes across a variety of other disciplines including significant coursework in Film
+             <img src="/media/contentassets/images/academics/abe/salzman-1.jpg" alt="" style="  padding : 3px;   float : left;" />
+             Studies and Media &amp; Communications. At larger undergraduate business schools, to my knowledge, are not afforded this same opportunity due to a higher number of required courses within the core discipline of study. In addition, I have been able to build meaningful relationships with my professors through spending time together during their office hours, independent studies, or even being able to grab meals together on the weekends and after classes. The conversations and relationships I have made with my professors have great meaning to me as they have helped to teach me to think critically, work smart, and most importantly, differentiate myself from the rest of the pack.
+             <br />
+             <br />
+             I have taken my Muhlenberg College experience and applied it to my career in the financial services industry. From learning about derivative markets to investment theories to cash flow analysis, my work and time spent at Muhlenberg has helped me to excel in my current role dealing with financial markets on a day-to-day basis. Additionally, as Vice President of the Muhlenberg Investment Society (MIS) &ndash; a student-managed portion of the college&rsquo;s endowment with AUM exceeding $400,000
+             <br />
+             <br />
+             &ndash; I learned the intricacies of portfolio construction and benchmarking, as well as managing a team of &ldquo;analysts&rdquo; and running bi-weekly meetings to discuss asset allocation. This experience, in combination with studying business practices of foreign countries while abroad, has helped prepare me to work with some of my firm&rsquo;s most complex clients. With the prospect of a finance lab coming to campus and increasing course selection within the department, I am confident Muhlenberg will continue to attract even more talented students with strong interests in Accounting, Business, Economics and Finance.
+            </p>
+            <p>
+             <em>
+              David Salzman Class of 2015
+             </em>
+            </p>
+            <p>
+             <span class="info">
+              <em>
+               &nbsp;
+              </em>
+             </span>
+            </p>
+            <p>
+             <span class="info">
+              <em>
+               &nbsp;
+              </em>
+             </span>
+            </p>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <p>
+            <!--BEGIN PROFILE-->
+           </p>
+           <div id="fourthProfile">
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/business/kaufmanSmall.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('profile4')">
+                  Pursuing Diverse Interests
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   Kimberly Kaufman
+                   <br />
+                   Major(s): English and Business Administration
+                   <br />
+                   Concentration in Marketing
+                  </em>
+                 </span>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="profile4" style="width: 450px; background: #FFFFFF; display: none;">
+            <span class="info">
+             <br />
+            </span>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <p>
+             <br />
+             Muhlenberg College gave me the opportunity to pursue each and every one of my interests. The openness of my liberal arts education enabled me to build a unique, yet well-rounded skill set that led me to where I am today.
+            </p>
+            <table>
+             <tbody>
+              <tr valign="top">
+               <td>
+                <br />
+                <img src="/media/contentassets/images/academics/abe/business/kaufmanBig.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td>
+                <p>
+                 <br />
+                 Throughout my first two years at Muhlenberg, I repeatedly changed my major as I got to know my own interests and strengths. In order to reconcile my love for literature and my fascination with the business world, I finally settled upon a double major in English and Business Administration at the end of my sophomore year.
+                 <br />
+                 <br />
+                 In addition to my double major, I also took advantage of the many other opportunities that Muhlenberg offered. Through constant communication with my co-workers during my part-time job at the Life Sports Center Caf&eacute;, I learned the basics of the spoken Arabic language and
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            <p>
+             went on to continue my studies in Elementary Arabic classes during my senior year. After working at the Student Help Desk in the Office of Information Technology, I developed an unexpected fascination with computers and educated myself on troubleshooting and maintaining them during my employment. After developing a surprising interest in Statistics, I learned how to teach the concepts by becoming a Workshop Tutor for Statistical Methods classes.
+             <br />
+             <br />
+             My passion for business and books led me to enroll in the Columbia Publishing Course, a six week intensive summer course on all aspects of book, magazine, and digital media publishing. Three weeks into the course, I had a wonderful job interview in which my extraordinary experience at Muhlenberg played a key part in the discussion. I was quickly offered the position and now work full time at W. W. Norton &amp; Company.
+             <br />
+             <br />
+            </p>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <!--BEGIN PROFILE-->
+           <div id="thirdProfile">
+            <br />
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/business/kleinSmall.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('profile1')">
+                  Starting My Own Small Business
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   Jonathan Klein
+                   <br />
+                   Major(s): Business Administration
+                   <br />
+                   Concentration in Management
+                  </em>
+                 </span>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="profile1" style="width: 450px; background: #FFFFFF; display: none;">
+            <span class="info">
+             <br />
+            </span>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <p>
+             <br />
+             In 2010 along with one of my Muhlenberg peers, Marty Witkin, I began thinking about starting my own small business. It was a vision that Marty and I thought would be a fun hobby to get us involved on campus and in the Allentown community. Little did I know, our small business venture would be turned into a study guide - a profitable one at that.
+             <br />
+             <br />
+            </p>
+            <table>
+             <tbody>
+              <tr valign="top">
+               <td>
+                <img src="/media/contentassets/images/academics/abe/business/kleinBig.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td>
+                <p>
+                 Everything I had been learning in my Management, Marketing, Accounting, and other A.B.E.F (Accounting, Business, Economics, &amp; Financial) classes were being applied! It all started to make sense; the balance sheets from Accounting, the resource saving and team building activities from Management, the appeals and senses of others from Marketing - it all worked! I am looking forward to all of the additional knowledge I will gain throughout the rest of my Muhlenberg career, and seeing how it will improve the business's functionality and overall profitability.
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            <br />
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <!--BEGIN FIRST PROFILE-->
+           <div id="thirdProfile">
+            <br />
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/business/nolanSmall.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('profile3')">
+                  Looking Back on 'Berg With Gratitude
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   Richard Nolan
+                   <br />
+                   Major(s): Business Administration
+                  </em>
+                 </span>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="profile3" style="width: 450px; background: #FFFFFF; display: none;">
+            <span class="info">
+             <br />
+            </span>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <p>
+             <br />
+             During my time at Muhlenberg, it was very easy to have a constant appreciation for the atmosphere I was surrounded in. Rarely did I fail to notice the constant beauty of the campus, the friendless of the people, and the overall intellect of my peers. With that said, however, the true appreciation for what I gained did not yet come until after I graduated and entered the working world.
+             <br />
+             <br />
+            </p>
+            <table>
+             <tbody>
+              <tr valign="top">
+               <td>
+                <img src="/media/contentassets/images/academics/abe/business/nolanBig.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td>
+                <p>
+                 As a Business major, I was exposed to teachers throughout my career that not only instilled in me a passion for business, economics, and finance, but also allowed me to excel. Throughout the first months of working as a Financial Analyst for an Investment Consulting firm, I quickly began to see what my education provided me. While I saw others around me constantly trying to adjust to the learning curve, I felt more than prepared for the tasks I was given and was able to make continuous strides forward.
+                 <br />
+                 <br />
+                 Moreover, the opportunity that Muhlenberg gave me to study abroad has proven extremely beneficial. Aside from being able to understand what international business and economics is all about from an inside
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            <p>
+             perspective, it has instantly been beneficial in the working world I find myself in today. Working for a firm who deals with international clients, it was a great advantage to already have first-hand knowledge of the types of situations we deal with.
+             <br />
+             <br />
+             Muhlenberg has provided me with both the opportunity and the resources needed to exceed in life after college, and as I look back I feel an immense amount of gratitude and pride.
+             <br />
+             <br />
+            </p>
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <!--BEGIN SECOND PROFILE-->
+           <div id="secondProfile">
+            <br />
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="middle">
+               <td width="80">
+                <img src="/media/contentassets/images/academics/abe/business/feinbergSmall.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td style="padding-left: 10px;">
+                <p>
+                 <a class="profileLink" href="javascript:animatedcollapse.toggle('profile2')">
+                  To Maastricht and Beyond
+                 </a>
+                 <span class="info">
+                  <br />
+                  <em>
+                   Michael Feinberg
+                   <br />
+                   Major(s): Business Administration
+                  </em>
+                 </span>
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+           </div>
+           <div id="profile2" style="width: 450px; background: #FFFFFF; display: none;">
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+            <br />
+            <table style="width: 100%;">
+             <tbody>
+              <tr valign="top">
+               <td colspan="2">
+                <p>
+                 Arriving at Muhlenberg, I had no preference of what to study and I had no idea what my future entailed. I really enjoyed the liberal arts academic curriculum allowing me to gain sufficient knowledge in many different subjects. I was learning something new every day in a different subject.
+                </p>
+                <br />
+                <br />
+               </td>
+              </tr>
+              <tr valign="top">
+               <td width="210">
+                <img src="/media/contentassets/images/academics/abe/business/feinbergBig.jpg" alt="Accounting, Business &amp; Economics" style="     " />
+               </td>
+               <td>
+                <p>
+                 I recognized the Business major was in my best interest while taking my principles of microeconomics course with Dr. Laposata. I was immediately able to build a strong relationship with Dr. Laposata and he was the individual who persuaded me to do the Maastricht study abroad program for business majors. I was even lucky enough to go with him as the visiting professor. With all the confidence in the world, I can admit that Maastricht was the best growing experience of my entire life. I was able to experience living in a new country and adapt to a new culture, take classes with international students, and travel to fifteen countries in only four months. This was the best four months of my life!
+                 <br />
+                 <br />
+                 <br />
+                </p>
+               </td>
+              </tr>
+              <tr valign="top">
+               <td colspan="2">
+                <p>
+                 After experiencing four years at Muhlenberg, I believe students are lucky to study in such a wonderful community. Professors' doors are always open for their students and professors want to see their students succeed. However, it the students' responsibility to remain motivated and determined to exploit these opportunities. It was this work ethic and determination that allowed me to have success at Muhlenberg and as a business major. I am currently a 1L student at the University of Seton Hall Law School. I wish the best for all the current Muhlenberg students and I look forward to coming back and assisting in any manner to such a wonderful institution.
+                </p>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            <br />
+            <div style="width: 100%; height: 1px; background-color: #e31635;">
+            </div>
+           </div>
+           <!--BEGIN PROGRAMS AND EVENTS-->
+           <p id="programs">
+            <strong>
+             Programs &amp; Events
+            </strong>
+            <span class="info">
+             <a id="events">
+             </a>
+             <br />
+             <br />
+            </span>
+            <iframe height="200" src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=on2luk35que2suugs4q9le1jes%40group.calendar.google.com&amp;color=%23060D5E&amp;ctz=America%2FNew_York" width="480">
+            </iframe>
+           </p>
+           <p>
+            <span class="info">
+             <em>
+              Click the Google Calendar icon to subscribe to the Muhlenberg ABE calendars.
+             </em>
+            </span>
+           </p>
+           <p>
+            <span class="info">
+             <em>
+              &nbsp;
+             </em>
+            </span>
+           </p>
+          </div>
+          <!-- Content Template End-->
+          <link rel="stylesheet" type="text/css" media="Collapse Style for ABE" href="/media/styleassets/css/academics/abe/style.css" />
+          <script type="text/javascript" src="/media/contentassets/js/academics/abe/animatedcollapse.js">
+          </script>
+          <script type="text/javascript">
+           animatedcollapse.addDiv('profile4', 'fade=1,height=800px')
+
+
+animatedcollapse.addDiv('new', 'fade=1,height=800px')
+animatedcollapse.addDiv('profileNew2', 'fade=1,height=800px')
+
+animatedcollapse.addDiv('profile1', 'fade=1,height=800px')
+
+animatedcollapse.addDiv('profile3', 'fade=1,height=800px')
+
+animatedcollapse.addDiv('profile2', 'fade=1,height=800px')
+
+
+
+
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+
+	//$: Access to jQuery
+
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+
+	//state: "block" or "none", depending on state
+
+}
+
+
+
+animatedcollapse.init()
+          </script>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Accounting, Business &amp; Economics
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/abe/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/missionandgoals/">
+            Mission and Goals
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/major/">
+            Major
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/minor/">
+            Minor
+           </a>
+          </li>
+          <li>
+           <a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=128">
+            Courses
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/abe/economics/experiments/">
+            Experiments
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/abe/economics/business/">
+             Business
+            </a>
+           </span>
+           <ul class="multilevel-linkul-0">
+            <li>
+             <a href="/main/academics/abe/economics/business/missionandgoals/">
+              Mission and Goals
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/abe/economics/business/major/">
+              Major
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/abe/economics/business/minor/">
+              Minor
+             </a>
+            </li>
+            <li>
+             <a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=105">
+              Courses
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/abe/economics/business/buseconclub/">
+              BUS/ECON club
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/abe/economics/business/eportfolio/">
+              ePortfolio
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/missionandgoals/"&gt;Mission and Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/major/"&gt;Major&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/minor/"&gt;Minor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=128"&gt;Courses&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/abe/economics/experiments/"&gt;Experiments&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/abe/economics/business/"&gt;Business &lt;/a&gt;&lt;/span&gt;
+&lt;ul class="multilevel-linkul-0"&gt;
+&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/missionandgoals/"&gt;Mission and Goals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/major/"&gt;Major&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/minor/"&gt;Minor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/contentassets/pdf/academics/abe/courses/catalog.pdf#page=105"&gt;Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/buseconclub/"&gt;BUS/ECON club&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/abe/economics/business/eportfolio/"&gt;ePortfolio&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            The Color of Love
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Sienna Fusco is a Business Administration and Self-Design Major. In the summer of 2015, Sienna was inspired to combine her passions in business, art, and helping others by starting her own business.
+            </span>
+            <div align="right">
+             <a href="/main/academics/abe/siennafusco/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/academics/abe/sm.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

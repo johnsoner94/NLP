@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   Blogmarks : New Mark
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link href="http://blogmarks.net/style/bm.compressed.css?v=3.1" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://blogmarks.net/style/mini.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="http://blogmarks.net/style/a-one-column.css" media="screen" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+   //&lt;![CDATA[
+var BM_HOST = 'blogmarks.net', BM_PATH = '', BM_BASE_STATIC_URL = 'http://blogmarks.net', BM_API_BASE_URL = 'http://blogmarks.net/api', BM_EFFECTS = true, BM_ADJUST_HEIGHT = true;    //]]&gt;
+  </script>
+  <script type="text/javascript" src="http://blogmarks.net/js/bm.compressed.js?v=3.0">
+  </script>
+  <script type="text/javascript">
+   //&lt;![CDATA[
+window.focus();    //]]&gt;
+  </script>
+ </head>
+ <body class="my bm-frame">
+  <div id="container">
+   <div id="title-bar">
+    <h1>
+     Sign In
+    </h1>
+   </div>
+   <div id="content">
+    <div class="b">
+     <form id="signup" method="post" action="">
+      <p>
+       <label for="signup-login">
+        Username
+       </label>
+       <br />
+       <input class="text" type="text" name="login" id="signup-login" />
+      </p>
+      <p>
+       <label for="signup-pwd">
+        Password
+       </label>
+       <br />
+       <input class="text" type="password" name="pwd" id="signup-pwd" />
+      </p>
+      <p class="remind">
+       <input id="signup-remind" type="checkbox" value="1" name="remind" />
+       <label for="signup-remind">
+        Remember me
+       </label>
+      </p>
+      <p>
+       <input type="hidden" name="connect" value="1" />
+       <input type="hidden" name="referer" value="/my/new.php?mini=1&amp;simple=1&amp;url=http://media.muhlenberg.edu/videos/467/between-the-rock-and-a-hard-place-ethics-of-space-in-the-old-city-o%3Cbr%20%20/%3E%0Af-jerusalem&amp;title=between-the-rock-and-a-hard-place-ethics-of-space-in-the-old-city-o%3Cbr%20%20/%3E%0Af-jerusalem" />
+       <input class="submit" type="submit" value="Sign In" />
+      </p>
+      <p>
+       <a href="/services/lostPassword">
+        Lost your password?
+       </a>
+      </p>
+     </form>
+    </div>
+   </div>
+   <!-- /# content -->
+   <script type="text/javascript">
+    // Needed to calculate height
+Event.observe(window, 'dom:loaded', function() { $('left-bar').hide(); });
+   </script>
+  </div>
+  <!-- /#container -->
+  <iframe src="https://access.watch/challenge/?key=9b89020149ff37e69fbec4634ae57b46" width="1" height="1" frameborder="0" style="positon:absolute;top:0;right:0">
+  </iframe>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19910317-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+ </body>
+</html>

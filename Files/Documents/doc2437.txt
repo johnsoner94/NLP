@@ -1,0 +1,850 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery-ui-1.8.10.custom.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/accordionImageMenu-0.4.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/swfobject.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.main.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- Google Analytics -->
+  <script type="text/javascript" src="/media/contentassets/js/GoogleAnalytics.js">
+  </script>
+  <style>
+   .content-box-athletics { background:#39637F; }
+.content-box-athletics ul { background:#CC092F; color:#F4EAC5; font-size:12px ;}
+.content-box-athletics { border:thin solid  #003050;text-align:center;z-index:100; width:190px; margin:0 0 20px -30px; overflow:hidden; }
+    .content-box-athletics a { color:#F4EAC5; font-size:12px ;padding:6px 10px 9px 9px; }
+    .content-box-athletics h3 { background:#7A0109; color:#F4EAC5; font-size:12px }
+  </style>
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Muhlenberg College Search Committee
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up); 
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.panelgallery-1_2.js">
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <div class="header-holder">
+     <div id="header">
+      <!-- navigation object : Header - Related -->
+      <!-- Content Template Start: Header elements-->
+      <div class="header-add01">
+       <form action="http://search.muhlenberg.edu/NSearch/SearchServlet?" method="get" name="SearchForm" id="SearchForm">
+        <fieldset>
+         <div class="search-form">
+          <!--&lt;span class="search-txt"&gt;&lt;input type="text" value="Search"  /&gt;&lt;/span&gt;
+
+									&lt;input type="button" class="btn-search" value="Go"  /&gt;-->
+          <input name="collection" type="hidden" id="collection" value="www.Muhlenberg.edu" />
+          <span class="search-txt">
+           <input name="query0" type="text" size="0" id="query0" value="Search" onfocus="this.value=''" />
+          </span>
+          <input type="Submit" class="btn-search" value="Go" />
+          <span class="social-media">
+           &nbsp;
+           <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+            <img src="/media/styleassets/images/facebook.jpg" border="0" />
+           </a>
+           <a target="_child" href="http://twitter.com/muhlenberg">
+            <img src="/media/styleassets/images/twitter.jpg" border="0" />
+           </a>
+          </span>
+         </div>
+        </fieldset>
+       </form>
+       <ul>
+        <li>
+         <a href="/tactical/contact.htm">
+          Contact
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/tour/map.html">
+          Campus Map
+         </a>
+        </li>
+        <li>
+         <a href="/tactical/azfind.htm">
+          A-Z Index
+         </a>
+        </li>
+        <li>
+         <a href="/cgi-bin/namesearch/namesearch.pl">
+          Directory
+         </a>
+        </li>
+        <li>
+         <a href="http://trexler.muhlenberg.edu">
+          Library
+         </a>
+        </li>
+       </ul>
+      </div>
+      <h1>
+       <a href="/index.html">
+        <span>
+         Muhlenberg college
+        </span>
+       </a>
+      </h1>
+      <div class="header-add02">
+       <ul>
+        <li>
+         <a href="/main/admissions/">
+          Prospective Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/current-students/">
+          Current Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/faculty-staff">
+          Faculty &amp; Staff
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/parents">
+          Parents
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/alumni">
+          Alumni
+         </a>
+        </li>
+       </ul>
+       <span>
+        Information for:
+       </span>
+      </div>
+      <!-- Content Template End: Header elements-->
+     </div>
+    </div>
+    <div class="nav-holder">
+     <a name="navigation" style="display:none">
+     </a>
+     <div class="nav">
+      <!-- navigation object : Main Menu -->
+      <ul>
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <ul>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <!--&lt;a href="../index.html"&gt;index.html&lt;/a&gt;-->
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/presidentialsearch/search.jpg" alt="The Search for Muhlenberg College's Next President" style="width : 780px; height : 276px;     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Social Media Share -->
+          <div class="content-add05">
+           <!-- navigation object : Breadcrumbs -->
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/presidentialsearch/">
+               Presidential Search
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/presidentialsearch/searchcommittee/">
+               Search Committee
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+           <!-- Content Template Start: General Content-->
+           <h1>
+            Search Committee
+           </h1>
+           <p>
+            &nbsp;
+           </p>
+           <table border="0" cellpadding="5" style="width: 100%;">
+            <tbody>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Eric_Berg.jpg" alt="Eric_Berg" style="width : 150px; height : 196px;     float : right;" />
+                 Eric L. Berg &lsquo;78
+                </strong>
+                &nbsp;is a trustee of Muhlenberg College and will chair the search committee. Mr. Berg is a senior partner at White &amp; Case LLP, which is a leading global law firm with over 1800 lawyers in 39 offices in 26 countries.
+               </p>
+               <p>
+                Mr. Berg is based in New York City, and is head of his firm&rsquo;s Global Banking Practice. He also serves as a member of the firm&rsquo;s Strategic Growth Council and Global Clients Council, and acts as lead relationship partner for a number of the firm&rsquo;s key clients. Mr. Berg has for many years been one of the preeminent lawyers in the banking field and is recognized as such in the leading guides to the profession.
+               </p>
+               <p>
+                Mr. Berg received his A.B. in accounting from Muhlenberg College and his J.D. from Cornell Law School. At Muhlenberg, Mr. Berg was a two-year captain of the men&rsquo;s lacrosse team and a member of the Lambda Chi Alpha fraternity. Mr. Berg resides in Glen Ridge, NJ with his wife, Claudia. They have four sons. The Bergs are proud sponsors of the Berg Family Scholarship Fund at Muhlenberg College.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Bormann03_1.jpg" alt="Tammy Bormann" style="width : 150px; height : 197px;     float : right;" />
+                 Tammy L. Bormann&nbsp;
+                </strong>
+                <strong>
+                 &rsquo;83, P&rsquo;16
+                </strong>
+                &nbsp;leads a national consulting practice in the field of anti-racism, social justice and racial reconciliation, her fields of endeavor for nearly 25 years.&nbsp; She designs and facilitates learning and research processes that seek to dismantle racism and other forms of oppression through knowledge, dialogue and systemic change.&nbsp; She is the co-founder of the Workplace Diversity Network and a founding member of the Washington, DC-based NABRE: Network of Alliances Bridging Race and Ethnicity.
+               </p>
+               <p>
+                Currently the Second Vice Chair of Muhlenberg's Board of Trustees, Tammy also chairs the board of Urban Bush Women, an international dance company based in New York City and is a member of the Board of Directors of Arts Horizons/The LeRoy Neiman Arts Center in Harlem. &nbsp;She is the immediate past chair of Trinity United Methodist Church and chair emerita of the Myhelan Cultural Arts Center.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Bruck.jpg" alt="Bruck" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Lance Richard Bruck, MD, FACOG, FACS&nbsp;
+                <strong>
+                 &rsquo;89
+                </strong>
+                &nbsp;is founder and President of Rockshelter Consulting, Inc., which provides a vast array of consulting services in the healthcare sector. Dr. Bruck is an Associate Professor of Obstetrics &amp; Gynecology at Columbia University, College of Physicians &amp; Surgeons and was the Chairman of the Department of Obstetrics and Gynecology at Stamford Hospital located in Stamford, Connecticut until May 2014. Dr. Bruck also held the position of President and CEO of Stamford Health Integrated Practices, a multi-specialty medical group, from November 2011 through March 2014.
+               </p>
+               <p>
+                Dr. Bruck is an HMMS member and served as a member of the College&rsquo;s Board of Observers. He resides in Waccabuc, New York, with his wife and two children.
+               </p>
+               <strong>
+                <br />
+                &zwnj;
+               </strong>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Conrad.jpg" alt="Conrad" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Cecilia A. Conrad, Ph.D.
+                &nbsp;is Vice President of the MacArthur Fellows Program of the John D. and Catherine T. MacArthur Foundation.&nbsp; Before joining the Foundation in January 2013, she was Vice President for Academic Affairs, Dean of the College and Stedman-Sumner Professor of Economics at Pomona College in Claremont, California.&nbsp; She was named the California Professor of the Year and was awarded the Wig Distinguished Professorship, both in 2002.
+               </p>
+               <p>
+                Dr. Conrad&rsquo;s research focuses on the economics of inequality and the economics of the family.&nbsp; She is the editor of&nbsp;
+                <em>
+                 The Review of Black Political Economy
+                </em>
+                , and is serving a second term on the board of the American Economic Association&rsquo;s Committee on the Status of Women in the Economics Profession.&nbsp; She is a former president of the National Economic Association and of the International Association for Feminist Economics, and is the former director of the American Economic Association&rsquo;s pipeline project to increase the number of minority doctorate holders in economics.
+               </p>
+               <p>
+                Dr. Conrad has served on the Muhlenberg Board of Trustees since 2005.&nbsp;
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/CRIST.jpg" alt="CRIST" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Richard C. Crist, Jr. &rsquo;77, P&rsquo;05, P&rsquo;09
+                is president and CEO of the Allstate New Jersey Insurance Company, as well as a member of the company&rsquo;s board of directors. Prior to his appointment as president of ANJ, Rich was the Chief Ethics and Compliance Officer for the Allstate Insurance Company, headquartered in Northbrook, Illinois. He also served as the company&rsquo;s Chief Privacy Officer.
+               </p>
+               <p>
+                Rich has been involved in many volunteer efforts throughout his career, including a long standing relationship with Junior Achievement. He currently serves JA as a member of the Junior Achievement of New Jersey Board of Directors.
+               </p>
+               <p>
+                A former member of the Muhlenberg Board of Observers, Rich was elected to the Board of Trustees in 2006. He served as the Chair of the Buildings, Infrastructure and Grounds Committee until 2011, when he was elected Secretary of the Board. In 2013, he was unanimously elected Chair of the Board.
+               </p>
+               <p>
+                Rich and his wife Cindy served as co-chairs of the College&rsquo;s Parents Council from 2004-2007. Both of their children (Rick &rsquo;05 and Samantha &rsquo;09) are Muhlenberg graduates.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/headshots/presidentsstaff/Green.jpg" alt="" style="width : 150px; height : 194px;     float : right;" />
+               </p>
+               <p>
+                &zwnj;
+                <strong>
+                 Karen Green
+                </strong>
+                , Vice President for Student Affairs/Dean of Students, joined the Muhlenberg Community in June 2006. With a history of 30 plus years in Student Affairs prior to coming to Muhlenberg, Ms. Green served as the Dean of Students at Wells College in Aurora, NY.
+               </p>
+               <p>
+                Ms. Green, a 1986 graduate of Agnes Scott College, earned a M. Div. from the Candler School of Theology of Emory University in 1997.
+               </p>
+               <p>
+                In her first year at Muhlenberg, Ms. Green founded Muhlenberg's Gospel Choir, "Rejoice." She oversees all aspects of student life, including residential services, campus safety, dining services, athletics, multicultural life Greek life, Seegers Union, student activities, community engagement, Title IX, judicial affairs, counseling and the health center.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Gruen.jpg" alt="Gruen" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                <strong>
+                 William "Chip" Gruen III, Ph.D
+                </strong>
+                . is associate professor and chair of the religion studies department. He received his B.A. from the University of Kentucky, his M.A. from the University of Cincinnati and his Ph.D. from the University of Pennsylvania. Gruen specializes in the history of Christianity in the Roman Empire, with particular interest in marginal, heterodox sects. His current research examines how evidence from ancient communities is preserved and interpreted in the contemporary world. In his comparative work, Gruen is interested in the use of animals in religious symbols and rituals in both Christianity and cross-culturally. In addition to his departmental responsibilities, Gruen is an active member of the writing cohort, serving as a humanities representative on the Writing Program Committee for seven years, including three as its chair. Gruen has been a member of the campus community since 2006.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Guss_1.jpg" alt="Sheryl Guss" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Sheryl LeBlanc Guss &rsquo;81, P&rsquo;10, P&rsquo;13,&nbsp;
+                has extensive experience in business management which she puts to use on daily basis as Vice President of Preferred Pension Planning Corporation.&nbsp; Her experience includes work in data management, systems development, human resources, and practice management.&nbsp; She received her AB in History from Muhlenberg College in 1981.
+               </p>
+               <p>
+                Ms. Guss was elected to the Alumni Board in 2009.&nbsp; While on the Board, she served as Vice Chair of the Nominating Committee and a member of the Undergraduate Ad Hoc Committee.&nbsp; Ms. Guss begins her second two-year term as President of the Alumni Board; she was first elected in the spring of 2011 and then re-elected this past spring.
+               </p>
+               <p>
+                Her husband, Richard, was a member of Muhlenberg&rsquo;s Class of 1983; her daughter, Emily, was a member of the Class of 2010; and her daughter, Elissa, was a member of the Class of 2013. &nbsp;Her son, Matthew, graduated from Dickinson College in 2008.
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 <br />
+                </strong>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/headshots/presidentsstaff/Hooker-Haring.jpg" alt="" style="width : 150px; height : 203px;     float : right;" />
+                </strong>
+                Chris Hooker-Haring
+                &nbsp;is a 1972 Muhlenberg College graduate with a major in English.&nbsp; He began his career in college admissions in 1973, and has served in the Muhlenberg College Admissions Office since 1987, with prior stints at&nbsp;
+                <span>
+                 Cedar Crest
+                </span>
+                &nbsp;(Admissions Counselor/Assistant Director; 1973-76),&nbsp;
+                <span>
+                 Lafayette
+                </span>
+                &nbsp;(Assistant Director; 1976-80) and&nbsp;
+                <span>
+                 Moravian
+                </span>
+                &nbsp;(Director of Publications/Head Men&rsquo;s and Women&rsquo;s Cross Country Coach/Assistant Men&rsquo;s and Women&rsquo;s Track Coach/p-t faculty in Evening College teaching Business Communication and Publications Production; 1980-87).
+               </p>
+               <p>
+                Hooker-Haring came to Muhlenberg as Senior Associate Director of Admissions in 1987, &nbsp;was named Director of Admissions at Muhlenberg in 1989, Dean of Admissions in 1993, and assumed his current position as Dean of Admission &amp; Financial Aid in 1996. &nbsp; &nbsp;
+               </p>
+               <p>
+                Hooker-Haring has served as a member of the Executive Board of his state&rsquo;s professional association, and has presented at a number of regional and national conferences on admissions issues such as Merit Scholarships, Early Decision, SAT-Optional admissions, and Trends in the Admissions Marketplace.&nbsp; His op-ed pieces have appeared in such publications as the&nbsp;
+                <em>
+                 Los Angeles Times
+                </em>
+                , the&nbsp;
+                <em>
+                 Chicago Tribune
+                </em>
+                , the&nbsp;
+                <em>
+                 Philadelphia Inquirer
+                </em>
+                , the&nbsp;
+                <em>
+                 Allentown Call
+                </em>
+                , and the national wire services.
+                <strong>
+                </strong>
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 &zwnj;
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Jaffee.jpg" alt="Jaffee" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Sandra Schuyler Jaffee P&rsquo;04
+                &nbsp;is currently a private investor and Founder and President of Homeworks Concierge, a residential property management business.&nbsp; She is the former Chief Executive Officer of Fortent, Inc., a software company.&nbsp; Previous positions include Entrepreneur-in-Residence at Warburg Pincus, where she focused on the media and business service sectors, and Executive Vice President of Citibank, where, as President and CEO of Citibank&rsquo;s Global Securities Services, Ms. Jaffee ran Citibank&rsquo;s securities processing and transaction businesses, serving global issuers, intermediaries, and investors.&nbsp; Among other executive positions, she also managed relationship management for Citigroup&rsquo;s Financial Institutions in Global Transaction Services.&nbsp; At the New York Stock Exchange, Ms. Jaffee was Executive Vice President in charge of Corporate Sales and Marketing, Technology, Finance and Administration.&nbsp; She also was a partner at APM, Inc., a health care consulting firm.
+               </p>
+               <p>
+                Ms. Jaffee is a member of the Boards of Directors of The Hartford Mutual Funds and Broadridge Financial Solutions.&nbsp; She has served on the Board of Directors of the Depository Trust Company and Institutional Shareholder Services, and as a member of the Supervisory Board of Deutsche B&ouml;rse, AG based in&nbsp; Frankfurt, Germany.&nbsp; Ms. Jaffee received her BA from Tufts University.&nbsp; She also served for two years as a United States Peace Corps Volunteer in Ethiopia.
+               </p>
+               <p>
+                A member of Muhlenberg's Board of Trustees, she resides in Bedford, New York, with her husband Carl.&nbsp; They are the parents of Evan &rsquo;04.&nbsp;
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/presidentialsearch/McGuire-(2010).jpg" alt="McGuire-(2010)" style="width : 150px; height : 197px;     float : right;" />
+                <strong>
+                 Linda McGuire, Ph.D.
+                </strong>
+                &nbsp;is a professor of mathematics and former chair of the department of mathematics. She received her B.S. from Seton Hall University and her Ph.D. from Stevens Institute of Technology. McGuire has been a member of the campus community since 1999. Her mathematical interests are in the fields of combinatorics, network analysis, and graph theory. Specifically, she uses mathematics to create optimal designs for tangible structures under specified constraints. Structures of interest include railway systems, communication networks, postal delivery and sanitation pick-up routes, and rules governing the deployment of law enforcement personnel or military guards in a given geographic landscape. Muhlenberg students often work with Dr. McGuire on such optimization problems.
+               </p>
+               <p>
+                At Muhlenberg, Dr. McGuire teaches courses throughout the mathematics curriculum including single and multivariable calculus, introductory statistics, linear algebra, proof-writing, discrete mathematics, mathematical statistics, combinatorics, graph theory, and complex variables. She also teaches two First-Year Seminars: New York Wit about the writers of the Algonquin Round Table, and Whodunit?, a seminar focused on the detective story genre. In a "cluster" collaboration with Dr. Beth Schachter (Theatre &amp; Dance), Dr. McGuire looks forward to developing a new course (called Perspectives of Gender) about the history and advancement of women in mathematics and science.&nbsp;
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/odonnellbeatrice.jpg" alt="odonnellbeatrice" style="width : 150px; height : 200px;     float : right;" />
+                </strong>
+                Beatrice O&rsquo;Donnell P&rsquo;10
+                &nbsp;is a senior partner in the trial department of Duane Morris, one of the country&rsquo;s 100 largest law firms and a former member of the firm&rsquo;s Partner&rsquo;s Board.&nbsp; Ms. O&rsquo;Donnell maintains an active trial practice in the areas of mass tort, products liability, commercial and patent litigation as well as healthcare-related litigations.&nbsp; Ms. O&rsquo;Donnell has tried to verdict more than 90 major civil jury trials in both the state and federal courts and has experience in handling hundreds of arbitration and mediations.&nbsp;
+               </p>
+               <p>
+                In 2009-2013, Ms. O&rsquo;Donnell was recognized in Best Lawyers in America in the areas of products liability and medical malpractice.&nbsp; From 2003 through 2013 she was designated one of Pennsylvania&rsquo;s &ldquo;Super Lawyers,&rdquo; as well as one of Top 50 Women Lawyers in the Commonwealth of Pennsylvania. &nbsp;
+                <span>
+                 Ms. O&rsquo;Donnell is member of the Litigation section of the American Bar Association and serves as the ABA Co-Chair of the
+                </span>
+                <span>
+                 Woman Advocate Committee and is former Chair of the ABA
+                </span>
+                <span>
+                 Mass Torts Committee. She served on the Board of Living Beyond Breast Cancer for over a decade, and currently serves on the Board of Visitors at Temple University School of Environmental Design and Ambler Campus
+                </span>
+                <span>
+                 and Act II Playhouse in Ambler, PA
+                </span>
+                <span>
+                 .&nbsp;
+                </span>
+               </p>
+               <p>
+                Along with her husband, Kevin Canavan, Ms. O&rsquo;Donnell served as Chair of the Muhlenberg College Parents Council from 2008-2010.&nbsp; She is a former member of the Board of Observers, and was elected to the Board of Trustees in 2010. She is the proud parent of Muhlenberg gradate Carolina Millard &rsquo;10.
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/patterson.jpg" alt="Tatiana Patterson" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Tatiana Patterson '15
+                &nbsp;is the student representative to the Presidential Search committee. She is a psychology major and Africana Studies minor. A graduate of Saddle River Day School in New Jersey, Tatiana is a member of the Black Student Association and was previously the secretary and co-president. She is part of the Emerging Leaders program and has served as a mentor for the past two years. She is also on the 2015 Class Council, a manager for the men's basketball team and a student lab coordinator on diversity research. Tatiana is a student worker for admissions and the recipient of the Class of 1983 Scholarship. She is also a member of the diversity vanguard.&nbsp;Her community service work includes volunteering for Jefferson Field Day [ADD] and an administrative internship with the Director of Volunteer activities and Chaplain at Northampton Country Prison.
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                </strong>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/PORPHY.jpg" alt="Jeffrey R. Porphy" style="width : 150px; height : 197px;     float : right;" />
+                </strong>
+                Jeffrey R. Porphy&nbsp;
+                <strong>
+                 &rsquo;89
+                </strong>
+                &nbsp;will soon join Bank of America Merrill Lynch as a Managing Director in the M&amp;A Group.&nbsp; Formerly a Managing Director with JMP Securities, he has also worked for Credit Suisse and Barclay&rsquo;s Capital.
+               </p>
+               <p>
+                A 1989 Muhlenberg graduate, Jeffrey was President of his senior class and a TKE brother.&nbsp; He was the Co-Chair of the College&rsquo;s capital campaign, &ldquo;The Talents Entrusted to Our Care.&rdquo;&nbsp; He is also a the former Chair of the Henry Melchior Muhlenberg Society. &nbsp;Jeff currently serves as the Chair of the Finance and Investment Committee of the Board of Trustees. He is the proud father of sons Asher and Griffin.
+                <strong>
+                 &zwnj;
+                </strong>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <strong>
+                 <img src="/media/contentassets/images/presidentialsearch/Sciutto-2012.jpg" alt="Sciutto-2012" style="width : 150px; height : 197px;     float : right;" />
+                 Mark Sciutto, Ph.D.
+                </strong>
+                is a professor of psychology and chair of the psychology department. He earned his B.A. from Villanova University and his M.A. and Ph.D. from Hofstra University. His research focuses on the role that knowledge and misconceptions of Attention-Deficit/Hyperactivity Disorder (ADHD) might play in families' help-seeking behavior. He is also researching issues of stigma related to Asperger's Syndrome and Autism.
+               </p>
+               <p>
+                Sciutto has been at Muhlenberg since the fall of 2001. During that time, he has served the College as a member of the Faculty Center for Teaching Advisory Board, the Curriculum Committee, and the Institutional Review Board. He also participated in Muhlenberg&rsquo;s Middle States Accreditation self-study in 2004 and he chaired the Task Force on Curriculum Design from 2008 to 2010.
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <!-- Content Template End-->
+          </div>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- navigation object : General - Right box -->
+         <!-- navigation object : Left Side Links 1 -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Left Side Links 1 -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         About the Search
+        </h3>
+        <ul>
+         <li>
+          <a href="/presidentialsearch/">
+           Home
+          </a>
+         </li>
+         <li>
+          <a href="/presidentialsearch/searchupdates/">
+           Search Updates
+          </a>
+         </li>
+         <!--&lt;li&gt;&lt;a href="SiteManager?ctfn=hierarchy&amp;amp;amp;fnno=10&amp;amp;amp;sid=2159&amp;amp;amp;lang=en&amp;amp;amp;sslinkid=9" title="Home%20%BB%20Muhlenberg%20College%20%BB%20Presidential%20Search%20%BB%20Message%20from%20Chairman%20Crist | Links to: Home &amp;amp;raquo; Muhlenberg College &amp;amp;raquo; Presidential Search &amp;amp;raquo; Search Updates &amp;amp;raquo; Message from Chairman Crist"&gt;Message from Chairman Crist&lt;/a&gt;&lt;/li&gt;-->
+         <li>
+          <a href="/presidentialsearch/searchcommittee/">
+           Search Committee Members
+          </a>
+         </li>
+         <li>
+          <a href="/presidentialsearch/searchfirmrepresentatives/">
+           Search Firm Representatives
+          </a>
+         </li>
+         <li>
+          <a href="mailto:boardchair@muhlenberg.edu">
+           Contact the Search Committee
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/">
+           About Muhlenberg&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!--&lt;!-- navigation object : Link Boxes Related -->
+      </div>
+      <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+     </div>
+    </div>
+   </div>
+   <div class="footer-holder">
+    <!-- navigation object : Footer Boxes Related -->
+    <!-- Content Template Start: Footer Boxes-->
+    <div id="footer">
+     <div class="footer-add01">
+      <ul class="footer-menu01">
+       <li>
+        <a href="/main/admissions/">
+         Prospective Students
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/current-students/">
+         Current Students
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; Faculty &amp; Staff" href="/gateways/faculty-staff/">
+         Faculty &amp; Staff
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/parents/">
+         Parents
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com" target="_blank">
+         Alumni
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu02">
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu03">
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; News &amp; Events" href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow" target="_blank">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <li>
+        <a href="http://bbmobile.muhlenberg.edu/" target="_blank">
+         Mobile App
+        </a>
+       </li>
+       <li>
+        <a href="/main/aboutus/oit/about/policies_procedures/privacy.html">
+         Web Privacy Policy
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-add02">
+      <address>
+       <strong>
+        Muhlenberg College
+       </strong>
+       <span>
+        2400 Chew St. Allentown, PA 18104-5586
+       </span>
+       <span>
+        484-664-3100
+       </span>
+       <span>
+        484-664-3623 (TTY)
+       </span>
+       <br />
+       <span>
+        &copy;Muhlenberg College 2013&nbsp;
+       </span>
+      </address>
+      <ul>
+      </ul>
+     </div>
+    </div>
+    <!-- Content Template End-->
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+  </div>
+ </body>
+</html>
+<!-- InstanceEnd -->

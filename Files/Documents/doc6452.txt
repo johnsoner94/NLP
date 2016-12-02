@@ -1,0 +1,1180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Recent Alumni - Students | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Mathematics &amp; Computer Science
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/mathcs/">
+               Math &amp; Computer Science
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/mathcs/students/">
+               Students
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/mathcs/students/recentalumni/">
+               Recent Alumni
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <center>
+           <!--Inside Navigation Bar-->
+           <div class="content-add05">
+            <center>
+             <h3>
+              Mathematics and CS Alumni
+             </h3>
+            </center>
+            <p style="text-align: center;">
+             <a href="#math">
+              Mathematics
+             </a>
+             |
+             <a href="#cs">
+              Computer Science
+             </a>
+            </p>
+            <!--About Alumni Section-->
+            <p align="center" style="font-weight: bold;">
+             What are our Mathematics and Computer Science alumni&nbsp; doing today?
+            </p>
+            <p>
+             &nbsp;
+            </p>
+            <!--Math Alumni Section-->
+            <center>
+             <h3 style="text-align: center;">
+              <span style="text-decoration: underline;">
+               <a id="math">
+               </a>
+               Mathematics Alumni
+              </span>
+             </h3>
+            </center>
+            <p style="text-align: left;">
+             <strong>
+              Matthew Cecconi '11
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <img src="/media/contentassets/images/academics/mathcs/images/Cecconi-150x256.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Current Job and Job Satisfaction:
+             </strong>
+             I am currently in my second year of teaching 6th, 7th, and 8th grade "Dynamic Math Connections" at Thomas Jefferson Middle School in Fair Lawn, NJ. The course is a rotation-style, supplemental math class that all students in the district take throughout their three years of middle school. Dynamic Math Connections is a hands-on, project based class that reinforces the mathematical concepts students learn in their traditional math classes by tying them into everyday life situations (e.g. architectural design using similar figures and scale factors.)
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's Mathematics program has influenced me:
+             </strong>
+             The Muhlenberg Math Department/Program could not have been a better fit for me. Each course went beyond the math in a way that I had never seen prior to my experience at Muhlenberg College. Whether it was a solving a differential equation to deduce whether or not the hawks and squirrels would be able to co-exist on campus, or cracking codes using modular arithmetic and matrix inverses, connections were always made.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Interesting Tidbit:
+             </strong>
+             One of our 8th grade projects focuses on the four mathematical transformations (rotations, reflections, translations, dilations) and what they do to different objects. The students use the computer program, Geometer's Sketchpad, to create an animation using these transformations.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Mark Shive '10
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <img src="/media/contentassets/images/academics/mathcs/images/markShive-150x306.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Current Job and Job Satisfaction:
+             </strong>
+             I currently work as an actuarial analyst for Towers Watson in Parsippany, NJ. I work in our retirement benefits line of business where we value the pension plans of our clients. Working at a consulting firm, my daily work varies regularly and makes my job truly fulfilling. No two days are exactly the same and there is constant interaction between colleagues and with clients. The consulting world is fast-paced and keeps things interesting.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Post-Muhlenberg Education or Training:
+             </strong>
+             I have not had any formal education after Muhlenberg, but the actuarial exams serve as a form of further education. I passed my first two exams while at Muhlenberg and have since passed three more. I am currently working on the FAP modules, which will culminate in my ASA and then I will begin working toward my FSA and EA credentials.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's Mathematics program has influenced me:
+             </strong>
+             The first math class I took at Muhlenberg with Dr. McGuire furthered my interest in this area and led me to discuss potential career opportunities with her. After these conversations, I decided to pursue a math degree and began researching the various career possibilities we discussed, which eventually led to my interest in the actuarial field. I believe it is important to find an area of study that interests you and have discussions with faculty about the potential in that field. Finding something that truly interests you and pursuing it can lead to a fulfilling career.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Maura Hendsey '08
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <img src="/media/contentassets/images/academics/mathcs/images/Hendsey.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Current Job and Job Satisfaction:
+             </strong>
+             Business Consultant at Quintiq Inc. in Randor, PA (advanced planning and scheduling software company). As a consultant I'm a liaison between the customer and the programmer. My job is to determine a solution that satisfies the customer, and then to ensure that the programmers build it correctly. I'm very happy at Quintiq. It's the perfect job for an extroverted math major.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Post-Muhlenberg Education or Training:
+             </strong>
+             Master's of Science (concentration in Operations Research) at Clemson University
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's Mathematics program has influenced me:
+             </strong>
+             I really enjoyed the breadth of exposure to different areas of math in the Muhlenberg curriculum. This is how I learned of OR and decided that it is something I might want to study at the graduate level. If not for Muhlenberg, I may have never heard of OR. Also, Transitions to Abstract Mathematics was a great prep course for grad school. Having a strong foundation in proof writing is extremely important for graduate level math.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Michael Yingling '07
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             &zwnj;
+             <img src="/media/contentassets/images/academics/mathcs/images/myingling-150x165.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Current Job and Job Satisfaction:
+             </strong>
+             Just a few months ago I was working a software engineering job outside of Washington, DC when I decided to take some time off and work on my side business doing web development. I moved to Utah, since I've always dreamed of spending a winter skiing, and my business allowed me that flexibility. Now I'm able to enjoy my days outside and work in the evening from any location. I can't imagine higher job satisfaction!
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Experience with Math/CS at Muhlenberg:
+             </strong>
+             Muhlenberg was exactly what I needed to prepare for the "real world." The Mathematics and Computer Science department was so close some of us actually drew out a mock family-tree. I've been over to professors' houses for dinner and met up with my advisor, Dr. Kussmaul, several times since graduation.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's Mathematics &amp; CS program has influenced me:
+             </strong>
+             With the knowledge and lessons learned from Muhlenberg I'm fairly confident in being able to continue to grow my business as much as I'd like. Thanks to my education, the positions it has led to and the connections from those jobs, I have no doubt I could return to another job quickly and easily. The foundation I built at Muhlenberg has truly been the best stepping stone in my life and I cannot thank my professors enough.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Alex Joujan '05
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <img src="/media/contentassets/images/academics/mathcs/images/Joujan-150x200.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             I am in my second year teaching Algebra 1 and Algebra 2 at The Pingry School in Martinsville, NJ and feel very fortunate to have ended up at such a great school after losing my job 2 years in a row due to district budget cuts in Allentown and Bethlehem. I love teaching. I am currently in my 7th year teaching and I am still in touch with the Knowles Foundation (KSTF) as an Alumni Teaching Fellow. I found out about KSTF when I was in graduate school at UPenn and now that I have been through their 5-year Teaching Fellowship and 2 years of Alumni involvement, I can see that the support I received from KSTF probably kept me in a teaching career. I try to advertise KSTF to everyone I know who is interested in teaching math or science. Although KSTF kept me in teaching after I started, I wouldn't have become interested in teaching if I hadn't had such a great experience working with the professors in Muhlenberg's math department and organizing the after-school tutoring program for four years at The Caring Place.
+            </p>
+            <p style="text-align: left;">
+             &nbsp;
+            </p>
+            <!--Computer Science Section-->
+            <hr />
+            <h3 style="text-align: left;">
+             &nbsp;
+            </h3>
+            <center>
+             <h3>
+              <span style="text-decoration: underline;">
+               <a id="cs">
+               </a>
+               Computer Science Alumni
+              </span>
+             </h3>
+            </center>
+            <p style="text-align: left;">
+             <strong>
+              Chelsea Lobdell '09
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <img src="/media/contentassets/images/academics/mathcs/images/Lobdell-150x200.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Current Job and Job Satisfaction:
+             </strong>
+             Currently I work as a library applications programmer for the tri-college consortium of Bryn Mawr, Haverford, and Swarthmore. I have been with the tri-co for two and a half years now and I work with a variety of library technologies and applications dedicated to enhancing the user experience and increasing the efficiency of information sharing. My job requires me to be familiar with a multitude of scripting languages as well as graphic design software. The project that has consumed the majority of my time was the Discovery Layer project where we replaced our libraries traditional OPAC with open source software (a heavily modified version of Villanova's VUFind) that allowed us to search across multiple silos of information and present our users with better search results. I am very happy with my job and I greatly enjoy the people I work with.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Post-Muhlenberg Education or Training:
+             </strong>
+             Master's of Computer and Information Science at the University of Pennsylvania (UPenn).
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's Mathematics program has influenced me:
+             </strong>
+             Getting my undergraduate degree at Muhlenberg was one of the best learning experiences I have had. Both Dr. Kussmaul and Dr. Benjamin are highly dedicated professors giving students ample attention both in and out of the classroom. Muhlenberg's CS program taught me how to think critically and analytically and thus helped me hone my problem solving and debugging skills. An asset that has proved to be priceless in my career. Aside from the academics, the internship opportunities I took advantage of at Muhlenberg directly effected my career path. During my undergrad I held an internship with Trexler Library where I conducted a comparative analysis of open source software for library websites. This experience contributed greatly to my growing interest in library technologies and was a major reason I was hired on by the tri-co.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Raffaello Trofa '06
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              What I've been doing since college:
+             </strong>
+             Directly following graduation, I worked on the world's largest trading floor in Stamford, CT, at UBS Investment Bank. At UBS, I was a fixed income portfolio analyst helping facilitate large trades for internal and external clients. I have also continued to participate in the company which I co-founded during my college years, Threads For Thought.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's CS program has influenced me:
+             </strong>
+             Besides a great academic experience, Muhlenberg's CS program helped me strive in the workplace, as I was developed to think logically and efficiently. Although not directly in a developer role, the programming knowledge which I took away for the program allowed me to create new efficiencies for my team, especially with VBA. I can also attribute my education for helping me design a successful and profitable website for Threads For Thought.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Advice for current or prospective students:
+             </strong>
+             The professors in the CS department are very accessible, and along with providing support during courses, they are great mentors. I also would advise considering a minor/major in mathematics, as I found the upper-level math courses complement the CS program nicely.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Ryan Kavalsky '05
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              What I've been doing since college:
+             </strong>
+             For the two years immediately following my graduation, I worked as a software developer on a small development team for the
+             <a href="http://www.sra.state.md.us/" target="_blank">
+              Maryland State Retirement Agency
+             </a>
+             , where I served as lead developer, database administrator, and anlalyst on multiple projects that benefited the administrative side of my agency's activities. From that point on, I've been working as a software developer on an even smaller development team for the
+             <a href="http://www.ssa.gov/" target="_blank">
+              Social Security Administration's
+             </a>
+             <a href="http://www.ssa.gov/budget" target="_blank">
+              Office of Budget
+             </a>
+             , where I've been senior developer, database administrator, and analyst for projects that benefit our office's internal needs. I'm also currently enrolled in a graduate program for my Masters of Software Engineering.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's CS program has influenced me:
+             </strong>
+             What Muhlenberg's CS program had offered me as a student there was far beyond a generic computer science education. I was also challenged to consider how my skills as a developer are not fully-matured without real-life business skills and strategies in mind. Some of the higher-level courses allowed me to explore the business side of development, and this is what truly prepared me for my professional career.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Advice for current or prospective students:
+             </strong>
+             If you're studying computer science at Muhlenberg, don't just be a CS student - explore different curriculums and opportunities as well. As a professional, very rarely will you develop software for software developers. It's important that you understand the business in which your development skills will be used, and how to effectively communicate with the environment that you will be serving.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Bill Stevenson '02
+             </strong>
+            </p>
+            <p style="text-align: left;">
+             <span class="content-add05">
+              <img src="/media/contentassets/images/academics/mathcs/images/Stevenson-150x200.jpg" alt="Mathematics &amp; Computer Science" style="  padding : 3;   float : right;" />
+             </span>
+             &zwnj;
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Employer:
+             </strong>
+             Apple
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Job Title:
+             </strong>
+             Program Manager, OS X Software Engineering
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              What I've been doing since college:
+             </strong>
+             My job is to manage a team of project managers who are responsible for releasing OS X, the world&rsquo;s most advanced desktop operating system. As a very large software project, there are many details to look after, and with millions of people relying on their computers, getting these details right is critical. I love that my job lets me interact with so many other teams within the company and that all of those people are incredibly engaged in their work. Everyone I work with shares a common goal of shipping great products, and this combination of passion, talent, and the knowledge that our family and friends are depending on us makes Apple a very exciting place to be.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Post-Muhlenberg Education or Training:
+             </strong>
+             After Muhlenberg, I went to Penn State to start work on a PhD in Computer Science. After finishing my masters, I decided to switch over to doing work in Cognitive Science, because I have always been fascinated by how people interact with computers. During my transition between departments, I did an internship at Apple and had a blast. This put me on the fence about staying in academia versus going into industry, and for a few years I tried to do both. As I got more invested in my new work, it became clear that something had to give, and I made the difficult decision to abandon my dissertation to become one of many drop-outs living in the Silicon Valley.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              How Muhlenberg's CS program has influenced me:
+             </strong>
+             My liberal arts education at Muhlenberg was pivotal in my future career, because it exposed me to many different fields and ways of thinking. Being able to use the insights and vocabulary from one area of study to analyze another is simply not taught in programs that focus strictly on engineering, and had I taken such a myopic track in my studies my career would have tuned out much different. The experiences I had with faculty in the department were key, because my curiosity was always indulged by one-to-one contact with professors who care deeply about their students and the art of teaching them to think for themselves.
+            </p>
+            <p style="text-align: left;">
+             <strong>
+              Advice for current or prospective students:
+             </strong>
+             If you go to college and only study within one area, you may be able to do less homework in your late teens, but you&rsquo;ll come out without insights that can only be found where fields intersect, and you&rsquo;ll be less interesting to recruiters, potential mates, and strangers on airplanes as a result. After graduation, it gets much harder to dabble in whatever you are curious about (but you need to force yourself to do it anyway). No matter what you study, learn how to program a computer to do your work for you so that you don&rsquo;t have to spend all your time doing it by hand.
+            </p>
+            <!-- InstanceEndEditable -->
+           </div>
+          </center>
+         </div>
+         <!-- Content Template End-->
+        </div>
+        <div id="skip_nav">
+         <a href="#navigation">
+          Skip to Navigation
+         </a>
+        </div>
+       </div>
+       <div class="col02">
+        <!-- InstanceBeginEditable name="rightSide" -->
+        <!-- navigation object : General - Right Red Box -->
+        <!-- text/sportrightgeneral related content advanced (current) -->
+        <ul class="menu02">
+         <li>
+          <span>
+           Mathematics &amp; Computer Science
+          </span>
+         </li>
+         <br />
+         <li>
+          <a href="/main/academics/mathcs/">
+           Home
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/mathcsactivities/">
+           Math &amp; CS Activities
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/studentfacultyresearch/">
+           Student/Faculty Research
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/studentsummerplans/">
+           Student Summer Plans
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/researchexperiencesforundergraduates/">
+           Research Experiences for Undergraduates
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/internships/">
+           Internships
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/mathcs/students/studentawards/">
+           Student Awards
+          </a>
+         </li>
+         <li>
+          <span class="currentbranch0">
+           <a href="/main/academics/mathcs/students/recentalumni/">
+            Recent Alumni
+           </a>
+          </span>
+         </li>
+        </ul>
+        <br />
+        <!-- navigation switcher -->
+        <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/mathcsactivities/"&gt;Math &amp; CS Activities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/studentfacultyresearch/"&gt;Student/Faculty Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/studentsummerplans/"&gt;Student Summer Plans&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/researchexperiencesforundergraduates/"&gt;Research Experiences for Undergraduates&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/internships/"&gt;Internships&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/mathcs/students/studentawards/"&gt;Student Awards&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/mathcs/students/recentalumni/"&gt;Recent Alumni&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+        <!-- navigation object : General - Right Callout -->
+        <!-- text/rightcontentgeneral  related content advanced (current) -->
+        <!-- navigation object : General - Right box -->
+        <!-- text/genright related content advanced (current) -->
+        <!-- navigation object : GTGC -->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            For many students, the course in Documentary Research is their first foray into making media.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            What insights can worms provide about tissue and organ systems in the human body?
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- Content Template Start: Right hand side callout-->
+        <div class="randomright">
+         <div class="content-box">
+          <h3>
+           Great Teachers, Great Courses...
+          </h3>
+          <div class="add03">
+           <span id="gtgcText">
+            Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+           </span>
+           <div align="right">
+            <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+             <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+            </a>
+           </div>
+           <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+          </div>
+         </div>
+        </div>
+        <!--Content Template End-->
+        <!-- text/genright related content branch (child section "Assets") -->
+        <!-- InstanceEndEditable -->
+       </div>
+      </div>
+     </div>
+     <div id="sidebar">
+      <!-- navigation object : Academics Link Panels -->
+      <!-- Content Template Start: Left Hand Side Links Display Panel-->
+      <div class="sidebar-add03">
+       <h3>
+        Programs
+       </h3>
+       <ul>
+        <li>
+         <a href="/academics#mmc">
+          Majors, Minors &amp; Certification
+         </a>
+        </li>
+        <li>
+         <a href="/main/academics/preprof/">
+          Preprofessional Program
+         </a>
+         <ul>
+          <li>
+           <a href="/main/academics/health_professions/">
+            Health Professions
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/preprof/prelaw/">
+            Prelaw
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+            Pre-Theological
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="/main/admissions/applyingtoacooperativeprogram/">
+          Cooperative Programs
+         </a>
+         <ul>
+          <li>
+           <a href="/main/admissions/dentistry/">
+            UPenn Dental Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+            Engineering
+           </a>
+          </li>
+          <li>
+           <a href="/main/admissions/templemedprogram/">
+            Temple Medical School Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/admissions/physicalandoccupationaltherapy/">
+            Occupational Therapy
+           </a>
+          </li>
+          <li>
+           <a href="/main/admissions/optometry/">
+            SUNY College of Optometry Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/admissions/physicalandoccupationaltherapy/">
+            Physical Therapy
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/music/certification/">
+            Music Certification
+           </a>
+          </li>
+          <li>
+           <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+            ROTC
+           </a>
+          </li>
+         </ul>
+        </li>
+       </ul>
+      </div>
+      <!-- Content Template End: Left Hand Side Links Display Panel-->
+      <!-- Content Template Start: Left Hand Side Links Display Panel-->
+      <div class="sidebar-add03">
+       <h3>
+        Incredible Experiences
+       </h3>
+       <ul>
+        <li>
+         <a href="/main/academics/global-education/">
+          Global Education
+         </a>
+        </li>
+        <li>
+         Senior Year Experience
+        </li>
+        <li>
+         <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+          Connect with Other Colleges
+         </a>
+        </li>
+        <li>
+         <a href="/main/academics/research/">
+          Research and Scholarship
+         </a>
+        </li>
+        <li>
+         <a href="/main/campuslife/community-service/">
+          Service Learning
+         </a>
+        </li>
+        <li>
+         <a href="/main/admissions/honors-overview.html/">
+          Honors Programs
+         </a>
+        </li>
+        <li>
+         <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+          Washington Semester
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/careercenter/">
+          Career Center
+         </a>
+        </li>
+       </ul>
+      </div>
+      <!-- Content Template End: Left Hand Side Links Display Panel-->
+      <!-- Content Template Start: Left Hand Side Links Display Panel-->
+      <div class="sidebar-add03">
+       <h3>
+        Resources &amp; Policies
+       </h3>
+       <ul>
+        <li>
+         <a href="/main/aboutus/dean-academic/">
+          Dean of Academic Life
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/arc/">
+          Academic Resource Center
+         </a>
+        </li>
+        <li>
+         <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+          Policies &amp; Procedures Manual
+         </a>
+        </li>
+        <li>
+         <a href="http://trexler.muhlenberg.edu">
+          Library
+         </a>
+        </li>
+        <li>
+         <a href="/main/newsevents/calendar/">
+          Academic Calendar
+         </a>
+        </li>
+        <li>
+         <a href="http://catalog.muhlenberg.edu/" target="_blank">
+          College Catalog
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/disabilities/">
+          Disability Services
+         </a>
+        </li>
+        <li>
+         <a href="/main/academics/writing/center/">
+          Writing Center
+         </a>
+        </li>
+       </ul>
+      </div>
+      <!-- Content Template End: Left Hand Side Links Display Panel-->
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

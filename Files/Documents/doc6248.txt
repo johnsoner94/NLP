@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/academics.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- KDG Related files and additives -->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="http://sal.muhlenberg.edu/T4Assets/new1.css" />
+  <link rel="icon" href="http://www.muhlenberg.edu/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="http://www.muhlenberg.edu/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="http://www.muhlenberg.edu/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="http://www.muhlenberg.edu/media/styleassets/css/responsiveslides.css" />
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.transitions.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/kdg.css" />
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/js/shared/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/MX_XML.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/dns.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/js/shared/cookies.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Muhlenberg College
+  </title>
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/browserVersion.js">
+  </script>
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="http://www.muhlenberg.edu/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   var requiredMajorVersion = 7;
+var requiredMinorVersion = 0;
+var requiredRevision = 0;
+  </script>
+  <script>
+   $(".imagecol").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: false,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+});
+  $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <link media="all" rel="stylesheet" type="text/css" href="http://sal.muhlenberg.edu/css/master.css" />
+  <style>
+   .content-add04 .col01 {width:588px} 
+.content-add04 .col02 {width:180px} 
+#content h2 {height:60px;background-color:#A41D36}
+  </style>
+  <!-- InstanceBeginEditable name="Title" -->
+  <title>
+   Muhlenberg College | Internships
+  </title>
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="Keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="Description" content="" />
+  <!-- InstanceEndEditable -->
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" href="/css/lt7.css"  /&gt;&lt;![endif]-->
+  <script type="text/javascript" src="/js/DynamicSelect/DynamicSelect.js">
+  </script>
+  <script type="text/javascript">
+   function setName(obj) {
+ 	//alert(document.deptForm.deptName.value);
+ 		var sel=parseInt(obj.selectedIndex);
+ 		var nname=obj.id;
+ 				
+ 		document.deptForm.deptName.value=eval("document.deptForm." + obj.id + "[" + sel + "]" + ".text");
+ 		//alert(document.deptForm.deptName.value);
+ 	
+ 	}
+ 
+  function hide(objName) {
+      	if (! document.getElementById(objName)) {
+  		alert("You must select a department in order to use this feature");
+  		return;
+  	}
+
+  	obj=document.getElementById(objName); 
+  	obj.visibility="hidden";
+  	obj.style.visibility="hidden";
+  }
+    function show(objName) {
+      	if (! document.getElementById(objName)) {
+  		alert("You must select a department in order to use this feature");
+  		return;
+  	}
+  	obj=document.getElementById(objName); 
+  	obj.visibility="visible";
+  	obj.style.visibility="visible";
+  }
+  /* -------------------------------------------------
+  * Function:  preprocessOption
+  * Use this function only is preProcessing must be done to a 
+  * value prior to posting the particular form 
+  */
+  
+  function preprocessOption (obj, searchForm) {
+
+  	var objId=obj.id;
+  	var sel=parseInt(obj.selectedIndex);
+  	
+  	/*
+  	alert("document." + searchForm + "." + objId + "[" + sel + "].value");
+  	alert(eval("document." + searchForm + "." + objId + "[" + sel + "].value"));
+  	*/
+
+  }
+  </script>
+ </head>
+ <body>
+  <a name="top">
+  </a>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="http://www.muhlenberg.edu/admissions/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Students
+       </a>
+      </li>
+      <li>
+       <a href="http://muhlenberg.edu/incoming/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Students
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/current-students/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Students
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/faculty-staff/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/parents/" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parents
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771" style='background-image:url("http://www.muhlenberg.edu/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="http://muhlenberg.edu/tactical/contact.htm">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="http://muhlenberg.edu/main/aboutus/tour/map.html">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="http://muhlenberg.edu/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="http://sal.muhlenberg.edu/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=771">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="http://www.muhlenberg.edu/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="http://www.muhlenberg.edu/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="/main/athletics/">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main" style="background-color:white;min-height:600px">
+      <!-- InstanceBeginEditable name="ContentTitle" -->
+      <!--Internships for -->
+      <ul style="height:62px;background:#cc092f; color:#fff;
+		border-bottom:1px solid #003050;overflow:hidden;font-weight:normal;">
+       <li style="float:left;font-size:25px;padding-left:30px;  
+		line-height:92px;height:62px;background:#cc092f;
+		 color:#fff;font-weight:normal;width:675px">
+        Internships for
+       </li>
+       <li style="font-size:12px; 
+		padding-top:42px;height:62px;background:#cc092f;padding-left:45px;
+		color:#ffffff;font-weight:normal;overflow:hidden;">
+        <!--
+		&lt;a href="reset.php" style="color:#ffffff"&gt;Select A Department&lt;/a&gt;
+		&nbsp;|&nbsp;
+-->
+        <a href="javascript:show('searchType')" onmouseover="show('searchType')" style="color:#ffffff; font-weight:normal">
+         Choose Search Type:
+        </a>
+       </li>
+      </ul>
+      <!--&lt;/h2&gt;-->
+      <div id="mainBody" style="background-color:white;padding-left:15px">
+       <div style="height:50px">
+       </div>
+       <div style="margin-left:40px">
+        <center>
+        </center>
+        <form action="getSession.php" method="POST" name="deptForm" id="deptForm">
+         <table>
+          <tr align="right">
+           <td>
+            <span style="font-size:20px; font-weight:bold">
+             Select a Department*:
+            </span>
+           </td>
+           <td width="180px" style="padding-left:10px">
+            <select name="dept" id="dept" onchange="setName(this);">
+             <option value="">
+              ****************************************************
+             </option>
+             <option value="abe">
+              Accounting, Business, &amp; Economics
+             </option>
+             <option value="polsci">
+              Political Science
+             </option>
+            </select>
+           </td>
+          </tr>
+          <tr style="border-bottom:thin solid black">
+           <td>
+            &nbsp;
+           </td>
+          </tr>
+          <tr align="right">
+           <td colspan="2">
+            <br />
+            <input type="submit" value="Go" />
+            <input type="hidden" name="deptName" />
+           </td>
+          </tr>
+         </table>
+         <p style="font-style:italic;text-align:justify;width:450px;height:100px;font-size:0.9em;padding-top:80px" align="center">
+          *This site only lists internships communicated directly to the departments specified in the drop-down list above.  For more listings please visit the
+          <a href="http://www.muhlenberg.edu/main/aboutus/careercenter">
+           Career Center site
+          </a>
+          .
+         </p>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- START NEW FOOTER -->
+    <style>
+     /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+    </style>
+    <footer>
+     <div class="container">
+      <div class="footer-logo">
+       <a href="http://muhlenberg.edu">
+        <img src="http://www.muhlenberg.edu/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+       </a>
+      </div>
+      <div class="footer-contact">
+       <p>
+        2400 Chew St., Allentown, PA 18104-5586
+        <br />
+        484-664-3100 | 484-664-3623 (TTY)
+        <br />
+        &copy; Muhlenberg College 2015 |
+        <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+         Web Privacy Policy
+        </a>
+       </p>
+      </div>
+     </div>
+    </footer>
+    <!--Random jQuery Code-->
+    <script type="type" type="text/javascript">
+     $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+    </script>
+    <!-- END NEW FOOTER -->
+    <script type="text/javascript" src="http://www.muhlenberg.edu/media/kdmedia/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="http://www.muhlenberg.edu/media/kdmedia/js/non-responsive-kdg-ui.js">
+    </script>
+   </div>
+  </div>
+ </body>
+ <!-- InstanceEnd -->
+</html>

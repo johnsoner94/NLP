@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   (Muhlenberg College) Student Log In
+  </title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link href="StyleSheets/styles_customized.css" rel="stylesheet" type="text/css" />
+  <link href="StyleSheets/login_customized.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+  <div id="outer">
+   <div id="utility">
+    <input class="button" onclick='window.open("/NetPartnerStudent/PFHelp.aspx");return false;' type="button" value="Help" name="help" />
+   </div>
+   <div id="header" style="font-size:10px; text-align:right;">
+    <a href="/NetPartnerStudent">
+     <img src="/NetPartnerStudent/images/header/logo.gif" alt="" />
+     <h1>
+      Muhlenberg College
+     </h1>
+    </a>
+   </div>
+   <div id="tabs_bar">
+    <table cellspacing="0" cellpadding="0" border="0">
+     <tr>
+      <!--Start Tab 1-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 2-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 3-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 4-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 5-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 6-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 7-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Tab 8-->
+      <td valign="top" width="2" height="17" rowspan="2">
+       <img height="3" alt="" src="images/tab_left.gif" width="2" border="0" />
+      </td>
+      <td valign="top" width="1" height="2">
+       <img height="1" src="images/1px_white.gif" width="1" />
+      </td>
+      <td valign="bottom" height="2">
+       <img height="1" src="images/1px_white.gif" width="100%" />
+      </td>
+      <td width="2" height="17" rowspan="2">
+       <img height="17" alt="" src="images/tab_right.gif" width="2" border="0" />
+      </td>
+      <!--Start Right Side Color Strip-->
+      <td class="inner_notext" height="17" rowspan="2">
+      </td>
+     </tr>
+     <tr>
+      <!--Start Tab 1-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" style="background-color:white" nowrap="nowrap" height="15">
+       &nbsp;Home&nbsp;
+      </td>
+      <!--Start Tab 2-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Apply Online&nbsp;
+      </td>
+      <!--Start Tab 3-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Your Awards&nbsp;
+      </td>
+      <!--Start Tab 4-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Your Documents&nbsp;
+      </td>
+      <!--Start Tab 5-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Messages&nbsp;
+      </td>
+      <!--Start Tab 6-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Your Loans &nbsp;
+      </td>
+      <!--Start Tab 7-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Your Loan History&nbsp;
+      </td>
+      <!--Start Tab 8-->
+      <td class="inner_notext" width="1" height="15">
+      </td>
+      <td class="inner" nowrap="nowrap" height="15">
+       &nbsp;Forms&nbsp;
+      </td>
+     </tr>
+    </table>
+   </div>
+   <form method="post" action="./logon.aspx?ReturnUrl=%2fNetPartnerStudent%2fPgHome.aspx" id="Form1" autocomplete="off">
+    <div class="aspNetHidden">
+     <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+    </div>
+    <script src="/NetPartnerStudent/WebResource.axd?d=oCh2cT4TiQvBM4SahHQif7X_59IAosy8n1gIFMVQoEH54GnXyAAwvQExyW4oVgCPEcfLDWXXbAevWJjgPE2qU74EM4L7VQR5Se1QSAwFuE9iUQkyL4ui-vIkN2r2vRPglWcaqdKGFqfDSvlPFSqohw2&amp;t=636125779220000000" type="text/javascript">
+    </script>
+    <script src="/NetPartnerStudent/scripts/login.js" type="text/javascript">
+    </script>
+    <div class="aspNetHidden">
+     <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DA59F698" />
+     <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+     <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="p7wCDcwiyyJBV73A2MUvverXiOCqUEKkoYnkqYt92opHJIuMGX0ZzPcQItsqyEfOlehbY93eAz7WMZG5VANJMwCrZ9wHVxBTQiZrX21AlZLGWuxvFi7bMnKCsDsJ1wBxWCsKiaXLKOtUejoQVeQpEXjJ/lLa1Rn7/Pym6JgOJZMkRKH82sIt2JFTgtz/l2GG" />
+    </div>
+    <span id="Login1_loginControl">
+     <div id="content_left">
+      <h1>
+       Online Financial Aid System
+      </h1>
+      <blockquote>
+       <p>
+        <strong>
+         <span style="font-size: small;">
+          Welcome to Muhlenberg College's Online Financial Aid System.
+         </span>
+        </strong>
+        &nbsp;
+       </p>
+       <p>
+        <strong>
+        </strong>
+       </p>
+       <span style="text-decoration: underline;">
+        <strong>
+         We strongly encourage you to check back often
+        </strong>
+       </span>
+       because as a student's aid application moves through the financial aid process,&nbsp;additional documents may be requested.&nbsp; For detailed consumer information about Muhlenberg College and its financial aid see
+       <a href="http://www.muhlenberg.edu/main/aboutus/consumer-information.html" target="_blank">
+        Muhlenberg College Consumer Information
+       </a>
+       .&nbsp;
+       <strong>
+        &nbsp;
+       </strong>
+      </blockquote>
+      <h2>
+       Log In Instructions
+      </h2>
+      <p>
+       To access the online system, enter your Student ID
+       <strong>
+        (your social security number
+        <span style="color: #ff6600;">
+         WITHOUT THE DASHES
+        </span>
+        )
+       </strong>
+       &nbsp;and your PIN in the login box (top right). If you are a
+       <strong>
+        new user
+       </strong>
+       to our Online Financial Aid System, you need to activate your account.&nbsp; Type in your
+       <strong>
+        social security number
+        <span style="color: #ff6600;">
+         WITHOUT THE DASHES
+        </span>
+       </strong>
+       <span style="color: #ff6600;">
+       </span>
+       as your user ID&nbsp;and
+       <span style="text-decoration: underline;">
+        click on
+       </span>
+       <strong>
+        <em>
+         First Time User
+        </em>
+       </strong>
+       .&nbsp; You will be prompted to answer 2 security questions to confirm your identity.&nbsp; Then create your PIN.&nbsp; If you have forgotten your PIN, Click on
+       <strong>
+        <em>
+         Forgot&nbsp;Your PIN
+        </em>
+       </strong>
+       .&nbsp; Once you answer your security questions, you will be able to create a new PIN.&nbsp;
+       <span style="background-color: #ffffff;">
+        <span style="color: #ff0000;">
+         <strong>
+          If you are having difficulty or receive the error message IA click here for some troubleshooting advice
+         </strong>
+        </span>
+       </span>
+       <a href="http://muhlenberg.edu/media/contentassets/pdf/about/finaid/Code%20IA.pdf">
+        http://muhlenberg.edu/media/contentassets/pdf/about/finaid/Code%20IA.pdf
+       </a>
+       &nbsp;Still need assistance? Contact us:&nbsp;
+      </p>
+      <ul>
+       <p>
+        Muhlenberg College
+       </p>
+       <p>
+        Office of Financial Aid&nbsp;
+       </p>
+       <p>
+        2400 Chew Street&nbsp;
+       </p>
+       <p>
+        Allentown&nbsp; PA&nbsp; 18104
+       </p>
+       <p>
+        Office: 484-664-3175&nbsp;&nbsp;&nbsp; FAX: 484-664-3234
+        <br />
+        email:
+        <a href="mailto:finaid@muhlenberg.edu">
+         finaid@muhlenberg.edu
+        </a>
+       </p>
+      </ul>
+     </div>
+     <div id="content_right">
+      <div class="loginForm">
+       <h2>
+        LOG IN
+       </h2>
+       <fieldset class="login">
+        <div id="Login1_manualLogin">
+         <p>
+          <label>
+           <input name="Login1$username" type="text" id="Login1_username" maxlength="50" placeholder="Student ID" aria-label="Student ID" />
+           &nbsp;
+          </label>
+         </p>
+         <p>
+          <label>
+           <input name="Login1$password" type="password" id="Login1_password" autocomplete="off" placeholder="Password" />
+           &nbsp;
+          </label>
+         </p>
+         <p>
+          <input type="submit" name="Login1$submit" value="Submit" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("Login1$submit", "", true, "", "", false, false))' id="Login1_submit" class="button" autofocus="autofocus" />
+         </p>
+         <div style="margin-top: 10px; font-size: 9px; font-family: Arial,Verdana,sans-serif">
+          <a href="#" onclick="RedirectWithLoginId('Login1_username','ForgotPassword.aspx');return false;">
+           Forgot Your Password?
+          </a>
+         </div>
+         <div>
+          <a href="#" onclick="RedirectWithLoginId('Login1_username','ActivateAccount.aspx');return false;" style="font-size: 9px; font-family: Arial,Verdana,sans-serif">
+           First Time User
+          </a>
+         </div>
+        </div>
+        <p>
+         <span id="Login1_message" style="color:Red;">
+         </span>
+        </p>
+       </fieldset>
+      </div>
+      <div id="sidebar">
+       <h2>
+        Financial Aid Timeline
+       </h2>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+          &nbsp;
+         </strong>
+        </span>
+        &nbsp;
+       </p>
+       <p>
+        <strong>
+         <span style="font-size: large;">
+          <span style="background-color: #ffffff;">
+           <span style="color: #cc092f;">
+            FINANCIAL AID TIMELINE
+           </span>
+          </span>
+         </span>
+        </strong>
+       </p>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+         </strong>
+        </span>
+       </p>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+          Prospective and Current Students: The 2017-2018 FAFSA and the 2017-2018 PROFILE are available right now! Because they use 2015 Federal Income Tax Information you can complete them right now. Remember, documents and letters of special circumstances will all be uploaded through the College Board's IDOC system. Once you complete the CSS PROFILE, the College Board will e-mail you detailed IDOC Instructions.
+         </strong>
+        </span>
+       </p>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+          Prospective Class of 2021 students click
+          <a href=" http://www.muhlenberg.edu/main/aboutus/finaid/prospectivestudents/need-basedaid/" target="_blank">
+           here
+          </a>
+          to see a more detailed list of documents and deadlines.
+         </strong>
+        </span>
+       </p>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+          Returning students click
+          <a href="http://www.muhlenberg.edu/main/aboutus/finaid/currentstudents/deadlines/" target="_blank">
+           here
+          </a>
+          to see a more detailed list of documents and deadlines.
+         </strong>
+        </span>
+       </p>
+       <p>
+        <span style="font-size: x-small;">
+         <strong>
+          Students who will be transferring in to Muhlenberg College in the Fall 2017 should click
+          <a href="http://www.muhlenberg.edu/main/aboutus/finaid/transferstudents/fall2017transferinformation/" target="_blank">
+           here
+          </a>
+          to see a list of documents and deadlines.&nbsp;
+         </strong>
+        </span>
+        &nbsp;
+       </p>
+       <p>
+        <strong>
+         Questions? Contact us:
+        </strong>
+       </p>
+       <p>
+        &nbsp;
+       </p>
+       <ul>
+        <p style="text-align: left;">
+         Muhlenberg College
+         <br />
+         Office of Financial Aid
+         <br />
+         2400 Chew Street
+        </p>
+        <p style="text-align: left;">
+         Allentown PA 18104
+        </p>
+        <p>
+         Office: 484-664-3175 FAX: 484-664-3234
+         <br />
+         email:
+         <a href="mailto:finaid@muhlenberg.edu">
+          finaid@muhlenberg.edu
+         </a>
+        </p>
+       </ul>
+      </div>
+     </div>
+    </span>
+    <div style="float:left;width:99%;padding:5px;">
+    </div>
+    <script type="text/javascript">
+     if (document.getElementsByTagName) { var inputElements = document.getElementsByTagName('input'); for (i=0; inputElements[i]; i++) { if (inputElements[i].className &amp;&amp; (inputElements[i].className.indexOf('disableAutoComplete') != -1)) { inputElements[i].setAttribute('autocomplete','off'); } } }
+    </script>
+   </form>
+   <div id="footer">
+    <a href="http://www.collegeboard.com" target="_blank">
+     The College Board.
+    </a>
+    PowerFAIDS® Net Partner Version 22.0
+   </div>
+  </div>
+ </body>
+</html>

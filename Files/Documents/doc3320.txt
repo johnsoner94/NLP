@@ -1,0 +1,1605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Off-Campus Research - Student Presentations | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Student Research and Scholarship
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <div class="content-add03">
+        <script type="text/javascript" src='&lt;script type="text/javascript" src="/media/contentassets/easyrotatorslideshow/easy_rotator.min.js"&gt;&lt;/script&gt;'>
+         &lt;script type="text/javascript" src="/media/contentassets/easyrotatorslideshow/easy_rotator.min.js"&gt;
+        </script>
+        '&gt;
+        <!--http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js-->
+        <div class="dwuserEasyRotator" style="width: 780px; height: 232px; position:relative; text-align: left;" data-erconfig="{autoplayEnabled:true, autoplayDelay:3000,lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-80-104-101-100-114-97-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1, pro_infiniteLoop:true, pro_mouseWheelAndSwipeEnabled:true, audio_controllerLocation:'bc', audio_controllerWidth:150, audio_showController:false}" data-ername="Music" data-ertid="{mpyqadbdp75720855858431}" data-eraudioconfig="{autoplay:false}">
+         <div data-ertype="content" style="display: none;">
+          <ul data-erlabel="Main Category">
+           <!-- Image 1 -->
+           <!--                            &lt;li&gt; &lt;a class="mainLink" href=''&gt; &lt;img src="/media/contentassets/images/academics/research/bannerimages/header.jpg" alt="" style="     "  /&gt;&lt;/a&gt;  &lt;img class="thumb" src=''  /&gt;  &lt;span class="title"&gt;Samantha Tener (&rsquo;18) and Katherine Nichols (&rsquo;18) with Dr. Moria Chambers at The Allied Genetics Conference in Orlando, FL from July 13-17, 2016.&lt;/span&gt; &lt;/li&gt;
+                            -->
+           <!-- -->
+           <li>
+            <a class="mainLink" href="">
+             <img src="/media/contentassets/images/academics/research/bannerimages/header.jpg" alt="" style="     " />
+            </a>
+            <img class="thumb" src="" />
+            <span class="title">
+             Samantha Tener (&rsquo;18) and Katherine Nichols (&rsquo;18) with Dr. Moria Chambers at The Allied Genetics Conference in Orlando, FL from July 13-17, 2016.
+            </span>
+           </li>
+           <!-- Image 2 -->
+           <li>
+            <a class="mainLink" href="">
+             <img src="/media/contentassets/images/academics/research/bannerimages/Off campus pres 2016 slider_NatlEurope.jpg" alt="" style="     " />
+            </a>
+            <img class="thumb" src="" />
+            <span class="title">
+             Adam Elwood (&rsquo;16) &amp; Elizaveta Shmakova (&rsquo;18) East and West Undergraduate Research Symposium, University of Pittsburgh
+            </span>
+           </li>
+           <!-- Image 3 -->
+           <li>
+            <a class="mainLink" href="">
+             <img src="/media/contentassets/images/academics/research/bannerimages/Off campus pres 2016 slider_USITT 2016.jpg" alt="" style="     " />
+            </a>
+            <img class="thumb" src="" />
+            <span class="title">
+             Andrew Carey (&rsquo;17) &amp; Erin Tiffany (&rsquo;17) United States Institute for Theatre Technology annual conference in Salt Lake City, UT
+            </span>
+           </li>
+           <!-- Image 4 -->
+           <li>
+            <a class="mainLink" href="">
+             <img src="/media/contentassets/images/academics/research/bannerimages/Off campus pres 2016 slider_APS 2016 copy.jpg" alt="" style="     " />
+            </a>
+            <img class="thumb" src="" />
+            <span class="title">
+             Dr. Kathy Harring, Katie Ninivaggi (&rsquo;16), Kiersten Mulvey (&rsquo;16), Amy Leeds (&rsquo;16), and Jonathan Ross (&rsquo;16) Association for Psychological Science meeting in Chicago, IL
+            </span>
+           </li>
+          </ul>
+         </div>
+         <div data-ertype="layout" data-ertemplatename="NONE" style="">
+          <div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erconfig="{___numTiles:3, scaleMode:'fillArea', duration:900, imgType:'main', alwaysPreviousButton:true, __loopNextButton:false, __arrowButtonMode:'rollover'}">
+           <div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
+            <div class="erimgMain_slide">
+             <div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top:0;bottom:0;">
+             </div>
+            </div>
+           </div>
+           <!-- &lt;div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"&gt;&lt;/div&gt;				&lt;div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;"&gt;&lt;/div&gt; -->
+          </div>
+          <div class="" style="position: absolute; left:0; right:0; bottom: 20px; padding: 7px 200px 7px 20px; background: #000; background:#000000; color: #ffffff; font-family: Arial; text-align: left;">
+           <p class="erdynamicText" data-erfield="title" style="padding: 0; margin: 0 0 3px 0; font-weight: bold; font-size: 12; color: #ffffff;">
+           </p>
+           <p class="erdynamicText" data-erfield="desc" style="padding: 0; margin: 0; font: 12px/16px Arial,_sans; color: #FFF;">
+           </p>
+          </div>
+          <div class="erdots" style="overflow: hidden; margin: 0; font-size: 10px; font-family: 'Lucida Grande', 'Lucida Sans', Arial, _sans; color: #ffffff; position: absolute; right:6px; bottom:30px; width:200px;" data-erconfig="{showText:false}" align="center">
+           <div class="erdots_wrap" style="wasbackground-color: #CFC; float: right;" align="left">
+            <!-- modify the float on this element to make left/right/none=center aligned. -->
+            <!-- TO DO:  ADD T4 TAGS -->
+            <!--                                                                                                  
+&lt;span class="erdots_btn_selected" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: default; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_wite_65.png) top left no-repeat;"&gt; &nbsp; &lt;/span&gt; &lt;span class="erdots_btn_normal" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_wite_35.png) top left no-repeat;"&gt; &nbsp; &lt;/span&gt; &lt;span class="erdots_btn_hover" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_wite_65.png) top left no-repeat;"&gt; &nbsp; &lt;/span&gt;
+-->
+            <span class="erdots_btn_selected" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: default; background: url(/media/contentassets/easyrotatorslideshow/20_14_wite_65.png) top left no-repeat;">
+             &nbsp;
+            </span>
+            <span class="erdots_btn_normal" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(/media/contentassets/easyrotatorslideshow/20_14_wite_35.png) top left no-repeat;">
+             &nbsp;
+            </span>
+            <span class="erdots_btn_hover" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(/media/contentassets/easyrotatorslideshow/20_14_wite_65.png) top left no-repeat;">
+             &nbsp;
+            </span>
+           </div>
+          </div>
+          <div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+           This
+           <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">
+            jQuery slider
+           </a>
+           was created with the free
+           <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">
+            EasyRotator
+           </a>
+           software from DWUser.com.
+           <br />
+           <br />
+           Need a powerful
+           <a style="color:#FFF;" href="http://www.dwuser.com/flashslideshow/" target="_blank">
+            Flash slideshow
+           </a>
+           creator with built-in iPhone/iPad/Android support?  EasyRotator is supported by the
+           <a style="color:#FFF;" href="http://www.dwuser.com/flashslideshow/" target="_blank">
+            XML Flash Slideshow v4 Software
+           </a>
+           .
+           <br />
+           <br />
+           <a style="color:#FFF;" href="#" class="erabout_ok">
+            OK
+           </a>
+          </div>
+          <noscript>
+           Rotator powered by
+           <a href="http://www.dwuser.com/easyrotator/">
+            EasyRotator
+           </a>
+           , a free and easy jQuery slider builder from DWUser.com.  Please enable JavaScript to view.
+          </noscript>
+          <!-- TO DO:  ADD T4 TAG -->
+          <script type="text/javascript">
+           /*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");
+          </script>
+         </div>
+        </div>
+        <!-- End DWUser_EasyRotator -->
+        <!-- InstanceEndEditable -->
+       </div>
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/research/">
+               Student Research and Scholarship
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/research/studentpresentations/">
+               Student Presentations
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/research/studentpresentations/off-campusresearch/">
+               Off-Campus Research
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Off-Campus Research and Scholarship Presentations
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <p>
+            Some students have the opportunity to present their research at regional and national conferences and competitions. Many of these presentations are supported by
+            <a href="/main/aboutus/dean-academic/travel.html">
+             travels funds from the Dean of Academic Life
+            </a>
+            .
+            <br />
+            <br />
+           </p>
+           <div class="content-add05">
+            <p>
+             <strong>
+              2016
+             </strong>
+            </p>
+            <ul>
+             <li>
+              Emily Davidson ('18), Madeleine Kapushy ('19), Melanie Goetz ('17), Thomas&nbsp;Yanushefski ('18), and Catherine Zimel ('17) presented their work as Summer Research Scholars at the Lehigh Valley Health Network during an annual poster session at the Cedar Crest campus of LVHN on July 29, 2016. Melanie Goetz ('17) was awarded third prize for her poster presentation.&nbsp;
+              <table border="0">
+               <tbody>
+                <tr>
+                 <td style="text-align: center;">
+                  <img alt="LVHN 2016" src="/terminalfour/SiteManager?ctfn=download&amp;fnno=60&amp;ceid=2014708302" />
+                 </td>
+                 <td>
+                  <img alt="LVHN 2016" src="/terminalfour/SiteManager?ctfn=download&amp;fnno=60&amp;ceid=1421029241" />
+                 </td>
+                </tr>
+                <tr>
+                 <td style="text-align: center;">
+                  Madeleine Kapushy ('19
+                 </td>
+                 <td align="center">
+                  Melanie Goetz ('17)
+                 </td>
+                </tr>
+                <tr>
+                 <td>
+                  <img src="/media/contentassets/images/academics/research/2013/Photo Jul 29, 1 44 45 PM-230x172.jpg" alt="" style="     " />
+                 </td>
+                 <td>
+                  &zwnj;
+                  <img src="/media/contentassets/images/academics/research/2013/Photo Jul 29, 1 44 34 PM-230x172.jpg" alt="LVHN 2016" style="     " />
+                 </td>
+                </tr>
+                <tr>
+                 <td colspan="2">
+                  <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+                   <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+                    <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+                     <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+                      Catherine Zimel ('17)
+                     </blockquote>
+                    </blockquote>
+                   </blockquote>
+                  </blockquote>
+                 </td>
+                </tr>
+                <tr>
+                 <td>
+                  <img src="/media/contentassets/images/academics/research/2013/Photo Jul 29, 1 41 19 PM-230x172.jpg" alt="LVHN 2016" style="     " />
+                 </td>
+                 <td>
+                  <img src="/media/contentassets/images/academics/research/2013/Photo Jul 29, 1 41 29 PM-230x172.jpg" alt="LVHN 2016" style="     " />
+                 </td>
+                </tr>
+                <tr>
+                 <td style="text-align: center;">
+                  Thomas Yanushefski ('18)
+                 </td>
+                 <td style="text-align: center;">
+                  Emily Davidson ('18)
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              &zwnj;
+             </li>
+             <li>
+              Samantha Tener (&rsquo;18) and Katherine Nichols (&rsquo;18) presented their research
+              <em>
+               Investigating the mechanism of declines in male fitness due to chronic infection in Drosophila melanogaster
+              </em>
+              &nbsp;with Dr. Moria Chambers at The Allied Genetics Conference in Orlando, FL from July 13-17, 2016.
+             </li>
+             <li>
+              Sydney Saltzman (&rsquo;16) presented her work with Dr. Bruce Wightman (Biology) &nbsp;
+              <em>
+               The fax-1 nuclear receptor of C. elegans functions in gonad development
+              </em>
+              at The Allied Genetics Conference in Orlando, FL from July 13-17, 2016.
+             </li>
+             <li>
+              Samantha Levine (&rsquo;16), Sarah Levine (&rsquo;16) and Gina Morello (&rsquo;16) presented their research with Dr. Laura Edelman (Psychology) at the International Conference for Music Perception and Cognition in San Francisco, CA from July 5-9, 2016
+             </li>
+             <li>
+              Kenneth Siry (&rsquo;18) presented his research at the Research Society on Alcoholism meeting in New Orleans, LA from June 25-29, 2016.&nbsp;
+             </li>
+             <li>
+              Brittany Smith (&rsquo;17) with Drs. Stefanie Sinno and Erika Bagley (Psychology) presented their work
+              <em>
+               Adolescents&rsquo; Perceptions of the Socioeconomic Status Impacts their Psychological Wellbeing;
+              </em>
+              Katie Ninivaggi (&rsquo;16), Kiersten Mulvey (&rsquo;16), Amy Leeds (&rsquo;16) and Jonathan Ross (&rsquo;16) with Drs. Laura Edelman and Kathy Harring (Psychology) presented their work
+              <em>
+               Singing and Moving Increase Social Bonding
+              </em>
+              ; Deanna Ibrahim (&rsquo;16) and Jessica Sperber (&rsquo;16) with Dr. Jeff Rudski presented their work
+              <em>
+               Recognizing Sociocultural Influences on Depression in Easier in Foreign Than in Gendered Contexts
+              </em>
+              ; and Lauren Polcaro (&rsquo;17), Michael Silverstein ('18) and Rachel Truitt ('18) with Dr.Jeff Rudski presented their work on the
+              <em>
+               ethics of revealing suspected placebo effects
+              </em>
+              at the Association for Psychological Science (APS) meeting in Chicago, IL from May 26-29, 2016.
+             </li>
+             <li>
+              Meredith Salisbury (&rsquo;17) presented her work
+              <em>
+               #The #nofilter self: The contest for authenticity among social networking sites, 2003-2015
+              </em>
+              at the Theorizing the Web Conference in NYC from April 15-16, 2016.
+             </li>
+             <li>
+              Max Safran (&rsquo;16) presented
+              <em>
+               Virtual Economies: Utilizing MMO&rsquo;s as Economic Models
+              </em>
+              and Eshani Bhalla (&rsquo;16) presented
+              <em>
+               The Effectiveness of Finance Labs in Higher Education
+              </em>
+              &nbsp;at Midwest Business Administration Association International Conference in Chicago, IL from April 14-16, 2016.
+             </li>
+             <li>
+              Nicole Baltzer (&rsquo;17) presented
+              <em>
+               Gender &amp; Elections: Elite Media Coverage of Hillary Clinton's Early 2016 Presidential Campaign
+              </em>
+              , Alexis Giovinazzo (&rsquo;16) presented
+              <em>
+               Knowledge, Attitudes, Intentions, and Behaviors of Female College Students Surrounding Pregnancy and Birth
+              </em>
+              , Katherine Kapelsohn (&rsquo;17) presented
+              <em>
+               Unseen Barriers: How the Refashioning of Gender Roles Within the U.S. Military is Affecting Military Relationships, and Deployed Soldiers' Ability to Perform Their Duties
+              </em>
+              , Forrest Kentwell (&rsquo;16) presented
+              <em>
+               The Power of Friendship: A Review of Theory as Praxis
+              </em>
+              , Alexa Potter (&rsquo;16) presented
+              <em>
+               Domestic Violence in Morocco: A Collection of Narratives
+              </em>
+              , and Emma Raymond (&rsquo;16) presented
+              <em>
+               Guerrilla Girls: Providing a Link
+              </em>
+              at the LVAIC 21st Annual Women&rsquo;s &amp; Gender Studies Conference at DeSales University, on Saturday, April 9 in Center Valley, PA.&nbsp;
+             </li>
+             <li>
+              Mary Bayruns (&rsquo;16), Lauren Warning (&rsquo;16) and Hannah Nash (&rsquo;16) presented applications of growth mindset to tutoring scenarios and Jonathan Hauptfeld (&rsquo;16) and Courtney Joseph (&rsquo;16) presented strategies for helping tutees foster a growth mindset and develop resilience at the National Tutoring Association Conference in Tampa, FL from April 2-5, 2016.
+             </li>
+             <li>
+              Christopher Marsala (&rsquo;16) presented a paper on
+              <em>
+               Fetishization and Pleasure
+              </em>
+              at the Central Pennsylvania Consortium Annual Women's, Gender &amp; Sexuality Conference on &nbsp;April 2 at Gettysburg College, Gettysburg PA
+             </li>
+             <li>
+              Adam Elwood (&rsquo;16), Isaac Shimsky-Agosto (&rsquo;16) and Elizaveta Shmakova (&rsquo;18) presented papers at the national Europe: East and West Undergraduate Research Symposium, University of Pittsburgh, April 1, 2016.
+             </li>
+             <li>
+              Mathematic majors Emily Nguyen (&rsquo;16), Brandon Tauber (&rsquo;16), Charli White (&rsquo;17), Jamie Oliva (&rsquo;16) and Brittney Tuff (&rsquo;16) spoke on their year-long research projects at a Center for Undergraduate Research in Mathematics (CURM) conference Loyola Marymount University in Los Angeles, CA on April 1-2, 2016.
+             </li>
+             <li>
+              Jeffery Funk (&rsquo;16) presented his work
+              <em>
+               Managing Fat Stigma in Everyday Life
+              </em>
+              at the Eastern Sociological Society Annual Meeting in Boston, MA from March 17-20, 2016.
+             </li>
+             <li>
+              Lydia Condolucci (&rsquo;16) was accepted to the week-long
+              <em>
+               Stage Management Mentorship Project
+              </em>
+              at the United States Institute for Technical Theatre Conference from March 15-19, 2016.
+             </li>
+             <li>
+              Claire Waggoner (&rsquo;16) presented her work
+              <em>
+               New Visions Lighting Design &ndash; &ldquo;For the Love of Don Perlimplin and Belisa in the Garden&rdquo;
+              </em>
+              and Andrew Carey (&rsquo;17), Ron Gerschel (&rsquo;17), Erin Tiffany (&rsquo;17) and Brian Pacelli (&rsquo;16) presented their work in theatrical design at the United States Institute for Theatre Technology annual conference in Salt Lake City, UT this March 16-19, 2016.
+             </li>
+             <li>
+              Jaqui Hamati (&rsquo;17) presented her work
+              <em>
+               Design and Synthesis of Metal Chelating Peptoids
+              </em>
+              at the American Chemical Society National Meeting in San Diego, CA from March 13-17, 2016.
+             </li>
+             <li>
+              Ashley Malafronte (&rsquo;17) presented a paper at the Sigma Tau Delta 2016 International Convention in Minneapolis, MN from March 2-5, 2016
+             </li>
+             <li>
+              Ellison Heil (&rsquo;16) presented his work
+              <em>
+               On Conservation: The Roll of Integrated Conservation Development Program in the Annapurna Conservation Area
+              </em>
+              at the Human Development Conference held at the University of Notre Dame from February 26-29, 2016.&nbsp;
+             </li>
+             <li>
+              Nicole Karsch (&rsquo;16) presented her work entitled&nbsp; The Limitations of the Organic Mission Initiative in Sikkim, India in Achieving Sustainable Development and Ellison Heil (&rsquo;16) presented his work entitled Muhlenberg College&rsquo;s Sustainability House as an Education Tool: Community Engagement through Practice in Sustainable Living with Dr. Rich Neisenbaum (Biology, Sustainability Studies) at the 12th International Conference on Environmental, Cultural, Economic &amp; Social Sustainability in Portland, OR from January 21-23, 2015.
+             </li>
+             <li>
+              Eric Quitter (&rsquo;16), Rachel Defino (&rsquo;16), Kelsy Oliva (&rsquo;16) with Dr. Jordanna Sprayberry (Biology, Neuroscience) and Melissa Mayol (&rsquo;17) with Dr. Erika Iyengar (Biology) presented posters at the annual meeting for the Society for Integrative and Comparative Biology in Portland, OR from January 3-6, 2016.
+             </li>
+            </ul>
+            <p>
+             <strong>
+              2015
+             </strong>
+            </p>
+            <ul>
+             <li>
+              Bryson Kemp (&rsquo;16) and Lily Walsh (&rsquo;18) with Dr. Paul McEwan (Film Studies) attended the 34
+              <sup>
+               th
+              </sup>
+              Pordenone Silent Film Festival in Pordenone, Italy from October 3-11, 2015
+             </li>
+             <li>
+              Daniel Cohen (&rsquo;17) presented his work
+              <em>
+               The Settler Movement: The Death or Byproduct of Zionism
+              </em>
+              at the Middle East and Islamic Studies Undergraduate Research Conference at Gettysburg College on October 3, 2015.
+             </li>
+             <li>
+              Jalal Khan (&rsquo;17) and Dr. Clif Kussmaul (Computer Science) presented their work
+              <em>
+               Using Bayesian Networks to Predict Election Results
+              </em>
+              at the Consortium for Computing Sciences in Colleges annual conference in York, PA from October 23-24, 2015.
+             </li>
+             <li>
+              Jake Levine (&rsquo;16) attended the 28
+              <sup>
+               th
+              </sup>
+              Annual Educational Conference for the New Jersey State Division of The International Association for Identification in Atlantic City, NJ from October 26-27, 2015.
+             </li>
+             <li>
+              Emran Lallow (&rsquo;17),&nbsp; Carlos Herrera Acevedo (&rsquo;17), and David Reinert (&rsquo;16) presented posters at the 2015 Fall Meeting of the APS Division of Nuclear Physics in Santa Fe, NM from October 28-31, 2015.
+             </li>
+             <li>
+              Steven Feldman (&rsquo;16) attended the 81
+              <sup>
+               st
+              </sup>
+              Annual Meeting of the American Musicological Society in Louisville, KY from November 12-15, 2015.
+             </li>
+             <li>
+              Sophia Goodfellow (&rsquo;17) attended the National Immigrant Integration Conference in NYC from December 12-15, 2015.
+             </li>
+             <li>
+              Bryan Auvil (&rsquo;16), Elliot Goldberg (&rsquo;17) and Rachel Heist (&rsquo;16) presented their summer research as Lehigh Valley Research Scholars at a poster session held at the main campus of the Lehigh Valley Health Network on Friday, July 31, 2015. .
+             </li>
+             <li>
+              Kerry McGowan (&rsquo;15) and Elizabeth Thompson (&rsquo;15) with Dr. Erika Iyengar presented their work in poster presentations at the annual meeting of The Society for Integrative &amp; Comparative Biology in West Palm Beach, FL on Jan 3-7, 2015
+             </li>
+             <li>
+              Erika Skyles (&rsquo;15) and Kimberly Schoenberg (&rsquo;15) with Dr. Connie Wolfe (Psychology) presented their work &ldquo;
+              <em>
+               Beautiful is&hellip;Mean?
+              </em>
+              First Impressions and Physical Attractiveness&rdquo; at the Eastern Psychological Association Conference during&nbsp; March 5-8, 2015 in Philadelphia, PA.
+             </li>
+             <li>
+              Emily Goldberg (&rsquo;17) presented her work &ldquo;
+              <em>
+               Shifting the Axiz Mundi:
+              </em>
+              Finding Revelatory Experiences in the Mundane&rdquo; at the Mid-Atlantic Region: American Academy of Religion Meeting on March 5, 2015.
+             </li>
+             <li>
+              Robin Spencer (&rsquo;15) participated in the Stage Management Mentoring Project at the 2015 United States Institute for Theatre Technology (USITT) Conference in Cincinatti, OH from March 18-21, 2015
+             </li>
+             <li>
+              Katherine Boll (&rsquo;16) presented an open portfolio of her printmaking works at the Southern Graphics International: Sphere conference from&nbsp; March 18-21, 2015 in Knoxville, TN.&nbsp;
+             </li>
+             <li>
+              Dayna Kline (&rsquo;15) and Dominic Mangino (&rsquo;15) with their advisor Dr. Erika Bagley (Psychology) attended the Society for Research in Child Development meeting from March 19-21, 2015 in Philadelphia, PA and presented their study: &ldquo;
+              <em>
+               Self-Efficacy Mediates Relations between Maternal Control and Self-Esteem&rdquo;
+              </em>
+              .
+             </li>
+             <li>
+              Arissa Lahr (&rsquo;17) attended the Pennsylvania Political Science Association&rsquo;s 76
+              <sup>
+               h
+              </sup>
+              Annual Conference from March 20-21, 2015 in Philadelphia, PA, and presented her study of &ldquo;
+              <em>
+               Missed Opportunities for Human Development:
+              </em>
+              An Analysis of Ghana&rsquo;s Experience with Structural Adjustment Programs&rdquo;
+             </li>
+             <li>
+              Jessica Wilson (&rsquo;16), Lisa Housel (&rsquo;15), Brian Auvil (&rsquo;16), Lauren Warning (&rsquo;16) and Ryan Ferrie (&rsquo;16) with Dr. Sherri Young (Chemistry) and Dr. Bruce Anderson (Chemistry) presented at the American Chemical Society National Meeting in Denver, CO from March 21-24, 2015
+             </li>
+             <li>
+              Kelly Osborne (&rsquo;15) attended the National Council for Undergraduate Research meeting in Spokane, WA from April 16-18, 2015 and presented her paper &ldquo;
+              <em>
+               The Fall of Man and the Rise of the Dual Narrative:
+              </em>
+              Verbal Visual Relations in Blake&rsquo;s
+              <em>
+               The Book of Urizen
+              </em>
+             </li>
+             <li>
+              Holly Hynson (&rsquo;15) and Kenneth Wohl (&rsquo;15) presented at the Phi Alpha Theta East Regional Conference at Ursinus College on April 18, 2015.
+             </li>
+             <li>
+              Rachel Brookland (&rsquo;15), Alexandra Grande (&rsquo;15), Laura Hess (&rsquo;16), Jennie Goldberg (&rsquo;15), Kaitlin Howley (&rsquo;15), Dayna Kline (&rsquo;15), Jonathan Ross (&rsquo;16), Erika Skyles (&rsquo;15), Stephanie Solomon (&rsquo;15), and Jessica Sperber (&rsquo;17) &nbsp;presented at the Association for Psychological Science&rsquo;s 27
+              <sup>
+               th
+              </sup>
+              Annual Convention during May 21-24 in New York, NY.
+             </li>
+             <li>
+              Jaime Klotz (&rsquo;15) attended
+              <em>
+               One Child, Many Hands: A Multidisciplinary Conference on Child Welfare
+              </em>
+              at the University of Pennsylvania on June 10-12, 2015 and presented her work:
+              <em>
+               Scaling Up a Welfare Collaboration to Address Elementary School Truancy in an Urban School District.
+              </em>
+             </li>
+             <li>
+              Carly Baron (&rsquo;15), Emily Rybnick (&rsquo;17), Catherine Zimel (&rsquo;17) presented their work at the Society for Music Perception and Cognition conference from August 1-5, 2015 in Nashville, TN.&nbsp;
+             </li>
+            </ul>
+            <p>
+             <strong>
+              2014
+             </strong>
+            </p>
+            <ul>
+             <li>
+              Jennifer Freed (&rsquo;15), Carly Lyon (&rsquo;16), Teresa Kennedy (&rsquo;15) and Kelly Toner (&rsquo;15)&nbsp; presented posters at the&nbsp; 2014 joint conference of the International Writing Center Association and National Conference on Peer Tutoring in Writing with Drs. David Rosenwasser and Jill Stephen in Orlando, FL on October 30-November 1, 2014.
+             </li>
+             <li>
+              Chelsea Young (&rsquo;15) presented her NSF-REU work at the Research Experience for Undergraduates Symposium in Arlington, VA fro October 26-28, 2014
+             </li>
+             <li>
+              Caleb Clever (&rsquo;16), David Reinert&nbsp; (&rsquo;16) and Benjamin Kimmelman (&rsquo;16) with Dr. Brett Fadem presented their work at the Fourth Joint Meeting of the Nuclear Physics Divisions of the American Physical Society and The Physical Society of Japan in Waikoloa, Hawaii from October 7-11, 2014.
+             </li>
+             <li>
+              Alexandra Rosenberg (&rsquo;14), Amanda Gates (&rsquo;14) their poster
+              <em>
+               Regulating Masculinity through Homophobic Language: A Developmental Perspective
+              </em>
+              ; Nicole Carusone (&rsquo;15) and Victoria Nicosia (&rsquo;15) presented their poster work on
+              <em>
+               Personnel Selection and Sexuality
+              </em>
+              with Dr. Kate Richmond at the American Psychological Association, &nbsp;August 7-10, 2014
+             </li>
+             <li>
+              Emily Bayer &lsquo;(14) and Dominic Lapadula (&rsquo;14) with Bruce Wightman presented at the Society for Developmental Biology May 30-31, 2014
+             </li>
+             <li>
+              Bess Glickman (&rsquo;14), Cimarron Sharon (&rsquo;14), Matthew Sandler (&rsquo;14) and Benjamin Haberman (&rsquo;14)&nbsp; with Dr. Gretchen Gotthard and Dr. Jeff Rudski presented at the Association for Psychological Science May 22-25, 2014
+             </li>
+             <li>
+              Stephanie Scott (&rsquo;14) with Dr. Linda Miller presented at the Undergraduate Research Creative Expression April 26, 2014
+             </li>
+             <li>
+              Timothy Gee (&rsquo;14) and Christopher Zumberge (&rsquo;14) with Dr. Clif Kussmaul presented at the Consortium for Computing Sciences April 25-26, 2014
+             </li>
+             <li>
+              Sarah Grasberg (&rsquo;14) with Dr. Amy Corbin presented at the Society for Cinema and Media Studies April 17-19, 2014
+             </li>
+             <li>
+              Sarah Grasberg (&rsquo;14) with Dr. Amy Corbin presented at the Society for Cinema and Media Studies April 17-19, 2014
+             </li>
+             <li>
+              Abigail Stryker (&rsquo;14), Erica Wenzel (&rsquo;14) gave a talk entitled
+              <em>
+               A Monte Carlo Simulation Approach to Determine the Greatest Post-Season Players
+              </em>
+              at&nbsp; the 2014 Carolinas Sports Analytics Meeting (CSAM) on Saturday, April 12th, 2014. Their advisor is Dr. Michael Huber (Mathematics).
+             </li>
+             <li>
+              Branden Sheehan (&rsquo;15), Christopher Baumgartel (&rsquo;17), and Lena Schneider (&rsquo;16 ) with Dr. Mohsin Hashim presented at the Pennsylvania Political Association Conference April 11-12, 2014
+             </li>
+             <li>
+              Branden Sheehan (&rsquo;15), Christopher Baumgartel (&rsquo;17), and Lena Schneider (&rsquo;16 ) with Dr. Mohsin Hashim presented at the Pennsylvania Political Association Conference April 11-12, 2014
+             </li>
+             <li>
+              Nick Farmer (&rsquo;15) with Dr. Luba Iskold presented at the Undergraduate Research Symposium April 11, 2014
+             </li>
+             <li>
+              Dianna Shin (&rsquo;14) with Dr. Michele Deegan presented at the Pennsylvania Political Association Conference April 11, 2014
+             </li>
+             <li>
+              Ramzy Burns (&rsquo;14), Lauren Zakheim (&rsquo;14), Kelli Meeker (&rsquo;14), Cimarron Sharon (&rsquo;14), and Andrew Hasenzahl (&rsquo;14) with Mrs. Monica Cocca presented at the National Tutoring Association April 5-9, 2014
+             </li>
+             <li>
+              Caitlin DiMartino (&rsquo;14) with Dr. Margo Hobbs presented at the Central PA Art History Symposium April 5-6, 2014
+             </li>
+             <li>
+              Elizabeth Neary (&rsquo;14) with Dr. Grant Scott presented at the National Conference on Undergraduate Res. April 2 &ndash; 5, 2014
+             </li>
+             <li>
+              Genevieve Daly (&rsquo;14) with Dr. Cathy Ouellette presented at the Undergraduate Colloquium on Latin American March 28-29, 2014
+             </li>
+             <li>
+              Erin Kreider (&rsquo;14) and Paul Stathis (&rsquo;14) with Dr. Daniel Klem presented at the PA Academy of Science Meeting March 21 &ndash; 23, 2014
+             </li>
+             <li>
+              Matthew Bocchese ('14), Mallory Berstein ('14), Alexa Carollo ('14), James Custer ('15), Besher Tolaymat ('15) and Ian Smith ('14) with Dr. Bruce Anderson (Chemistry) presented their research at the 247th national meeting of the American Chemical Society in Dallas, Texas from March 16-20, 2014
+             </li>
+             <li>
+              Andrew Trautmann (&rsquo;14) with Dr. Diane Follet presented at the KKP Northeast District Convention March 14 &ndash; 15, 2014
+             </li>
+             <li>
+              Hallie Boviard (&rsquo;14) and Bayla Shepley (&rsquo;14) with Dr. Stefanie Sinno presented at the Eastern Psychological Association March 13 &ndash; 15, 2014
+             </li>
+             <li>
+              Jason Schunkewitz (&rsquo;14) with Dr. Art Raymond presented at MIT Sloan Sports Conference February 28 &ndash; March 1, 2014
+             </li>
+             <li>
+              Mallory Bernstein (&rsquo;14) with Mrs. Chrys Cronin presented at For Family Program February 28 &ndash; March 1, 2014
+             </li>
+             <li>
+              Elizabeth Neary (&rsquo;14) and Stephanie Scott (&rsquo;14) with Dr. Linda Miller presented at Sigma Tau Delta International Conference February 25 &ndash; March 1, 2014
+             </li>
+             <li>
+              Josh Clement (&rsquo;14) and Rachel Dordal (&rsquo;14) with Dr. Krista Bywater presented at the Eastern Sociology Society February 20-23, 2014
+             </li>
+             <li>
+              Michael Schramm (&rsquo;14) and Patrick Rawle (&rsquo;14) with Dr. Bill Tighe presented at Phi Alpha Theta Biennial Conference January 2-5, 2014
+             </li>
+            </ul>
+            <p>
+             <strong>
+              2013
+             </strong>
+            </p>
+            <ul>
+             <li>
+              Caitlin DiMartino (&rsquo;14), Joshua Beideman (&rsquo;14), Jeremy Fuchs (&rsquo;14), Forrest Kentwell (&rsquo;16), Ferielle Khetir (&rsquo;14) and Georgina Simon (&rsquo;15) with Dr. Chip Gruen presented at The American Academy of Religion Annual Meeting November 23-25, 2013
+             </li>
+             <li>
+              Caitlin DiMartino (&rsquo;14) with Dr. Margo Hobbs presented at the Feminist Art History Conference November 8-10, 2013
+             </li>
+             <li>
+              Ramzy Burns (&rsquo;14), Adam Halpern (&rsquo;16), Kelli Meeker (&lsquo;14), and Ariel Aranov (&lsquo;15) with Dr. Lora Taub presented at the National Collegiate Honors Council Conference November 7-9, 2013
+             </li>
+             <li>
+              MariAnne Skolnik (&rsquo;14), Kathryn Kooistra (&rsquo;15), Julian Rutkowski (&rsquo;15), Cora Wallace (&rsquo;15) and Benjamin Kimelman (&rsquo;16) with Dr. Jane Flood and Dr. Brett Fadem presented at American Physical Society Conference October 23-26, 2013
+             </li>
+             <li>
+              Danni Schwartz (&rsquo;14) along with Dr. Charles Richter presented at Dramatists Guild National Conferences from August 22-25, 2013
+             </li>
+             <li>
+              Gillian Irwin (&rsquo;13) along with Dr. Diane Follet presented at IMS Musci and Media Conference from July 11- 13, 2013
+             </li>
+             <li>
+              Kelcie Molchany (&rsquo;15), Chelsea Young (&rsquo;15), and Alyssa Schell (&rsquo;15) with their mentor Dr. Sherri C. Young presented their work on the
+              <em>
+               Synthesis and Study of Peptoid-NSAID Conjugates with Enhanced Membrane Penetrability
+              </em>
+              at the Fourth Annual Disappearing Boundaries Summer Research Meeting, Lebanon Valley College, Annville, PA (2013).&nbsp;
+             </li>
+             <li>
+              Juliana Repice (&rsquo;13) and Brandi Stovall (&rsquo;13) with their advisor Dr. Stephanie Sinno will present their work on
+              <em>
+               Social Reasoning about Distributive Justice in School-Age Children
+              </em>
+              at the Association of Psychological Science National convention in Washington D.C. from May 23-26, 2013.
+             </li>
+             <li>
+              Garret Gallinot (&rsquo;13) presented his work entitled
+              <em>
+               The Relationship Between the Media and Political Participation Among Young Adults
+              </em>
+              at the Midwest Political Science Association Conference in Chicago, IL from April 12-14, 2013.
+             </li>
+             <li>
+              Christopher Mullen (&rsquo;15) presented his work entitled
+              <em>
+               The Moving Men and Women in the Moving World of La Ronde
+              </em>
+              from April 11-14, 2013 at the Society for Cinema and Media Studies Undergraduate Conference in South Bend, IN.
+             </li>
+             <li>
+              Evan Lovas (&rsquo;13) presented his work on H
+              <em>
+               IV/AIDS, poverty and the political economy of Sub-Saharan Africa
+              </em>
+              at the Pennsylvania Political Science Association Annual Conference in Harrisburg, PA on April 6, 2013
+             </li>
+             <li>
+              Jessica Gonzalez &lsquo;13. Melanie Franklin &rsquo;13 and Victoria Mansolillo &lsquo;13 and Ashley Ring &rsquo;13 with their advisor Dr. Connie Wolfe will present a poster entitled
+              <em>
+               Stigmatic Implications Associated with the Symptomology of Schizophrenia
+              </em>
+              at the Association for Psychological Science Convention in Washington D.C. from May 23-26, 2013.
+             </li>
+             <li>
+              Bryan McComb &rsquo;14 will present a poster entitled
+              <em>
+               Traveling the O.R. Express &ndash; an excursion in commuter rail design
+              </em>
+              and Megan Postemski &lsquo;13 will present a poster entitled
+              <em>
+               Questioning the Presumption of Poverty: Relative Wealth of Pioneers in Downeast Maine
+              </em>
+              at the National Conference for Undergraduate Research, University of Wisconsin-LaCrosse from April 11-13, 2013.
+             </li>
+             <li>
+              Gillian Irwin &rsquo;13 presented her work on
+              <em>
+               Temporality in Balinese Gamelan: Current Practice in America
+              </em>
+              at the&nbsp; College Music Society Northeast Conference from March 15-15, 2013
+             </li>
+             <li>
+              Denueve Shepherd &rsquo;13 presented her work on
+              <em>
+               Cancer Awareness in Samoa and the Samoan Cancer Experience
+              </em>
+              at the Human Development Conference at the University of Notre Dame from February 8-9, 2013.&nbsp;
+             </li>
+             <li>
+              Nicole Fiorentino &rsquo;13 presented a poster entitled
+              <em>
+               Stochastic Models of an Antibiotic-Resistant Noscomial Infection
+              </em>
+              and Melanie Panosian &rsquo;13 presented a posted entitled
+              <em>
+               Tournaments and Tournament Solutions
+              </em>
+              at the Joint Mathematics Meeting in San Diego, CA from January 9-12, 2013.
+             </li>
+            </ul>
+            <p>
+             <strong>
+              2012
+             </strong>
+            </p>
+            <div>
+             <ul>
+              <li>
+               Gillian Irwin &rsquo;13 and Dr. Diane Follet presented their poster
+               <em>
+                Schumann in Love
+               </em>
+               at the College Music Society National Conference, November 15-18, 2012 in San Diego, CA.
+              </li>
+              <li>
+               Christopher Zumberge &rsquo;14 and Benjamin Schweid &rsquo;13 presented posters at the 2012 Fall meeting of the APS division of Nuclear Physics from October 24-27th in Newport Beach, California.
+              </li>
+              <li>
+               Mark Yulis &lsquo;13, Jenna Kotak &lsquo;13, Sabrina Kamran &rsquo;13, Catherine Ezzio &rsquo;13, Emily Bayer &rsquo;14, Jeremy Kaplan &rsquo;15 and Hayley Reed &lsquo;15 presented posters at the 15th Annual Undergraduate Research Symposium in Baltimore, MD on October 19-20, 2012. Emily Bayer won first prize in the poster competition.
+              </li>
+              <li>
+               Rebecca Golden &lsquo;14 won an
+               <em>
+                Outstanding Poster Honorable Mention
+               </em>
+               for the presentation of her poster entitled
+               <em>
+                Down-regulation of Nbs1 reduces level of Sp1
+               </em>
+               at the Drexel Discovery 2012 event at the Drexel University College of Medicine, Philadelphia, PA.
+              </li>
+              <li>
+               Scott Goldstein '13, Sam Tolkin '14 and Macauley Breault '15 were Tournament Finalists in the VEX Robotics competition held at the College of Southern Maryland. They received a trophy for their efforts.
+              </li>
+             </ul>
+            </div>
+            <blockquote>
+             <p>
+              &nbsp;
+             </p>
+            </blockquote>
+            <div>
+             &nbsp;
+            </div>
+            <p>
+             &nbsp;
+            </p>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Student Research and Scholarship
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/research/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/research/studentpresentations/poster/">
+            Summer Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/research/studentpresentations/presentationtemplates/">
+            Presentation Templates
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/research/studentpresentations/off-campusresearch/">
+             Off-Campus Research
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/research/studentpresentations/student_response.html">
+            Register for the Poster Session
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/research/studentpresentations/poster/"&gt;Summer Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/research/studentpresentations/presentationtemplates/"&gt;Presentation Templates&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/research/studentpresentations/off-campusresearch/"&gt;Off-Campus Research&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/research/studentpresentations/student_response.html"&gt;Register for the Poster Session&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students, the course in Documentary Research is their first foray into making media.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

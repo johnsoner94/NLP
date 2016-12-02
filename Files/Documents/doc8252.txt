@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Research  - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/research/">
+            Research
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          &nbsp;
+         </div>
+         <div>
+          &nbsp;
+         </div>
+         <!-- InstanceBeginEditable name="EditMainContent" -->
+         <p align="right">
+          <span style="font-size: 90%;">
+           *
+           <a href="/main/academics/psychology/learningoutsidetheclassroomloc/">
+            Information about LOC Requirement
+           </a>
+           &nbsp; &nbsp; &nbsp;
+           <br />
+           *
+           <a href="/main/academics/psychology/experimenterforms/">
+            Forms &amp; Instructions for Student Researchers
+           </a>
+           &nbsp; &nbsp; &nbsp;
+           <br />
+           *
+           <a href="/main/academics/psychology/internships/">
+            Community Service &amp; Internship Information
+           </a>
+           &nbsp; &nbsp; &nbsp;
+          </span>
+         </p>
+         <div class="content-add10">
+          <h3>
+           Research Opportunities
+          </h3>
+          <p>
+           Learning how to conduct empirical research is central to the education of the psychology major. Active engagement in every part of the research process helps psychology students develop systematic, rigorous ways of thinking about people. There are many opportunities for students to be involved in research in the department, and we have excellent
+           <a href="/main/academics/psychology/facilities/">
+            resources
+           </a>
+           for data collection and analysis. Students also practice valuable communication skills by presenting research at our in-house&nbsp;
+           <a href="/main/academics/psychology/psychologyday/">
+            Psychology Day
+           </a>
+           &nbsp;each semester.&nbsp;Some student work is also submitted to regional or national conferences. After conducting research while at Muhlenberg, students often continue such work in graduate programs, and in business settings that increasingly depend on their employees to understand people and to know how to learn about them in systematic ways. Scroll through the information below to learn more about the various ways to get involved with a research project in psychology. If you have any questions, feel free to contact us.
+          </p>
+          <hr />
+          <p>
+           <strong>
+            Research in Psychology Courses
+           </strong>
+           <br />
+           Students are introduced to research immediately in Introductory Psychology by
+           <a href="/main/academics/psychology/learningoutsidetheclassroomloc/">
+            participating in research studies
+           </a>
+           being conducted by our faculty and upper level students. This foundation continues through other courses in the major including Psychological Statistics, Research Methods, Sensation &amp; Perception and others. Several upper-level courses require students to develop and implement their own research projects (e.g., Cognitive Processes). Most notably, the 400-level Advanced Research courses serve as our capstone course for the major. Students develop, run, analyze, and present high-quality, novel, and sophisticated research studies, some of which are later presented at regional or national conferences. Click
+           <a href="/main/academics/psychology/coursedescriptions/">
+            here
+           </a>
+           for more information on the courses offered by the Psychology Department.
+          </p>
+          <p>
+           <strong>
+            <a id="PSY270n970">
+            </a>
+            Research Apprenticeships with a Faculty Member
+           </strong>
+           <br />
+           A particular strength of the department is the faculty, whose members are not only excellent teachers, but also productive researchers. Many students (freshmen through seniors) work with faculty members as research assistants and collaborators. Students may volunteer their time in a research lab, they may enroll in the Psychology Apprenticeship course (PSY270; .5 course unit), or they may receive Independent Research credit. As a result of these collaborations, students often co-author papers that are presented at professional research conferences, and many Muhlenberg psychology students give presentations at the annual Undergraduate Psychology Conference of the
+           <a href="http://www.lvaic.org/">
+            Lehigh Valley Association of Independent Colleges
+           </a>
+           . After an apprenticeship, students also often develop their own research ideas and go on to Independent Research or
+           <a href="/main/academics/psychology/seniorthesis/">
+            Senior Theses
+           </a>
+           . For information about the research being conducted by each faculty member in the department, visit the
+           <a href="/main/academics/psychology/faculty/">
+            Faculty Information pages
+           </a>
+           . If you are interested in the research described, contact that faculty member and see if they have room in their research lab for an enthusiastic, responsible new member!
+          </p>
+          <p>
+           <strong>
+            Independent Student Research
+           </strong>
+           <br />
+           We encourage juniors and seniors in particular to consider conducting an Independent Research (PSY970). Students work closely one-on-one with a faculty mentor in developing and implementing their ideas. Many of these projects are presented at local or national conferences, and will sometimes result in publication in a psychology journal! Any type of research, but especially independent theses such as these are also very positive additions to a graduate school application. All students in the major are encouraged to present their research at appropriate venues (e.g.,
+           <a href="/main/academics/psychology/psychologyday/">
+            Psychology Day
+           </a>
+           ,
+           <a href="http://www.lvaic.org/">
+            LVAIC Undergraduate Psychology Conference
+           </a>
+           ,
+           <a href="http://www.easternpsychological.org">
+            Eastern Psychological Association Conference
+           </a>
+           ). For more information about doing an independent research project, contact the faculty member who has an area of expertise related to your interests.
+          </p>
+          <p>
+           <strong>
+            <a id="Thesis">
+            </a>
+            Psychology Senior Thesis Program
+           </strong>
+           <strong>
+            &amp; Graduation Honors
+           </strong>
+           <br />
+           Qualified psychology majors may apply for a year-long thesis program featuring advanced, original research. The program is developmental in that it seeks to offer intellectually curious students an intensive year-long experience of mentorship and collaboration. To be part of this program, students must be willing to invest considerable time and intellectual energy. Students interested in more general research experience are encouraged to, instead, speak with a professor about coordinating an Independent Research project. Successful completion of a thesis and a psychology GPA of 3.7 or better are both required for departmental graduation honors. For more information visit the&nbsp;
+           <a href="/main/academics/psychology/seniorthesis/">
+            Senior Thesis
+           </a>
+           &nbsp;information page.
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Departmental Research Awards
+           </strong>
+           <br />
+           Both of these awards, funded by generous donors, are typically granted in conjunction with a senior thesis project. As such, applications for the awards are part of the
+           <a href="/main/academics/psychology/seniorthesis/">
+            senior thesis application process
+           </a>
+           .
+          </p>
+          <p style="padding-left: 60px;">
+           <strong>
+            <em>
+             Rosenberg Research Award
+            </em>
+           </strong>
+           <br />
+           The Rosenberg Research Award provides a stipend to a psychology student who is engaged in research that is
+           <em>
+            developmental
+           </em>
+           in nature (either directly or indirectly).&nbsp;
+          </p>
+          <p style="padding-left: 60px;">
+           <strong>
+            <em>
+             The Crist Family Research Fellowship
+            </em>
+           </strong>
+           &nbsp;
+           <br />
+           The Crist Family Research Fellowship provides a stipend to support students in either independent or collaborative research with a faculty member of the psychology department.&nbsp;
+          </p>
+          <hr />
+          <p>
+           <strong>
+            Muhlenberg College Research Awards and Grants
+           </strong>
+          </p>
+          <p style="padding-left: 30px;">
+           <em>
+            <strong>
+             Harring-Wittenbraker Fund for Student Research
+            </strong>
+            &nbsp;
+           </em>
+           <br />
+           This endowed fund provides students with financial support associated with the direct costs conducting or presenting research. For example, funds may be used to pay the costs of gathering data and information, purchase necessary equipment, computer fees, copyright fees, or travel to conferences to present research results. A preference is given to students conducting research in the humanities and social sciences, followed by students conducting research in the natural sciences. For more information or to apply, contact the
+           <a href="/main/aboutus/dean-academic/">
+            Dean of Academic Life
+           </a>
+           .
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            <em>
+             Dean's Office Summer Research Grants
+            </em>
+           </strong>
+           <br />
+           These grants are intended for students who plan to engage in research or independent study that will lead to publication, presentation, exhibition, or performance. They are not normally granted for participation in formal coursework, formal study abroad programs, or internships. Each student who is awarded a grant will receive a stipend for eight weeks of research during the summer and one course-unit of research or independent study at no cost. Recipients who do research on campus will be provided with campus housing (based on double occupancy). Students may not have other obligations (work, course work, etc.) during the period of the grant. In addition, the student is expected to be enrolled at Muhlenberg the subsequent Fall. For more information, visit the
+           <a href="http://www.muhlenberg.edu/main/aboutus/dean-academic/awards/muhlenbergawards/summer.html">
+            Summer Grants
+           </a>
+           &nbsp;page.
+           <br />
+           <strong>
+            <br />
+            <em>
+             Summer Faculty/Student Collaborations
+            </em>
+           </strong>
+           <br />
+           In Summer Research Collaborations, a faculty member recruits a student as a research collaborator for the summer.&nbsp; That is, the student assists in a substantive way with the faculty member&rsquo;s scholarship.&nbsp; A joint application must be submitted by the faculty member and the student. Each student who is awarded a grant will receive a stipend for either four or eight weeks of research during the summer. Optionally, the student may receive up to one course-unit of research or independent study at no cost. Recipients who do research on campus will be provided with campus housing (based on double occupancy). For more information, speak with a faculty member and visit the&nbsp;
+           <a href="http://www.muhlenberg.edu/main/academics/research/fundingopportunities/summerresearchcollaborations/">
+            Summer Research Collaborations
+           </a>
+           &nbsp;page.
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            <em>
+             Dean's Office Travel Awards
+            </em>
+           </strong>
+           <br />
+           The College can fund student travel to present scholarship, to exhibit artwork, or to perform.&nbsp; Funding in the past has gone toward local, regional, and national venues of presentation. The awards are competitive. Students wishing to apply can get more information on the
+           <a href="/main/aboutus/dean-academic/travel.html">
+            Travel Awards
+           </a>
+           &nbsp;page of the Academic Dean's site.
+          </p>
+          <hr />
+          <p>
+           Check out the list of opportunities below for additional possibilities beyond Muhlenberg College. This list is not complete, it is just a starting point.&nbsp;
+          </p>
+          <p>
+           <em>
+            <strong>
+             Regional Programs
+            </strong>
+           </em>
+          </p>
+          <p>
+           <strong>
+            Lehigh Valley Health Network Summer Scholars Program
+           </strong>
+           <br />
+           The Research Scholar Program provides structured educational research opportunities for undergraduate students. The summer session spans 8 weeks, and the fall and spring sessions span 10 weeks each. Within each session, students apply for positions offered by health network departments. Each position involves a combination of research, as well as professional and clinical observations. The program offers educational experience for students and additionally provides valuable assistance to health network departments. For more information, visit:&nbsp;
+           <a href="https://www.lvhn.org/research_and_education/college_student_programs/research_scholar_program">
+            lvhn.org/research_and_education/college_student_programs/research_scholar_program
+           </a>
+          </p>
+          <p>
+           <strong>
+            Lehigh Valley Hospital - Hospital Elder Life Program, Allentown PA
+           </strong>
+           <br />
+           This is a research driven initiative which may be of interest to Muhlenberg College students who want to work with older adults, but also an opportunity for other students to get more applied research experience. Please contact the
+           <a href="/main/campuslife/community-service/">
+            Muhlenberg's Office of Community Engagement
+           </a>
+           if you want more information.
+          </p>
+          <p>
+           <em>
+            <strong>
+             National Programs
+            </strong>
+           </em>
+          </p>
+          <p>
+           <strong>
+           </strong>
+           <strong>
+            Psi Chi Funding &amp; Awards
+           </strong>
+           &nbsp;
+           <br />
+           Psi Chi offers a variety of awards and grants to undergraduate members. They encourage you to apply for multiple grants and awards throughout your college career because you will learn from the process. Each time you complete an application, you will gain experience and insight. For more information, visit&nbsp;
+           <a href="http://www.psichi.org/awards/">
+            psichi.org/awards/undergraduate.aspx
+           </a>
+          </p>
+          <p>
+           <strong>
+            American Psychological Association&nbsp;
+           </strong>
+           <br />
+           APA maintains a list of undergraduate research and internship opportunities from across the nation,&nbsp;
+           <a href="http://www.apa.org/education/undergrad/research-opportunities.aspx">
+            apa.org/education/undergrad/research-opportunities.aspx
+           </a>
+          </p>
+          <p>
+           <strong>
+            NSF Research Experiences for Undergraduates Program ("REU")
+           </strong>
+           <br />
+           The National Science Foundation funds this
+           <em>
+            highly prestigious
+           </em>
+           and competitive REU Sites program.
+           <span>
+            An REU Site consists of a group of ten or so undergraduates who work in the research programs of the hosting university. Each student is associated with a specific research project, where they work closely with the faculty and other researchers. This program allows students to experience first-hand how basic research is carried out on a larger scale than ours here at Muhlenberg.&nbsp;Students are granted stipends and, in many cases, assistance with housing and travel. Undergraduate students supported with NSF funds must be citizens or permanent residents of the United States or its possessions.&nbsp;
+           </span>
+           &nbsp;Note: As you search for REU Sites, be aware that opportunities in the field of psychology are listed under multiple areas, including Social, Behavioral, and Economic Research. Also note that you contact each institution that is offering an REU experience individually to learn about their application requirements, deadlines and program activities. For more information, visit&nbsp;
+           <a href="https://www.nsf.gov/crssprgm/reu/">
+            nsf.gov/crssprgm/reu/
+           </a>
+          </p>
+          <p>
+           <strong>
+            Inter-University Consortium for Political and Social Research Summer Internship Program&nbsp;
+           </strong>
+           <br />
+           The ICPSR summer internship program at the University of Michigan provides undergraduate students with a unique and expansive research experience that introduces all aspects of social science research. The program is excellent preparation for advanced studies and careers in data science and social science research. The students, under the supervision of faculty mentors, develop a research question, perform a literature search and review, complete data analysis, and report findings in a poster; learn good data management processes and research practices with a research process mentor; and attend classes at the ICPSR Summer Program in Quantitative Methods.
+           <span>
+            Additionally, regularly planned luncheon meetings focus on research projects within ICPSR/ISR, ethics in research and data management, and life in graduate school or in a research career obtainable with a Bachelor's degree in the social sciences.
+           </span>
+           &nbsp;For more information, visit&nbsp;
+           <a href="http://www.icpsr.umich.edu/icpsrweb/content/ICPSR/internship/">
+            icpsr.umich.edu/icpsrweb/content/ICPSR/internship/
+           </a>
+          </p>
+          <p>
+           <strong>
+            Society for the Study of Social Issues (SPSSI)
+           </strong>
+           <br />
+           SPSSI funds a variety of grants and awards, some of which are available to undergraduates - particularly graduating seniors who will be beginning a masters or Ph.D. program. For information, visit&nbsp;
+           <a href="http://www.spssi.org/awards">
+            spssi.org/awards
+           </a>
+          </p>
+          <p>
+           <strong>
+            Web GURU - Guide to Finding and Applying for Research Internships or Programs for Undergraduates
+           </strong>
+           &nbsp;
+           <br />
+           More information and leads on funding, programs and research:&nbsp;
+           <a href="http://www.webguru.neu.edu/undergraduate-research/getting-started/finding-ur-opportunity">
+            webguru.neu.edu/undergraduate-research/getting-started/finding-ur-opportunity
+           </a>
+           .
+          </p>
+          <p>
+           <strong>
+            Research Assistant positions for recent graduates
+           </strong>
+           <br />
+           Visit
+           <a href="http://www.higheredjobs.com">
+            higheredjobs.com
+           </a>
+           . Also,&nbsp;check with the psychology faculty to see if they have received information about open positions. Muhlenberg students should also check the
+           <a href="https://muhlenbergcollege.instructure.com/login/canvas">
+            Canvas
+           </a>
+           &nbsp;page for declared majors - every opportunity we hear of is posted there. You can also check the web pages of universities for open positions. One final option is to write to researchers you are interested in working with. Be sure to attach a resume or vitae, and indicate in the e-mail whether you are looking for a paid or unpaid position.
+           <br />
+           &nbsp;
+          </p>
+          <hr />
+          <p>
+           <em>
+            <strong>
+             Opportunities in Related Disciplines
+            </strong>
+            <br />
+           </em>
+          </p>
+          <p>
+           <strong>
+            National Institute of Health
+           </strong>
+           :
+           <a href="http://www.jobs.nih.gov/">
+            http://www.jobs.nih.gov/
+           </a>
+           &nbsp;&nbsp;
+          </p>
+          <p>
+           <strong>
+            Post-Baccalaureate Research and Education Program (PREP) at the University of New Mexico. &nbsp;
+           </strong>
+           <br />
+           PREP is a NIH-funded post-baccalaureate training program, designed to enhance the ability of individuals in the biomedical sciences to gain entry to, and succeed in, nationally-recognized PhD programs. PREP is aimed at individuals from under-represented groups in the biomedical sciences who have recently received a Bachelors degree. These individuals will either have relatively little laboratory experience, or will be changing research fields between their BS and PhD courses. This is a year long program with a stipend, health benefits, and tuition stipends. The program web site and online application can be found at:
+           <a href="http://biology.unm.edu/PREP/index.html" target="_blank">
+            http://biology.unm.edu/PREP/index.asp
+           </a>
+          </p>
+          <p>
+           <strong>
+            Department of Energy
+           </strong>
+           :&nbsp;
+           <a href="http://energy.gov/student-programs-and-internships">
+            http://energy.gov/student-programs-and-internships
+           </a>
+          </p>
+          <p>
+           <strong>
+            Department of Energy DOE scholars Internship Program:
+           </strong>
+           &nbsp;Full details and an application can be found at the program web site at
+           <a href="http://orise.orau.gov/doescholars">
+            http://orise.orau.gov/doescholars
+           </a>
+          </p>
+          <hr />
+          <p>
+           Have an opportunity you want listed here?&nbsp; Contact Professor Wolfe at
+           <a href="mailto:wolfe@muhlenberg.edu">
+            wolfe@muhlenberg.edu
+           </a>
+           .
+          </p>
+         </div>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

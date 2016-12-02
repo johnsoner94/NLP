@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Facilities Reservation Form - Seegers Union | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        J. Conrad and Hazel J. Seegers Union
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/">
+            About Us
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/union/">
+            Seegers Union
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/union/facilitiesreservationform/">
+            Facilities Reservation Form
+           </a>
+          </strong>
+         </div>
+         <br />
+         <span style="font-size:2.0em ">
+          Facilities Reservation Form
+         </span>
+         <br />
+         <br />
+         <!-- action= recaptcha form processor -->
+         <script type="text/javascript">
+          function setDates () {
+ 
+ 
+ 
+	var start_day=document.getElementById('start_day').value;
+ 
+	var start_month=document.getElementById('start_month').value;
+ 
+	var start_year=document.getElementById('start_year').value;
+ 
+ 
+        document.getElementById('start_date').value=start_month   
+ 
+		+ ' ' + start_day + ' ' + start_year;
+ 
+}
+ 
+ 
+ 
+function validateForm() {
+ 
+ 
+ 
+    setDates();
+ 
+    document.forms['verifyForm'].verify.checked=false;
+ 
+}
+ 
+function setRadio( verified) {
+ 
+  var radioObjects = new Array("startMeridiem"
+                             , "endMeridiem"
+ 			     , "mediaServices"
+			     , "tableLinens"
+ 			     , "eventType"
+			     , "foodBeverage"
+                             , "setup"
+			     , "requestedBy"
+ 
+              );
+              for (j=0; j&lt; radioObjects.length; j++){
+ 
+                   var obj=document.getElementById(radioObjects[j]);
+                   var objlen=eval("document.facilities." + obj.name + ".length");
+                   for (k=0; k &lt; objlen; k++) {
+                   if (verified) {
+                      eval("document.facilities." + obj.name + "[" 
+                      + k + "].disabled=false;");
+ 
+ 
+                   }else {
+ 
+                      eval("document.facilities." + obj.name + "[" 
+                      + k + "].disabled=true;");
+ 
+                   }}
+ 
+                }
+ 
+}
+ 
+function setForm( verified) {
+ 
+        setRadio(verified);
+	var objects= new Array('eventName'
+,'Day'
+,'organization' 
+,'start_date'
+, 'start_year'
+, 'start_day'
+, 'start_month' 
+, 'Building' 
+, 'Room' 
+, 'startTime'
+, 'endTime'
+,  'guestCount'
+, 'addHours'
+, 'contactPerson'
+,'telephone'
+,'organization'
+, 'FROM'
+, 'advisorName'
+, 'advisorEmail' 
+, 'Served'
+, 'Buffet'
+,'tableLinens' 
+, 'laptop' 
+, 'dataProjector'
+, 'screen' 
+, 'tvDVD' 
+, 'podium' 
+, 'mic_and_podium'
+,'stand' 
+, 'table' 
+, 'lapel' 
+, 'cdplayer' 
+, 'flipchart' 
+,  'easel' 
+, 'technicians' 
+,'startTech' 
+,  'endTech'
+,  'otherMedia' 
+, 'UPLOADED_FILE'
+, 'chairs'
+, 'trashBrutes'
+, 'stage'
+, 'signStandards' 
+, 'chairs' 
+, 'table6' 
+, 'table8' 
+, 'tableRound' 
+, 'grounds' , 'plantops' 
+, 'housekeeping'
+, 'security'
+, 'reset'
+, 'submit'
+, 'AdditionalDateTime_Info'
+, 'AdditionalComments'
+, 'otherEquipment' ); 
+ 
+ 
+		for (j=0; j&lt; objects.length; j++){
+ 
+		   var obj=document.getElementById(objects[j]);
+ 
+		   if (verified) {
+ 
+		   		obj.disabled=false;
+ 
+		   }else {
+ 
+		   		obj.disabled=true;			   
+ 
+		   }
+ 
+		}
+ 
+ 
+ 
+}
+         </script>
+         <script type="text/javascript">
+          function validateAll() {
+
+var advisorRequired=false;
+
+if ( (! document.facilities.requestedBy[0].checked) &amp;&amp;
+(! document.facilities.requestedBy[1].checked) ) {
+alert("You must indicate the whether the facility is requested by a College Department or Student Club");
+		return false;	
+}
+ 
+                validateForm();
+ 
+
+       document.facilities.DISP_NAMES.value=
+ 
+		getFormElements("facilities","DISP_NAMES",",");
+
+
+ 
+if ( document.facilities.requestedBy[1].checked) {
+
+			
+			if ( ! validText("facilities", "advisorName", "Advisor Name", ext, true))
+ 
+			return false;
+			
+			if ( ! validEmail("facilities", "advisorEmail", "Advisor Email", ext, true))
+ 
+			return false;
+ 
+                }
+
+ 
+		if ( ! validText("facilities", "eventName", "Event Name", ext, true))
+ 
+			return false;
+			
+			
+			if ( ! validText("facilities", "organization", "Sponsoring Organization or Department", ext, true))
+ 
+			return false;
+
+		
+	
+		if ( ! validEmail("facilities", "FROM", "Email Address", ext, true))
+ 
+			return false;
+
+
+ 
+
+ 	var setupSize=document.facilities.setup.length;
+	var setupChosen=false;
+	for (var j=0; j&lt; setupSize; j++) {
+		if (document.facilities.setup[j].checked)
+		  setupChosen=true;
+	}
+	if (! setupChosen) {
+		alert('You must choose a setup');
+		return false;
+	}
+
+ 
+ 
+ document.facilities.SUBJECT.value=document.facilities.SUBJECT.value + ":  " + document.facilities.eventName.value;         
+
+ 
+		return true;
+ 
+	}
+         </script>
+         <div style="text-align:left">
+          <hr />
+          <span style="font-weight:bold; font-style:italic">
+           Before
+          </span>
+          proceeding to the request form below, please
+          <a href="http://www.muhlenberg.edu/pdf/main/aboutus/union/facilities_reserv_guidelines.pdf" target="_blank">
+           review the facilities reservation guidelines
+          </a>
+          and verify that you have read it by checking the following:
+         </div>
+         <div style="padding-top:20px;text-align:left">
+          <form id="verifyForm" name="verifyform">
+           <input type="checkbox" name="verify" id="verify" onclick="setForm(this.checked)" />
+           I have read and understand the policy and protocol -- including content submission.
+          </form>
+          <hr />
+         </div>
+         <style>
+          table{
+background-color:#8A8A8A;
+}
+ td {
+    border:thin solid black; padding-top:5px
+}
+
+
+#uploadCol1 {
+width:100px;
+}
+         </style>
+         <div style="text-align:left;padding-top:30px; float:center">
+          <span style="font-size:0.8em">
+           (The request form will become available for use once you have read and understood
+           <span style="width:700px;background-color:white;text-align:left">
+            <a href="http://www.muhlenberg.edu/pdf/main/aboutus/union/facilities_reserv_guidelines.pdf" target="_blank">
+             facilities reservation guidelines
+            </a>
+           </span>
+           and verified that
+ 
+by checking the box above.  Required fields are indicated with an asterisk(*).)
+          </span>
+          <div>
+           <form id="facilities" name="facilities" style="padding-top:20px;" method="POST" action="/media/contentassets/php/shared/AllInOneFormProcessor.php" enctype="multipart/form-data">
+            <table border="1" style="width:900px">
+             <tr>
+              <td colspan="2">
+               <span class="bodytext">
+                Requested By*:
+               </span>
+              </td>
+              <td>
+               <span class="bodytext">
+                <sup>
+                 <input name="requestedBy" type="radio" id="requestedBy" size="50" value="Department" disabled="disabled" />
+                </sup>
+                College Department
+                <sup>
+                 <input name="requestedBy" style="border: 5px solid #0DFF92" type="radio" id="requestedBy" size="50" value="Student Club" disabled="disabled" />
+                </sup>
+                Student Club
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <span class="bodytext">
+                Name of Event*:
+               </span>
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="eventName" type="text" disabled="disabled" id="eventName" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Start Day
+              </td>
+              <td>
+               <span class="bodytext">
+                <label for="Day">
+                </label>
+                <select name="Day" id="Day" disabled="disabled">
+                 <option>
+                  Day of the Week
+                 </option>
+                 <option value="Sunday">
+                  Sunday
+                 </option>
+                 <option value="Monday">
+                  Monday
+                 </option>
+                 <option value="Tuesday">
+                  Tuesday
+                 </option>
+                 <option value="Wednesday">
+                  Wednesday
+                 </option>
+                 <option value="Thursday">
+                  Thursday
+                 </option>
+                 <option value="Friday">
+                  Friday
+                 </option>
+                 <option value="Saturday">
+                  Saturday
+                 </option>
+                </select>
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Start Date of Event
+              </td>
+              <td>
+               <select name="start_year" id="start_year" disabled="disabled">
+                <option value="">
+                 Start Year
+                </option>
+                <option value="2016">
+                 2016
+                </option>
+                <option value="2017">
+                 2017
+                </option>
+                <option value="2018">
+                 2018
+                </option>
+                <option value="2019">
+                 2019
+                </option>
+                <option value="2020">
+                 2020
+                </option>
+                <option value="2021">
+                 2021
+                </option>
+                <option value="2022">
+                 2022
+                </option>
+                <option value="2023">
+                 2023
+                </option>
+                <option value="2024">
+                 2024
+                </option>
+                <option value="2025">
+                 2025
+                </option>
+               </select>
+               <select id="start_month" name="start_month" disabled="disabled">
+                <option value="">
+                 Start Month
+                </option>
+                <option value="January">
+                 January
+                </option>
+                <option value="February">
+                 February
+                </option>
+                <option value="March">
+                 March
+                </option>
+                <option value="April">
+                 April
+                </option>
+                <option value="May">
+                 May
+                </option>
+                <option value="June">
+                 June
+                </option>
+                <option value="July">
+                 July
+                </option>
+                <option value="August">
+                 August
+                </option>
+                <option value="September">
+                 September
+                </option>
+                <option value="October">
+                 October
+                </option>
+                <option value="November">
+                 November
+                </option>
+                <option value="December">
+                 December
+                </option>
+               </select>
+               <select id="start_day" name="start_day" disabled="disabled">
+                <option value="">
+                 Start Day
+                </option>
+                <option value="01">
+                 01
+                </option>
+                <option value="02">
+                 02
+                </option>
+                <option value="03">
+                 03
+                </option>
+                <option value="04">
+                 04
+                </option>
+                <option value="05">
+                 05
+                </option>
+                <option value="06">
+                 06
+                </option>
+                <option value="07">
+                 07
+                </option>
+                <option value="08">
+                 08
+                </option>
+                <option value="09">
+                 09
+                </option>
+                <option value="10">
+                 10
+                </option>
+                <option value="11">
+                 11
+                </option>
+                <option value="12">
+                 12
+                </option>
+                <option value="13">
+                 13
+                </option>
+                <option value="14">
+                 14
+                </option>
+                <option value="15">
+                 15
+                </option>
+                <option value="16">
+                 16
+                </option>
+                <option value="17">
+                 17
+                </option>
+                <option value="18">
+                 18
+                </option>
+                <option value="19">
+                 19
+                </option>
+                <option value="20">
+                 20
+                </option>
+                <option value="21">
+                 21
+                </option>
+                <option value="22">
+                 22
+                </option>
+                <option value="23">
+                 23
+                </option>
+                <option value="24">
+                 24
+                </option>
+                <option value="25">
+                 25
+                </option>
+                <option value="26">
+                 26
+                </option>
+                <option value="27">
+                 27
+                </option>
+                <option value="28">
+                 28
+                </option>
+                <option value="29">
+                 29
+                </option>
+                <option value="30">
+                 30
+                </option>
+                <option value="31">
+                 31
+                </option>
+               </select>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Event Start Time
+              </td>
+              <td>
+               <input name="startTime" type="text" disabled="disabled" id="startTime" />
+               <input type="radio" name="startMeridiem" id="startMeridiem" disabled="disabled" value="AM" />
+               AM
+               <input type="radio" name="startMeridiem" id="startMeridiem" disabled="disabled" value="PM" />
+               PM
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Event End Time
+              </td>
+              <td>
+               <input name="endTime" type="text" disabled="disabled" id="endTime" />
+               <input type="radio" name="endMeridiem" id="endMeridiem" disabled="disabled" value="AM" />
+               AM
+               <input type="radio" name="endMeridiem" id="endMeridiem" disabled="disabled" value="PM" />
+               PM
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Additional Date/Time Info
+              </td>
+              <td>
+               <textarea name="AdditionalDateTime_Info" rows="5" cols="50" disabled="disabled" id="AdditionalDateTime_Info">
+               </textarea>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Facility Requested
+              </td>
+              <td>
+               Building
+               <label for="Building">
+               </label>
+               <input name="Building" type="text" disabled="disabled" id="Building" />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               &nbsp;
+              </td>
+              <td>
+               Room
+               <input name="Room" type="text" disabled="disabled" id="Room" />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Anticipated Guest Count
+              </td>
+              <td>
+               <input name="guestCount" type="text" disabled="disabled" id="guestCount" />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Additional Hours of Access
+              </td>
+              <td>
+               <input name="addHours" type="text" disabled="disabled" id="addHours" />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Event Type
+              </td>
+              <td>
+               <input type="radio" name="eventType" id="eventType" disabled="disabled" value="Closed" />
+               Closed
+               <input type="radio" name="eventType" id="eventType" disabled="disabled" value="Campus" />
+               Campus
+               <input type="radio" name="eventType" id="eventType" disabled="disabled" value="Public" />
+               Public
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <span class="bodytext">
+                Contact Person:
+               </span>
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="contactPerson" type="text" disabled="disabled" id="contactPerson" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Telephone
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="telephone" type="text" disabled="disabled" id="telephone" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <span class="bodytext">
+                Sponsoring Organization or Department*:
+               </span>
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="organization" type="text" disabled="disabled" id="organization" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               <span class="bodytext">
+                Email*:
+               </span>
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="FROM" type="text" disabled="disabled" id="FROM" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Advisor Name*:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="advisorName" type="text" disabled="disabled" id="advisorName" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Advisor Email*:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="advisorEmail" type="text" disabled="disabled" id="advisorEmail" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               &nbsp;
+              </td>
+              <td>
+               &nbsp;
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               1. Is food or beverage being served?
+              </td>
+              <td>
+               <input type="radio" name="foodBeverage" id="foodBeverage" disabled="disabled" value="Yes" />
+               <!--    &lt;label for="startMeridiem3"&gt;
+-->
+               Yes
+               <input type="radio" name="foodBeverage" id="foodBeverage" disabled="disabled" value="No" />
+               No
+               <br />
+               If yes,
+               <input name="Served" type="checkbox" id="Served" value="Yes" disabled="disabled" />
+               Served
+               <input name="Buffet" type="checkbox" id="Buffet" value="Yes" disabled="disabled" />
+               Buffet
+               <!--    &lt;/label&gt; -->
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3">
+               <!--&lt;blockquote&gt;
+-->
+               Do you require table linens? Please specify on diagram.
+               <br />
+               <input type="radio" name="tableLinens" id="tableLinens" disabled="disabled" value="Yes" />
+               <!--   &lt;label for="startMeridiem"&gt;
+-->
+               Yes
+               <br />
+               <input type="radio" name="tableLinens" id="tableLinens" disabled="disabled" value="No" />
+               No
+               <!--&lt;/label&gt;-->
+               <br />
+               <em>
+                If yes to either one, please contact Dining Services (Ext. 3488) upon confirmation of this request.
+               </em>
+               <!--
+&lt;/blockquote&gt;
+-->
+              </td>
+             </tr>
+             <tr valign="top">
+              <td colspan="2" valign="top">
+               2. Do you require Media Services equipment or assistance for this event?
+              </td>
+              <td valign="top">
+               <input type="radio" name="mediaServices" id="mediaServices" disabled="disabled" value="Yes" />
+               Yes
+&nbsp; &nbsp; &nbsp; &nbsp;
+               <input type="radio" name="mediaServices" id="mediaServices" disabled="disabled" value="No" />
+               No
+               <br />
+               <br />
+               <span style="font-size:0.9em">
+                If yes, please contact Media Services upon confirmation of this request, available at Departmental Forms on the intranet.
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td width="200">
+               <input name="laptop" type="checkbox" id="laptop" value="Yes" disabled="disabled" />
+               <label for="laptop">
+               </label>
+               Laptop
+               <br />
+               <input name="dataProjector" type="checkbox" id="dataProjector" value="Yes" disabled="disabled" />
+               Data Projector
+               <br />
+               <input name="screen" type="checkbox" id="screen" value="Yes" disabled="disabled" />
+               Screen
+               <br />
+               <input name="tvDVD" type="checkbox" id="tvDVD" value="Yes" disabled="disabled" />
+               TV-DVD
+              </td>
+              <td width="500">
+               #
+    Mic &amp; podium:
+               <input name="mic_and_podium" type="text" id="mic_and_podium" size="5" disabled="disabled" />
+               <br />
+               # Mic - stand:
+               <input name="stand" type="text" id="stand" size="5" disabled="disabled" />
+               <br />
+               #Mic - table:
+               <input name="table" type="text" id="table" size="5" disabled="disabled" />
+               <br />
+               #Mic - lapel:
+               <input name="lapel" type="text" id="lapel" size="5" disabled="disabled" />
+              </td>
+              <td width="100">
+               <input name="cdplayer" type="checkbox" id="cdplayer" value="Yes" disabled="disabled" />
+               CD Player
+               <br />
+               <input name="flipchart" type="checkbox" id="flipchart" value="Yes" disabled="disabled" />
+               Flip Chart
+               <br />
+               <input name="easel" type="checkbox" id="easel" value="Yes" disabled="disabled" />
+               Easel
+               <br />
+               <input name="technicians" type="checkbox" id="technicians" value="Yes" disabled="disabled" />
+               Technicians
+               <br />
+               Start
+               <input name="startTech" type="text" id="startTech" size="10" disabled="disabled" />
+               <br />
+               End
+               <input name="endTech" type="text" id="endTech" size="10" disabled="disabled" />
+               <br />
+               Other
+               <input name="otherMedia" type="text" id="otherMedia" disabled="disabled" />
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3">
+               3. Typical Set-ups:
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3">
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="theatreStyle" />
+               Theatre Style
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="Ushape" />
+               U-Shape
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="hollowSquare" />
+               Hollow Square
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="solidSquare" />
+               Solid Square
+               <br />
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="diningRounds" />
+               Dining w/ Rounds
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="As Is" />
+               As Is
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="Classroom" />
+               Classroom Style
+               <input type="radio" name="setup" id="setup" disabled="disabled" value="See Comments" />
+               See Comments Below
+               <div>
+                <strong>
+                </strong>
+               </div>
+               <p>
+                OR
+                <br />
+                <input type="radio" name="setup" id="setup" disabled="disabled" value="attachment" />
+                See Attachment (upload)
+                <br />
+                <em>
+                 Please upload DIAGRAM of room setup if you have not selected one of the typical set ups listed. If specific set-up is not indicated or provided prior to 10 days in advance, the set-up will be provided in "as is" arrangement.
+                </em>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td id="uploadCol1" valign="top" colspan="2" align="right" style="width:100px" width="100px">
+               <span class="bodytext">
+                Upload diagram:
+               </span>
+              </td>
+              <!--
+ 
+&lt;input name="uploadedfile" type="file"  /&gt;
+ 
+-->
+              <td valign="top">
+               <span class="bodytext">
+                <input name="UPLOADED_FILE" type="file" disabled="disabled" id="UPLOADED_FILE" size="35" />
+               </span>
+               <p>
+                (accepted formats:  pdf, jpg, png; file size &lt; 3MB)
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3">
+               <strong>
+                Equipment
+               </strong>
+               :
+               <br />
+               <br />
+               <table border="1" width="100%">
+                <tr>
+                 <!--&lt;td&gt;
+ &lt;input name="stool" type="checkbox" id="stool" value="Yes" disabled="disabled"  /&gt;
+Stool
+&lt;/td&gt;-->
+                 <td colspan="2">
+                  Trash Brutes:
+                  <input name="trashBrutes" type="text" id="trashBrutes" size="5" disabled="disabled" />
+                 </td>
+                 <td colspan="2">
+                  Stage:
+                  <input name="stage" type="text" disabled="disabled" id="stage" value="____ x ____" size="15" />
+                 </td>
+                 <!--&lt;td&gt;
+Music Stands:  &lt;input name="musicStands" type="text" id="musicStands" size="5" disabled="disabled"  /&gt;
+
+&lt;/td&gt;
+-->
+                </tr>
+                <tr>
+                 <td>
+                  <input name="podium" type="checkbox" id="podium" value="Yes" disabled="disabled" />
+                  Podium
+                 </td>
+                 <td>
+                  Sign Standards:
+                  <input name="signStandards" type="text" id="signStandards" size="5" disabled="disabled" />
+                  <br />
+                 </td>
+                 <td>
+                  # of chairs:
+                  <input name="chairs" type="text" id="chairs" size="5" disabled="disabled" />
+                 </td>
+                 <td>
+                  # of 6' tables:
+                  <input name="table6" type="text" id="table6" size="5" disabled="disabled" />
+                 </td>
+                </tr>
+                <tr>
+                 <td colspan="2">
+                  # of 8' tables:
+                  <input name="table8" type="text" id="table8" size="5" disabled="disabled" />
+                 </td>
+                 <td colspan="2">
+                  # of round tables:
+                  <input name="tableRound" type="text" id="tableRound" size="5" disabled="disabled" />
+                 </td>
+                </tr>
+                <tr>
+                 <td colspan="2">
+                  Other Equipment options:
+                 </td>
+                 <td colspan="2">
+                  <textarea cols="50" rows="rows" name="otherEquipment" id="otherEquipment">
+                  </textarea>
+                 </td>
+                </tr>
+               </table>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Grounds:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="grounds" type="text" disabled="disabled" id="grounds" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Plant Ops:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="plantops" type="text" disabled="disabled" id="plantops" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Housekeeping:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="housekeeping" type="text" disabled="disabled" id="housekeeping" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Security/Parking needs:
+              </td>
+              <td>
+               <span class="bodytext">
+                <input name="security" type="text" disabled="disabled" id="security" size="50" />
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="2">
+               Additional Comments:
+              </td>
+              <td>
+               <span class="bodytext">
+                <textarea name="AdditionalComments" type="text" disabled="disabled" id="AdditionalComments" cols="50" rows="5">
+                </textarea>
+               </span>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3" align="center">
+               <center>
+               </center>
+               <p align="center">
+                <em>
+                 NOTE: Fees may apply for certain  services or resources, based on availability and facility schedule.
+                </em>
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td colspan="3">
+               <span class="bodytext">
+                <div>
+                 Please enter the text as displayed below:
+                 <br />
+                 <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeG98QSAAAAAMMrWx-5GICylFwizd8tFi9VhE0m">
+                 </script>
+                 <noscript>
+                  <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeG98QSAAAAAMMrWx-5GICylFwizd8tFi9VhE0m" height="300" width="500" frameborder="0">
+                  </iframe>
+                  <br />
+                  <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+                  </textarea>
+                  <input type="hidden" name="recaptcha_response_field" value="manual_challenge" />
+                 </noscript>
+                </div>
+               </span>
+              </td>
+             </tr>
+            </table>
+            <div style="text-align:center;background-color:#CCCCCC; border:thin solid black">
+             <span class="bodytext">
+              <input disabled="disabled" type="reset" name="reset" id="reset" value="Reset" onclick="resetForm()" />
+              <input disabled="disabled" type="submit" id="submit" name="submit" value="Send Request" onclick="return validateAll()" />
+             </span>
+            </div>
+            <!--
+&lt;span class="bodytext"&gt;&lt;input type=hidden name="FORM_ELEMENT_FILE" value="/main/aboutus/union/facilities_reserv_elements.txt"&gt;
+
+C:\webapps\general\FORM_ELEMENT_FILES\Seegers\facilities_reserv\facilities_reserv_elements.txt
+-->
+            <span class="bodytext">
+             <input type="hidden" name="FORM_ELEMENT_FILE" value="/media/contentassets/formelements/seegers/facilities_reserve_elements.txt" />
+             <input type="hidden" name="RECIPIENT" value="Rosalie.Rodriguez@gw.muhlenberg.edu, brown@muhlenberg.edu" />
+             <input type="hidden" name="REDIRECT" value="/main/aboutus/union/facilitiesreservationform/thankyou" />
+             <input type="hidden" name="SUBJECT" value="Facilities Reservation" />
+             <input type="hidden" name="DEBUG" value="false" />
+             <input type="hidden" name="start_date" id="start_date" value="" />
+             <input type="hidden" name="DISP_NAMES" id="DISP_NAMES" value="eventName,FROM,organization,advisorName,advisorEmail,requestedBy" />
+             <input type="hidden" name="FILE_TYPES_ALLOWED" value="image/jpg, image/jpeg,image/pjpeg, image/png,application/pdf, application/x-pdf, application/acrobat, applications/vnd.pdf, text/pdf, text/x-pdf" />
+            </span>
+           </form>
+          </div>
+          <span class="bodytext">
+           <script type="text/javascript">
+            function resetAll() {
+ 
+        document.forms['verifyForm'].verify.checked=false;
+ 
+        setForm(false);
+ 
+    }
+ 
+    window.onload=resetAll();
+           </script>
+          </span>
+         </div>
+        </div>
+        <div id="skip_nav">
+         <a href="#navigation">
+          Skip to Navigation
+         </a>
+        </div>
+       </div>
+       <div class="col02">
+        <!-- InstanceBeginEditable name="rightSide" -->
+        <!-- navigation object : General - Right Red Box -->
+        <!-- navigation object : General - Right Callout -->
+        <!-- navigation object : General - Right box -->
+        <!-- InstanceEndEditable -->
+       </div>
+      </div>
+     </div>
+     <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+    </div>
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

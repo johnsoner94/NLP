@@ -1,0 +1,896 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  START -->
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  END -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery-ui-1.8.10.custom.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/accordionImageMenu-0.4.min_.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/swfobject.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.main.js">
+  </script>
+  <!-- image slideshow libraries -->
+  <script type="text/javascript" src="/media/styleassets/js/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!--
+OLD GA CODE
+	 &lt;script type="text/javascript"&gt;
+
+    //PASTE ALL CODE IN HTML PAGES TO BE TRACKED.
+
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'      type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+   try {
+    var pageTracker = _gat._getTracker("UA-6362790-1");
+    pageTracker._trackPageview();
+    } catch(err) {}
+&lt;/script&gt;
+  -->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <!-- Added by DOD -->
+  <!-- Ajax Clicker -->
+  <script type="text/javascript" src="/media/styleassets/js/ajaxticker.js">
+  </script>
+  <!-- Tab content -->
+  <script type="text/javascript" src="/media/styleassets/js/tabcontent.js">
+  </script>
+  <!-- switchcontent -->
+  <script type="text/javascript" src="/media/styleassets/js/switchcontent.js">
+  </script>
+  <!-- END Added by DOD -->
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Muhlenberg College President Emeritus
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up); 
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/jquery.panelgallery-1_2.js">
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <script type="text/javascript">
+   $(document).ready(function() {
+    $('.imagecol').cycle({
+		fx: 'fade',
+    		random:  1
+	});
+});
+  </script>
+ </head>
+ <body>
+  <!-- Google Tag Manager -->
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+   </iframe>
+  </noscript>
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+  </script>
+  <!-- End Google Tag Manager -->
+  <div class="pagewidth">
+   <div class="wrap">
+    <div class="header-holder">
+     <div id="header">
+      <!-- navigation object : Header - Related -->
+      <!-- Content Template Start: Header elements-->
+      <div class="header-add01">
+       <form action="http://search.muhlenberg.edu/NSearch/SearchServlet?" method="get" name="SearchForm" id="SearchForm">
+        <fieldset>
+         <div class="search-form">
+          <!--&lt;span class="search-txt"&gt;&lt;input type="text" value="Search"  /&gt;&lt;/span&gt;
+
+									&lt;input type="button" class="btn-search" value="Go"  /&gt;-->
+          <input name="collection" type="hidden" id="collection" value="www.Muhlenberg.edu" />
+          <span class="search-txt">
+           <input name="query0" type="text" size="0" id="query0" value="Search" onfocus="this.value=''" />
+          </span>
+          <input type="Submit" class="btn-search" value="Go" />
+          <span class="social-media">
+           &nbsp;
+           <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+            <img src="/media/styleassets/images/facebook.jpg" border="0" />
+           </a>
+           <a target="_child" href="http://twitter.com/muhlenberg">
+            <img src="/media/styleassets/images/twitter.jpg" border="0" />
+           </a>
+          </span>
+         </div>
+        </fieldset>
+       </form>
+       <ul>
+        <li>
+         <a href="/tactical/contact.htm">
+          Contact
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/tour/map.html">
+          Campus Map
+         </a>
+        </li>
+        <li>
+         <a href="/tactical/azfind.htm">
+          A-Z Index
+         </a>
+        </li>
+        <li>
+         <a href="/cgi-bin/namesearch/namesearch.pl">
+          Directory
+         </a>
+        </li>
+        <li>
+         <a href="http://trexler.muhlenberg.edu">
+          Library
+         </a>
+        </li>
+       </ul>
+      </div>
+      <h1>
+       <a href="/index.html">
+        <span>
+         Muhlenberg college
+        </span>
+       </a>
+      </h1>
+      <div class="header-add02">
+       <ul>
+        <li>
+         <a href="/main/admissions/">
+          Prospective Students
+         </a>
+        </li>
+        <li>
+         <a href="/incoming/">
+          Incoming Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/current-students/">
+          Current Students
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/faculty-staff">
+          Faculty &amp; Staff
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/parents">
+          Parents
+         </a>
+        </li>
+        <li>
+         <a href="/gateways/alumni">
+          Alumni
+         </a>
+        </li>
+       </ul>
+       <span>
+        Information for:
+       </span>
+      </div>
+      <!-- Content Template End: Header elements-->
+     </div>
+    </div>
+    <div class="nav-holder">
+     <a name="navigation" style="display:none">
+     </a>
+     <div class="nav">
+      <!-- navigation object : Main Menu -->
+      <ul>
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <ul>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <!--&lt;a href="../index.html"&gt;index.html&lt;/a&gt;-->
+    <!--  HEAD TAG COMMENTED OUT 6/8/15
+&lt;/head&gt;
+      -->
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2>
+        President Emeritus
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/campusbanners/background.jpg" alt="Haas College Center, Muhlenberg College" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/emeritus/">
+               President Emeritus
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/emeritus/communicationsfromthepresidentsoffice/">
+               Communications from the President's Office
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <div class="content-add05">
+           <!-- navigation object : Keyword(s) for Categorized News -->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/campusupdates/name,334006,en.html">
+              <b>
+               Campus Update - June 29, 2015
+              </b>
+             </a>
+             <br />
+             The Last Round Up: President Helm's final update to the Muhlenberg College community.
+             <br />
+             Mon, 29 Jun 2015 14:57:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/newspaperop-eds/name,332574,en.html">
+              <b>
+               Peyton R. Helm: Don't be an idiot and other tips for college graduates
+              </b>
+             </a>
+             <br />
+             This commentary was adapted from the baccalaureate address he gave to the college's graduating class.
+             <br />
+             Tue, 19 May 2015 08:16:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/othercommunique/name,332463,en.html">
+              <b>
+               Observations on Policy Development at Muhlenberg
+              </b>
+             </a>
+             <br />
+             A message from President Helm
+             <br />
+             Thu, 30 Apr 2015 16:56:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/othercommunique/name,332350,en.html">
+              <b>
+               Discussion Draft of Protest and Demonstration Policy
+              </b>
+             </a>
+             <br />
+             A Message from President Helm
+             <br />
+             Thu, 23 Apr 2015 15:44:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/othercommunique/name,332179,en.html">
+              <b>
+               Muhlenberg's commitment to economic diversity
+              </b>
+             </a>
+             <br />
+             A Message from President Helm
+             <br />
+             Fri, 10 Apr 2015 08:27:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/othercommunique/name,332138,en.html">
+              <b>
+               Zeta Beta Tau Recolonization
+              </b>
+             </a>
+             <br />
+             An update on the planned return of the Alpha Nu chapter of Zeta Beta Tau fraternity to Muhlenberg
+             <br />
+             Thu, 02 Apr 2015 15:11:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/othercommunique/name,332137,en.html">
+              <b>
+               Hillel International, Open Hillel, and Free Speech at Muhlenberg
+              </b>
+             </a>
+             <br />
+             A statement about the recent campus conversations about Hillel, Open Hillel, and free speech on our campus.
+             <br />
+             Thu, 02 Apr 2015 15:09:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/essays/name,213557,en.html">
+              <b>
+               The Kids Are Alright (Muhlenberg Magazine, Winter '15)
+              </b>
+             </a>
+             <br />
+             History shows that the youth of any nation are shiftless and prone to sloth; but is that really true?
+             <br />
+             Fri, 23 Jan 2015 10:22:00 EST
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/videomessage/name,6466,en.html">
+              <b>
+               Raters of the Liberal Arts - President Helm's last video
+              </b>
+             </a>
+             <br />
+             President Randy Helm's Holiday Message
+             <br />
+             Fri, 19 Dec 2014 14:43:00 EST
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+           <!-- Content Template Start: News - Main-->
+           <div class="t4-ne-sports">
+            <p>
+             <a href="/main/aboutus/president/communicationsfromthepresidentsoffice/newspaperop-eds/name,187253,en.html">
+              <b>
+               Worst. Generation. Ever.
+              </b>
+             </a>
+             <br />
+             Based on Dean’s List Convocation Address
+             <br />
+             Tue, 28 Oct 2014 16:28:00 EDT
+            </p>
+           </div>
+           <br />
+           <!-- Content Template End: News - Main-->
+          </div>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President Emeritus
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/emeritus/curriculumvitae/">
+            Curriculum Vitae
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/emeritus/initiatives/">
+            Initiatives
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/emeritus/communicationsfromthepresidentsoffice/">
+            Communications
+           </a>
+          </li>
+          <li>
+           <a href="/mystory/">
+            The Liberal Arts Changed My Life
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/emeritus/curriculumvitae/"&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/emeritus/initiatives/"&gt;Initiatives&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/emeritus/communicationsfromthepresidentsoffice/"&gt;Communications&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/mystory/"&gt;The Liberal Arts Changed My Life&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/bergataglance.html">
+           'Berg at a glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/tour/map.html">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/tour/directions.html">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/campus-safety/vehicles.html">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/typesofvisits/">
+             Guided Campus Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/typesofvisits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/tour/virtual/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference &amp; Event Services
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehighvalleypa.org/" target="_blank">
+             About the Region
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/pr">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          Chief Business Officer &amp; Treasurer
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/deanst">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com/hereandnow" target="_blank">
+           Development &amp; Alumni Relations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+      <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+     </div>
+    </div>
+   </div>
+   <div class="footer-holder">
+    <!-- navigation object : Footer Boxes Related -->
+    <!-- Content Template Start: Footer Boxes-->
+    <div id="footer">
+     <div class="footer-add01">
+      <ul class="footer-menu01">
+       <li>
+        <a href="/main/admissions/">
+         Prospective Students
+        </a>
+       </li>
+       <li>
+        <a href="/incoming/">
+         Incoming Students
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/current-students/">
+         Current Students
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; Faculty &amp; Staff" href="/gateways/faculty-staff/">
+         Faculty &amp; Staff
+        </a>
+       </li>
+       <li>
+        <a href="/gateways/parents/">
+         Parents
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com" target="_blank">
+         Alumni
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu02">
+       <li>
+        <a href="/aboutus/">
+         About Us
+        </a>
+       </li>
+       <li>
+        <a href="/main/admissions/">
+         Admissions
+        </a>
+       </li>
+       <li>
+        <a href="/academics/">
+         Academics
+        </a>
+       </li>
+       <li>
+        <a href="/campuslife/">
+         Campus Life
+        </a>
+       </li>
+      </ul>
+      <ul class="footer-menu03">
+       <li>
+        <a href="/main/athletics/">
+         Athletics
+        </a>
+       </li>
+       <li>
+        <a title="Home &raquo; Muhlenberg College &raquo; News &amp; Events" href="/newsevents/">
+         News &amp; Events
+        </a>
+       </li>
+       <li>
+        <a href="http://www.muhlenbergconnect.com/hereandnow" target="_blank">
+         Give to 'Berg
+        </a>
+       </li>
+       <li>
+        <a href="/main/wescoe/">
+         Adult Learning
+        </a>
+       </li>
+       <li>
+        <a href="http://bbmobile.muhlenberg.edu/" target="_blank">
+         Mobile App
+        </a>
+       </li>
+       <li>
+        <a href="/main/aboutus/oit/about/policies_procedures/privacy.html">
+         Web Privacy Policy
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="footer-add02">
+      <address>
+       <strong>
+        Muhlenberg College
+       </strong>
+       <span>
+        2400 Chew St. Allentown, PA 18104-5586
+       </span>
+       <span>
+        484-664-3100
+       </span>
+       <span>
+        484-664-3623 (TTY)
+       </span>
+       <br />
+       <span>
+        &copy;Muhlenberg College 2015&nbsp;
+       </span>
+      </address>
+      <ul>
+      </ul>
+     </div>
+    </div>
+    <!-- Content Template End-->
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    	$(".randomright").hide();
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+    	//$(".randomright:nth-child(" + ran + ")").show();
+      $(".randomright").eq(ran - 1).show(); // T4 fix 17-July-2014
+  	});
+   </script>
+  </div>
+ </body>
+</html>
+<!-- InstanceEnd -->

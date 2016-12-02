@@ -1,0 +1,1227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Plant Operations - Programs | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Office of Campus Sustainability
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- Content Template Start: General Slideshow -->
+       <div class="content-add09">
+        <ul class="imagecol" id="imgcol">
+         <li>
+          <img src="/media/contentassets/images/campuslife/sustainability/slides/1.jpg" alt="Office of Campus Sustainability" style="     " />
+         </li>
+        </ul>
+        <script type="text/javascript">
+         var maxImages=10;
+      var img="";
+      var j=0;
+      var ptr=0;
+      var img2='&lt;img src="/media/contentassets/images/campuslife/sustainability/slides/2.jpg" alt="Office of Campus Sustainability" style="     "  /&gt;';
+      var img3='&lt;img src="/media/contentassets/images/campuslife/sustainability/slides/3.jpg" alt="Office of Campus Sustainability" style="     "  /&gt;';
+      var img4='&lt;img src="/media/contentassets/images/campuslife/sustainability/slides/4.jpg" alt="Office of Campus Sustainability" style="     "  /&gt;';
+      var img5='&lt;img src="/media/contentassets/images/campuslife/sustainability/slides/5.jpg" alt="Office of Campus Sustainability" style="     "  /&gt;';
+      var img6='';
+      var img7='';
+      var img8='';
+      var img9='';
+      var img10='';      
+      
+      for (j=1; j&lt;maxImages; j++) {
+                             
+        ptr=j+1;
+      
+       if (eval("img" + ptr) ) {
+        img = '&lt;li&gt;' + eval("img" + ptr) + '&lt;/li&gt;';
+        document.getElementById('imgcol').innerHTML +=img;                  
+       }
+                                 
+      }
+        </script>
+        <div class="intro-add01">
+         <div class="intro-add02-slideshow">
+          <a name="content">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Content Template End: Image Panel-->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/student-life/">
+               Student Life
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/campuslife/sustainability/">
+               Office of Campus Sustainability
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/campuslife/sustainability/programs/">
+               Programs
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/campuslife/sustainability/programs/plantoperations/">
+               Plant Operations
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <script type="text/javascript">
+           function toggleContent(id) {
+  // Get the DOM reference
+  var contentId = document.getElementById(id);
+  // Toggle 
+  contentId.style.display == "block" ? contentId.style.display = "none" : 
+contentId.style.display = "block"; 
+}
+          </script>
+          <script type="text/javascript">
+           function toggleContent(id) {
+
+
+
+
+
+
+
+  // Get the DOM reference
+
+
+
+
+
+
+
+  var contentId = document.getElementById(id);
+
+
+
+
+
+
+
+  // Toggle 
+
+
+
+
+
+
+
+  contentId.style.display == "block" ? contentId.style.display = "none" : 
+
+
+
+
+
+
+
+contentId.style.display = "block"; 
+
+
+
+
+
+
+
+}
+          </script>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3>
+            Operations
+           </h3>
+           <p>
+            Muhlenberg's Seegers Union solar installation has offset over 18,000kgs of C02 from entering the atmosphere. View our real-time
+            <a href="https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?page=1c17936f-e196-4102-92b8-52f52e9c627b&amp;plant=f32d95e6-d5f4-449d-8594-ae05729664bb&amp;splang=en-US" target="_blank">
+             solar panel energy data here
+            </a>
+            .
+           </p>
+           <p align="center">
+            <a href="https://www.sunnyportal.com/Templates/PublicPageOverview.aspx?page=1c17936f-e196-4102-92b8-52f52e9c627b&amp;plant=f32d95e6-d5f4-449d-8594-ae05729664bb&amp;splang=en-US" target="_blank">
+             <img src="/media/contentassets/images/campuslife/sustainability/coins-230x103.gif" alt="CO2 and Solar energy savings animation" style="   margin : 0px auto; display: block; " />
+            </a>
+            &zwnj;
+           </p>
+           <p>
+            <strong>
+             <a onclick="toggleContent('Toggle')">
+              Energy (Renewable, Energy Efficiency &amp; Conservation)
+             </a>
+            </strong>
+           </p>
+           <p>
+            Muhlenberg has incorporated renewable energy and energy efficiency and conservation projects into its operations and educational programs as a means to educate the campus community about sustainable energy solutions and realize cost savings.
+           </p>
+           <div id="Toggle" style="display: none;">
+            <p>
+             <strong>
+              Renewable Energy on Campus
+             </strong>
+            </p>
+            <p>
+             Muhlenberg has installed a 3.2 kW solar photovoltaic system on the roof of Seegers Union.
+            </p>
+            <p>
+             During a course coordinated by Dr. Jane Flood, 12 students installed the system, including 2 pole-mounted nine-panel arrays, 2 inverters, new conduit, and a data collection system.
+            </p>
+            <p>
+             All of this was completed with the assistance of the Mid-Atlantic Renewable Energy Association (MAREA), EcoElectric and a grant from the Sustainable Energy Fund (SEF). The arrays are manually adjustable and solar radiance, wind, temperature, and electricity production data will be available for ongoing research and analysis.
+            </p>
+            <p>
+             <strong>
+              Energy Efficiency and Conservation
+             </strong>
+            </p>
+            <p>
+             Muhlenberg has undertaken the following recent energy efficiency and conservation measures:
+            </p>
+            <br />
+            <ul>
+             <li>
+              <strong>
+               Energy and Building Audits:
+              </strong>
+              In 2008, a campus wide energy audit was conducted. The results of this audit suggested that another more comprehensive, far-reaching energy and building audit could significantly improve the College&rsquo;s energy usage, and hence carbon footprint. The results of this audit, compiled in the Campus Planning Report on Energy Management and Sustainability, have suggested several projects that will likely be incorporated into Muhlenberg&rsquo;s strategic plan.
+             </li>
+             <li>
+              <strong>
+               Energy Systems:
+              </strong>
+              Muhlenberg has installed Emon Demon electrical meters in 26 of its largest buildings to closely monitor, benchmark and decrease electricity use. Natural gas and oil meters are used as well.
+             </li>
+             <li>
+              <strong>
+               Residence Halls:
+              </strong>
+              New, energy efficient windows are continually being installed in residence halls.
+             </li>
+             <li>
+              <strong>
+               Lighting:
+              </strong>
+              Unnecessary lighting has been reduced through the use of occupancy sensors in some existing rooms and more sensors will be installed in the future. In Spring 2010, T8s were installed in the library and Life Sports Center.
+             </li>
+            </ul>
+           </div>
+           <p>
+            <strong>
+             <a onclick="toggleContent('Toggle1')">
+              Food (Sodexo)
+             </a>
+            </strong>
+           </p>
+           <p>
+            Muhlenberg dining is in the process of becoming more sustainable. Recently, Muhlenberg has introduced more local produce into the dining menus and with the Seeger&rsquo;s Union kitchen remodel, there will be more capacity for utilizing local and organic foods, including from the Muhlenberg community garden.
+           </p>
+           <p>
+            <strong>
+             East Hall Renovation
+            </strong>
+            <br />
+            <br />
+            The East Hall Renovation updated an existing 110 year old dorm instead of tearing down and building from scratch. The building envelope was upgraded so walls, ceilings, windows, and the roof stopped leaking heat to conserve energy. The lighting now includes occupancy and vacancy sensors, the HVAC systems have been refined and multiple measuring systems put into place. Furthermore, the trees on campus were protected and the materials (such as bluestone, slate, brick and rough sawn timbers) regionally sourced. The new dorm also added bicycle storage. For more information see:
+           </p>
+           <p>
+            <a href="http://www.muhlenberg.edu/main/aboutus/construction/easthall/">
+             http://www.muhlenberg.edu/main/aboutus/construction/easthall/
+            </a>
+           </p>
+           <div id="Toggle1" style="display: none;">
+            <p>
+             The dining facilities have also supported Trayless Tuesdays and Weighing the Waste, an experiment in measuring how much food and energy waste can be avoided by going entirely trayless.
+            </p>
+           </div>
+           <p>
+            <strong>
+             <a onclick="toggleContent('Toggle2')">
+              Green Building
+             </a>
+            </strong>
+           </p>
+           <p>
+            Muhlenberg College has made extensive efforts to maintain and improve upon building efficiency during our campus renovation and expansion projects.
+           </p>
+           <div id="Toggle2" style="display: none;">
+            <p>
+             <strong>
+              Science Building Renovation
+             </strong>
+            </p>
+            <p>
+             In 2007, the New Science Building was built and awarded a Leadership in Energy and Environmental (LEED) Silver rating.
+            </p>
+            <p>
+             The 47,000-square feet
+             <a href="http://muhlenberg.edu/main/aboutus/tour/facilities/science/index.html">
+              New Science Building
+             </a>
+             houses the life science program comprising of laboratories, classrooms and offices. Its sustainable design includes waterless urinals, low-flow toilets and faucets, energy enthalpy wheels as a part of the heating, ventilating and air condition system, low emissivity windows, wood products by the Forest Stewardship Council (FSC), lab casework composed of agriboard, paints, adhesives and sealants that contain low levels of volatile organic compounds, a green house keeping program and an educational outreach program, which includes the use of television monitors to educate visitors about the building's green features.
+            </p>
+            <p>
+             Simultaneously, the Shankweiler Building was renovated incorporating retrofits to LEED standards.
+            </p>
+            <p>
+             <strong>
+              Seegers Union Construction
+             </strong>
+            </p>
+            <p>
+             Muhlenberg College recently broke ground on a project to renovate Seegers Union, the campus&rsquo; student center, and Parents Plaza, the quadrangle directly outside of the building.
+            </p>
+            <p>
+             The new construction, which includes the renovation of a kitchen area, will ensure more robust offerings of organic, vegetarian, international and kosher cuisine. The new area will also include a waste compactor and pulper to reduce waste and provide the future possibility of composting food waste.
+            </p>
+            <p>
+             Construction debris is one of the largest components in landfills, and Muhlenberg is consistently recycling more than 75% of the construction waste. In an effort to reduce paper waste, all project documents and communications are transmitted and available electronically. Forest Stewardship Council certified wood is used for concrete form work. Exterior spray foam insulation has been used to reduce air leakage and improve energy efficiency.
+            </p>
+            <p>
+             Additionally, through the use of low-flow fixtures, there will be no net increase in water usage in the project. Because buildings can sometimes function outside of the sustainable parameters they were designed with, a Commissioning Agent has been hired to evaluate and inspect system performance.
+            </p>
+           </div>
+           <p>
+            <strong>
+             Green IT
+            </strong>
+           </p>
+           <p>
+            <a href="/main/aboutus/oit/campustechnology/greenoit/">
+             The Office of Information Technology (OIT)
+            </a>
+            has been on the forefront of the Muhlenberg campus sustainability initiatives. Not only do all the new college computer purchases meet EPEAT Gold standards, but energy reduction mechanisms are constantly being introduced.
+           </p>
+           <p>
+            Most recently, a pilot program to automatically hibernate public computers not in use for more than 10 minutes has been tested. Also, multiple servers have been consolidated into one. Both of these efforts have significantly reduced energy consumption.
+           </p>
+           <p>
+            <strong>
+             Grounds &amp; Maintenance
+            </strong>
+           </p>
+           <p>
+            Muhlenberg mulches its ground clippings and has installed rain gardens to control runoff from the parking lots. Muhlenberg purchases a substantial amount of green cleaning products.
+           </p>
+           <p>
+            <strong>
+             <a onclick="toggleContent('Toggle3')">
+              Land Conservation
+             </a>
+            </strong>
+           </p>
+           <p>
+            Muhlenberg is home to two significant natural areas, the
+            <a href="http://www.muhlenberg.edu/main/aboutus/graver/">
+             Graver Arboretum
+            </a>
+            and
+            <a href="http://www.muhlenberg.edu/cultural/raker.html">
+             the Conrad W. Raker Biological Field Station and Wildlife Sanctuary
+            </a>
+            , which provide opportunities to study land and biological conservation.
+           </p>
+           <div id="Toggle3" style="display: none;">
+            <p>
+             Graver Arboretum, a beautiful 63-acre area donated by Dr. Lee and Virginia Graver, contains examples of many diverse wildflowers, ferns, rhododendrons and native and rare trees. The Arboretum provides an ideal outdoor space for course activities and hiking.
+            </p>
+            <p>
+             The Raker Biological Field Station and Wildlife Sanctuary is a 40-acre wooded tract situated 15 miles north of the campus, in Germansville, PA. It is used primarily by biology classes for field study. A section of Jordan Creek within the preserve provides added opportunity for aquatic biology studies. Students and staff also conduct research on varied aspects of plant and animal biology.
+            </p>
+           </div>
+           <p>
+            <strong>
+             Transportation
+            </strong>
+           </p>
+           <p>
+            Biking is a great way to get around campus. Bring your bike this semester! There are
+            <a href="http://www.muhlenberg.edu/main/campuslife/resserv/housingservices/bicycleracksberg/">
+             numerous bike racks
+            </a>
+            on campus, and the Seegers renovations will include underground, weather-proof bike storage as well.
+           </p>
+           <p>
+            Additionally, the City of Allentown has recently adopted a plan to develop more bike lanes and infrastructure, part of which will run adjacent to the College.
+           </p>
+           <p>
+            Muhlenberg also has one hybrid vehicle used by Campus Safety and is considering purchasing more. The school also has a no-idling policy that aims to decrease air pollution that contributes to asthma.
+           </p>
+           <p>
+            <strong>
+             Waste/Recycling
+            </strong>
+           </p>
+           <p>
+            Muhlenberg College is committed to a long term and all-encompassing approach to environmentally responsible waste management.
+           </p>
+           <p>
+            Muhlenberg College has had a
+            <a href="/main/campuslife/sustainability/programs/campusinitiatives/recycling/">
+             recycling program
+            </a>
+            in place since 1993. Beginning with the fall semester of 2008, Muhlenberg has changed to a single stream recycling contract. This means that all recyclables can go into the same bin.
+           </p>
+           <p>
+            <strong>
+             Water
+            </strong>
+           </p>
+           <p>
+            Even with the recent expansion of campus facilities, water consumption at Muhlenberg has decreased per square foot of building.
+           </p>
+           <p>
+            By using low-flow toilet and shower fixtures, motion-sensor operated faucets, plugging leaks, and limiting field irrigation, Muhlenberg has
+            <a href="/main/campuslife/sustainability/programs/campusinitiatives/justtapit/">
+             conserved water resources
+            </a>
+            .
+           </p>
+           <div id="Toggle4" style="display: none;">
+            Specifically, Muhlenberg has instituted the following initiatives to conserve water:
+            <ul>
+             <li>
+              Muhlenberg students initiated a program,
+              <a href="/main/campuslife/sustainability/policies/tap.html">
+               Just Tap It!
+              </a>
+              , to reduce the consumption of bottled water on campus.
+             </li>
+             <li>
+              The Seegers renovation, despite expanding the kitchen and space significantly, will use no more water that the previous building.
+             </li>
+             <li>
+              In 2007, the New Science Building was awarded LEED silver certification. The building incorporates water efficient features, including the use of waterless urinals and low flow toilets and faucets. These measures reduce water use by an estimated 37%.
+             </li>
+             <li>
+              Several bathrooms have motion-sensor operated faucets to reduce water waste.
+             </li>
+             <li>
+              Only low-flow showerheads are installed in College residence halls.
+             </li>
+             <li>
+              Nearly all toilets on campus use reduced flow plumbing that reduces water consumption by more than 50%.
+             </li>
+             <li>
+              Fields with irrigation systems are watered only once per week and only if there has been less than one inch of rainfall that week.
+             </li>
+            </ul>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Office of Campus Sustainability
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/campuslife/sustainability/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="http://www.muhlenberg.edu/main/academics/sustainability/">
+            Academic
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/campuslife/sustainability/programs/plantoperations/">
+             Plant Operations
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/campuslife/sustainability/programs/greenstudents/">
+            Green Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/campuslife/sustainability/programs/campusinitiatives/">
+            Campus Initiatives
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="http://www.muhlenberg.edu/main/academics/sustainability/"&gt;Academic&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/campuslife/sustainability/programs/plantoperations/"&gt;Plant Operations&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/sustainability/programs/greenstudents/"&gt;Green Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/campuslife/sustainability/programs/campusinitiatives/"&gt;Campus Initiatives&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Community
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/activitiescouncilmac/">
+           Muhlenberg Activities Council (MAC)
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/resserv/">
+           Residential Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Sustainable Living
+          </a>
+         </li>
+         <li>
+          <a href="https://themuhlenbergnetwork.com/">
+           The Muhlenberg Network
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Leadership
+        </h3>
+        <ul>
+         <li>
+          <a href="/studorgs/council/">
+           Student Government
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/activities/studentorganizations/">
+           Student Organizations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Diversity
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/campuslife/multicultural/">
+           Multicultural Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/lgbt/">
+           LGBT
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

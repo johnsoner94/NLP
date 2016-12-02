@@ -1,0 +1,841 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Messages - Communications | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        President's Office
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/">
+               Communications
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/messages/">
+               Messages
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: News - Main-->
+          <table border="0" width="95%">
+           <tbody>
+            <tr>
+             <td>
+              <img src="/media/contentassets/images/headshots/presidentsstaff/JW-Head-Shot-5-150x225.jpg" style="float:left; margin:8px 8px 8px 0" alt="News Image" />
+              <a href="">
+               <b>
+                Community Update: September 27, 2016
+               </b>
+              </a>
+              <br />
+              President Williams writes to the Muhlenberg Community
+              <br />
+              <a href="">
+              </a>
+              <p>
+               <b>
+               </b>
+               <br />
+               Tue, 27 Sep 2016 14:10:00 EDT
+              </p>
+              <p>
+               To the Muhlenberg College Community:
+              </p>
+              <p>
+               Almost every day, indeed it seems like almost every few hours, we are faced with new shocks of horror and conflict. Whether it is the past week's domestic shocks from New York, New Jersey, Oklahoma and North Carolina, or the latest news of grave suffering in war-torn nations, we are reminded of the bonds of empathy, understanding, and conscience that we share, that we must strive to nurture. I trust we are all leaning on one another, and listening and learning from each other, as we confront and cope with such troubled times. I believe as much as we may reel during these days, we are reminded of the urgency of our mission, of the imperative role that Muhlenberg must play in educating young minds, connecting the wisdom and knowledge of generations, and inspiring engaged, educated citizens to embrace leadership roles in every segment of our society.
+              </p>
+              <p>
+               Our students' engagement in this year's election cycle has been especially encouraging to me. I&rsquo;m excited to see them partnering with faculty in our political science department to plan ways to involve their peers in the election and focus on the issues surrounding it.
+              </p>
+              <p>
+               <strong>
+                Alumni Weekend
+               </strong>
+              </p>
+              <p>
+               I thoroughly enjoyed Alumni Weekend from September 23 through September 25, and I&rsquo;m certainly not the only one. Alumni Weekend was an uplifting celebration of the Muhlenberg experience and the superlative liberal arts education the College provides. Muhlenberg alumni are leaders, innovators and scholars, and come from all walks of life. Alumni Weekend displayed the very best of Muhlenberg.
+              </p>
+              <p>
+               We had so many activities I would be hard-pressed to mention them all. Let&rsquo;s just say folks weren&rsquo;t bored. From biking or birding, classes or clashes, to food and friends, Alumni Weekend had it all.
+              </p>
+              <p>
+               I did my best to make the rounds last weekend and interact with as many alumni as possible. On Saturday morning, I had the pleasure of providing my State of the College Address in the Recital Hall Theatre, Baker Center for the Arts. The synopsis is Muhlenberg is a college on the move, but work remains to be done and I need your help to do it.
+              </p>
+              <p>
+               <strong>
+                Evening of Distinction
+               </strong>
+              </p>
+              <p>
+               I am amazed continually at the prodigious success of our alumni. Muhlenberg graduates occupy a place of distinction that runs the gamut of professions. They are leaders, innovators and of course, scholars. They are solution-oriented, problem-solvers with a zest for life who never forget how Muhlenberg helped them accomplish their individual success. That was on display September 23 during the An Evening of Distinction event. The program is one of the College&rsquo;s signature events and celebrated accomplished alumni and generous benefactors in one remarkable evening.&nbsp; We honored eight alumni achievement award winners, celebrated the 50th anniversary of the Henry Melchior Muhlenberg Society (HMMS) and recognized members of the
+               <em>
+                Circle of 1848
+               </em>
+               .
+              </p>
+              <p>
+               I know first-hand the enormous impact philanthropy at Muhlenberg has on our students.&nbsp;Members of HMMS and the
+               <em>
+                Circle of 1848
+               </em>
+               understand that and keep Muhlenberg an extraordinary place for today&rsquo;s students and future generations of students. When I talked with these folks last weekend, one common characteristic that they all shared is a tremendous belief in Muhlenberg.
+              </p>
+              <p>
+               <strong>
+                Muhlenberg Match
+               </strong>
+              </p>
+              <p>
+               The Muhlenberg Match Scholarship Challenge has been a tremendous program. The College allocated $10 million to match 1:1 any newly established endowed scholarships from $25,000 to $250,000. The Challenge doubles the size of donor gifts to establish scholarships and closes the affordability gap for students of financial need.
+              </p>
+              <p>
+               As of September 14, there have been total commitments of $8,026,357, with a total Match amount of $6,526,357. There is still $4,473,643 in Match amount money remaining. This is a great opportunity for you to establish your own scholarship at Muhlenberg and have a significant impact on the lives of students and in the future.
+              </p>
+              <p>
+               <strong>
+                Community Update
+               </strong>
+              </p>
+              <p>
+               Following another terrific Alumni Weekend, there is much to be excited about here at Muhlenberg. Academically, we are in full swing and all reports indicate that this will be as productive a year as any we have seen to date. Our students and faculty are hard at work in the classrooms, laboratories and studios. Our majors now include public health, our youngest and one of our fastest-growing, alongside others that we have offered since even before the Civil War.
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/NeuroscienceResearch-TeissereLab2016-29-229x322.jpg" alt="Neuroscience lab photo" style="  padding : 5px;   float : right;" />
+               Neuroscience is our newest academic department. It, too, numbers among our fastest-growing and our most fascinatingly interdisciplinary majors, and builds upon and extends our long tradition of excellence in the natural sciences.
+              </p>
+              <p>
+               Excellence and innovation abound elsewhere as well. We are excited about a new minor in documentary storymaking that we are now offering in partnership with Lafayette and Lehigh. In the spring, we will offer a new course on copyright law in a unique partnership with Harvard Law School. The course will offer our students a terrific window into not only copyright law but also legal education more generally.&zwnj;
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/KathyHarring-2016-175x219.jpg" alt="Kathy Harring" style="  padding : 3px;   float : left;" />
+               Working closely with all our academic departments is our Interim Provost, Dr. Kathleen Harring. Dr. John Ramsay stepped down as Provost at the end of last year in order to join the faculty as a member of the education department. We are in the middle of a search for a new Provost and are delighted we have Kathy&rsquo;s steady hand to guide our academic efforts during this transitional period.
+              </p>
+              <p>
+               Along with co-chair Dr. Jack Gambino, Kathy led the team that developed our self-study that was reviewed so positively and endorsed this summer formally by our accreditors, the Middle States Commission on Higher Education. That self-study contributed to a successful conclusion of Middle States&rsquo; visit with us and we are pleased to have received their unqualified re-accreditation back in late June.
+              </p>
+              <p>
+               Muhlenberg is showing signs of becoming one of the most popular places for college students these days. For example, at 2,226, our day student enrollment (excluding our Wescoe School students) is only five students shy of our all-time record and 40 students greater than the 2,186 of a year ago.
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/ClassOf2020graphic.png" alt="Class of 2020 size comparison graphic" style="   margin : 0px auto; display: block; " />
+              </p>
+              <p>
+               At 593 students, this year&rsquo;s entering class is the third largest in the past decade (and fourth largest in our history), among our most academically formidable, and second only to the Class of 2019 in its diversity.
+              </p>
+              <p>
+               A greater share of our students opted to live on campus than in prior years. Fewer students are taking leaves of absence or transferring to other institutions and we have far more inbound transfer applicants than ever before.
+              </p>
+              <p>
+               As we begin to recruit next year&rsquo;s entering class, we have an upgraded website that is mobile-friendly and we have introduced new ways for our faculty to become even more involved in admissions. Starting this year, we are inviting prospective students interested and accomplished in a particular discipline to come to campus on specified days for a &ldquo;by invitation only, open house&rdquo; with that department.
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/ImmersionPhysics.png" alt="Immersion Day - Physics - compilation" style="   margin : 0px auto; display: block; " />
+              </p>
+              <p>
+               The first of these &ldquo;Immersion Days,&rdquo; hosted by the Physics Department on August 24, was a fantastic success. Some highly-gifted physics-focused high school seniors came and spent the day engaging with our physics faculty in classrooms and laboratories, exploring the breadth and depth of our physics program. The conversations spanned Newtonian physics to Einstein&rsquo;s relativity theory, to quantum mechanics, dark matter and dark energy, the Higgs boson, black holes, and string theory.
+              </p>
+              <p>
+               The Chemistry Department will take a turn on October 14. We will evaluate what we learn from these &ldquo;beta tests&rdquo; and expand the program to other disciplines in the next admissions season.&zwnj;&zwnj;
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/ChrisHooker-Haring-2016-175x219.jpg" alt="Chris Hooker-Haring" style="  padding : 3px;   float : left;" />
+               So far, our new approaches in admissions seem to be delivering results. In fact, while these are still early days, Chris Hooker-Haring, our vice president of Enrollment Management, informs me the number of inquiries and applications from high school seniors for
+               <em>
+                next
+               </em>
+               year&rsquo;s entering class exceeds last year&rsquo;s counts at this same point by a wide margin.
+              </p>
+              <p>
+               One more metric is the share of our entering class from outside the traditional NJ/PA/NY arc. In 1987, only 12 percent of our new students came from outside these three states, compared with 30 percent of the current first year class; an all-time record.
+              </p>
+              <p>
+               We are pleased that so many students want to be at Muhlenberg. However, the total number of students on campus exceeded our expectations just a bit; by slightly less than 2 percent. As a result, we have established a temporary residence hall to house the fall contingent. We are calling this residence hall &ldquo;The Courts&rdquo; due to its location on top of the outdoor basketball courts adjacent to the Life Sports Center. The Courts&rsquo; 38 female residents have been enjoying their larger-than-normal, air-conditioned rooms, brand new laundry and kitchen facilities, and wide-screen TV-equipped lounge.
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/AllisonGulati-2016-175x219.jpg" alt="Allison Gulati" style="  padding : 3px;   float : left;" />
+               Overseeing student welfare and vitality in The Courts and elsewhere is our new Vice President of Student Affairs and Dean of Students, Allison Gulati. Allison comes to us from Lehigh University where she spent 15 years in progressively more senior roles and most recently served as associate dean of students and director of strategic initiatives. During her tenure there, she was the co-creator of the
+               <em>
+                Blueprint
+               </em>
+               Student Life Curriculum, and oversaw the development of multiple academic and student life partnerships including an interdisciplinary leadership minor and a Residential Fellows living-learning community. She also taught multiple leadership courses in the College of Engineering. Allison has hit the ground running and is already hard at work leading our student affairs efforts and collaborating with our faculty to grow and strengthen academic-student life partnerships and enhance learning opportunities outside the classroom.
+              </p>
+              <p>
+               We are making significant investments in the technology infrastructure supporting teaching and learning at Muhlenberg. Our faculty have embraced Canvas, our new learning management system (LMS). Canvas is a much more modern and feature-rich LMS and we are delighted with its capabilities. We are also in the process of installing a new, modern phone system with links to our new email system, scheduled to be up and running by January. Finally, we are in the process of selecting a new enterprise resource program (ERP) that will replace many of our operating systems over the next few years and provide us a solid technology foundation on which to build into the future.&zwnj;&zwnj;
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/AllanChen-2016-175x219.jpg" alt="Allan Chen" style="  padding : 3px;   float : right;" />
+               Any one of these initiatives would have been a major accomplishment for our Chief Information Officer Allan Chen (in his first year on the job) and his OIT team. Our new technology infrastructure positions us extremely well for innovative possibilities in the future.
+              </p>
+              <p>
+               Helping to spread the good word about Muhlenberg are the various rankings we have received of late. Our climb from #72 to #65 in the U.S. News rankings this year tops the list. Not wanting to be outdone, Princeton Review ranked our Theatre program #1 in the nation, and ranked us #16 for the quality of our food. A different sort of recognition came from Moody&rsquo;s a few months ago, when they maintained our A1 rating (with stable outlook), proclaiming confidence in our future prospects. We are proud of all this recognition and praise of all our efforts and hope you are as well. Muhlenberg&rsquo;s stock is certainly rising, and deservedly so.
+              </p>
+              <p>
+               One of the many ways we measure our success is by marking the outcomes achieved by our graduates. We have a powerful record in this area, as 94 percent of our students are engaged in full-time graduate or professional school or are employed full-time within 12 months of graduation. For the class of 2015 (the most recent class for whom we have complete data), 70 percent accepted jobs following graduation while 30 percent went on to graduate/professional schools. For those who entered the working world, the top 10 categories are: performing arts/entertainment; non-profit; science/technology; financial services; education (K-12); management consulting; media and publishing; public accounting; hospital/health care; and retail.
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/GradProfessionalMetrics.png" alt="Graduate &amp; Professional school data graph" style="   margin : 0px auto; display: block; " />
+              </p>
+              <p>
+               Of those enrolling in graduate/professional schools, the breakdown is: masters/PhD programs, 53 percent; medical school, 34 percent; law school, 9 percent; and business school, 4 percent.
+              </p>
+              <p>
+               Helping to propel our graduates&rsquo; job prospects is our Career Center. Under the new, energized and inspired leadership of Executive Director Tom Dowd and a terrific team, our Career Center now offers a bevy of new and upgraded programs to support not only our current students but also our alumni. Positioned at the hub of an ever-expanding network of students, alumni, parents and employers, our Career Center&rsquo;s mission is to facilitate value-adding connections that help Mules succeed in their chosen fields and pursuits. Later this month, for example, there will be the first of three &ldquo;Career Road Trips,&rdquo; taking about 40 of our students to a variety of potential employers in NYC for an information-packed day. The other two, planned for later in the academic year, will be to Washington, D.C. and Allentown.
+              </p>
+              <p>
+               In addition to the face-to-face counseling provided in the Career Center, we offer a new
+               <a href="http://shrek.muhlenberg.edu/Calendar/EventList.aspx?fromdate=10/11/2016&amp;todate=10/11/2016&amp;display=Day&amp;type=public&amp;eventidn=28613&amp;view=EventDetails&amp;information_id=78148">
+                webinar series on job searching
+               </a>
+               . We&rsquo;ve also launched a digital platform to reach and welcome all Mules, wherever they may live or work. It&rsquo;s called The Muhlenberg Network and lives, quite properly, at
+               <a href="http://www.TheMuhlenbergNetwork.com">
+                www.TheMuhlenbergNetwork.com
+               </a>
+               .
+              </p>
+              <p>
+               <img src="/media/contentassets/images/about/president/communication/MuhlenbergNetwork.png" alt="The Muhlenberg Network - welcome graphic" style="  padding : 5px;   float : right;" />
+               If you haven&rsquo;t yet visited the site and become a member, I encourage you to do so right away. In just three months since our launch, over 640 people have become members; far more than our expectation for this stage. Once you&rsquo;re a member, consider whether you want to volunteer to serve as a mentor. The Muhlenberg Network will be a game-changer for our community, and we&rsquo;re so excited by its early success.
+              </p>
+              <p>
+               Our field hockey and football teams are off to great starts. So far, our field hockey team is undefeated at 7-0, with wins over Scranton, Elizabethtown, Stockton, King&rsquo;s, McDaniel, DeSales, and Johns Hopkins. Football is off to a great start as well at 3-1, with wins over Wilkes, Franklin &amp; Marshall, and McDaniel and a tough, Homecoming loss to Johns Hopkins. All of our fall sports teams have had some terrific games, and the Mules don&rsquo;t expect to do much losing this season!
+              </p>
+              <p>
+               We are making progress on our initiatives aimed at furthering our diversity and inclusion. Our ultimate goal is to have Muhlenberg be &ndash; and be seen and felt by all to be &ndash; a learning community that is fully and completely welcoming of all who have the desire and capacity to teach and learn, without regard to any aspects of their identity (such as race, gender, ethnicity, religion, sexual preference, veteran status, or any other) that are irrelevant to their potential to engage productively with the other members of the community.
+              </p>
+              <p>
+               Muhlenberg&rsquo;s commitment to diversity and inclusion is driven not just because it is the right thing to do, but because it is a necessary path to our future and ongoing success. The demographic reality is that the mix of high school graduates is rapidly becoming far more diverse. Further, a more diverse and inclusive community produces better and more fully educated students. Prospective students look for the opportunity to engage with a diverse set of faculty, staff and other students, and increasingly look past colleges that are insufficiently diverse and inclusive. Our 35 new faculty and staff are the most diverse group in the College&rsquo;s history, as are the two most recent classes of new students. We are engaged actively in conversations and initiatives to help us continue to make good progress.
+              </p>
+              <p>
+               We are just beginning a process of strategic planning to map out the essential guideposts of our journey forward from this point. The process will involve gathering input from all our constituencies in a variety of ways. Unlike some academic strategic plans, this plan will not be a &ldquo;wish list&rdquo; of desired initiatives. Rather, it will provide a vision for the future of what kind of institution we want Muhlenberg to become over the next 5-10 years and beyond in light of our mission, future trends and our competitive context as we envision them now. We expect to culminate the process with a draft plan for the board of trustees&rsquo; consideration next April.
+              </p>
+              <p>
+               I feel good about the progress we are making on many fronts. Improved technology, greater third party endorsements for our work, and a strategic plan will provide a strong foundation and a vision for the future of what kind of institution we want Muhlenberg to become over the next 5-10 years. With the help and support of our alumni, parents, friends, faculty, staff and students, Muhlenberg will continue on its upward trajectory and enjoy a bright and exciting future.
+              </p>
+              <p>
+               John I. Williams, Jr.
+              </p>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+           <a class="addthis_button_preferred_1">
+           </a>
+           <a class="addthis_button_preferred_2">
+           </a>
+           <a class="addthis_button_google_plusone" g:plusone:annotation="none">
+           </a>
+           <a class="addthis_counter addthis_bubble_style">
+           </a>
+          </div>
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b4c69f3ef53994">
+          </script>
+          <!-- AddThis Button END -->
+          <!-- Content Template End: News - Main-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President's Office
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/press/">
+            Press
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/president/communications/messages/">
+             Messages
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/speeches/">
+            Speeches
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/officehours/">
+            Office Hours
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/press/"&gt;Press&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/president/communications/messages/"&gt;Messages&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/speeches/"&gt;Speeches&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/officehours/"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Student Social Security Numbers and Berg IDs  - Policies &amp; Procedures | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Policies &amp; Procedures
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/campusonly/">
+            Campus Only
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/campusonly/policiesprocedures/">
+            Policies &amp; Procedures
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/campusonly/policiesprocedures/studentsocialsecuritynumbersandbergids/">
+            Student Social Security Numbers and Berg IDs
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <h3>
+          &nbsp;
+         </h3>
+         <h3>
+          SSN Policy and Disclosure
+         </h3>
+         <p>
+          Policy Governing use of Student Social Security Numbers and Berg IDs
+         </p>
+         <p>
+          1.
+          <strong>
+           Purpose
+          </strong>
+          - This policy governs the use of Social Security Numbers (SSNs) at Muhlenberg College. The primary purpose of this policy is to ensure that College employees comply with the Family Education Rights and Privacy Act and the Privacy Act of 1974 and to respond to the growing concern of identity theft.
+          <br />
+          <br />
+          2.
+          <strong>
+           General Statement
+          </strong>
+          - This policy eliminates the use of SSN as the primary identifier for students, except where required by federal and state mandates, or within third-party agreements. Further, this policy restricts employee access to student SSN data except where required to conduct the business of the College.
+          <br />
+          <br />
+          3.
+          <strong>
+           Accountability
+          </strong>
+          - The Office of the Registrar, shall have oversight of this policy and associated issues pertaining to the collection of and access to SSN information.
+          <br />
+          <br />
+          4.
+          <strong>
+           Acceptable Collection, Record Keeping and Use
+          </strong>
+          . Offices of the College are authorized to collect and record SSN data in a secure manner when required by federal or state governmental agencies or when required by contractual arrangement with third parties. All records and files containing SSN data should be considered confidential information and should be handled and stored accordingly. Disposal of such records must be performed accordingly.
+         </p>
+         <p style="padding-left: 30px;">
+          <br />
+          4.1
+          <strong>
+           Enrollment
+          </strong>
+          &ndash; All individuals enrolling at the College are required to provide a SSN for secondary identification purposes. IRS regulations require the College to request a SSN as a Taxpayer ID for use in tax reporting (failure to do so may result in a penalty). Also, any student applying for Financial Aid must provide a SSN to the College.
+          <br />
+          Refusal to provide a SSN may result in specific services being unavailable, including transcripts, enrollment verification, tax reporting, student employment, and financial aid.
+          <br />
+          <br />
+          4.2
+          <strong>
+           Immigration Law
+          </strong>
+          &ndash; The Immigration and Control Act of 1986 requires that international students provide SSN data on form I-9.
+          <br />
+          <br />
+          4.3
+          <strong>
+           Independent Contractors
+          </strong>
+          - Any student providing services to the College as an independent contractor, invited speaker, or similar services requiring Form 1099 must provide a SSN as the taxpayer ID.
+          <br />
+          <br />
+          4.4
+          <strong>
+           Exams / Co-ops/Internships
+          </strong>
+          &ndash; Students taking certified exams must provide a SSN, if required by the certification entity. Students participating in a co-op or an internship may be required to provide a SSN, if required by the employer.
+          <br />
+          <br />
+          4.5
+          <strong>
+           Campus Safety
+          </strong>
+          &ndash; The SSN is a primary identifier for law enforcement and criminal justice records. Suspects and defendants will be asked for their SSN information.
+          <br />
+          <br />
+          4.6
+          <strong>
+           Health Center
+          </strong>
+          &ndash; Any student seeking service from the College Student Health Services will be required to provide a SSN for billing and healthcare coordination purposes. SSNs are considered an identifier under the Health Insurance Portability and Accountability Act (HIPAA).
+          <br />
+          <br />
+          4.7
+          <strong>
+           Other uses
+          </strong>
+          - Authorized College employees may use SSNs during the execution of their official duties when an alternate means of identification is unavailable.
+         </p>
+         <p>
+          <br />
+          5.
+          <strong>
+           Acceptable Release to Third Parties
+          </strong>
+          &ndash; The College may release student SSNs to third parties as allowed by law, when permission is requested and granted by the individual, or when the authorized third party is acting as the College&rsquo;s agent or contractor and appropriate security is guaranteed by agreement. Such third parties include:
+         </p>
+         <p style="padding-left: 30px;">
+          <br />
+          5.1 National Student Clearinghouse -
+          <br />
+          5.2 Financial Institutions providing student loans or other financial services to students -
+          <br />
+          5.3 Student designated entities receiving a student academic transcript.
+         </p>
+         <p>
+          6.
+          <strong>
+           Disclosure statements
+          </strong>
+          &ndash; The College will include appropriate and informative disclosure statements in all paper and electronic forms requesting SSN.
+          <br />
+          <br />
+          7.
+          <strong>
+           Current Records
+          </strong>
+          &ndash; The College will convert all records of the student information system to insert new primary identifiers and move SSN to a secondary identifier role. Further, screen images, reports, and forms will be reviewed to eliminate all occurrences of SSN except where essential to business processes, in accordance with federal and state regulations, or within third-party agreements.
+          <br />
+          <br />
+          8.
+          <strong>
+           Historical Records
+          </strong>
+          &ndash; SSNs are included in archived databases and in imaged documents. Such historical records can not be altered. All records and files containing SSN data should be considered confidential information and should be handled and stored accordingly. Disposal of such records must be performed accordingly.
+         </p>
+         <p>
+          <br />
+          9.
+          <strong>
+           Use of Berg ID Number
+          </strong>
+          - Muhlenberg will use a unique student identifier called the BergID as the primary identifier for students. This new nine-digit number, in the format 00-9999999, will always begin with &ldquo;00&rdquo;. This first step will entail replacing your SSN with a new randomly generated number, called the BergID, in our student information system (CapStone). Information listed on CapStone screens, on reports and the web will be updated to show the Student Identification number (BergID) instead of the Social Security Number except where essential to business processes, in accordance with federal and state regulations, or within third-party agreements.
+          <br />
+          <br />
+          10.
+          <strong>
+           Acceptable Uses
+          </strong>
+          &ndash; The BergID may be used for a number of College purposes including:
+         </p>
+         <p style="padding-left: 30px;">
+          10.1 Obtaining an e-mail account from the Office of Information Technology;
+          <br />
+          10.2 Utilizing Library services;
+          <br />
+          10.3 Accessing your meal plan;
+          <br />
+          10.4 Entering residence halls and some academic buildings, fitness facilities, and labs;
+          <br />
+          10.5 Taking an exam;
+          <br />
+          10.6 Purchasing tickets for and being admitted to College events;
+          <br />
+          10.7 Participating in intramural sports programs;
+          <br />
+          10.8 Requesting College Health Services;
+          <br />
+          10.9 Reviewing your academic and College financial records.
+         </p>
+         <p>
+          <br />
+          <br />
+         </p>
+         <hr />
+         <h3>
+          Disclosure Statements for Future Use of SSNS
+         </h3>
+         <p>
+          <br />
+          The use of a disclosure statement when requesting the SSN is not required although several college offices plan to adopt the use of standard disclosure statements on forms requesting SSNs from prospective students and on forms where services are requested that require SSNs. Admission and registration forms for all academic offerings, including credit and non-credit, should request both BergID and SSN as a means of identification with appropriate disclosure on the use of SSN.
+          <br />
+          <br />
+          Following is a proposed disclosure statement, for use on all forms requesting SSN from current or prospective students:
+          <br />
+          <br />
+          "The social security number (SSN) you provide for enrollment purposes, or when requesting specific services, will be used by the College to verify your identity for official record keeping and reporting. If you choose not to supply your SSN, certain services, such as transcripts, enrollment verification, tax reporting, financial aid and other services may not be available to you, and Muhlenberg cannot guarantee a complete academic record for you. Your SSN will be stored in a central system and only used for official reporting and record keeping. It will not be used as a primary source to identify you within the Muhlenberg system; the BergID will be used as the primary identifier."
+          <br />
+          <br />
+          This statement is to be included on all enrollment applications creating, or updating a "person record" within the Muhlenberg student information system. These applications include, but are not limited to:
+          <br />
+          <br />
+         </p>
+         <ul>
+          <li>
+           Undergraduate Admissions
+          </li>
+          <li>
+           Graduate Admissions
+          </li>
+          <li>
+           Re-enrollment
+          </li>
+          <li>
+           Non-credit
+          </li>
+          <li>
+           Non-degree
+          </li>
+         </ul>
+         <p>
+          This statement may also be included on service request forms, approved to include the SSN. These forms include, but are not limited to, Registrar documents, Financial Aid documents, and Controller documents.
+          <br />
+          <br />
+          Separate disclosure statements for use with other affiliates - employees, alumni, etc - can be developed as needed.
+         </p>
+         <p>
+          &nbsp;
+         </p>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

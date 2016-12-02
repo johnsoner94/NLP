@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+  <title>
+   Online Permit Registration System
+  </title>
+  <link href="CSS/newStyle.css" type="text/css" rel="Stylesheet" />
+ </head>
+ <body id="body">
+  <div class="wrapper">
+   <form name="aspnetForm" method="post" action="Login.aspx" id="aspnetForm">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE1MTQxNjU2MA9kFgJmD2QWAgIBD2QWBAIBD2QWAmYPFgIeB1Zpc2libGVoZAIDD2QWAgIBDw8WAh4ETW9kZQUFbG9naW5kFgICBw8WAh8AaGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFK2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkTG9naW4xJEFncmVlVGVybXNGa0ICWuod2sokS88QuaJEWFwAMQ==" />
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB" />
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCAK5qqbSDQLcjqKCDwK/1YTzDQLu8I/0DgKk9o5TAr3VqPEKAsz3upgFAobN1qEMNEMzBBC7znptSi8no0mN9SMGZcc=" />
+    <div class="wbox">
+     <header>
+      <div class="logo">
+       <div class="logo-image">
+       </div>
+       <div class="logo-text">
+        Online Permit Registration System
+       </div>
+      </div>
+      <div class="login">
+      </div>
+      <div class="clearfix">
+      </div>
+     </header>
+    </div>
+    <h1>
+     Login
+    </h1>
+    <div style="width: 50%; margin: 0 auto;">
+     <div class="band-small">
+     </div>
+     <div class="divider">
+      &nbsp;
+     </div>
+     <div class="band-small">
+     </div>
+     Students, Faculty and Staff of the Muhlenberg College, please login below to begin the permit registration process.
+     <br />
+     If this is the first time you are registering for a permit, then please select Register New User below.
+     <div class="band-small">
+     </div>
+     <div class="divider">
+      &nbsp;
+     </div>
+     Visitor to campus must purchase a visitor permit from the following link:
+     <a id="ctl00_ContentPlaceHolder1_Login1_beginVisitorRegistry" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Login1$beginVisitorRegistry','')">
+      Register visitor
+     </a>
+     <a id="ctl00_ContentPlaceHolder1_Login1_QuickVisitor" href="RequestVisitorPermit.aspx">
+      Quick Visitor
+     </a>
+     <div class="divider">
+      &nbsp;
+     </div>
+     <div class="band-small">
+     </div>
+     <!--    Students, Faculty and Staff of Muhlenberg College, please login below: -->
+     <div>
+      <div class="prop-name prop-name-header-small">
+       Last Name
+      </div>
+      <div>
+       <input name="ctl00$ContentPlaceHolder1$Login1$UserName" type="text" id="ctl00_ContentPlaceHolder1_Login1_UserName" class="caps" />
+      </div>
+     </div>
+     <div>
+      <div class="prop-name prop-name-header-small">
+       Berg ID (no dash)
+       <span title="Press the left mouse button to show password." data-pid="ctl00_ContentPlaceHolder1_Login1_Password" onmousedown="showPassword(this)" onmouseup="hidePassword(this)" onmouseout="hidePassword(this)" class="showpass">
+       </span>
+      </div>
+      <div>
+       <input name="ctl00$ContentPlaceHolder1$Login1$Password" type="password" id="ctl00_ContentPlaceHolder1_Login1_Password" />
+      </div>
+     </div>
+     <div>
+      <div class="prop-name prop-name-header-small">
+       Terms of Use
+      </div>
+      <div>
+       <textarea name="ctl00$ContentPlaceHolder1$Login1$Terms" rows="5" cols="50" readonly="readonly" id="ctl00_ContentPlaceHolder1_Login1_Terms">
+        By clicking below, I indicate that I have read the guidelines located at the web link: http://www.muhlenberg.edu/main/aboutus/campus-safety/vehicles.html for operating a motor vehicle ay Muhlenberg College. I agree to be bound by the Parking Rules and Regulations at Muhlenberg College.  I acknowledge that the most current and updated version of the Parking Rules and Regulations can be viewed in its entirety by visiting the College's website at http://muhlenberg.edu/pdf/main/aboutus/deanst/studentguide.pdf#page=46
+       </textarea>
+      </div>
+      <div>
+       <div>
+        <span style="font-size: 12px;">
+         <input id="ctl00_ContentPlaceHolder1_Login1_AgreeTerms" type="checkbox" name="ctl00$ContentPlaceHolder1$Login1$AgreeTerms" />
+         <label for="ctl00_ContentPlaceHolder1_Login1_AgreeTerms">
+          I agree the Terms of Use
+         </label>
+        </span>
+       </div>
+       &nbsp;
+       <script type="text/javascript">
+        function validateAgreeTerms(source, args) {
+		                    args.IsValid = document.getElementById('ctl00_ContentPlaceHolder1_Login1_AgreeTerms').checked;
+		                }
+       </script>
+      </div>
+     </div>
+     <div>
+     </div>
+     <div style="text-align: center">
+      <input type="submit" name="ctl00$ContentPlaceHolder1$Login1$LoginButton" value="Log In" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ContentPlaceHolder1$Login1$LoginButton", "", true, "", "", false, false))' id="ctl00_ContentPlaceHolder1_Login1_LoginButton" class="button" />
+      <br />
+      <a id="ctl00_ContentPlaceHolder1_Login1_beginRegistry" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$Login1$beginRegistry','')" style="font-size: 12px;">
+       Register new user
+      </a>
+     </div>
+     <div>
+     </div>
+    </div>
+    <script type="text/javascript">
+     function showPassword(elem) {
+        var pc = document.getElementById(elem.attributes["data-pid"].value);
+        pc.type = "text";
+    }
+
+    function hidePassword(elem) {
+        var pc = document.getElementById(elem.attributes["data-pid"].value);
+        pc.type = "password";
+    }
+    </script>
+   </form>
+   <footer>
+    Muhlenberg College 2016
+   </footer>
+  </div>
+ </body>
+</html>

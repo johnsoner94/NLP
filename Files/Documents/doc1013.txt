@@ -1,0 +1,843 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Exceptions - Disability Services | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Disability Services
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/disabilities/background.jpg" alt="Disability Services" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/disabilities/">
+               Disability Services
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/disabilities/exceptions/">
+               Exceptions
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3 style="text-align: center;">
+            <strong>
+             Students with Disabilities
+             <br />
+             Requesting Exceptions to Academic Policy
+            </strong>
+           </h3>
+           <div class="content-add05">
+            <p>
+             Muhlenberg College offers a broadly based liberal arts education that provides the student with the intellectual perspective, problem solving experience, and communication skills necessary to adapt to a changing world. &nbsp;The general academic requirements at Muhlenberg College are designed to furnish students with effective writing, speaking, and reasoning skills in all academic disciplines. Academic requirements have been established so that all students may have the opportunity to achieve competency in these skills in their college experience.
+            </p>
+            <p>
+             As an integral part of a liberal arts education, Muhlenberg College requires students to have some knowledge of a language other than English. The Foreign Language requirement offers students an opportunity to acquire or advance the understanding of foreign culture, literature, and societies through listening, speaking, reading, and writing in the language. Muhlenberg College academic requirements also include a General Reasoning course which develops the ability to understand and utilize mathematical and/or logical relationships, to analyze data, to construct and assess arguments, and to make sound judgments.
+            </p>
+            <p>
+             The majority of students with disabilities are able to fulfill the Foreign Language or General Reasoning requirements with and without accommodations. Muhlenberg College recognizes that the nature and severity of the documented disability may affect learning in the general reasoning or foreign language area even with reasonable accommodations and may interfere with the student&rsquo;s ability to meet the expectations of the course with a passing grade. &nbsp;In these cases, students with disabilities may petition the Dean&rsquo;s Ad Hoc Committee for an Exception to Academic Policy to fulfill the intent of the graduation requirement.
+            </p>
+            <p>
+             The Dean&rsquo;s Ad Hoc Committee on Reasoning Skills and Foreign language Exceptions to Academic Policy will consider the following information when deliberating the student&rsquo;s petition:
+            </p>
+            <p class="style5">
+             1. Significant difficulty in the course or sequence of courses in question, either at the high school and/or at the college level. Previous grades or statements from teachers/faculty, Disability Services Specialists, Learning Specialist, evaluation data, and anecdotal notes from tutors could be considered as a body of evidence in the verification of difficulty.
+            </p>
+            <p class="style5">
+             2. &nbsp;In the case where a student is currently enrolled in the course in question, consideration will be given to the student&rsquo;s demonstration of a &ldquo;good faith&rdquo; effort which may include:
+             <br />
+             <br />
+            </p>
+            <ul>
+             <li>
+              attending class regularly,
+             </li>
+             <li>
+              attending scheduled workshop sessions, if available for the course in question,
+             </li>
+             <li>
+              enlisting the assistance of faculty during office hours or other scheduled sessions,
+             </li>
+             <li>
+              enlisting the assistance of other campus resources such as Disability Services Specialists and/or tutors,
+             </li>
+             <li>
+              completing assignments as assigned and on schedule, and,
+             </li>
+             <li>
+              completing and utilizing accommodations.
+             </li>
+            </ul>
+            <p align="center" class="style4">
+             <strong>
+              Student Procedures
+             </strong>
+            </p>
+            <p>
+             1. A student requesting an exception to policy must have completed the disability determination process and has been deemed eligible for accommodations, auxiliary aids, and services. Appropriate, disability-related documentation has been submitted which establishes a clear connection between the request for exception to academic policy and the student&rsquo;s area of disability.
+            </p>
+            <p class="style5">
+             2. The student will work with the Office of Disability Services who will present the petition to the Dean&rsquo;s Ad Hoc Committee that will include:
+            </p>
+            <p class="style5">
+             A letter of petition, written by the student, to the Dean of Academic Life requesting the exception to policy. &nbsp;The letter and one copy must be delivered to the Dean of Academic Life in order to activate the petition process.
+            </p>
+            <p>
+             The letter should include the following information: the student&rsquo;s name, address, the exception being requested, an explanation of the disability, how it affects this particular course, history of difficulty in this course of study, description of the student&rsquo;s good faith effort, and any recommendations from the instructor or evaluator. The letter must be signed and dated. Supporting documentation, such as assignments or examinations, may be included.
+            </p>
+            <p>
+             3. Students are encouraged to discuss their petition requests with a Disability Services Specialist or the Director of the Office of Disability Services as soon as possible in their academic career. It is recommended that petitions be submitted no later than the end of the sophomore year.
+            </p>
+            <p align="center" class="style4">
+             <strong>
+              General Information
+             </strong>
+            </p>
+            <p>
+             1. Petitions for exceptions to academic policy by substitution or pass/fail for
+             <strong>
+              Foreign Language
+             </strong>
+             requirements and pass/fail for the General Reasoning requirement may only be made in student programs where these courses are not central requirements for the program major, program minor, or certification.
+            </p>
+            <p>
+             2. Courses enrolled on a pass/fail basis will not be used in computing the GPA but will be counted as units towards graduation. Students may take a maximum of 3 courses on a pass/fail basis. Courses required in a declared major or minor
+             <em>
+              are not eligible
+             </em>
+             for pass/fail designation except those which are cognate or prerequisites.
+            </p>
+            <p class="style5">
+             3. The Dean&rsquo;s Ad Hoc Committee will review student data at a petition meeting within the given semester. Petitions must be requested in writing no later than the
+             <strong>
+              end of the eighth week of the semester.
+             </strong>
+             &nbsp;
+            </p>
+            <p>
+             4. The Dean&rsquo;s Ad Hoc Committee will make final determination on all petition requests. Decisions will be mailed to the student within one week of the Committee&rsquo;s decision. If the request is granted, the student will schedule an appointment with the Dean of Academic Life to discuss appropriate courses.
+            </p>
+            <p class="style5">
+             5. The Dean may extend the timeframe for hearing a petition and rendering a decision.
+            </p>
+            <p class="style5">
+             6. &nbsp;A student may appeal any decision by writing a
+             <em>
+              Letter of Appeal
+             </em>
+             to the Vice President of Human Resources (see Grievance and Appeal Procedures for Students with Disabilities).
+            </p>
+            <p class="style5">
+             7. Although the requested exception to academic policy will fulfill the requirements for Muhlenberg College, students should be aware that approval of the petition for an exception to academic policy may impact a student&rsquo;s choice of major, and/or future academic opportunities.
+            </p>
+            <br />
+            <p align="justify">
+             <span style="font-family: 'Times New Roman','serif';">
+              <img src="/media/migration-feb10094351/main/aboutus/disabilities/advising_clip_image002.gif" alt="Disability Services" style="     float : left;" />
+             </span>
+             &zwnj;Students with documented disabilities may receive special advising starting with a pre-advising appointment during the June Advising Event. To make this session valuable, it is important for students with disabilities to have their documentation submitted to the Office of Disability Services in advance of the June Advising Event. Submitting the disability documentation in advance allows the Office of Disability Services to communicate with the specialists in the Academic Resource Center, Student Health Center, and/or the Office of Counseling Services regarding the students&rsquo; particular history of disability services and accommodations. Once matriculated, students with disabilities are encouraged to meet with the Director of the Office of Disability Services and/or one of the Learning Specialists in the Academic Resource Center to discuss appropriate course selections as they relate to the area of disability. In order to maximize the benefit of the Special Advising opportunity, it is best that these discussions take place prior to each semester&rsquo;s registration period.
+            </p>
+           </div>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Disability Services
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/disabilities/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/accessibility/">
+            Accessibility
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/accommodations/">
+            Accommodations
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/advising/">
+            Advising
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/assistivetechnology/">
+            Assistive Technology
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilitydeterminationchecklist/">
+            Disability Determination Checklist
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilitydisclosure/">
+            Disability Disclosure
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/disabilityguideforfacultyandstaff/">
+            Disability Guide for Faculty and Staff
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/documentationguidelines/">
+            Documentation Guidelines
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/emotionalsupportanimalpolicy/">
+            Emotional Support Animal Policy
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/disabilities/exceptions/">
+             Exceptions
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/faq/">
+            FAQ
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/grievanceprocedures/">
+            Grievance Procedures
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/missionstatement/">
+            Mission Statement
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/notetakingstrategies/">
+            Notetaking Strategies
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/personalcareattendantpolicies/">
+            Personal Care Attendant Policies
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/personalmobilitydevices/">
+            Personal Mobility Devices
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/recordsretentionandrequestpolicy/">
+            Records, Retention, and Request Policy
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/resources/">
+            Resources
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/serviceanimalpolicy/">
+            Service Animal Policy
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/specialdiningservicesrequest/">
+            Special Dining Services Request
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/specialhousingrequests/">
+            Special Housing Requests
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/disabilities/technologytoolbox/">
+            Technology Toolbox
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/accessibility/"&gt;Accessibility&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/accommodations/"&gt;Accommodations&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/advising/"&gt;Advising&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/assistivetechnology/"&gt;Assistive Technology&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilitydeterminationchecklist/"&gt;Disability Determination Checklist&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilitydisclosure/"&gt;Disability Disclosure&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/disabilityguideforfacultyandstaff/"&gt;Disability Guide for Faculty and Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/documentationguidelines/"&gt;Documentation Guidelines&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/emotionalsupportanimalpolicy/"&gt;Emotional Support Animal Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/disabilities/exceptions/"&gt;Exceptions&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/faq/"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/grievanceprocedures/"&gt;Grievance Procedures&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/missionstatement/"&gt;Mission Statement&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/notetakingstrategies/"&gt;Notetaking Strategies&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/personalcareattendantpolicies/"&gt;Personal Care Attendant Policies&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/personalmobilitydevices/"&gt;Personal Mobility Devices&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/recordsretentionandrequestpolicy/"&gt;Records, Retention, and Request Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/resources/"&gt;Resources&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/serviceanimalpolicy/"&gt;Service Animal Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/specialdiningservicesrequest/"&gt;Special Dining Services Request&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/specialhousingrequests/"&gt;Special Housing Requests&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/disabilities/technologytoolbox/"&gt;Technology Toolbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Theatre and Dance - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 363562;
+			mySID = 2975583;
+			var myGNAME = "Theatre+and+Dance";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Theatre and Dance
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Mar 7, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/theatredance">
+          http://libraryguides.muhlenberg.edu/theatredance
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=363562">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=363562&amp;sid=2975583">
+       Databases
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=363562&amp;sid=2975584">
+       Library Catalogs
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=363562&amp;sid=2975585">
+       Primary Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=363562&amp;sid=2975586">
+       Reference Works
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=363562&amp;sid=2975587">
+       Citation Guides
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2975583" class="guide_page">
+   <h2>
+    Databases
+   </h2>
+   <div id="content_box_10461104" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources by Course
+     </div>
+     <ul>
+      <li>
+       Basic Speech
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/basicspeech">
+        http://libraryguides.muhlenberg.edu/basicspeech
+       </a>
+      </li>
+      <li>
+       Costume Design
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/costume">
+        http://libraryguides.muhlenberg.edu/costume
+       </a>
+      </li>
+      <li>
+       Queer Performance
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/queerperform">
+        http://libraryguides.muhlenberg.edu/queerperform
+       </a>
+      </li>
+      <li>
+       Theatre &amp; Society
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/theatresociety">
+        http://libraryguides.muhlenberg.edu/theatresociety
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10461105" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       International Bibliography of Theatre &amp; Dance with Full Text
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ibh">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ibh
+       </a>
+       <br />
+       Definitive research tool for the study of theatre and the performing arts with abundant links to scholarly full text. In dance, journals include Dance Research Journal, Journal of Dance and Somatic Practices, Performance Research, Research in Dance Education, and Writings on Dance. Theatre journals include Comparative Drama, The Dramatist, Early Theatre, Live Design, Medieval &amp; Renaissance Drama in England, Modern Drama, and New England Theatre Journal. Embargoes may apply.
+      </li>
+      <li>
+       MLA International Bibliography
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&amp;defaultdb=mzh">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&defaultdb;=mzh
+       </a>
+       <br />
+       Standard scholarly index to criticism in the areas of literature, language, linguistics, film studies, and folklore, published from 1920-present. Strong in theatre criticism.
+      </li>
+      <li>
+       Project Muse
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=https://muse.jhu.edu/browse">
+        http://muhlenberg.idm.oclc.org/login?url=https://muse.jhu.edu/browse
+       </a>
+       <br />
+       Full text database of journals from several academic presses. Theatre journals include Comparative Drama, Journal of Dramatic Theory and Criticism, Modern Drama, TDR, and Theatre Journal. Dance journals include Dance Research and Dance Research Journal. No embargoes.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10461106" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      More Databases
+     </div>
+     <ul>
+      <li>
+       Historical Abstracts with Full Text
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=30h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=30h
+       </a>
+       <br />
+       Index to historical literature for all regions excluding the U.S. and Canada, 1450-present. Numerous links to full text.
+      </li>
+      <li>
+       Literature Criticism Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://infotrac.galegroup.com/itweb/mul_coll?db=LCO">
+        https://muhlenberg.idm.oclc.org/login?url=http://infotrac.galegroup.com/itweb/mul_coll?db=LCO
+       </a>
+       <br />
+       All full text, this extensive archive of criticism of 20th century literary works comes from scholarly journals and books.
+      </li>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas.
+      </li>
+      <li>
+       America: History &amp; Life with Full Text
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=31h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile;=ehost&defaultdb;=31h
+       </a>
+       <br />
+       The definitive database of literature covering the history and culture of the United States and Canada, from prehistory to the present. With selective indexing for 1,700 journals from 1964 to present, this database is without question the most important bibliographic reference tool for students and scholars of U.S. and Canadian history. Full text journals include American Historical Review, American 19th Century History, American Studies, Early American Studies, Journal of American Culture, Journal of American History, Journal of Early American History, and Journal of Military History.
+      </li>
+      <li>
+       RILM Abstracts of Music Literature
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=rih">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=rih
+       </a>
+       <br />
+       Index to scholarly and popular literature in musicology, ethnomusicology, dance, and other music-related disciplines, with many links to full text.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19886267" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Theatre Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Includes selected reviews 1980-present.
+      </li>
+      <li>
+       A Guide to Critical Reviews: American Drama 1909-1982
+       <br />
+       Call # 016.8092 S163g
+       <br />
+       Index to reviews from the early 20th century to the eighties.
+      </li>
+      <li>
+       A Guide to Critical Reviews: The Musical, 1909-1989
+       <br />
+       Call # 016.8092 S163g
+       <br />
+       Musical theatre reviews 1909-1989.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       Theatre reviews from newspapers (national and local) around the globe, 1980s to the present.
+      </li>
+      <li>
+       New York Times Online
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1645522?databaseList=1708,638">
+        https://muhlenberg.on.worldcat.org/oclc/1645522?databaseList=1708,638
+       </a>
+       <br />
+       Includes New York theatre reviews from 1850s to present.
+      </li>
+      <li>
+       OmniFile
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       Includes the Reader's Guide, with theatre reviews from 1980-present.
+      </li>
+      <li>
+       Reader's Guide Retrospective
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=rgr">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=rgr
+       </a>
+       <br />
+       Theatre reviews in popular periodicals, 1890-1980.
+      </li>
+      <li>
+       Reader's Guide to Periodical Literature
+       <br />
+       Call # 051 R286g
+       <br />
+       Theatre reviews 1900-1996.
+      </li>
+      <li>
+       Times Digital Archive
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/ttda/start.do?userGroupName=mul_coll">
+        http://muhlenberg.idm.oclc.org/login?url=http://find.galegroup.com/ttda/start.do?userGroupName=mul_coll
+       </a>
+       <br />
+       Archive of the London Times from the 1700s to present. Includes London theatre reviews.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2975584" class="guide_page">
+   <h2>
+    Library Catalogs
+   </h2>
+   <div id="content_box_10461109" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Library Catalogs
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://muhlenberg.on.worldcat.org/advancedsearch">
+        http://muhlenberg.on.worldcat.org/advancedsearch
+       </a>
+       <br />
+       Encompass Search searches for books and other resources, first in our own library, and then beyond, in other research libraries.
+      </li>
+      <li>
+       WorldCat
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://newfirstsearch.oclc.org/done=http://trexler.muhlenberg.edu//;dbname=worldcat;fsip">
+        https://muhlenberg.idm.oclc.org/login?url=http://newfirstsearch.oclc.org/done=http://trexler.muhlenberg.edu//;dbname=worldcat;fsip
+       </a>
+       <br />
+       Search catalogs from libraries across the country and around the globe.  Items owned by Trexler Library show a Muhlenberg College Library icon.  Request items not owned by Trexler Library directly through WorldCat using the ILL (Interlibrary Loan) button. Items generally take 2-10 days to arrive.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2975585" class="guide_page">
+   <h2>
+    Primary Sources
+   </h2>
+   <div id="content_box_10461112" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Primary Sources
+     </div>
+     <ul>
+      <li>
+       Dance in Video
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/daiv">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/daiv
+       </a>
+       <br />
+       Hundreds of hours of dance productions and documentaries by the most influential performers and companies of the 20th century. Selections cover ballet, tap, jazz, contemporary, experimental, and improvisational dance, as well as forerunners of the forms and the pioneers of modern concert dance.
+      </li>
+      <li>
+       Drama Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.dramaonlinelibrary.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.dramaonlinelibrary.com/
+       </a>
+       <br />
+       Includes the full text of plays from across the history of the theatre, ranging from Aeschylus to the present day. Includes non-English-language works in translation, scholarly and critical editions, first night program texts, and critical analysis and contextual information. Also includes over 500 images from the Victoria and Albert Museum's archive of production photos.
+      </li>
+      <li>
+       Early English Books Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://eebo.chadwyck.com/home">
+        https://muhlenberg.idm.oclc.org/login?url=http://eebo.chadwyck.com/home
+       </a>
+       <br />
+       Digital facsimile page images of virtually every work printed in England, Ireland, Scotland, Wales and British North America and works in English printed elsewhere from 1473-1700.
+      </li>
+      <li>
+       Eighteenth Century Collections Online (ECCO)
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://infotrac.galegroup.com/itweb/mul_coll?db=ECCO">
+        https://muhlenberg.idm.oclc.org/login?url=http://infotrac.galegroup.com/itweb/mul_coll?db=ECCO
+       </a>
+       <br />
+       Over 180,000 titles (200,000 volumes) comprising books, pamphlets, essays, broadsides and more based on the English Short Title Catalogue Works published in the UK during the 18th century plus thousands from elsewhere. Content covers critical information in the fields of history, literature, religion, law, fine arts, science and more. Primarily in English but also includes other languages.
+      </li>
+      <li>
+       Theatre in Video
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/ativ/">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.alexanderstreet.com/ativ/
+       </a>
+       <br />
+       Contains performances of the world's leading plays and film documentaries. Some plays presented in multiple productions exemplifying various interpretations of the text, and technical and cultural differences among the presentations. Stage work of directors and actors are cross-searchable and available for side-by-side comparison. Interviews with directors, designers, writers, and actors, along with excerpts of live performances, provide illustration of the development of texts and the productions.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2975586" class="guide_page">
+   <h2>
+    Reference Works
+   </h2>
+   <div id="content_box_10461115" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Reference Works
+     </div>
+     <ul>
+      <li>
+       Cambridge Guide to Theatre
+       <br />
+       <a href="http://link.worldcat.org/?jHome=https%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fsearch.credoreference.com%2Fcontent%2Ftitle%2Fcupthea&amp;linktype=best">
+        http://link.worldcat.org/?jHome=https%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fsearch.credoreference.com%2Fcontent%2Ftitle%2Fcupthea&linktype;=best
+       </a>
+       <br />
+       Covers all major playwrights, works, traditions, theories, companies, venues and events; details the origins of popular theatre tradition; discusses the work of actors, directors and designers; and explains theatre architecture and design. The book is written by over 100 expert contributors and is illustrated throughout.
+      </li>
+      <li>
+       Cambridge History of American Theatre
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://histories.cambridge.org/uid=1931/collection?id=cat_theatre_studies_and_performing_arts">
+        https://muhlenberg.idm.oclc.org/login?url=http://histories.cambridge.org/uid=1931/collection?id=cat_theatre_studies_and_performing_arts
+       </a>
+       <br />
+       The Cambridge History of American Theatre is an authoritative and wide-ranging history of American theatre in all its dimensions, from theatre building to play writing, directors, performers, and designers. Engaging the theatre as a performance art, a cultural institution, and a fact of American social and political life, the History recognizes changing styles of presentation and performance and addresses the economic context that conditions the drama presented. The History approaches its subject with a full awareness of relevant developments in literary criticism, cultural analysis, and performance theory. At the same time, it is designed to be an accessible, challenging narrative. Volume One deals with the colonial inceptions of American theatre through the post-Civil War period: the European antecedents, the New World influences of the French and Spanish colonists, and the development of uniquely American traditions in tandem with the emergence of national identity.
+      </li>
+      <li>
+       Cambridge History of British Theatre
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://histories.cambridge.org/uid=1931/collection?id=cat_theatre_studies_and_performing_arts">
+        https://muhlenberg.idm.oclc.org/login?url=http://histories.cambridge.org/uid=1931/collection?id=cat_theatre_studies_and_performing_arts
+       </a>
+       <br />
+       The Cambridge History of American Theatre is an authoritative and wide-ranging history of American theatre in all its dimensions, from theatre building to play writing, directors, performers, and designers. Engaging the theatre as a performance art, a cultural institution, and a fact of American social and political life, the History recognizes changing styles of presentation and performance and addresses the economic context that conditions the drama presented. The History approaches its subject with a full awareness of relevant developments in literary criticism, cultural analysis, and performance theory. At the same time, it is designed to be an accessible, challenging narrative. Volume One deals with the colonial inceptions of American theatre through the post-Civil War period: the European antecedents, the New World influences of the French and Spanish colonists, and the development of uniquely American traditions in tandem with the emergence of national identity.
+      </li>
+      <li>
+       Credo Reference
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of authoritative dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas.
+      </li>
+      <li>
+       International Encyclopedia of Dance
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://muhlenberg.on.worldcat.org/discoveryoclc/79423156">
+        https://muhlenberg.idm.oclc.org/login?url=http://muhlenberg.on.worldcat.org/discoveryoclc/79423156
+       </a>
+       <br />
+       Nearly 2,000 articles written by scholars from fifty countries, the Encyclopedia covers the full spectrum of dance--theatrical, ritual, dance-drama, folk, traditional, ethnic, and social dance. Cultural and national overviews are accompanied by entries on dance forms, music and costumes, performances, and biographies of dancers and choreographers.
+      </li>
+      <li>
+       Oxford Companion to American Theatre
+       <br />
+       <a href="http://link.worldcat.org/?jHome=https%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fsite.ebrary.com%2Flib%2Fmuhlenberg%2FTop%3Fid%3D10103714&amp;linktype=best">
+        http://link.worldcat.org/?jHome=https%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fsite.ebrary.com%2Flib%2Fmuhlenberg%2FTop%3Fid%3D10103714&linktype;=best
+       </a>
+       <br />
+       A guide to the American stage from its beginnings to the present. Includes entries on playwrights, plays, actors, directors, producers, songwriters, famous playhouses, dramatic movements, classic works, commercially successful plays, and foreign figures that have influenced American dramatic development.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_2975587" class="guide_page">
+   <h2>
+    Citation Guides
+   </h2>
+   <div id="content_box_10461118" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Citation Tools
+     </div>
+     <ul>
+      <li>
+       MLA Style Guide
+       <br />
+       <a href="http://trexler.muhlenberg.edu/media/content,assets/library/docs/mla_example.pdf">
+        http://trexler.muhlenberg.edu/media/content,assets/library/docs/mla_example.pdf
+       </a>
+       <br />
+       A tip sheet for citing in the MLA style.
+      </li>
+      <li>
+       Zotero
+       <br />
+       <a href="https://www.zotero.org/support/">
+        https://www.zotero.org/support/
+       </a>
+       <br />
+       Zotero is a free, easy-to-use Firefox extension to help you collect, manage, and cite your research sources. This handout will help you get started.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

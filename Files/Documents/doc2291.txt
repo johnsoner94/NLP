@@ -1,0 +1,2295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Courses - English | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        English
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- Content Template Start: General Slideshow -->
+       <div class="content-add09">
+        <ul class="imagecol" id="imgcol">
+         <li>
+          <img src="/media/contentassets/images/academics/english/cover_04.jpg" alt="cover_04" style="     " />
+         </li>
+        </ul>
+        <script type="text/javascript">
+         var maxImages=10;
+      var img="";
+      var j=0;
+      var ptr=0;
+      var img2='&lt;img src="/media/contentassets/images/academics/english/cover2_04.jpg" alt="cover2_04" style="     "  /&gt;';
+      var img3='&lt;img src="/media/contentassets/images/academics/english/cover3_04.jpg" alt="cover3_04" style="     "  /&gt;';
+      var img4='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_12_04.jpg" alt="GALLERY_SLIDE_12_04" style="     "  /&gt;';
+      var img5='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_14_04.jpg" alt="GALLERY_SLIDE_14_04" style="     "  /&gt;';
+      var img6='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_16_04.jpg" alt="GALLERY_SLIDE_16_04" style="     "  /&gt;';
+      var img7='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_21_04.jpg" alt="GALLERY_SLIDE_21_04" style="     "  /&gt;';
+      var img8='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_22_04.jpg" alt="GALLERY_SLIDE_22_04" style="     "  /&gt;';
+      var img9='&lt;img src="/media/contentassets/images/academics/english/GALLERY_SLIDE_25_04.jpg" alt="GALLERY_SLIDE_25_04" style="     "  /&gt;';
+      var img10='';      
+      
+      for (j=1; j&lt;maxImages; j++) {
+                             
+        ptr=j+1;
+      
+       if (eval("img" + ptr) ) {
+        img = '&lt;li&gt;' + eval("img" + ptr) + '&lt;/li&gt;';
+        document.getElementById('imgcol').innerHTML +=img;                  
+       }
+                                 
+      }
+        </script>
+        <div class="intro-add01">
+         <div class="intro-add02-slideshow">
+          <a name="content">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Content Template End: Image Panel-->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/english/">
+               English
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/english/courses/">
+               Courses
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3 align="left" class="style14">
+            <span class="style16">
+             English Courses
+             <br />
+             <br />
+            </span>
+           </h3>
+           <h4 class="style21">
+            GENERAL LITERATURE
+           </h4>
+           <p class="style22">
+            <em>
+             Note: The following courses may NOT be counted toward the English major or minor.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             113. British Writers
+            </strong>
+            <br />
+            A concentrated survey of the work of some of the most influential British writers and of the development of British literary traditions; intended to help non-majors become close and informed readers of literature. Focus will vary from semester to semester.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             115. American Writers
+            </strong>
+            <br />
+            A concentrated survey of the work of some of the most influential American writers and of the development of American literary traditions; intended to help non-majors become close and informed readers of literature. Focus will vary from semester to semester.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             120. World Literature I
+            </strong>
+            <br />
+            A chronological survey of selected literary works of international stature and significance with emphasis on the emergence and development of major literary forms.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             122. World Literature II
+            </strong>
+            <br />
+            A chronological survey of selected literary works of international stature and significance from the sixteenth century to the present.
+            <br />
+            <em>
+             Meets general academic requirement L.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style21">
+            <em>
+             FOUNDATION COURSE FOR MAJORS AND MINORS
+            </em>
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             275. Theory &amp; Methods of English Studies
+            </strong>
+            <br />
+            An introduction to the practices, assumptions, and goals that differentiate English Studies from other approaches to texts,
+            <strong>
+             intended
+             <em>
+              exclusively
+             </em>
+             as a foundations course for current and prospective English majors and minors
+            </strong>
+            and requiring close readings of works in various genres in a pursuit of working definitions of literature and literariness. Questions addressed include: How do we distinguish literary work from other kinds of writing? What distinguishes literary complexity over simplicity? How do literary and critical practices evolve?
+            <br />
+            <em>
+             Current and Prospective English majors and minors only
+            </em>
+            .
+            <em>
+             Meets general academic requirements L and W.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style23">
+            LANGUAGE AND SOCIETY
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             295, 296. The English Language
+            </strong>
+            <br />
+            This course will provide students with a general understanding of the nature and function of language in American society with special emphasis on language instruction in the secondary school classroom. It will be structured as a seminar that features group discussion of assigned readings.
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 296.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style23">
+            READING X
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             202. Reading Emily Dickinson
+            </strong>
+            <br />
+            Emily Dickinson&rsquo;s life, letters, and poems have attracted an unusually diverse set of &ldquo;labels.&rdquo; She is variously described as Romantic, Modern, Post-Modern, Puritan, anti-Puritan, feminist, anti-feminist, a victim of psychological disorders (agoraphobia, anorexia, depression), a victim of patriarchal oppression, a genius, a great ironist, and more. So Dickinson&rsquo;s poetry offers us much to negotiate in the course, ways of reading as well as readings of individual poems. We will have the advantage of abstracts of book-length Dickinson criticism written by members of a previous seminar, a sort of readers&rsquo; guide to Dickinson which we will expand. We will also study poems by two twentieth-century women writers, Elizabeth Bishop and Adrienne Rich, in light of Dickinson&rsquo;s legacy, and try to trace Dickinson&rsquo;s particular kind of &ldquo;nature&rdquo; poetry back to a seventeenth century tradition she admired.
+            <br />
+            <em>
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             206. Reading Austen
+            </strong>
+            <br />
+            This course explores the novels of Jane Austen and their contemporary revisions. Roughly half of the course consists of an intensive and historically-contextualized study of four of Austen&rsquo;s novels along with a reading of a biography of Austen. The other half consists of a cultural materialist study of the revisions, sequels, and film adaptations of Austen produced predominantly in the 1990s and 2000s. In this way, we explore the continuing importance of Austen to contemporary readers as well as the structure and significance of fan culture. In addition to several of Austen&rsquo;s original novels, texts and films may include Jon Spence,
+            <em>
+             Becoming Jane Austen
+            </em>
+            ; Linda Berdoll,
+            <em>
+             Mr. Darcy Takes a Wife
+            </em>
+            ; Pamela Aidan,
+            <em>
+             An Assembly Such as This: Fitzwilliam Darcy, Gentleman, Part 1
+            </em>
+            ; BBC Mini-Series,
+            <em>
+             Pride and Prejudice
+            </em>
+            (1995);
+            <em>
+             Clueless
+            </em>
+            (1995); Joan Aiken,
+            <em>
+             Jane Fairfax: The Secret Story of the Second Heroine in Jane Austen's Emma
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Transformations approach
+             <br />
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             208. Reading
+             <em>
+              Alice in Wonderland
+             </em>
+            </strong>
+            <br />
+            This course investigates Lewis Carroll&rsquo;s Alice books&mdash;
+            <em>
+             Alice&rsquo;s Adventures in Wonderland
+            </em>
+            and
+            <em>
+             Through the Looking Glass
+            </em>
+            &mdash;in themselves and as they are transformed into a larger cultural &ldquo;Alice Myth&rdquo; with a life of its own. The course examines these texts in a variety of cultural and aesthetic frames. These are primarily British and Victorian, considering the
+            <em>
+             Alice
+            </em>
+            books as children&rsquo;s stories, as dream-texts, and as complexly
+            <em>
+             comic
+            </em>
+            representations of gender, class, childhood. In addition, the course will consider the relation between the texts and their author, who led a triple life as Charles Dodgson, Oxford don in mathematics, as the writer Lewis Carroll, whom Dodgson never acknowledged, and as one of the fathers of photography, a famous portrait photographer. In the latter part of the course we will pursue the afterlife of the Alice Myth, up to the present day. We will look at adaptations of the books, film versions by the surrealist Svankmajer and by Disney, and perhaps the video game based on the Alice books.
+            <br />
+            <em>
+             Meets departmental Transformations approach
+             <br />
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             211. Reading T. S. Eliot's
+             <em>
+              The Waste Land
+             </em>
+            </strong>
+            <br />
+            T. S. Eliot&rsquo;s
+            <em>
+             The Waste Land
+            </em>
+            is probably the most famous English-language poem of the twentieth century. On its completion, Eliot&rsquo;s editor and in some sense co-author, Ezra Pound, called it &ldquo;at 19 pages the longest poem in the English language (sic).&rdquo; Why? Because the poem is a curriculum as much as a poem. It enfolds a number of discourses: literature, economics, music, Buddhism, the Music Hall, etc. This course will ask students to read the books that lie behind Eliot&rsquo;s poem. These would include, in addition to the facsimile drafts of the poem, the books Eliot cites in his notes for the poem, the relevant English literature as well as Jessie Weston&rsquo;s work of cultural anthropology,
+            <em>
+             From Ritual to Romance
+            </em>
+            and works he doesn&rsquo;t cite but which he read and which influenced the poem, notably John Maynard Keynes&rsquo;
+            <em>
+             The Economic Consequences of the Peace
+            </em>
+            . We will listen to and try to make sense of Wagner; certainly we will become aware of his overwhelming importance as the greatest artist of the nineteenth century and the long shadow he cast over Eliot&rsquo;s generation as instanced by the poem. We will read an account of the First World War, probably Erich Maria Remarque&rsquo;s
+            <em>
+             All Quiet on the Western Front
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Transformations approach
+            </em>
+            <br />
+            <em>
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             212. Reading
+             <em>
+              Frankenstein
+             </em>
+            </strong>
+            <br />
+            The course examines the three distinct versions of Mary Shelley&rsquo;s novel (1818, 1823, 1831), reads selected criticism and biographical material, and then focuses on various literary, film, and theatrical adaptations, including H. G. Wells&rsquo;
+            <em>
+             The Island of Dr. Moreau
+            </em>
+            (1896), Lynd Ward&rsquo;s woodcut adaptation of the novel (1934), the original Boris Karloff film (1931), Ridley Scott&rsquo;s
+            <em>
+             Blade Runner
+            </em>
+            (1982), and the USA network&rsquo;s and Kenneth Branagh&rsquo;s versions of &ldquo;Frankenstein.&rdquo; We will also likely consider Shelley Jackson&rsquo;s online cyber-feminist revision, &ldquo;Patchwork Girl.&rdquo; The course will begin by examining
+            <em>
+             Frankenstein&rsquo;s
+            </em>
+            important progenitors: The Book of Genesis; the Pygmalion and Prometheus myths and selections from Milton&rsquo;s
+            <em>
+             Paradise Lost
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Transformations approach
+            </em>
+            <br />
+            <em>
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             214. Reading Whitman&rsquo;s America
+            </strong>
+            <br />
+            This course will study the United States that Walt Whitman knew and interpreted in his writing. The first part will focus on the longer poems of
+            <em>
+             Leaves of Grass
+            </em>
+            , framing this work between the two poetic manifestos, &ldquo;Song of Myself&rdquo; and &ldquo;Crossing Brooklyn Ferry.&rdquo; The second will move between Whitman&rsquo;s poetry and other works, visual as well as verbal, that give testimony to the politics and culture of his time. When the Civil War broke out, Whitman worked in the battlefield hospitals as a nurse and produced the volume &ldquo;Drum Taps&rdquo; from this experience. We&rsquo;ll read several poems from this collection to investigate Whitman&rsquo;s visions of what the war meant and how it would impact the country&rsquo;s future. The course will show that Whitman&rsquo;s America wasn&rsquo;t a single place or culture but a dynamic of people, speech, custom, ideology, and a series of visions the poet had for the future of his ideal democracy. Texts for the course will include the 1855 edition of
+            <em>
+             Leaves of Grass
+            </em>
+            as well as single poems from subsequent editions, including &ldquo;Crossing Brooklyn Ferry,&rdquo; &ldquo;When Lilacs Last in the Dooryard Bloom&rsquo;d,&rdquo; &ldquo;Passage to India,&rdquo; among others; readings in Mason Lowance&rsquo;s,
+            <em>
+             Against Slavery: An Abolitionist Reader
+            </em>
+            ; David Reynold&rsquo;s
+            <em>
+             Walt Whitman&rsquo;s America: A Cultural Biography
+            </em>
+            ; and Ted Genoways&rsquo;
+            <em>
+             Walt Whitman and the Civil War
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach
+             <br />
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             216. Reading Romance
+            </strong>
+            <br />
+            In this course, students study the genre of the medieval romance, a genre which eventually gives rise to the novel. Through a focus on four literary texts, students explore the importance of literary structure, narrative voice, and the way that social and cultural values are foundational to the representation of the protagonist. The first two texts are a romance by Chr&eacute;tien de Troyes, the essential model of the medieval romance, and an additional English romance. The next reading,
+            <em>
+             Sir Gawain and the Green Knight
+            </em>
+            , puts chivalric and romance values into a more ironic context. Selected tales from the
+            <em>
+             Canterbury Tales
+            </em>
+            in Middle English highlight Chaucer&rsquo;s important transformation of romance conventions in the context of emerging bourgeois and mercantile social values as well as new understandings of authorship.
+            <br />
+            <em>
+             Meets departmental Genealogies approach
+             <br />
+             Meets general academic requirements L and W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             217. Reading India
+            </strong>
+            <br />
+            For two centuries, India was both &ldquo;the jewel in the crown&rdquo; of the British Empire and a bewilderingly complex civilization whose mysteries rendered it largely illegible to outsiders. In the sixty years since independence, a wide array of English-language writers have taken up the charge of representing India, both from within the subcontinent itself and from such far-flung sites of the Indian Diaspora as London, Trinidad, Toronto, and New York. This course will explore some of the more intriguing ways in which India has been represented by colonizers, natives, and first and second-generation emigrants alike, ranging from Kipling&rsquo;s &ldquo;city of dreadful night&rdquo; and E.M. Forster&rsquo;s acid depictions of British misfeasance in the late imperial period to the social comedies of R.K. Narayan, the dizzying experiments with magic realism of Salman Rushdie, and the cultural collisions recorded by such London-based writers as Hanif Kureishi and Monica Ali in the last decade of the twentieth century.
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach
+            </em>
+            <br />
+            <em>
+             Meets general academic requirements D, L and W.
+            </em>
+            <br />
+            <br />
+            <strong>
+             218. Reading the South
+            </strong>
+            <br />
+            This course will study how novelists, poets, and playwrights have treated the American South, and the extent to which they have challenged or fostered prevailing popular representations in songs and movies and political rhetoric (e.g. Dixie, down-home, Jim Crow, &ldquo;a civilization gone with the wind,&rdquo;).&nbsp; We will consider how these writers' work addresses what ideologues and historians have characterized as the "peculiar" political and social conditions that have made the South seem distinctive: slavery and its Jim Crow aftermath.
+            <br />
+            &nbsp;
+            <em>
+             Meets departmental Texts/Contexts approach
+            </em>
+            <br />
+            <em>
+             Meets general academic requirements L and W.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style21">
+            GENRES
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             231. Modern Drama
+            </strong>
+            <br />
+            This course will examine how Modern Drama emerged to challenge the dominate genres and styles of the Victorian theatre. We will examine the development of modern dramatic practice in writers, such as Ibsen, Strindberg, Shaw, Wilde, and Chekhov, and its variegated developments in the plays of O&rsquo;Neill, Glaspell, Miller, Brecht, and Beckett.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             235, 236. Contemporary Drama &amp; Performance Art
+            </strong>
+            <br />
+            A survey of contemporary theatre practice which includes not only the study of new literary plays by writers such as Stoppard, Kushner, Wolfe, and Mann, but also of other kinds of performances, such as avant-garde theatre, performance art, the new vaudeville, and the one-person show. Artists to be studied may include Anna Devere Smith, John Leguizamo, Pina Bausch, The Theatre of the Ridiculous, and The Wooster Group.
+            <br />
+            <em>
+             Meets general academic requirement A (and
+            </em>
+            W when offered as 236).
+            <br />
+            <br />
+            <strong>
+             237. Postwar Drama
+            </strong>
+            <br />
+            An exploration of the ways in which theatre and representational practice were challenged and changed by the Second World War and its political, cultural, and social aftermath. We will examine British, American, and German plays by writers such as Osborne, Pinter, Weiss, Handke, Miller, Bond, and Griffiths.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             238, 239. Plays on Film
+            </strong>
+            <br />
+            "Plays on Film" is a study of the (all too few) aesthetically successful films made from stage plays, approached in the context of why adaptations of plays to film typically do not in fact, work. In addition to studying a canon of plays and films, this course will also engage (and contrast) textual, performance-based and image-based methodologies, and students will be asked to write papers demonstrating proficiency in all three theoretical approaches.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 239 only).
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             240, 241. The Nature of Narrative
+            </strong>
+            <br />
+            This course will explore the forms and functions of primarily prose narratives with particular attention to structure, point of view, and narrative conventions of time, space, plot, character, and &ldquo;realism&rdquo;. Different versions of the course will vary in focus and emphasis: some may survey a variety of forms and genres (short story, novel, memoir, autobiography) while others may concentrate on one or two of these.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 241).
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             243, 244. Genres of Popular Fiction
+            </strong>
+            <br />
+            A study of the nineteenth century genesis and twentieth century development of three of the major genres of popular writing: mystery, horror, and science fiction. We will be reading not only particular works from these categories but theoretical essays on the nature of the genre itself. Authors will include: Poe, Lovecraft, Conan Doyle, Hammett, Chandler, Shelley, Le Guin, and others. This course will not only focus on reading popular literature and writing standard literary critical papers but will also examine literary genre as a category and ask students to write creatively within the specific literary genres&mdash;mystery, horror, romance, adventure, science fiction&mdash;studied by the course. In this way, the course will provide a thorough exploration (i.e. historical, theoretical, and practical) of the various modes of popular literary expression.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 244).
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             245, 246. Poetry &amp; the Imaginative Process
+            </strong>
+            <br />
+            What is poetry? How is it made or constructed? Is it the product of sudden inspiration or of something more mundane? This course will address such questions by examining the work of poets who, in addition to their poems, have left behind letters, journals, and notebooks that allow us to reconstruct the processes through which their poems develop and progress to completion. Students will be encouraged to write and chart the development of their own poems in process.
+            <br />
+            <em>
+             Meets general academic requirement L (and W
+            </em>
+            when offered as 246).
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             249, 250. Science Fiction and Fantasy
+            </strong>
+            <br />
+            This course undertakes an in-depth and literary exploration of a few representative texts in the vast genre of Science Fiction/Fantasy. We pay special attention to the particular ways in which science fiction and fantasy engage with the concerns of the terrestrial present which produces them or in which they are read. We will consider science fiction as a literary exploration of historical, scientific, social, political, and personal issues under consideration by actual humans in the here (or near here) and now (or not so long ago). In particular, our syllabus highlights texts that think about ecology and bodily identity. We also consider Science Fiction/Fantasy as a literary form&mdash;a discourse with its own rules, methods, and history. Readings may include such works as &ldquo;Bloodchild&rdquo; by Octavia Butler,
+            <em>
+             The War of the Worlds
+            </em>
+            by H.G. Wells,
+            <em>
+             The Female Man
+            </em>
+            by Joanna Russ,
+            <em>
+             Dune
+            </em>
+            by Frank Herbert, and
+            <em>
+             The Left Hand of Darkness
+            </em>
+            by Ursula K. Le Guin.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 250).
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             251, 252. Contemporary Fiction
+            </strong>
+            <br />
+            A study of representative late twentieth and twenty-first century English language novels and stories.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 252).
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style21">
+            LITERARY RELATIONS
+           </h4>
+           <p align="justify" class="style21">
+            <br />
+            <strong>
+             255. Literature &amp; Film
+            </strong>
+            <br />
+            This course examines the relationship between novels and plays and their film-adaptations, concentrating on the different ways we read and interpret these narrative forms. The course will attend closely to the variety of decisions that inform the translation of literary works into a different medium with different conventions for a different audience. Emphases and subject matter will change.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             257. Literature &amp; Evolution
+            </strong>
+            <br />
+            By tracing the development of evolutionary thinking in the poetry, fiction and science writing of Darwin&rsquo;s century, this course considers some of the ways science and other forms of culture inform each other. We pay particular attention to how evolutionary narrative shapes and is shaped by nineteenth century British conceptions of the individual, species, race, nation, sexuality, and nature. We will read Darwin in the original, as well as some of his influences, including Malthus and Paley, and much of the poetry, fiction, and popular science that helped build and disseminate evolutionary thinking, including Alfred Lord Tennyson, Robert Browning, Robert Louis Stevenson, and H. G. Wells.
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach
+             <br />
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             259, 260. Literature &amp; the Environment
+            </strong>
+            <br />
+            An examination of complex relationships between the various meanings of what we call &ldquo;nature&rdquo; and the representations of such concepts in literary writing and other kinds of texts that raise environmental questions. A field work component will require students to survey nearby landscapes and to &ldquo;read&rdquo; their historical transformations.
+            <br />
+            <em>
+             Meets general academic requirement L
+            </em>
+            (and W when offered as 259).
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             261. Literature &amp; The Visual Arts
+            </strong>
+            <br />
+            The course will explore the multiple relationships between word and image in a variety of interdisciplinary texts. We will examine the genres of illustration (poem and novel), composite text, ekphrasis, children&rsquo;s story, concrete and imagist poetry, the graphic novel, and film. Historically, the scope of the course is broad, reaching from the classical period to last year. We&rsquo;ll move from
+            <em>
+             The Iliad
+            </em>
+            to a comic strip, from a children&rsquo;s picture book to the revolutionary poetics of Blake&rsquo;s dynamic art. The course will trace the increasing sophistication and partnership of the word/image relationship as we move deeper into the digital age. Texts may include William Blake,
+            <em>
+             Songs of Innocence and of Experience
+            </em>
+            (1794); Coleridge,
+            <em>
+             The Rime of the Ancient Mariner
+            </em>
+            (illus. Gustave Dor&eacute;, 1877); W. C. Williams,
+            <em>
+             Pictures from Brueghel
+            </em>
+            (1960); Foucault,
+            <em>
+             This is Not a Pipe
+            </em>
+            (1977); Spiegelman,
+            <em>
+             In the Shadow of No Towers
+            </em>
+            (2004); and critical works such as Scott McCloud&rsquo;s
+            <em>
+             Understanding Comics
+            </em>
+            (1993) and W. J. T. Mitchell&rsquo;s
+            <em>
+             Picture Theory
+            </em>
+            (1993).
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             267. Literature &amp; Sexuality
+            </strong>
+            <br />
+            An exploration of the way literature reflects and shapes understandings, attitudes toward, and representations of sexual identities and practices.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             269, 270. Literature &amp; Mass Media
+            </strong>
+            <br />
+            A study of the relationship between ostensibly literary writing and the mass entertainment (movies, rock-and-roll, TV) as sometimes competing yet symbiotic constellations of cultural practices that trace their modern institutional form to the eighteenth and nineteenth centuries, to the emergence of "Grub Street" and the Romantic idealizaiton of the artist-hero.
+            <br />
+            <em>
+             Meets general academic requirement L (and W when offered as 270).
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style21">
+            ETHNIC &amp; REGIONAL LITERATURES
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             232. African-American Drama
+            </strong>
+            <br />
+            A study of nineteenth and twentieth century plays addressing the cultural impact of the African Diaspora. In addition to plays, the syllabus incorporates theoretical and historical writing exploring Africanisms in the work of writers like Suzan-Lori Parks and August Wilson and the efforts of African American playwrights to remember often unrecorded histories.
+            <br />
+            <em>
+             Meets general academic requirements D or L
+            </em>
+            .
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             271, 272. Ethnicity in US Literature
+            </strong>
+            <br />
+            A study of the construction and representation of ethnic heritages, affiliations, differences, and commonalities in narratives, poetry, and plays by American writers from a variety of ethnic backgrounds, writing in English and adapting and revising established literary practices.
+            <br />
+            <em>
+             Meets departmental Transformation approach.
+             <br />
+             Meets general academic requirement L (and W
+            </em>
+            when offered as 272).
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             273. African American Literature
+            </strong>
+            <br />
+            A study of works by African American writers from colonial times to the present, ranging from early slave narratives to the poetry of Amiri Baraka and the fiction of Ralph Ellison and Toni Morrison.
+            <br />
+            <em>
+             Meets general academic requirement D or L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             277, 278. Nationalism, Romanticism, &amp; American Literature
+            </strong>
+            <br />
+            A study of the first flourishing of American literature in the generation preceding the Civil War, focusing on such influential figures as Emerson, Hawthorne, Melville, Stowe, Thoreau, Poe, and Whitman.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement L (and W when offered as 278).
+            </em>
+           </p>
+           <p align="justify">
+            <span class="style24">
+             291, 292. Caribbean Writing
+             <br />
+            </span>
+            <span class="style21">
+             Nobel-prize laureate Derek Walcott has called Port-of-Spain, the capital of Trinidad, a "babel of shop signs and streets, mongrelized, polyglot, a ferment without a history, and a writer's heaven."&nbsp; Martinican writer, Edouard Glissant, speaks of the Caribbean itself as "a multiple series of relationships, a sea that exists within us with its weight of now revealed islands."&nbsp; This course will explore this range of differences and relationships as they are represented in the work of English, French, and Spanish-language writers from St. Lucia, Jamaica, Trinidad, Haiti, Antigua, Cuba, Dominica, Grenada, and Martinique, concentrating on the work of Walcott, V.S. Naipaul, Jean Rhys, Patrick Chamoiseau, and Jamaica Kincaid.&nbsp; Efforts will be made throughout both to untangle and respect the "polygot" nature of Caribbean experience, though all non-English works will be read in translation.
+             <br />
+             <em>
+              Meets general academic requirement L (and W when offered as 292).
+              <br />
+              <br />
+             </em>
+            </span>
+           </p>
+           <h4 class="style21">
+            ADVANCED COURSES
+           </h4>
+           <p class="style21">
+            Note:
+            <em>
+             All 300-level courses require the prerequisite of a 200-level ENG course.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style24">
+            MEDIEVAL AND EARLY MODERN LITERATURES
+           </h4>
+           <p align="justify">
+            <span class="style21">
+             <strong>
+              247, 248. Shakespeare
+             </strong>
+             <br />
+             A study of Shakespeare&rsquo;s work in different genres drawn from the full range of his career as poet and playwright and, occasionally, of one or two plays by his contemporaries. Plays are treated both as literary texts requiring close reading and as scripts designed for theatrical performance in public playhouses of Elizabethan and Jacobean England. Attention paid throughout to questions of gender and sexuality, authority in family and state, and drama as social expression.
+             <br />
+             <em>
+              Meets departmental Genealogies approach.
+             </em>
+             <br />
+             <em>
+              Meets general academic requirement L (and W when offered as 248).
+             </em>
+            </span>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             313, 314. Medieval Literature
+            </strong>
+            <br />
+            A broad-based study of the literature of the European Middle Ages. Readings will include selections from the romances of Chretien de Troyes,
+            <em>
+             the lais
+            </em>
+            of Marie de France, Dante&rsquo;s
+            <em>
+             Inferno
+            </em>
+            , Boccaccio&rsquo;s
+            <em>
+             Decameron, Sir Gawain and the Green Knight
+            </em>
+            , one of Chaucer&rsquo;s dream-visions, and a representative sampling of his
+            <em>
+             Canterbury Tales
+            </em>
+            . Alternate years.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 314.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             315, 316. The Renaissance Imagination
+            </strong>
+            <br />
+            A study of the writing and other popular art forms of Renaissance England with attention to the newly articulated stress on self and the emergence of Tudor England as a world power. Alternate years.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 316.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             317, 318. Lyric Traditions
+            </strong>
+            <br />
+            The course starts with forms and kinds of lyric poetry written before 1800 and then invites class members to consider how selected poets of the nineteenth, twentieth, and twenty-first centuries rework and reinvent these traditions.&nbsp; We will learn about various lyric traditions by experimenting with writing as well as reading them.&nbsp; You can expect to read poems by John Donne, Shakespeare, George Herbert, and Andrew Marvell, but also poems by Emily Dickinson, Allen Ginsberg, Hart Crane, Adrienne Rich, and others.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 318.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             321, 322. Shakespeare Reproduced
+            </strong>
+            <br />
+            A study of the reproduction of Shakespeare&rsquo;s plays on film and television and of the appropriation of Shakespeare&rsquo;s plays by modern playwrights, concentrating on the most adventurous recent work in these genres. Particular emphasis throughout on strategies of adaptation, substitution, and transformation.
+            <br />
+            <em>
+             Prerequisite: THR 100 Theatre &amp; Society or ENG 275 Theory &amp; Methods of English Study or permission of instructor.
+            </em>
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+             <br />
+             Meets general academic requirement W when offered as 322.
+            </em>
+            <br />
+            <br />
+            <strong>
+             323, 324. Renaissance Plays in Process
+            </strong>
+            <br />
+            This course will involve students in intensive semester-long research projects focused on the social, political, literary, and cultural conditions that informed the composition, structure, and production of one or two plays of the Elizabethan and Jacobean periods.&nbsp; As such, it will require students to perform hands-on research on subjects ranging from the status of women in Elizabethan England; established and evolving views on marriage; legal statutes and judicial practices; crime and punishment; the licensing and censorship of plays; attitudes toward homosexual practices; social mobility; the legal and social standing of citizens, apprentices, foreigners, and masterless men; etc.&nbsp; The plays we will focus on will be topically or historically oriented, either drawn from the annals of English history, e.g. Marlowe's
+            <em>
+             Edward II
+            </em>
+            , from the news of the day, or from pronounced social anxieties of the time, such as the fear of witches.&nbsp; The course will require students to develop a broad range of interpretive skills and encourage them to bring their enriched understanding of the plays into the present in the form of research papers, study guides, production histories, black-box performances, set-designs, and video projects.
+            <br />
+            <em>
+             Prerequisite: THR 100 Theatre &amp; Society or ENG 275 Theory &amp; Methods of English Study or permission of instructor.
+            </em>
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+            </em>
+            <em>
+             Meets general academic requirement W when offered as 324.
+             <br />
+            </em>
+            <br />
+            <strong>
+             325, 326. Milton and the Age of Revolution
+            </strong>
+            <br />
+            A study of Milton&rsquo;s major works, especially
+            <em>
+             Paradise Lost
+            </em>
+            , and his impact on later poets, most notably the visionary and revolutionary strain in English Romanticism. Other readings will focus on contexts for understanding this impact, such as the Bible, epic traditions, civil war and sectarian strife in seventeenth century England, colonialism, gender, and psychology.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 326.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             328. Staging the Restoration
+            </strong>
+            <br />
+            This course examines stagings of Restoration England. The first half of the course investigates Restoration Comedy in historical and theatrical context. Likely themes include the relationship between theatre and politics, the intersection of nationality and sexuality, and the shift from aristocratic to bourgeois cultural forms. The second half of the course examines recent theatrical and cinematic representations of the Restoration era. We will look at contemporary productions of Restoration plays, new plays set in the Restoration era, and feature films. The Restoration emerges as a period of sex, fashion, class struggle, and nascent imperialism. What is at stake in these representations for our own historical moment? Why stage the past to address the present?
+            <br />
+            <em>
+             Prerequisite: THR 100 Theatre &amp; Society or any 200-level ENG course or permission of instructor.
+            </em>
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+            </em>
+            <br />
+            <em>
+             Meets general academic requirement W.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style24">
+            NINETEENTH CENTURY
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             329, 330. Nineteenth Century British Fiction: The Marriage Plot
+            </strong>
+            <br />
+            This course will examine how novels in Britain represent and are constructed around the so-called marriage plot: the progression from courtship, through obstacles, to arrive at the altar&mdash;or not! This plot has always been popular for providing a scaffold for novels&mdash;witness the proliferation of shoddy romance novels on the shelves of supermarkets today. In this course, we will concentrate on how the marriage plot is figured during the nineteenth century in Britain, commonly thought of as the great age of the novel. We will be assuming that marriage is an institution that not only legitimizes and controls heterosexual desire but also guarantees the smooth transference of property and wealth from one generation to the next, the very cornerstone of patriarchal continuity. Texts may include Austen,
+            <em>
+             Pride &amp; Prejudice
+            </em>
+            ; Bronte,
+            <em>
+             Villette
+            </em>
+            ; Dickens,
+            <em>
+             Great Expectations
+            </em>
+            ; Eliot,
+            <em>
+             Mill on the Floss
+            </em>
+            ; Hardy,
+            <em>
+             Jude the Obscure
+            </em>
+            ; and a range of secondary readings by Mary Poovey, Nancy Armstrong, David Lodge, Eve Kosofsky Sedgewick, and others.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 330.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             331, 333. English Romanticism
+            </strong>
+            <br />
+            Explores the English Romantic movement as it develops in the work of William and Dorothy Wordsworth, Coleridge, Blake, Keats, Felicia Hemans, and the Shelleys. Among other works, readings will include
+            <em>
+             Visions of the Daughters of Albion
+            </em>
+            , &ldquo;The Rime of the Ancient Mariner,&rdquo;
+            <em>
+             Frankenstein
+            </em>
+            , and a more contemporary novel influenced by the Romantic writers. The course may also include dramatic readings and performances by guest artists. Attention will be paid to the relationship between the visual and verbal arts in poets like Blake and Keats.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 333.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             338, 339. City, Frontier, &amp; Empire in American Literature
+            </strong>
+            <br />
+            The course will focus on US literature produced in the late nineteenth and early twentieth centuries, from the post-civil war era to the years shortly after World War I. The most influential literature of this period stages the questions at issue for American national culture and identity with the rapid urbanization of the population, the closing of the frontier, and the expansion of an already existing ideology of empire. The generic strategies of Realism, Naturalism, and Modernism overlap and contest each other in the works we will read to push back against the massive, anxiety producing influences of pre-Civil War Romanticism. Readings will include Edith Wharton's
+            <em>
+             Age of Innocence
+            </em>
+            , Kate Chopin's
+            <em>
+             The Awakening
+            </em>
+            , Theodore Dreiser's
+            <em>
+             Sister Carrie
+            </em>
+            , Willa Cather's
+            <em>
+             My Antonia
+            </em>
+            , Charles Alexander Eastman's
+            <em>
+             From the Deep Woods to Civilization
+            </em>
+            , short stories by Stephen Crane, the last ("Deathbed") edition of Walt Whitman's
+            <em>
+             Leaves of Grass
+            </em>
+            , and other works.
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement W when offered as 339.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            3
+            <strong>
+             78, 379. The Death of the Sun: Energy, Elegy, &amp; Empire in Victorian Literature
+            </strong>
+            <br />
+            Scholars interested in the relation between science and literature have painted a rich picture of Darwin&rsquo;s century&mdash;a time when the social and cultural imagination is dominated by evolutionary biology. But the Victorians had a lot on their minds, and biology was not their only science. Fears regarding the death of the sun&mdash;the extinction of light and life in what was known as the &ldquo;heat death&rdquo; of the universe&mdash;suffused Victorian intellectual and popular thought, and these fears were fueled by a new science: the science of energy. This course explores the ways the ideas of this new science shaped and were shaped by nineteenth century literature. We consider the roots of the term &ldquo;energy&rdquo; in Romantic poetry and in social thought, as well as the ways a strong religious impulse&mdash;the belief that only God can destroy or create&mdash;led to the idea of &ldquo;the conservation of energy.&rdquo; We consider how the idea of conservation went hand-in-hand with widespread anxieties about loss, decay, and disorder&mdash;or what would come to be called &ldquo;entropy.&rdquo; Texts may include Alfred Lord Tennyson,
+            <em>
+             In Memoriam
+            </em>
+            ; H. G. Wells,
+            <em>
+             The Time Machine
+            </em>
+            ; Charles Dickens,
+            <em>
+             A Tale of Two Cities
+            </em>
+            ; Bram Stoker,
+            <em>
+             Dracula
+            </em>
+            ; Balfour Stewart and Norman Lockyer, &ldquo;The Sun as a Type of the Material Universe.&rdquo;
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement W when offered as 379.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             391, 392. Decadence: The Literature of the 1890s
+            </strong>
+            <br />
+            England in the 1890s was a place of great anxiety about a number of explosive issues. The power of the old imperial regime &ndash; and the stability of the Victorian ethos &ndash; were increasingly threatened by colonial insurrections; advancements in science, technology, and psychology; the collapse of a puritanical sexual order and the emergence of new sexualities; the political and social empowerment of women; various social and economic uncertainties; and the radically new aesthetic politics of the &ldquo;art for art&rsquo;s sake&rdquo; movement. The course will focus on cultural texts such as Max Nordau&rsquo;s
+            <em>
+             Degeneration
+            </em>
+            and various tracts about the &ldquo;New Woman,&rdquo; popular novels like Grant Allen&rsquo;s
+            <em>
+             The Woman Who Did
+            </em>
+            , as well as more canonical literature like Conrad&rsquo;s
+            <em>
+             Heart of Darkness
+            </em>
+            ; Robert Louis Stevenson&rsquo;s
+            <em>
+             The Strange Case of Dr. Jekyll and Mr. Hyde
+            </em>
+            ; H. G. Wells&rsquo;
+            <em>
+             The War of the Worlds
+            </em>
+            and Oscar Wilde&rsquo;s
+            <em>
+             The Picture of Dorian Gray and Salom&eacute;
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement W when offered as 392.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             397, 398. Gender, Sensation and the Novel
+            </strong>
+            <br />
+            A study of sensational novels from the early gothic and Victorian crime fiction through twentieth century romantic fantasy. We will pay special attention to how such texts work on the body of the reader, even as they contribute to social constructions of the body, gender, and sexuality. Readings include novels by Ann Radcliffe, Jane Austen, Wilkie Collins, Mary Elizabeth Braddon, and Georgette Heyer.
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+            </em>
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 398.
+             <br />
+             <br />
+            </em>
+           </p>
+           <h4 class="style21">
+            TWENTIETH AND TWENTY-FIRST CENTURY
+           </h4>
+           <p align="justify" class="style21">
+            <strong>
+             263, 264.&nbsp; Postwar British Theatre and Film
+            </strong>
+            <br />
+            This course explores what has been called the "second renaissance" of British drama &mdash; "the new drama" of 1956 and after &mdash; and the parallel British New Wave of cinema.&nbsp; We will begin by examining the cultural and social influences leading up to the "
+            <em>
+             annus mirabilis
+            </em>
+            " of 1956.&nbsp; We will then trace the emergence of John Osborne and other "Angry Young Men," and the development of a drama overtly engaged with issues of class, gender, and sexuality.&nbsp; We will then look at the ways these plays helped to revitalize the British cinema of the postwar era, creating a cinematic scene in which the free cinema and "kitchen sink" films of the 1950s gave way to the bold, taboo-breaking movies of the 1960s.&nbsp; Playwrights may include John Osborne, Arnold Wesker, Ann Jellicoe, Harold Pinter, Joe Orton, Edward Bond, and Shelagh Delaney.&nbsp; Films are likely to include
+            <em>
+             Billy Liar
+            </em>
+            ,
+            <em>
+             The Loneliness of the Long Distance Runner
+            </em>
+            ,
+            <em>
+             Alfie
+            </em>
+            ,
+            <em>
+             Tom Jones
+            </em>
+            ,
+            <em>
+             The Servant
+            </em>
+            ,
+            <em>
+             The Knack and How to Get It,
+            </em>
+            and
+            <em>
+             A Hard Day's Night
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement L (and W when offered as 264).
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             293. Living Writers
+            </strong>
+            <br />
+            This team-taught course focuses on the work of six well-known writers (of fiction, nonfiction, or poetry) who visit Muhlenberg to discuss their work, meet with students, and give a public reading. The class meets as one group on a weekly basis, either for a lecture or for a presentation by one of the visiting writers, and again in sections for discussions of each writer&rsquo;s work. Writers who have participated in this course include Peter Carey, Jonathan Franzen, Galway Kinnell, Philip Levine, Andrea Barrett, Robert Pinsky, Carolyn Forche, Paul Muldoon, David Bradley, Alice Fulton, and Jay Wright. Offered every three years.
+            <br />
+            <em>
+             Meets general academic requirement L.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             340, 341. European Novel in Translation
+            </strong>
+            <br />
+            A study in the development of the modern European novel that ranges from the groundbreaking work of such nineteenth century writers as Balzac, Flaubert, and Dostoyevsky to the later formal experiments of twentieth century authors like Kafka, Duras, and Kundera. Texts in question are assembled around the unifying focus of authority and desire. Alternate years.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 341.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             343, 344. Irish Literature
+            </strong>
+            <br />
+            An exploration of representative works in Irish literature by Catholic and Protestant, nationalist and Anglo-Irish, and canonical and non-canonical writers. Selection of texts will vary from semester to semester, sometimes sampling works, sometimes concentrating in a single genre. Topics will include the impact of British colonialism, nationalism and its appropriation of Irish myth, representations of gender, and colliding definitions of &ldquo;Irishness.&rdquo;
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+            </em>
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 344.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             345, 346. Contemporary Irish Drama
+            </strong>
+            <br />
+            This course focuses on contemporary Irish playwrights such as Brian Friel, Conor McPherson, Marina Carr, Stewart Parker, and Martin McDonagh in the context of the history of Irish drama as a vital national cultural tradition. From the Celtic Revivalists' plays at the founding of the Abbey Theatre, drama in Ireland has exerted shaping influence on the state as it has also provided a sensitive respondent to tumultuous events in Irish history. More than many cultures, the Irish are haunted by the past, and so we will be viewing the contemporary works as conversations that Irish writers today are staging with their own historical and more specifically their own theatrical ghosts (Yeats, Synge, O&rsquo;Casey, and Beckett at the least).
+            <br />
+            <em>
+             Prerequisite: THR 100 Theatre &amp; Society or ENG 275 Theory &amp; Methods of English Study or permission of instructor.
+            </em>
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+            </em>
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 346.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             347, 348. Modern British Fiction
+            </strong>
+            <br />
+            A study of British modernist fiction and formal experimentation from 1900 to 1950: stream of consciousness, open form, mythic plot patterns, poetic prose, alienation, and self-conscious and fragmented narration. Texts may include Conrad&rsquo;s
+            <em>
+             Heart of Darkness
+            </em>
+            ; Joyce&rsquo;s
+            <em>
+             A Portrait of the Artist as a Young Man
+            </em>
+            ; Ford Madox Ford&rsquo;s
+            <em>
+             The Good Soldier
+            </em>
+            ; Virginia Woolf&rsquo;s
+            <em>
+             To the Lighthouse
+            </em>
+            ; E. M. Forster&rsquo;s
+            <em>
+             A Passage to India
+            </em>
+            ; and D. H. Lawrence&rsquo;s
+            <em>
+             Women in Love
+            </em>
+            .
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 348.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             349, 350. Modern American Fiction
+            </strong>
+            <br />
+            A study of representative fiction published in the United States between the World Wars. Texts may include Anderson&rsquo;s
+            <em>
+             Winesburg, Ohio
+            </em>
+            ; Hemingway&rsquo;s
+            <em>
+             The Sun Also Rises
+            </em>
+            ; Fitzgerald&rsquo;s
+            <em>
+             The Great Gatsby
+            </em>
+            ; Faulkner&rsquo;s
+            <em>
+             Light in August
+            </em>
+            or
+            <em>
+             The Sound and the Fury
+            </em>
+            ; Hurston&rsquo;s
+            <em>
+             Their Eyes Were Watching God
+            </em>
+            ; Richard Wright&rsquo;s
+            <em>
+             Native Son
+            </em>
+            and Djuna Barnes&rsquo;
+            <em>
+             Nightwood
+            </em>
+            , along with selected short stories by these and other writers.
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement W when offered as 350.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             352, 353. Modern Poetry I: 1889-1945
+            </strong>
+            <br />
+            A study of English-language poetry published between 1889-1945, including texts by Eliot, Frost, Pound, Stevens, Williams, H.D., and Auden and of the social and political contexts of this work.
+            <br />
+            <em>
+             Meets departmental Genealogies approach.
+             <br />
+             Meets general academic requirement W when offered as 353.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             354, 355. Modern Poetry II: 1945-2000
+            </strong>
+            <br />
+            This course will look closely at some poets who began to publish in the 1950&rsquo;s and came of age later &ndash; after the passing of the generation of heroic modernists &ndash; Pound, Williams, Moore, Stevens, HD, Eliot &ndash; in the 1960&rsquo;s and 70&rsquo;s. Most of our class work will consist of intense discussion and close reading of poems. We will tackle such themes as the function of poetry in the contemporary world, public and private language, formalism and &ldquo;free&rdquo; verse, poetic voice and its relation to the self, issues of gender and sexual politics. We will consider poetry as a special kind of thinking. Texts will likely include Elizabeth Bishop&rsquo;s
+            <em>
+             Complete Poems
+            </em>
+            ; Ted Hughes&rsquo;
+            <em>
+             New and Selected Poems
+            </em>
+            ; Philip Levine&rsquo;s
+            <em>
+             What Work Is
+            </em>
+            ; Robert Lowell&rsquo;s
+            <em>
+             Life Studies &amp; For the Union Dead
+            </em>
+            ; Sylvia Plath&rsquo;s
+            <em>
+             Ariel
+            </em>
+            ; Adrienne Rich&rsquo;s
+            <em>
+             The Fact of a Doorframe
+            </em>
+            , and Jay Wright&rsquo;s
+            <em>
+             Boleros
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Transformations approach.
+            </em>
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 355.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             356, 357. Native American Literature
+            </strong>
+            <br />
+            A study of Native American fictional and autobiographical narratives since the late nineteenth century from five or six different nations and of the earlier, traditional oral tales and songs that shaped these narratives. Course focuses on language and structure and religious and philosophical positions that inform these texts. Texts may include Leslie Marmon Silko's
+            <em>
+             Ceremony
+            </em>
+            , Louise Erdrich's
+            <em>
+             Love Medicine
+            </em>
+            , Susan Power's
+            <em>
+             Roofwalker
+            </em>
+            , Sherman Alexie's
+            <em>
+             Indian Killer
+            </em>
+            , N. Scott Momaday's
+            <em>
+             House Made of Dawn
+            </em>
+            , and Linda Hogan's
+            <em>
+             People of the Whale
+            </em>
+            .
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement D (and W when offered as 357).
+            </em>
+            <br />
+            <br />
+            <strong>
+             365, 366.&nbsp;Contemporary Poetry
+            </strong>
+            <br />
+            A study of representative English language poetry published after 2000 in books and periodicals and performed at readings with particular attention to poetics and critical theory.
+            <br />
+            <em>
+             Meets general academic requirement W when offered as 366.
+            </em>
+            <br />
+            <br />
+            <strong>
+             373, 374. The Literary Marketplace
+            </strong>
+            <br />
+            A study of tensions between the reality of literature as a business and popular views of literary writing as an &ldquo;inspired&rdquo; individual activity, of writers as lone geniuses, &ldquo;prophets&rdquo;, &ldquo;priests&rdquo;, etc. and an examination of the implications of writers&rsquo; immersion in, dependence on, and resistance to the commercial, collaborative, and entrepreneurial conditions of literary production. Fulfills elective requirement of writing concentration.
+            <br />
+            <em>
+             Meets departmental Texts/Contexts approach.
+             <br />
+             Meets general academic requirement W when offered as 374.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             375. Postcolonial Literature
+            </strong>
+            <br />
+            A study of English language literatures in former British colonies&mdash;in Africa, the Caribbean, Australia, and the Indian subcontinent and its Diaspora&mdash;focusing on the work of such writers as Walcott, Gordimer, Naipaul, Rushdie, and Soyinka, variously taught as a survey of these literatures or as a more concentrated study of the literature of one or two nations or regions. Alternate years.&nbsp;
+            <br />
+            Meets departmental Transformations approach.
+            <br />
+            <em>
+             Meets general academic requirement D.
+            </em>
+            <br />
+            <br />
+            &nbsp;
+            <strong>
+             395,396. Literature &amp; Film of the Cold War
+            </strong>
+            <br />
+            With the destruction of the Berlin Wall in 1989, the Cold War came to an end, but the legacy and meaning of the Cold War for the present global scene and for U.S. national culture are still being debated. The central tension between the ideologies, economies, and imagined identities of "the West" &ndash; the U. S. in particular &ndash; and the U.S.S.R. has left its imprint on contemporary culture in many ways.&nbsp; In this course we will study narratives that imaginatively explore dimensions of the forty year global tension in a variety of locations at different moments of Cold War history.&nbsp; The novels, short stories, and films dramatize the history, politics, psychology, aesthetics, and epistemologies that characterized the long-lived rivalry between the Soveits and the Americans.&nbsp; While the majority of the narratives were produced in the United States and England, only some of them confirm mainstream U.S. views of the War.&nbsp; Studying these narratives will help to demonstrate the permeations of the global tension in domestic scenes, in diplomatic and postcolonial situations, in military settings, and in other domains of ordinary life.&nbsp; Novels may include Graham Green's
+            <em>
+             The Quiet American
+            </em>
+            (1955), Don DeLillo's
+            <em>
+             Libra
+            </em>
+            (1988), and E. L. Doctorow's
+            <em>
+             Book of Daniel
+            </em>
+            (1971).&nbsp; Films may include John Frankenheimer's "The Manchurian Candidate" (1962), Martin Ritt's "The Spy Who Came In From the Cold" (1965), Stanley Kubrick's "Dr. Strangelove" (1964), Emile de Antionio's "McCarthy: Death of a Witch Hunter" (1986), George Clooney's "Good Night and Good Luck" (2005), Francis Ford Coppola's "Apocalypse Now" (1979), and Oliver Stone's "JFK" (1992).
+            <br />
+            <br />
+           </p>
+           <h4 class="style24">
+            TUTORIALS AND SEMINARS
+           </h4>
+           <p class="style21">
+            Admission to these courses requires prior arrangement, instructor permission, or advanced class standing.
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             298. Writing Theory
+            </strong>
+            <br />
+            A required course open only to students who have been selected to serve as Writing Center tutors and Writing Assistants. The course will focus (1) on writing, reading, and evaluating analytic and literary essays and (2) on writing theory and how various theories translate into classroom and one-on-one tutorial practice. In addition, students will spend an hour a week in the Writing Center, first observing tutorial sessions, then co-tutoring, and finally tutoring students one-on-one.
+            <br />
+            <em>
+             Prerequisite: instructor permission.
+             <br />
+             Meets general academic requirement W.
+            </em>
+           </p>
+           <p align="justify" class="style21">
+            <strong>
+             400-449. CUE:&nbsp; Seminar in English
+            </strong>
+            <br />
+            English Department seminars are offered once or twice a semester by different members of the department on a rotating basis. They are required of all senior English majors and may also be taken by juniors with instructor permission.
+            <br />
+            <em>
+             Meets general academic requirement W.
+            </em>
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            English
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/english/">
+            Home
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/english/courses/">
+             Courses
+            </a>
+           </span>
+           <ul class="multilevel-linkul-0">
+            <li>
+             <a href="/main/academics/english/courses/philosophycurriculum/">
+              Philosophy &amp; Curriculum
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/english/courses/majorandminorrequirements/">
+              Major and Minor Requirements
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/english/courses/specialprograms/">
+              Special Programs
+             </a>
+            </li>
+            <li>
+             <a href="/main/academics/english/courses/outcomes/">
+              Outcomes
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/main/academics/english/faculty/">
+            Faculty
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/english/specialevents/">
+            Special Events
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/english/creativewriting/">
+            Creative Writing
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/english/alumni/">
+            Alumni
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/english/links/">
+            Links
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/english/courses/"&gt;Courses&lt;/a&gt;&lt;/span&gt;
+&lt;ul class="multilevel-linkul-0"&gt;
+&lt;li&gt;&lt;a href="/main/academics/english/courses/philosophycurriculum/"&gt;Philosophy &amp; Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/english/courses/majorandminorrequirements/"&gt;Major and Minor Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/english/courses/specialprograms/"&gt;Special Programs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/main/academics/english/courses/outcomes/"&gt;Outcomes&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/english/faculty/"&gt;Faculty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/english/specialevents/"&gt;Special Events&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/english/creativewriting/"&gt;Creative Writing&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/english/alumni/"&gt;Alumni &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/english/links/"&gt;Links&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students, the course in Documentary Research is their first foray into making media.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

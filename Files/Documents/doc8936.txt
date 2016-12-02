@@ -1,0 +1,1175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Center for Ethics: Memory and Forgetting (2011-2012)  - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 599577;
+			mySID = 4944409;
+			var myGNAME = "Center+for+Ethics%3A+Memory+and+Forgetting+%282011-2012%29+";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Center for Ethics: Memory and Forgetting (2011-2012)
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         May 27, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/centerforethics2011">
+          http://libraryguides.muhlenberg.edu/centerforethics2011
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=599577">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+          <br />
+          IM: refcannon (AIM, Yahoo)
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=599577&amp;sid=4944409">
+       Home
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_4944409" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321432" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Stephanie Coontz (September 28)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Stephanie Coontz
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        "The American Family.&rdquo;
+        <em>
+         Life
+        </em>
+        22.12 (1999): 79-82. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=2377451&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         The Way We Never Were: American Families and the Nostalgia Trip
+        </em>
+        . New York, NY: BasicBooks, 1992. Available in Trexler Library
+        <a href="http://library.muhlenberg.edu/search%7ES0/?searchtype=t&amp;searcharg=way+we+never+were&amp;SORT=D&amp;extended=0&amp;SUBMIT=Search&amp;searchlimits=&amp;searchorigarg=tway+we+never+were">
+         call # 516.204 L788g
+        </a>
+       </p>
+       <p>
+        "Review: Complicating the Contested Terrain of Work/Family Intersections. &rdquo;
+        <em>
+         Signs
+        </em>
+        22.2 (1997) : 440-452. Available
+        <a href="http://0-www.jstor.org.library.muhlenberg.edu/stable/3175284">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Why American Families Need the Census."
+        <em>
+         Annals of the American Academy of Political &amp; Social Science
+        </em>
+        631.(2010): 141-149. Available
+        <a href="http://0-ann.sagepub.com.library.muhlenberg.edu/content/631/1/141.abstract">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Stephanie Coontz, plus Interviews
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         About Stephanie Coontz
+        </em>
+        . 2005. Web. 11 July, 2011. Available
+        <a href="http://www.stephaniecoontz.com/about.htm">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Dykstra, Katherine. &ldquo;Parts and Partial [ Interview with Stephanie Coontz about the American Family].&rdquo;
+        <em>
+         Guernica
+        </em>
+        . 1 Sept 2011. Web. 2 Sept 2011. Available
+        <a href="http://www.guernicamag.com/interviews/3023/stephanie_coontz_interview_9_1_11/">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Nostalgia and the Concept of the Family
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Cassuto, Leonard. &ldquo;The Real-Life Myth of the American Family [review of
+        <em>
+         The Way We Never Were
+        </em>
+        ].&rdquo;
+        <em>
+         American Literary History
+        </em>
+        20.3 (2008): 487-496. Available
+        <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/american_literary_history/v020/20.3.levine.pdf">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Cunningham, Mick. "Changing Attitudes toward the Male Breadwinner, Female Homemaker Family Model: Influences of Women's Employment and Education over the Lifecourse."
+        <em>
+         Social Forces
+        </em>
+        87.1 (2008): 299-323. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=35369778&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Lundberg, Shelly, and Robert A Pollak. "The American Family and Family Economics."
+        <em>
+         Journal of Economic Perspectives
+        </em>
+        21.2 (2007): 3-26. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=25264886&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Skolnick, Arlene S.
+        <em>
+         Embattled Paradise: The American Family in an Age of Uncertainty
+        </em>
+        . New York: Basic Books, 1991. Available in Trexler Library
+        <a href="http://library.muhlenberg.edu/search%7ES0?/dFamily+--+United+States+--+History+--+20th+centur/dfamily+united+states+history+++20th+century/-3,-1,0,B/frameset&amp;FF=dfamily+united+states+history+++20th+century&amp;2,,6">
+         call # 306.850973 S628e
+        </a>
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321498" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Jonah Lehrer (October 5)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Jonah Lehrer
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         How We Decide
+        </em>
+        . Boston: Houghton Mifflin, 2009. Available at Trexler Library, call number
+        <strong>
+         <a href="http://library.muhlenberg.edu/search%7ES0?/thow+we+decide/thow+we+decide/1,3,4,B/frameset&amp;FF=thow+we+decide&amp;1,1,">
+          153.83 L524h.
+         </a>
+        </strong>
+       </p>
+       <p>
+        <em>
+         Proust Was a Neuroscientist
+        </em>
+        . Boston: Houghton Mifflin, 2007. Available at Trexler Library, call number
+        <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=proust+was+a+neuroscientist&amp;SORT=D&amp;search=Search">
+         700.105 L524p
+        </a>
+        .
+       </p>
+       <p>
+        "The Truth Wears Off."
+        <em>
+         New Yorker
+        </em>
+        86.40 (2010): 52-57. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=55695642&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Think Better: Tips from a Savant."
+        <em>
+         Scientific American Mind
+        </em>
+        20.2 (2009): 61-63. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=37837592&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Unlocking the Mysteries of the Artistic Mind."
+        <em>
+         Psychology Today
+        </em>
+        42, no. 4 (July 2009): 72-77. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=42749210&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Jonah Lehrer
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Jonah Lehrer
+        </em>
+        . n.d. Web. 12 July 2011. Available
+        <a href="http://www.jonahlehrer.com/about">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the Science of Memory
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Boyer, Pascal, and James V. Wertsch, eds.
+       <em>
+        Memory in Mind and Culture
+       </em>
+       . New York: Cambridge University Press, 2009. Available at Trexler Library, call number
+       <a href="http://library.muhlenberg.edu/search%7ES0?/dMemory+--+Social+aspects/dmemory+social+aspects/-3,-1,0,B/frameset&amp;FF=dmemory+social+aspects&amp;10,,17">
+        153.12 M533i.
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Brainerd, Charles J.
+       <em>
+        The Science of False Memory
+       </em>
+       . New York: Oxford University Press, 2005. Available at Trexler Library, call number &nbsp;
+       <a href="http://library.muhlenberg.edu/search%7ES0?/Xd%3A%28memory%29&amp;Da=2003&amp;Db=&amp;SORT=D/Xd%3A%28memory%29&amp;Da=2003&amp;Db=&amp;SORT=D&amp;SUBKEY=d%3A%28memory%29/51,63,63,B/frameset&amp;FF=Xd%3A%28memory%29&amp;Da=2003&amp;Db=&amp;SORT=D&amp;52,52,">
+        616.89 B814s.
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Fahey, John A., and Gilberto De Los Santos. &ldquo;Memory Improvement and Research Related to the Science of Memory.&rdquo;
+       <em>
+        Education
+       </em>
+       123.2 (2002) : 380+. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=9134841&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Glaskin, Katie. &ldquo;Dreams, Memory, and the Ancestors: Creativity, Culture, and the Science of Sleep.&rdquo;
+       <em>
+        Journal of the Royal Anthropological Institute
+       </em>
+       17.1 (2011) : 44-62. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=57828796&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Loftus, Elizabeth. &ldquo;Science and Society: Our Changeable Memories: Legal and Practical Implications.&rdquo;
+       <em>
+        Nature Reviews Neuroscience
+       </em>
+       4.3 (2003) : 231+. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=9220413&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Quas, Jodi A., et al, eds.
+       <em>
+        Emotion and Memory in Development: Biological, Cognitive,and Social Considerations
+       </em>
+       . Oxford: Oxford University Press, 2009. Print. Available at Trexler Library, call number (&nbsp;
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c155.41312+E54a/c155.41312+e54a/-3,-1,,E/browse">
+        155.41312 E54a
+       </a>
+       ).
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321527" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      National Memorials and Museums (October 15)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works about Memorials and Museums as National Memory
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Ater, Ren&eacute;e. "Slavery and Its Memory in Public Monuments."
+        <em>
+         American Art
+        </em>
+        24.1 (2010): 20-23. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=49036635&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+       </p>
+       <p>
+        Barnes, John. "The Struggle to Control the Past: Commemoration, Memory, and the Bear River Massacre of 1863."
+        <em>
+         Public Historian
+        </em>
+        30.1 (2008): 81-104. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=31718189&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Dupr&eacute;, Judith.
+        <em>
+         Monuments: America's history in art and memory.
+        </em>
+        New York: Random House, 2007. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search%7ES0?/tmonuments/tmonuments/1,20,20,B/frameset&amp;FF=tmonuments+americas+history+in+art+and+memory&amp;1,1,">
+          973 D942m
+         </a>
+        </strong>
+        .
+       </p>
+       <p>
+        Janney, Caroline E. "War over a Shrine of Peace: The Appomattox Peace Monument and Retreat from Reconciliation."
+        <em>
+         Journal of Southern History
+        </em>
+        77.1 (2011): 91-120. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=57671213&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Shackel, Paul, ed.
+        <em>
+         Myth, Memory, and the Making of the American Landscape
+        </em>
+        . Gainesville: University Press of Florida, 2001. Available at Trexler Library, call number
+        <a href="http://library.muhlenberg.edu/search%7ES0?/dMonuments+--+United+States/dmonuments+united+states/-3,-1,0,B/frameset&amp;FF=dmonuments+united+states&amp;4,,4">
+         973 S524m.
+        </a>
+       </p>
+       <p>
+        Theriault, Kim Servart. "Re-membering Vietnam: War, Trauma, and &ldquo;Scarring Over&rdquo; After &ldquo;The Wall&rdquo;."
+        <em>
+         Journal of American Culture
+        </em>
+        26.4 (2003): 421-431. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=11210251&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321535" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Jeffrey Olick and Philip Gourevitch (October 19)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Jeffrey Olick
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         The Politics of Regret: On Collective Memory and Historical Responsibility
+        </em>
+        . New York: Routledge, 2007. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=politics+of+regret&amp;SORT=D&amp;search=Search">
+          303.601 O46p
+         </a>
+        </strong>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works by Philip Gourevitch
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        "Climbers."
+        <em>
+         New Yorker
+        </em>
+        87.20 (2011): 64-79. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=62548341&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        &ldquo;The Life After.&rdquo;
+        <em>
+         The New Yorker
+        </em>
+        85.12 (2009): 36-49. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=38592208&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         We Wish to Inform You That Tomorrow We Will Be Killed With Our Families: Stories From Rwanda
+        </em>
+        . New York: Farrar, Straus, and Giroux, 1998. Available at Trexler Library, call number:
+        <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=we+wish+to+inform+you+that&amp;SORT=D&amp;search=Search">
+         364.151 G714w
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Jeffrey Olick and Philip Gourevitch
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Jeffrey Olick
+        </em>
+        . University of Virginia Dept. of Sociology, n.d. Web. 12 July 2011. Available
+        <a href="http://www.virginia.edu/sociology/peopleofsociology/jolick.htm">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         Philip Gourevitch, U.S.
+        </em>
+        Lettre Ulysses Award for the Art of Reportage, 2003. Web. 12 July 2011. Available
+        <a href="http://www.lettre-ulysses-award.org/jury03/gourevitch.html">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Collective Memory and National Trauma
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Caruth, Cathy.
+       <em>
+        Unclaimed Experience: Trauma, Narrative and History
+       </em>
+       . The Johns Hopkins University Press, 1996. ON ORDER for Trexler Library.
+      </p>
+      <p style="padding-left: 30px;">
+       Friedlander, Saul.
+       <em>
+        Probing the Limits of Representation: Nazism and the &ldquo;Final Solution.&rdquo;
+       </em>
+       Harvard University Press, 1992. ON ORDER for Trexler Library.
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Ghosts of Rwanda
+       </em>
+       . Dir. Greg Barker. PBS Video, 2004. DVD. Available at Trexler Library, call number:
+       <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=ghosts+of+rwanda&amp;SORT=D&amp;search=Search">
+        AV ALCOVE 967.57104 G427o
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Hirsch, Marianne.
+       <em>
+        Family Frames: Photography, Narrative, and Postmemory
+       </em>
+       . Harvard University Press, 1997. ON ORDER for Trexler Library.
+      </p>
+      <p style="padding-left: 30px;">
+       Huyssen, Andreas.
+       <em>
+        Present Pasts: Urban Palimpsests and the Politics of Memory
+       </em>
+       . 1st ed. Stanford University Press, 2003.&nbsp; Available in Trexler Library, call #
+       <a href="http://library.muhlenberg.edu/search%7ES0/?searchtype=t&amp;searcharg=present+pasts&amp;SORT=D&amp;extended=0&amp;SUBMIT=Search&amp;searchlimits=&amp;searchorigarg=tfamily+frames">
+        901 H988p
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Kaplan, Harold.
+       <em>
+        Conscience and Memory: Meditations in a Museum of the Holocaust.
+       </em>
+       Chicago: University of Chicago Press, 1994. Available at Trexler Library, call number:
+       <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=conscience+and+memory&amp;SORT=D&amp;search=Search">
+        940.5318 K17c
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       King, Elisabeth. &ldquo;Memory Controversies in Post-Genocide Rwanda.&rdquo;
+       <em>
+        Genocide Studies and Prevention
+       </em>
+       5.3 (2010): 293-309. Available
+       <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/genocide_studies_and_prevention/v005/5.3.king.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Lupu, Noam. &ldquo;Memory Vanished, Absent, and Confined: The Countermemorial Project in 1980s and 1990s Germany.&rdquo;
+       <em>
+        History &amp; Memory
+       </em>
+       15.2 (2003): 130-164. Available
+       <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/history_and_memory/v015/15.2lupu.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Rothberg, Michael.
+       <em>
+        Traumatic Realism: The Demands of Holocaust Representation
+       </em>
+       . 1st ed. Univ Of Minnesota Press, 2000. ON ORDER for Trexler Library.
+      </p>
+      <p style="padding-left: 30px;">
+       Spargo, R. Clifton.
+       <em>
+        Vigilant Memory: Emmanuel Levinas, the Holocaust, and the Unjust Death
+       </em>
+       . 1st ed. The Johns Hopkins University Press, 2006.&nbsp; ON ORDER for Trexler Library.
+      </p>
+      <p style="padding-left: 30px;">
+       Zelizer, Barbie.
+       <em>
+        Remembering to Forget: Holocaust Memory Through the Camera&rsquo;s Eye
+       </em>
+       . 1st ed. University Of Chicago Press, 2000. Available at Trexler Library, call #
+       <a href="http://library.muhlenberg.edu/search%7ES0/?searchtype=t&amp;searcharg=remembering+to+forget&amp;SORT=D&amp;extended=0&amp;SUBMIT=Search&amp;searchlimits=&amp;searchorigarg=tvigilant+memory">
+        940.5318 Z49r
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321549" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Eric Strange (week of Oct. 31)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Eric Strange
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         The War That Made America
+        </em>
+        . PBS Home Video, 2006. DVD. Available at Trexler Library, call number
+        <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=war+that+made+america&amp;SORT=D&amp;search=Search">
+         AV ALCOVE 973.26 W253t.
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Eric Strange and His Films
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Barr, Daniel P., and Robert Brent Toplin. "The War That Made America: The Story of the French and Indian War."
+        <em>
+         Journal of American History
+        </em>
+        93.3 (2006): 968-969. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=23507309&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        &ldquo;A Conversation about the PBS film &lsquo;The War That Made America&rsquo;.&rdquo;
+        <em>
+         The Charlie Rose Show
+        </em>
+        . PBS. 17 January 2006. Available
+        <a href="http://www.charlierose.com/view/interview/581">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Visual Represention of Historical Subjects
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Beattie, Keith. "From City Symphony to Global City Film: Documentary Display and the Corporeal."
+       <em>
+        Screening the Past: An International, Refereed, Electronic Journal of Visual Media &amp; History
+       </em>
+       20 (2006): 17+. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=44370463&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Donato, Raffaele. "Docufictions: an interview with Martin Scorsese on documentary film."
+       <em>
+        Film History
+       </em>
+       19.2 (2007): 199-207. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=25886998&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Orgeron, Marsha, and Devin Orgeron. "Familial Pursuits, Editorial Acts: Documentaries after the Age of Home Video."
+       <em>
+        Velvet Light Trap: A Critical Journal of Film &amp; Television
+       </em>
+       60 (2007): 47-62. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=27057986&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Strout, Lawrence N. "The Edward R. Murrow of Docudramas and Documentary."
+       <em>
+        Media History Monographs
+       </em>
+       12.1 (2010): 1-21. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ahl&amp;AN=51078550&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321562" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Marie-Celie Agnant, Gabri Christa, and Lynn Nottage (November 10)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Marie-Celie Agnant
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Le livre d'Emma: Roman
+        </em>
+        . La Roque d'Anth&eacute;ron: Vents d'ailleurs, 2004. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=livre+d%27Emma&amp;SORT=D&amp;search=Search">
+          843.914 A271L
+         </a>
+        </strong>
+        .
+       </p>
+       <p>
+        <em>
+         Le silence comme le sang
+        </em>
+        . Montr&eacute;al, Qu&eacute;bec: Editions du Remue-m&eacute;nage, 2002. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=silence+comme+le+sang&amp;SORT=D&amp;search=Search">
+          843.914 A271s.
+         </a>
+        </strong>
+       </p>
+       <p>
+        <em>
+         La dot de Sara
+        </em>
+        . Montr&eacute;al, Qu&eacute;bec: Editions du Remue-M&eacute;nage, 1995. Available at Trexler Library, call number:
+        <strong>
+         &nbsp;
+         <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=dot+de+Sara&amp;SORT=D&amp;search=Search">
+          843.914 A271d
+         </a>
+        </strong>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works by Gabri Christa
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         ANOTHER BUILDING dancing:
+        </em>
+        Making
+        <em>
+         Quarantine
+        </em>
+        and
+        <em>
+         Savoneta." S&amp;F Online
+        </em>
+        7.2 (Spring 2009). Web. 17 Oct. 2011. Available
+        <a href="http://barnard.edu/sfonline/africana/christa_01.htm">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works by Lynn Nottage
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Ruined
+        </em>
+        . New York: Dramatist's Play Service, 2010. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search%7ES0?/truined/truined/1,4,4,B/frameset&amp;FF=truined&amp;1,1,">
+          812.54 N918r
+         </a>
+         .
+        </strong>
+       </p>
+       <p>
+        <em>
+         Intimate Apparel
+        </em>
+        ,
+        <em>
+         Fabulation
+        </em>
+        . New York: Theatre Communications Group, 2006. Available at Trexler Library, call number:
+        <strong>
+         <a href="http://library.muhlenberg.edu/search%7ES0?/tintimate+apparel/tintimate+apparel/1,2,2,B/frameset&amp;FF=tintimate+apparel+fabulation+or+the+re+education+of+undine&amp;1,1,">
+          812.54 N918i
+         </a>
+        </strong>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Agnant, Christa, and Nottage
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Gabri Christa.
+        </em>
+        n.d. Web. 23 July 2011. Available
+        <a href="http://danzaisa.org/bio.html">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         Official Website for Lynn Nottage, Award-Winning African-American Playwright
+        </em>
+        . 2006. Web. 23 July 2011. Available
+        <a href="http://www.lynnnottage.net/about.html">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Artistic Remembrance of the African Diaspora in the Americas and the Caribbean
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        The African Diaspora: A Musical Perspective
+       </em>
+       . New York: Garland Pub, 2000. Available at Trexler Library, call number:
+       <a href="http://library.muhlenberg.edu/search%7ES0?/XAfrica*+diaspora&amp;SORT=D/XAfrica*+diaspora&amp;SORT=D&amp;SUBKEY=Africa*%20diaspora/1,87,87,B/frameset&amp;FF=XAfrica*+diaspora&amp;SORT=D&amp;5,5,">
+        780.899621 M755a.
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Carter, Donald Martin.
+       <em>
+        Navigating the African Diaspora: The Anthropology of Invisibility
+       </em>
+       . Minneapolis: University of Minnesota Press, 2010. Available at Trexler Library, call number:
+       <a href="http://library.muhlenberg.edu/search%7ES0?/XAfrica*+diaspora&amp;SORT=D/XAfrica*+diaspora&amp;SORT=D&amp;SUBKEY=Africa*%20diaspora/1,87,87,B/frameset&amp;FF=XAfrica*+diaspora&amp;SORT=D&amp;1,1,">
+        305.896 C323n.
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        The New African Diaspora
+       </em>
+       . Bloomington: Indiana University Press, 2009. Available at Trexler Library, call number:
+       <a href="http://library.muhlenberg.edu/search%7ES0?/XAfrica*+diaspora&amp;SORT=D/XAfrica*+diaspora&amp;SORT=D&amp;SUBKEY=Africa*%20diaspora/1,87,87,B/frameset&amp;FF=XAfrica*+diaspora&amp;SORT=D&amp;2,2,">
+        305.896 N532a.
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321574" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Friedrich St. Florian (November 15)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Friedrich St. Florian
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Friedrich St. Florian Architects
+        </em>
+        . Web. 23 Aug 2011. Available
+        <a href="http://www.fstflorian.com/">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Friedrich St. Florian
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        &ldquo;Friedrich St. Florian.&rdquo;
+        <em>
+         David Winton Bell Gallery, Brown University
+        </em>
+        . May 2006. Web. 23 July 2011. Available
+        <a href="http://www.brown.edu/Facilities/David_Winton_Bell_Gallery/Florian.html">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the Role of Architecture in Public Memory and History
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       National Coalition to Save Our Mall.
+       <em>
+        The World War II Memorial Defaces a National Treasure
+       </em>
+       . Web. 26 Aug 2011. Available
+       <a href="http://www.savethemall.org/wwii/index.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Pickford, Henry W. &ldquo;Conflict and Commemoration: Two Berlin Memorials.&rdquo;
+       <em>
+        Modernism/Modernity
+       </em>
+       12.1 (2005): 133-173. Available
+       <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/modernism-modernity/v012/12.1pickford.html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Shackel, Paul A. &ldquo;Public memory and the search for power in American historical archaeology.&rdquo; American Anthropologist 103.3 (2001): 655-670. Available
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=5949748&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

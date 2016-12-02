@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Study Abroad - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 686537;
+			mySID = 5695309;
+			var myGNAME = "Study+Abroad";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Study Abroad
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Oct 27, 2015
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/StudyAbroad">
+          http://libraryguides.muhlenberg.edu/StudyAbroad
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_desc_row">
+        <td class="guide_label">
+         Description:
+        </td>
+        <td class="guide_val">
+         Resource guide for Muhlenberg students who are studying abroad.
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=686537">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Tina Hertel
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          General, Administration, Study Abroad
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:thertel@muhlenberg.edu">
+           thertel@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_twitter_row">
+         <td class="profile_label">
+          Twitter:
+         </td>
+         <td class="profile_val">
+          <a href="http://twitter.com/@serendipitina">
+           http://twitter.com/@serendipitina
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3550
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=686537&amp;sid=5695309">
+       Home
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_5695309" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_21449031" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      World Clock
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <span class="wtb-ew-v1" style="width: 204px; display: inline-block;">
+        <span class="wtb-ew-v1" style="width: 204px; display: inline-block;">
+         <script src="http://www.worldtimebuddy.com/clock_widget.js?h=5178127&amp;bc=880015&amp;cn=%40+Muhlenberg&amp;wt=c1" type="text/javascript">
+         </script>
+         <i>
+          <a href="http://www.worldtimebuddy.com/">
+           World Clock
+          </a>
+         </i>
+        </span>
+       </span>
+      </p>
+      <noscript>
+       <a href="http://www.worldtimebuddy.com/">
+        World Clock
+       </a>
+      </noscript>
+      <p>
+       <span class="wtb-ew-v1" style="width: 204px; display: inline-block;">
+        <script type="text/javascript">
+         // &lt;![CDATA[
+window[wtb_event_widgets.pop()].init()
+// ]]&gt;
+        </script>
+       </span>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21449017" class="content_box content_box_5">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Travel Alerts and Warmings
+     </div>
+     <ul class="lg_rss_list">
+      <li class="lg_rss_list_item">
+       <div class="rsspod_title">
+        <a href="http://feeds.travel.state.gov/~r/ca/travelwarnings-alerts/~3/wd-Wy3GspA8/turkey-travel-warning.html" target="_blank" onmouseover="javascript:showLinkDesc(event,'The U.S. Department of State continues to warn U.S. citizens of increased threats from terrorist groups throughout Turkey.  U.S. citizens should avoid travel to southeast Turkey and carefully consider the risks of travel to and throughout the&nbsp;country.&nbsp; The U.S. Department of State is updating this Travel Warning to reflect the October 29, 2016, decision to order the departure of family members of employees posted to the U.S. Consulate General in Istanbul, Turkey.&nbsp; The Department of State made this decision based on security information indicating extremist groups are continuing aggressive efforts to attack U.S. citizens in areas of Istanbul where they reside or frequent.&nbsp; The Consulate General remains open and fully staffed.&nbsp;This order applies only to the U.S. Consulate General in Istanbul, not to other U.S. diplomatic posts in Turkey.&nbsp; The Department continues to monitor the effect of these developments on the overall security s...',400,5)" onmouseout="return hideLinkDesc()">
+         Turkey Travel Warning
+        </a>
+       </div>
+      </li>
+      <li class="lg_rss_list_item">
+       <div class="rsspod_title">
+        <a href="http://feeds.travel.state.gov/~r/ca/travelwarnings-alerts/~3/zWwJ18Te4l4/ethiopia-travel-warning.html" target="_blank" onmouseover="javascript:showLinkDesc(event,'The U.S. Department of State warns U.S. citizens to defer all non-essential travel to Ethiopia due to ongoing unrest that has led to hundreds of deaths, thousands of arrests, as well as injuries and extensive property damage, especially in Amhara and Oromia States.The U.S. Embassy&rsquo;s ability to provide consular services in many parts of the country is limited by the current security situation.The Government of Ethiopia declared a State of Emergency effective October 8, 2016. An October 15 decree states that individuals may be arrested without a court order for activities they may otherwise consider routine, such as communication, consumption of media, attending gatherings, engaging with certain foreign governments or organizations, and violating curfews. The decree prohibits U.S. and other foreign diplomats from traveling farther than 40 kilometers outside of Addis Ababa without prior approval from the Government of Ethiopia, which severely affects the U.S. Embassy&amp;rsqu...',400,5)" onmouseout="return hideLinkDesc()">
+         Ethiopia Travel Warning
+        </a>
+       </div>
+      </li>
+      <li class="lg_rss_list_item">
+       <div class="rsspod_title">
+        <a href="http://feeds.travel.state.gov/~r/ca/travelwarnings-alerts/~3/G8kDIkOL4xk/central-african-republic-travel-warning.html" target="_blank" onmouseover="javascript:showLinkDesc(event,'The Department of State warns U.S. citizens to avoid travel to the Central African Republic (CAR) due to an unpredictable security situation subject to rapid deterioration, activities of armed groups, and violent crime.We urge U.S. citizens who are currently in CAR to consider departing. U.S. citizens in CAR who require consular assistance should contact the U.S. Embassy in Yaounde, Cameroon. This replaces the Travel Warning dated April 14, 2016.The potential for sectarian violence remains high. Indiscriminate violence and looting has occurred in CAR since the overthrow of the government in March 2013. Despite the peaceful election of a new president in 2016 and the continued presence of a United Nations stabilization force, the security situation remains fragile. In the event of unrest, airport, land border, and road closures may occur with little or no notice.For further information:See the&nbsp;State Department\'s travel website&nbsp;for the&nbsp;Worldwide Cautio...',400,5)" onmouseout="return hideLinkDesc()">
+         Central African Republic Travel Warning
+        </a>
+       </div>
+      </li>
+      <li class="lg_rss_list_item">
+       <div class="rsspod_title">
+        <a href="http://feeds.travel.state.gov/~r/ca/travelwarnings-alerts/~3/DLoIcmaLULM/the-bahamas-travel-warning.html" target="_blank" onmouseover="javascript:showLinkDesc(event,'The Department of State alerts U.S. citizens that Hurricane Matthew has passed through The Bahamas and Turks and Caicos Islands, and the Embassy has resumed normal operations.The authorized departure of family members of U.S. Embassy employees stationed in Nassau has been lifted. The Department of State has lifted the Travel Warning for New Providence Island (including Nassau and Paradise Island) and the rest of the Bahamas except for Grand Bahama Island and North Andros, where the Travel Warning remains in place. This is an update to the Travel Warning issued on October 1, 2016.Conditions on Grand Bahama Island, including the city of Freeport, and the North Andros area, are distinct from the rest of the country. The power grids in these areas have not yet been fully restored and communications remain difficult due to limited landline and cellular coverage. Authorized departure of&nbsp; U.S. government employees stationed on Grand Bahama, as well as their family members, remain ...',400,5)" onmouseout="return hideLinkDesc()">
+         The Bahamas Travel Warning
+        </a>
+       </div>
+      </li>
+      <li class="lg_rss_list_item">
+       <div class="rsspod_title">
+        <a href="http://feeds.travel.state.gov/~r/ca/travelwarnings-alerts/~3/PtW9SkxmLyw/syria-travel-warning.html" target="_blank" onmouseover="javascript:showLinkDesc(event,'The Department of State continues to warn U.S. citizens against all travel to Syria and strongly recommends that U.S. citizens remaining in Syria depart immediately.The security situation remains dangerous and unpredictable. Violent conflict between government and armed anti-government groups continues throughout the country. There is a serious risk for kidnappings, bombings, murder, and terrorism. This replaces the Travel Warning dated March 31, 2016.&nbsp;No part of Syria is safe from violence. Kidnappings, the use of chemical warfare, shelling, and aerial bombardment have significantly raised the risk of death or serious injury. The destruction of infrastructure, housing, medical facilities, schools, and power and water utilities has also increased hardships inside the country.Terrorist and other violent extremist groups including ISIL, al-Nusrah Front (al-Qa&rsquo;ida&rsquo;s Syrian affiliate now calling itself Jabhat Fatah al-Sham), and others operate in Syria. Tact...',400,5)" onmouseout="return hideLinkDesc()">
+         Syria Travel Warning
+        </a>
+       </div>
+      </li>
+     </ul>
+     <div id="rss_view_website_417051" class="rss_view_website" style="padding-top: 10px;">
+      <div>
+       <div class="bi_links">
+       </div>
+       <a id="rssWebsiteLink_417051" target="_blank" href="travel.state.gov:%20Travel%20Alerts%20&amp;%20Warnings">
+        View Website
+       </a>
+      </div>
+     </div>
+     <div class="rss_view_feed">
+      <div class="bi_rss">
+      </div>
+      <a id="rssFeedLink_133604" target="_blank" href="http://feeds.travel.state.gov/ca/travelwarnings-alerts">
+       View Feed
+      </a>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21447888" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Bon Voyage!
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Welcome to the Trexler Library Study Abroad guide. As a Muhlenberg student studying abroad, you can still access a full range of resources and services tfrom our library, no matter where you are in the world.
+      </p>
+      <p>
+       Trexler Library:
+       <a target="_blank" href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+      </p>
+      <p>
+       Things to note:
+      </p>
+      <ul>
+       <li>
+        You'll need to log in via our proxy (same network ID and password for email, Blackboard)
+       </li>
+       <li>
+        Physical items cannot be shipped
+       </li>
+       <li>
+        For Interlibrary Loan, add a note that you are studying abroad (for articles, book chapters that we physically own)
+       </li>
+       <li>
+        Can still contact subject librarians for assistance
+       </li>
+      </ul>
+      <p>
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/63912/screen_shot_2015-10-27_at_4.44.58_pm.png" height="329" width="401" />
+      </p>
+      <p>
+      </p>
+      <p>
+       New York Times Access:
+       <a href="http://libraryguides.muhlenberg.edu/NYTimes">
+        http://libraryguides.muhlenberg.edu/NYTimes
+       </a>
+      </p>
+      <p>
+       Study Abroad Website:
+       <a href="http://www.muhlenberg.edu/main/academics/global-education/">
+        http://www.muhlenberg.edu/main/academics/global-education/
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21447873" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Subject Librarians
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Contact your subject librarians:
+      </p>
+      <p>
+      </p>
+     </div>
+     <ul>
+      <li>
+       Kelly Cannon, Humanities and Business
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/profile/cannon">
+        http://libraryguides.muhlenberg.edu/profile/cannon
+       </a>
+      </li>
+      <li>
+       Rachel Hamelers, Sciences
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63915">
+        http://libraryguides.muhlenberg.edu/profile.php?uid=63915
+       </a>
+      </li>
+      <li>
+       Jen Jarson, Social Sciences
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/profile.php?uid=63913">
+        http://libraryguides.muhlenberg.edu/profile.php?uid=63913
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

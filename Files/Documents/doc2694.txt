@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Whoops! - LibCal
+  </title>
+  <style>
+   a:link, a:visited { color: blue; }
+			body { font-size:12px; font-family:Verdana, Geneva, sans-serif; margin-top:100px; color:#9F1F63; }
+
+			#message { font-weight:bold; width:500px; text-align:left;  border:1px solid #9F1F63;  padding:20px; margin: 0 auto; }
+			#errorcode { text-align:center; font-size:60px; color: #ADADAD; margin: 0 auto; }
+			#links { font-weight:normal; margin-top:10px; }
+			#links li { padding:2px; }
+  </style>
+ </head>
+ <body>
+  <div style="text-align: center; margin: 0 auto;">
+   <div id="errorcode">
+    <img alt="Not Found" src="http://lcimages.s3.amazonaws.com/Help_48.png" />
+    404
+   </div>
+   <div id="message">
+    Oops! The page you are trying to access does not exist.
+    <br />
+    <br />
+    This could be because the link you clicked was not formed properly, or because the requested page has been deleted.
+    <div id="links">
+     <li>
+      <a href="/">
+       Return to the LibCal Homepage
+      </a>
+     </li>
+     <li>
+      <a href="/support.php">
+       Contact the Site Administrator for Assistance
+      </a>
+     </li>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

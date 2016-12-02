@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Hotel Information - Hotels and Restaurants | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Guide to Hotels &amp; Restaurants
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/">
+            About Us
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/tour/places.html">
+            Hotels and Restaurants
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/aboutus/tour/hotels.html">
+            Hotel Information
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          <table align="center" border="1" class="content-add05" style="width: 100%;">
+           <tbody>
+            <tr bgcolor="#FFFFFF" valign="top">
+             <td colspan="3">
+              <div>
+               <span class="redtitle">
+                <a id="TOP">
+                </a>
+               </span>
+               <span class="bodytext">
+                <br />
+                (Allentown unless otherwise noted)
+               </span>
+               <br />
+               <a href="http://www.discoverlehighvalley.com/category/stay/">
+                Official Allentown Hotel Guide
+               </a>
+               <br />
+               <a href="http://www.concerthotels.com/venue-hotels/muhlenberg-college-hotels/302640" target="_blank">
+                Additional Information on Local Hotels
+               </a>
+              </div>
+              <div>
+              </div>
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05">
+             <td bgcolor="#FFFFFF" width="33%">
+              <div>
+               <strong>
+                Name
+               </strong>
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              <div>
+               <strong>
+                Address
+               </strong>
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              <div>
+               <strong>
+                Phone Number
+               </strong>
+              </div>
+             </td>
+            </tr>
+            <tr class="content-add05">
+             <td bgcolor="#FFFFFF">
+              Allentown Quality Inn &amp; Suites
+             </td>
+             <td bgcolor="#FFFFFF">
+              1715 Plaza Lane, Allentown
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-435-7880
+             </td>
+            </tr>
+            <tr class="content-add05">
+             <td bgcolor="#FFFFFF">
+              America's Best Value Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              1311 U.S. Rt. 22 West, Phillipsburg, NJ
+             </td>
+             <td bgcolor="#FFFFFF">
+              908 454-6461
+             </td>
+            </tr>
+            <tr class="content-add05">
+             <td bgcolor="#FFFFFF">
+              Bear Creek Mountain Resort
+             </td>
+             <td bgcolor="#FFFFFF">
+              101 Doe Mountain Lane, Macungie
+             </td>
+             <td bgcolor="#FFFFFF">
+              866-754-2822
+             </td>
+            </tr>
+            <tr class="content-add05">
+             <td bgcolor="#FFFFFF">
+              Best Western Allentown Inn &amp; Suites
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              5630 W. Tilghman Street
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-530-5545
+             </td>
+            </tr>
+            <tr class="content-add05">
+             <td bgcolor="#FFFFFF">
+              Best Western
+             </td>
+             <td bgcolor="#FFFFFF">
+              300 Gateway Drive, Bethlehem (Routes 22 &amp; 512)
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-866-5800
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" valign="top">
+             <td bgcolor="#FFFFFF" height="25">
+              Days Hotel
+             </td>
+             <td bgcolor="#FFFFFF">
+              3400 Airport Road&nbsp;
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-266-1000
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Comfort Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              7625 Imperial Way
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-391-0344
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Comfort Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              Routes 191 &amp; 22 Bethlehem, 3191 Highfield Dr.
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-865-6300
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Comfort Suites Hotel
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              120 West Third Street, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-882-9700
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              <strong>
+               *Comfort Suites of Allentown
+              </strong>
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              3712 Hamilton Blvd.
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-437-9100
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="19">
+              Courtyard Allentown Bethlehem/Lehigh Valley Airport
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              2160 Motel Drive, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-317-6200
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Courtyard by Marriott
+             </td>
+             <td bgcolor="#FFFFFF">
+              2220 Emrick Boulevard, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              866-460-7456
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Econo Lodge
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              2115 Downyflake Lane
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-797-2200
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Extended Stay America - Allentown - Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              3050 Schoenersville Rd, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-866-8480
+             </td>
+            </tr>
+            <tr valign="top">
+             <td bgcolor="#FFFFFF" height="25">
+              Fairfield Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              2140 Motel Drive, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-867-8681
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="25">
+              Flint Hill Farm - Farm Stays
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1922 Flint Hill Road, Coopersburg, PA 18036
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-838-2928
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Grand Eastonian Suites Hotel
+             </td>
+             <td bgcolor="#FFFFFF">
+              140 Northampton Street, Easton
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-258-6350
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Hampton Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              7471 Keebler Way
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-391-1500
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Hampton Inn and Suites
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              200 Gateway Drive, Bethlehem (Routes 22 and 512)
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-868-2442
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Hawthorn Suites Ltd.
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              7720 Main Street, Fogelsville
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-366-9422
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              <strong>
+               *Hilton Garden Inn Airport
+              </strong>
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1787-B Airport Road
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-443-1400
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Hilton Garden Inn West
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              230 Sycamore Drive, Breinigsville&nbsp;
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-398-6686&nbsp;&nbsp;
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Holiday Inn Allentown
+             </td>
+             <td bgcolor="#FFFFFF">
+              904 W. Hamilton Street
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-433-2221
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="21">
+              Holiday Inn Conference Center
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              Route 100 &amp; I78 Fogelsville&nbsp; 7736 Adrienne Drive, Breinigsville
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-391-1000&nbsp;&nbsp;
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Holiday Inn Express
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              3620 Hamilton Blvd.&nbsp;
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-437-9255&nbsp;&nbsp;
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Holiday Inn Express Hotel &amp; Suites
+             </td>
+             <td bgcolor="#FFFFFF">
+              2201 Cherry Lane, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-838-6110
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Holiday Inn Express Hotel &amp; Suites- Bethlehem Airport
+             </td>
+             <td bgcolor="#FFFFFF">
+              3375 High Point Boulevard , Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-882-2255
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Homewood Suites by Hilton
+             </td>
+             <td bgcolor="#FFFFFF">
+              <span class="address">
+               <span>
+                7686 Industrial Blvd/Route 100
+               </span>
+               ,
+               <span>
+                Allentown
+               </span>
+               ,
+               <span>
+                PA
+               </span>
+              </span>
+             </td>
+             <td bgcolor="#FFFFFF">
+              <span>
+               610-336-4860
+              </span>
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Hotel Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              437 Main St., Bethlehem, PA 18018
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-625-5000
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              <strong>
+               *Howard Johnson's Inn &amp; Suites
+              </strong>
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              3220 Hamilton Boulevard
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-439-4000&nbsp;&nbsp;
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Hyatt Place
+             </td>
+             <td bgcolor="#FFFFFF">
+              45 West North Street, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-625-0500
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="3">
+              Inn at Bear Creek
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              101 Doe Mountain Lane, Macungie
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              866-754-2822
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="8">
+              McIntosh Inn of Allentown
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1701 Catasaqua Rd
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-264-7531&nbsp;&nbsp;
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Microtel Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              1880 Steelstone Road
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-266-9070
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              <strong>
+               *Quality Inn
+              </strong>
+             </td>
+             <td bgcolor="#FFFFFF">
+              1715 Plaza Lane
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-435-7880
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Ramada Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1500 MacArthur Road, Whitehall&nbsp;
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-439-1037
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Red Roof Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1846 Catasauqua Road (Route 22 East &amp; Airport Road)
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-264-5404
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              The Renaissance Allentown hotel
+             </td>
+             <td bgcolor="#FFFFFF">
+              12 N 7th Street, Allentown
+             </td>
+             <td bgcolor="#FFFFFF">
+              484-372-4000
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Residence Inn by Marriott Allentown Bethlehem/Lehigh Valley Airport
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              2180 Motel Drive, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-317-2662
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              America's Best Value Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              2650 Moravian Avenue
+             </td>
+             <td bgcolor="#FFFFFF">
+              &nbsp;610-797-1234
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Econo Lodge and Conference Center
+             </td>
+             <td bgcolor="#FFFFFF">
+              1151 Bulldog Drive (Routes 22 &amp; 309)
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-395-3731
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Sleep Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              327 Star Road
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-395-6603
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              <strong>
+               *Staybridge Suites
+              </strong>
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1787A Airport Road
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-443-5000&nbsp;
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Super 8 Motel
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1033 Airport Road
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-434-9550
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="9">
+              Wingate Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              4325 Hamilton Boulevard
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-366-1600
+             </td>
+            </tr>
+            <tr align="center" bgcolor="#FFFFFF" valign="top">
+             <td colspan="3">
+              <span style="font-family: Arial, Helvetica, sans-serif;">
+               <strong>
+                &nbsp;&nbsp;&nbsp;
+                <a id="bb">
+                </a>
+                <span class="title">
+                 Bed &amp; Breakfast Accommodations
+                </span>
+               </strong>
+              </span>
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Die Bauerei
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              187 Sharadin Road, Kutztown
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-894-4854&nbsp;
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Chestnut Hill Bed &amp; Breakfast, LLC
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1506 Route 209, Brodheadsville
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              570-992-5131
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="18">
+              Glasbern Country Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              2141 Packhouse Road, Fogelsville
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-285-4723
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="8">
+              Highland Farm Bed and Breakfast
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              2514 Brunner Road, Emmaus
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-965-3843
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF" height="8">
+              Historic Benner Mansion
+             </td>
+             <td bgcolor="#FFFFFF">
+              25 South 15th Street
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-770-9982
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Lafayette Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              525 W. Monroe Street, Easton
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-253-4500
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              <!--&lt;a href="http://www.longswamp.com"&gt;-->
+              Longswamp Bed and Breakfast
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              1605 State Street, Mertztown
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-682-6197
+             </td>
+            </tr>
+            <tr class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Morningstar Inn
+             </td>
+             <td bgcolor="#FFFFFF" width="40%">
+              72 East Market Street, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF" width="20%">
+              610-867-2300
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Sayre Mansion Inn
+             </td>
+             <td bgcolor="#FFFFFF">
+              250 Wyandotte Street, Bethlehem
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-882-2100
+             </td>
+            </tr>
+            <tr bgcolor="#E7D5D6" class="content-add05" valign="top">
+             <td bgcolor="#FFFFFF">
+              Stone House Inn &amp; Spa
+             </td>
+             <td bgcolor="#FFFFFF">
+              165 East Main Street, Macungie
+             </td>
+             <td bgcolor="#FFFFFF">
+              610-967-0343
+             </td>
+            </tr>
+            <tr bgcolor="#FFFFFF" class="content-add05" valign="top">
+             <td colspan="3">
+              <div>
+               Muhlenberg College offers these establishments as a service to its students, parents, alumni and friends. It accepts no responsibility, and a listing in this guide does not imply an endorsement by the College.
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <center>
+          </center>
+          <p align="left" class="content-add05">
+           <strong>
+            *Denotes hotel owned by a Muhlenberg alumnus.
+           </strong>
+          </p>
+         </div>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

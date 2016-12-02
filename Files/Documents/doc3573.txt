@@ -1,0 +1,1089 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Style Guide - Campus Identity | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Public Relations
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- Content Template Start: General Slideshow -->
+       <div class="content-add09">
+        <ul class="imagecol" id="imgcol">
+         <li>
+          <img src="/media/contentassets/images/about/pr/Neil Gaiman - 4951.jpg" alt="2015 Living Writers" style="     " />
+         </li>
+        </ul>
+        <script type="text/javascript">
+         var maxImages=10;
+      var img="";
+      var j=0;
+      var ptr=0;
+      var img2='&lt;img src="/media/contentassets/images/about/pr/Genna Rocero_Gender Proud-8.jpg" alt="2015 event speaker" style="     "  /&gt;';
+      var img3='&lt;img src="/media/contentassets/images/campuslife/community-service/Jefferson Field Day--49w.jpg" alt="Students volunteering with Allentown youth" style="     "  /&gt;';
+      var img4='&lt;img src="/media/contentassets/images/about/gallery/Amico Studios-4541.jpg" alt="Art exhibit at Martin Art Gallery" style="     "  /&gt;';
+      var img5='';
+      var img6='';
+      var img7='';
+      var img8='';
+      var img9='';
+      var img10='';      
+      
+      for (j=1; j&lt;maxImages; j++) {
+                             
+        ptr=j+1;
+      
+       if (eval("img" + ptr) ) {
+        img = '&lt;li&gt;' + eval("img" + ptr) + '&lt;/li&gt;';
+        document.getElementById('imgcol').innerHTML +=img;                  
+       }
+                                 
+      }
+        </script>
+        <div class="intro-add01">
+         <div class="intro-add02-slideshow">
+          <a name="content">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Content Template End: Image Panel-->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/pr/">
+               Public Relations
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/pr/campusidentity/">
+               Campus Identity
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/pr/campusidentity/styleguide/">
+               Style Guide
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Style Guide
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add05">
+           <p>
+            With many departments producing their own publications and newsletters, it is important for the College to project and maintain an image of quality as well as remain consistent in the use of names, titles and capitalization. The public relations office has composed a brief "style guide" for campus constituents. With few exceptions, the College follows the Associated Press (AP) Stylebook and Libel Manual. When in doubt, please use the AP stylebook or call the public relations office at x3230. The basic guidelines are outlined below.
+           </p>
+           <p>
+            The following guidelines may help to clarify some common style misconceptions.
+           </p>
+           <p>
+            <strong>
+             academic degrees
+            </strong>
+            If mention of degrees is necessary to establish someone's credentials, the preferred form is to avoid an abbreviation and use instead a phrase such as:
+            <span class="italic">
+             John Smith, who has a doctorate in psychology.&nbsp;
+            </span>
+           </p>
+           <p>
+            Use an apostrophe in
+            <span class="italic">
+             bachelor's degree, a master's,
+            </span>
+            etc.&nbsp;
+           </p>
+           <p>
+            Use abbreviations such as
+            <span class="italic">
+             B.A., M.A., LL.D.
+            </span>
+            &nbsp;and
+            <span class="italic">
+             Ph.D.
+            </span>
+            only when the need to identify many individuals by degree on first reference would make the preferred form cumbersome. Use the abbreviations only after a full name - never after just a last name.
+           </p>
+           <p>
+            When used after a name, an academic abbreviation is set off by commas:
+            <span class="italic">
+             Jane Doe, Ph.D., spoke.
+            </span>
+            Do not precede a name with a courtesy title for an academic degree and follow it with the abbreviation for the degree in the same reference:
+            <span class="italic">
+             Dr. Jane Doe, a chemistry professor,
+            </span>
+            not
+            <span class="italic">
+             Dr. Jane Doe, Ph.D.
+            </span>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             academic departments
+            </strong>
+            Use lowercase except for words that are proper nouns or adjectives:
+            <span class="italic">
+             the department of history, the history department, the department of English, the English department.
+            </span>
+           </p>
+           <p>
+            <strong>
+             academic titles
+            </strong>
+            &nbsp;See section on
+            <a href="#title">
+             titles
+            </a>
+            .
+           </p>
+           <p>
+            <strong>
+             alumnus/alumni
+            </strong>
+            and
+            <strong>
+             alumnae/alumna
+            </strong>
+            Alumni refers to multiple or all graduates of male or mixed gender. Alumnus refers to a single male graduate, alumna refers to a single female graduate and alumnae refers to multiple female graduates. "Alum" should never be used.
+           </p>
+           <p>
+            <strong>
+             comma
+            </strong>
+            Associated Press style does not utilize the serial/Oxford comma. "First, second and third" is correct. "First, second, and third" is incorrect.
+           </p>
+           <p>
+            <strong>
+             composition titles
+            </strong>
+            Apply the guidelines listed below to book titles, computer game titles (but not software titles), movie titles, opera titles, play titles, poem titles, song titles, television program titles and the titles of lectures, speeches and works of art.
+           </p>
+           <p>
+            &bull; Capitalize the principal words, including prepositions and conjunctions of four or more letters.
+            <br />
+            &bull; Capitalize an article -
+            <span class="italic">
+             the, a, an -
+            </span>
+            or words of fewer than four letters if it is the first or last word in a title.
+            <br />
+            &bull; Put quotation marks around the names of all such words except the Bible and books that are primarily catalogs of reference material (almanacs, catalogs, directories, dictionaries, encyclopedias, gazetteers, handbooks and similar publications). Do not italicize or underline.
+            <br />
+            &bull; Translate a foreign title into English unless the work is known to the American public by its foreign name.
+           </p>
+           <p>
+            <strong>
+             magazine titles
+            </strong>
+            Capitalize the name but do not place it in quotes and do not italicize. Lowercase
+            <span class="italic">
+             magazine
+            </span>
+            unless it is part of the publication's formal title: Harper's Magazine, Newsweek magazine; Time magazine. Check the masthead if in doubt.
+           </p>
+           <p>
+            <strong>
+             Muhlenberg College
+            </strong>
+            When referring to Muhlenberg College, capitalize&nbsp;
+            <span class="italic">
+             the College when the word appears without "Muhlenberg."
+            </span>
+            &nbsp;This is an exception to AP style.
+           </p>
+           <p>
+            <strong>
+             names
+            </strong>
+            Current and prospective students are referred to first by full name on first mention and referred to by first name only with each subsequent use. This format is designed so that prospective students more easily associate Muhlenberg students with peers and can imagine themselves on campus.
+           </p>
+           <p>
+            Faculty and staff are referred to by full name on first mention and by last name only with subsequent use. Athletic references to student names follow faculty and staff naming conventions.
+           </p>
+           <p>
+            Alumni names follow faculty and staff naming conventions. If an alumna/alumnus last name differs from the last name used while a student, best practices dictate enclosing a former last name in parentheses between first and last name, e.g., Nikki (Rhoads) Gum '08. Always consult with the alumna/alumnus in question to respect specific naming preferences.&nbsp;
+           </p>
+           <p>
+            <strong>
+             newspaper names
+            </strong>
+            Capitalize
+            <span class="italic">
+             the
+            </span>
+            in newspaper names if that is the way the publication prefers to be known. Lowercase
+            <span class="italic">
+             the
+            </span>
+            before newspaper names if a story mentions several papers, some of which use
+            <span class="italic">
+             the
+            </span>
+            as part of the name and some do not. Where location is needed but is not part of the official name, use parentheses: The Huntsville (Ala.) Times
+            <span class="italic">
+             .
+            </span>
+            Do not italicize, underline, or place in quotes.
+           </p>
+           <p>
+            <strong>
+             numerals
+            </strong>
+            Follow these guidelines in using numerals:
+           </p>
+           <p>
+            &bull; Spell out a numeral at the beginning of a sentence. If necessary, recast the sentence. There is one exception - a numeral that identifies a calendar year:
+            <span class="italic">
+             1978 was a very good year.
+             <br />
+            </span>
+            &bull; In general, spell out whole numbers below 10, and use figures for 10 and above. Typical examples:
+            <span class="italic">
+             They had three sons and two daughters. They had a fleet of 10 station wagons and two buses.
+            </span>
+            <br />
+            &bull; Do not use ordinal indicators for dates. For example, "January 4" is correct. "January 4
+            <sup>
+             th
+            </sup>
+            " or "January 4th" is incorrect.
+            <br />
+            &bull; In a series, apply the appropriate guidelines:
+            <span class="italic">
+             The had 10 dogs, six cats and 97 hamsters. They had four four-room houses, 10 three-room houses and 12 10-room houses.
+            </span>
+            <br />
+            &bull; For ordinals, spell out
+            <span class="italic">
+             first
+            </span>
+            through
+            <span class="italic">
+             ninth
+            </span>
+            when they indicate sequence in time or location:
+            <span class="italic">
+             first base, the First Amendment, he was first in line.
+            </span>
+            Starting with
+            <span class="italic">
+             10th,
+            </span>
+            use figures.
+           </p>
+           <p>
+            <strong>
+             phone numbers/fax numbers
+            </strong>
+            Number sets should be separated by hyphens, not periods. This is designed to optimize legibility.
+           </p>
+           <p>
+            <strong>
+             spacing
+            </strong>
+            Use one space after terminal punctuation. This is especially important in digital and online text.
+           </p>
+           <p>
+            <strong>
+             state names
+            </strong>
+            Spell out the names of the 50 U.S. states when they stand alone in textual material. Eight states are never abbreviated in datelines or in text:
+            <span class="italic">
+             Alaska, Hawaii, Idaho, Iowa, Maine, Ohio, Texas,
+            </span>
+            and
+            <span class="italic">
+             Utah.
+            </span>
+           </p>
+           <p>
+            The remaining states are abbreviated as follows:
+           </p>
+           <table border="0" cellpadding="2" id="State Abbreviations" style="width: 400px;">
+            <tbody>
+             <tr>
+              <td>
+               Ala.
+              </td>
+              <td>
+               Conn.&nbsp;
+              </td>
+              <td>
+               Ind.
+              </td>
+              <td>
+               Mass.&nbsp;
+              </td>
+              <td>
+               Mont.&nbsp;
+              </td>
+              <td>
+               N.J.&nbsp;
+              </td>
+              <td>
+               Okla.&nbsp;&nbsp;&nbsp;
+              </td>
+              <td>
+               S.D.&nbsp;
+              </td>
+              <td>
+               Wis
+              </td>
+             </tr>
+             <tr>
+              <td>
+               Ariz.&nbsp;&nbsp;
+              </td>
+              <td>
+               Del.
+              </td>
+              <td>
+               Kan.&nbsp;&nbsp;
+              </td>
+              <td>
+               Mich.
+              </td>
+              <td>
+               Neb. &nbsp;
+              </td>
+              <td>
+               N.M.
+              </td>
+              <td>
+               Ore.
+              </td>
+              <td>
+               Tenn.&nbsp;
+              </td>
+              <td>
+               . W.Va
+              </td>
+             </tr>
+             <tr>
+              <td>
+               Ark.
+              </td>
+              <td>
+               Fla.
+              </td>
+              <td>
+               Ky.
+              </td>
+              <td>
+               Minn.&nbsp;
+              </td>
+              <td>
+               Nev.
+              </td>
+              <td>
+               N.Y.
+              </td>
+              <td>
+               Pa.
+              </td>
+              <td>
+               Vt.
+              </td>
+              <td>
+               Wyo
+              </td>
+             </tr>
+             <tr>
+              <td>
+               Calif.&nbsp;
+              </td>
+              <td>
+               Ga.&nbsp;
+              </td>
+              <td>
+               La.
+              </td>
+              <td>
+               Miss.
+              </td>
+              <td>
+               Nev.
+              </td>
+              <td>
+               N.C.
+              </td>
+              <td>
+               R.I.&nbsp;
+              </td>
+              <td>
+               Va.
+              </td>
+              <td>
+               &nbsp;
+              </td>
+             </tr>
+             <tr>
+              <td>
+               Colo.
+              </td>
+              <td>
+               Ill.&nbsp;
+              </td>
+              <td>
+               Md.
+              </td>
+              <td>
+               Mo.&nbsp;
+              </td>
+              <td>
+               N.H.
+              </td>
+              <td>
+               N.D.&nbsp;
+              </td>
+              <td>
+               S.C.&nbsp;
+              </td>
+              <td>
+               Wash.
+              </td>
+              <td>
+               &nbsp;
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            <strong>
+             time
+            </strong>
+            &nbsp;Morning and afternoon/evening should be designated by the use of "a.m." and "p.m.," not "am" or "pm." A space should be inserted between the number and the abbreviation. When possible, use "midnight" or "noon" instead of 12:00 a.m. or p.m., respectively.&nbsp;
+           </p>
+           <p>
+            <strong>
+             <a id="title">
+             </a>
+             titles
+            </strong>
+            Academic, department and professional titles are lower-case by default. Exceptions include:
+           </p>
+           <p>
+            &bull; Proper nouns, e.g., professor of English literature, assistant professor of Africana studies, lecturer of Spanish, are always capitalized.
+            <br />
+            &bull; Capitalization of formal titles that precede a name, e.g., "President John Williams began his tenure on July 1, 2015."
+            <br />
+            &bull; Titles that are used as captions or other descriptive text, such as the explanation associated with a photograph.
+            <br />
+            &bull; "President" and "Chair of the Board of Trustees" are always capitalized.
+            <br />
+            &bull; "Professor should always be spelled out. "Prof" is never used.
+           </p>
+           <p>
+            For consistency and legibility, we recommend academic and department titles follow a name whenever possible, e.g., "Mike Bruckner, vice president of external affairs and community relations, gave a speech."
+           </p>
+           <p>
+            <strong>
+             website URLs/links
+            </strong>
+            Users should always check a URL in a browser before including a link in digital or print publications. Whenever possible, users are encouraged to omit the preceding "http://" and "www" from a URL. These omissions increase legibility and conserve space.
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Public Relations
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/pr/">
+            Home
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/pr/campusidentity/styleguide/">
+             Style Guide
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/pr/campusidentity/graphicidentityprogram/">
+            Graphic Identity Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/pr/campus_identity/web-changes.html/">
+            Web Changes
+           </a>
+          </li>
+          <li>
+           <a href="http://start/StartPage/graphics.htm">
+            Official College Graphics
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/pr/campusidentity/styleguide/"&gt;Style Guide&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/pr/campusidentity/graphicidentityprogram/"&gt;Graphic Identity Program&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/pr/campus_identity/web-changes.html/"&gt;Web Changes&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://start/StartPage/graphics.htm"&gt;Official College Graphics&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

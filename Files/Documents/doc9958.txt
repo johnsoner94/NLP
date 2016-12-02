@@ -1,0 +1,823 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Faculty Training - Faculty | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Learning Management System
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/canvas/Untitled-1.jpg" alt="Canvas logo" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/canvas/">
+               Canvas
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/canvas/faculty/">
+               Faculty
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/canvas/faculty/facultytraining/">
+               Faculty Training
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3 style="text-align: center;">
+            <strong>
+             Faculty Training
+            </strong>
+           </h3>
+           <p>
+            <strong>
+             GETTING STARTED
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4210/l/141852-canvas-overview-video" target="_blank">
+              Canvas Overview
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/40729-how-do-i-add-users-to-my-course" target="_blank">
+              Add Users
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/73162-how-do-i-set-my-notification-preferences" target="_blank">
+              Set Your Notifications
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/57126-how-do-i-publish-my-course" target="_blank">
+              Publish Your Course
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             PLANNING AHEAD
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41323-how-do-i-export-a-canvas-course" target="_blank">
+              Exporting Course Content
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41324-how-do-i-import-a-canvas-course-export-package" target="_blank">
+              Importing Course Content
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/s/2204/m/38287/l/257493-how-do-i-use-commons" target="_blank">
+              Using the Commons
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             ORGANIZING YOUR COURSE
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/55574-what-are-files-for-instructors" target="_blank">
+              Files
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/56630-how-do-i-create-a-folder-in-files-as-an-instructor" target="_blank">
+              Folders
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41391-how-do-i-restrict-files-and-folders-to-students-in-canvas" target="_blank">
+              Restricting Access to Files/Folders
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/55577-how-do-i-use-the-syllabus-as-an-instructor" target="_blank">
+              How to Create a Syllabus
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/55575-what-are-modules-for-instructors" target="_blank">
+              What is a Module?
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/322062-how-do-i-use-the-modules-index-page" target="_blank">
+              How to use a Module
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/55576-what-are-pages-for-instructors" target="_blank">
+              What is a Page?
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41440-how-do-i-create-a-new-page-in-my-course" target="_blank">
+              How to Create a Page
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41445-how-do-i-set-a-front-page-for-my-course" target="_blank">
+              Set a Front Page
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             ASSIGNMENTS
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://vimeo.com/74886284" target="_blank">
+              Assignment Overview
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/67003-how-do-i-create-an-assignment" target="_blank">
+              Creating Assignments
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41291?data-resolve-url=true&amp;data-manual-id=4152" target="_blank">
+              Creating Assignment Groups
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             QUIZZES
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41473-what-are-the-different-types-of-quizzes" target="_blank">
+              Quiz Types
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/41475-what-options-are-available-for-quizzes" target="_blank">
+              How to Create a Quiz
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/141685-how-do-i-grade-one-quiz-question-at-a-time-in-speedgrader" target="_blank">
+              Grade Quiz Answer One at a Time
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/276279-once-i-publish-a-timed-quiz-how-can-i-give-my-students-extra-time" target="_blank">
+              Give Extra Time on a Quiz
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             GRADES/SPEEDGRADER
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/107406-how-do-i-configure-the-roll-call-attendance-tool-for-my-course" target="_blank">
+              Attendance (Roll Call)
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/54996-what-are-grades-and-the-gradebook" target="_blank">
+              What are Grades/Gradebook?
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/55016-what-is-speedgrader" target="_blank">
+              What is SpeedGrader?
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/80119-how-do-i-use-crocodoc-in-canvas-assignments" target="_blank">
+              How to use Crocodoc
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/45129-how-do-i-mute-or-unmute-an-assignment-in-speedgrader" target="_blank">
+              Mute an Assignment
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             CALENDAR
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/54668-what-is-the-calendar-for-instructors" target="_blank">
+              What is Calendar?
+             </a>
+            </li>
+            <li>
+             <a href="https://guides.instructure.com/m/4152/l/61285-what-is-the-scheduler" target="_blank">
+              What is Scheduler?
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             KALTURA
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="http://corp.kaltura.com/Products/Video-Applications/Kaltura-CaptureSpace" target="_blank">
+              What is CaptureSpace?
+             </a>
+            </li>
+           </ul>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Learning Management System
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/canvas/">
+            Home
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/canvas/faculty/facultytraining/">
+             Faculty Training
+            </a>
+           </span>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/canvas/faculty/"&gt;Faculty&lt;/a&gt;&lt;/span&gt;
+&lt;ul class="multilevel-linkul-0"&gt;
+&lt;li&gt;&lt;span class="currentbranch1"&gt;&lt;a href="/canvas/faculty/facultytraining/"&gt;Faculty Training&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a href="/canvas/students/"&gt;Students&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- Content Template Start: Right Hand Side Callout-->
+         <div style="overflow: hidden;width: 168px;">
+          <ul class="menu02">
+           <li>
+            <span>
+             Resources
+            </span>
+           </li>
+           <li>
+            <span>
+             <a href="https://secure.livechatinc.com/licence/2695732/open_chat.cgi?groups=483" target="_blank">
+              Canvas Live Chat
+             </a>
+            </span>
+           </li>
+           <li>
+            <span>
+             <a href="https://guides.instructure.com/" target="_blank">
+              Canvas Guides
+             </a>
+            </span>
+           </li>
+           <li>
+            <span>
+             <a href="https://vimeo.com/album/1863509/page:1/sort:preset/format:thumbnail" target="_blank">
+              Vimeo Tutorials
+             </a>
+            </span>
+           </li>
+           <li>
+            <span>
+             <a href="/main/aboutus/oit/studentcomputing/studenthelpdesk/">
+              Help Desk (Students)
+             </a>
+            </span>
+           </li>
+           <li>
+            <span>
+             <a href="/main/aboutus/oit/facultyandstaffcomputing/supportdesk/">
+              Help Desk (Faculty)
+             </a>
+            </span>
+           </li>
+           <li>
+            Canvas Hotline-
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 844-725-7349
+           </li>
+          </ul>
+         </div>
+         <!-- Content Template End: Right Hand Side Callout-->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Requests
+        </h3>
+        <ul>
+         <li>
+          <a href="/canvas/one-on-oneform/">
+           One-on-One Training
+          </a>
+         </li>
+         <li>
+          <a href="/canvas/shellform/">
+           Canvas Shell
+          </a>
+         </li>
+         <li>
+          <a href="/canvas/mergecoursesform/">
+           Course Merge
+          </a>
+         </li>
+         <li>
+          <a href="/canvas/copyacourseform/">
+           Course Copy
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Helpful Links
+        </h3>
+        <ul>
+         <li>
+          <a href="https://muhlenbergcollege.instructure.com/" target="_blank">
+           Canvas Login
+          </a>
+         </li>
+         <li>
+          <a href="https://calendar.google.com/calendar/embed?src=r96r62nujc7bgnabu18mgetp9g%40group.calendar.google.com&amp;ctz=America/New_York" target="_blank">
+           Training Calendar
+          </a>
+         </li>
+         <li>
+          <a href="https://www.lynda.com/email-signup" target="_blank">
+           Lynda.com
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20Canvas%20%BB%20VoiceThread%3A%20VoiceThread" href="/canvas/voicethread/#d.en.349508">
+           VoiceThread
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

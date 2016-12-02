@@ -1,0 +1,1985 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Center for Ethics: Ethics of Space / Power of Place (2009-2010)  - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 599588;
+			mySID = 4944489;
+			var myGNAME = "Center+for+Ethics%3A+Ethics+of+Space+%2F+Power+of+Place+%282009-2010%29+";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Center for Ethics: Ethics of Space / Power of Place (2009-2010)
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         May 27, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/centerforethics2009">
+          http://libraryguides.muhlenberg.edu/centerforethics2009
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=599588">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+          <br />
+          IM: refcannon (AIM, Yahoo)
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=599588&amp;sid=4944489">
+       Home
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_4944489" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321775" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Mapping the Muhlenberg Landscape--Border, Boundaries, and Barriers (September 8)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works on Muhlenberg Spaces
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Community design. (2003).
+       <em>
+        American
+       </em>
+       <em>
+        School
+       </em>
+       <em>
+        &amp; University, 75
+       </em>
+       (10), 14-15. Retrieved May 21, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=10175751&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=10175751&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Tripaldi, M.S. (2003).
+       <em>
+        Muhlenberg&rsquo;s living stones: The glory of God in the Egner Memorial Chapel. &nbsp;&nbsp;
+        <br />
+       </em>
+       <a href="http://library.muhlenberg.edu/record=b1460408">
+        Trexler Library Main Collection 726.509748 T835m
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Wiewel, W. &amp; Knaap, G. (Eds.). (2005).
+       <em>
+        Partnerships for smart growth:&nbsp; University-community collaboration for better public places
+       </em>
+       .&nbsp; Armonk, N.Y.: M.E. Sharpe; Cambridge, MA: Lincoln Institute of Land Policy.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1500317">
+        Trexler Library Main Collection 378.103 W652p
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321781" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Lady Pink (September 22)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Lady Pink
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Lady Pink&rsquo;s MySpace page with photos of her art. Retrieved May 21, 2009, from
+        <a href="http://www.myspace.com/pinksmith7">
+         http://www.myspace.com/pinksmith7
+        </a>
+        .
+       </p>
+       <p>
+        Web page of Lady Pink. Retrieved May 14, 2009, from
+        <a href="http://www.pinksmith.com/">
+         http://www.pinksmith.com/
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Lady Pink
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Johnson, K. (2006, June 30). Aerosol outlaws, suddenly on the inside track.
+        <em>
+         The New York Times
+        </em>
+        . Retrieved May 14, 2009, from
+        <a href="http://www.nytimes.com/">
+         http://www.nytimes.com
+        </a>
+        .
+       </p>
+       <p>
+        Q &amp; A with Lady Pink supporting her exhibition &lsquo;Graffiti&rsquo; at the Brooklyn Museum. Retrieved May 14, 2009, from
+        <a href="http://www.brooklynmuseum.org/exhibitions/graffiti/ladypink.php">
+         http://www.brooklynmuseum.org/exhibitions/graffiti/ladypink.php
+        </a>
+        .
+       </p>
+       <p>
+        Siegel, F. (1993, March/April). Lady Pink: Graffiti with feminist intent.
+        <em>
+         Ms., 3
+        </em>
+        (5)
+        <em>
+         ,
+        </em>
+        66-69.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1060379">
+         Trexler Library Periodicals Level C
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Graffiti Art
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Art Crimes
+       </em>
+       (an online gallery of graffiti from artists around the globe).&nbsp; Retrieved May 14, 2009, from
+       <a href="http://artcrimes.com/">
+        http://artcrimes.com/
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Austin, J. (2001).
+       <em>
+        Taking the train: How graffiti art became an urban crisis in New York City.
+       </em>
+       New York: Columbia University Press.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1742061">
+        Trexler Library Main Collection 751.73097471 A936t
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Chalfant, H.&nbsp; (1987).&nbsp;
+       <em>
+        Spraycan art
+       </em>
+       .&nbsp; New York:&nbsp; Thames &amp; Hudson.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1742063">
+        Trexler Library Main Collection 751.7309048 C436s
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Powers, L.A. (1996). Whatever happened to the graffiti art movement?&nbsp;
+       <em>
+        Journal of Popular Culture, 29
+       </em>
+       (4)137-142. Retrieved May 14, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=9701110119&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=9701110119&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Reiss, J. (2008).
+       <em>
+        Bomb it: Street art is revolution
+       </em>
+       [DVD]. A Flying Cow production in association with Antidote Films, Inc.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1732222">
+        Trexler Library AV Alcove 751.73 B695i
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321791" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Sacred Spaces (October 5)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works about Sacred Spaces
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Arnold, P.P. &amp; Grodz, A. (2001).
+       <em>
+        Sacred landscapes and cultural politics: Planting a tree
+       </em>
+       . Burlington, VT: Ashgate.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1420799">
+        Trexler Library Main Collection 291.178363 A757s
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Burton, L. (2002).&nbsp;
+       <em>
+        Worship and wilderness: Culture, religion, and law in the management of public lands and resources
+       </em>
+       . Madison: University of Wisconsin Press.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1456763">
+        Trexler Library Main Collection 201.77 B974w
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Nelson, L.P. (Ed.) (2006).
+       <em>
+        American sanctuary: Understanding sacred spaces
+       </em>
+       . Bloomington: Indiana University Press.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1592250">
+        Trexler Library Main Collection 203.5 A512s&nbsp;
+       </a>
+       &nbsp;
+      </p>
+      <p style="padding-left: 30px;">
+       Sacred places. (2007).
+       <em>
+        U.S. News &amp; World Report, 143
+       </em>
+       (19), 36-72. Retrieved May 21, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=27558379&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=27558379&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321797" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Janisse Ray (October 20)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Janisse Ray
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        The bleeding fields:&nbsp; Rural exodus and reinhabitation of the southlands (a personal narrative).&nbsp; Retrieved May 15, 2009, from
+        <a href="http://www.yale.edu/agrarianstudies/papers/15bleeding.pdf">
+         http://www.yale.edu/agrarianstudies/papers/15bleeding.pdf
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         Ecology of a cracker childhood
+        </em>
+        . (1999). Minneapolis:&nbsp; Milkweed Editions.
+       </p>
+       <p>
+        <em>
+         Pinhook: Finding wholeness in a fragmented land
+        </em>
+        . (2005). White River Junction, VT: Chelsea Green.
+       </p>
+       <p>
+        Six poems. (2004).
+        <em>
+         Nantahala: A review of writing and photography in Appalachia, 2
+        </em>
+        (2). Retrieved May 15, 2009, from
+        <a href="http://nantahalareview.org/issue2-2/poetry/RAY.htm">
+         http://nantahalareview.org/issue2-2/poetry/RAY.htm
+        </a>
+        .
+       </p>
+       <p>
+        <em>
+         Wild card quilt: Taking a chance on home
+        </em>
+        . (2003). Minneapolis:&nbsp; Milkweed Editions.
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Janisse Ray
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Crowe, T. R. (2004). The new naturalists.
+        <em>
+         DLA Ejournal, 50
+        </em>
+        (1). Retrieved May 15, 2009, from
+        <a href="http://scholar.lib.vt.edu/ejournals/VALib/v50_n1/crowe.html">
+         http://scholar.lib.vt.edu/ejournals/VALib/v50_n1/crowe.html
+        </a>
+        .
+       </p>
+       <p>
+        Fielding, A. (2009, April 22). Author and environmentalist Janisse Ray says imagination needed to save planet.&nbsp;
+        <em>
+         Gainsville Times
+        </em>
+        . Retrieved May 15, 2009, from
+        <a href="http://www.gainesvilletimes.com/news/archive/17877/">
+         http://www.gainesvilletimes.com/news/archive/17877/
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Rural Spaces
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Agnew, E. (2004).
+       <em>
+        Back from the land: How young Americans went to nature in the 1970s, and why they came back
+       </em>
+       . Chicago: Ivan R. Dee.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1472694">
+        Trexler Library Main Collection 307.2 A273b
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Chisholm, M. (2007).
+       <em>
+        Rural settlement and land use
+       </em>
+       . New Brunswick: Aldine Transaction.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1591676">
+        Trexler Library Main Collection 333.76 C542r
+       </a>
+       &nbsp;
+      </p>
+      <p style="padding-left: 30px;">
+       United States. Congress. Senate. Committee on Finance. (2005).
+       <em>
+        Saving America's great places: The role of tax incentives in preserving rural communities: Hearing before the Committee on Finance, United States Senate, One Hundred Eighth Congress, second session (Sioux City, IA). August 25, 2004
+       </em>
+       . Washington: U.S. G.P.O.&nbsp; Retrieved May 15, 2009, from
+       <a href="http://purl.access.gpo.gov/GPO/LPS61143">
+        http://purl.access.gpo.gov/GPO/LPS61143
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Vandergeest, P., Idahosa, P., &amp; Bose, P.S. (Eds.). (2007).
+       <em>
+        Development's displacements: Ecologies, economies, and cultures at risk
+       </em>
+       . Vancouver: UBC Press.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1615967">
+        Trexler Library Main Collection 306.3 D489d
+       </a>
+       &nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321811" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Mindy Thompson Fullilove (October 26)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Mindy Thompson Fullilove
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Fullilove, M. &amp; Fullilove, R. (1991). Black men, Black sexuality and AIDS.&nbsp;&nbsp; In Bowser, B. P. (Ed.),
+        <em>
+         Black male adolescents: Parenting and education in community context
+        </em>
+        (pp. 1-17 ex). Lanham: University Press of America.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1006341">
+         Trexler Library Main Collection 305.235 B788b
+        </a>
+       </p>
+       <p>
+        Fullilove, M.T. &amp; Fullilove, R.E. (2005).&nbsp; HIV/AIDS in the African American community: The legacy of urban abandonment.
+        <em>
+         Harvard Journal of African American Public Policy, 11,
+        </em>
+        p33-41.&nbsp; Retrieved May 15, 2009, from
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=18925097&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=18925097&amp;site=ehost-live&amp;scope=site
+        </a>
+        .
+       </p>
+       <p>
+        Fullilove, M.T., &amp; Fullilove, R.E. III (2000). Place matters. In Hofrichter, R. (Ed.),
+        <em>
+         Reclaiming the environmental debate: The politics of health in a toxic culture
+        </em>
+        (pp. 77-92). Cambridge, MA: MIT Press.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1442928">
+         Trexler Library Main Collection 362.1 H713r
+        </a>
+        &nbsp;
+       </p>
+       <p>
+        <em>
+         Root shock: How tearing up city neighborhoods hurts America, and what we can do about it
+        </em>
+        . (2004). New York: One World/Ballantine Books.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1470670">
+         Trexler Library Main Collection 307.760973 F971r
+        </a>
+        &nbsp;
+       </p>
+       <p>
+        Waylaid. (2000). In Weis, L. &amp; Fine, M. (Eds.),
+        <em>
+         Construction sites: Excavating race, class, and gender among urban youth
+        </em>
+        (pp. 251-258). New York: Teachers College Press.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1406727">
+         Trexler Library Main Collection 306.43 W426c
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Mindy Thompson Fullilove
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Faculty profile. Retrieved May 15, 2009, from
+        <a href="http://asp.cumc.columbia.edu/facdb/profile_list.asp?uni=mf29&amp;DepAffil=Psychiatry">
+         http://asp.cumc.columbia.edu/facdb/profile_list.asp?uni=mf29&amp;DepAffil=Psychiatry
+        </a>
+        .
+       </p>
+       <p>
+        Messina, S.A. (2004). Understanding the psychology of place in community health.
+        <em>
+         S &amp; T: A Bryn Mawr College newsletter on research, teaching, management, policy making and leadership in Science and Technology.
+        </em>
+        Retrieved May 15, 2009, from
+        <a href="http://www.brynmawr.edu/sandt/2004_october/place.html">
+         http://www.brynmawr.edu/sandt/2004_october/place.html
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Urban Healthcare
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Bilheimer, L.T. &amp; Sisk, J.E. (2008). Collecting adequate data on racial and ethnic disparities in health: The challenges continue.
+       <em>
+        Health Affairs, 27
+       </em>
+       (2), 383-391.&nbsp; Retrieved May 15, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=31273400&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=31273400&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Brown, D.R., Hernandez, A., Saint-Jean, G., Evans, S., Tafari, I., Brewster, L.G., et al. (2008). A participatory action research pilot study of urban health disparities using rapid assessment response and evaluation.
+       <em>
+        American Journal of Public Health, 98
+       </em>
+       (1), 28-38. Retrieved May 15, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=28804933&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=28804933&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Frazier, J.W., Margai, F.M., &amp; Tettey-Fio, E. (2003).
+       <em>
+        Race and place: Equity issues in urban America
+       </em>
+       . Boulder: Westview Press.&nbsp;
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1466237">
+        Trexler Library Main Collection 305.800973 F846r
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Schulz, A.J. &amp; Mullings, L. (Eds.). (2006).
+       <em>
+        Gender, race, class, and health: Intersectional approaches
+       </em>
+       . San Francisco: Jossey-Bass.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1602832">
+        Trexler Library Main Collection 362.1089 G325r
+       </a>
+       &nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321853" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Harvey Molotch (November 10)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Harvey Molotch
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Molotch, H., Freudenburg, W., &amp; Paulsen, K. (2000). History repeats itself, but how?: City character, urban tradition, and the accomplishment of place.
+        <em>
+         American Sociological Review
+        </em>
+        <em>
+         , 65
+        </em>
+        , 791-823.&nbsp; Retrieved May 21, 2009, from
+        <a href="http://0-www.jstor.org.library.muhlenberg.edu/stable/pdfplus/2657514.pdf">
+         http://0-www.jstor.org.library.muhlenberg.edu/stable/pdfplus/2657514.pdf
+        </a>
+        .
+       </p>
+       <p>
+        Molotch, H. &amp; Mcclain, N. (2008). Things at work:&nbsp; Informal social-material mechanisms for getting the job done.&nbsp;
+        <em>
+         Journal of Consumer Culture, 8
+        </em>
+        (1), 36-67.&nbsp; Retrieved May 15, 2009, from
+        <a href="http://0-joc.sagepub.com.library.muhlenberg.edu/cgi/reprint/8/1/35">
+         http://0-joc.sagepub.com.library.muhlenberg.edu/cgi/reprint/8/1/35
+        </a>
+        .
+       </p>
+       <p>
+        Review, evaluation, and prognosis: Assessments of societal trends: The radicalization of everyone? (1971). In Orleans, P. &amp; Ellis, W.R., Jr. (Eds.),
+        <em>
+         Race, change, and urban society
+        </em>
+        .&nbsp; Beverly Hills: Sage Publications.
+        <br />
+        <a href="http://library.muhlenberg.edu/record=b1076299">
+         Trexler Library Main Collection 307.76 O71r
+        </a>
+       </p>
+       <p>
+        <em>
+         Where stuff comes from: How toasters, toilets, cars, computers, and many others things come to be as they are.
+        </em>
+        (2003).&nbsp; New York: Routledge. &nbsp;
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Harvey Molotch
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Faculty Profile. New York University.&nbsp; Retrieved May 21, 2009, from
+        <a href="http://as.nyu.edu/object/harveymolotch.html">
+         http://as.nyu.edu/object/harveymolotch.html
+        </a>
+        .
+       </p>
+       <p>
+        McGrath, B. (2008). Powder room 101.
+        <em>
+         New Yorker, 84
+        </em>
+        (3), p27-28. Retrieved May 15, 2009, from
+        <a href="http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do">
+         http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do
+        </a>
+        .
+       </p>
+       <p>
+        Newman, A. (2007, November 4). Society&rsquo;s politics, as seen through a porcelain lens.
+        <em>
+         New York Times.
+        </em>
+        Retrieved May 21, 2009, from
+        <a href="http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do">
+         http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Public Restrooms
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       For our convenience. (2008).
+       <em>
+        New Internationalist, 414
+       </em>
+       , 14-15. Retrieved May 21, 2009, from
+       <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=34906254&amp;site=ehost-live&amp;scope=site">
+        http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=34906254&amp;site=ehost-live&amp;scope=site
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Wortham, J. (2008, 15 December). Seeing profit in need to locate a toilet.
+       <em>
+        New York Times
+       </em>
+       . Retrieved May 21, 2009, from
+       <a href="http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do">
+        http://0-www.lexisnexis.com.library.muhlenberg.edu/us/lnacademic/search/homesubmitForm.do
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Wright, L. (1971).
+       <em>
+        Clean and decent:&nbsp; The fascinating history of the bathroom &amp; water closet and of sundry habits, fashions &amp; accessories of the toilet principally in Great Britain, France, &amp; America.
+       </em>
+       London:&nbsp; Book Club Associates.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1403626">
+        Trexler Library Main Collection 643.52 W951c
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321862" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Liz McCartney (November 16)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Commendations Awarded to Liz McCartney
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Liz McCartney and Zack Rosenburg are chosen as Gambit's 2008 New Orleanians of the Year.
+       </p>
+       <p>
+        Liz McCartney is voted
+        <a href="http://www.cnn.com/SPECIALS/cnn.heroes/archive/liz.mccartney.html">
+         2008 CNN Hero of the Yea
+        </a>
+        r.
+       </p>
+       <p>
+        Liz McCartney and Zack Rosenburg receive a
+        <a href="http://www.manhattan-institute.org/html/se_winners.htm">
+         Social Entrepreneurship Award from the Manhattan Institute (2008)
+        </a>
+        .
+       </p>
+       <p>
+        The St. Bernard Project receives
+        <a href="http://www.friendsofneworleans.org/2008/05/sen_landrieu_pr.php">
+         Hero Award from Friends of New Orleans
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Liz McCartney
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        CNN heroes. (2009, May 9).&nbsp; Retrieved May 21, 2009, from
+        <a href="http://www.cnn.com/2008/LIVING/05/08/heroes.mccartney/index.html">
+         http://www.cnn.com/2008/LIVING/05/08/heroes.mccartney/index.html
+        </a>
+        .
+       </p>
+       <p>
+        Husock, H. (2008, October 21). Nobody does it better.
+        <em>
+         The Wall Street Journal
+        </em>
+        .&nbsp; Retrieved May 21, 2009, from
+        <a href="http://www.wsj.com/">
+         http://www.wsj.com
+        </a>
+        .
+       </p>
+       <p>
+        Pais, N.B. (2009, January 5). Home builders.&nbsp;
+        <em>
+         Gambit
+        </em>
+        . Retrieved May 21, 2009, from
+        <a href="http://bestofneworleans.com/gyrobase/Content?oid=oid%3A48772">
+         http://bestofneworleans.com/gyrobase/Content?oid=oid%3A48772
+        </a>
+       </p>
+       <p>
+        St. Bernard Project. Retrieved May 21, 2009, from
+        <a href="http://www.stbernardproject.org/">
+         http://www.stbernardproject.org/
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Hurricane Katrina Disaster Recovery Efforts
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Bates, K.A. &amp; Swan, R.S., (Eds.). (2007).
+       <em>
+        Through the eye of Katrina:&nbsp; Social justice in the United States.
+       </em>
+       Durham: Carolina Academic Press.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1766557">
+        Trexler Library Main Collection 976.335064 B329t
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Waugh, W.L., Jr., (Ed.). (2006).
+       <em>
+        Shelter from the storm: Repairing the national emergency management system after Hurricane Katrina
+       </em>
+       . Thousand Oaks, CA: Sage Publications.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1540424">
+        Trexler Library Main Collection 305 A512a, v. 604
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Youth Organizers Television (2006).
+       <em>
+        Still standing
+       </em>
+       . New York: Educational Video Center.
+       <br />
+       <a href="http://library.muhlenberg.edu/record=b1601966">
+        Trexler Library AV Alcove 551.552 S857s
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321913" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Paula Massood (February 10)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Paula Massood
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Massood, Paula J. "An Aesthetic Appropriate to Conditions:
+        <em>
+         Killer of Sheep
+        </em>
+        , (Neo)Realism, and the Documentary Impulse."
+        <em>
+         Wide Angle
+        </em>
+        21.4 (1999) 20-41.
+        <em>
+         Project Muse
+        </em>
+        . Web. 8 Feb. 2010.
+        <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/wide_angle/v021/21.4massood.pdf">
+         http://0-muse.jhu.edu.library.muhlenberg.edu/journals/wide_angle/v021/21.4massood.pdf
+        </a>
+       </p>
+       <p>
+        Massood, Paula.
+        <em>
+         Black City Cinema: African American Urban Experiences In Film.
+        </em>
+        Philadelphia: Temple University Press, 2003. Print.
+        <br />
+        <a href="http://library.muhlenberg.edu/search%7ES0?/amassood/amassood/1%2C1%2C2%2CB/frameset&amp;FF=amassood+paula+j+1965&amp;1%2C%2C2">
+         Trexler Library Main Collection 791.43652 M421b
+        </a>
+       </p>
+       <p>
+        Massood, Paula. &ldquo;Ghetto Supastar: Warren Beatty&rsquo;s &lsquo;Bulworth&rsquo; and the Politics of Race and Space.&rdquo;
+        <em>
+         Literature Film Quarterly
+        </em>
+        30.4 (2002): 287-293.
+        <em>
+         Communication &amp; Mass Media Complete
+        </em>
+        . Web. January 13, 2010 from
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=8948083&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=8948083&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Massood, Paula. "Mapping the Hood: The Genealogy of City Space in
+        <em>
+         Boyz N the Hood
+        </em>
+        and
+        <em>
+         Menace II Society
+        </em>
+        ."
+        <em>
+         Cinema Journal
+        </em>
+        35.2 (Winter, 1996): 85-97.
+        <em>
+         JSTOR
+        </em>
+        . Web. 8 Feb. 2010.
+        <a href="http://0-www.jstor.org.library.muhlenberg.edu/stable/1225757">
+         http://0-www.jstor.org.library.muhlenberg.edu/stable/1225757
+        </a>
+       </p>
+       <p>
+        Massood, Paula, ed.
+        <em>
+         The Spike Lee Reader
+        </em>
+        . Philadelphia: Temple University Press, 2008. Print.
+        <br />
+        <a href="http://library.muhlenberg.edu/search%7ES0?/tspike+lee/tspike+lee/1%2C3%2C3%2CB/frameset&amp;FF=tspike+lee+reader&amp;1%2C1%2C">
+         Trexler Library Main Collection 791.430233 L481zm
+        </a>
+       </p>
+       <p>
+        Massood, Paula J. "Which Way to the Promised Land?: Spike Lee's Clockers and the Legacy of the African American City."
+        <em>
+         African American Review
+        </em>
+        35.2 (2001): 263.
+        <em>
+         Academic Search Complete
+        </em>
+        . Web. 8 Feb. 2010.
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=4952371&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=4952371&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Paula Massood
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        "Paula Massood."
+        <em>
+         Brooklyn College
+        </em>
+        .&nbsp; 2010. Web. Januray 26, 2010.
+        <a href="http://www.brooklyn.cuny.edu/pub/Faculty_Details5.jsp?faculty=3">
+         http://www.brooklyn.cuny.edu/pub/Faculty_Details5.jsp?faculty=3
+        </a>
+       </p>
+       <p>
+        "Professor Paula J. Massood."&nbsp;
+        <em>
+         Film Studies Certificate Program
+        </em>
+        .&nbsp;Graduate Center, City University of New York, 2010. Web. January 26, 2010.
+        <a href="http://web.gc.cuny.edu/Filmstudies/faculty/massood.htm">
+         http://web.gc.cuny.edu/Filmstudies/faculty/massood.htm
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Other Works about the African American Urban Experience in Cinema
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Leyda, Julia. &ldquo;Black-Audience Westerns and the Politics of Cultural Identification in the 1930s.&rdquo;
+        <em>
+         Cinema Journal
+        </em>
+        42.1 (Autumn 2002): 46-70.
+        <em>
+         JSTOR
+        </em>
+        . Web. January 26, 2010.
+        <a href="http://0-www.jstor.org.library.muhlenberg.edu/stable/1225542">
+         http://0-www.jstor.org.library.muhlenberg.edu/stable/1225542
+        </a>
+       </p>
+       <p>
+        Reid, Mark.
+        <em>
+         Black Lenses, Black Voices: African American Film Now
+        </em>
+        . Lanham, MD: Rowman &amp; Littlefield, 2005.&nbsp; Print.
+        <br />
+        <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=Black+Lenses%2C+Black+Voices&amp;SORT=D&amp;search=Search">
+         Trexler Library Main Collection &nbsp;791.43652 R357b
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+       </p>
+       <p>
+        Stewart, Jacqueline. &ldquo;Negroes Laughing at Themselves? Black Spectatorship and the Performance of Urban Modernity.&rdquo;
+        <em>
+         Critical Inquiry
+        </em>
+        29.4 (2003): 650-677.
+        <em>
+         MLA International Bibliography
+        </em>
+        . Web. January 27, 2010.
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=mzh&amp;AN=2003421051&amp;site=ehost-live&amp;scope=site">
+         <br />
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=mzh&amp;AN=2003421051&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Stewart, Jacqueline Najuma.
+        <em>
+         Migrating to the Movies: Cinema and Black Urban Modernity
+        </em>
+        . Berkeley: University of California Press, 2005.&nbsp; Print.
+        <br />
+        <a href="http://library.muhlenberg.edu/search/?searchtype=t&amp;searcharg=Migrating+to+the+Movies&amp;SORT=D&amp;search=Search">
+         Trexler Library Main Collection 791.43652 S844m
+        </a>
+        &nbsp;
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321933" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Li Zhang (February 17)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Li Zhang
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Zhang, Li. &ldquo;Contesting Spatial Modernity in Late Socialist China.&rdquo;
+        <em>
+         Current Anthropology
+        </em>
+        47.3 (June 2006): 461-484.
+        <em>
+         University of Chicago Press Journals
+        </em>
+        . Web. 5 Feb. 2010.
+        <a href="http://0-www.journals.uchicago.edu.library.muhlenberg.edu/doi/full/10.1086/503063">
+         http://0-www.journals.uchicago.edu.library.muhlenberg.edu/doi/full/10.1086/503063
+        </a>
+       </p>
+       <p>
+        Zhang, Li. &ldquo;Migration and Privatization of Space and Power in Late Socialist China.&rdquo;
+        <em>
+         American Ethnologist
+        </em>
+        28 (1): 179-205.
+        <em>
+         JSTOR
+        </em>
+        . Web. February 9, 2010.
+        <a href="http://0-www.jstor.org.library.muhlenberg.edu/stable/pdfplus/3095120.pdf">
+         http://0-www.jstor.org.library.muhlenberg.edu/stable/pdfplus/3095120.pdf
+        </a>
+       </p>
+       <p>
+        Zhang, Li. &ldquo;Spatiality and Urban Citizenship in Late Socialist China.&rdquo;
+        <em>
+         Public Culture
+        </em>
+        14.2: 311-334.
+        <em>
+         Project Muse
+        </em>
+        . Web. February 9, 2010.
+        <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/public_culture/v014/14.2zhang.pdf">
+         http://0-muse.jhu.edu.library.muhlenberg.edu/journals/public_culture/v014/14.2zhang.pdf
+        </a>
+       </p>
+       <p>
+        Zhang, Li.
+        <em>
+         Strangers In the City: Reconfigurations of Space, Power, and Social Networks Within China&rsquo;s Floating Population
+        </em>
+        . Stanford: Stanford University Press, 2001. Print.
+        <strong>
+         <br />
+        </strong>
+        Trexler Library Main Collection: On Order.
+       </p>
+       <p>
+        Zhang, Li, and Aihwa Ong, eds.
+        <em>
+         Privatizing China: Socialism from Afar
+        </em>
+        . Ithaca: Cornell University Press, 2008. Print.&nbsp;
+        <strong>
+         <br />
+        </strong>
+        Trexler Library Main Collection: On Order.
+       </p>
+       <p>
+        Zhang, Li, and Alan Smart. "From the Mountains and the Fields: The Urban Transition in the Anthropology of China."
+        <em>
+         China Information
+        </em>
+        20.3 (November 2006): 481-518.
+        <em>
+         Sage Journals Online
+        </em>
+        . Web. 10 Feb. 2010.
+        <a href="http://0-cin.sagepub.com.library.muhlenberg.edu/cgi/reprint/20/3/481">
+         http://0-cin.sagepub.com.library.muhlenberg.edu/cgi/reprint/20/3/481
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Li Zhang
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        "Zhang, Li."
+        <em>
+         University of California, Davis
+        </em>
+        . 9 Jan. 2010. Web. 5 Feb. 2010.
+        <a href="http://anthropology.ucdavis.edu/people/li-zhang-1/li-zhang">
+         http://anthropology.ucdavis.edu/people/li-zhang-1/li-zhang
+        </a>
+       </p>
+       <p>
+        "Li Zhang."
+        <em>
+         John Simon Guggenheim Memorial Foundation
+        </em>
+        . 2010. Web. 5 Feb. 2010.
+        <a href="http://www.gf.org/fellows/16327-li-zhang">
+         http://www.gf.org/fellows/16327-li-zhang
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Other Works about Privatization and Its Effect on Communal Spaces in Contemporary China
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Logan, John, ed.
+        <em>
+         The New Chinese City: Globalization and Market Reform
+        </em>
+        . Malden, MA: Blackwell Publishers, 2002. Print.&nbsp;
+        <a href="http://library.muhlenberg.edu/search%7ES0?/Xchina+and+market%20reform&amp;m=&amp;l=&amp;Da=&amp;Db=&amp;b=&amp;p=&amp;SORT=D&amp;=&amp;=/Xchina+and+market%20reform&amp;m=&amp;l=&amp;Da=&amp;Db=&amp;b=&amp;p=&amp;SORT=D&amp;=&amp;=&amp;SUBKEY=china%20and%20market%20reform/1%2C3%2C3%2CB/frameset&amp;FF=Xchina+and+market%20reform&amp;m=&amp;l=&amp;Da=">
+         <br />
+         Trexler Library Main Collection 307.760951 L831n
+        </a>
+       </p>
+       <p>
+        Smith, Christopher.&nbsp;
+        <em>
+         China In the Post-Utopian Age
+        </em>
+        . Boulder, CO: Westview Press, 2000.&nbsp; Print.&nbsp;
+        <a href="http://library.muhlenberg.edu/search%7ES0/?searchtype=X&amp;searcharg=market+reform+and+contemporary+china&amp;SORT=D&amp;extended=0&amp;SUBMIT=Search&amp;searchlimits=&amp;searchorigarg=Xsocialist+and+contemporary+china">
+         <br />
+         Trexler Library Main Collection 306.0951 S644c
+        </a>
+       </p>
+       <p>
+        Tomba, Luigi. &ldquo;Of Quality, Harmony, and Community: Civilization and the Middle Class in Urban China.&rdquo;
+        <em>
+         Positions: East Asia Cultures Critique
+        </em>
+        . 17.3 (Winter 2009): 592-616.
+        <em>
+         Project Muse
+        </em>
+        . Web. February 9, 2010.
+        <a href="http://0-muse.jhu.edu.library.muhlenberg.edu/journals/positions/v017/17.3.tomba.html">
+         http://0-muse.jhu.edu.library.muhlenberg.edu/journals/positions/v017/17.3.tomba.html
+        </a>
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321947" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Mary Seton Corboy (March 3)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works about Mary Seton Corboy
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Greensgrow Farm
+        </em>
+        [home page].&nbsp; N.p.,&nbsp; 5 January 2010.&nbsp; Web.&nbsp; 25 Feb. 2010.
+        <a href="http://www.greensgrow.org/farm/index.php">
+         http://www.greensgrow.org/farm/index.php
+        </a>
+       </p>
+       <p>
+        Lamp&rsquo;l, Joe.&nbsp; &ldquo;Greens Grow Farm In Philly.&rdquo;
+        <em>
+         Urban Sustainable Living
+        </em>
+        .&nbsp; N.p,&nbsp; n.d.&nbsp; Web.&nbsp; 25 Feb. 2010.&nbsp;&nbsp;
+        <a href="http://www.urbansustainableliving.com/greens-grow-farm-in-philly.html">
+         http://www.urbansustainableliving.com/greens-grow-farm-in-philly.html
+        </a>
+       </p>
+       <p>
+        &ldquo;Real Momentum Profile: Mary Seton Corboy.&rdquo;&nbsp;
+        <em>
+         Downelink
+        </em>
+        .&nbsp; LOGO/MTV Networds,&nbsp; n.d.&nbsp; Web.&nbsp; 25 Feb. 2010.&nbsp;&nbsp;
+        <a href="http://www.downelink.com/downetv/video.aspx?url=P62395-Real-Momentum-Profile-Mary-Seton-Corboy">
+         http://www.downelink.com/downetv/video.aspx?url=P62395-Real-Momentum-Profile-Mary-Seton-Corboy
+        </a>
+       </p>
+       <p>
+        Troutman, Rebecca.&nbsp; &ldquo;Greensgrow.&rdquo;&nbsp;
+        <em>
+         Side Dish.&nbsp;
+        </em>
+        Dine Indie, Jan. 2009.&nbsp; Web.&nbsp; 25 Feb. 2010.&nbsp;
+        <a href="http://www.dineindie.com/sidedish/january2009.cfm">
+         http://www.dineindie.com/sidedish/january2009.cfm
+        </a>
+       </p>
+       <p>
+        White, April. &ldquo;Best of Philly 2008: The Best Philadelphian.&rdquo;
+        <em>
+         Philadelphia
+        </em>
+        .&nbsp;Philadelphia Magazine, Aug. 2009.&nbsp; Web.&nbsp; 25 Feb. 2010.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="http://www.phillymag.com/articles/best_of_philly_2008_the_best_philadelphian/">
+         http://www.phillymag.com/articles/best_of_philly_2008_the_best_philadelphian/
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Urban Gardening
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Birch, Eugene L., and Susan M. Wachter, eds.&nbsp;
+        <em>
+         Growing Greener Cities: Urban Sustainability In the Twenty-First Century
+        </em>
+        .&nbsp; Philadelphia: University of Pennsylvania Press, 2008.&nbsp; Web.&nbsp; 26 Feb. 2010.
+        <a href="http://books.google.com/books?id=nQqGsUC09q0C&amp;printsec=frontcover#v=onepage&amp;q=&amp;f=false">
+         http://books.google.com/books?id=nQqGsUC09q0C&amp;printsec=frontcover#v=onepage&amp;q=&amp;f=false
+        </a>
+       </p>
+       <p>
+        Broadway, Michael.&nbsp; &ldquo;Growing Urban Agriculture in North American Cities: The Example of Milwakee.&rdquo;&nbsp;
+        <em>
+         Focus On Geography
+        </em>
+        .&nbsp; 52.3/4 (Winter 2009): 23-30.&nbsp;
+        <em>
+         Ebscohost
+        </em>
+        .&nbsp; Web.&nbsp; 27 Feb. 2010.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=47253391&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=47253391&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Kaufman, Joanne.&nbsp; &ldquo;Horticulture: She Creates Urban Edens.&rdquo;&nbsp;
+        <em>
+         The Wall Street Journal
+        </em>
+        .&nbsp; (20 Oct. 2009): D9.&nbsp;
+        <em>
+         ProQuest
+        </em>
+        .&nbsp; (Web).&nbsp; 25 Feb. 2010.&nbsp;
+        <br />
+        <a href="http://0-proquest.umi.com.library.muhlenberg.edu/pqdlink?did=1882269671&amp;Fmt=7&amp;clientId=45221&amp;RQT=309&amp;VName=PQD">
+         http://0-proquest.umi.com.library.muhlenberg.edu/pqdlink?did=1882269671&amp;Fmt=7&amp;clientId=45221&amp;RQT=309&amp;VName=PQD
+        </a>
+       </p>
+       <p>
+        Niinemets, Ulo, et al. "Gardening and Urban Landscaping: Significant Players in Global Change."
+        <em>
+         Trends in Plant Science
+        </em>
+        . 13.2 (February 2008): 60-65. ScienceDirect. (Web). 25 Feb. 2010.
+        <br />
+        <a href="http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_method=citationSearch&amp;_uoikey=B6TD1-4RTCPX5-5&amp;_origin=SDEMFRHTML&amp;_version=1&amp;md5=d6b985d152ab406247178333677b224a">
+         http://www.sciencedirect.com/science?_ob=GatewayURL&amp;_method=citationSearch&amp;_uoikey=B6TD1-4RTCPX5-5&amp;_origin=SDEMFRHTML&amp;_version=1&amp;md5=d6b985d152ab406247178333677b224a
+        </a>
+       </p>
+       <p>
+        Yardley, William.&nbsp; &ldquo;In Portland, Growing Vertical.&rdquo;&nbsp;
+        <em>
+         The New York Times
+        </em>
+        .&nbsp; The New York Times Company, 30 Jan. 2010. Web.&nbsp; 26 Feb. 2010.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="http://www.nytimes.com/2010/01/31/us/31portland.html?scp=1&amp;sq=In%20Portland,%20Going%20Green%20and%20Growing%20Vertical%20in%20a%20Bid%20for%20Energy%20Savings&amp;st=cse">
+         http://www.nytimes.com/2010/01/31/us/31portland.html?scp=1&amp;sq=In%20Portland,%20Going%20Green%20and%20Growing%20Vertical%20in%20a%20Bid%20for%20Energy%20Savings&amp;st=cse
+        </a>
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321961" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Keith Hampton (March 16)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Keith Hampton
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Hampton, Keith. "Grieving for a Lost Network: Collective Action in a Wired Suburb."
+        <em>
+         Information Society
+        </em>
+        19.5 (2003): 417.
+        <em>
+         Academic Search Complete
+        </em>
+        . Web. 11 March 2010.
+        <br />
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=11123354&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=11123354&amp;site=ehost-live&amp;scope=site
+        </a>
+        &nbsp;
+       </p>
+       <p>
+        Hampton, Keith.&nbsp; &ldquo;Internet Use and the Concentration of Disadvantage: Glocalization and the Urban Underclass.&rdquo;&nbsp;
+        <em>
+         American Behavioral Scientist
+        </em>
+        (in press).
+        <em>
+         MySocialNetwork.net
+        </em>
+        .&nbsp; Web. 5 March 2010.&nbsp;&nbsp;
+        <br />
+        <a href="http://www.mysocialnetwork.net/downloads/UrbanStudies29-dist.pdf">
+         http://www.mysocialnetwork.net/downloads/UrbanStudies29-dist.pdf
+        </a>
+       </p>
+       <p>
+        Hampton, Keith.&nbsp; &ldquo;Neighborhoods in the Network Society: The e-Neighbors Study.&rdquo;&nbsp;
+        <em>
+         Information, Communication &amp; Society
+        </em>
+        10.5 (October 2007): 714-748.&nbsp;
+        <em>
+         Communication and Mass Media Complete
+        </em>
+        . Web. 5 March 2010.
+        <br />
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=27216636&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=27216636&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Hampton, Keith, and Neeti Gupti.&nbsp; &ldquo;Community and Social Interaction in the Wireless City: Wi-Fi use in Public and Semi-Public Spaces.&rdquo;&nbsp;
+        <em>
+         New Media &amp; Society
+        </em>
+        10.6 (December 2008): 831-850.&nbsp;
+        <em>
+         Sage Journals Online
+        </em>
+        . Web. 5 March 2010.
+        <br />
+        <a href="http://0-nms.sagepub.com.library.muhlenberg.edu/cgi/content/abstract/10/6/831">
+         http://0-nms.sagepub.com.library.muhlenberg.edu/cgi/content/abstract/10/6/831
+        </a>
+       </p>
+       <p>
+        Hampton, Keith, Oren Livio and Lauren Sessions.&nbsp; &ldquo;The Social Life of Wireless Urban Spaces: Internet Use, Social Networks, and the Public Realm.&rdquo;&nbsp;
+        <em>
+         Journal of Communication
+        </em>
+        (in press).&nbsp;
+        <em>
+         MySocialNetwork.net
+        </em>
+        . Web. 5 March 2010.
+        <br />
+        <a href="http://www.mysocialnetwork.net/downloads/wifipublic-knh33-dist.pdf">
+         http://www.mysocialnetwork.net/downloads/wifipublic-knh33-dist.pdf
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Keith Hampton
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <strong>
+         &nbsp;
+        </strong>
+        &ldquo;Keith Hampton.&rdquo;&nbsp;
+        <em>
+         MySocialNetwork.net
+        </em>
+        . 2010. Web. 5 March, 2010.&nbsp;
+        <br />
+        <a href="http://www.mysocialnetwork.net/bio.html">
+         http://www.mysocialnetwork.net/bio.html
+        </a>
+       </p>
+       <p>
+        &ldquo;Keith Hampton.&rdquo;
+        <em>
+         University of Pennsylvania
+        </em>
+        . 2010. 5 March, 2010.
+        <br />
+        <a href="http://www.asc.upenn.edu/ascfaculty/FacultyBio.aspx?id=153">
+         http://www.asc.upenn.edu/ascfaculty/FacultyBio.aspx?id=153
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Other Works about Technology and Social Networking
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Lenhart, Amanda, Kristin Purcell, Aaron Smith, and Kathryn Zickuhr.
+        <em>
+         Social Media and Young Adults
+        </em>
+        . Pew Research Center, 2010. Web. 12 March 2010.
+        <br />
+        <a href="http://www.pewinternet.org/Reports/2010/Social-Media-and-Young-Adults.aspx">
+         http://www.pewinternet.org/Reports/2010/Social-Media-and-Young-Adults.aspx
+        </a>
+       </p>
+       <p>
+        Park, Namsu, Kerk F. Kee, and Sebasti&aacute;n Valenzuela. "Being Immersed in Social Networking Environment: Facebook Groups, Uses and Gratifications, and Social Outcomes."
+        <em>
+         CyberPsychology &amp; Behavior
+        </em>
+        12.6 (2009): 729-733.
+        <em>
+         Academic Search Complete
+        </em>
+        . EBSCO. Web. 10 March 2010.
+        <br />
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=45633781&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=45633781&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Quan-Haase, Anabel. "Instant Messaging on Campus: Use and Integration in University Students' Everyday Communication."
+        <em>
+         Information Society
+        </em>
+        24.2 (2008): 105-115.
+        <em>
+         Communication &amp; Mass Media Complete
+        </em>
+        . Web. 11 Mar. 2010.
+        <br />
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=31271078&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=ufh&amp;AN=31271078&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321970" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Steve Roden (March 17)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Steve Roden
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Web page of Steve Roden. Retrieved March 17, 2010, from
+        <a href="http://www.inbetweennoise.com/">
+         http://www.inbetweennoise.com/
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Steve Roden
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Green, Kate. "
+        <a href="http://0-vnweb.hwwilsonweb.com.library.muhlenberg.edu/hww/jumpstart.jhtml?recid=0bc05f7a67b1790e3e62fef736e0394dc43176c37ff4897e0a6618b139eea3234bebb1ddccc1c61c&amp;fmt=P">
+         Steve Roden and Stephen Vitiello: Lora Reynolds Gallery
+        </a>
+        ."
+        <em>
+         Modern Painters
+        </em>
+        19.10 (2008): 95.
+        <em>
+         Art Full Text
+        </em>
+        . Web. 17 Mar. 2010.
+       </p>
+       <p>
+        Janku, Laura Richard. "
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=17172857&amp;site=ehost-live&amp;scope=site">
+         Steve Roden
+        </a>
+        ."
+        <em>
+         ArtUS
+        </em>
+        8 (2005): 24-25.
+        <em>
+         Academic Search Complete
+        </em>
+        . EBSCO. Web. 17 Mar. 2010.
+       </p>
+       <p>
+        Kilston, Lyra. "
+        <a href="http://0-vnweb.hwwilsonweb.com.library.muhlenberg.edu/hww/jumpstart.jhtml?recid=0bc05f7a67b1790e3e62fef736e0394dae96221d56c0899025d8fd03ee33bb35db7138f6f5528ef0&amp;fmt=P">
+         Sound artists Steve Roden and Stephen Vitiello on transforming a field in Marfa, Texas, by way of sonic samples and the play of light
+        </a>
+        ."
+        <em>
+         Modern Painters
+        </em>
+        20.1 (2008): 112, 110.
+        <em>
+         Art Full Text
+        </em>
+        . Web. 17 Mar. 2010.
+       </p>
+       <p>
+        Kofoed, Kristian. "
+        <a href="http://0-vnweb.hwwilsonweb.com.library.muhlenberg.edu/hww/jumpstart.jhtml?recid=0bc05f7a67b1790e3e62fef736e0394dfc464085da367a4af8b5133fc2f15737f2aabe4e76ae2b59&amp;fmt=P">
+         The Sound of Art: A Conversation with Steve Roden
+        </a>
+        ."
+        <em>
+         Artweek
+        </em>
+        34.8 (2003): 12, 29.
+        <em>
+         Art Full Text
+        </em>
+        . Web. 17 Mar. 2010.
+       </p>
+       <p>
+        Schad, Ed. "
+        <a href="http://0-vnweb.hwwilsonweb.com.library.muhlenberg.edu/hww/jumpstart.jhtml?recid=0bc05f7a67b1790e3e62fef736e0394d763f094b2f35eaa003ded8e13fd2da27805af1d519adaaa6&amp;fmt=P">
+         Steve Roden
+        </a>
+        ."
+        <em>
+         Art Review (London, England)
+        </em>
+        Oct. 2008: 158.
+        <em>
+         OmniFile Full Text Mega
+        </em>
+        . Web. 17 Mar. 2010.
+       </p>
+       <p>
+        Taft, Catherine. "
+        <a href="http://0-vnweb.hwwilsonweb.com.library.muhlenberg.edu/hww/jumpstart.jhtml?recid=0bc05f7a67b1790e3e62fef736e0394dae96221d56c089903cefe70ba820d9d30255a5a3d403b8c5&amp;fmt=P">
+         Before &amp; After Science
+        </a>
+        ."
+        <em>
+         Art Review (London, England)
+        </em>
+        May 2008: 139.
+        <em>
+         Art Full Text
+        </em>
+        . Web. 17 Mar. 2010.
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321978" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Edmund Mooney and Jonny Farrow (March 23)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by and about Edmund Mooney &amp; Jonny Farrow
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        &ldquo;Edmund Mooney.&rdquo;
+        <em>
+         www.edmundmooney.com
+        </em>
+        . 2010. Web. 19 March 2010.
+        <a href="http://www.edmundmooney.com/">
+         http://www.edmundmooney.com/
+        </a>
+       </p>
+       <p>
+        &ldquo;Jonny Farrow.&rdquo;
+        <em>
+         www.jonnyfarrow.net
+        </em>
+        . 2010. Web. 19 March 2010.
+        <a href="http://jonnyfarrow.net/">
+         http://jonnyfarrow.net/
+        </a>
+       </p>
+       <p>
+        Mooney, Edmund, Andrea Pollie, Jonny Farrow, and Gordon Hempton. &ldquo;Ear to the Ground.&rdquo;
+        <em>
+         Seed Magazine
+        </em>
+        . Web. 20 March 2010.
+        <a href="http://seedmagazine.com/slideshow/ear_to_the_ground/">
+         http://seedmagazine.com/slideshow/ear_to_the_ground/
+        </a>
+       </p>
+       <p>
+        &ldquo;Resume.&rdquo;
+        <em>
+         www.edmundmooney.com
+        </em>
+        . 2010. Web. 19 March 2010.
+        <a href="http://www.edmundmooney.com/pages/contact-resume.htm">
+         http://www.edmundmooney.com/pages/contact-resume.htm
+        </a>
+       </p>
+       &ldquo;Work Samples.&rdquo;
+       <em>
+        www.jonnyfarrow.net
+       </em>
+       . 2010. Web. 19 March 2010.
+       <a href="http://jonnyfarrow.net/">
+        http://jonnyfarrow.net/
+       </a>
+      </blockquote>
+      <p>
+       <strong>
+        Other Works about Soundwalks, Soundscapes, and Acoustic Ecology
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Kern, Petra. &ldquo;Surrounded by Soundscapes - An Afternoon Talk with R. Murray Schafer.&rdquo;
+        <em>
+         Music Therapy Today
+        </em>
+        8.2 (18 July 2007). Web. 19 March 2010.
+        <a href="http://www.musictherapyworld.de/modules/mmmagazine/showarticle.php?articletoshow=206">
+         http://www.musictherapyworld.de/modules/mmmagazine/showarticle.php?articletoshow=206
+        </a>
+       </p>
+       <p>
+        Krause, Bernie. "The Loss of Natural Soundscapes."
+        <em>
+         Earth Island Journal
+        </em>
+        17.1 (2002): 27.
+        <em>
+         Academic Search Complete
+        </em>
+        . EBSCO. Web. 22 Mar. 2010.
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=5930713&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=5930713&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        Lawson, Francesca Sborgi. "Being Audient: Similarities between Chinese Daoism and Western Acoustic Ecology."
+        <em>
+         Interdisciplinary Humanities
+        </em>
+        26.2 (2009): 21-30.
+        <em>
+         Academic Search Complete
+        </em>
+        . EBSCO. Web. 22 Mar. 2010.
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=47222481&amp;site=ehost-live&amp;scope=site">
+         http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=47222481&amp;site=ehost-live&amp;scope=site
+        </a>
+       </p>
+       <p>
+        <em>
+         <a href="http://www.cityinasoundwalk.org">
+          www.cityinasoundwalk.org
+         </a>
+        </em>
+        . 2010. Web. 19 March 2010.
+        <a href="http://www.cityinasoundwalk.org/">
+         http://www.cityinasoundwalk.org/
+        </a>
+       </p>
+       <p>
+        <em>
+         <a href="http://www.nyacousticecology.org">
+          www.nyacousticecology.org
+         </a>
+         .
+        </em>
+        2010. Web. 19 March 2010.
+        <a href="http://www.nyacousticecology.org/">
+         http://www.nyacousticecology.org/
+        </a>
+       </p>
+       <p>
+        <em>
+         <a href="http://www.projectsoundwave.com">
+          www.projectsoundwave.com
+         </a>
+        </em>
+        . 2010. Web. 19 March 2010.
+        <a href="http://www.projectsoundwave.com/index2.html">
+         http://www.projectsoundwave.com/index2.html
+        </a>
+       </p>
+       <p>
+        <em>
+         <a href="http://www.soundwalk.com">
+          www.soundwalk.com
+         </a>
+         .
+        </em>
+        2010. Web. 19 March 2010.
+        <a href="http://www.soundwalk.com/">
+         http://www.soundwalk.com/
+        </a>
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18322024" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional resources about the ethics of space and power of place.
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Pahl, J., et al (2007, May). The desire to acquire: or, why shopping malls are sites of religious violence.
+       <em>
+        The Martin Marty Center for the Advanced Study of Religion.
+       </em>
+       Retrieved July 22, 2009, from
+       <a href="http://divinity.uchicago.edu/martycenter/publications/webforum/052007/">
+        http://divinity.uchicago.edu/martycenter/publications/webforum/052007/
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

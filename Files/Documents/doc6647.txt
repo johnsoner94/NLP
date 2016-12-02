@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>
+   Login - TERMINALFOUR Site Manager
+  </title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="SHORTCUT ICON" href="/terminalfour/skin/SM/static/common/ico/t4.ico" />
+  <link href="/terminalfour/skin/SM/static/common/global.css" rel="stylesheet" type="text/css" media="screen" />
+  <!--[if lte IE 6]&gt;&lt;link href="/terminalfour/skin/SM/static/common/iefix.css" rel="stylesheet" type="text/css" media="screen"  /&gt;&lt;style type="text/css"&gt;#wrap-login, h1.logo { behavior: url('/terminalfour/skin/SM/static/common//iepngfix.htc') }&lt;/style&gt;&lt;![endif]-->
+  <!--[if lt IE 6]&gt;&lt;link href="/terminalfour/skin/SM/static/common/ielegacy.css" rel="stylesheet" type="text/css" media="screen"  /&gt;&lt;![endif]-->
+  <link href="/terminalfour/skin/SM/static/common/print.css" rel="stylesheet" type="text/css" media="print" />
+  <script type="text/javascript" src="/terminalfour/skin/SM/static/common/BrowserSniffer.js">
+  </script>
+  <script type="text/javascript" src="/terminalfour/skin/SM/static/common/jQuery.js">
+  </script>
+  <script type="text/javascript" src="/terminalfour/skin/SM/static/common/jquery.cookie.js">
+  </script>
+  <script type="text/javascript" src="/terminalfour/skin/SM/static/common/jQueryGrowl.js">
+  </script>
+  <script type="text/javascript">
+   //&lt;![CDATA[
+var $j = jQuery.noConflict();
+function doLoad ()
+{
+		oUsername = document.getElementById ("login-username");
+	if (oUsername)
+	oUsername.focus ();	
+}
+//]]&gt;
+  </script>
+  <script type="text/javascript">
+   //&lt;![CDATA[
+var simple = true;
+var contextlist = 'custom'; 
+$j(document).ready(function(){$j("div#login-advForm").css("display","none");var loginAdvHidden = true;$j("a#login-toggleLink").click(function () {if(loginAdvHidden==false){ $j('a#login-toggleLink').text('Advanced'); loginAdvHidden=true; }else{ $j('a#login-toggleLink').text('Basic'); loginAdvHidden=false; }$j("div#login-advForm").slideToggle("normal");});
+$j('#login-logintype').append('&lt;option value="auto"&gt;Auto Detect&lt;/option&gt;');
+$j('#login-logintype').append('&lt;option value="local"&gt;Site Manager [Local Login]&lt;/option&gt;');
+$j('#login-logintype').append('&lt;option value="3"&gt;Staff and Faculty&lt;/option&gt;');
+$j('#login-logintype').append('&lt;option value="2"&gt;Students&lt;/option&gt;');
+});
+//]]&gt;
+  </script>
+  <script type="text/javascript">
+   //&lt;![CDATA[
+function setLoginOption(v){$j('#sSelectedContext').val(v);}
+//]]&gt;
+  </script>
+ </head>
+ <body onload="doLoad ();" class="login">
+  <form action="SiteManager" method="post" id="loginForm">
+   <input type="hidden" name="ctfn" value="internal" />
+   <input type="hidden" name="intF" value="10" />
+   <input type="hidden" name="auth_method" value="ldap" />
+   <div id="wrap-login">
+    <h1 class="login-title">
+     <span>
+      TERMINALFOUR Site Manager
+     </span>
+    </h1>
+    <div class="login-customlogo">
+    </div>
+    <div id="login-mainForm">
+     <div class="login-inputRow">
+      <label for="login-username" style="width:80px;">
+       Username
+      </label>
+      <input type="text" value="" name="login_un" id="login-username" />
+     </div>
+     <div class="login-inputRow">
+      <div>
+       <label for="login-password" style="width:80px;">
+        Password
+       </label>
+       <input type="password" value="" name="login_pwd" id="login-password" />
+      </div>
+     </div>
+     <div class="login-inputRow ar">
+      <button style="cursor:pointer;cursor:hand;" type="submit">
+       Login
+      </button>
+      <a href="javascript:;" id="login-toggleLink">
+       Advanced
+      </a>
+     </div>
+    </div>
+    <div id="login-advForm">
+     <label for="login-logintype">
+      Login Type
+     </label>
+     <select id="login-logintype" name="context" onchange="setLoginOption($j('#login-logintype').val());">
+      <option value="">
+       Please select a option
+      </option>
+     </select>
+    </div>
+    <p id="login-footer" style="clear:both;">
+     Copyright &copy; All Rights Reserved 1999-2016,
+     <a href="http://www.terminalfour.com" target="_blank">
+      <strong>
+       TERMINAL
+      </strong>
+      FOUR Solutions Ltd.
+     </a>
+    </p>
+   </div>
+   <script type="text/javascript">
+    //&lt;![CDATA[
+if (document.getElementById)
+{
+	var oTable = document.getElementById ("mainTable");
+	if (oTable)
+		oTable.style.height=document.body.clientHeight;
+}
+//	make sure the server knows which context we've selected
+var oSelected = document.createElement ('input');
+var oForm = document.getElementById ('loginForm');
+oSelected.setAttribute ('type','hidden');
+oSelected.setAttribute ('id', 'sSelectedContext');
+oSelected.setAttribute ('name','sSelectedContext');
+oSelected.setAttribute ('value', 'auto');
+var oForm = document.getElementById ('loginForm');
+oForm.appendChild (oSelected);
+//]]&gt;
+   </script>
+  </form>
+  <!-- End Main Placeholding Table -->
+ </body>
+</html>

@@ -1,0 +1,1373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Final Exam Schedule - Registrar | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Registrar
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/registrar/background.jpg" alt="Registrar" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/registrar/">
+               Registrar
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/registrar/exam_schedule.html/">
+               Final Exam Schedule
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <h3>
+           <strong>
+            Final Exam Schedule Fall 2016
+           </strong>
+          </h3>
+          <p>
+           The Final Exam Schedule for Fall 2016 is now available. &nbsp;Faculty are not allowed to change either the date or time of a final examination. &nbsp;These requests must go through the Provost.
+          </p>
+          <p>
+           <strong>
+            ALL STUDENTS, FACULTY, AND STAFF SHOULD PLAN TO BE AVAILABLE UNTIL THE SEMESTER CONCLUDES AT 3:00 PM ON FRIDAY, DECEMBER 16.
+           </strong>
+          </p>
+          <p>
+           <strong>
+            Contact the Registrar immediately if you are scheduled for simultaneous exams or have 3 finals in one day. &nbsp;Final exam conflicts must be reported no later than Tuesday, November 1.
+           </strong>
+          </p>
+          <p>
+           Look for your day and time in the Notes attached to the course on the Course Schedule on CapStone Online. &nbsp;Your room location may be found on the Final Exam Schedule below. &nbsp;Confirm with your instructors specific plans for culminating experiences before reporting your conflict. &nbsp;Courses listed with a PD code will have their culminating experience on Friday afternoon, December 9. &nbsp;Courses listed with an OF code will have a final experience other than an in-class exam during Finals week.
+           <br />
+           <br />
+          </p>
+          <table border="0" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <span class="italic">
+               exam period
+              </span>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <span class="italic">
+               the final exam
+               <br />
+               is scheduled:
+              </span>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <span class="italic">
+               follow link to find
+               <br />
+               specific courses:
+              </span>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              &nbsp;
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              &nbsp;
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              &nbsp;
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M1&amp;examTerm=Fall">
+               M1
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Monday, December 12 at 8:30 AM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M1&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M2&amp;examTerm=Fall">
+               M2
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Monday, December 12 at Noon
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M2&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M3&amp;examTerm=Fall">
+               M3
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Monday, December 12 at 3:30 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M3&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M4&amp;examTerm=Fall">
+               M4
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Monday, December 12 at 7:00 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=M4&amp;examTerm=Fall">
+               evening courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T1&amp;examTerm=Fall">
+               T1
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Tuesday, December 13 at 8:30 AM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T1&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T2&amp;examTerm=Fall">
+               T2
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Tuesday, December 13 at Noon
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T2&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T3&amp;examTerm=Fall">
+               T3
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Tuesday, December 13 at 3:30 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T3&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T4&amp;examTerm=Fall">
+               T4
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Tuesday, December 13 at 7:00 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=T4&amp;examTerm=Fall">
+               evening courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W1&amp;examTerm=Fall">
+               W1
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Wednesday, December 14 at 8:30 AM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W1&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W2&amp;examTerm=Fall">
+               W2
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Wednesday, December 14 at Noon
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W2&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W3&amp;examTerm=Fall">
+               W3
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Wednesday, December 14 at 3:30 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W3&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W4&amp;examTerm=Fall">
+               W4
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Wednesday, December 14 at 7:00 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=W4&amp;examTerm=Fall">
+               evening courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R1&amp;examTerm=Fall">
+               R1
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Thursday, December 15 at 8:30 AM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R1&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R2&amp;examTerm=Fall">
+               R2
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Thursday, December 15 at Noon
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R2&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R3&amp;examTerm=Fall">
+               R3
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Thursday, December 15 at 3:30 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R3&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R4&amp;examTerm=Fall">
+               R4
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Thursday, December 15 at 7:00 PM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=R4&amp;examTerm=Fall">
+               evening courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=F1&amp;examTerm=Fall">
+               F1
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Friday, December 16 at 8:30 AM
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=F1&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=F2&amp;examTerm=Fall">
+               F2
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Friday, December 16 at Noon
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=F2&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=OF&amp;examTerm=Fall">
+               OF
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Final Experience other than an In-Class Exam
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=OF&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+            <tr align="center">
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=PD&amp;examTerm=Fall">
+               PD
+              </a>
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              Performances, Friday afternoon, December 9
+             </td>
+             <td align="left" style="border-color: #000000; border-style: solid; border-width: 1px;" valign="top">
+              <a href="http://www.muhlenberg.edu/cgi-bin/registrar/exams/exams.pl?examPeriod=PD&amp;examTerm=Fall">
+               day courses
+              </a>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <p>
+           Study days are scheduled for Saturday and Sunday, December 10 and 11.
+          </p>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Registrar
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/registrar/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/newsevents/calendar/">
+            Academic Calendar
+           </a>
+          </li>
+          <li>
+           <a href="http://www.muhlenberg.edu/main/aboutus/catalog/">
+            College Catalog
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/courses/">
+            Courses
+           </a>
+          </li>
+          <li>
+           <a href="https://capstone2.muhlenberg.edu/clusters/clusterList.php" target="_blank">
+            Clusters
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/degreeaudit/">
+            Degree Audit
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/faqs/">
+            FAQS
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/ferpa/">
+            FERPA
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/registrar/exam_schedule.html/">
+             Final Exam Schedule
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/forms/">
+            Forms
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/graduation/">
+            Graduation
+           </a>
+          </li>
+          <li>
+           <a href="http://www.muhlenberg.edu/main/aboutus/ir/">
+            Institutional Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/meetthestaff/">
+            Meet the Staff
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/policyandprocedures/">
+            Policy and Procedures
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/registration/">
+            Registration
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/studentinfocapstone/">
+            Student Info (Capstone)
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/transferringcourses/">
+            Transferring Courses
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/transcripts/">
+            Transcripts
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/registrar/verifications/">
+            Verifications
+           </a>
+          </li>
+          <li>
+           <a href="https://www.lehighcounty.org/Departments/VoterRegistration/tabid/330/language/en-US/Default.aspx" target="_blank">
+            Voter Reqistration
+           </a>
+          </li>
+          <li>
+           <a href="/main/wescoe/prospectivestudents/militaryleavepolicy/">
+            Veterans
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/newsevents/calendar/"&gt;Academic Calendar&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.muhlenberg.edu/main/aboutus/catalog/"&gt;College Catalog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/courses/"&gt;Courses&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://capstone2.muhlenberg.edu/clusters/clusterList.php" target="_blank"&gt;Clusters&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/degreeaudit/"&gt;Degree Audit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/faqs/"&gt;FAQS&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/ferpa/"&gt;FERPA&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/registrar/exam_schedule.html/"&gt;Final Exam Schedule&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/forms/"&gt;Forms&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/graduation/"&gt;Graduation&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.muhlenberg.edu/main/aboutus/ir/"&gt;Institutional Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/meetthestaff/"&gt;Meet the Staff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/policyandprocedures/"&gt;Policy and Procedures&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/registration/"&gt;Registration&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/studentinfocapstone/"&gt;Student Info (Capstone)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/transferringcourses/"&gt;Transferring Courses&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/transcripts/"&gt;Transcripts&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/registrar/verifications/"&gt;Verifications&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.lehighcounty.org/Departments/VoterRegistration/tabid/330/language/en-US/Default.aspx" target="_blank"&gt;Voter Reqistration&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/prospectivestudents/militaryleavepolicy/"&gt;Veterans&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How did Erica Wenzel '14 take a new look at MLB history with mathematics?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/ericawenzel/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/EricaWenzel-TOC-r.jpg" alt="Rotating teaser for Erica Wenzel '14 TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

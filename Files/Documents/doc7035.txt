@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Political Science Subject Guide - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 357836;
+			mySID = 2926639;
+			var myGNAME = "Political+Science+Subject+Guide";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Political Science Subject Guide
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Nov 28, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/politicalscience">
+          http://libraryguides.muhlenberg.edu/politicalscience
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=357836">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Jen Jarson
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:jarson@muhlenberg.edu">
+           jarson@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          jarson@muhlenberg.edu
+          <br />
+          484.664.3552
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2926639">
+       Core Resources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2978369">
+       Finding Background Information
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2950411">
+       Finding Articles
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2978371">
+       Finding Books
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2996444">
+       Finding Government Documents
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2978383">
+       Finding Data &amp; Statistics
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=357836&amp;sid=2978374">
+       Citations
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2926639" class="guide_page">
+   <h2>
+    Core Resources
+   </h2>
+   <div id="content_box_10544326" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding More
+     </div>
+     <div style="margin-bottom:10px;">
+      <p href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=353707&amp;sid=2893499">
+       For recommendations beyond the core resources listed on this page, use the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2978369">
+        Finding Background Information
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2950411">
+        Finding Articles
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2978371">
+        Finding Books
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2996444">
+        Finding Government Documents
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2978383">
+        Finding Data &amp; Statistics
+       </a>
+       , and
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=357836&amp;sid=2978374">
+        Citations
+       </a>
+       tabs across the top.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10268024" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Resources by Course
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Find specific recommendations by course:
+      </p>
+     </div>
+     <ul>
+      <li>
+       American Foreign Policy
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/americanforeignpolicy">
+        http://libraryguides.muhlenberg.edu/americanforeignpolicy
+       </a>
+      </li>
+      <li>
+       American Political Thought
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/americanpoliticalthought">
+        http://libraryguides.muhlenberg.edu/americanpoliticalthought
+       </a>
+      </li>
+      <li>
+       Comp. &amp; Int. Environmental Policies
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/ciep">
+        http://libraryguides.muhlenberg.edu/ciep
+       </a>
+      </li>
+      <li>
+       Environmental Politics
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/envpol">
+        http://libraryguides.muhlenberg.edu/envpol
+       </a>
+      </li>
+      <li>
+       Inequality &amp; U.S. Public Policy
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/inequality">
+        http://libraryguides.muhlenberg.edu/inequality
+       </a>
+      </li>
+      <li>
+       Int. Law &amp; Organization
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/ilo">
+        http://libraryguides.muhlenberg.edu/ilo
+       </a>
+      </li>
+      <li>
+       International Environmental Policy
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/intenvpol">
+        http://libraryguides.muhlenberg.edu/intenvpol
+       </a>
+      </li>
+      <li>
+       International Political Economy
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/ipe">
+        http://libraryguides.muhlenberg.edu/ipe
+       </a>
+      </li>
+      <li>
+       Ocean Resource Management
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/ocean">
+        http://libraryguides.muhlenberg.edu/ocean
+       </a>
+      </li>
+      <li>
+       Research Methods
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/researchmethodspsc">
+        http://libraryguides.muhlenberg.edu/researchmethodspsc
+       </a>
+      </li>
+      <li>
+       Theories of International Relations
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/theoriesir">
+        http://libraryguides.muhlenberg.edu/theoriesir
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10544157" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Articles and Books
+     </div>
+     <ul>
+      <li>
+       Columbia International Affairs Online (CIAO)
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.ciaonet.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.ciaonet.org/
+       </a>
+       <br />
+       A database of scholarly journal articles, working papers, policy briefs, conference proceedings, and more in the area of international affairs theory and research.  Full text is linked directly in the database.
+      </li>
+      <li>
+       PAIS
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/pais/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/pais/ip?accountid=40980
+       </a>
+       <br />
+       Citations from scholarly journal articles, books, book chapters, policy briefs, government publications, and more from on domestic and international political, economic, social and public policy issues.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       Worldwide Political Science Abstracts
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/wpsashell/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/wpsashell/ip?accountid=40980
+       </a>
+       <br />
+       Citations from scholarly journal articles, books, book chapters, policy briefs, government publications, and more in political science and complementary fields, including international relations, law, and public administration/policy.  Use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       Encompass Search finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10544159" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Resources for Finding Background Information
+     </div>
+     <ul>
+      <li>
+       Credo Reference
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com
+       </a>
+       <br />
+       Hundreds of dictionaries, encyclopedias, fact books, guides, companions and more from respected publishers across dozens of major subject areas, including many notable titles for political science. Full text is linked directly in the database.
+      </li>
+      <li>
+       Europa World Year Book
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.europaworld.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.europaworld.com/
+       </a>
+       <br />
+       Brief statistics by country on a variety of topics, including: area and population, health and welfare, agriculture, industry, trade, transport, education, and more.
+       <br />
+      </li>
+      <li>
+       Political Handbook of the World
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://library.cqpress.com/phw/">
+        https://muhlenberg.idm.oclc.org/login?url=http://library.cqpress.com/phw/
+       </a>
+       <br />
+       Information by country on a variety of topics, including: government and politics, constitution, foreign affairs, political and opposition parties, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10544169" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Citation Resources
+     </div>
+     <ul>
+      <li>
+       Citation Guides (Muhlenberg College)
+       <br />
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        http://trexler.muhlenberg.edu/research/citation-guides.html
+       </a>
+       <br />
+       Examples of citation formatting in APA, Chicago, and MLA styles.
+      </li>
+      <li>
+       The Chicago Manual of Style
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.chicagomanualofstyle.org/16/contents.html">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.chicagomanualofstyle.org/16/contents.html
+       </a>
+       <br />
+       The authoritative and complete manual for Chicago Style.
+      </li>
+      <li>
+       Zotero
+       <br />
+       <a href="http://www.zotero.org/">
+        http://www.zotero.org/
+       </a>
+       <br />
+       "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources."  Download instructions and help available on the site.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

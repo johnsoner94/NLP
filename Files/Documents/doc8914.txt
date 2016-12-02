@@ -1,0 +1,1452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Center for Ethics: Market Values (2012-2013) - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 599565;
+			mySID = 4944351;
+			var myGNAME = "Center+for+Ethics%3A+Market+Values+%282012-2013%29";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Center for Ethics: Market Values (2012-2013)
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         May 27, 2014
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/centerforethics2012">
+          http://libraryguides.muhlenberg.edu/centerforethics2012
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=599565">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+          <br />
+          IM: refcannon (AIM, Yahoo)
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=599565&amp;sid=4944351">
+       Home
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_4944351" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18320964" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Jerry Evensky (September 5)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Jerry Evensky
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       "Adam Smith's Lost Legacy."
+       <i>
+        Southern Economic Journal
+       </i>
+       . 67.3 (2001): 497-517. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/stable/1061449">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "Adam Smith's 'Theory of Moral Sentiments': On Morals and Why They Matter to a Liberal Society of Free People and Free Markets."
+       <i>
+        Journal of Economic Perspectives
+       </i>
+       . 19.3 (2005): 109-130. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=23454751&amp;site=ehost-live&amp;scope=site">
+        here.
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       "Ethics and the Invisible Hand."
+       <i>
+        The Journal of Economic Perspectives
+       </i>
+       . 7.2 (1993): 197-205. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=9307065112&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       "The Role of Community Values in Modern Classical Liberal Economic Thought."
+       <i>
+        Scottish Journal of Political Economy
+       </i>
+       . 39.1 (1992): 21-38. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=13688645&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about Jerry Evensky
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       <em>
+        Maxwell School: Jerry Evensky, Professor, Economics
+       </em>
+       . Web. 19 Sept. 2012. Available
+       <a href="http://www.maxwell.syr.edu/faculty.aspx?id=6442451321">
+        here
+       </a>
+       .
+      </p>
+      <p>
+       <strong>
+        Works about ethical dimensions of the philosophies of Adam Smith
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Dwyer, John. "Ethics And Economics: Bridging Adam Smith's Theory Of Moral Sentiments And Wealth Of Nations."
+       <i>
+        Journal Of British Studies
+       </i>
+       44.4 (2005): 662-687. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=18502967&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Medema, Steven G.
+       <em>
+        The Hesitant Hand: Taming Self-Interest in the History of Economic Ideas
+       </em>
+       . Princeton, N.J: Princeton University Press, 2009. Available in Trexler Library&nbsp;call # &nbsp;
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c330.1+M488h/c330.1+m488h/-3,-1,,E/browse">
+        330.1 M488h
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18320978" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Michael Franz (September 18)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Michael Franz
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Campaign Advertising and American Democracy
+        </em>
+        . Philadelphia: Temple University Press, 2007. Available in Trexler Library, call #
+        <span class="briefcitTitle">
+         <a href="http://library.muhlenberg.edu/search%7ES0?/Xcampaign+advertising&amp;SORT=D/Xcampaign+advertising&amp;SORT=D&amp;SUBKEY=campaign+advertising/1,48,48,B/frameset&amp;FF=Xcampaign+advertising&amp;SORT=D&amp;1,1,">
+          324.730973 C186a
+         </a>
+         .
+        </span>
+       </p>
+       <p>
+        "Campaign Advertising and Democratic Citizenship."
+        <i>
+         American Journal Of Political Science
+        </i>
+        48.4 (2004): 723-741. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=14358360&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Does Political Advertising Persuade?."
+        <i>
+         Political Behavior
+        </i>
+        29.4 (2007): 465-491. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=27053423&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Evaluating Measures Of Campaign Tone."
+        <i>
+         Political Communication
+        </i>
+        25.2 (2008): 158-179. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=31930720&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Michael Franz
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Michael Franz
+        </em>
+        . 2012. Web. 11 September, 2012. Available
+        <a href="http://www.bowdoin.edu/faculty/m/mfranz/">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about campaign advertising
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Fridkin, Kim L., and Patrick Kenney. "Variability In Citizens' Reactions To Different Types Of Negative Campaigns."
+        <i>
+         American Journal Of Political Science
+        </i>
+        55.2 (2011): 307-325. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=59748943&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Nichols, John, and Robeet W. McChestney. "The Assault Of The Super PACS."
+        <i>
+         Nation
+        </i>
+        294.6 (2012): 11-17. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=70466311&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Ridout, Travis N., and Erika Franklin Fowler. "Explaining Perceptions Of Advertising Tone."
+        <i>
+         Political Research Quarterly
+        </i>
+        65.1 (2012): 62-75.&nbsp; Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=73279253&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321053" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      The Corporation (October 30)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by the director, Mark Achbar
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Achbar, Mark.
+        <em>
+         The Corporation: A Documentary
+        </em>
+        . Zeitgeist Films, 2004. Available in Trexer Library, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c658+C822a/c658+c822a/-3,-1,,E/browse">
+         658 C822a
+        </a>
+       </p>
+       <p>
+        Achbar, Mark.
+        <em>
+         Manufacturing Consent: Noam Chomsky and the Media
+        </em>
+        . New York, NY: Zeitgeist Films Ltd., 1994. Available in Trexler Library, call
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c302.23+M294c/c302.23+m294c/-3,-1,,E/browse">
+         302.23 M294c
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the film
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Christensen, Christian. "Political Documentary, Online Organization And Activist Synergies."
+        <i>
+         Studies In Documentary Film
+        </i>
+        3.2 (2009): 77-94. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=ofm&amp;AN=505382632&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Higgins, Lynn A. &ldquo;Documentary in an Age of Terror.&rdquo;
+        <em>
+         South Central Review
+        </em>
+        22.2 (2005): 20&ndash;38. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=https://muse.jhu.edu/journals/south_central_review/v022/22.2higgins.html">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Levin, Jane. "The Corporation."
+        <i>
+         Screen Education
+        </i>
+        36 (2004): 16-20. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=ufh&amp;AN=16363257&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Weinberger, Seth. "The Corporation, Directed And Produced."
+        <i>
+         Political Communication
+        </i>
+        23.2 (2006): 250-252. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=ufh&amp;AN=21320096&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the nature and history of corporations
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Beets, S. "Critical Events In The Ethics Of U.S. Corporation History."
+       <i>
+        Journal Of Business Ethics
+       </i>
+       102.2 (2011): 193-219. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=63899446&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Blokhuis, Jason C. &ldquo;Channel One: When Private Interests and the Public Interest Collide.&rdquo;
+       <em>
+        American Educational Research Journal
+       </em>
+       45.2 (2008): 343&ndash;363. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://aer.sagepub.com/content/45/2/343.full.pdf+html">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Drucker, Peter Ferdinand.
+       <em>
+        Concept of the Corporation.
+       </em>
+       2nd rev. ed. New York: New American Library, 1983. Available in Trexler Library, call # &nbsp;
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c338.74+D794c/c338.74+d794c/-3,-1,,E/browse">
+        338.74 D794c
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Iyer, Arun. "The Missing Dynamic: Corporations, Individuals And Contracts."
+       <i>
+        Journal Of Business Ethics
+       </i>
+       67.4 (2006): 393-406. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=22577867&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Rendtorff, Jacob Dahl.
+       <em>
+        Responsibility, Ethics, and Legitimacy of Corporations.
+       </em>
+       1st ed. [Frederiksberg, Denmark] : Portland, OR: Copenhagen Business School Press ; International Specialized Book Services [distributor], 2009. Available in Trexler Library at call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c174.4+R397r/c174.4+r397r/-3,-1,,E/browse">
+        174.4 R397r
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321179" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Nothing Like Chocolate (November 15)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by the director, Kum-Kum Bhavnani
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Bhavnani, Kum-Kum.
+        <em>
+         Feminist Futures: Re-imagining Women, Culture and Development
+        </em>
+        . New York: Zed Books, 2003. Available in Trexler Library, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c305.42+B575f/c305.42+b575f/-3,-1,,E/browse">
+         305.42 B575f
+        </a>
+       </p>
+       <p>
+        Bhavnani, Kum-Kum.
+        <em>
+         The Shape of Water
+        </em>
+        . 2006. Videodisc. Available in Trexler Library, audiovisual collection, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c305.42+S529o/c305.42+s529o/-3,-1,,E/browse">
+         305.42 S529o
+        </a>
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Bhavnani and her films
+       </strong>
+      </p>
+      <blockquote>
+       <div class="csl-bib-body" style="line-height: 2; padding-left: 2em; text-indent: -2em;">
+        <div class="csl-entry">
+        </div>
+       </div>
+       <p>
+        Ampofo, Akosua Adomako. "The Shape Of Water? Women's Activism? A View From Ghana."
+        <i>
+         Feminism &amp; Psychology
+        </i>
+        18.1 (2008): 135-141. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=31122489&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "When Worlds Collide."
+        <i>
+         Women's Review Of Books
+        </i>
+        19.5 (2002): 13. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=5977546&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the social responsibility of business
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Devinney, Timothy M. "Is The Socially Responsible Corporation A Myth? The Good, The Bad, And The Ugly Of Corporate Social Responsibility."
+       <i>
+        Academy Of Management Perspectives
+       </i>
+       23.2 (2009): 44-56. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=39985540&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Hart, Stuart L.
+       <em>
+        Capitalism at the Crossroads: Next Generation Business Strategies for a Post-crisis World
+       </em>
+       . 3rd ed. Upper Saddle River, N.J: Wharton School Pub, 2010. Available in Trexler Library, call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c658.408+H326c/c658.408+h326c/-3,-1,,E/browse">
+        658.408 H326c
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Jacobsen, Joseph.
+       <em>
+        Sustainable Business and Industry: Designing and Operating for Social and Environmental Responsibility
+       </em>
+       . Milwaukee, Wis: ASQ Quality Press, 2011. Available in Trexler Library, call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c658.408+J17s/c658.408+j17s/-3,-1,,E/browse">
+        658.408 J17s
+       </a>
+      </p>
+      <p style="padding-left: 30px;">
+       Pacyniak, Bernard. "Daring To Be Square. (Cover Story)."
+       <i>
+        Candy Industry
+       </i>
+       172.6 (2007): 20-25. Available&nbsp;
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=25539219&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Pacyniak, Bernard. "Going Green."
+       <i>
+        Candy Industry
+       </i>
+       176.10 (2011): 14-18.&nbsp; Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=67231711&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321187" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Angus Burgin (January 15)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Angus Burgin
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         The Great Persuasion : Reinventing Free Markets since the Depression
+        </em>
+        . Cambridge, Mass.: Harvard University Press, 2012.&nbsp;On order.
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Angus Burgin
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <i>
+         Angus Burgin
+        </i>
+        . Web. 15 Jan. 2013. Available
+        <a href="http://angusburgin.com/">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Solow, Robert M. "The Serfdom Scare."
+        <i>
+         New Republic
+        </i>
+        243.18 (2012): 40-43. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=83493074&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about free markets since the depression
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Armey, Dick, and Malcolm Forbes Jr. "Serfdom USA."
+       <i>
+        Policy Review
+       </i>
+       69 (1994): 14. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=9408162048&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+       <br />
+       <br />
+       Ebenstein, Alan O.
+       <em>
+        Milton Friedman: a Biography
+       </em>
+       . 1st ed. New York: Palgrave Macmillan, 2007. Available in Trexler Library at call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c330.973+F911xe/c330.973+f911xe/-3,-1,,E/browse">
+        330.973 F911xe
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Hayek, Friedrich A. von.
+       <em>
+        The Road to Serfdom
+       </em>
+       . Chicago: The University of Chicago Press, 1969. Available in Trexler Library at call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c338.91+H417r/c338.91+h417r/-3,-1,,E/browse">
+        338.91 H417r
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Holcombe, Randall G. "Government: Unnecessary But Inevitable."
+       <i>
+        Independent Review
+       </i>
+       8.3 (2004): 325-342. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=11841659&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+       <br />
+       <br />
+       Maki, Uskali, ed.
+       <em>
+        The Methodology of Positive Economics: Reflections on the Milton Friedman Legacy
+       </em>
+       . Cambridge, UK ; New York: Cambridge University Press, 2009. Available in Trexler Library, call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c330.1+F911em/c330.1+f911em/-3,-1,,E/browse">
+        330.1 F911em
+       </a>
+       .
+      </p>
+      <div class="csl-bib-body" style="line-height: 2; padding-left: 32px; text-indent: -2em;">
+      </div>
+      <p style="padding-left: 30px;">
+       Plant, Raymond. "Neo-Liberalism And The Theory Of The State."
+       <i>
+        Political Quarterly
+       </i>
+       75.(2004): 24-37. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=15067309&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Steele, G. R.
+       <em>
+        The Economics of Friedrich Hayek
+       </em>
+       . 2nd ed. Basingstoke [England] ; New York: Palgrave Macmillan, 2007. Available in Trexler Library at call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c330.92+H417zs/c330.92+h417zs/-3,-1,,E/browse">
+        330.92 H417zs
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Wapshott, Nicholas.
+       <em>
+        Keynes Hayek: The Clash That Defined Modern Economics
+       </em>
+       . 1st ed. New York: W.W. Norton &amp; Co, 2011. Available in Trexler Library at call #
+       <a href="http://library.muhlenberg.edu/search%7ES0?/c330.156+W252k/c330.156+w252k/-3,-1,,E/browse">
+        330.156 W252k
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321291" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Benjamin Hale (February 19)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Benjamin Hale
+       </strong>
+      </p>
+      <div align="left">
+       <p style="padding-left: 30px;">
+        "Moral Considerability: Deontological, Not Metaphysical."
+        <i>
+         Ethics &amp; The Environment
+        </i>
+        16.2 (2011): 37-62. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=66823150&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p style="padding-left: 30px;">
+        "Nonrenewable Resources And The Inevitability Of Outcomes."
+        <i>
+         Monist
+        </i>
+        94.3 (2011): 369-390. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=65958133&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p style="padding-left: 30px;">
+        "Open To Debate: Moral Consideration and the Lab Monkey."
+        <i>
+         American Journal of Bioethics
+        </i>
+        June 2008: 53+. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=33971511&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p style="padding-left: 30px;">
+        "Private Property And Environmental Ethics:."
+        <i>
+         Metaphilosophy
+        </i>
+        39.3 (2008): 402-421. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=32538250&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p style="padding-left: 30px;">
+        "Risk, Judgment And Fairness In Research Incentives."
+        <i>
+         American Journal Of Bioethics
+        </i>
+        7.2 (2007): 82-83. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=24233003&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </div>
+      <p>
+       <strong>
+        Works about Benjamin Hale
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        <em>
+         Benjamin Hale
+        </em>
+        . Web. 15 Jan. 2013. Available
+        <a href="http://spot.colorado.edu/%7Ebhale/index.shtml">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about environmental ethics and the marketplace
+       </strong>
+      </p>
+      <p style="padding-left: 30px;">
+       Ferdowsian, Hope. "Human And Animal Research Guidelines: Aligning Ethical Constructs With New Scientific Developments."
+       <i>
+        Bioethics
+       </i>
+       25.8 (2011): 472-478. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=65522180&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Ferdowsian, Hope. "Why We Need Alternatives."
+       <i>
+        Chronicle Of Higher Education
+       </i>
+       57.12 (2010): B9-B10. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=55612651&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Mathews, Freya. "The Eco-Genesis Of Ethics And Religion."
+       <i>
+        Journal For The Study Of Religion, Nature &amp; Culture
+       </i>
+       5.3 (2011): 263-283. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=71586056&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+      <p style="padding-left: 30px;">
+       Thompson, Allen. "Responsibility For The End Of Nature: Or, How I Learned To Stop Worrying And Love Global Warming."
+       <i>
+        Ethics &amp; The Environment
+       </i>
+       14.1 (2009): 79-99. Available
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=41687559&amp;site=ehost-live&amp;scope=site">
+        here
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321303" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Branko Milanovic (February 26)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Branko Milanovic
+       </strong>
+      </p>
+      <blockquote>
+       <p align="left">
+        Braithwaite, Jeanine, Christiaan Grootaert, and Branko Milanovic.
+        <em>
+         Poverty and Social Assistance in Transition Countries
+        </em>
+        . 1st ed. New York: St. Martin&rsquo;s Press, 2000. Available in Trexler Library, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c362.580947+B814p/c362.580947+b814p/-3,-1,,E/browse">
+         362.580947 B814p
+        </a>
+        .
+       </p>
+       <p align="left">
+        &ldquo;Can We Discern the Effect of Globalization on Income Distribution? Evidence from Household Surveys.&rdquo;
+        <em>
+         The World Bank Economic Review
+        </em>
+        19.1 (2005): 21&ndash;44. Available
+        <a href="http://econ.worldbank.org/external/default/main?pagePK=64165259&amp;piPK=64165421&amp;theSitePK=469372&amp;menuPK=64216926&amp;entityID=000094946_0209060421403">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        "Economic Integration And Income Convergence: Not Such A Strong Link?."
+        <i>
+         Review Of Economics &amp; Statistics
+        </i>
+        88.4 (2006): 659-670. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=23159822&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        <em>
+         The Haves and the Have-Nots : A Brief and Idiosyncratic History of Global Inequality
+        </em>
+        . New York: Basic Books, 2011. Available in Trexler Library, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c339.2+M637h/c339.2+m637h/-3,-1,,E/browse">
+         339.2 M637h
+        </a>
+        .
+       </p>
+       <p align="left">
+        Kapstein, Ethan B., and Branko Milanovic. "Income And Influence: Social Policy In Emerging Market Economies."
+        <i>
+         Society
+        </i>
+        41.5 (2004): 59-60. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=18673751&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+        <em>
+         <br />
+        </em>
+       </p>
+       <p align="left">
+        Kapstein, Ethan B., and Milanovic Branko. "Responding To Globalization: Social Policy In Emerging Market Economies."
+        <i>
+         Global Social Policy
+        </i>
+        1.2 (2001): 191-212. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=9773712&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        Milanovic, Branko, and Shlomo Yitzhaki. "Decomposing World Income Distribution: Does The World Have A Middle Class?."
+        <i>
+         Review Of Income &amp; Wealth
+        </i>
+        48.2 (2002): 155. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=6832236&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        <em>
+         Worlds Apart: Measuring International and Global Inequality
+        </em>
+        . Princeton, N.J: Princeton University Press, 2005. Available in Trexler Library, call #&nbsp;
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c330.9+M637w/c330.9+m637w/-3,-1,,E/browse">
+         330.9 M637w
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Branko Milanovic
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Djajic, Slobodan. "Worlds Apart: Measuring International And Global Inequality &ndash; By Branko Milanovic."
+        <i>
+         Review Of International Economics
+        </i>
+        14.3 (2006): 522-523. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=21358019&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        "Inequality In The World Economy- By The Numbers [Interview with Milanovic]."
+        <em>
+         Multinational Monitor
+        </em>
+        24.7/8 (2003): 23-29. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;AN=10689338&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about the effect of globalization on inequality
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Haase, Dwight. "The Wealth (And Want) Of Nations: The Impact Of Economic Globalization On The Developing World."
+        <i>
+         Perspectives On Global Development &amp; Technology
+        </i>
+        11.1 (2012): 38-49. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=73162179&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Onyeiwu, Steve, Raluca Iorgulescu Polimeni, and John M. Polimeni. "Distributional Impact Of Globalization-Induced Migration: Evidence From A Nigerian Village."
+        <i>
+         African Development Review
+        </i>
+        20.1 (2008): 115-134.&nbsp; Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=31244267&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321332" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Sister Nora Nash (March 13)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works about Sister Nora Nash
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Frykholm, Amy. "Investing In Change [Interview with Nash]."
+        <i>
+         Christian Century
+        </i>
+        129.17 (2012): 10-11. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=78947276&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Hannum, Kristen. "Sister Pat Battles The Board."
+        <i>
+         U.S. Catholic
+        </i>
+        76.12 (2011): 18-22. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=67310038&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Kavanaugh, Peter. "Nuns and Wall Street."
+        <em>
+         Messenger of St. Anthony
+        </em>
+        . Web. Available
+        <a href="http://www.iccr.org/news/press_releases/pdf%20files/101512ArticleNoraNashOSF.pdf">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Roose, Kevin. "Nuns Who Won't Stop Nudging."
+        <em>
+         The New York Times
+        </em>
+        13 November 2011: BU1. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/lnacui2api/api/version1/getDocCui?lni=547R-XT91-DXY4-X054&amp;csi=6742&amp;hl=t&amp;hv=t&amp;hnsd=f&amp;hns=t&amp;hgn=t&amp;oc=00240&amp;perma=true">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Williams, Sally. "The Unlikely Activists."
+        <em>
+         The Sunday Telegraph (London)
+        </em>
+        15 July 2012: 12,13. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/lnacui2api/api/version1/getDocCui?lni=563Y-BVS1-JCC9-V54B&amp;csi=334988&amp;hl=t&amp;hv=t&amp;hnsd=f&amp;hns=t&amp;hgn=t&amp;oc=00240&amp;perma=true">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about corporate social responsibility
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Bilchitz, David. "Do Corporations Have Positive Fundamental Rights Obligations?."
+        <i>
+         Theoria: A Journal Of Social &amp; Political Theory
+        </i>
+        57.125 (2010): 1-35. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=56829997&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Nick, Lin-Hi. "The Problem With A Narrow-Minded Interpretation Of CSR: Why CSR Has Nothing To Do With Philanthropy."
+        <i>
+         Ramon Llull Journal Of Applied Ethics
+        </i>
+        1 (2010): 79-95. Available
+        <a href="http://www.rljae.org/article.asp?issn=2013-8393;year=2010;volume=1;issue=1;spage=79;epage=95;aulast=Lin-Hi;type=0">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Welker, Marina, and David Wood. &ldquo;Shareholder Activism and Alienation.&rdquo; Current Anthropology 52.S3 (2011): S57&ndash;S69. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/stable/10.1086/656796">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Werther, William B.
+        <em>
+         Strategic Corporate Social Responsibility: Stakeholders in a Global Environment
+        </em>
+        . 2nd ed. Los Angeles: Sage, 2011. Available at Trexler Library, call #
+        <a href="http://library.muhlenberg.edu/search%7ES0?/c658.408+W499s/c658.408+w499s/-3,-1,,E/browse">
+         658.408 W499s
+        </a>
+        .
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18321378" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Lawrence Lessig (April 15)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Works by Lawrence Lessig
+       </strong>
+      </p>
+      <blockquote>
+       <p align="left">
+        "Against Transparency."
+        <i>
+         New Republic
+        </i>
+        240.19 (2009): 37-44. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=44488375&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        "The Founders Versus The Funders."
+        <i>
+         Progressive
+        </i>
+        76.10 (2012): 20-22.&nbsp;Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=79850576&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p align="left">
+        "How to Get Our Democracy Back: There Will Be No Change Until We Change Congress."
+        <i>
+         Nation
+        </i>
+        290.7 (2010): 11-19. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=47853638&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Lawrence Lessig
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Faux, Jeff. "Big Dollar, Little Democracy."
+        <i>
+         Dissent (00123846)
+        </i>
+        59.4 (2012): 89-95. Available&nbsp;
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=80001998&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Hayes, Christopher. "Mr. Lessig Goes To Washington."
+        <i>
+         Nation
+        </i>
+        286.23 (2008): 24-30. Available
+        <a href="http://0-search.ebscohost.com.library.muhlenberg.edu/login.aspx?direct=true&amp;db=aph&amp;AN=32202235&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Shapiro, Walter. "The Campaign-Industrial Complex."
+        <i>
+         Washington Monthly
+        </i>
+        44.1/2 (2012): 45-50. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=70399340&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Shea, Christopher. "Unconventional Meeting Of Minds."
+        <i>
+         Chronicle Of Higher Education
+        </i>
+        58.5 (2011): A1-A6. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=66305710&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+      <p>
+       <strong>
+        Works about Congressional corruption
+       </strong>
+      </p>
+      <blockquote>
+       <p>
+        Kamin, Julia. "Of Sunlight And Sausages."
+        <i>
+         Kennedy School Review
+        </i>
+        10.(2010): 45-49. Available&nbsp;
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=59832553&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Linbeck III, Leo1. "Why Congress Doesn't Work."
+        <i>
+         American Conservative
+        </i>
+        11.7 (2012): 12-19. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=ofm&amp;AN=77367561&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+       </p>
+       <p>
+        Poole, Robert M. "When Everybody Loved Congress."
+        <i>
+         American History
+        </i>
+        (2012): 54-59. Available
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=aph&amp;AN=78296640&amp;site=ehost-live&amp;scope=site">
+         here
+        </a>
+        .
+       </p>
+       <p>
+        Sinclair, Barbara. "Question: What's Wrong With Congress? Answer: It's A Democratic Legislature."
+        <i>
+         Boston University Law Review
+        </i>
+        89.2 (2009): 387-397. Available
+        <a href="http://www.bu.edu/law/central/jd/organizations/journals/bulr/volume89n2/documents/SINCLAIR.pdf">
+         here
+        </a>
+        .
+       </p>
+      </blockquote>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

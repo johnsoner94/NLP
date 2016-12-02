@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+   InterviewStream - Practice: Sign In/Sign Up
+  </title>
+  <link href="/Content/bootstrap.DX.css" rel="stylesheet" type="text/css" />
+  <script src="/Scripts/modernizr-2.6.2.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery-ui-1.11.4.min.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.validate.min.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript">
+  </script>
+  <link href="/DynamicCss/splashCss/118" rel="stylesheet" type="text/css" />
+  <!--jwplayer-->
+  <script type="text/javascript" src="/Scripts/jwplayer/jwplayer.js">
+  </script>
+  <script type="text/javascript">
+   jwplayer.key = "NCkM/e3f/tXMIdJd9uzJU6ag/YdDe05lgA1UFflhdH4=";
+  </script>
+ </head>
+ <body>
+  <!--Recenter containers to display key content-->
+  <script type="text/javascript">
+   //$(window).resize(function () {
+        //    recenterElements();
+        //});
+        $(document).ready(function () {
+            //    recenterElements()
+            var version = getFlashVersion().split(',').shift();
+            document.getElementById("FlashVers").value = version;
+        });
+
+        function getFlashVersion() {
+            // ie
+            try {
+                try {
+                    // avoid fp6 minor version lookup issues
+                    // see: http://blog.deconcept.com/2006/01/11/getvariable-setvariable-crash-internet-explorer-flash-6/
+                    var axo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash.6');
+                    try { axo.AllowScriptAccess = 'always'; }
+                    catch (e) { return '6,0,0'; }
+                } catch (e) { }
+                return new ActiveXObject('ShockwaveFlash.ShockwaveFlash').GetVariable('$version').replace(/\D+/g, ',').match(/^,?(.+),?$/)[1];
+                // other browsers
+            } catch (e) {
+                try {
+                    if (navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+                        return (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]).description.replace(/\D+/g, ",").match(/^,?(.+),?$/)[1];
+                    }
+                } catch (e) { }
+            }
+            return '0,0,0';
+        }
+        //function recenterElements() {
+        //    //Recenter when window is 1400 and stop offset at pixel amount set below
+        //    if ($(window).width() &lt;= 1400 &amp;&amp; $(window).width() &gt; 767) {
+        //        $("#intro-container").offset({ left: ($(window).width() / 2) - 700 });
+        //        $("#featured-container").offset({ left: ($(window).width() / 2) - 700 });
+        //    }
+        //    //Recenter when window is 1216 and offset opposite
+        //    if ($(window).width() &lt;= 1400) {
+        //        $("#social-container").offset({ left: ($(window).width() / 2) - 700 });
+        //    }
+        //    //Recenter and remove offset when window is greater than image width
+        //    if ($(window).width() &gt; 1400) {
+        //        $("#intro-container").css({ margin: '0 auto' });
+        //        $("#intro-container").css({ left: '' });
+        //        $("#featured-container").css({ margin: '0 auto' });
+        //        $("#social-container").css({ margin: '0 auto' });
+        //        $("#social-container").css({ left: '' });
+        //        $("#employer-container").css({ margin: '0 auto' });
+        //        $("#employer-container").css({ left: '' });
+        //    }
+        //}
+
+        //if ($(window).width() &lt;= 768) {
+        //    $("#go-hdr-container").css({ position: 'relative;' });
+        //    $("#go-hdr-container").css({ right: '100px;' });
+        //}
+
+        function stopVideo() {
+            jwplayer().stop();
+        }
+
+        $(function () {
+            $('form').submit(function () {
+                if ($('form').valid()) {
+                    $('input:submit').attr("disabled", true);
+                    // $('form').submit();
+                }
+            });
+
+
+                                    
+            $('#customMessage').html('');
+            
+            window.setTimeout(addJWPlayerAltText, 400);
+        });
+
+        function addJWPlayerAltText() {
+            console.log('onReady fired');
+            console.log($('#HOWVideo'));
+            $('#HOWVideo').attr('alt', 'Interviewstream How It works Video');
+        }
+  </script>
+  <!--INTERVIEW STREAM TRADEMARK CONTAINER-->
+  <nav id="trademark-login-navbar" class="navbar navbar-static-top" role="navigation">
+   <div class="container">
+    <div class="row">
+     <div id="trademark-container" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <img src="/Content/images/layout/interviewstream.png" alt="InterviewStream Logo" />
+     </div>
+    </div>
+   </div>
+  </nav>
+  <!--COMPANY / LOGIN CONTAINER-->
+  <div id="company-container">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-3 company-row">
+      <div id="company-logo">
+       <img id="customlogo" src="/File/Logo/118" class="company-custom-img-xs visible-xs visible-lg visible-md visible-sm" alt="Logo for Muhlenberg College " style="height: auto;" />
+      </div>
+     </div>
+     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9 company-row">
+      <section id="loginForm" title="Login Form">
+      </section>
+      <form action="/Account/Login?ReturnUrl=%2F" method="post" role="form" title="login form">
+       <input name="__RequestVerificationToken" type="hidden" value="nD0TdpXIRu2ErdIUdmTytqZRPrH2ik3yAxqKtKSZk2Xcl1w6EQqrdnl5w0pXboCU2TPhpQZzCuaEXbeQqY1LybjI3981" />
+       <div style="width:100%">
+        <div style="width: 55%; display: inline-block;">
+         <label for="UserName">
+          Email Address
+         </label>
+         <input class="form-control" data-val="true" data-val-required="The Email Address field is required." id="UserName" name="UserName" placeholder="Email" type="text" value="" />
+        </div>
+        <div style="width: 30%; display: inline-block;">
+         <label for="Password">
+          Password
+         </label>
+         <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password" />
+        </div>
+        <input type="hidden" id="FlashVers" name="FlashVers" value="" />
+        <div style="width: 10%; display: inline-block; vertical-align: bottom;">
+         <input type="submit" value="Log in" class="btn btn-danger" data-loading-text="Logging In" />
+        </div>
+       </div>
+       <div style="width:100%;">
+        <div style="width:55%; display:inline-block;">
+         <span style="text-align:left;">
+          <input data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true" />
+          <input name="RememberMe" type="hidden" value="false" />
+          <label class="remembertext" for="RememberMe">
+           Remember me?
+          </label>
+         </span>
+         <span id="register-text-container" class="pull-right" style="vertical-align:bottom; padding-top: 3px;">
+          <a class="registerlink" href="/Account/Authenticate">
+           Register
+          </a>
+          if you don't have an account.
+         </span>
+        </div>
+        <div style="width: 40%; display: inline-block;">
+         <span id="forgot-text-container">
+          <a class="forgotlink" href="/Account/ForgotPassword">
+           Forgot your password?
+          </a>
+         </span>
+        </div>
+       </div>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--INTRO CONTAINER-->
+  <div id="intro-container">
+   <div id="intro-wouldyou" class="loginHeaderWhite">
+    Would you hire you?
+   </div>
+   <div id="intro-practice" class="loginCategoryWhite">
+    Practice Interviewing. Anytime. Anywhere
+   </div>
+   <div id="intro-btns">
+    <a href="/Account/Authenticate?class=registerlink" class="btn btn-info" role="button" type="button" id="btn-register">
+     SIGN UP NOW
+    </a>
+   </div>
+   <div id="welcome-video">
+    <!--Add JW Player here, exact dimensions are 448 x 336, which will cover the default video image.-->
+    <!-- Debug information: okay  -->
+    <div id="myElement" class="center-block">
+    </div>
+    <script>
+     jwplayer("myElement").setup({
+            file: 'https://youtu.be/28HFO1_kIIY',
+            width: 448,
+            height: 336,
+                
+            tracks: [{
+                file: "/Content/cc/isPrep_intro.srt",
+                label: "English",
+                kind: "captions",
+                "default": true
+            }]
+                
+        })
+    </script>
+   </div>
+   ;
+  </div>
+  <!--FEATURED CONTAINER-->
+  <div id="featured-container">
+   <img src="/Content/images/splash/featured-articles.png" alt="interview-stream-highlighted-articles" />
+  </div>
+  <!--GO CONTAINER-->
+  <div id="go-container" class="recenter">
+   <div style="  background-color: rgba(0,0,0,0.5); /*dim the background*/; height: 100%;">
+    <div id="go-hdr-container">
+     <span class="loginCategoryWhite">
+      InterviewStream
+     </span>
+     <span class="go-marks">
+      ®
+     </span>
+     &nbsp;
+     <span class="loginCategoryWhite">
+      Mobile
+     </span>
+     <span class="go-marks">
+      ™
+     </span>
+     <div id="go-para">
+      Break out those iPads and practice interviewing
+      <br />
+      anywhere, anytime on InterviewStream Mobile.
+     </div>
+     <div id="go-btn">
+      <div style="display: inline-block; padding-right: 10px;">
+       <a href="https://itunes.apple.com/us/app/interviewstream-mobile/id959613832?mt=8" target="_blank">
+        <img src="../../Content/images/splash/AppleAppStoreButton.png" style="border: 0;" alt="interviewstream-apple-itunes-available-on-the-app-store" />
+       </a>
+      </div>
+      <div style="display: inline-block;">
+       <a href="https://play.google.com/store/apps/details?id=com.interviewstream.interviewstreamgo" target="_blank">
+        <img src="../../Content/images/splash/googlePlayStoreButton.png" style="border: 0;" alt="interviewstream-get-it-on-google-play" />
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--SITE FEATURES CONTAINER-->
+  <div id="features-container">
+   <img src="/Content/images/splash/site-features.png" alt="interview-stream-website-features" />
+  </div>
+  <!--SOCIAL CONTAINER-->
+  <div id="social-container">
+   <div id="social-hdr-container">
+    <span class="loginCategoryBlack">
+     The most-used
+     <br />
+     video interviewing
+     <br />
+     platform in over
+     <br />
+     120 countries.
+    </span>
+    <div id="social-follow">
+     Follow us on:
+    </div>
+    <div id="social-icons">
+     <a href="https://www.facebook.com/Interviewstream" target="_blank">
+      <img src="/Content/images/splash/interview-stream-facebook.png" alt="interviewstream-facebook" style="border: 0;" />
+     </a>
+     <a href="https://twitter.com/interviewstream" target="_blank">
+      <img src="/Content/images/splash/interview-stream-twitter.png" alt="interviewstream-twitter" style="border: 0;" />
+     </a>
+     <a href="https://www.linkedin.com/company/117310?trk=tyah" target="_blank">
+      <img src="/Content/images/splash/interview-stream-linkedin.png" alt="interviewstream-linkedin" style="border: 0;" />
+     </a>
+     <a href="http://www.pinterest.com/interviewstream" target="_blank">
+      <img src="/Content/images/splash/interview-stream-pinterest.png" alt="interviewstream-pinterest" style="border: 0;" />
+     </a>
+     <a href="http://www.youtube.com/interviewstream" target="_blank">
+      <img src="/Content/images/splash/interview-stream-youtube.png" alt="interviewstream-youtube" style="border: 0;" />
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--EMPLOYER CONTAINER-->
+  <div id="employer-container">
+   <div style="  background-color: rgba(0,0,0,0.5); /*dim the background*/; height: 100%;">
+    <div id="employer-hdr">
+     <span class="loginCategoryWhite">
+      Are you an employer or
+      <br />
+      recruiter
+                   that works with
+      <br />
+      my school to find
+                   new
+      <br />
+      graduating talent?
+     </span>
+     <div id="employer-para">
+      See how companies like Sodexo and Johnson &amp; Johnson use
+                   InterviewStream to screen candidates.
+     </div>
+     <div id="employer-btn">
+      <a role="button" id="btn-employer" href="http://interviewstream.com" target="_blank" class="btn btn-info">
+       LEARN MORE
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--FOOTER CONTAINER-->
+  <div id="footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div id="footer-contents">
+       <a class="ftrlink" href="javascript:void(0)" data-toggle="modal" data-target="#howitworks">
+        How It Works
+       </a>
+       <span style="padding: 0 10px 0 10px;">
+       </span>
+       <a class="ftrlink" href="/Home/ContactUs">
+        Contact Us
+       </a>
+       <span style="padding: 0 10px 0 10px;">
+       </span>
+       <a class="ftrlink" href="/Home/FAQ">
+        FAQ's
+       </a>
+       <span style="padding: 0 10px 0 10px;">
+       </span>
+       <a class="ftrlink" href="https://app.interviewstream.com/App/Public/terms" target="_blank">
+        Terms
+       </a>
+       <span style="padding: 0 10px 0 10px;">
+       </span>
+       <a class="ftrlink" href="https://app.interviewstream.com/App/Public/privacy" target="_blank">
+        Privacy
+       </a>
+       <div class="small text-muted" style="padding: 5px 0 0 0;">
+        &copy; 2016&nbsp;InterviewStream.&nbsp;All Rights Reserved.
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/Scripts/bootstrap.js" type="text/javascript">
+  </script>
+  <!--PJN: How It Works modal contents-->
+  <div class="modal fade" id="howitworks" tabindex="-1" role="dialog">
+   <div class="modal-dialog" style="width: 700px; background-color: #ee8a21;">
+    <div class="modal-content">
+     <div class="modal-header" style="border-bottom: none; padding-bottom: 5px; margin-bottom: 5px;">
+      <button type="button" onclick="stopVideo()" class="close glyphicon glyphicon-remove" data-dismiss="modal" aria-hidden="true" title="Close Modal">
+      </button>
+      <div style="text-align: center;">
+       <img src="../../Content/images/layout/interviewstream.png" alt="interviewstream-how-it-works" />
+       <div style="font-size: 1.3em; font-style: italic; border-top: 1px solid #ebebeb; margin-top: 5px; padding-top: 5px;" class="text-muted">
+        HOW IT WORKS
+       </div>
+      </div>
+     </div>
+     <div class="modal-body" style="padding-top: 5px; margin-top: 5px;">
+      <div id="HOWVideo">
+      </div>
+      <script>
+       jwplayer("HOWVideo").setup({
+                            file: "http://youtu.be/28HFO1_kIIY?autoplay=1",
+                            width: 640,
+                            height: 480,
+                            autoplay: true,
+                            wmode: "window",
+                            tracks: [{
+                                file: "/Content/cc/isPrep_intro.srt",
+                                label: "English",
+                                kind: "captions",
+                                "default": true
+                            }]
+                        });
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

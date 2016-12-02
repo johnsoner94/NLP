@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>
+   Trexler Library | Muhlenberg College
+  </title>
+  <link rel="shortcut icon" href="/library/media/content,assets/library/favicon.png" />
+  <!-- bootstrap 2.3.2 style -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/bootstrap.min.css" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,700|Open+Sans:100,300,400,700" rel="stylesheet" type="text/css" />
+  <!-- font awesome 3.2.1 -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/font-awesome.min.css" />
+  <!-- akmalz theme stylesheets -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/akmalz-wide.css" />
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/akmalz-style.css" />
+  <!-- original trexler redesign css -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/bcag-alterations.css" />
+  <!-- t4 modifications -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/t4-updates.css" />
+  <!-- beetbox searchbox -->
+  <link rel="stylesheet" href="/library/media/style,assets/library/stylesheets/beetbox.css" />
+  <script>
+   var d = document
+      	, l = d.location
+        , t = d.title
+        , p = l.pathname
+        , s
+        ;
+      if (p ==='/' || p === '/library/' || p === '/library/index.html' ) {
+          s = d.createElement('style');
+          s.innerHTML = 'ul.breadcrumb{display: none;}';
+          d.getElementsByTagName('head')[0].appendChild(s);
+          t = t.replace(/Library Home \| /, '');
+
+          document.addEventListener('DOMContentLoaded', function() {
+              var c = document.getElementById('content')
+      		    , sl = document.getElementById('slide')
+                , imgPath = '/library/media/content,assets/library/index-backgrounds/11.jpg'.replace('11.jpg', '')
+      			, totalImages = 11
+                , isMobile = (window.getComputedStyle(document.querySelector('.bb-opt')).display === 'block')
+                , num;
+      		  if (c) c.id = 'content-index';
+      		  if (sl &amp;&amp; !isMobile) {
+      			  num = Math.ceil(Math.random() * totalImages);
+      			  num = num &lt; 10 ? "0" + num : num.toString();
+      			  sl.style.backgroundImage = 'url("' + imgPath + num + '.jpg")';
+      		  }
+          });
+      }
+  </script>
+ </head>
+ <body>
+  <header id="wrapper" class="container-fluid muhlgrey-lite">
+   <!-- 'college-overhead' inline li menu -->
+   <div id="college-overhead" class="muhlgrey-lite container-fluid visible-desktop">
+    <ul class="pull-right">
+     <li>
+      <a href="http://www.muhlenberg.edu">
+       College: Home
+      </a>
+     </li>
+     <li>
+      <a href="http://www.muhlenberg.edu/main/aboutus/campus-map/">
+       Campus Map
+      </a>
+     </li>
+     <li>
+      <a href="http://www.muhlenberg.edu/tactical/azfind.htm">
+       A-Z Index
+      </a>
+     </li>
+     <li>
+      <a href="http://www.muhlenberg.edu/cgi-bin/namesearch/prvsearch.pl">
+       Directory
+      </a>
+     </li>
+     <li>
+      <a href="http://www.muhlenberg.edu/search/">
+       Search the College
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div class="row-fluid">
+    <div class="span4">
+     <a id="logo" href="/library/">
+      <img src="/library/media/content,assets/library/trexler-logo-transparent.png" />
+     </a>
+    </div>
+    <div id="top" class="span6">
+     <a href="/library/about/hours.html" class="btn btn-link">
+      <i class="icon-time text-muhlblue-lite">
+      </i>
+      <strong>
+       Today's Hours
+      </strong>
+      <span id="todaysHours">
+      </span>
+     </a>
+     <a href="/library/research/ask-a-librarian.html" class="btn btn-link">
+      <i class="icon-question-sign text-muhlblue-lite">
+      </i>
+      <strong>
+       Ask A Librarian
+      </strong>
+     </a>
+     <a href="/library/services/forms/comments.html" class="btn btn-link">
+      <i class="icon-comment-alt text-muhlblue-lite">
+      </i>
+      <strong>
+       Comments
+      </strong>
+     </a>
+    </div>
+   </div>
+  </header>
+  <nav id="navbar">
+   <ul id="nav" class="pull-right">
+    <li>
+     <a href="/library/collections/">
+      Collections
+      <i class="icon-caret-down">
+      </i>
+     </a>
+     <div class="dropdown-double">
+      <div class="dropdown-column">
+       <h6>
+        General Collections
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/collections/#main">
+          Main Collection (Print)
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#av">
+          Audio-Visual Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#curriculum">
+          Curriculum Lab Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#fct">
+          Faculty Center for Teaching Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#govdocs">
+          Government Publications
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#juvenile">
+          Juvenile Books Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#microforms">
+          Microforms Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/#nyt">
+          New York Times Bestsellers Collection
+         </a>
+        </li>
+        <li class="divider">
+        </li>
+        <li>
+         <a href="/library/collections/new-materials.html">
+          Newly Added Items
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/forms/suggest-a-purchase.html">
+          Suggest a Purchase
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/faculty.html#d.en.187679">
+          Collection Development Tools
+         </a>
+        </li>
+        <li>
+         <a href="http://openaccess.muhlenberg.edu/">
+          Open Access at Muhlenberg
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown-column">
+       <h6>
+        Special Collections
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/collections/special-collections/">
+          Trexler Library Special Collections
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#muhcol">
+          Muhlenberg College Collection
+         </a>
+        </li>
+        <li>
+         <a href="http://sal.muhlenberg.edu:8080/librarydspace/">
+          Muhlenberg College Digital Repository
+         </a>
+        </li>
+        <li class="divider">
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/samuels-sheet-music-collection.html">
+          Abram Samuels Sheet Music Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#mchale">
+          The Paul McHale Papers
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/muhlenberg-weekly.html">
+          Muhlenberg Weekly Online
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#pagerman">
+          Pennsylvania German Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#rare">
+          Rare Books Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#brennen">
+          Ray R. Brennen Map Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#horn">
+          Robert C. Horn Papyri Collection
+         </a>
+        </li>
+        <li>
+         <a href="/library/collections/special-collections/#stovall">
+          Sam Stovall Collection
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </li>
+    <!--
+-->
+    <li>
+     <a href="/library/research/">
+      Research
+      <i class="icon-caret-down">
+      </i>
+     </a>
+     <div class="dropdown-double">
+      <div class="dropdown-column">
+       <h6>
+        Research Guides
+       </h6>
+       <ul>
+        <li>
+         <a href="http://libraryguides.muhlenberg.edu/getstartedguides">
+          Get Started with Library Research
+         </a>
+        </li>
+        <li>
+         <a href="http://libraryguides.muhlenberg.edu/content.php?pid=356743">
+          Subject Guides
+         </a>
+        </li>
+        <li>
+         <a href="/library/research/citation-guides.html">
+          Citation Guides
+         </a>
+        </li>
+        <li>
+         <a href="/library/research/copyright-information.html">
+          Copyright Information
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown-column">
+       <h6>
+        Research Tools
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/research/databases-az.html">
+          Databases A to Z
+         </a>
+        </li>
+        <li>
+         <a href="https://muhlenberg.on.worldcat.org/atoztitles/search?#article">
+          Article Locator
+         </a>
+        </li>
+       </ul>
+       <h6>
+        Need Help?
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/research/ask-a-librarian.html">
+          Ask a Librarian
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </li>
+    <!--
+-->
+    <li>
+     <a href="/library/services/">
+      Services
+      <i class="icon-caret-down">
+      </i>
+     </a>
+     <div class="dropdown-double">
+      <div class="dropdown-column">
+       <h6>
+        Available Services:
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/services/course-reserves.html">
+          Course Reserves
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/interlibrary-loan.html">
+          Interlibrary Loan
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/print-copy-scan.html">
+          Print, Copy, Scan
+         </a>
+        </li>
+        <!--
+                &lt;li&gt;&lt;a href="/library/services/library-computers-and-software.html"&gt;Library Computer Labs&lt;/a&gt;&lt;/li&gt; -->
+        <li>
+         <a href="/library/services/lending-laptops.html">
+          Lending Laptops
+         </a>
+        </li>
+        <li>
+         <a href="http://libraryguides.muhlenberg.edu/onebuttonstudio/">
+          One Button Studio
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown-column">
+       <h6>
+        Services For:
+       </h6>
+       <ul>
+        <li>
+         <a href="/library/services/students.html">
+          Students
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/faculty.html">
+          Faculty
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/alumni.html">
+          Alumni
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/staff.html">
+          Staff
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/visitors.html">
+          Visitors
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </li>
+    <!--
+-->
+    <li>
+     <a href="/library/about/">
+      About Us
+      <i class="icon-caret-down">
+      </i>
+     </a>
+     <div class="dropdown-double about">
+      <div class="dropdown-column">
+       <ul>
+        <li>
+         <a href="/library/about/hours.html">
+          Library Hours
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/staff/">
+          Librarians and Staff
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/visit-us.html">
+          Visit Us
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/vision-mission-values.html">
+          Vision, Mission, Values
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/facts-about-trexler-library.html">
+          Facts About Trexler Library
+         </a>
+        </li>
+        <li>
+         <a href="http://library.blogs.muhlenberg.edu/">
+          Library Blog
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="dropdown-column">
+       <ul>
+        <li>
+         <a href="/library/about/policies/">
+          Library Policies
+         </a>
+        </li>
+        <li>
+         <a href="/library/services/forms/">
+          Forms
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/library-committee.html">
+          Library Committee
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/library-liaisons.html">
+          Library Liaisons
+         </a>
+        </li>
+        <li>
+         <a href="/library/about/policies/information-literacy.html">
+          Statement on Information Literacy
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </li>
+    <!--
+-->
+    <li>
+     <a href="/library/accounts/">
+      Accounts
+      <i class="icon-caret-down">
+      </i>
+     </a>
+     <div class="dropdown-single">
+      <div class="dropdown-column">
+       <ul>
+        <li>
+         <a href="https://muhlenberg.on.worldcat.org/myaccount">
+          My Library Account
+         </a>
+        </li>
+        <li>
+         <a href="https://muhlenbergcollege.instructure.com">
+          Canvas
+         </a>
+        </li>
+        <li>
+         <a href="http://gws1.muhlenberg.edu/gw/webacc">
+          Email
+         </a>
+        </li>
+        <li>
+         <a href="https://capstone2.muhlenberg.edu/">
+          Capstone
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </li>
+   </ul>
+  </nav>
+  <div class="row-fluid">
+   <ul class="breadcrumb">
+    <li>
+     <a href="/library/">
+      Library Home
+     </a>
+    </li>
+    <li>
+     <a href="/library/about/" accesskey="a">
+      About Us
+     </a>
+    </li>
+    <li>
+     <a href="/library/about/staff/">
+      Staff
+     </a>
+    </li>
+    <li>
+     Tina Hertel
+    </li>
+   </ul>
+  </div>
+  <div id="content" class="container-fluid">
+   <a id="d.en.187452">
+   </a>
+   <div id="187452" class="staff span11">
+    <div class="headline">
+     <h1>
+      Tina Hertel
+     </h1>
+    </div>
+    <section class="pull-right">
+     <img src="/library/media/content,assets/library/staff,photos/hertel.jpg" />
+    </section>
+    <ul>
+     <li>
+      <strong>
+       Library Director / Administration
+      </strong>
+     </li>
+     <li>
+      <a href="mailto:thertel@muhlenberg.edu">
+       thertel@muhlenberg.edu
+      </a>
+     </li>
+     <li>
+      484.664.3550
+     </li>
+    </ul>
+    <h3>
+     Responsible for...
+    </h3>
+    <p>
+     Tina oversees the overall management and administration of the Trexler Library. As the library director, she is responsible for providing the leadership in ensuring the library serves as an indispensable partner in teaching, learning, and research here at Muhlenberg College. Through outreach and advocacy, she is committed to engaging a community of learners and keeping the library a vital part of a high quality liberal arts education. In collaboration with a dedicated library staff, the Library Committee, faculty, administration, and students, she strives to provide the necessary technology, information resources, and learning environments to stimulate intellectual curiosity as well as foster critical thinking and learning.
+    </p>
+    <h3>
+     Education
+    </h3>
+    <ul>
+     <li>
+      B.S. Aerospace Engineering, Pennsylvania State University
+     </li>
+     <li>
+      M.I.S. Indiana University
+     </li>
+    </ul>
+    <h3>
+     Liaison for
+    </h3>
+    Art
+   </div>
+  </div>
+  <footer class="container-fluid">
+   <div class="row-fluid">
+    <!-- Hours Widget -->
+    <div class="span3">
+     <div class="footer-headline">
+      <h4>
+       <span style="font-size:18px;">
+        <i class="icon-time">
+        </i>
+       </span>
+       Trexler Hours This Week
+      </h4>
+     </div>
+     <div id="hoursTable">
+     </div>
+     <a href="/library/about/hours.html" class="pull-right">
+      View More Hours
+     </a>
+    </div>
+    <!-- Twitter Widget -->
+    <div class="span3">
+     <div class="footer-headline">
+      <h4>
+       <span style="font-size: 18px;">
+        <i class="icon-twitter">
+        </i>
+       </span>
+       Latest Muhlenberg Tweets
+      </h4>
+     </div>
+     <div id="tweets">
+     </div>
+     <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          $.get('http://libapp.muhlenberg.edu/website-twitter-feed/index.php', function(data) {
+            $('#tweets').html(data)
+          })
+        })
+     </script>
+    </div>
+    <!-- Campus Contact -->
+    <div class="span3">
+     <div class="footer-headline">
+      <h4>
+       <span style="font-size:18px;">
+        <i class="icon-phone-sign">
+        </i>
+       </span>
+       Muhlenberg College
+      </h4>
+     </div>
+     <address>
+      <a href="https://maps.google.com/maps?q=2400+West+Chew+Street,+Allentown,+PA&amp;hl=en&amp;sll=40.593077,-75.48382&amp;sspn=0.147036,0.308647&amp;oq=2400+west&amp;t=h&amp;hnear=2400+W+Chew+St,+Allentown,+Pennsylvania+18104&amp;z=16" target="_blank">
+       <i class="icon-map-marker">
+       </i>
+       2400 Chew St. Allentown, PA 18104-5586
+      </a>
+      <p>
+       <a href="tel:484-664-3100">
+        484-664-3100
+       </a>
+       ·
+       <a href="tel:484-664-3623">
+        484-664-3623 (TTY)
+       </a>
+      </p>
+      <p>
+       Trexler Library:
+       <a href="tel:484-664-3500">
+        484-664-3500
+       </a>
+      </p>
+     </address>
+    </div>
+    <!-- College Links -->
+    <div class="span3">
+     <div class="footer-headline">
+      <h4>
+       <i class="circleM-small" style="background-image:url('/library/media/style,assets/library/stylesheets/circleM.png')">
+       </i>
+       College Information
+      </h4>
+     </div>
+     <ul class="library-footer-menu-L">
+      <li>
+       <em>
+        Information For:
+       </em>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/admissions">
+        Prospective Students
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/current-students">
+        Current Students
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/faculty-staff">
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/parents">
+        Parents
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/gateways/alumni">
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <ul class="library-footer-menu-R">
+      <li>
+       <a href="http://www.muhlenberg.edu/main/aboutus">
+        About Us
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/admissions">
+        Admissions
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/academics">
+        Academics
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/campuslife">
+        Campus Life
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/sports">
+        Athletics
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/main/newsevents">
+        News &amp; Events
+       </a>
+      </li>
+      <li>
+       <a target="_blank" href="http://www.alumniconnections.com/olc/pub/MUL/cpages/giving/home.jsp">
+        Give to 'Berg
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenberg.edu/wescoe/">
+        Adult Learning
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </footer>
+  <div class="container-fluid foot-bottom" style="background: #111;">
+   <div class="row-fluid">
+    <div class="span12">
+     <div id="footer-bottom" class="container-fluid">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">
+       <img alt="Creative Commons License" style="border-width:0" src="/library/media/content,assets/library/cc-by-nc-sa-80x15.png" />
+      </a>
+      licensed under
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">
+       CC BY-NC-SA
+      </a>
+      .
+      <span class="pull-right" style="font-size: 14px;">
+       Built with
+       <a href="http://getbootstrap.com/">
+        Bootstrap
+       </a>
+      </span>
+      <i class="icon-twitter pull-right" style="font-size: 14px;">
+      </i>
+      <span class="pull-right" style="padding-right: 25px;">
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373">
+        <img src="/library/media/content,assets/library/fdlp-emblem-bw.png" alt="" height="32px" width="36px" />
+       </a>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19177219-2']);
+    _gaq.push(['_setDomainName', 'muhlenberg.edu']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	})();
+
+    
+    // fix to remove redundant `/library` appended to urls
+    document.addEventListener('DOMContentLoaded', prettifyUrls)
+    function prettifyUrls () {
+      // leave `muhlenberg.edu/library` alone
+      if (!/^trexler/.test(document.location.hostname)) return
+
+      var a = document.querySelectorAll('a[href^="/library"]')
+      var len = a.length
+      var i = 0
+  
+      for (; i &lt; len; i++) {
+        a[i].href = a[i].href.replace('/library', '')
+      }
+    }
+  </script>
+  <!-- jquery from media library -->
+  <script src="/library/media/style,assets/library/javascript/jquery-1.10.2.min.js">
+  </script>
+  <!-- bootstrap js file -->
+  <script src="/library/media/style,assets/library/javascript/bootstrap.min.js">
+  </script>
+  <!-- selectnav.js for responsive navbar -->
+  <script src="/library/media/style,assets/library/javascript/selectnav.js">
+  </script>
+  <!-- custom trexler js -->
+  <script src="/library/media/style,assets/library/javascript/trexler.js">
+  </script>
+  <!-- js for hours widget(s) -->
+  <script src="/library/media/content,assets/library/scripts/hours.js">
+  </script>
+  <!-- index searchbox toggles -->
+  <script src="/library/media/style,assets/library/javascript/beetbox.js">
+  </script>
+ </body>
+</html>

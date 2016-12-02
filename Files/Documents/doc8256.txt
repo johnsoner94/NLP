@@ -1,0 +1,1165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Alumni - Psychology | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/psychology/backgrounds/alumnibanner.jpg" alt="Psychology" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/psychology/">
+               Psychology
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/psychology/alumni/">
+               Alumni
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div>
+           &nbsp;
+          </div>
+          <div>
+           &nbsp;
+          </div>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add05">
+           <h3>
+            Psychology Alumni
+           </h3>
+           <p>
+            The psychology major provides excellent preparation for post-graduate work in psychology and recent graduates have gone on to programs at Columbia, Lehigh, NYU, Penn State, the University of Pennsylvania, the University of Texas at Austin, Notre Dame, the University of Georgia, the University of North Carolina at Chapel Hill and the College of William and Mary.
+           </p>
+           <p>
+            At the same time, the psychology major provides a strong liberal arts foundation for students interested in careers in the mental health field, medicine, law, marketing research, advertising and teaching at all levels. For example, recent psychology graduates are working as mental health counselors, lawyers, research assistants on behavioral medicine projects, project directors for marketing research departments, elementary school teachers, admissions counselors and investment advisors. Many psychology majors teach, and about a third of those majoring in psychology are also enrolled in the
+            <a href="/main/academics/education/">
+             education program
+            </a>
+            at Muhlenberg.
+           </p>
+           <p>
+            In addition to the psychology faculty, the
+            <a href="/main/aboutus/careercenter/">
+             Career Center
+            </a>
+            is an excellent resource for exploring your options in psychology. Also check out the links on the
+            <a href="/main/academics/psychology/students/">
+             Students
+            </a>
+            &nbsp;page.
+           </p>
+           <p>
+            Are you a Muhlenberg Psychology alum who wants to share your recent accomplishments? We'd love to hear from you! Email a faculty member, or visit us on
+            <a href="http://www.facebook.com/MuhlenbergPsych">
+             Facebook
+            </a>
+            (no Facebook account required).
+           </p>
+           <p>
+            For updates on our some of our alumni, read below and check out our
+            <a href="http://www.facebook.com/notes.php?id=131386276908581">
+             Facebook
+            </a>
+            page.
+           </p>
+           <p>
+            <strong>
+             Alumni Updates
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Will Osei ('10)
+            </strong>
+            &nbsp;Will is studying for his Master's degree at the
+            <a href="http://www.gse.upenn.edu/node/1037">
+             Interdisciplinary Studies in Human Development
+            </a>
+            program at the University of Pennsylvania.
+           </p>
+           <p>
+            <strong>
+             A.J. Barnold ('09)
+            </strong>
+            &nbsp;After receiving his MS in sports psychology from Temple, AJ Barnold ('09) worked as a coach at Arcadia, Muhlenberg and Lafayette. In May of 2015, he began his work as the Men's Soccer Performance Analyst at the University of Virginia. He also hosts his own blog,
+            <a href="http://cominginstatsup.weebly.com/">
+             Coming In Stats Up
+            </a>
+            .&nbsp;
+           </p>
+           <p>
+            <strong>
+             Wendy Eichler ('05)
+            </strong>
+            &nbsp; After completing her Master's Degree at Villanova, Wendy completed her Ph.D. at UC Santa Barbara in the Department of Counseling, Clinical and School Psychology. A few years ago, Wendy provided some advice for undergraduates applying to graduate school, visit
+            <a href="http://www.facebook.com/note.php?note_id=156555394374240">
+             this page.
+            </a>
+           </p>
+           <p>
+            Several of our alumni have put their research and quantitative skills to use in the business world.
+            <strong>
+             Jen Edel '98, Erica Pristash '00, Amy Weikel '00, Jen Sands '01 and Kylie Green '02
+            </strong>
+            all work for GfK ARBOR (formerly ARBOR, Inc.), a national marketing research and consulting firm in the Philadelphia area.
+           </p>
+           <p>
+            <strong>
+             Kate Richmond ('00)
+            </strong>
+            Dr. Richmond has returned to Muhlenberg as a full-time
+            <a href="/main/academics/psychology/faculty/katherinerichmond/">
+             faculty member
+            </a>
+            in Psychology. She teaches a number of courses including Multicultural Psychology. She completed her dissertation on femininity and gender role stress in 2005. In addition to teaching at Muhlenberg, Dr. Richmond also maintains a private practice.
+           </p>
+           <p>
+            <strong>
+             Shawn Rubin ('97)
+            </strong>
+            is a Licensed Psychologist and a full-time
+            <a href="http://www.mispp.edu/index.php?option=com_content&amp;task=view&amp;id=50&amp;Itemid=242">
+             faculty member
+            </a>
+            at the Michigan School of Professional Psychology in Farmington Hills, Michigan where he teaches and supervises from a humanistic-psychoanalytic orientation. In 2004 he completed a certification in Child and Adolescent Psychoanalytic Psychotherapy from the Michigan Psychoanalytic Institute. Dr. Rubin maintains a private practice of psychotherapy and supervision in Farmington Hills, MI where he treats children, adolescents, and adults.
+           </p>
+           <p>
+            &zwnj;
+            <strong>
+             Nancy (Donofrio) Chiaravalloti ('94)
+            </strong>
+            is a Clinical Neuropsychologist and the Director of Neuroscience Research at the Kessler Research Center. She is also a professor in the Dept of Physical Medicine and Rehabilitation at UMDNJ Medical School and a licensed psychologist. She studies learning, memory and cognitive dysfunction in populations with brain injury or illness. For more, visit
+            <a href="http://www.facebook.com/note.php?note_id=171278356235277">
+             this page
+            </a>
+            .
+           </p>
+           <p>
+            <strong>
+             Colette Candy ('94)
+            </strong>
+            works as a clinical psychologist. She earned her M.S. in clinical psychology from Mississippi Statue University and completed her Ph.D. at Utah State University in a combined Ph.D. program in Clinical/Counseling/School Psychology.
+           </p>
+           <p>
+            <strong>
+             Lowell Gaertner ('92)
+            </strong>
+            completed his Ph.D. in social psychology at the University of North Carolina - Chapel Hill and currently holds a
+            <a href="http://psychology.utk.edu/people/gaertner.html">
+             faculty position
+            </a>
+            at the University of Tennessee, Knoxville. He is interested in the processes that influence whether persons behave prosocially or aggressively toward individuals and collectives. This general interest manifests itself in research on intergroup conflict, entitativity, the interplay between the collective self and the individual self, and close-relationship violence.
+           </p>
+           <p>
+            <strong>
+             Merrill Berkowitz ('92)
+            </strong>
+            obtained a master's degree in clinical psychology from Loyola College of Maryland and a Ph.D. in school psychology at Syracuse University. While in school, he interned at the Kennedy Krieger Institutes/Johns Hopkins School of Medicine, and is working as the behavior analyst at the
+            <a href="http://www.feedingcenter.org/about_fc.html">
+             Center for Pediatric Feeding and Swallowing Disorders
+            </a>
+            at St. Joseph's Children's Hospital in Paterson, NJ.
+           </p>
+           <p>
+            <strong>
+             Shelly Gable ('91)
+            </strong>
+            is a
+            <a href="http://www.psych.ucsb.edu/people/faculty/gable/">
+             faculty member
+            </a>
+            in Social Psychology at UC Santa Barbara. Her research interests include motivation, close relationships and positive emotions.
+           </p>
+           <p>
+            <strong>
+             Jon Abramowitz ('91)
+            </strong>
+            received a masters in psychology from Bucknell University and his PhD in Clinical Psychology from the University of Memphis. He is currently a
+            <a href="http://www.unc.edu/~jonabram/">
+             faculty member
+            </a>
+            at the University of North Carolina and serves as the Director of the Anxiety and Stress Disorders Clinic. He also maintains a private practice specializing in the treatment of OCD and other anxiety disorders.
+           </p>
+           <p>
+            <strong>
+             Jeff Andre ('89)
+            </strong>
+            received his masters and Ph.D. in Experimental Psychology from Penn State University in 1995.&nbsp; Dr. Andre is a
+            <a href="http://psyc.jmu.edu/undergraduate/people/andre.html">
+             faculty member
+            </a>
+            at James Madison University in 2004, and also works at
+            <a href="http://www.robsonforensic.com/human-factors-expert/Andre.aspx">
+             Robson Forensic
+            </a>
+            as a Human Factors expert with an emphasis on visual perception.
+           </p>
+           <p>
+            <strong>
+             Ryan McGuinness ('88)
+            </strong>
+            earned a master's degree in Counselor Education from Penn State. He is currently the
+            <a href="http://www.linkedin.com/pub/ryan-mcguinness/4/99b/a3a">
+             Senior Director
+            </a>
+            of Risk Management at the Rite Aid Corporation.
+           </p>
+           <p>
+            <strong>
+             Jeannette R. Ickovics ('84, Ph.D., George Washington University)
+            </strong>
+            is a Professor of Epidemiology and Public Health and of Psychology at Yale University, Director of the Social and Behavioral Sciences Program at the School of Public Health, Deputy Director for the Yale Center for Interdisciplinary Research on AIDS, and Deputy Director for Community Outreach at the Yale Center for Clinical Investigation.&nbsp; According to her bio, "Dr. Ickovics investigates the interplay of the complex psychological, medical and social factors that influence the health of the person and of the community. She uses this lens to examine the challenges faced by those who have often been marginalized by the health care system and by society. Dr. Ickovics is an expert on women's health, with a particular focus on HIV/AIDS as well as more general research on the interaction of biomedical and psychosocial factors that promote good health and recovery. Her community-based research -- funded by NIH, CDC and private Foundations -- is characterized by methodological rigor and cultural sensitivity. She is the author of more than 100 peer-reviewed publications. For more, click
+            <a href="http://cira.med.yale.edu/about_us/bios.asp?PID=481">
+             here
+            </a>
+            .
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Psychology
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/psychology/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/students/">
+            Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/faculty/">
+            Faculty
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/majorrequirements/">
+            Major Requirements
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/research/">
+            Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/internships/">
+            Internships
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/mission/">
+            Mission
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/psychology/facilities/">
+            Facilities
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/psychology/alumni/">
+             Alumni
+            </a>
+           </span>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/students/"&gt;Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/faculty/"&gt;Faculty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/majorrequirements/"&gt;Major Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/research/"&gt;Research &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/internships/"&gt;Internships &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/mission/"&gt;Mission &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/psychology/facilities/"&gt;Facilities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/psychology/alumni/"&gt;Alumni&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- Content Template Start: Right Hand Side Callout-->
+         <div style="overflow: hidden;width: 168px;">
+          <ul class="menu02">
+           <li>
+            <span>
+             <a href="https://www.facebook.com/MuhlenbergPsych" target="_blank">
+              <img src="/media/contentassets/images/academics/healthprofessions/fb.jpg" alt="" style="     " />
+             </a>
+             &zwnj;
+             <a href="https://twitter.com/PsyBerg" target="_blank">
+              <img src="/media/contentassets/images/academics/psychology/twitter.jpg" alt="Psychology" style="     " />
+             </a>
+             &zwnj;&zwnj;
+            </span>
+           </li>
+           <li>
+            <span>
+             Contact Psychology
+            </span>
+           </li>
+           <li>
+            Brenda Larimer, Administrative Assistant
+           </li>
+           <li>
+            <a href="mailto:blarimer@muhlenberg.edu">
+             Email
+            </a>
+           </li>
+           <li>
+            <span>
+             Moyer Hall 227
+             <br />
+             484-664-3420
+            </span>
+           </li>
+           <li>
+            <span>
+             &nbsp;
+            </span>
+           </li>
+           <li>
+            Mailing Address:
+           </li>
+           <li>
+            <span>
+             Psychology Department
+             <br />
+             Muhlenberg College
+             <br />
+             2400 Chew St.
+             <br />
+             Allentown, PA 18104
+            </span>
+           </li>
+          </ul>
+          <ul class="menu02">
+           <li>
+            <span>
+             Fax: 484-664-5627
+             <br />
+            </span>
+           </li>
+           <li>
+           </li>
+           <li>
+            <span style="font-size: 70%;">
+             Survey Software
+             <span style="color: #000000;">
+              powered by
+             </span>
+             <a href="http://www.surveymethods.com" title="Survey Software">
+              SurveyMethods.com
+             </a>
+            </span>
+           </li>
+          </ul>
+         </div>
+         <!-- Content Template End: Right Hand Side Callout-->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students, the course in Documentary Research is their first foray into making media.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

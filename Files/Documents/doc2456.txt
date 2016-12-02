@@ -1,0 +1,1063 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Summer 2016 - Public Health | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Public Health
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/public-health/">
+               Public Health
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/public-health/summer2016/">
+               Summer 2016
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add05">
+           <h3 style="text-align: left;">
+            <strong>
+             Research
+            </strong>
+           </h3>
+           <p style="text-align: center;">
+            <strong>
+             Alexis Giovinazzo
+            </strong>
+           </p>
+           <p>
+            It was su
+            <strong>
+             &zwnj;
+            </strong>
+            ch a rewarding experience being able to pre
+            <img src="/media/contentassets/images/academics/public-health/students2016/giovinazzo-230x283.jpg" alt="" style="  padding : 5px;   float : left;" />
+            sent the research I was working on all year at the RSA Conference in New Orleans. &zwnj;&zwnj;&zwnj;I was not only able to present the results Dr. Burger and I have been working on, but was also able to see the amazing work of my peers and superiors from around the country. The experience has allowed me to meet some incredible people within the field, make connections with other students, and opened my eyes to a possible new career path. I am interested in pursuing both a clinical career as a Physician Assistant as well as expanding my interest in research, hoping to end up in a job that satisfies both paths.&nbsp;
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Shoshana Fishbein
+            </strong>
+           </p>
+           <p>
+            Thanks to the Summer 2016 Public Health Research Grant, I spent my summer doing an independen
+            <img src="/media/contentassets/images/academics/public-health/students2016/fishbein-230x342.png" alt="fishbein" style="  padding : 3px;   float : right;" />
+            t research project, entitled Socioeconomic Status and Sources of Information in Prenatal and Childhood Vaccination where I examined the associations between socioeconomic status, prior vaccination, and availability of vaccine information in determining how a woman vaccinates herself and her children. In order to collect data, I spent my time surveying mothers in outpatient pediatric and obstetric/gynecologic offices. After collecting the data, I entered it into SPSS, coded it, and ran statistical analyses. Due to the nature of the study, I spent much of my time interacting with patients and learned that I much prefer spending my time talking to people about social determinants of health. Although all research is based on population data, hearing individual stories from parents was a valuable experience that will guide me in pursuing a career that is not a "desk job." Because at times it felt like I could spend all day in an office and no one would want to talk to me, I learned to appreciate statistics we hear from places such as the Centers for Disease Control and Prevention and World Health Organization. Although it might seem simple to collect data, public health researchers must work to get information from each and every person to draw conclusions about the health status of a population.&nbsp;
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Ashely Landesman
+            </strong>
+           </p>
+           <p>
+            This summer I did research on Medical Amnesty entitled, &ldquo;I Didn&rsquo;t Want to Get in Trouble:&rdquo; A Study
+            <img src="/media/contentassets/images/academics/public-health/students2016/img1.jpg" alt="" style="  padding : 5px;   float : left;" />
+            of the Effects of Differing Medical Amnesty Policies on the Likelihood of Seeking Medical Treatment for Alcohol-Related Illness and Injury.&rdquo; Medical Amnesty exists in over 30 states, providing legal immunity to underage persons who have been drinking alcohol when one needs medical help and help is called for. The immunity policy differs from state to state; in some states only the caller is protected while in others both the caller and patient benefit from medical amnesty. For my research, I collected and analyzed qualitative and quantitative data gathered from a survey that I created asking whether medical amnesty coverage affects decision-making when medical help is needed by underage drinkers. Because Pennsylvania only provides protection to the caller, I am hoping that, since my data shows that fear of getting in trouble is a common barrier to calling for help, I can work toward having the Pennsylvania medical amnesty law changed to provide legal immunity to more persons. This summer, I learned how to create and implement a survey, how to incorporate ideas from others studies and organizations to support my project and guide new ideas, how to analyze data, how to write a&nbsp;research paper, and how to conduct research professionally. My research was funded by RJ Fellows Summer&nbsp;Research&nbsp;Institute, so I was able to learn from and work cooperatively with another student and other faculty researchers from several disciplines. I acquired the idea for my project while writing a paper for my
+            <em>
+             Issues in Public Health
+            </em>
+            class, and became so passionate that I wished to continue to investigate this topic and establish my own data on the subject. From my research, I learned that there are ways to promote patient advocacy apart from solely clinical experience, which will be beneficial with my career goal of becoming a physician.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Maura Dugan
+            </strong>
+           </p>
+           <p>
+            My name is Maura Dugan and I am a senior Neuroscience major and Public Health minor. Over this summer I worked at Muhlenberg College with Professor Chrysan Cronin to do environmental public health research. The focus of my research project, &ldquo;Assessing
+            <img src="/media/contentassets/images/academics/public-health/students2016/dugan.jpg" alt="" style="  padding : 2px;   float : right;" />
+            Knowledge Levels of Radon in Allentown&rdquo;, was measuring how much health practitioners&mdash;pediatricians, family physicians, nurse RNs and Physician Assistants&mdash;and the Allentown community know about radon. The research on the Allentown residents is specifically looking at difference in health information/radon knowledge between Hispanic and non-Hispanic populations. Radon is the second leading cause of lung cancer and although there are ways to prevent radon inhalation, proper tests and house mitigation must be done. Radon is especially high in the Lehigh Valley area, but is also present across the world. Doing the research over the summer allowed me to understand what my future career in research would be like by not only designing my research project but then working daily to reach my personal goals for it.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Hannah Holmlund
+            </strong>
+           </p>
+           <p>
+            This summer, I was a research assistant in the Women&rsquo;s Health Initiative clinic at the University at
+            <img src="/media/contentassets/images/academics/public-health/students2016/holmlund.jpg" alt="" style="  padding : 5px;   float : left;" />
+            Buffalo under the supervision of Dr. Michael LaMonte.&nbsp; I assisted with epidemiologic research on a National Institute of Health sponsored project looking at three overlapping components, each a randomized controlled comparison among women who were postmenopausal (50 to 79 years of age).&nbsp; The first component was a dietary modification program, the second a hormone therapy component and lastly a calcium and vitamin D component.&nbsp; I was specifically&nbsp; working on a new addition to the study which looked at physical functioning in older adults.&nbsp; I administered a physical functioning assessment consisting of a 6 minute timed walk and grip strength test.&nbsp; I was responsible for data collection and entry, study related phone calls to participants, filing records and reviewing questionnaires for completeness.&nbsp; Lastly, my final project was a literature review of the methods used to assess physical functioning in the elderly.&nbsp; Being an active part of a national study that has greatly contributed to women&rsquo;s health was inspiring!&nbsp; I learned how epidemiology is practically applied, how to follow strict research guidelines for entering data, and how to closely work with research subjects and a research team.&nbsp; Upon graduation from Muhlenberg College, I would like to pursue a masters in public health focusing on community wellness/behavioral health.&nbsp; Ideally, I would like to combine my passion for psychology and public health.
+           </p>
+           <hr />
+           <h3>
+            <strong>
+             Internships
+            </strong>
+           </h3>
+           <p style="text-align: center;">
+            <strong>
+             Brian Smith
+            </strong>
+           </p>
+           <p>
+            Over the summer (and currently) I worked with Habitat for Humanity of Lehigh Valley (HFHLV).&nbsp; The main purpose for interning with
+            <img src="/media/contentassets/images/academics/public-health/students2016/smith.jpg" alt="" style="  padding : 2px;   float : right;" />
+            HFHLV is to get closer to the people in the community; understand their needs, wants, and focusing on educating them on available resources.&nbsp; Another important aspect of my internship was to do surveys in the Allentown, Bethlehem, and Easton to find out what issues arise in the homes, outside the homes, in their communities, health issues, and threats in their communities as well.&nbsp; This internship is very important to me as a whole.&nbsp; Having to put yourself in an environment where people don&rsquo;t trust or believe that the system would work for them in any aspect of their lives or their families&rsquo; lives.&nbsp; This can only get better, if the people believe in what HFHLV can do to provide for each family.&nbsp; The main purpose is to have a better opportunity to live in a new home, have security for the families, to be able go to a better school, meet like-minded people within their new communities, having to do Neighborhood Revitalization!&nbsp; Habitat affiliates are not the architects of revitalization.&nbsp; Instead, they tailor their work to the aspirations and dreams of residents who take on leadership roles in their community&rsquo;s renewal.&nbsp; NR also relies on partners such as churches, businesses, civic groups and neighborhood associates.&nbsp; Neighborhood Revitalization helps fulfill Habitat&rsquo;s mission.&nbsp; &ldquo;Seeking to put God&rsquo;s love into action, Habitat for Humanity brings people together to build homes, communities and hope.&rdquo;
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Mahi Mesfin
+            </strong>
+           </p>
+           <p>
+            Over the summer I had the opportunity to be an Intern at the UN indigenous tribe conference. It
+            <img src="/media/contentassets/images/academics/public-health/students2016/mesfin.jpg" alt="" style="  padding : 5px;   float : left;" />
+            was an amazing experience as we were given the chance to interact and network with representatives from around the world. My job was basically to sit in on the conferences and take notes on the complaints, observations, and suggestions these representatives had in regards to their specific indigenous communities. These notes would then be documented by DOCIP. I was also expected to reach out to the representatives after they had made their statements and ask for any documents they had for us, allowing me to practice my Spanish. Once our day was over we were given access to the delegate dinning room where we were able to sit and eat with some amazing people who held great power in the UN. I hope to one day pursue a Job in the UN so this was an amazing opportunity to network and experience the inner workings of the UN!
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Rachel Rochelson
+            </strong>
+           </p>
+           <p>
+            I spent my summer at Crouse Hospital in Syracuse, NY. My experience was unique in that I was able to gain a better understanding of public health in a hospital setting. By assisting with projects related to employee health and wellness, meeting with several key people
+            <img src="/media/contentassets/images/academics/public-health/students2016/rochelson.jpg" alt="" style="  padding : 2px;   float : right;" />
+            working in various departments, and shadowing members of the Care Coordination Department (specialty social workers) throughout several units of the hospital, I had the opportunity to explore today's healthcare system. Witnessing firsthand the challenges associated with providing high quality care to patients while working simultaneously with family members to develop long term care plans are just a few of the roles Crouse&rsquo;s Care Coordination Department fulfills. Among many other things, the department is responsible for arranging patient transportation from the hospital and works closely with medical rehabilitation centers, nursing homes and home healthcare assistance services in the area as well as substance rehabilitation centers, local shelters, community centers, etc. During my time at Crouse, I learned a lot about Central New York&rsquo;s organizations that offer public assistance programs to the community&rsquo;s special populations, some of which included people living in poverty, the elderly, people with disabilities, mental health, substance abuse issues and refugees. One of the most notable experiences I had was the opportunity to sit in on a &ldquo;Length of Stay&rdquo; meeting where extended-stay patient cases were reviewed in an effort to ensure those patients were continuing to receive care while focusing on their long-term prognosis and discharge planning. Participating in meetings like this one helped me to identify a completely new array of public health issues I wouldn&rsquo;t have otherwise considered.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Emily Sachs
+            </strong>
+           </p>
+           <p>
+            I work&nbsp;as a clinical research assistant for Dr. Jennifer Walter, a professor at UPenn and an employee at the Children&rsquo;s Hospital of &zwnj;Philadelphia (CHOP). The main research project I am working on for her is being conducted in the Cardiac Intensive Care Unit (CICU) and is called &ldquo;Communication S
+            <img src="/media/contentassets/images/academics/public-health/students2016/sachs-230x307.jpg" alt="sachs" style="  padding : 5px;   float : left;" />
+            kills Training for Interprofessional Teams in the Pediatric Cardiac Intensive Care Unit.&rdquo; In the CICU, many parents describe obtaining a realistic understanding that their child had a life-limiting disease only two days prior to death. CICU attendings must have the skills to support parental decision-making, including giving bad news and eliciting parental goals for their child. Our goal is to develop a communication skills training program for interprofessional teams to try and increase empathetic and effective communication during family meetings. This study is relevant because lack of effective communication is a public health issue which can lead to negative outcomes for millions of patients/families. My responsibilities include administering surveys and informed consent forms to participants, conducting literature reviews, writing papers, and data analysis.&nbsp;I also attend Palliative Advanced Care Team (PACT) meetings and Ethics Committee meetings. This internship has allowed me to gain increased exposure and confidence in working with professionals from different disciplines, research skill acquisition and academic paper writing skills. I am double majoring in bioethics and public health and am planning to attend law school since I am interested in health law. This internship has been an amazing opportunity to learn more about the public health and ethical issues involved in the medical system and I am excited to continue this research.
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Amanda Flower&nbsp;&nbsp;
+            </strong>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+           </p>
+           <p>
+            This past summer I was the Health Promotion Intern at the National Health Promotion Associates (NHPA) in Westchester, New York. During this internship I worked closely with the research team on several projects. Two projects were,
+            <img src="/media/contentassets/images/academics/public-health/students2016/flower-230x346.jpg" alt="flower" style="  padding : 3px;   float : right;" />
+            with the United States&nbsp;Airforce Academy (USAFA) and Youth Courts. These projects resulted in improving the communication, life skills, and health curriculum given to the students.The third project was called,&nbsp;Middle School Prescription Drug Abuse (prevention). Here, we were in the process of creating a new program&nbsp;on prescription drug abuse for middle-school-aged youth&nbsp;to learn about what prescription drugs are, and what happens if they are misused. For these projects I assisted in data entry and analysis for several of the pre and post-tests given to the students. I did additional research about prescription drug abuse within middle school students and wrote a blog posted on the
+            <a href="https://botvinlifeskillstraining.wordpress.com/2016/07/27/the-truth-about-drug-use-in-middle-school-students/">
+             Botvin LifeSkills website
+            </a>
+            . It was interesting comparing and contrasting several areas of Public Health. I serve as the Nutrition and Culinary Intern at Muhlenberg College thus, I was never given the experience to work within different fields of Public Health until this summer. My interests within alcohol/drug abuse prevention, bullying, communication skills, and sexual assault prevention have greatly increased. After my experience at NHPA I was able to solidify my passion for Public Health and be confident that this is the career path I want to follow.&nbsp;
+           </p>
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Kenneth Siry
+            </strong>
+           </p>
+           <p>
+            This summer I was a data management intern with the Viral Hepatitis Program at the Philadelphia
+            <img src="/media/contentassets/images/academics/public-health/students2016/siry-229x306.jpg" alt="siry" style="  padding : 5px;   float : left;" />
+            Department of Public Health. During my internship I helped the epidemiologists manage cases, death certificates, and worked with data in Philadelphia&rsquo;s online communicable disease database. I also worked and attended meetings with various programs throughout the Department of Public Health, including the Immunizations Division, Sexually Transmitted Disease Program, and the Public Health Preparedness Division.
+           </p>
+           <br />
+           <br />
+           <br />
+           <br />
+           <hr />
+           <p style="text-align: center;">
+            <strong>
+             Ange Sandrine Uwisanze
+            </strong>
+           </p>
+           <p style="text-align: left;">
+            <strong>
+             <br />
+            </strong>
+            Over the summer I had a two months&rsquo; internship with the World Health Organization (WHO) which I conducted with the representative office for Rwanda. I was working in&zwnj;&zwnj;
+            <img src="/media/contentassets/images/academics/public-health/students2016/ange.jpg" alt="" style="  padding : 5px;   float : right;" />
+            the Health Promotion Unit which mainly enhances health communication and promotes community health. The WHO Rwanda office works closely with the Rwandan Ministry of Health by supporting and advising health officials on the key health priorities. During the first half of my internship, I learned different ways in which the health information is being passed to the Rwandan population. I was fortunate enough to be part of the committee that prepared the International Scientific Conference on Non-Communicable Diseases which took place in Kigali, Rwanda in June 2016. I learned how to review all the promotion materials so that the event can reach a great number of Rwanda. The second half of the internship was mainly field works and I went to three different districts to learn the system of community health in Rwanda. There is a decentralized network of community health workers and the big part of their job is to reduce child and maternal deaths. Community health workers do their job by monitoring pregnant women and newborns and assist them to get efficient prenatal and neonatal care. Interning with WHO gave an opportunity to work with other health agencies in Rwanda and therefore learn more about Public Health in Rwanda. In addition, I was able to know how Rwanda is working to achieve international health goals such as the ones listed in the Sustainable Development Goals. In addition to my internship, as a public health student, it was an honor to represent my country in the African Union Summit and give a speech about the cultural sensitivity about sexual and reproductive education in Rwanda.
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Public Health
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/public-health/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="http://catalog.muhlenberg.edu/preview_program.php?catoid=3&amp;poid=319&amp;hl=%22public+health%22&amp;returnto=search">
+            Major Requirements
+           </a>
+          </li>
+          <li>
+           <a href="http://catalog.muhlenberg.edu/preview_program.php?catoid=3&amp;poid=339&amp;hl=%22public+health%22&amp;returnto=search">
+            Minor Requirements
+           </a>
+          </li>
+          <li>
+           <a href="/media/contentassets/pdf/academics/public-health/Practica%20guidelines.pdf">
+            Practicum
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/research/">
+            Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/faculty/">
+            Faculty
+           </a>
+          </li>
+          <li>
+           <a href="http://www.muhlenberg.edu/main/aboutus/health/pham/index.html">
+            Peer Health Advocates at Muhlenberg (PHAM)
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/internships/">
+            Internships
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/applyingtograduateschool/">
+            Applying to Graduate School
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/public-health/summer2016/">
+             Summer 2016
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/panamamila2016/">
+            Panama MILA 2016
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/wherearetheynow/">
+            Where Are They Now
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/public-health/contactus/">
+            Contact Us
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="http://catalog.muhlenberg.edu/preview_program.php?catoid=3&amp;poid=319&amp;hl=%22public+health%22&amp;returnto=search"&gt;Major Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://catalog.muhlenberg.edu/preview_program.php?catoid=3&amp;poid=339&amp;hl=%22public+health%22&amp;returnto=search"&gt;Minor Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/media/contentassets/pdf/academics/public-health/Practica%20guidelines.pdf"&gt;Practicum&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/research/"&gt;Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/faculty/"&gt;Faculty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.muhlenberg.edu/main/aboutus/health/pham/index.html"&gt;Peer Health Advocates at Muhlenberg (PHAM) &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/internships/"&gt;Internships&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/applyingtograduateschool/"&gt;Applying to Graduate School&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/public-health/summer2016/"&gt;Summer 2016&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/panamamila2016/"&gt;Panama MILA 2016&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/wherearetheynow/"&gt;Where Are They Now&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/public-health/contactus/"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students, the course in Documentary Research is their first foray into making media.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/lorataubgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/taub-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Roland Kushner knows that management skills can't be taught in a vacuum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/rolandkushnergreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/kushner-thumbnail.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Professor Dan Wilson’s students don’t just read about history; they learn from those who lived it.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danwilsongreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wilson-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             For many students in Dr. Douglas Ovens' class, this is their first musical experience at Muhlenberg.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/dougovensgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/ovens-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Niesenbaum's Field Biology and Plant Ecology class is just one of many to use the 63-acre Graver Arboretum.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/richardniesenbaumgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/graver-thumb.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Dr. George Benjamin’s class are mastering more than basic computer science skills. They’re learning about programming and robotics by focusing on problem sets.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/georgebenjamingreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/benjamin_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Daniel Doviak, assistant professor of philosophy at Muhlenberg College, invites his environmental philosophy students to study the relationship between humanity and the world they occupy.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/danieldoviakgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/doviak_small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

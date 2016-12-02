@@ -1,0 +1,1053 @@
+<html>
+ <head>
+  <meta name="description" content="tronc gathers top news, sports, business, travel, and other stories from across the company's network of award-winning media brands. " />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>
+   Popular News - tronc, Inc.
+  </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <script src="http://assets.adobedtm.com/7d2fc91933ba40e7a03b241558ec7ff2243bc283/satelliteLib-0fbeef9c279def8c2c25779ee8c84e7db3b23e1b.js">
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- STYLESHEET REFERENCES -->
+  <link rel="stylesheet/less" type="text/css" href="/stylesheets/homepage/carousel.less" />
+  <!--=
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/sports.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/business.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/realty.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/nation.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/food.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/header.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/suggested.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/footer.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/travel.less"  /&gt;
+    &lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/homepage.less"  /&gt;
+		&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/tainment.less"  /&gt; -->
+  <link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/layouts.less" />
+  <!--&lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/topstory.less"  /&gt;
+    &lt;link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/nation.less"  /&gt; -->
+  <link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/header.less" />
+  <link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/footer.less" />
+  <link rel="stylesheet/less" type="text/css" href="stylesheets/homepage/homepage.less" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/homepage/bootstrap.css" />
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/plugins/font-awesome-4.6.3/css/font-awesome.min.css" />
+  <!-- PLUGIN REFERNECES -->
+  <script src="/plugins/modernizr-custom.js">
+  </script>
+  <script src="/plugins/handlebars-1.0.rc.1.js">
+  </script>
+  <script src="/plugins/jquery-1.12.4.min.js">
+  </script>
+  <!-- &lt;script src="/plugins/less.js"&gt;&lt;/script&gt; -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.js">
+  </script>
+  <script src="/plugins/jquery.sticky.js">
+  </script>
+  <script src="/plugins/bootstrap.js">
+  </script>
+  <!-- JAVASCRIPT REFERENCES -->
+  <script src="/homepage.js">
+  </script>
+  <script src="/header.js">
+  </script>
+  <script src="/globalfunc.js">
+  </script>
+  <!--&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;-->
+ </head>
+ <!-- IMPORT THE HEADER, INCLUDING HAMBURGER MENU -->
+ <!DOCTYPE html>
+ <script id="header-template" type="text/x-handlebars-template">
+  &lt;div class="header"&gt;
+		&lt;div class="header-container"&gt;
+			&lt;div class="header-container-menu" aria-controls="header-hamburger"&gt;
+				&lt;div class="header-container-menu-text"&gt;
+					&lt;i class="fa fa-bars" aria-hidden="true"&gt;&lt;/i&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div id="header-hamburger" class="header-hamburger"&gt;&lt;/div&gt;
+      &lt;div class="header-container-center"&gt;
+  			&lt;a href="/"&gt;
+    			&lt;div class="header-container-center-logo"&gt;
+    				&lt;img src="http://tronc.com/tronc-logo.png" height="48px"&gt;
+  <!-- &lt;span style="font-family: Lato; color: black; font-size: 10px;"&gt;BETA&lt;/span&gt; -->
+  &lt;/div&gt;
+          &lt;span class="header-container-center-beta"&gt;BETA&lt;/span&gt;
+  		  &lt;/a&gt;
+      &lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;div class="header-botcontainer"&gt;
+			{{#each date}}&lt;div class="header-botcontainer-date"&gt;{{this}}&lt;/div&gt;{{/each}}
+			&lt;div class="header-botcontainer-navlinks"&gt;
+				&lt;a href="/" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						HOME
+					&lt;/div&gt;
+				&lt;/a&gt;
+  <!-- commented out comment area  -->
+  <!--&lt;a href="www.google.com" style="display: none;"&gt;&lt;/a&gt;-->
+  <!--	&lt;a href="/section/trending"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						TRENDING
+					&lt;/div&gt;
+				&lt;/a&gt; -->
+  &lt;a href="/section/news" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						NEWS
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;a href="/section/sports" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						SPORTS
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;a href="/section/entertainment" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						ENTERTAINMENT
+					&lt;/div&gt;
+				&lt;/a&gt;
+  <!--&lt;a href="section/food"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						Food
+					&lt;/div&gt;
+				&lt;/a&gt;-->
+  &lt;a href="/section/business" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						BUSINESS
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;a href="/section/realestate" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						REAL ESTATE
+					&lt;/div&gt;
+				&lt;/a&gt;
+				&lt;a href="/section/travel" style="text-decoration:none;"&gt;
+					&lt;div class="header-botcontainer-navlinks-links"&gt;
+						TRAVEL
+					&lt;/div&gt;
+				&lt;/a&gt;
+			 &lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+ </script>
+ <div id="header">
+ </div>
+ <!-- MENU NAVIGATION TEMPLATE  -->
+ <script id="navigation-template" type="text/x-handlebars-template">
+  &lt;div class="nav"&gt;
+			&lt;ul class="nav-topics-list"&gt;
+				{{#each topics}}
+				&lt;li class="nav-topics-list-item"&gt;
+					&lt;a href="{{url}}"&gt;{{text}}&lt;/a&gt;
+				&lt;/li&gt;
+				{{/each}}
+			&lt;/ul&gt;
+			{{#with company}}
+			&lt;div class="nav-company"&gt;
+				&lt;h2 class="nav-company-title"&gt;{{title}}&lt;/h2&gt;
+				{{&gt; nested-navigation-template}}
+			&lt;/div&gt;
+			{{/with}}
+		&lt;/div&gt;
+ </script>
+ <!-- MENU NAVIGATION TEMPLATE  -->
+ <script id="nested-navigation-template" type="text/x-handlebars-template">
+  &lt;ul class="nav-nested-list {{listClass}} nav-nested-level-{{level}}" aria-hidden="{{hidden}}"&gt;
+			{{#each children}}
+			&lt;li class="nav-nested-list-item {{../listClass}}-item"&gt;
+				{{{nested-url this}}}
+				{{#if children}}
+					{{&gt; nested-navigation-template}}
+				{{/if}}
+			&lt;/li&gt;
+			{{/each}}
+		&lt;/ul&gt;
+ </script>
+ <!-- CAROUSEL HOMEPAGE MODULE -->
+ <script id="carousel-template" type="text/x-handlebars-template">
+  &lt;div id="carousel-example-generic" class="carousel slide" data-ride="carousel"&gt;
+  &lt;!-- Indicators --&gt;
+  &lt;!-- Wrapper for slides --&gt;
+  &lt;div class="carousel-inner" role="listbox"&gt;
+
+		{{#each Carousel}}
+    &lt;div class="{{class}}" style="background-image: linear-gradient(180deg, rgba(40, 40, 40, 0.5) 0%, rgba(24, 24, 24, 0.65) 100%), url({{img_url}}); background-size: cover; background-repeat: no-repeat; width:100%; height:420px; baackground-position:center; "&gt;
+   &lt;!--&lt;img src=""&gt;--&gt;
+      &lt;div class="carousel-caption"&gt;
+				&lt;div class="carousel-caption-content"&gt;
+					&lt;div class="carousel-caption-content-typebox"&gt;
+						&lt;!--&lt;div class="carousel-content-typebox-text"&gt;{{news_code}}&lt;/div&gt; --&gt;
+					&lt;/div&gt;
+					&lt;div class="carousel-caption-content-title"&gt;
+  <!--&lt;div class="carousel-content-title-today"&gt;
+							Trending News
+						&lt;/div&gt;-->
+  &lt;div class="carousel-caption-content-title-desc"&gt;
+							{{title}}
+						&lt;/div&gt;
+						&lt;div class="carousel-caption-content-titleborder"&gt;
+						&lt;/div&gt;
+						&lt;div class="carousel-caption-content-title-smalldesc"&gt;
+							{{excerpt}}
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="carousel-caption-content-fullstory" onclick="location.href='/article/{{articlelink}}'" style="cursor:pointer;"&gt;
+						Read the article
+					&lt;/div&gt;
+				&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+		{{/each}}
+  &lt;/div&gt;
+  <!-- Controls -->
+  &lt;a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" id="left-arrow"&gt;
+    &lt;i class="fa fa-angle-left" aria-hidden="true"&gt;&lt;/i&gt;
+    &lt;span class="sr-only"&gt;Previous&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" id="right-arrow"&gt;
+    &lt;i class="fa fa-angle-right" aria-hidden="true"&gt;&lt;/i&gt;
+    &lt;span class="sr-only"&gt;Next&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+ </script>
+ <div id="carousel">
+ </div>
+ <div class="homepage">
+  <div class="homepage-container">
+   <!-- National News -->
+   <div class="sidekick-homepage">
+    <div class="sidekick-homepage-item" id="sidekick">
+     <script src="http://content.synapsys.us/embeds/finance/dynamic_300x600/partner.js">
+     </script>
+    </div>
+   </div>
+   <!--Trending HOMEPAGE MODULE -->
+   <script id="trending-template" type="text/x-handlebars-template">
+    &lt;div class="largestack" style="margin-top:15px;"&gt;
+			&lt;div class="largestack-top"&gt;
+				&lt;div class="largestack-top-text"&gt;
+					&lt;i class="fa fa-line-chart" aria-hidden="true"&gt;&lt;/i&gt;	Trending
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="largestack-rightcontent" style="float:right;"&gt;
+				{{#each List}}
+				&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+					&lt;div class="largestack-rightcontent-text"&gt;
+						&lt;div class="break"&gt;
+    <!--	&lt;b style="text-transform:uppercase;"&gt;	{{sub_code}}&lt;/b&gt; |-->
+    &lt;span style="font-size:12px;"&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+					{{{title}}}
+					&lt;/div&gt;
+				&lt;/a&gt;
+				{{/each}}
+			&lt;/div&gt;
+			&lt;div class="largestack-leftcontent"&gt;
+				{{#each Main}}
+				&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+					&lt;div class="largestack-leftcontent-head"&gt;
+						&lt;div class="largestack-leftcontent-head-keywordate"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt; | -->
+    &lt;span&gt; {{datestring}} &lt;/span&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-leftcontent-head-title"&gt;
+							{{{title}}}
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-leftcontent-author"&gt;
+    <!--	&lt;div class="largestack-leftcontent-author-image"&gt; &lt;/div&gt; -->
+    <!-- &lt;div class="topstory-author-name"&gt;By&nbsp;&lt;strong&gt;{{author}}&lt;/strong&gt;,&nbsp;&nbsp;&lt;strong&gt;{{article_host}}&lt;/strong&gt;&lt;/div&gt; -->
+    &lt;/div&gt;
+					&lt;div class="largestack-leftcontent-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position:center;border-radius:0px;"&gt;
+						&lt;div class="largestack-leftcontent-image-overlay"&gt;
+							&lt;div class="largestack-leftcontent-image-overlay-container"&gt;
+								&lt;div class="largestack-leftcontent-image-overlay-container-text"&gt;
+									&lt;span&gt; View &lt;/span&gt; Article
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-leftcontent-artsummary"&gt;
+						{{excerpt}}
+					&lt;/div&gt;
+				&lt;/a&gt;
+			{{/each}}
+		&lt;/div&gt;
+
+		&lt;div class="largestack-bottom"&gt;
+			&lt;div class="largestack-bottom-left"&gt;
+				{{#each SmallLeft}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt; -->
+    &lt;div class="largestack-bottom-left-imagetext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="largestack-bottom-left-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+							&lt;div class="largestack-bottom-left-imagetext-image-overlay"&gt;
+								&lt;div class="largestack-bottom-left-imagetext-image-overlay-container"&gt;
+									&lt;div class="largestack-bottom-left-imagetext-image-overlay-container-text"&gt;
+										&lt;span&gt;View &lt;/span&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-bottom-left-imagetext-sum"&gt; {{{title}}}&lt;/div&gt;
+					&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+			&lt;/div&gt;
+			&lt;div class="largestack-bottom-right"&gt;
+				{{#each SmallRight}}
+    <!--		&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt; -->
+    &lt;div class="largestack-bottom-right-imagetext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="largestack-bottom-right-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+							&lt;div class="largestack-bottom-right-imagetext-image-overlay"&gt;
+								&lt;div class="largestack-bottom-right-imagetext-image-overlay-container"&gt;
+									&lt;div class="largestack-bottom-right-imagetext-image-overlay-container-text"&gt;
+										&lt;span&gt;View &lt;/span&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-bottom-right-imagetext-sum"&gt;{{{title}}}&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;/div&gt;
+   </script>
+   <div id="trending">
+   </div>
+   <script id="sports-template" type="text/x-handlebars-template">
+    &lt;div class="threewide"&gt;
+			&lt;div class="threewide-top"&gt;
+				&lt;div class="threewide-top-text"&gt;&lt;i class="fa fa-dribbble" aria-hidden="true"&gt;&lt;/i&gt; Sports &lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="threewide-container"&gt;
+
+				{{#each Sports}}
+    <!-- &lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="threewide-container-imgtext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="threewide-container-imgtext-img" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+							&lt;div class="threewide-container-imgtext-img-overlay"&gt;
+                  &lt;div class="threewide-container-imgtext-img-overlay-container"&gt;
+                    &lt;div class="threewide-container-imgtext-img-overlay-container-text"&gt;
+                      &lt;span&gt;View &lt;/span&gt; Article
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="threewide-container-imgtext-text"&gt;
+								&lt;div class="threewide-container-imgtext-text-date"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}} &lt;/span&gt; | -->
+    &lt;span&gt; {{datestring}} &lt;/span&gt;&lt;/div&gt;
+								&lt;div class="threewide-container-imgtext-text-sum"&gt; {{{title}}} &lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+
+			&lt;/div&gt;
+	&lt;/div&gt;
+   </script>
+   <div id="sports">
+   </div>
+   <!-- business HOMEPAGE MODULE -->
+   <script id="business-template" type="text/x-handlebars-template">
+    &lt;div class="threewide"&gt;
+			&lt;div class="threewide-top"&gt;
+				&lt;div class="threewide-top-text"&gt;&lt;i class="fa fa-building" aria-hidden="true"&gt;&lt;/i&gt; Business &lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="threewide-container"&gt;
+
+				{{#each Business}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="threewide-container-imgtext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="threewide-container-imgtext-img" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+							&lt;div class="threewide-container-imgtext-img-overlay"&gt;
+								&lt;div class="threewide-container-imgtext-img-overlay-container"&gt;
+									&lt;div class="threewide-container-imgtext-img-overlay-container-text"&gt;
+											&lt;span&gt;View &lt;/span&gt; Article
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="threewide-container-imgtext-text"&gt;
+								&lt;div class="threewide-container-imgtext-text-date"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt;{{sub_code}}&lt;/span&gt; | -->
+    &lt;span&gt; {{datestring}} &lt;/span&gt;&lt;/div&gt;
+								&lt;div class="threewide-container-imgtext-text-sum"&gt; {{{title}}} &lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--			&lt;/a&gt; -->
+    {{/each}}
+
+			&lt;/div&gt;
+	&lt;/div&gt;
+   </script>
+   <div id="business">
+   </div>
+   <!-- Entertainment Module -->
+   <script id="tainment-template" type="text/x-handlebars-template">
+    &lt;div class="fourtwo"&gt;
+			&lt;div class="fourtwo-title"&gt;
+				&lt;i class="fa fa-tv" aria-hidden="true"&gt;&lt;/i&gt;
+				Entertainment
+			&lt;/div&gt;
+			&lt;div class="fourtwo-content"&gt;
+				&lt;div class="fourtwo-content-left"&gt;
+
+				{{#each EntertainmentLeft}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwo-content-left-item" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+					&lt;div class="fourtwo-content-left-item-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+						&lt;div class="fourtwo-content-left-item-image-overlay"&gt;
+							&lt;div class="fourtwo-content-left-item-image-overlay-container"&gt;
+								&lt;div class="fourtwo-content-left-item-image-overlay-container-text"&gt;
+										&lt;span&gt; View &lt;/span&gt; Article
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+						&lt;div class="fourtwo-content-left-item-info"&gt;
+							&lt;div class="fourtwo-content-left-item-info-title"&gt;
+								&lt;span&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt; |-->
+    &lt;/span&gt; {{datestring}}
+							&lt;/div&gt;
+    <!-- 	&lt;div class="fourtwo-content-left-item-info-author"&gt;
+							By	{{author}}
+						&lt;/div&gt; -->
+    &lt;div class="fourtwo-content-left-item-info-content"&gt;
+								{{{title}}}
+							&lt;/div&gt;
+
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+
+				&lt;/div&gt;
+
+				&lt;div class="fourtwo-content-right"&gt;
+
+				{{#each EntertainmentRight}}
+    <!--		&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwo-content-right-item" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="fourtwo-content-right-item-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px; "&gt;
+							&lt;div class="fourtwo-content-right-item-image-overlay"&gt;
+								&lt;div class="fourtwo-content-right-item-image-overlay-container"&gt;
+									&lt;div class="fourtwo-content-right-item-image-overlay-container-text"&gt;
+											&lt;span&gt; View &lt;/span&gt; Article
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="fourtwo-content-right-item-info"&gt;
+							&lt;div class="fourtwo-content-right-item-info-date"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt;	&lt;span&gt; {{sub_code}}&lt;/span&gt; | &lt;/span&gt;-->
+    {{datestring}}
+							&lt;/div&gt;
+							&lt;div class="fourtwo-content-right-item-info-title"&gt;
+								{{{title}}}
+							&lt;/div&gt;
+							&lt;div class="fourtwo-content-right-item-info-author"&gt;
+									By	{{author}}
+							&lt;/div&gt;
+							&lt;div class="fourtwo-content-right-item-info-content"&gt;
+								{{excerpt}}
+
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+    <!-- mobile tainment -->
+    &lt;div class="fourtwosmall"&gt;
+			&lt;div class="fourtwo-title"&gt;
+				&lt;i class="fa fa-home" aria-hidden="true"&gt;&lt;/i&gt;
+				Entertainment
+			&lt;/div&gt;
+		{{#each EntertainmentSmallTop}}
+    <!--	&lt;a href="/article/{{articlelink}}" style=""&gt; -->
+    &lt;div class="fourtwosmall-top" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer; margin-top:10px;"&gt;
+			&lt;div class="fourtwosmall-top-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+				&lt;div class="fourtwosmall-top-image-overlay"&gt;
+						&lt;div class="fourtwosmall-top-image-overlay-container"&gt;
+								&lt;div class="fourtwosmall-top-image-overlay-container-text"&gt;
+									&lt;span&gt;View &lt;/span&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+					&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="fourtwosmall-top-text"&gt;
+				&lt;div class="fourtwosmall-top-text-key"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt; |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+				&lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}} &lt;/div&gt;
+    <!--		&lt;div class="fourtwosmall-top-text-author"&gt;By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-top-text-text"&gt; {{excerpt}} &lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+		{{#each EntertainmentSmallMid}}
+			&lt;div class="fourtwosmall-mid"&gt;
+				{{#each Left}}
+    <!--	&lt;a href="/article/{{articlelink}}" style=""&gt; -->
+    &lt;div class="fourtwosmall-mid-containerleft" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="fourtwosmall-mid-containerleft-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+							&lt;div class="fourtwosmall-mid-containerleft-image-overlay"&gt;
+									&lt;div class="fourtwosmall-mid-containerleft-image-overlay-container"&gt;
+											&lt;div class="fourtwosmall-mid-containerleft-image-overlay-container-text"&gt;
+												&lt;span&gt;View &lt;/span&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+								&lt;/div&gt;
+						&lt;/div&gt;
+			 			&lt;div class="fourtwosmall-mid-containerleft-text"&gt;
+							&lt;div class="fourtwosmall-mid-containerleft-text-key"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+    <!--		&lt;div class="fourtwosmall-mid-containerleft-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-mid-containerleft-text-title"&gt; {{{title}}}&lt;/div&gt;
+							&lt;div class="fourtwosmall-mid-containerleft-text-text"&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a -->
+    {{/each}}
+				{{#each Right}}
+    <!--	&lt;a href="/article/{{articlelink}}" style=""&gt; -->
+    &lt;div class="fourtwosmall-mid-containerright" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="fourtwosmall-mid-containerright-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+							&lt;div class="fourtwosmall-mid-containerright-image-overlay"&gt;
+									&lt;div class="fourtwosmall-mid-containerright-image-overlay-container"&gt;
+											&lt;div class="fourtwosmall-mid-containerright-image-overlay-container-text"&gt;
+												&lt;span&gt;View &lt;/span&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+								&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="fourtwosmall-mid-containerright-text"&gt;
+							&lt;div class="fourtwosmall-mid-containerright-text-key"&gt;
+    <!-- &lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+    <!--	&lt;div class="fourtwosmall-mid-containerright-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-mid-containerright-text-title"&gt; {{{title}}}&lt;/div&gt;
+							&lt;div class="fourtwosmall-mid-containerright-text-text"&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+			&lt;/div&gt;
+		{{/each}}
+		{{#each EntertainmentSmallBottom}}
+    <!--	&lt;a href="/article/{{articlelink}}" style=""&gt; -->
+    &lt;div class="fourtwosmall-top" onclick="location.href='/article/{{articlelink}}';" style="margin-top:none;"&gt;
+			 &lt;div class="fourtwosmall-top-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+				 &lt;div class="fourtwosmall-top-image-overlay"&gt;
+						 &lt;div class="fourtwosmall-top-image-overlay-container"&gt;
+								 &lt;div class="fourtwosmall-top-image-overlay-container-text"&gt;
+									 &lt;span&gt;View &lt;/span&gt;
+								 &lt;/div&gt;
+							 &lt;/div&gt;
+					 &lt;/div&gt;
+			&lt;/div&gt;
+			 &lt;div class="fourtwosmall-top-text"&gt;
+				 &lt;div class="fourtwosmall-top-text-key"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+				 &lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}} &lt;/div&gt;
+    <!--	 &lt;div class="fourtwosmall-top-text-author"&gt;By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-top-text-text"&gt; {{excerpt}} &lt;/div&gt;
+			 &lt;/div&gt;
+		 &lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+	&lt;/div&gt;
+   </script>
+   <div id="tainment" style="margin-bottom:15px;">
+   </div>
+   <!-- Food Module -->
+   <script id="food-template" type="text/x-handlebars-template">
+    &lt;div class="largestack"&gt;
+		&lt;div class="largestack-top"&gt;
+			&lt;div class="largestack-top-text"&gt;
+				&lt;i class="fa fa-cutlery" aria-hidden="true"&gt;&lt;/i&gt; 	Food
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="largestack-rightcontent" style="float:right;"&gt;
+			{{#each List}}
+			&lt;a href="/article/{{articlelink}}" style="text-decoration: none; cursor:pointer;"&gt;
+				&lt;div class="largestack-rightcontent-text"&gt;
+					&lt;div class="break"&gt;
+    <!--	&lt;b style="text-transform:uppercase;"&gt;	{{sub_code}}&lt;/b&gt; | -->
+    &lt;span style="font-size:12px;"&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+				{{{title}}}
+				&lt;/div&gt;
+			&lt;/a&gt;
+		{{/each}}
+		&lt;/div&gt;
+
+		&lt;div class="largestack-leftcontent"&gt;
+			{{#each Main}}
+			&lt;a href="/article/{{articlelink}}" style="text-decoration: none; cursor:pointer;"&gt;
+				&lt;div class="largestack-leftcontent-head"&gt;
+					&lt;div class="largestack-leftcontent-head-keywordate"&gt;
+    <!--				&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  | -->
+    &lt;span&gt; {{datestring}} &lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-leftcontent-head-title"&gt;
+						{{{title}}}
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="largestack-leftcontent-author"&gt;
+    <!--			&lt;div class="largestack-leftcontent-author-image"&gt; &lt;/div&gt; -->
+    <!-- &lt;div class="topstory-author-name"&gt;By&nbsp;&lt;strong&gt;{{author}}&lt;/strong&gt;,&nbsp;&nbsp;&lt;strong&gt;{{article_host}}&lt;/strong&gt;&lt;/div&gt; -->
+    &lt;/div&gt;
+				&lt;div class="largestack-leftcontent-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position:center;border-radius:0px;"&gt;
+					&lt;div class="largestack-leftcontent-image-overlay"&gt;
+						&lt;div class="largestack-leftcontent-image-overlay-container"&gt;
+							&lt;div class="largestack-leftcontent-image-overlay-container-text"&gt;
+								&lt;span&gt; View &lt;/span&gt; Article
+					 		&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class="largestack-leftcontent-artsummary"&gt;
+					{{excerpt}}
+				&lt;/div&gt;
+		 &lt;/a&gt;
+		{{/each}}
+	&lt;/div&gt;
+
+	&lt;div class="largestack-bottom"&gt;
+		&lt;div class="largestack-bottom-left"&gt;
+			{{#each SmallLeft}}
+			&lt;a href="/article/{{articlelink}}" style="text-decoration: none; cursor:pointer;"&gt;
+				&lt;div class="largestack-bottom-left-imagetext"&gt;
+					&lt;div class="largestack-bottom-left-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+						&lt;div class="largestack-bottom-left-imagetext-image-overlay"&gt;
+							&lt;div class="largestack-bottom-left-imagetext-image-overlay-container"&gt;
+								&lt;div class="largestack-bottom-left-imagetext-image-overlay-container-text"&gt;
+									&lt;span&gt;View &lt;/span&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-bottom-left-imagetext-sum"&gt; {{{title}}}&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/a&gt;
+			{{/each}}
+		&lt;/div&gt;
+		&lt;div class="largestack-bottom-right"&gt;
+			{{#each SmallRight}}
+			&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt;
+				&lt;div class="largestack-bottom-right-imagetext"&gt;
+					&lt;div class="largestack-bottom-right-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+
+					&lt;/div&gt;
+					&lt;div class="largestack-bottom-right-imagetext-sum"&gt;{{{title}}}&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/a&gt;
+			{{/each}}
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;/div&gt;
+   </script>
+   <div id="food">
+   </div>
+   <!-- realty HOMEPAGE MODULE -->
+   <script id="realty-template" type="text/x-handlebars-template">
+    &lt;div class="fourtwo"&gt;
+			&lt;div class="fourtwo-title"&gt;
+				&lt;i class="fa fa-home" aria-hidden="true"&gt;&lt;/i&gt;
+				Real Estate
+			&lt;/div&gt;
+			&lt;div class="fourtwo-content"&gt;
+				&lt;div class="fourtwo-content-left"&gt;
+
+				{{#each RealEstateLeft}}
+					&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+						&lt;div class="fourtwo-content-left-item"&gt;
+							&lt;div class="fourtwo-content-left-item-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat;border-radius:0px;"&gt;
+								&lt;div class="fourtwo-content-left-item-image-overlay"&gt;
+									&lt;div class="fourtwo-content-left-item-image-overlay-container"&gt;
+										&lt;div class="fourtwo-content-left-item-image-overlay-container-text"&gt;
+												&lt;span&gt; View &lt;/span&gt; Article
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div class="fourtwo-content-left-item-info"&gt;
+								&lt;div class="fourtwo-content-left-item-info-title"&gt;
+									&lt;span&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  | -->
+    &lt;/span&gt; {{datestring}}
+								&lt;/div&gt;
+    <!--		&lt;div class="fourtwo-content-left-item-info-author"&gt;
+									By	{{author}}
+								&lt;/div&gt; -->
+    &lt;div class="fourtwo-content-left-item-info-content"&gt;
+									{{{title}}}
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				{{/each}}
+
+				&lt;/div&gt;
+
+				&lt;div class="fourtwo-content-right"&gt;
+
+				{{#each RealEstateRight}}
+				&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+						&lt;div class="fourtwo-content-right-item"&gt;
+							&lt;div class="fourtwo-content-right-item-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; border-radius:0px; {{margin}}"&gt;
+								&lt;div class="fourtwo-content-right-item-image-overlay"&gt;
+									&lt;div class="fourtwo-content-right-item-image-overlay-container"&gt;
+										&lt;div class="fourtwo-content-right-item-image-overlay-container-text"&gt;
+												&lt;span&gt; View &lt;/span&gt; Article
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+							&lt;div class="fourtwo-content-right-item-info"&gt;
+								&lt;div class="fourtwo-content-right-item-info-date"&gt;
+									&lt;span&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  |-->
+    &lt;/span&gt; {{datestring}}
+								&lt;/div&gt;
+								&lt;div class="fourtwo-content-right-item-info-title"&gt;
+									{{{title}}}
+								&lt;/div&gt;
+									&lt;div class="fourtwo-content-right-item-info-author"&gt;
+										By 	{{author}}
+									&lt;/div&gt;
+								&lt;div class="fourtwo-content-right-item-info-content"&gt;
+									{{excerpt}}
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				{{/each}}
+
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+    <!-- mobile realty -->
+    &lt;div class="fourtwosmall"&gt;
+	&lt;div class="fourtwosmall-head"&gt;
+	&lt;div class="fourtwosmall-title"&gt;
+		&lt;i class="fa fa-home" aria-hidden="true"&gt;&lt;/i&gt;
+		Real Estate
+	&lt;/div&gt;
+&lt;/div&gt;
+{{#each RealtySmallTop}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwosmall-top" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer; margin-top:10px;"&gt;
+			&lt;div class="fourtwosmall-top-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+				&lt;div class="fourtwosmall-top-image-overlay"&gt;
+						&lt;div class="fourtwosmall-top-image-overlay-container"&gt;
+								&lt;div class="fourtwosmall-top-image-overlay-container-text"&gt;
+									&lt;span&gt;View &lt;/span&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+					&lt;/div&gt;
+		 &lt;/div&gt;
+			&lt;div class="fourtwosmall-top-text"&gt;
+				&lt;div class="fourtwosmall-top-text-key"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt; |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+				&lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}}&lt;/div&gt;
+    <!--		&lt;div class="fourtwosmall-top-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-top-text-text"&gt; {{excerpt}}&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+    <!--&lt;/a&gt; -->
+    {{/each}}
+
+{{#each RealtySmallMid}}
+	&lt;div class="fourtwosmall-mid"&gt;
+		{{#each Left}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwosmall-mid-containerleft" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+					&lt;div class="fourtwosmall-mid-containerleft-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+						&lt;div class="fourtwosmall-mid-containerleft-image-overlay"&gt;
+								&lt;div class="fourtwosmall-mid-containerleft-image-overlay-container"&gt;
+										&lt;div class="fourtwosmall-mid-containerleft-image-overlay-container-text"&gt;
+											&lt;span&gt;View &lt;/span&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="fourtwosmall-mid-containerleft-text"&gt;
+            &lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}} &lt;/div&gt;
+    <!--		&lt;div class="fourtwosmall-top-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;/div&gt;
+			&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+		{{#each Right}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwosmall-mid-containerright" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+				&lt;div class="fourtwosmall-mid-containerright-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+					&lt;div class="fourtwosmall-mid-containerright-image-overlay"&gt;
+							&lt;div class="fourtwosmall-mid-containerright-image-overlay-container"&gt;
+									&lt;div class="fourtwosmall-mid-containerright-image-overlay-container-text"&gt;
+										&lt;span&gt;View &lt;/span&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="fourtwosmall-mid-containerright-text"&gt;
+           	&lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}} &lt;/div&gt;
+    <!--	&lt;div class="fourtwosmall-top-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;/div&gt;
+			&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+	&lt;/div&gt;
+ {{/each}}
+
+{{#each RealtySmallBottom}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;"&gt; -->
+    &lt;div class="fourtwosmall-top" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+			&lt;div class="fourtwosmall-top-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+				&lt;div class="fourtwosmall-top-image-overlay"&gt;
+						&lt;div class="fourtwosmall-top-image-overlay-container"&gt;
+								&lt;div class="fourtwosmall-top-image-overlay-container-text"&gt;
+									&lt;span&gt;View &lt;/span&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+					&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="fourtwosmall-top-text"&gt;
+				&lt;div class="fourtwosmall-top-text-key"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt;  |-->
+    &lt;span&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+				&lt;div class="fourtwosmall-top-text-title"&gt; {{{title}}}&lt;/div&gt;
+    <!--	&lt;div class="fourtwosmall-top-text-author"&gt; By {{author}} &lt;/div&gt; -->
+    &lt;div class="fourtwosmall-top-text-text"&gt; {{excerpt}}&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+
+&lt;/div&gt;
+   </script>
+   <div id="realty" style="margin-bottom:15px;">
+   </div>
+   <!-- Travel Module  -->
+   <script id="travel-template" type="text/x-handlebars-template">
+    &lt;div class="largestack" style="padding-bottom:10px;"&gt;
+			&lt;div class="largestack-top"&gt;
+				&lt;div class="largestack-top-text"&gt;
+					&lt;i class="fa fa-plane" aria-hidden="true"&gt;&lt;/i&gt;	Travel
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="largestack-rightcontent" style="float:right;"&gt;
+				{{#each List}}
+				&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+					&lt;div class="largestack-rightcontent-text"&gt;
+						&lt;div class="break"&gt;
+    <!--	&lt;b style="text-transform:uppercase;"&gt;	{{sub_code}}&lt;/b&gt; |-->
+    &lt;span style="font-size:12px;"&gt; {{datestring}} &lt;/span&gt; &lt;/div&gt;
+					{{{title}}}
+					&lt;/div&gt;
+				&lt;/a&gt;
+				{{/each}}
+			&lt;/div&gt;
+			&lt;div class="largestack-leftcontent"&gt;
+				{{#each Main}}
+				&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt;
+					&lt;div class="largestack-leftcontent-head"&gt;
+						&lt;div class="largestack-leftcontent-head-keywordate"&gt;
+    <!--&lt;span style="text-transform:uppercase;"&gt; {{sub_code}}&lt;/span&gt; | -->
+    &lt;span&gt; {{datestring}} &lt;/span&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-leftcontent-head-title"&gt;
+							{{{title}}}
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-leftcontent-author"&gt;
+    <!--	&lt;div class="largestack-leftcontent-author-image"&gt; &lt;/div&gt; -->
+    <!--	&lt;div class="largestack-leftcontent-author-name"&gt; By {{author}}&lt;/div&gt; -->
+    &lt;/div&gt;
+					&lt;div class="largestack-leftcontent-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position:center;border-radius:0px;"&gt;
+						&lt;div class="largestack-leftcontent-image-overlay"&gt;
+							&lt;div class="largestack-leftcontent-image-overlay-container"&gt;
+								&lt;div class="largestack-leftcontent-image-overlay-container-text"&gt;
+									&lt;span&gt; View &lt;/span&gt; Article
+						 		&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="largestack-leftcontent-artsummary"&gt;
+						{{excerpt}}
+					&lt;/div&gt;
+				&lt;/a&gt;
+			{{/each}}
+		&lt;/div&gt;
+
+		&lt;div class="largestack-bottom"&gt;
+			&lt;div class="largestack-bottom-left"&gt;
+				{{#each SmallLeft}}
+    <!--	&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt; -->
+    &lt;div class="largestack-bottom-left-imagetext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="largestack-bottom-left-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+							&lt;div class="largestack-bottom-left-imagetext-image-overlay"&gt;
+								&lt;div class="largestack-bottom-left-imagetext-image-overlay-container"&gt;
+									&lt;div class="largestack-bottom-left-imagetext-image-overlay-container-text"&gt;
+										&lt;span&gt;View &lt;/span&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-bottom-left-imagetext-sum"&gt; {{{title}}}&lt;/div&gt;
+					&lt;/div&gt;
+    <!--	&lt;/a&gt; -->
+    {{/each}}
+			&lt;/div&gt;
+			&lt;div class="largestack-bottom-right"&gt;
+				{{#each SmallRight}}
+    <!--		&lt;a href="/article/{{articlelink}}" style="text-decoration: none;cursor:pointer;"&gt; -->
+    &lt;div class="largestack-bottom-right-imagetext" onclick="location.href='/article/{{articlelink}}';" style="cursor:pointer;"&gt;
+						&lt;div class="largestack-bottom-right-imagetext-image" style="background-image: url({{img_url}}); background-size: cover; background-repeat: no-repeat; background-position: center;"&gt;
+							&lt;div class="largestack-bottom-right-imagetext-image-overlay"&gt;
+								&lt;div class="largestack-bottom-right-imagetext-image-overlay-container"&gt;
+									&lt;div class="largestack-bottom-right-imagetext-image-overlay-container-text"&gt;
+										&lt;span&gt;View &lt;/span&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class="largestack-bottom-right-imagetext-sum"&gt;{{{title}}}&lt;/div&gt;
+					&lt;/div&gt;
+    <!--		&lt;/a&gt; -->
+    {{/each}}
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;/div&gt;
+   </script>
+   <div id="travel">
+   </div>
+  </div>
+  <div class="footer">
+   <div class="footer-bow">
+   </div>
+   <div class="footer-container">
+    <div class="footer-container-image">
+     <img src="http://tronc.com/tronc-logo.png" height="42px" />
+    </div>
+    <div class="footer-container-rights">
+     <a href="http://www.tronc.com/about-us/">
+      About&nbsp;Us
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a href="http://investor.tronc.com/phoenix.zhtml?c=254385&amp;p=irol-irhome">
+      Investor&nbsp;Relations
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <!--&lt;a href="https://careers-tronc.icims.com/jobs/intro?hashed=-435716452"&gt; Careers &lt;/a&gt;&nbsp;&nbsp;|&nbsp;&nbsp;-->
+     <a href="/careers">
+      Careers
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a href="http://www.tronc.com/central-terms-of-service/">
+      Terms&nbsp;of&nbsp;Service
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a href="http://www.tronc.com/privacy-policy/">
+      Privacy&nbsp;Policy
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+						&copy;&nbsp;Copyright&nbsp;2016&nbsp;
+     <a id="footerlink" href="http://tronc.com">
+      tronc
+     </a>
+     ,&nbsp;Inc.
+    </div>
+    <div class="footer-container-social">
+     <div class="footer-container-social-icon">
+      <!--			&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt; -->
+      <a href="http://www.twitter.com/tronc">
+       <i class="fa fa-twitter" aria-hidden="true" style="padding-right:5px; padding-left:5px;">
+       </i>
+      </a>
+      <a href="http://www.facebook.com/troncmedia">
+       <i class="fa fa-facebook" aria-hidden="true" style="padding-right:5px; padding-left:5px;">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <!-- &lt;script type="text/javascript"&gt;_satellite.pageBottom();&lt;/script&gt; -->
+  </div>
+  <!-- mobile footer below -->
+  <div class="footersmall">
+   <div class="footer-bow">
+   </div>
+   <div class="footersmall-container">
+    <div class="footersmall-container-top">
+     <div class="footersmall-container-top-image">
+      <img src="http://tronc.com/tronc-logo.png" height="42px" />
+     </div>
+     <div class="footersmall-container-top-social">
+      <div class="footersmall-container-top-social-icons">
+       <!-- 	&lt;i class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt; -->
+       <a href="http://www.twitter.com/tronc">
+        <i class="fa fa-twitter" aria-hidden="true" style="padding-right:5px; padding-left:5px;">
+        </i>
+       </a>
+       <a href="http://www.facebook.com/troncmedia">
+        <i class="fa fa-facebook" aria-hidden="true" style="padding-right:5px; padding-left:5px;">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="footersmall-container-bot">
+     <a id="footerlink" href="http://www.tronc.com/about-us/">
+      About&nbsp;Us
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a id="footerlink" href="http://investor.tronc.com/phoenix.zhtml?c=254385&amp;p=irol-irhome">
+      Investor&nbsp;Relations
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <!--&lt;a href="https://careers-tronc.icims.com/jobs/intro?hashed=-435716452"&gt; Careers &lt;/a&gt;&nbsp;&nbsp;|&nbsp;&nbsp;-->
+     <a id="footerlink" href="/careers">
+      Careers
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a id="footerlink" href="http://www.tronc.com/central-terms-of-service/">
+      Terms&nbsp;of&nbsp;Service
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     <a id="footerlink" href="http://www.tronc.com/privacy-policy/">
+      Privacy&nbsp;Policy
+     </a>
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+		 &copy;&nbsp;Copyright&nbsp;2016&nbsp;
+     <a id="footerlink" href="http://tronc.com">
+      tronc
+     </a>
+     ,&nbsp;Inc.
+    </div>
+   </div>
+   <!--&lt;script type="text/javascript"&gt;_satellite.pageBottom();&lt;/script&gt;-->
+  </div>
+ </div>
+</html>

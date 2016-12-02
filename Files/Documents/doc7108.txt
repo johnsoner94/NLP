@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Biochemistry Subject Guide - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 355146;
+			mySID = 2904767;
+			var myGNAME = "Biochemistry+Subject+Guide";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Biochemistry Subject Guide
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Jan 11, 2013
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/biochem">
+          http://libraryguides.muhlenberg.edu/biochem
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=355146">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Rachel Hamelers
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:rhamelers@muhlenberg.edu">
+           rhamelers@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          Phone: 484-664-3601
+          <br />
+          E-mail: rhamelers@muhlenberg.edu
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=355146&amp;sid=2904767">
+       Home
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=355146&amp;sid=2988819">
+       Finding Primary Articles in the Sciences
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=355146&amp;sid=2988820">
+       Bioinformatics Central
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=355146&amp;sid=2988821">
+       Getting the Full-Text of an Article
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=355146&amp;sid=3002953">
+       Finding Books
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2904767" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10177298" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10335761" class="content_box content_box_7">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search PubMed for Article Abstracts
+     </div>
+     <div class="embedclass_print">
+      <form method="get" action="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi" target="new">
+       <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed">
+       </a>
+       <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed">
+        <img alt="PubMed Logo" src="http://www.ncbi.nlm.nih.gov/corehtml/query/static/gifs/iconmed.gif" />
+       </a>
+       &nbsp;&nbsp;
+       <input type="hidden" name="db" value="PubMed" />
+       <input type="hidden" name="holding" value="paumbrlib" />
+       <input name="term" size="20" type="TEXT" value="" />
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10177320" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       PubMed
+       <br />
+       <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed">
+        http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed
+       </a>
+       <br />
+       A service of the National Library of Medicine, PubMed includes over 19 million citations for biomedical articles back to 1948 and links to many sites providing full text articles and other related resources.
+      </li>
+      <li>
+       SciFinder
+       <br />
+       <a href="https://scifinder.cas.org/">
+        https://scifinder.cas.org/
+       </a>
+       <br />
+       A database and research tool including literature from many scientific disciplines, specifically in chemistry, engineering, and materials science. **Patrons must register
+       <a href="https://origin-scifinder.cas.org/registration/index.html?corpKey=EAED9FB1-86F3-50AB-4A5D-9970D02A6395">
+        here
+       </a>
+       and are required to have a muhlenberg e-mail address to use this database.**
+      </li>
+      <li>
+       Science Direct, Health, Life, and Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of 1000+ full-text Elsevier journals in the areas of health, life, and physical sciences from 1995 to the present.
+      </li>
+      <li>
+       Springerlink
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/
+       </a>
+       <br />
+       Over 1,700 journals from Springer-Verlag with coverage from 1997 to present. Subjects covered focus on the natural sciences, but also include significant titles in behavioral sciences, humanities, social sciences and law.
+      </li>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Provides full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10100926" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      News sources
+     </div>
+     <ul>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       Provides full text of thousands of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.
+      </li>
+      <li>
+       New York Times
+       <br />
+       <a href="http://www.nytimes.com">
+        http://www.nytimes.com
+       </a>
+       <br />
+       Complete access to New York Times via Muhlenberg subscription. All users must register while physically on campus, using their Muhlenberg email.
+      </li>
+      <li>
+       Science Daily
+       <br />
+       <a href="http://www.sciencedaily.com/">
+        http://www.sciencedaily.com/
+       </a>
+       <br />
+       News articles, videos, and images in the subjects of health, math, and the sciences.
+      </li>
+      <li>
+       Google news
+       <br />
+       <a href="http://news.google.com">
+        http://news.google.com
+       </a>
+       <br />
+       Aggregated news from worldwide sources
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

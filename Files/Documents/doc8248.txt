@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Student-Faculty Collaboration - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/student-facultycollaboration/">
+            Student-Faculty Collaboration
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          &nbsp;
+         </div>
+         <div>
+          &nbsp;
+         </div>
+         <!-- InstanceBeginEditable name="EditMainContent" -->
+         <div class="content-add05">
+          <h3>
+           Student-Faculty Collaboration
+          </h3>
+          <p>
+           In almost all of our activities, we find ways for motivated students to be involved. This kind of collaboration happens most frequently with respect to
+           <a href="/main/academics/psychology/research/">
+            research
+           </a>
+           . Specific faculty research interests vary widely (e.g., understanding trauma, risk perception, perceptions of ADHD and autism, music perception, multiculturalism, LGBTQ issues in Black populations). See our
+           <a href="/main/academics/psychology/faculty/">
+            faculty pages
+           </a>
+           for more information about current research interests. Dozens of students each semester work directly with faculty on their research, and develop independent projects in collaboration with faculty. Each year, additional students choose to participate in our
+           <a href="/main/academics/psychology/seniorthesis/">
+            Thesis Program
+           </a>
+           to work even more independently, with faculty mentoring. Two of those thesis students are chosen as recipients of each of the two departmental annual research awards: The Rosenberg Award and the Crist Family Research Fellowship.
+          </p>
+          <p style="text-align: center;">
+           <strong>
+            Student-Faculty Research Collaborations (2006 &ndash; 2015)
+           </strong>
+          </p>
+          <p style="text-align: center;">
+           <em>
+            * Denotes Muhlenberg College Student
+           </em>
+          </p>
+          <p>
+           <strong>
+            <span style="text-decoration: underline;">
+             PUBLICATIONS
+            </span>
+           </strong>
+          </p>
+          <p>
+           <strong>
+            2015
+           </strong>
+          </p>
+          <p>
+           Sinno, S., Schuette, C. &amp; Hellriegel, C.* (2015). The impact of family and community context on children&rsquo;s understanding of parental roles.
+           <em>
+            Journal of
+           </em>
+           <em>
+            Family Issues, online first,
+           </em>
+           1-22.
+          </p>
+          <p>
+           <strong>
+            2013
+           </strong>
+          </p>
+          <p>
+           Richmond, K., Geiger, L.*, &amp; Reed, C.* (2013). The personal is political: A feminist and trauma-informed therapeutic approach to working with a survivor of sexual assault.
+           <em>
+            Clinical Case Studies.
+           </em>
+          </p>
+          <p>
+           <strong>
+            2012
+           </strong>
+          </p>
+          <p>
+           Sciutto, M. J., Richwine, S., Mentrikoski, J. M. &amp; Niedzwiecki, K. J. (2012). A Qualitative Analysis of the School Experiences of Students with Asperger&rsquo;s Syndrome.&nbsp;
+           <em>
+            Focus on Autism and Other Developmental Disabilities, 27,
+           </em>
+           177 &ndash; 188.
+          </p>
+          <p>
+           <strong>
+            2011
+           </strong>
+          </p>
+          <p>
+           Faust, C.*, Silverberg, J.*, &amp; Rudski, J.M. (2011). The Box top spatial maze.
+           <em>
+            Journal of
+           </em>
+           <em>
+            Behavioral and Neuroscience Research
+           </em>
+           [Special Issue: Laboratory Activities for Courses in Learning; Eds. R. Flint, Jr. &amp; M. Anderson].
+          </p>
+          <p>
+           Gotthard, G.H., Block, J. N.*, Cohen, M.*, &amp; Houck, C.* (2011). Spatial and nonspatial foraging: Appetitively motivated paradigms for the study of learning and memory in rats.
+           <em>
+            Journal of
+           </em>
+           <em>
+            Behavioral and Neuroscience Research
+           </em>
+           [Special Issue: Laboratory Activities for Courses in Learning; Eds. R. Flint, Jr. &amp; M. Anderson].
+          </p>
+          <p>
+           Cohen, J.* &amp; Gotthard, G. H. (2011). Extinction of appetitive learning is disrupted by cycloheximide and propranolol in the sand maze in rats.
+           <em>
+            Neurobiology of Learning and Memory, 95
+           </em>
+           , 484-490.
+          </p>
+          <p>
+           Richmond, K., Burnes, T. &amp; Carroll, K.* (2011). Lost in Trans-lation: Interpreting Systems of Trauma for Transgender Clients.
+           <em>
+            Traumatology
+           </em>
+           .
+          </p>
+          <p>
+           Rudski, J.M., Osei, W.*, Jacobson, A.R.*, &amp; Lynch, C.R.* (2011). Would you rather be injured by lightning or a downed power line? Preference for natural hazards.
+           <em>
+            Judgment and Decision Making, 6
+           </em>
+           , 314&ndash;322.
+          </p>
+          <p>
+           Rudski, J.M., Bernstein, L.R*., &amp; Mitchell, J.E.* (2011). Implicitly erotic art across the menstrual cycle.
+           <em>
+            Archives of Sexual Behavior. 40(4)
+           </em>
+           , 767-73.
+          </p>
+          <p>
+           <strong>
+            2010
+           </strong>
+          </p>
+          <p>
+           Gotthard, G. H. &amp; Knoppel, A. B.* (2010). Cycloheximide produces amnesia for extinction and reconsolidation in an appetitive odor discrimination task in rats.
+           <em>
+            Neurobiology of Learning and Memory, 93
+           </em>
+           , 127-131.
+          </p>
+          <p>
+           Richmond, K., Carroll, K.* &amp; Demboske, K.* (2010). Gender Identity Disorder: Concerns and Controversies. In J. Chrisler &amp; D. McCreary (Eds.),
+           <em>
+            The Handbook of Psychology and Gender.
+           </em>
+           (pp. 111-131). New York: NY: Springer.
+          </p>
+          <p>
+           <strong>
+            2009
+           </strong>
+          </p>
+          <p>
+           Edelman, L., Helm, P.B., Katz, B.*, and Hatcher, S.* (submitted 2009) Mode, timbre, musical training and personality influence emotional responses to music.
+           <em>
+            Music Perception.
+           </em>
+          </p>
+          <p>
+           Rudski, J.M., Segal, C.*, &amp; Kallen, E.* (2009). Harry Potter and the End of the Road: Parallels with addiction.
+           <em>
+            Journal of Addiction Research and Theory, 17
+           </em>
+           , 260-277.
+          </p>
+          <p>
+           <strong>
+            2007
+           </strong>
+          </p>
+          <p>
+           Dale, D., Rudski, J.M., Smith, E.*, &amp; Schwartz, A.* (2007).&nbsp; Innumeracy and incentives: A ratio bias experiment.&nbsp;
+           <em>
+            Judgment and Decision Making
+           </em>
+           , 2, 243-250.
+          </p>
+          <p>
+           Rudski, J.M. &amp; Edwards, A.* (2007). Malinowski goes to college: Factors influencing students&rsquo; use of ritual and superstition.
+           <em>
+            Journal of General Psychology
+           </em>
+           , 134, 389- 403.
+          </p>
+          <p>
+           Sciutto, M. J. &amp; Eisenberg, M.* (2007). Evaluating evidence for and against the overdiagnosis of Attention-Deficit/Hyperactivity Disorder.
+           <em>
+            Journal of Attention Disorders, 11
+           </em>
+           , 106-113.
+          </p>
+          <p>
+           <strong>
+            2006
+           </strong>
+          </p>
+          <p>
+           Dearborn, K., Harring, K., Young, C*, &amp; O&rsquo;Rourke, E.* (2006). Mirror and phase difficulty influence dancer attention and body satisfaction.
+           <em>
+            Journal of Dance Education, 6
+           </em>
+           , 116-123.
+          </p>
+          <p>
+           &nbsp;
+          </p>
+          <p>
+           <strong>
+            <span style="text-decoration: underline;">
+             CONFERENCE PRESENTATIONS
+            </span>
+           </strong>
+          </p>
+          <p>
+           <strong>
+            2015
+           </strong>
+          </p>
+          <p>
+           Allen, E.T.*,&nbsp; Arora, M.*,&nbsp; Spadavecchia, F.*, &amp; Rudski, J.M. (May, 2015).
+           <em>
+            Cognitive Enhancement is Less Concerning When it Promotes the Greater Good.
+           </em>
+           Poster presented at the Annual Meeting of the Association for Psychological Science, New York NY.
+          </p>
+          <p>
+           Harring, K., Edelman, L., &amp; Ross, J.* (May 2015).&nbsp;
+           <em>
+            Bopping and bonding: Does moving to the beat influence social bonding?
+           </em>
+           Poster presented at the 27
+           <sup>
+            th
+           </sup>
+           annual Association Psychological Science meeting, New York, NY.
+          </p>
+          <p>
+           Herbsman, B.S.*, Quitter, E.D.*, Bilgram, N.P.* &amp; Rudski, J.M. (May, 2015).&nbsp;
+           <em>
+            Decisions to Terminate Life Support: Influence of Perceived Patient Agency and Experience.
+           </em>
+           Poster presented at the Annual Meeting of the Association for Psychological Science, New York NY.&nbsp;
+          </p>
+          <p>
+           Kline, D. M.*, Solomon, S.M.*, Goldberg, J.R. , Saulle, M.C.*, Scher, C.J.*, &amp; Rudski, J.M. (May, 2015).
+           <em>
+            Would you Let Ben Sleep Over? Medicalization, Appearance, and Stigma
+           </em>
+           . Poster presented at the Annual Meeting of the Association for Psychological Science, New York NY.&nbsp;&nbsp;&nbsp;&nbsp;
+          </p>
+          <p>
+           Knepper, L.M.*, Sperber, J.F.*, Hinchcliffe, C.M.*, Tremont, M.E.*, &amp; Rudski, J.M. (May, 2015).
+           <em>
+            Biopsychosocial Influences on Depression: Does Medication Distract us from Social Causes?
+           </em>
+           Poster presented at the Annual Meeting of the Association for Psychological Science, New York NY.
+          </p>
+          <p>
+           Mangino, D.*, Kline, D.*, &amp; Bagley, E.J. (2015, March).
+           <em>
+            Self-efficacy mediates relations between maternal control and self-esteem.
+           </em>
+           Poster session presented at the biannual meeting of the Society of Research in Child Development in Philadelphia, PA.
+          </p>
+          <p>
+           Patterson, T.*, &amp; Wolfe, C. (June 2015). Perceptions of Black Fathers Re-entering into Family Life. Poster presented at the Biennial Conference of the Society for Community Research and Action, Lowell, MA.
+          </p>
+          <p>
+           Rudski, J.M., Quitter, E.D.*, Bilgram, N.P.*, Herbsman, B.S.*, Hinchcliffe, C.M.*, Tremont, M.E.*, Knepper, L.M.*, Sperber, J.F.*, Arora, M.*, Allen, E.T.*, &amp; Spadavecchia, F.* (May, 2015).
+           <em>
+            Placebos, Side Effects, and Intent: The Ethics of Cognitive Enhancement.
+           </em>
+           Poster presented at the Annual Meeting of the Association for Psychological Science, New York NY.
+          </p>
+          <p>
+           Schoenberg, K., Allen, E.*, &amp; Wolfe, C. Beautiful is Good&hellip; and Mean? (March, 2015). Poster presented at the annual meeting of the Eastern Psychological Association, Philadelphia, PA.
+          </p>
+          <p>
+           Sinno, S., Gates, A. *, &amp; Rosenberg, A.* (2015).
+           <em>
+            Adults&rsquo; Perceptions of Homophobic Language among Children and Adolescents.
+           </em>
+           Poster to be presented at Association for Psychological Science Annual Convention, New York, NY.
+          </p>
+          <p>
+           <strong>
+            2014
+           </strong>
+          </p>
+          <p>
+           Carusone, N. *, Nicosia, V. *, &amp; Richmond, K. (2014, August). S
+           <em>
+            exism and ageism in the
+           </em>
+           <em>
+            workplace.
+           </em>
+           &nbsp;Poster presentation at the Conference of the American Psychological Association, Washington, DC.
+          </p>
+          <p>
+           Glickman, B. * &amp; Gotthard, G. H. (May 2014).
+           <em>
+            &ldquo;Updated&rdquo; consolidation: Cycloheximide only effective for new sand maze location in rats.
+           </em>
+           Poster accepted for presentation at the annual meeting of the Association for Psychological Science, San Francisco, CA.
+          </p>
+          <p>
+           Sciutto, M. J., Gonzalez. J. L. *, Grasso, E. *, Donahoe, M. L. *, Fliegelman, M. S. *, &amp; Psillos, A. E.* &nbsp;(2014, August).
+           <em>
+            Neurodiversity and Stigma Toward Autism Spectrum Disorders.
+           </em>
+           Poster presented at the annual meeting of the American Psychological Association, Washington, DC.
+          </p>
+          <p>
+           Sharon, C. *, Frick, N. *, Miller-Sobel, J. * &amp; Gotthard, G.H. (May 2014).
+           <em>
+            Cycloheximide disrupts &ldquo;linked&rdquo; memory in novel animal model of PTSD.
+           </em>
+           Poster accepted for presentation at the annual meeting of the Association for Psychological Science, San Francisco, CA.
+          </p>
+          <p>
+           Sinno, S., Richmond, K., Rosenberg, A. *, Gates, A. *, &amp; Silk, C. * (August, 2014).
+           <em>
+            Masculinity and homophobia.
+           </em>
+           Poster presentation at the Conference of the American Psychological Association, Washington, DC.
+          </p>
+          <p>
+           <strong>
+            2013
+           </strong>
+          </p>
+          <p>
+           Alpert, S. *, Dickey, J.P. *, &amp; Rudski, J.M. (May 2013).
+           <em>
+            Risk Estimation: Do People Always Think Straight?
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, D.C.
+          </p>
+          <p>
+           Gonzalez, J. *, Franklin, M. *, Mansolillo, V. *, Ring, A. *, &amp; Wolfe, C. (May, 2013).
+           <em>
+            Stigmatic Implications Associated with the Symptomatology of Schizophrenia.
+           </em>
+           Poster presented at the 25th Annual Convention for the Association for Psychological Science, Washington, D.C.
+          </p>
+          <p>
+           Gotthard, G. H. &amp; Sherman, B.* (May, 2013).
+           <em>
+            Propranolol not effective in predator-based model of PTSD in rats.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, DC.
+          </p>
+          <p>
+           Robbins, T. *, Seeba, J. *, Dubinsky, J. *, &amp; Rudski, J. (May 2013)
+           <em>
+            Preference for Natural versus Artifical Medication is Affected by Dread.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, D.C.
+          </p>
+          <p>
+           Rudski, J.M. , Field, G. J. *, &amp; Kratchman, D. M. * (May 2013).
+           <em>
+            Fixed versus Growth Mindsets and Ethics of Pharmacological Enhancement.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, D.C.
+          </p>
+          <p>
+           Sinno, S., Repice, J.*, &amp; Stovall, B. * (2013, May). &nbsp;
+           <em>
+            Social reasoning about distributive justice in school-aged children
+           </em>
+           . Poster presented at Association for Psychological Science Annual Convention, Washington, D.C.
+          </p>
+          <p>
+           <strong>
+            2012
+           </strong>
+          </p>
+          <p>
+           Edelman, L. L., Greenfield, D.*, &amp; Wagner, D.* (2012, May).
+           <em>
+            Smile for the Camera?&nbsp;
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.
+          </p>
+          <p>
+           Eyzerovich, E.* (2012, May).
+           <em>
+            Effect of Thought-Action Beliefs and Subtype on Stigma Towards Individuals with OCD.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp; (Thesis Advisor: Mark Sciutto).
+          </p>
+          <p>
+           Genualdi, A.P.*, Lieberman, A.C.*, &amp; Rudski, J.M. (2012, May).
+           <em>
+            Recreational Drugs: Preference for Natural Over Artificial Versions.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           Gotthard, G. H., Molchany, S.*, &amp; Garlatti, G.* (Jan. 2012).
+           <em>
+            Authentic assessment versus traditional assessment of active learning.
+           </em>
+           Poster presented at the annual meeting of the National Institute on the Teaching of Psychology, St. Pete Beach, FL.
+          </p>
+          <p>
+           Hourani, A.*, Roth, S.*, Sinno, S. M., &amp; &nbsp;Zeitoun, J.* (2012, May).
+           <em>
+            Family Engagement in an Urban Middle School: Investigating Multiple Perspectives.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           Lopez, A.* &amp; Harring, K. (2012, July).
+           <em>
+            Do media representations of Africans influence stereotypes of African&nbsp;Americans?
+           </em>
+           Poster presented at the Psychologists for Social Responsibility Conference, Washington, DC.
+          </p>
+          <p>
+           Merker, S.E.*, Wehrle, K.T.*, &amp; Rudski, J. M. (2012, May). Ethical Concerns With Cosmetic Psychopharmacology: Is It the Pill or the Principle? Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           Richmond, K., Condit, C*, Davin, M.*, &amp; Gaffney, M.* (2012, August).
+           <em>
+            Positive Masculinity and Attitudes Toward Women.
+           </em>
+           Poster presented at the annual meeting of the American Psychological Association, Orlando, FL.
+          </p>
+          <p>
+           Richmond, K., Greenfield, D.*, &amp; Piccone, V.* (2012, August).
+           <em>
+            Third-Generation Holocaust Survivors: Identity and Psychological Well-Being
+           </em>
+           . Poster presented at the annual meeting of the American Psychological Association, Orlando, FL.
+          </p>
+          <p>
+           Sciutto, M. J., Allegretti, F.*, Eyzerovich, E.*, Franklin, M. K.*, &amp; Hamilton, E. J.* (2012, August).
+           <em>
+            The Relationship of ADHD Knowledge and Misconceptions to Treatment Acceptability.
+           </em>
+           Poster presented at the annual meeting of the American Psychological Association, Orlando, FL.
+          </p>
+          <p>
+           Silverberg, S.* &amp; Sinno, S. (2012, February).
+           <em>
+            Who gets what? Adolescents' distribution of school resources
+           </em>
+           . Poster presented at SRCD Themed Meeting: Positive Development of Minority Children, Tampa, FL.
+          </p>
+          <p>
+           Sinno, S. &amp; Goebel, S.*( 2012, June).
+           <em>
+            How do I know what to do when I'm older?
+           </em>
+           Poster presented at the 10th &nbsp;&nbsp;&nbsp;&nbsp; Biennial Society for the Psychological Study of Social Issues Convention, Charlotte, NC.
+          </p>
+          <p>
+           Sinno, S. M., Repice, J.*, Silverman, J.*, &amp; Stovall, B.* (2012, May).
+           <em>
+            Children&rsquo;s and Adolescents&rsquo; Reasoning About Allocation of School Resources.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           Vallone, M.*, &amp; Edelman, L. L. (2012, May).
+           <em>
+            Cigarette Smoking and Secondhand Smoke Perceptions on a College Campus.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           Wolfe, C. T., Romano, N. A.*, Schloss, H.*, Seife, D.*, &amp; Shafer, J.* (2012, May).
+           <em>
+            Race and Weight Influence White Women's Perceptions of Other Women.
+           </em>
+           Poster presented at the American Psychological Society convention, Chicago, IL.&nbsp;
+          </p>
+          <p>
+           <strong>
+            2011
+           </strong>
+          </p>
+          <p>
+           Edelman, L., Helm, P., Bass, A.*, Brehm, L.*, Katz, M.*, &amp;Wolpow, M.* (August 2011)
+           <em>
+            Emotion in music: Emotional tone of episodic memories
+           </em>
+           . Presented at the Society for Music Perception and Cognition, Rochester, NY
+          </p>
+          <p>
+           Edelman, L., Helm, P., Bass, A.*, Brehm, L.*, Katz, M.*, &amp; Wolpow, M.* (May 2011)
+           <em>
+            Emotion in music: The Role of Episodic Memories
+           </em>
+           .&nbsp; Poster presented at the 23
+           <sup>
+            rd
+           </sup>
+           Annual Association of Psychological Science meeting, Washington, DC&nbsp;
+          </p>
+          <p>
+           Harring, K., Edelman, L, &amp; Zito, D.* (May 2011)
+           <em>
+            Competition versus communality: Influences on the perceptions of same-sex others.
+           </em>
+           &nbsp;Poster presented at the 23
+           <sup>
+            rd
+           </sup>
+           Annual Association of Psychological Science meeting, Washington, DC&nbsp;
+          </p>
+          <p>
+           Kanner, S.A.*, Sciutto, M.J., &amp; Rudski, J.M. (August 2011
+           <em>
+            ). Autistic Spectrum Disorders, Contact, and Stigma.
+           </em>
+           Poster presented at the annual meeting of the American Psychological Association, Washington, D.C.
+          </p>
+          <p>
+           Morse, E.*, Harring, K., &amp; Richmond, K. (May 2011).
+           <em>
+            Gender and masculine ideology influence perceptions of gay fraternity members.
+           </em>
+           Poster presented at the 23rd annual Association of Psychological Science meeting, Washington, DC.
+          </p>
+          <p>
+           Nugent, N., Sinno, S., Patterson, R.*, Porrino, D.*, &amp; Wolloch, D.* (2011, April).
+           <em>
+            Family engagement in community schools.
+           </em>
+           &nbsp; PA Campus Compact Conference, Carlisle, PA.
+          </p>
+          <p>
+           Robbins, K.*, &amp; Rudski, J.M. (May 2011).
+           <em>
+            Ratio bias is diminished by risk, positive framing, or serious consequences.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, D.C.
+          </p>
+          <p>
+           Rudski, J.M., Smith, M.*, Morrone, D.*, &amp; Sciutto, M.J. (May 2011).
+           <em>
+            Autism Awareness Videos May Inadvertently Increase Stigma.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Washington, DC.
+          </p>
+          <p>
+           <strong>
+            2010
+           </strong>
+          </p>
+          <p>
+           Carroll, K.* (2010).
+           <em>
+            Complex PTSD and transgender clients.
+           </em>
+           Paper presentation at the Conference of the American Psychological Association. San Diego, California, 2010
+          </p>
+          <p>
+           Cohen, J. * &amp; Gotthard, G. H. (May, 2010).
+           <em>
+            Cycloheximide and Propranolol Disrupt Memory in Appetitive Rat Model of Learned Helplessness.
+           </em>
+           Poster presented at the annual meeting of the Association for Psychological Science, Boston, MA.
+          </p>
+          <p>
+           Edelman, L., Helm, P., Van Waalwijk, J*., Brehm, L.*, &amp; Bass, A.* (May 2010)
+           <em>
+            Emotion in music: Do song evoke feelings or simply represent them?
+           </em>
+           Poster presented at the 22
+           <sup>
+            nd
+           </sup>
+           Annual Association of Psychological Science meeting, Boston, MA.
+          </p>
+          <p>
+           Gallub, N.T.*, Manzella, H.M.*, Schaefer, C.M.*, Van Waalwijk, J.M.*, &amp; Rudski, J.M. (May 2010).
+           <em>
+            Disability, stigma, and magical contagion.
+           </em>
+           Poster presented at Association for Psychological Science, Boston MA.
+          </p>
+          <p>
+           Gonzalez, E.*, Block, J.* &amp; Gotthard, G. H. (April, 2010).
+           <em>
+            Protein Synthesis Inhibition and Appetitive Memory &nbsp;&nbsp;&nbsp; Reconsolidation: Effects of Cycloheximide on Retrained Odor Discrimination Memory in Long-Evans Rats.
+           </em>
+           Poster presented at the annual meeting of the Midwestern Psychological Association, Chicago, IL.
+          </p>
+          <p>
+           Gotthard, G. H., Marini, J. M.*, Mangel, S.*, Block, J.*, Tate, D.* &amp; Hackmyer, C.* (Nov. 2010).
+           <em>
+            Animal model of post-traumatic stress disorder (PTSD): Effects of propranolol on exploration in an elevated plus maze in rats.
+           </em>
+           Poster presented at the annual meeting of the Society for Neuroscience, San Diego, CA.
+          </p>
+          <p>
+           Osei, W., N. *, Jacobson, A.R.*, Lynch, C.R.*, &amp; Rudski, J.M. (May 2010).
+           <em>
+            Would you rather be injured by lightning or a downed power line?
+           </em>
+           Poster presented at Association for Psychological Science, Boston MA.
+          </p>
+          <p>
+           Sinno, S. &amp; Silverberg, S.* (2010, March)
+           <em>
+            Who gets what? Adolescents&rsquo; distribution of school resources
+           </em>
+           . Poster presented at the Society for Research on Adolescents, Philadelphia, PA
+          </p>
+          <p>
+           Wolfe, C.T., Chi, J., *Rabinovich, A., *Cole, L., *Freckleton, S. &amp; *Murphy, M. (2010, October).
+           <em>
+            Student and Faculty &ldquo;Happy Talk&rdquo; about Diversity: An Obstacle to Teaching about Racism.
+           </em>
+           Poster presented at the 10th Annual Diversity Challenge: &ldquo;Race and Culture in Teaching, Training, and Supervision." Boston, MA.
+          </p>
+          <p>
+           <strong>
+            2009
+           </strong>
+          </p>
+          <p>
+           Edelman, L., Helm, P.B., Katz, B.*, and Hatcher, S.* (May, 2009). &nbsp;
+           <em>
+            Mode, timbre, musical training and personality influence emotional responses to music.
+           </em>
+           &nbsp; Annual Meeting of the Association for Psychological Science, San Francisco, CA
+          </p>
+          <p>
+           Edelman, L., Helm, P.B., Katz, B.*, and Hatcher, S.* (August, 2009)
+           <em>
+            Mode, timbre, musical training and personality influence emotional responses to music.
+           </em>
+           Society for Music Perception and Cognition, Indianapolis, IN.
+          </p>
+          <p>
+           Glueck, J.*, Eadline, M.*, Marini, J.*, and Gotthard, G.H. (March, 2009).
+           <em>
+            Protein synthesis inhibition and extinction: Does cycloheximide produce amnesia for extinction of and odor discrimination in rats?
+           </em>
+           Paper presented at the annual meeting of the Eastern Psychological Association, Pittsburgh, PA.
+          </p>
+          <p>
+           Merritt, K.* (2009).
+           <em>
+            Fusion among lesbian undergraduate couples.
+           </em>
+           Poster presentation at 34
+           <sup>
+            th
+           </sup>
+           Annual Conference of the Association of Women in Psychology, Providence, Rhode Island.
+          </p>
+          <p>
+           Rodriguez, K.* (2009).
+           <em>
+            White racial identity and eating disordered behavior.
+           </em>
+           Poster presentation at 34
+           <sup>
+            th
+           </sup>
+           Annual &nbsp;&nbsp; Conference of the Association of Women in Psychology, Providence, Rhode Island.
+          </p>
+          <p>
+           Rudski, J.M., Bernstein, L.*, &amp; Mitchell, J. E.* (May 2009).
+           <em>
+            Sometimes a flower is just a flower: Implicitly erotic art across the ovarian cycle.
+           </em>
+           Poster presented at Association for Psychological Science, San Francisco, CA.
+          </p>
+          <p>
+           Rudski, J.M., Segal, C.*, &amp; Kallen, E.* (May, 2008).
+           <em>
+            Harry Potter and the end of the road: Parallels with addiction.
+           </em>
+           Poster presented at Association for Psychological Science, Chicago IL.
+          </p>
+          <p>
+           Sciutto, M.J., Richwine, S., Mentrikoski, J. M.* &amp; Niedzwiecki, K. J.* (2009, August)
+           <em>
+            Asperger&rsquo;s Syndrome and Education: A Qualitative Analysis
+           </em>
+           . Poster presented at the annual meeting of the American Psychological Association, Toronto, ON.
+          </p>
+          <p>
+           Sciutto, M. J., Rudski, J. M., Herman, E.*, &amp; Naab, L.* (2009, February).
+           <em>
+            Labeling and Stigma in Asperger&rsquo;s Disorder and Autism
+           </em>
+           .&nbsp; Poster presented at the 41
+           <sup>
+            st
+           </sup>
+           annual meeting of the National Association of School Psychologists (NASP), Boston, MA.
+          </p>
+          <p>
+           Sinno, S. &amp; Silverberg, S.* (2009, June).
+           <em>
+            Age-related changes in reasoning about distributive justice
+           </em>
+           . Poster presented at 39
+           <sup>
+            th
+           </sup>
+           Annual Meeting of the Jean Piaget Society, Salt Lake City, UT.
+          </p>
+          <p>
+           <strong>
+            2008
+           </strong>
+          </p>
+          <p>
+           Chi, J.K.G., Wolfe, C. T., *Weiss, D., *Leavitt, R., *Grom, L., *Rodriguez, K., &amp; *Prevete, T. (2008, June).
+           <em>
+            Social Justice and "Diversity Talk" at a Small Liberal Arts Institution
+           </em>
+           . Poster presented at the conference for the Society for the Psychological Study of Social Issues, Chicago, Illinois.
+          </p>
+          <p>
+           Sinno, S., Lee, P.*, &amp; Martin, D.* (2008, April).&nbsp;
+           <em>
+            Parental occupations and adolescent&rsquo;s attitudes toward equality in the home.
+           </em>
+           &nbsp; Poster presented at the Biennial Gender Development Research Conference, San Francisco, CA.
+          </p>
+          <p>
+           <strong>
+            2007
+           </strong>
+          </p>
+          <p>
+           Edelman, L., Albertelli, S.*, Celebre, M.*,&nbsp; Meenan, C.*, &amp; Rodr&iacute;guez, K.* (2007)
+           <em>
+            Auditory and Analytic Learners Benefit from the Addition of a Relevant Picture on PowerPoint
+           </em>
+           . &nbsp;Eastern Psychological&nbsp; Association Annual Meeting in Philadelphia, PA
+          </p>
+          <p>
+           Edelman, L., Brookstein, P*., Greenberg, S.*, Rosenberg, R.*, &amp; Zur, J.* (2007)
+           <em>
+            Presentation format affects the &nbsp;&nbsp;&nbsp; retention of individuals with different learning styles.
+           </em>
+           Eastern Psychological Association Annual Meeting in Philadelphia, PA
+          </p>
+          <p>
+           Greenberg, S.* &amp; Sedehi, D.* (2007).
+           <em>
+            Inside/Out: Infusing multiculturalism in college orientations through documentary theater.
+           </em>
+           Paper presentation at the 2006 Association for Women in Psychology Conference, Seattle, Washington.
+          </p>
+          <p>
+           Heller, C. A.*, &amp; Tjeltveit, A. C.
+           <em>
+            Asperger&rsquo;s versus Autistic Disorder? Clinician and student diagnosis and attitudes
+           </em>
+           , presented at the annual meeting of the American Psychological&nbsp; Association, San Francisco, CA, August, 2007.
+          </p>
+          <p>
+           Rudski, J.M., Salani, R.J.*, Levin, S.N.*, &amp; Newman, J.L.* (May 2007).
+           <em>
+            Attitudes toward Aspergers: emic versus etic Perspectives
+           </em>
+           . Poster presented at Association for Psychological Science, Washington DC.
+          </p>
+          <p>
+           Wolfe, C., Buck, D., *Davenport, M., Lytle, J., Krantz, J. &amp; Liwski, N. (2007, May).
+           <em>
+            Approaching intelligence and avoiding stupidity: Self-determination, BIS/BAS and contingencies of worth
+           </em>
+           . Poster presented at the Third International Conference on Self-Determination Theory, Toronto, Ontario, Canada.
+          </p>
+          <p>
+           <strong>
+            2006
+           </strong>
+          </p>
+          <p>
+           Harring, K., Edelman, L., Sommers, R.* &amp; Kaplan, A.* (2006)
+           <em>
+            College students Perceptions of&nbsp; Good and Bad Parents
+           </em>
+           ., Eastern Psychological Association Annual Meeting in Eastern Psychological Association Annual Meeting in Baltimore, MD.
+          </p>
+          <p>
+           Rudski, J.M., &amp; Edwards, A.* (May 2006).
+           <em>
+            Malinowski goes to college: Factors influencing students&rsquo; use of ritual and superstition.
+           </em>
+           Poster presented at American Psychological Society, New York NY.
+          </p>
+          <p>
+           Sciutto, M. J. &amp; Eisenberg, M.* (2006, March).
+           <em>
+            Evaluating evidence for and against the overdiagnosis of ADHD.
+           </em>
+           Poster presented at the 38
+           <sup>
+            th
+           </sup>
+           annual meeting of the National Association of School Psychologists (NASP),&nbsp;Anaheim, CA.
+          </p>
+          <p>
+           <em>
+            Questions?
+            <br />
+           </em>
+           Peruse our website to learn more about the psychology major, and be sure to check out our
+           <a href="https://www.facebook.com/MuhlenbergPsych">
+            Facebook
+           </a>
+           or
+           <a href="https://twitter.com/PsyBerg">
+            Twitter
+           </a>
+           pages for the latest news. Don't hesitate to email or call any professor with questions. Or contact the main Psychology Office at&nbsp;484-664-3420.&nbsp;
+          </p>
+          <!-- InstanceEndEditable -->
+         </div>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

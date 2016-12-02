@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Senior Thesis - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/seniorthesis/">
+            Senior Thesis
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <div>
+          &nbsp;
+         </div>
+         <div>
+          &nbsp;
+         </div>
+         <!-- InstanceBeginEditable name="EditMainContent" -->
+         <div class="content-add05">
+          <h3>
+           Senior Thesis Program
+          </h3>
+          <p>
+           Qualified psychology majors may apply for a year-long thesis program featuring advanced, original research. The program is developmental in that it seeks to offer intellectually curious students an intensive year-long experience of mentorship and collaboration. To be part of this program, students must be willing to invest considerable time and intellectual energy. Students interested in more general research experience are encouraged to, instead, speak with a professor about coordinating an
+           <a href="/main/academics/psychology/research/">
+            Independent Research
+           </a>
+           project.
+          </p>
+          <p>
+           To be eligible for the Thesis Program, a student must be a Junior or Senior psychology major during the thesis year, and must have a Psychology GPA of 3.30 or better. Typically, students will have also completed PSY 103, 104 and at least one semester of PSY 270, PSY 970, or equivalent experience prior to beginning their thesis. Successful completion of the thesis (both semesters) satisfies the CUE requirement for the major.
+           <br />
+           <br />
+           Thesis students develop, conduct, and defend a sophisticated empirical or theoretical research project. The first semester of the thesis year is spent developing a comprehensive research proposal. During the second semester, students complete their research, generate a written thesis, and orally defend the project at a public presentation.
+           <br />
+           <br />
+           Thesis work is advised and evaluated by a Thesis Committee. The committee is composed of the student's primary thesis advisor, one other member of the Psychology Department and, if desired, a third committee member. (Thesis committee members are chosen by the student in collaboration with his or her primary thesis advisor.)
+           <br />
+           <br />
+           <em>
+            Note:
+           </em>
+           If the thesis advisor judges the student's first semester work as insufficient or of poor quality, the advisor is free to decline to continue advising the student for the second semester. In these instances, the student would need to either find another advisor or discontinue the project.
+          </p>
+          <p>
+           Click on the headings below for more information:
+          </p>
+          <p>
+           <strong>
+            <a onclick="toggleContent('toggle45')">
+             Application Process and Deadlines
+            </a>
+           </strong>
+          </p>
+          <p>
+           Students who want to apply for the thesis program, should:
+          </p>
+          <ul>
+           <li>
+            E-mail Dr. Stefanie Sinno, Senior Thesis Program Coordinator, to indicate their interest in the program and provide a general topic area. This must be done no later than
+            <strong>
+             March 22
+            </strong>
+            for a Fall-Spring thesis schedule or
+            <strong>
+             October 1
+            </strong>
+            &nbsp;for Spring-Fall thesis schedule. This step is informational only, and you will not receive any additional information in reply to your e-mail.
+           </li>
+           <li>
+            Students must also submit a completed
+            <em>
+             application
+            </em>
+            to Dr. Sinno no later than
+            <strong>
+             April 15
+            </strong>
+            &nbsp;for Fall-Spring schedules, and no later than
+            <strong>
+             November 15
+            </strong>
+            &nbsp;for Spring-Fall schedules. Prior to submitting the application, each student must obtain agreement from a faculty member to be his or her thesis advisor. The application includes a 2-4 page topic paper (w/references), and a list of 10 additional references for future reading. See below for a link to the application, which provides detailed instructions.
+           </li>
+          </ul>
+          <p>
+           Applications are available in the Psychology Department office (Moyer 227), or you can download it here:
+           <a href="/media/contentassets/pdf/academics/psychology/Senior_Thesis_Application_r2016.pdf">
+            Senior Thesis Application
+           </a>
+           Students will be informed whether or not they are accepted into the program within a few weeks after submitting their applications.
+          </p>
+          <p>
+           <strong>
+            <a onclick="toggleContent('toggle45')">
+             Important Thesis Deadlines
+            </a>
+           </strong>
+          </p>
+          <p>
+           <em>
+            Application Process
+           </em>
+          </p>
+          <ul>
+           <li>
+            <em>
+             Expression of Interest
+            </em>
+            : due no later than
+            <strong>
+             March 22
+            </strong>
+            &nbsp;for Fall-Spring thesis schedules and no later than October 1st for Spring-Fall schedules. E-mail your name and proposed topic area to Dr. Sinno, Senior Thesis Program Coordinator.
+           </li>
+           <li>
+            <em>
+             Submit Application
+            </em>
+            : no later than
+            <strong>
+             April 15
+            </strong>
+            &nbsp;for Fall-Spring thesis schedules and no later than November 15th for Spring-Fall schedules.
+           </li>
+          </ul>
+          <p>
+           <em>
+            First Semester of Thesis Year (Students sign-up for PSY 975 Senior Thesis I)
+           </em>
+          </p>
+          <br />
+          <ul>
+           <li>
+            Thesis advisor and student should select one or two members for the thesis committee no later than the end of the 4th week of classes. Be sure the Thesis Coordinator or Mrs. Larimer are told who the committee members are.
+           </li>
+           <li>
+            Complete proposal paper due to committee members two weeks before the last day of classes.
+           </li>
+          </ul>
+          <p>
+           <em>
+            Second Semester (Students sign-up for PSY 976 Senior Thesis II)
+           </em>
+          </p>
+          <ul>
+           <li>
+            Completed thesis due to committee members no later than the last day of classes.
+           </li>
+           <li>
+            Oral defense (approx. 40 minute talk plus question/answer session) - scheduled to take place during finals week
+           </li>
+          </ul>
+          <p>
+           <strong>
+            <a id="awards">
+            </a>
+            <a onclick="toggleContent('toggle45')">
+             Departmental Research Awards
+            </a>
+           </strong>
+          </p>
+          <p>
+           <em>
+            <strong>
+             The Crist Family Research Fellowship
+            </strong>
+           </em>
+          </p>
+          <p>
+           The Crist Family Research Fellowship provides a stipend to support students in either independent or collaborative research with a faculty member of the psychology department. In order to be eligible for the Award students must have a Psychology GPA of 3.5 or above and have completed both Psychological Statistics and Research Methods. The research idea must be student-directed but can be independently proposed by the student or could be related to a faculty member's research program.
+          </p>
+          <p>
+           <em>
+            <strong>
+             The Rosenberg Research Award
+            </strong>
+           </em>
+          </p>
+          <p>
+           The Rosenberg Research Award provides a stipend to a psychology student who is engaged in research that is
+           <em>
+            developmental
+           </em>
+           in nature (either directly or indirectly). In order to be eligible for the Award students must have a Psychology GPA of 3.5 or above and have completed both Psychological Statistics and Research Methods. The research idea must be independently proposed by the student or could be related to a faculty member's research, but may not be the faculty member's research.&nbsp;
+          </p>
+          <p>
+           <strong>
+            Additional Requirements for Award Consideration
+           </strong>
+          </p>
+          <p>
+           To be considered for either of these awards, students must also provide the following two components in addition to their thesis proposal:
+          </p>
+          <ul>
+           <li>
+            Provide a letter from the faculty sponsor indicating that you are capable of completing the project and that the project is feasible and significant
+           </li>
+           <li>
+            Provide a timeline for completion of portions of the project, including when IRB application will be submitted, when the literature search will be complete, when data collection will be complete, when data analysis will be complete
+           </li>
+          </ul>
+          <p>
+           The students, who are awarded either the Crist Fellowship or the Rosenberg Award, with their faculty sponsor, must choose
+           <em>
+            <strong>
+             two
+            </strong>
+           </em>
+           other faculty members (who may come from outside the Psychology Department) to serve on their review committee as the project progresses. At the end of the second semester of the project, the student must give an oral defense of their project to the Psychology Department and interested others, and the donor of the provided stipend.
+          </p>
+          <p>
+           <a onclick="toggleContent('toggle45')">
+            <strong>
+             Graduation Honors
+            </strong>
+           </a>
+          </p>
+          <p>
+           Students seeking graduation honors in psychology must first be admitted to the Thesis Program and successfully develop a research proposal during the first semester of the thesis year. During the second semester, the thesis advisor, in consultation with the other members of the committee, may choose to nominate exceptional work for honors consideration. The thesis committee decides whether or not to grant honors at a meeting immediately following the student's oral defense. Please note that being nominated does not guarantee the conferral of psychology honors. Students must maintain a psychology G.P.A. of 3.70 or higher to qualify for departmental graduation honors.
+          </p>
+          <hr />
+          <p>
+           <strong>
+            Psychology Thesis Topics&nbsp;
+           </strong>
+          </p>
+          <p style="padding-left: 30px;">
+           <strong>
+            Recent
+           </strong>
+           (coming soon)
+          </p>
+          <p style="padding-left: 30px;">
+           <a onclick="toggleContent('toggle45')">
+            <strong>
+             2007-2012
+            </strong>
+           </a>
+          </p>
+          <div id="toggle45" style="display: none;">
+           <ul>
+            <li>
+             Talent Development in Sports: What Factors Contribute to Future Athletic Success? (Alan Bass, 2012)
+            </li>
+            <li>
+             Role of thought-action beliefs and effect of subtype on stigma towards individuals with obsessive-compulsive disorder (Evelina Eyzerovich, 2012)
+            </li>
+            <li>
+             Perceptions of Homelessness: The Impact of Causal Attributions, PWE, and Perceiver Characteristcs on Stigma and Intended Behavior (Julie Klein, 2012)
+            </li>
+            <li>
+             Do Media Representations of Africans Influence Stereotypes of African Americans? (Andalisa Lopez, 2012)
+            </li>
+            <li>
+             Coping in Caregivers: Stress and Coping Mechanisms of Hospice Workers (Deborah Ward, 2012)
+            </li>
+            <li>
+             The Effects of Diagnostic Labeling and Race on Teacher Expectations for Children with Autistic Spectrum Disorder (Samantha Busa, 2011)
+            </li>
+            <li>
+             White Students' Perceptions of the Black Student Association (Melissa Martin, 2011)
+            </li>
+            <li>
+             Adjusting to College: Personal Relationships and Social Support (Laura Winger, 2010)
+            </li>
+            <li>
+             Feminist Attitudes &amp; Stereotype Threat (Kaitlyn Ferris, 2010)
+            </li>
+            <li>
+             Effect of Prevention Programs on Implicit Rape Myth Attitudes (Kristina Ciarlo, 2010)
+            </li>
+            <li>
+             Perceptions of Gay Men in Traditional Masculine Roles (Emily Morse, 2010)
+            </li>
+            <li>
+             Personalities of College Football Players (Tom Gambuzza, 2010)
+            </li>
+            <li>
+             The relationship among perceived discrimination, racial identity, and help-seeking beliefs (Erica Gross, 2009)
+            </li>
+            <li>
+             A day in the life: The effects of emotional, situational, and musical factors on uses of music in everyday life (Ben Katz, 2009)
+            </li>
+            <li>
+             Environmental value orientation and individualism-collectivism (Rachel Leavitt, 2009)
+            </li>
+            <li>
+             Self-esteem, appearance contingencies of worth, and the relationship between identity status and disordered eating (Sarah Goldberg, 2009)
+            </li>
+            <li>
+             A feminist redefinition: Reexamining fusion with the consideration of variation in lesbian gender identity (Kaitlin Merritt, 2009)
+            </li>
+            <li>
+             White racial identity development and eating disordered behaviors (Karly Rodriguez, 2009)
+            </li>
+            <li>
+             Minority influence: Persuasion, processing, and investment (Adam Hirsh, 2009)
+            </li>
+            <li>
+             Perceptions of divorce among adolescents: A qualitative study (Elisa Vicari, 2008)
+            </li>
+            <li>
+             Clinician diagnosis and attitudes toward Asperger's and Autistic Disorders (Carey Heller, 2007)
+            </li>
+            <li>
+             Examining Heterosexuals' Interpersonal Judgments of Gay Men: Does The Media Promote a Prototypical Gay Man? (Thomas J. Prevete, 2007)
+            </li>
+            <li>
+             Personality and Mood in Women (Kayla Boisvert, 2007)
+            </li>
+            <li>
+             Arousal as a Mediator of Stereotype Threat (David "Zeke" Strober, 2007)
+            </li>
+            <li>
+             Decreasing arousal decreases working memory systems (Paige Brookstein, 2007)
+            </li>
+            <li>
+             The Impact of a Having a Sibling with a Disability on Perceived Parental Expectations for Academic Achievement and Perfectionism (GraceAnn Furnari, 2007)
+            </li>
+            <li>
+             Does interpreting a stressful situation as a challenge or a threat affect the development of illusion of control and learned helplessness? (Camara Murphy, 2007)
+            </li>
+           </ul>
+          </div>
+          <!-- InstanceEndEditable -->
+         </div>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

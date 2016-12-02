@@ -1,0 +1,893 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Speeches - Communications | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        President's Office
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/">
+               Communications
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/speeches/">
+               Speeches
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: News - Main-->
+          <table border="0" width="95%">
+           <tbody>
+            <tr>
+             <td>
+              <a href="">
+               <b>
+                Muhlenberg College Convocation Address 2015
+               </b>
+              </a>
+              <br />
+              President Williams' address to first-year students at the College's annual Opening Convocation
+              <br />
+              <a href="">
+              </a>
+              <p>
+               <b>
+               </b>
+               <br />
+               Sun, 30 Aug 2015 12:00:00 EDT
+              </p>
+              <div class="content-add05">
+               <p>
+                Chairman Crist, members of the faculty, senior administrators, honored guests, members of the Class of 2019&hellip; Welcome!
+               </p>
+               <p>
+                So&hellip; this is it; the beginning of our Muhlenberg experience together...
+               </p>
+               <p>
+                Well, we&rsquo;ve made it this far&hellip; You&rsquo;ve found the campus; check. Moved into your dorm room; check. Met your RA; check. Said goodbye to parents, siblings&hellip; high school friends&hellip; pets&hellip;; check, check&hellip; check.
+               </p>
+               <p>
+                And now, you&rsquo;ve made it through orientation, and found your way successfully here to Egner Chapel. So far, so good!!
+               </p>
+               <p>
+                My wife, Diane, and I have been on a similar path; the main difference is we got here about seven weeks ago. We found our way from Boston to Allentown, and into the President&rsquo;s House (which is a lovely place, by the way). We have unpacked most of our boxes&hellip; We&rsquo;ve even had some of you over to the house already (and I hope all of you will be able to join us there soon).
+               </p>
+               <p>
+                I don&rsquo;t suppose I have to worry about whether you have found Seegers Union, yet! Food has a way of being found&hellip;
+               </p>
+               <p>
+                Now all that&rsquo;s left is to find all the classrooms, labs, studios, athletic fields, laundry rooms, trash collection points, and other important spots on campus before things really get going! Don&rsquo;t worry&hellip; it&rsquo;s a small campus. We&rsquo;ll all get the hang of it quickly enough.
+               </p>
+               <p>
+                After all, one of the many reasons to go to a small college such as Muhlenberg is so you can find your way around without too much difficulty, right?!
+               </p>
+               <p>
+                From my side, another reason is so we can pack together, in close proximity, as many talented people as possible; then apply a heat source of one sort or another, stir gently, and watch what happens.
+               </p>
+               <p>
+                Speaking of talent, we certainly have no lack in this class! There are 582 of you, which means, when you do the math, there are over 165,000 potential personal connections in this class alone&hellip; and that&rsquo;s not even counting all the relationships you&rsquo;ll soon develop with upper-class students, or with the faculty and staff, your roommate&rsquo;s and friends&rsquo; parents, alumni, and people in downtown Allentown, at Dorney Park, and at Ice Cream World!
+               </p>
+               <p>
+                Counting all those people as well, there are almost 500 million potential personal connections in our global Muhlenberg network&hellip; &hellip;and you thought you were coming to a small place... Well, this little college is a lot bigger than you may have thought a year ago when you were filling out the Common Application! So, you may want to start thinking bigger.
+               </p>
+               <p>
+                Back to our class&hellip; For starters, this is -- by far -- the most diverse class in the College&rsquo;s history (which, in case you forgot, or haven&rsquo;t read your program yet, dates from 1848, or over 167 years ago; which means Muhlenberg has been in continuous operation longer than London&rsquo;s Big Ben, Paris&rsquo; Eiffel Tower, the Statue of Liberty, or even the iPhone).
+               </p>
+               <p>
+                As you know, diversity has many dimensions. Let&rsquo;s look at the class&rsquo; geographic diversity. Now, some of you traveled only a few blocks to get here, while others journeyed fully halfway around the globe!
+               </p>
+               <p>
+                True, most of you are from New Jersey, Pennsylvania and NYC/Long Island/Westchester. But a good number of you are from farther away, from every region of the U.S.
+               </p>
+               <p>
+                36 of you come from six countries outside North America, including China, Japan, Vietnam, Italy, Jordan, and Rwanda, as well as Puerto Rico, a U.S. Territory. 29 of you are from China alone.
+               </p>
+               <p>
+                Expanding Muhlenberg&rsquo;s global reach is essential to fulfilling our educational mission. The world is interconnected today in complex ways, and is only growing more intertwined over time.
+               </p>
+               <p>
+                As climatologists are already showing us with vast amounts of data, and as we can already see in weather events all around us, climate change affects us all. Terrorism and the social tensions that underlie it demand multi-national approaches. And we have seen recently how a deadly viral outbreak in one part of the world can require a global response by the finest scientific and medical resources available, both to contain the local epidemiology and to prevent a global pandemic.
+               </p>
+               <p>
+                Our everyday life here in The Creative Economy &ndash; where ideas are the coin of the realm &ndash; is entirely interconnected on a global scale. While Apple&rsquo;s products are designed in Cupertino, California, they&rsquo;re mostly assembled in China. Nike sneakers and apparel are designed in Beaverton, Oregon, but they&rsquo;re made in Indonesia, China, and Vietnam. And, just in the past week or so, the economic slowdown in China has led to virtually unprecedented turmoil and volatility in global financial markets.
+               </p>
+               <p>
+                In fact, over your lifetimes, each of you is likely to live and/or work abroad, work with important customers or partners from abroad, or work for an organization headquartered in another country. No matter what life path you choose, you&rsquo;re almost certain to need to know how to communicate effectively with people raised in a culture different from your own.
+               </p>
+               <p>
+                Here&rsquo;s the good news: here at Muhlenberg, you will study with outstanding faculty who will help you prepare for a more global future, you will have wonderful study-abroad options, and you have the opportunity to start building your own global network right here, starting with your own classmates.
+               </p>
+               <p>
+                So, choose courses that expose you to different cultures, take advantage of the opportunity to study abroad, and seek out friendships &ndash; starting tonight &ndash; with those from places far, far away. Learn how their life experiences differ from yours; and share yours with them. Resist the temptation to hang out only with people who are most similar to you; for that, you could have just stayed at home&hellip;
+               </p>
+               <p>
+                Wait! There&rsquo;s more! This is also the most racially-diverse class in Muhlenberg&rsquo;s history! About 18% of the members of our class are students of color. When you add the 5% who are from other countries, the total is 23%, or almost one-fourth of the class; which means, on average, two of the people in every pew this evening!
+               </p>
+               <p>
+                And that&rsquo;s important not only because the world you inherit will be far more diverse than it is now, but because the greater the variety of ideas and perspectives you consider, the greater the likelihood you will find a powerful truth.
+               </p>
+               <p>
+                You would think we&rsquo;d be farther along in this area than we are. For example, our society should be one in which there is no need for anyone to declare that Black Lives Matter; and the universal reaction, upon hearing, should already be, &ldquo;well, Duh!&rdquo;
+               </p>
+               <p>
+                In short, embrace diversity; diversity is our friend! It certainly is mine&hellip; My birth mother was a white, German-American woman from Brooklyn, while my birth-father was an African-American man from somewhere in the Middle-Atlantic &ndash; perhaps right here in Allentown! If the two of them hadn&rsquo;t embraced diversity, I wouldn&rsquo;t be here with all you fine people today!
+               </p>
+               <p>
+                We&rsquo;re on an irreversible path to greater racial diversity in the U.S. For example, by 2043, only 28 years from now (when most of you will be in mid-career), the Census Bureau has projected that no single racial or ethnic group will account for more than half the total U.S. population. Demographically-speaking, we will have shifted into a &ldquo;majority-minority&rdquo; status, from which there will be no return.
+               </p>
+               <p>
+                And, as with so many cultural trends, the young are ahead of the old. The babies being born today in the U.S. are already majority-minority. So, they&rsquo;ll be growing up without experiencing any one racial group in the majority.
+               </p>
+               <p>
+                So, don&rsquo;t be left in the dust by your baby brothers and sisters! Even if the Class of 2019 here is less diverse than your community back home, take advantage of the diversity that is here to start making your college network as racially diverse as possible.
+               </p>
+               <p>
+                Our class is intellectually diverse as well. Many of you, more than one-in-five, in fact, have indicated you&rsquo;re interested in Theatre &amp; Dance. But even more of you, more than one in four, have said you are interested in majoring in the sciences.
+               </p>
+               <p>
+                One of the most interesting things about Muhlenberg is how many of you will double-major; for example, in Theatre and Neuroscience, or Dance and Business. Intellectually, as well as in other ways, Muhlenberg students go above and beyond.
+               </p>
+               <p>
+                In fact, our class comes to Muhlenberg already extremely distinguished.
+               </p>
+               <p>
+                For example:
+               </p>
+               <ul>
+                <li>
+                 One member of our class placed first out of over 15,000 contestants in a national Shakespeare competition.
+                </li>
+                <li>
+                 Another is co-founder of a non-profit foundation that has raised over $100,000 to benefit children with cancer.
+                </li>
+                <li>
+                 Another is editor-in-chief of a non-profit test-prep for disadvantaged college-bound students.
+                </li>
+                <li>
+                 Another has already made multiple appearances on The Disney Channel.
+                </li>
+                <li>
+                 Another has won a number of playwriting competitions, and won a &ldquo;rising star&rdquo; award for stage management.
+                </li>
+                <li>
+                 Another has participated in published genome research.
+                </li>
+                <li>
+                 Another interned at a school of public health in Bangladesh and co-authored the Bangladesh Health Watch Report, which will be distributed internationally.
+                </li>
+                <li>
+                 Another won the Silver Award of the Chinese Drama Society at the Singapore Youth Festival.
+                </li>
+                <li>
+                 Another has done vocal work on children's audio books.
+                </li>
+                <li>
+                 Another has performed as a contestant at the Apollo Theater in Harlem.
+                </li>
+                <li>
+                 Another has won eight national medals in artistic roller skating.
+                </li>
+                <li>
+                 Another has performed as part of a choir at both Lincoln Center and Carnegie Hall.
+                </li>
+                <li>
+                 Another founded "Biking Beijing," a cycling club that organizes bike trips in and around Beijing.
+                </li>
+                <li>
+                 Another is a professional actor and improvisational comedian who has won both a Drammy Award and 10 comedy competitions.
+                </li>
+                <li>
+                 Another has started and runs two businesses; one a tech business, and the other a videography business.
+                </li>
+               </ul>
+               <p>
+                And, if that&rsquo;s not enough, yet another has sung solos at Mont St. Michel in France, at the Royal Palace in Monaco, and at the American Embassy in Tehran, Iran. He has traveled to 42 countries, is an airline transport pilot, and was the drummer and lead singer in an R&amp;B band in college&hellip;&hellip; hold on, wait a minute, that&rsquo;s me!
+               </p>
+               <p>
+                Many of you already know the drill here, as you have fathers, mothers, brothers, sisters, or grandparents who went to Muhlenberg. In fact, one member of the class is the youngest of four siblings, all of whom attended Muhlenberg. But many more of you, like me, are the first in your family to go to any college.
+               </p>
+               <p>
+                So, our class is incredibly distinguished and already pretty diverse. That&rsquo;s fantastic! But the big question now is, what will we do with all this potential?
+               </p>
+               <p>
+                Well, as all you Shakespeare scholars here know, if we followed the advice of Dick the Butcher in Shakespeare&rsquo;s Henry VI, the first thing we&rsquo;d do is&hellip; kill all the lawyers! But that would be a bad idea, you see, as Diane&rsquo;s a lawyer and, well, I like her&hellip;
+               </p>
+               <p>
+                Academics must have first priority, certainly... Here again, we can count our blessings, as the liberal arts and pre-professional courses you&rsquo;ll take are just right for these times and for your generation.
+               </p>
+               <p>
+                For all of you, more than for any prior generation, the future will be filled with twists and turns, not all of which are intuitively obvious. For example, George Friedman predicts in his book, The Next 100 Years that Turkey will emerge in about 2030 as a new global power, bridging the Middle East and Europe. Now, I don&rsquo;t know about you, but I&rsquo;m a bit skeptical&hellip; After all, everyone knows it is the destiny of our Class of 2019 to rule the world! &hellip;and, while we&rsquo;re pretty diverse, we don&rsquo;t have even one classmate from Turkey! Alas, perhaps we&rsquo;ll get a transfer student in a year or two&hellip;
+               </p>
+               <p>
+                The future is certain to be uncertain. Just as on Harry Potter&rsquo;s Night Bus, &ldquo;better hold on; it&rsquo;s going to be a bumpy ride.&rdquo;
+               </p>
+               <p>
+                Let&rsquo;s face it; in the past, the world was just a far more boring place.
+               </p>
+               <p>
+                Just two or three generations ago, most people tended to stay close to where they were born and pretty much pursued a single profession or worked in a single company for their entire careers.
+               </p>
+               <p>
+                Now, there&rsquo;s nothing wrong with that. But the vast majority of you will have a much more dynamic career, by the end of which you will have worked for 8-10 or more different organizations.
+               </p>
+               <p>
+                And the work you&rsquo;ll find yourself doing when you are much older &ndash; say, 30 &ndash; will involve products, processes, and technologies that haven&rsquo;t even been invented, yet.
+               </p>
+               <p>
+                Consider this, Google wasn&rsquo;t founded until 1998, or only 17 years ago; which means just about all of you were born before Google existed. And Siri, well; she wasn&rsquo;t even a gleam in Apple&rsquo;s eye when you were born!
+               </p>
+               <p>
+                Speaking of Apple, its co-founder and legendary CEO, the late Steve Jobs, went to a liberal arts college &ndash; Reed College in Oregon. (In fact, I know a former president of Reed and, I&rsquo;m not sure he&rsquo;d want me to share this, but they sort of fancy themselves the &ldquo;Muhlenberg College of the Pacific Northwest.&rdquo;)
+               </p>
+               <p>
+                Like Bill Gates, the founder and longtime CEO of Microsoft, Steve Jobs dropped out of college to be an entrepreneur, but not before he developed a deep sensibility from his exposure to the liberal arts.
+               </p>
+               <p>
+                In fact, if Steve Jobs had not taken a course in calligraphy and, thereby, developed a deep aesthetic sensibility, the world might be a very different place today, filled with far fewer beautifully-designed products, and we might still be listening to vinyl record albums purchased in retail stores and played on turntables! (You have no idea what I&rsquo;m talking about, do you?)
+               </p>
+               <p>
+                Besides Steve Jobs, other corporate leaders were liberal arts majors as well. Michael Eisner, the CEO of the Walt Disney Company for over 20 years, majored in English Literature and Theatre. Carly Fiorina, the former CEO of Hewlett-Packard and current Republican Presidential Candidate, majored in history and philosophy.
+               </p>
+               <p>
+                And one doesn&rsquo;t have to major in biology to excel in the field of medicine. My friend, Harold Varmus, who won the Nobel Prize in Medicine, majored in English as an undergraduate.
+               </p>
+               <p>
+                And Yo-Yo Ma, the world renowned cellist, achieved his virtuosity in large part due to his broader interests in the liberal arts. When asked at Harvard why he chose to go to there rather than to a music school such as Juilliard, he said:
+               </p>
+               <p style="padding-left: 30px;">
+                &ldquo;I had played cello for quite a long time. And I knew that I wasn&rsquo;t ready for the profession. I knew I wasn&rsquo;t mature enough to do anything in music. I knew nothing about the world, I knew I needed to learn stuff, and I needed time. So I thought, &ldquo;Wow&mdash;a university, what a great thing to do, what a great opportunity.&rdquo; So I came here and I was a music major, but my great passion was anthropology&hellip;
+               </p>
+               <p style="padding-left: 30px;">
+                &ldquo;[I]t&rsquo;s only in the last, maybe five years that I&rsquo;ve come to [realize] I should do the things that I care about the most. And music, I realized, was a wonderful way to be able to fulfill all the different ways that I&rsquo;m curious about people, about habits, about why people act the way they do. It&rsquo;s a form of study, and I believe greatly not so much in creativity, but in finding the preconditions of creativity.&rdquo;
+               </p>
+               <p>
+                So now, it&rsquo;s your turn. You have at your disposal a wonderful faculty completely committed to your success. They offer you a broad and rich curriculum.
+               </p>
+               <p>
+                Choose your courses wisely&hellip; and definitely not by whether they meet in the early morning, or whether they permit you to have Fridays off. These four years are among the most precious you&rsquo;ll have in your life. Make the most of every minute!
+               </p>
+               <p>
+                Have fun along the way, to be sure. Just keep it safe, stay within the rules, and be respectful of others, ok?
+               </p>
+               <p>
+                And remember to support one another. If you&rsquo;re not an athlete, come out to our teams&rsquo; games and cheer them on. If you&rsquo;re not a performing artist, come out to the performances and support those who are.
+               </p>
+               <p>
+                Most of all, remember, in all things you undertake here (and in life), do the very best you can. Make sure, when you cross the stage at graduation three years and nine months from now, you will have that warm feeling inside that comes from knowing you did your best.
+               </p>
+               <p>
+                In fact, all anyone can ever ask of you is to do your best &ndash; and here&rsquo;s the thing: only you will ever know whether you did or didn&rsquo;t. My aim is that you will always view Muhlenberg as a community that helps you to find and bring out your best.
+               </p>
+               <p>
+                The opportunities are all here. Each of us has a path to choose, and from here, you can go as far as what Harvard&rsquo;s Howard Gardner would call your &ldquo;multiple intelligences&rdquo; will take you. But, always remember, there is no substitute for truly giving your all. As the Greek philosopher Hesiod said, &ldquo;Before the Gates of Excellence, the High Gods Have Placed Sweat!&rdquo;
+               </p>
+               <p>
+                Now, let&rsquo;s go out there and have an awesome four years. And that, my newest friends, will be just the beginning of our journey together. Thank you.
+               </p>
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+           <a class="addthis_button_preferred_1">
+           </a>
+           <a class="addthis_button_preferred_2">
+           </a>
+           <a class="addthis_button_google_plusone" g:plusone:annotation="none">
+           </a>
+           <a class="addthis_counter addthis_bubble_style">
+           </a>
+          </div>
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b4c69f3ef53994">
+          </script>
+          <!-- AddThis Button END -->
+          <!-- Content Template End: News - Main-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President's Office
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/press/">
+            Press
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/messages/">
+            Messages
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/president/communications/speeches/">
+             Speeches
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/officehours/">
+            Office Hours
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/press/"&gt;Press&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/messages/"&gt;Messages&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/president/communications/speeches/"&gt;Speeches&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/officehours/"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

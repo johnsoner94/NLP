@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Muhlenberg Weekly - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 601084;
+			mySID = 4958619;
+			var myGNAME = "Muhlenberg+Weekly";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Muhlenberg Weekly
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Jan 5, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/muhlenbergweekly">
+          http://libraryguides.muhlenberg.edu/muhlenbergweekly
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_desc_row">
+        <td class="guide_label">
+         Description:
+        </td>
+        <td class="guide_val">
+         Research guide for the digital version of The Muhlenberg Weekly student newspaper.
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=601084">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=601084&amp;sid=4958619">
+       Home
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=601084&amp;sid=4976308">
+       Using the Weekly
+      </a>
+      <br />
+      <div style="padding-left:20px;">
+       <a title="View This Page" href="/print_content.php?pid=601084&amp;sid=4976311">
+        Navigating the Weekly
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=601084&amp;sid=4976324">
+        How to Print / Copyright Information
+       </a>
+       <br />
+      </div>
+      <a title="View This Page" href="/print_content.php?pid=601084&amp;sid=4960332">
+       Important Dates
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_4958619" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_18390561" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      The Muhlenberg (1914)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p style="text-align: center;">
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/themule20001.jpg" />
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18390514" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Muhlenberg Weekly
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Muhlenberg&rsquo;s student newspaper began as the
+       <i>
+        Muhlenberg Monthly,
+       </i>
+       a combination literary magazine and student paper, in 1883.&nbsp; It continued as a monthly publication, changing title to
+       <i>
+        The Muhlenberg
+       </i>
+       in 1888.&nbsp; In 1914 the publication became a weekly and the name changed once again, to
+       <i>
+        The Muhlenberg Weekly
+       </i>
+       , the name it maintains today.
+      </p>
+      <p>
+       Throughout its more than 130-year history, the
+       <i>
+        Weekly
+       </i>
+       has covered Muhlenberg&rsquo;s academic, social, and sporting activities.
+      </p>
+      <p>
+       The Muhlenberg Weekly has been digitized through a generous gift from the Muhlenberg College Alumni Trust Fund. Each issue is text-searchable, thus alumni and researchers can locate students, faculty, and events via a keyword search.
+      </p>
+      <p>
+       <a href="https://archive.org/details/muhlenbergcollege">
+        Browse the Muhlenberg Weekly
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4976308" class="guide_page">
+   <h2>
+    Using the Weekly
+   </h2>
+   <div id="content_box_18454091" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using the Weekly
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The digitized
+       <em>
+        Muhlenberg Weekly
+       </em>
+       is hosted by the Internet Archive and is searchable by date and keyword.
+      </p>
+      <p>
+       <span style="color: #000080;">
+        <strong>
+         <a target="_blank" href="http://libraryguides.muhlenberg.edu/content.php?pid=601084&amp;sid=4976311&amp;preview=69541966eafd0dca98e90b0762de9f1f">
+          <span style="color: #000080;">
+           How to Search the Weekly
+          </span>
+         </a>
+        </strong>
+       </span>
+      </p>
+      <p>
+       <span style="color: #000080;">
+        <strong>
+         <a target="_blank" href="http://libraryguides.muhlenberg.edu/content.php?pid=601084&amp;sid=4976324&amp;preview=69541966eafd0dca98e90b0762de9f1f">
+          <span style="color: #000080;">
+           How to Print
+          </span>
+         </a>
+        </strong>
+       </span>
+      </p>
+     </div>
+     <ul>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18454536" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      The Muhlenberg Weekly (1916)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <img style="vertical-align: middle;" src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/weekly1915.jpg" />
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4976311" class="guide_page">
+   <h2>
+    Navigating the Weekly
+   </h2>
+   <div id="content_box_18454098" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Navigating the Weekly
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The digitized
+       <em>
+        Muhlenberg Weekly
+       </em>
+       is hosted by the Internet Archive. It can be searched most effectively by selecting the desired academic year, then either reading through page by page, or by doing a
+       <strong>
+        keyword search.
+       </strong>
+      </p>
+      <p>
+       <strong>
+        <a href="https://archive.org/search.php?query=%28collection%3Amuhlenbergcollege%20OR%20mediatype%3Amuhlenbergcollege%29%20AND%20-mediatype%3Acollection&amp;sort=-date">
+         Browse by year
+        </a>
+        <br />
+       </strong>
+      </p>
+      <p>
+       <strong>
+        <br />
+       </strong>
+       Once the chosen year has been selected, click on the "Expand" icon in the upper right to enlarge the pages and enable the search features:
+      </p>
+      <p>
+       <img style="display: block; margin-left: auto; margin-right: auto;" src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/weeklyia1_arrow.png" height="75" width="115" />
+      </p>
+      <p>
+      </p>
+      <p>
+       Pages may be turned by clicking the arrows in the lower right corner:&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/arrows2016.png" />
+      </p>
+      <p>
+      </p>
+      <p>
+       To search by keyword, enter your search term(s) in the "Search" window in the upper right and click "Go."
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/search_2016.png" />
+      </p>
+      <p>
+       Momentarily, gold indicators will appear at the bottom edge of the image, pointing to matching content within the volume. Clicking on them will jump to the page.
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/drop_points_2016.png" />
+      </p>
+      <p>
+       <br />
+       Additionally, the sliding pointer at the bottom edge of the image may be dragged to a desired page number. &nbsp;
+      </p>
+      <p style="text-align: center;">
+       &nbsp; &nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/sliding_hand_2016.png" />
+      </p>
+      <p>
+       The tools at the lower right may be used to scan a single page, double pages, or multiple pages tiled at once. Zooming in and out is also facilitated.
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/enlarge_2016.png" />
+      </p>
+      <p>
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=');">
+       </a>
+      </p>
+     </div>
+     <ul>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21605885" class="content_box content_box_7">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Video Tutorial: How to Search the "Weekly"
+     </div>
+     <div class="embedclass_print">
+      <!-- copy and paste. Modify height and width if desired. -->
+      <object id="scPlayer" width="1266" height="885" type="application/x-shockwave-flash" data="http://content.screencast.com/users/SusanFalciani/folders/Jing/media/25e4874c-8d58-40b9-bc0f-c18127925129/jingswfplayer.swf">
+       <param name="movie" value="http://content.screencast.com/users/SusanFalciani/folders/Jing/media/25e4874c-8d58-40b9-bc0f-c18127925129/jingswfplayer.swf">
+       </param>
+       <param name="quality" value="high">
+       </param>
+       <param name="bgcolor" value="#FFFFFF">
+       </param>
+       <param name="flashVars" value="thumb=http://content.screencast.com/users/SusanFalciani/folders/Jing/media/25e4874c-8d58-40b9-bc0f-c18127925129/FirstFrame.jpg&amp;containerwidth=1266&amp;containerheight=885&amp;content=http://content.screencast.com/users/SusanFalciani/folders/Jing/media/25e4874c-8d58-40b9-bc0f-c18127925129/Weekly%20Final.swf&amp;blurover=false">
+       </param>
+       <param name="allowFullScreen" value="true">
+       </param>
+       <param name="scale" value="showall">
+       </param>
+       <param name="allowScriptAccess" value="always">
+       </param>
+       <param name="base" value="http://content.screencast.com/users/SusanFalciani/folders/Jing/media/25e4874c-8d58-40b9-bc0f-c18127925129/">
+        Unable to display content. Adobe Flash is required.
+       </param>
+      </object>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4976324" class="guide_page">
+   <h2>
+    How to Print / Copyright Information
+   </h2>
+   <div id="content_box_18454111" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Copyright Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Editions of the
+       <em>
+        Muhlenberg Weekly
+       </em>
+       published prior to 1923 are in the public domain and not subject to copyright restrictions. However, issues from 1923 to the present are under copyright by Muhlenberg College.
+      </p>
+      <p>
+       The copyright law of the United States (
+       <em>
+        Title 17, United States Code
+       </em>
+       ) governs the making of photocopies or other reproductions of copyrighted material.
+      </p>
+      <ul>
+       <li>
+        Under certain conditions specified in the law, libraries and archives are authorized to furnish a photocopy or other reproduction.&nbsp; One of these specified conditions is that the photocopy or reproduction is not to be "used for any purpose other than private study, scholarship, or research."&nbsp; If a user makes a request for, or later uses, a photocopy or reproduction for purposes in excess of "fair use," that user may be liable for copyright infringement.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18454112" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Downloading &amp; Printing
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Each
+       <em>
+        Weekly
+       </em>
+       year is available as a PDF. By clicking on "PDF" on the lower righthand side of the page under the image, the whole year can be downloaded.
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/print_pdf_new.png" />
+      </p>
+      <p>
+       Once the PDF is downloaded, it can be printed by page or in its entirety from a PDF reader such as Adobe Acrobat.
+      </p>
+      <p>
+       <a href="//www.pinterest.com/pin/create/extension/" style="height: 20px; width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-color: transparent; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=');">
+       </a>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4960332" class="guide_page">
+   <h2>
+    Important Dates
+   </h2>
+   <div id="content_box_18394406" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Navigation
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Issues of the
+       <em>
+        Muhlenberg Weekly
+       </em>
+       that contain historically interesting content are available by clicking these links, then advancing to the indicated pages.
+      </p>
+      <p>
+       If you would like to suggest other significant dates to be added to this list, please contact
+       <strong>
+        sfalciani@muhlenberg.edu
+       </strong>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18390670" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Significant Events
+     </div>
+     <ul>
+      <li>
+       Muhlenberg Suspends Athletics in Favor of Military Training (Vol. 35, 1916-17, p. 312)
+       <br />
+       <a href="https://archive.org/details/mw1916-1917_muhl">
+        https://archive.org/details/mw1916-1917_muhl
+       </a>
+       <br />
+       The United States entered World War I in April 1917, and Muhlenberg responded immediately. During the ensuing years the College served as Student Army Training Corp camp.
+      </li>
+      <li>
+       Eleanor Roosevelt Visits (Volume 60, 1941-42, pp. 96, 119)
+       <br />
+       <a href="https://archive.org/details/mw1941-1942_muhl">
+        https://archive.org/details/mw1941-1942_muhl
+       </a>
+       <br />
+       In May, 1942, First Lady Eleanor Roosevelt attended the bicentennial celebration of Henry Melchior Muhlenberg's arrival in America. A mere six months after the Pearl Harbor attack, the celebration included the dedication of the statue of General John Peter Muhlenberg, whose military service was used as inspiration for over 2000 Muhlenberg students and alumni who would serve in World War II.
+      </li>
+      <li>
+       Mules Place Fourth at Madison Square Garden (Volume 65, 1946, p. 10)
+       <br />
+       <a href="https://archive.org/details/mw1946_muhl">
+        https://archive.org/details/mw1946_muhl
+       </a>
+       <br />
+       Muhlenberg exploded onto the national basketball scene in the mid-1940s by making three consecutive appearances in the National Invitation Tournament — at the time the biggest postseason college basketball tournament — at Madison Square Garden, finishing fourth in 1946. The Mules won four consecutive Middle Atlantic Conference North titles from 1946-50.
+      </li>
+      <li>
+       Edward R. Murrow Speaks at Commencement (Volume 66, 1946-47, p.1)15.
+       <br />
+       <a href="https://archive.org/details/mw1946-1947_muhl">
+        https://archive.org/details/mw1946-1947_muhl
+       </a>
+       <br />
+       Journalist and war correspondent Edward R. Morrow speaks to the Class of 1947.
+      </li>
+      <li>
+       Coeducation Begins (Volume 78, 1957-58 p.11)
+       <br />
+       <a href="https://archive.org/details/mw1957-1958_muhl">
+        https://archive.org/details/mw1957-1958_muhl
+       </a>
+       <br />
+       In the fall of 1957, Muhlenberg College admitted the first coeds.
+      </li>
+      <li>
+       Kennedy Assassination (Volume 84, 1963-64 pp. 85, 86)
+       <br />
+       <a href="https://archive.org/details/mw1963-1964_muhl">
+        https://archive.org/details/mw1963-1964_muhl
+       </a>
+       <br />
+       Editorials address the tragedy in Dallas.
+      </li>
+      <li>
+       LeRoi Jones Speaks at Muhlenberg (Volume 88, 1967-68, pp. 1, 4, 7, 11)
+       <br />
+       <a href="https://archive.org/details/mw1967-1968_muhl">
+        https://archive.org/details/mw1967-1968_muhl
+       </a>
+       <br />
+       Poet and activist LeRoi Jones spoke at an assembly in early September, 1967, amid great controversy.
+      </li>
+      <li>
+       September 11th Attacks (Volume 120, 2001-02, pp. 1-4, 16-25)
+       <br />
+       <a href="https://archive.org/details/mw2001-2002_muhl">
+        https://archive.org/details/mw2001-2002_muhl
+       </a>
+       <br />
+       News coverage and editorial responses to the terror attacks of 9/11.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18393253" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Muhlenberg Weekly (August 1944)
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <img style="vertical-align: middle;" src="http://lgimages.s3.amazonaws.com/data/imagemanager/102691/war_headline.jpg" />
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

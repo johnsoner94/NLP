@@ -1,0 +1,1679 @@
+<!doctype html>
+<!--[if IE 8]&gt;&lt;html class="no-js lt-ie10 lt-ie9" lang="en"&gt;&lt;![endif]-->
+<!--[if IE 9]&gt;&lt;html class="no-js lt-ie10" lang="en"&gt;&lt;![endif]-->
+<!--[if gt IE 10]&gt;&lt;!-->
+<html class="no-js" lang="en" itemscope="itemscope" itemtype="http://schema.org/NewsArticle">
+ <!--&lt;![endif]-->
+ <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/partner/show_ads.js">
+  </script>
+  <title>
+   Beth Garrison provides backbone for Muhlenberg volleyball
+  </title>
+  <meta content="text/html; charset=UTF-8" name="Content-Type" />
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&amp;&amp;(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&amp;&amp;(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&amp;&amp;(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&amp;&amp;e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&amp;&amp;e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c&lt;u;c++)a[c].apply(i,r);var f=s[w[n]];return f&amp;&amp;f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&amp;&amp;(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&amp;&amp;"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&amp;&amp;e.licenseKey&amp;&amp;e.applicationID&amp;&amp;t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&amp;&amp;i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&amp;&amp;v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&amp;&amp;g&amp;&amp;g[p]&amp;&amp;!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"b7ac0e2ada","agent":"","transactionName":"NARUbRdVVhdSBk0MWQ1OcEwLV0wNXAsWFkIME19cFhpODVYSSl9FFw5EQA==","applicationID":"20499234","errorBeacon":"bam.nr-data.net","applicationTime":1088}
+  </script>
+  <meta name="google" content="notranslate" />
+  <meta name="apple-itunes-app" content="app-id=1025203087" />
+  <meta name="description" itemprop="description" content="The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport. " />
+  <link rel="canonical" href="http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/" />
+  <meta property="fb:app_id" content="118054614942796" />
+  <meta property="og:site_name" content="The York Daily Record" />
+  <meta name="ROBOTS" content="NOODP, NOYDIR" />
+  <meta property="og:image" content="http://www.gannett-cdn.com/-mm-/d808b812444883c38062a4db7ea65221dd69bae6/c=0-23-1200-701&amp;r=x633&amp;c=1200x630/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta itemprop="thumbnailUrl" content="http://www.gannett-cdn.com/-mm-/74b3e1264692c228bd0a900eda536011775492ac/c=161-0-1001-840&amp;r=x153&amp;c=150x150/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" />
+  <meta itemprop="thumbnailHeight" content="150" />
+  <meta itemprop="thumbnailWidth" content="150" />
+  <meta itemprop="image" content="http://www.gannett-cdn.com/-mm-/c185437751f8b78f33aaeda3b92301aaaeba7157/c=161-0-1001-840&amp;r=x203&amp;c=200x200/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="http://www.gannett-cdn.com/-mm-/21d4d88abd846d78f55dbaf6a62aa9d1274ce9c4/c=0-23-1200-701&amp;r=x324&amp;c=600x321/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" />
+  <meta property="og:image" content="http://www.gannett-cdn.com/GDContent/applogos/ydr.png" />
+  <meta itemprop="dateModified" content="2016-09-20T04:16:39.55Z" />
+  <meta itemprop="datePublished" content="2016-09-19T22:08:45.5Z" />
+  <meta itemprop="articleSection" content="sports" />
+  <meta name="twitter:site" content="@ydrcom" />
+  <meta name="twitter:creator" content="@ydrcom" />
+  <meta name="twitter:title" content="Beth Garrison provides backbone for Muhlenberg volleyball" />
+  <meta name="twitter:description" content="The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport. " />
+  <meta property="og:title" content="Beth Garrison provides backbone for Muhlenberg volleyball" />
+  <meta property="og:description" content="The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport. " />
+  <meta property="og:url" content="http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/" />
+  <meta property="og:type" content="article" />
+  <script type="application/ld+json">
+   {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Beth Garrison provides backbone for Muhlenberg volleyball",
+        "url": "http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/",
+        "thumbnailUrl": "http://www.gannett-cdn.com/-mm-/21d4d88abd846d78f55dbaf6a62aa9d1274ce9c4/c=0-23-1200-701&amp;r=x324&amp;c=600x321/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg",
+        "dateCreated": "2016-09-20T02:08:45Z",
+        "articleSection": "sports",
+        "creator": ["Bill Arsenault"],
+        "keywords": ["Section:sports","Type:story"]
+      }
+  </script>
+  <meta name="viewport" content="width=1070" />
+  <link rel="shortcut icon" href="http://www.gannett-cdn.com/sites/ydr/images/favicon.png" />
+  <!--[if gt IE 9]&gt;&lt;!-->
+  <link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main_modern.min.css" />
+  <link data-identifier="sports" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports.min.css" />
+  <link data-identifier="sports-logos" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports-logos.min.css" />
+  <!--&lt;![endif]-->
+  <!--[if IE 9]&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/common.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/dynamic.min.css"&gt;&lt;link data-identifier="sports" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports.min.css"&gt;&lt;link data-identifier="sports-logos" rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports-logos.min.css"&gt;&lt;![endif]-->
+  <!--[if IE 8]&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/common.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/main.min.css"&gt;&lt;link data-identifier="main" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/dynamic.min.css"&gt;&lt;link data-identifier="sports" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports.min.css"&gt;&lt;link data-identifier="sports-logos" rel="stylesheet" href="/uxstatic/ydr/uscp-web-static-2119.0/css/bundles/sports-logos.min.css"&gt;&lt;![endif]-->
+  <link rel="stylesheet" href="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/css/print.css" media="print" />
+  <!--[if gt IE 8]&gt;&lt;!-->
+  <style>
+   .marketplace-theme-bg, .marketplace-theme-bg-hover:hover, .site-nav-span.site-nav-marketplace-span.site-nav-active-span, .noimage .headline-asset-item-tile.headline-asset-item-marketplace-tile, .parent-label.marketplace { background-color: rgb(102, 102, 102) !important; } .card-suspender-color.marketplace { background: rgb(102, 102, 102) !important; } .headline-asset-item-tile.headline-asset-item-marketplace-tile { background-color: rgb(102, 102, 102); background-color: rgba(0,0,0,0.5); } .listview .noimage .headline-asset-item-tile.headline-asset-item-marketplace-tile, .listview .headline-asset-item-tile.headline-asset-item-marketplace-tile, .listview .hgpm-link.marketplace-theme-bg-hover, .listview .hgpm-link.marketplace-theme-border-hover:hover { background-color: transparent !important; background-color: rgba(0,0,0,0) !important; } .marketplace-theme-color, .hgpm-list-text .marketplace-theme-color .theme-bg-ssts-label, .hgpm-list-text .hgpm-section &gt; .marketplace-theme-color, .blog-asset-double-wide.marketplace-theme-color .presto-h1, .blog-asset-double-wide.marketplace-theme-color .presto-h2, .blog-asset-double-wide.marketplace-theme-color .presto-h3, .blog-asset-double-wide.marketplace-theme-color .presto-h4, .blog-asset-double-wide.marketplace-theme-color .presto-h5, .blog-asset-double-wide.marketplace-theme-color .presto-h6, .marketplace-theme-color &gt; .shbfm-subnav-link:hover, .marketplace-theme-color &gt; .shbfm-subnav-link.is-selected, .marketplace-theme-color .inline-share-count-blog { color: rgb(102, 102, 102); } .blog-asset-double-wide.marketplace-theme-color blockquote { border-color: rgb(102, 102, 102); } .footer &gt; nav &gt; .fronts &gt; section.marketplace h6 { border-color: rgb(102, 102, 102) !important; } .hero-list-item .hero-list-anchor { font-size: 12px !important; }
+  </style>
+  <!--&lt;![endif]-->
+  <!--[if lt IE 9]&gt;&lt;link rel="stylesheet" href="/services/css/configs.css"&gt;&lt;![endif]-->
+  <style>
+  </style>
+  <!--[if lt IE 9]&gt;&lt;script src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/html5shiv-printshiv.js"&gt;&lt;/script&gt;&lt;script src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/respond/respond.min.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <script type="text/javascript">
+   window.site_vars = {"minimogrifyCrops": [{"width": "60", "hmac": "f7d4a7b736de373bc606f44df59553fdb00fccad", "actions": "r=x63&amp;c=60x60", "height": "60"}, {"width": "84", "hmac": "01465a916f25297401a74796918c35a0b5a54d96", "actions": "r=x87&amp;c=84x84", "height": "84"}, {"width": "90", "hmac": "216c542627c70836c75c2a9c1a17f688326fd4d7", "actions": "r=x71&amp;c=90x68", "height": "68"}, {"width": "140", "hmac": "418e867d18a38165c766af80c5019cf656a9a3f2", "actions": "r=x83&amp;c=140x80", "height": "80"}, {"width": "150", "hmac": "c34762b1f5607e6b1ff9c665d0eb57a7878f1c0f", "actions": "r=x153&amp;c=150x150", "height": "150"}, {"width": "179", "hmac": "8c945dd708cc9352c3f4789070adb2a49d1bbafe", "actions": "r=x137&amp;c=179x134", "height": "134"}, {"width": "210", "hmac": "67c83ee67d2feb09a41f04062f92c6d384c7d157", "actions": "r=x160&amp;c=210x157", "height": "157"}, {"width": "210", "hmac": "796bd718e28a19eb472afc4e89a22b598841182c", "actions": "r=x233&amp;c=210x230", "height": "230"}, {"width": "236", "hmac": "c77595127775e8a1cf2961deeef67539bc747be1", "actions": "r=x205&amp;c=236x202", "height": "202"}, {"width": "239", "hmac": "f261e010c4d960be2a4967aae4de259f4f131960", "actions": "r=x138&amp;c=239x135", "height": "135"}, {"width": "239", "hmac": "27ff70a634dbd02333f2d757733634ad4271ded4", "actions": "r=x205&amp;c=239x202", "height": "202"}, {"width": "239", "hmac": "11e074fb0e8fe615b12ecb471b3eb57931c70011", "actions": "r=x242&amp;c=239x239", "height": "239"}, {"width": "299", "hmac": "80ef5f33829369a24d1dc9028ae4c6a0490ae48b", "actions": "r=x171&amp;c=299x168", "height": "168"}, {"width": "319", "hmac": "f5ff90fdc9946f2686728ff2463209225e65a57a", "actions": "r=x322&amp;c=319x179", "height": "179"}, {"width": "330", "hmac": "e72fe7bbca7952e8181048fa191069f7c64cb181", "actions": "r=x189&amp;c=330x186", "height": "186"}, {"width": "360", "hmac": "a14acc910c2e381961b26e77650caaccf92b2dba", "actions": "r=x483&amp;c=360x483", "height": "480"}, {"width": "405", "hmac": "6fc8d7dd29c4e6030aac5a827cd0bd281738a123", "actions": "r=x408&amp;c=405x405", "height": "405"}, {"width": "479", "hmac": "aecb1bfe84fe2d93dd948cfc4a63eba52c47411e", "actions": "r=x482&amp;c=479x479", "height": "479"}, {"width": "483", "hmac": "f6b8fe19b893e6b7787887084e757d9b03495c8d", "actions": "r=x408&amp;c=483x405", "height": "405"}, {"width": "720", "hmac": "f482b9c7009b17e5fe14467352fe804e20fdb5d8", "actions": "r=x408&amp;c=720x405", "height": "405"}, {"width": "960", "hmac": "9dd8e111171902ea318ebf70a1280234338419b7", "actions": "r=x408&amp;c=960x405", "height": "405"}], "twitter": {"account_prefix": "ydrcom", "default_account": "ydrcom"}, "analytics": ["tealium", "pong", "taboola"], "property_type": "publishing", "aws_site_name": "PPYR", "display_name": "The York Daily Record", "market_id": "PPYR", "site_code": "PPYR", "base_url": "ydr.com", "WEATHER": {"STATION_STATE": "PA", "STATION_CITY": "York", "STATION_ID": "", "LOCAL_ENDPOINT": "/weather/forecast/json/", "STATION_CITY_STATE": "York, PA", "FRONT_LAYOUT": "weather", "FRONT_LAYOUT_SAVED": "weather-saved"}, "DATASPHERE": {}, "siteid": 517, "sections": "news|sports|business|entertainment|lifestyle|opinion|home|marketplace|elections-2016|olympics-rio-2016|insider|things-to-do", "userAuthentication": {"login": {"url": "https://login.ydr.com/PPYR-GUP/authenticate/", "cancel_qsp": "cancel-url", "success_qsp": "success-url"}, "logout": {"url": "https://user.ydr.com/PPYR-GUP/user/logout/", "return_qsp": "return-url"}, "user": {"url": "https://user.ydr.com/PPYR-GUP/user/", "response_user_path": ["response", "user"]}, "personal_link": {"url": "https://login.ydr.com/PPYR-GUP-ET/authenticate/", "qsp": "for-guid", "enabled": true}}, "site_key": "ydr", "ADS": {"LEAVEBEHIND_EXPIRATION_MINUTES": 1080, "a9": {"url": "http://c.amazon-adsystem.com/aax2/amzn_ads.js", "account": "3062", "enabled": true}, "THRESHOLDS": {"BIGPAGE_ASSET": [3, 5], "COVERVIEW": 4, "TRANSITION": [1, 5], "TRANSITION_SNAPSHOT": [3, 3], "TRANSITION_INTERACTIVE": [2, 5], "TRANSITION_GALLERY": [3, 4], "TRANSITION_REFERRER": [1, 1]}, "aol": {"bidkey": "aolbid", "bidfloor": "0.0", "enabled": true, "server": "adserver.adtechus.com", "placements": [{"id": "4113915", "size": "728x90"}, {"id": "4113916", "size": "300x250"}, {"id": "4113917", "size": "300x600"}], "network": "10315.1"}, "DFP": {"ACCOUNTID": "7103", "CMSID": 12768, "ENV": "prod", "ACCOUNTNAME": "pa-yorkdailyrecord-C1287"}, "teads_enabled": true, "leaderboard_on_sponsored": true, "simple_categories": [{"keywords": ["Politics", "Trump", "Pence", "Republican", "Obama", "Clinton", "Kaine", "Democrat", "Johnson", "Stein", "Sex", "War", "Syria", "Aleppo"], "tag": "rei", "type": "exclude"}, {"keywords": ["HDTV", "VR Headset", "4K", "HD Television", "VR Viewer"], "tag": "bestbuy", "type": "target"}], "SLIDER": {"REFRESHTIME": 900000, "CLOSETIME": 15000}, "sourcepoint": {"account": 308, "enabled": false, "domain": "sp.usatoday.com", "aamtarget": []}, "taboola_poster": {"enabled": false}, "story_atf_leaderboard": false, "account_name": "pa-yorkdailyrecord-C1287", "adblock_cookie": "WhiteListed", "story_top_ad": {"enabled": false}, "progressive_gallery_refresh_rate": 5, "sonobi": {"enabled": true}, "cleanup_selectors": ".prWrap, script[id^='prscript'], #prscrscr, #eyeDiv, body &gt; div[id^='adDiv'], body &gt; div[id^='ut_container']", "dfp": {"account_id": "7103", "env": "prod"}, "exclusion_categories": [{"name": "Human Disasters", "tags": ["Samsung Electronics", "9/11", "Al Qaeda", "Assad", "attack", "behead", "benghazi", "blast", "bomb", "crash", "crisis", "disaster", "explosion", "Gun Violence", "hostage", "ISIL", "ISIS", "Islamic State", "Mass Shootings", "migrants", "miner", "mining", "misconduct", "Omar Mateen", "Orlando gay nightclub shooting", "rape", "refugee", "riot", "sept. 11", "september 11", "shoot", "shooter", "shooting", "Syria", "Syrian", "terror", "terrorism", "terrorist", "United 93", "violence", "war", "Chelsea New York explosion", "Ahmad Khan Rahami", "School shootings", "active shooter", "ohio state"]}, {"name": "Transportation Disasters", "tags": ["Fatal vehicle crashes", "EgyptAir", "Flight 804", "crash", "EgyptAir Flight 804 crash", "derailment", "amtrak", "crash", "train derailments", "train crash", "hoboken crash", "chemical spills"]}], "rubicon": {"account": "11324", "enabled": true}, "pubMatic": {"url": "http://ads.pubmatic.com/AdServer/js/gshowad.js", "group": "2", "account": "57752", "enabled": true, "slots": ["ATF@728x90", "BTF@728x90", "ATF@300x250", "BTF@300x250", "ATF@300x600", "ROS@970x250", "ROS@300x1050"]}, "adlite": {"enabled": false, "cookie": "WhiteListed"}, "front_leaderboard_enabled": true, "override": false, "criteo": {"url": "http://rtax.criteo.com/delivery/rta/rta.js", "varName": "crtg_content", "account": "1493", "cookie": "cto_belo", "enabled": true}, "GALLERY": {"SURVEY": true, "REFRESH": true}}, "REFRESH_RATE": 7, "ELECTIONS": {}, "featured_newsletter": {}, "THIRDPARTYAPI": {"CXENSE": {}, "CAREERBUILDER": {"lr": "cbga_ydr", "siteid": "sid_gaydr003"}, "NEON": {"script_url": ""}, "FACEBOOK": {"PERMISSIONS": "email,user_about_me", "ENABLED": true, "APPID": "118054614942796"}, "Taboola": {"apiBase": "http://api.taboola.com/1.1/json/", "presto_recommendation": true, "widget": true, "apiKey": "90393b522c6937bd3b1e815ead8d189cea03650", "ENABLED": true, "api_id": "gannettcompany-yorkdailyrecordydr", "sidebar_widget_mode": "thumbnails-f", "publisher_id": "gannett-network"}, "PIANO": {"enabled": true}, "PONG": {"url": "http://pong.production.gannettdigital.com/pong/v1/"}, "FIREFLY": {"flyoutOverrideArticleViewsRemaining": [], "gps": {"tweener_singular": "CPPWSUB1L", "custom": "CPPWSUB30", "tweener": "CPPWSUB30", "last": "CPPWSUBFIN", "first": "CPPWFIRST"}, "ENABLED": true, "flyoutMessageOverrides": {"tweener_singular": " article left", "tweener": " articles left", "last": "This is your last article!", "first": "Enjoy a limited number of articles over the next 30 days"}}, "COMSCORE": {"customerC2": "6035223", "script_url": "http://www.gannett-cdn.com/360player/comscore/streamsense.5.1.1.160316.min", "site": ""}, "GOOGLEPLUS": {"TURNON": false, "COOKIEPOLICY": "none", "JSLIBURL": "https://apis.google.com/js/client.js", "LOGOUT_URL": "https://accounts.google.com/o/oauth2/revoke"}, "PING": {"url": "http://api.gannett-cdn.com/ping/v1/"}, "MYCAPTURE": {"SITE_OVERRIDE": null, "PRICING_SHEET_ID": "", "ENABLED": true}, "ADSENSE": {"pubId": "partner-gannett"}, "GOOGLECONSUMERSURVEY": {"ad_block_cookie": "__adblocker", "relief_period": 86400000, "gravity_override": false, "need_market_access": true, "ENABLED": true, "content_protection_blacklist": ["free"], "publisher_id": "vfthjxxxyqnw7dqao5sqf6z7k4"}}, "INFO": null, "search": {"ENABLED": true}, "html5video": {"userInactivityTimeout": 2000, "playerId": "B1rw8m9q", "scrollingPlayer": {"nextVideoText": "TOP TRENDING", "dockedWidth": 400, "videoTitleLength": 85, "dockedHeight": 225, "docked": false, "nextVideoTitleLength": 60, "nextVideoType": "most-popular", "nextVideoAPI": "http://api.gannett-cdn.com/ping/v1/{TYPE}/{SITE_ID}/{SECTION}/?t=video&amp;api_key={KEY}", "titleBar": false, "scrollBreakpoint": 0.8, "adBlacklist": ["447257088"]}, "three60": {"moreLinkUrl": "", "appPromoAppleText": "DOWNLOAD FROM&lt;br&gt;THE APP STORE", "hlsSupport": "http://www.gannett-cdn.com/360player/hls/0.6.2-4/hls.min", "appPromoText": "This content is optimized for Chrome, Firefox, and Microsoft Edge&lt;br&gt;or you can download our mobile app to experience life in 360&deg;.", "vrStoriesAppUrl": "https://itunes.apple.com/us/app/vr-stories-by-usa-today/id975006820?mt=8", "userEdDisplayDuration": 5000, "fov": 70, "usatAppPromoText": "&lt;p&gt;USA TODAY NETWORK will bring the news to stunning life in 360\u00b0 video and virtual reality. Technology this bold requires a personality to match, and a break from traditional and stodgy news formats. We don't just tell amazing stories, we let you live them in fully immersive environments, creating human connections like never before. Download the USA TODAY app, now with virtual reality or subscribe to our &lt;a href=\"https://www.youtube.com/vrtuallythere\"&gt;YouTube page&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;Check out a new episode every Thursday for three new thrilling VR experiences.&lt;/p&gt;", "appPromoHeader": "Put Yourself Inside the Story", "moreLinkText": "More from VR Stories ", "endslateHeader": "Like this 360&deg; experience? You may also like:", "usatAppPromoHeader": "VRtually There", "usatPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.usatoday.android.news", "vrStoriesAppText": "Get the VR Stories App", "inactiveTimer": 15000, "usatAppPromoUrl": "https://itunes.apple.com/us/app/usa-today/id504631398?mt=8", "appPromoGoogleText": "DOWNLOAD FROM&lt;br&gt;GOOGLE PLAY STORE", "playerUrl": "http://www.gannett-cdn.com/360player/axis/dist/axis-1.20.7", "userEdText": "This is a 360&deg; video experience. &lt;br&gt;Use your mouse or the arrow keys on your keyboard &lt;br&gt;to see the entire 360&deg; view.", "controlCollapseDelay": 1000, "vrStoriesPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.gannett.vrstories&hl;=en", "vrStoriesAppPromoText": "Download our USA TODAY VR Stories app to experience 360&deg; content on your smartphone. Navigate using your finger or simply move the phone around. To get an even more immersive experience, you can put your phone into a cardboard viewer or a headset and fully dive into the world of virtual reality."}, "ima3": {"requestMode": "ondemand", "minimumAdLength": 10, "adRule": 0, "adTechOrder": ["flash", "html5"], "prerollTimeout": 3000, "loadingSpinner": true, "timeout": 3000, "debug": false, "output": "xml_vast3", "nopostroll": true, "requiredSkipAdLength": 25, "secondsBeforeSkip": 15, "hardTimeouts": true}, "accountId": "4303072811001"}, "SMARTPLAYER": true, "abtests": [], "flags": {"elections_primary_2016_enabled": false, "progressive_gallery": true, "expired_credit_card_modal": true, "video_thumbnail_headline": false, "breaking_live_video_ribbon": false, "expired_trial_static": true, "content_override_processing": false, "show_dynamic_video_playlist": true, "elections_primary_2016_route": "", "recommended_flyout": false, "privacy_notice_enabled": false, "topic_page_related_topic_embed": false, "storyrightrail_morestories_add_nationnowstory": true, "comscore_video": true, "tempo": false, "mediaVoice_content": true, "progressive_gallery_fronts": true, "breaking_live_video_sidebar": false, "traffic_cop_defer": true, "related_topic_embed": false, "html5video": true, "cxense_parsing": false, "related_topic_photo_gallery": false}, "utility_bar_modules": [{"name": "utility-bar-module-share", "options": {"submodules": [{"name": "share-facebook"}, {"name": "share-email"}]}}, {"name": "utility-bar-module-comments"}, {"name": "utility-bar-module-print"}, {"name": "utility-bar-module-feedback"}], "contentOverrides": [], "autoplay": {"default": ["sourcepoint", "piano", "high-impact-ad", "google-survey", "pluto-video", "brightcove-video"]}};
+        window.section_arrows = 'news|sports|business|lifestyle|opinion|home';
+        window.section_arrows_display = 'news|sports|business|lifestyle|opinion|home';
+        window.section_display_names = {"sec": "SEC", "pga": "PGA", "nhl": "NHL", "gamehunters": "Game Hunters", "BR": "Book Review", "highschool": "High School", "action-sports": "Action Sports", "personal": "Personal Tech", "driveon": "Drive On", "mwac": "MWAC", "idolchatter": "Idol Chatter", "theoval": "The Oval", "lifelinelive": "Lifeline Live", "thehuddle": "The Huddle", "horse-racing": "Horse Racing", "mlb": "MLB", "fantasywindup": "Fantasy Windup", "wac": "WAC", "happyeverafter": "Happy Ever After", "nfl": "NFL", "gameon": "For The Win", "mls": "MLS", "ondeadline": "On Deadline", "ncaab": "NCAAB", "wnba": "WNBA", "hotelcheckin": "Hotel Checkin", "nascar": "NASCAR", "pac12": "PAC-12", "horseracing": "Horse Racing", "nba": "NBA", "campusrivalry": "Campus Rivalry", "dailypitch": "Daily Pitch", "onpolitics": "On Politics", "usanow": "USA NOW", "ufc": "UFC", "motor-sports": "Motor Sports", "todayinthesky": "Today in the Sky", "lpga": "LPGA", "awardcentral": "Awards Central", "livefrom": "Live From", "mma": "MMA", "acc": "ACC", "high-school": "High School", "fantasyjoe": "Fantasy Joe", "sciencefair": "Science Fair", "popcandy": "Pop Candy", "personalfinance": "Personal Finance", "ncaaf": "NCAAF", "faith&reason;": "Faith &amp; Reason", "lifestages": "Life Stages", "technologylive": "Technology Live", "ncaaw": "NCAAW"};
+        
+        window.site_static_url = 'http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/';
+        
+        window.site_static_path = '/uxstatic/ydr/uscp-web-static-2119.0/';
+        window.site_static_version = '2119.0';
+        window.firefly_urls = {"samSubscribeURL": "https://subscribe.ydr.com/", "onSuccessRedirectURL": "http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/?from=global", "samAccountURL": "https://account.ydr.com/", "samServiceURL": "https://accountsolution.ydr.com/"};
+        window.use_minified_css = true;
+        window.isAdDebug = false;
+        window.defaultWeatherLocation = "York, PA"
+    
+        window.tealium_url = '//tags.tiqcdn.com/utag/gci/ydr/prod/utag.js';
+    
+    
+    
+    
+        window.Modernizr=function(a,b,c){function B(a){j.cssText=a}function C(a,b){return B(m.join(a+";")+(b||""))}function D(a,b){return typeof a===b}function E(a,b){return!!~(""+a).indexOf(b)}function F(a,b){for(var d in a){var e=a[d];if(!E(e,"-")&amp;&j;[e]!==c)return b=="pfx"?e:!0}return!1}function G(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:D(f,"function")?f.bind(d||b):f}return!1}function H(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+o.join(d+" ")+d).split(" ");return D(b,"string")||D(b,"undefined")?F(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),G(e,b,c))}function I(){e.input=function(c){for(var d=0,e=c.length;d&lt;e&gt;&lt;style id="s',h,'"&gt;',a,"&lt;/style&gt;"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},x=function(b){var c=a.matchMedia||a.msMatchMedia;if(c)return c(b).matches;var d;return w("@media "+b+" { #"+h+" { position: absolute; } }",function(b){d=(a.getComputedStyle?getComputedStyle(b,null):b.currentStyle)["position"]=="absolute"}),d},y=function(){function d(d,e){e=e||b.createElement(a[d]||"div"),d="on"+d;var f=d in e;return f||(e.setAttribute||(e=b.createElement("div")),e.setAttribute&amp;&amp;e.removeAttribute;&amp;&amp;(e.setAttribute(d,""),f=D(e[d],"function"),D(e[d],"undefined")||(e[d]=c),e.removeAttribute(d))),e=null,f}var a={select:"input",change:"input",submit:"form",reset:"form",error:"img",load:"img",abort:"img"};return d}(),z={}.hasOwnProperty,A;!D(z,"undefined")&amp;&amp;!D(z.call,"undefined")?A=function(a,b){return z.call(a,b)}:A=function(a,b){return b in a&amp;&D;(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=u.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(u.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(u.call(arguments)))};return e}),q.touch=function(){var c;return"ontouchstart"in a||a.DocumentTouch&amp;&b; instanceof DocumentTouch?c=!0:w(["@media (",m.join("touch-enabled),("),h,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(a){c=a.offsetTop===9}),c},q.history=function(){return!!a.history&amp;&amp;!!history.pushState},q.csstransforms=function(){return!!H("transform")},q.csstransforms3d=function(){var a=!!H("perspective");return a&amp;&amp;"webkitPerspective"in g.style&amp;&w;("@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}",function(b,c){a=b.offsetLeft===9&amp;&amp;b.offsetHeight;===3}),a},q.csstransitions=function(){return H("transition")},q.video=function(){var a=b.createElement("video"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),c.h264=a.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),c.webm=a.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,"")}catch(d){}return c};for(var J in q)A(q,J)&amp;&amp;(v=J.toLowerCase(),e[v]=q[J](),t.push((e[v]?"":"no-")+v));return e.input||I(),e.addTest=function(a,b){if(typeof a=="object")for(var d in a)A(a,d)&amp;&amp;e.addTest;(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&amp;&f;&amp;&amp;(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},B(""),i=k=null,e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.mq=x,e.hasEvent=y,e.testProp=function(a){return F([a])},e.testAllProps=H,e.testStyles=w,e.prefixed=function(a,b,c){return b?H(a,b,c):H(a,"pfx")},g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+t.join(" "):""),e}(this,this.document);
+  </script>
+ </head>
+ <body class=" site-theme-maroon">
+  <header data-fixed="false" data-open="true" data-default-fixed="false" data-default-open="true" class=" site-header ">
+   <div class="site-header-inner-wrap ">
+    <div class="site-masthead">
+     <a class="site-masthead-logo-link logo-link" data-ht="Headerydr Headerlogoexpanded" href="/">
+      <img class="site-masthead-logo-img" src="http://www.gannett-cdn.com/sites/ydr/images/site-masthead-logo@2x.png" height="80" alt="The York Daily Record" />
+     </a>
+     <div class="site-masthead-search-wrap">
+      <form class="site-masthead-search-form ui-ajax-form" action="/search/" method="get" data-mapping="&lt;%= q %&gt;/">
+       &lt;%= q %&gt;/"&gt;
+       <div class="site-masthead-search-input-wrap ui-form-field-container">
+        <input class="site-masthead-search-form-input ui-text-input" data-clearable="true" type="text" name="q" autocomplete="off" placeholder="Search" />
+        <div class="site-masthead-search-btn site-masthead-search-btn-div" data-ht="Headersearchbutton">
+        </div>
+       </div>
+       <input class="site-masthead-search-btn submit" type="submit" value="Search" />
+       <span class="site-masthead-search-close-btn" data-uotrack="Headersearchclosebutton">
+       </span>
+       <div class="site-masthead-subscribe-wrap site-masthead-subscribe-wrap-visible">
+        <a href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;gps-source=CPHPPRIMARY" class="userAuth-redirect site-masthead-subscribe-link" data-ht="Headersubscribecallout" target="_blank">
+         <span class="site-masthead-subscribe-primary-text">
+          SUBSCRIBE NOW
+         </span>
+         <span class="site-masthead-subscribe-secondary-text">
+          to get full access
+         </span>
+        </a>
+       </div>
+       <div class="site-masthead-special-offers-ad partner-placement">
+       </div>
+      </form>
+     </div>
+    </div>
+    <nav class="site-nav">
+     <ul class="site-nav-list">
+      <li class="site-nav-item site-nav-end-item site-nav-logo-item">
+       <a class="site-nav-link site-nav-logo-link" data-ht="Headerlogocollapsed" href="/">
+        <img class="site-nav-logo-img " src="http://www.gannett-cdn.com/sites/ydr/images/site-nav-logo@2x.png" height="40" alt="The York Daily Record" />
+       </a>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-end-item site-nav-first-primary-item site-nav-text-item site-nav-home-item site-nav-module site-nav-home-module" id="module-position-PiWffreysbM">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-first-primary-link site-nav-text-link site-nav-home-link" href="/" data-ht="Headerhome">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-first-primary-span site-nav-text-span home-theme-bg-hover maroon-theme-bg-hover site-nav-home-span">
+          Home
+         </span>
+         <span class="site-nav-theme-border home-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-news-item site-nav-module site-nav-news-module" id="module-position-PiWffrf2vXA">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-news-link" href="/news/" data-ht="Headernews">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span news-theme-bg-hover maroon-theme-bg-hover site-nav-news-span">
+          News
+         </span>
+         <span class="site-nav-theme-border news-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-sports-item site-nav-module site-nav-sports-module" id="module-position-PiWffrfjw0I">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-sports-link" href="/sports/" data-ht="Headersports">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span sports-theme-bg-hover maroon-theme-bg-hover site-nav-sports-span">
+          Sports
+         </span>
+         <span class="site-nav-theme-border sports-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-business-item site-nav-module site-nav-business-module" id="module-position-PiWffreVhRg">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-business-link" href="/business/" data-ht="Headerbusiness">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span business-theme-bg-hover maroon-theme-bg-hover site-nav-business-span">
+          Business
+         </span>
+         <span class="site-nav-theme-border business-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-lifestyle-item site-nav-module site-nav-lifestyle-module" id="module-position-PiWffrfHZeg">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-lifestyle-link" href="/lifestyle/" data-ht="Headerlifestyle">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span lifestyle-theme-bg-hover maroon-theme-bg-hover site-nav-lifestyle-span">
+          Lifestyle
+         </span>
+         <span class="site-nav-theme-border lifestyle-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-things-to-do-item site-nav-module site-nav-things-to-do-module" id="module-position-PiWffrfgwC0">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-things-to-do-link" href="/things-to-do/" data-ht="Headerthings-to-do">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span things-to-do-theme-bg-hover maroon-theme-bg-hover site-nav-things-to-do-span">
+          FlipSidePA
+         </span>
+         <span class="site-nav-theme-border things-to-do-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-opinion-item site-nav-module site-nav-opinion-module" id="module-position-PiWffrf_Lcg">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-opinion-link" href="/opinion/" data-ht="Headeropinion">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span opinion-theme-bg-hover maroon-theme-bg-hover site-nav-opinion-span">
+          Opinion
+         </span>
+         <span class="site-nav-theme-border opinion-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-obituaries-item site-nav-module site-nav-obituaries-module" id="module-position-PiWffrfu_o8">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-external-text-link site-nav-text-link site-nav-obituaries-link" href="http://www.legacy.com/obituaries/york" data-ht="Headerobituaries" target="_blank">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span obituaries-theme-bg-hover maroon-theme-bg-hover site-nav-obituaries-span">
+          Obituaries
+         </span>
+         <span class="site-nav-theme-border obituaries-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-elections-2016-item site-nav-module site-nav-elections-2016-module" id="module-position-PiWffregF-Q">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-elections-2016-link" href="/elections-2016/" data-ht="Headerelections-2016">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span elections-2016-theme-bg-hover maroon-theme-bg-hover site-nav-elections-2016-span">
+          Elections 2016
+         </span>
+         <span class="site-nav-theme-border elections-2016-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-icon-item site-nav-insider-item site-nav-module site-nav-insider-module" id="module-position-PiWffrfmccw">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-icon-link site-nav-insider-link" href="/insider/" data-ht="Headerinsider">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-icon-span insider-theme-bg-hover maroon-theme-bg-hover site-nav-insider-span">
+          Insider
+         </span>
+         <span class="site-nav-theme-border insider-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-watchdog-item site-nav-module site-nav-watchdog-module" id="module-position-PiWffrfJqKE">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-watchdog-link" href="/news/watchdog/" data-ht="Headerwatchdog">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span watchdog-theme-bg-hover maroon-theme-bg-hover site-nav-watchdog-span">
+          Watchdog
+         </span>
+         <span class="site-nav-theme-border watchdog-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-retro-york-item site-nav-module site-nav-retro-york-module" id="module-position-PiWffreedpo">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-retro-york-link" href="/news/history/" data-ht="Headerretro-york">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span retro-york-theme-bg-hover maroon-theme-bg-hover site-nav-retro-york-span">
+          RETRO YORK
+         </span>
+         <span class="site-nav-theme-border retro-york-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-text-item site-nav-usa-today-item site-nav-always-visible-item site-nav-module site-nav-usa-today-module" id="module-position-PiWffrexFq8">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-text-link site-nav-usa-today-link" href="/section/global/nation-now/" data-ht="Headerusa-today">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-text-span usa-today-theme-bg-hover maroon-theme-bg-hover site-nav-usa-today-span">
+          USA Today
+         </span>
+         <span class="site-nav-theme-border usa-today-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-end-item site-nav-last-primary-item site-nav-icon-item site-nav-media-item site-nav-module site-nav-media-module" id="module-position-PiWffrf0LEY">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-last-primary-link site-nav-icon-link site-nav-media-link" href="/media/latest/news/" data-ht="Headermedia">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-last-primary-span site-nav-icon-span media-theme-bg-hover maroon-theme-bg-hover site-nav-media-span">
+          Media
+         </span>
+         <span class="site-nav-theme-border media-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-more-item site-nav-text-item site-nav-module site-nav-text-module" id="module-position-">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-more-link site-nav-text-link" href="" data-ht="Headertext">
+         <div class="site-nav-span-wrap site-nav-more-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-more-span site-nav-text-span">
+           More
+          </span>
+         </div>
+        </a>
+        <div class="site-nav-dropdown site-nav-more-dropdown site-nav-more-dropdown-1col">
+         <div class="site-nav-dropdown-inner-wrap site-nav-more-dropdown-inner-wrap">
+          <ul class="site-nav-more-dropdown-list site-nav-more-dropdown-list-1col">
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/" data-ht="Headermorehome">
+             Home
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/" data-ht="Headermorenews">
+             News
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/sports/" data-ht="Headermoresports">
+             Sports
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/business/" data-ht="Headermorebusiness">
+             Business
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/lifestyle/" data-ht="Headermorelifestyle">
+             Lifestyle
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/things-to-do/" data-ht="Headermorethings-to-do">
+             FlipSidePA
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/opinion/" data-ht="Headermoreopinion">
+             Opinion
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="http://www.legacy.com/obituaries/york" data-ht="Headermoreobituaries">
+             Obituaries
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/elections-2016/" data-ht="Headermoreelections-2016">
+             Elections 2016
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/insider/" data-ht="Headermoreinsider">
+             Insider
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/watchdog/" data-ht="Headermorewatchdog">
+             Watchdog
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/news/history/" data-ht="Headermoreretro-york">
+             RETRO YORK
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col site-nav-more-dropdown-item-hidden">
+            <a class="site-nav-more-dropdown-link" href="/section/global/nation-now/" data-ht="Headermoreusa-today">
+             USA Today
+            </a>
+           </li>
+           <li class="site-nav-more-dropdown-item site-nav-more-dropdown-item-1col">
+            <a class="site-nav-more-dropdown-link" href="/media/latest/news/" data-ht="HeadermoreMedia">
+             Media
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-primary-item site-nav-spacer-item site-nav-spacer-item site-nav-module site-nav-spacer-module" id="module-position-">
+       <span class="site-nav-inner-wrap">
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-end-item site-nav-first-secondary-item site-nav-icon-item site-nav-social-item site-nav-module site-nav-social-module" id="module-position-PiWffremCIM">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-first-secondary-link site-nav-icon-link site-nav-social-link" href="" data-ht="Headersocial">
+         <div class="site-nav-span-wrap site-nav-icon-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-first-secondary-span site-nav-icon-span social-theme-bg-hover maroon-theme-bg-hover site-nav-social-span">
+           social
+          </span>
+         </div>
+         <span class="site-nav-theme-border social-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+        <div class="site-nav-dropdown site-nav-social-module-dropdown">
+         <div class="social-dropdown-item facebook">
+          <iframe src="//www.facebook.com/plugins/like.php?href=https%3A//www.facebook.com/YorkDailyRecord&amp;width=450&amp;height=46&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=118054614942796" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:135px;" allowtransparency="true">
+          </iframe>
+         </div>
+         <div class="social-dropdown-item twitter">
+          <div class="twitter-follow">
+           <a class="twitter-follow-label" href="https://twitter.com/intent/user?screen_name=ydrcom" target="_blank">
+            Follow
+           </a>
+          </div>
+         </div>
+         <div class="social-dropdown-item google-plus">
+          <div class="g-follow" data-annotation="bubble" data-height="20" data-href="https://plus.google.com/ydr" data-rel="publisher">
+          </div>
+         </div>
+        </div>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-icon-item site-nav-search-item site-nav-module site-nav-search-module" id="module-position-PiWffre8mxk">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-icon-link site-nav-search-link" href="/search/" data-ht="Headersearch">
+         <span class="site-nav-span site-nav-span-theme-maroon site-nav-icon-span search-theme-bg-hover maroon-theme-bg-hover site-nav-search-span">
+          search
+         </span>
+         <span class="site-nav-theme-border search-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+       </span>
+      </li>
+      <li class="site-nav-item site-nav-item-theme-maroon site-nav-secondary-item site-nav-end-item site-nav-last-secondary-item site-nav-icon-item site-nav-firefly-item site-nav-module site-nav-firefly-module" id="module-position-PiWffrejJ4c">
+       <span class="site-nav-inner-wrap">
+        <a class=" site-nav-link site-nav-link-theme-maroon site-nav-end-link site-nav-last-secondary-link site-nav-external-icon-link site-nav-icon-link site-nav-firefly-link" href="http://account.ydr.com" data-ht="Headerfirefly" target="_blank">
+         <div class="site-nav-span-wrap site-nav-icon-span-wrap">
+          <span class="site-nav-span site-nav-span-theme-maroon site-nav-end-span site-nav-last-secondary-span site-nav-icon-span firefly-theme-bg-hover maroon-theme-bg-hover site-nav-firefly-span">
+           Firefly
+          </span>
+         </div>
+         <span class="site-nav-theme-border firefly-theme-bg maroon-theme-bg">
+         </span>
+        </a>
+        <div class="site-nav-dropdown site-nav-firefly-dropdown">
+         <div class="site-nav-firefly-dropdown-section ff-greetings">
+          <p class="site-nav-firefly-dropdown-text">
+           Hi
+           <span class="site-nav-firefly-user-display-name">
+           </span>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-login">
+          <p class="site-nav-firefly-dropdown-text">
+           Already a subscriber?
+          </p>
+          <a class="ui-chunky-btn secondary ff ff-login-btn firefly-signin-btn userAuth-redirect" rel="nofollow" data-ht="HeaderUserAuthLogin" data-user-account="firefly" href="https://login.ydr.com/PPYR-GUP/authenticate/?success-url=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;cancel-url=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal">
+           Log in
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-subscribe">
+          <p class="site-nav-firefly-dropdown-text">
+           Subscribe today for full access on your desktop, tablet, and mobile device.
+          </p>
+          <a class="ui-chunky-btn ff subscribe-btn firefly-subscribe-btn userAuth-redirect" href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;gps-source=CPHPACCOUNT">
+           Subscribe Now
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-activate">
+          <p class="site-nav-firefly-dropdown-text">
+           Already a print edition subscriber, but don't have a login?
+          </p>
+          <a class="ff activate-btn firefly-activate-btn userActivate-redirect" data-user-account="firefly" href="https://subscribe.ydr.com/account-lookup/">
+           Activate your digital access.
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-account">
+          <p class="site-nav-firefly-dropdown-text">
+           Manage your account settings.
+          </p>
+          <a class="ui-chunky-btn ff subscribe-btn firefly-subscribe-btn" data-user-account="firefly" href="https://account.ydr.com/">
+           My Account
+          </a>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-enewspaper">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff" data-user-account="firefly" href="https://account.ydr.com/enewspaper/" target="_blank">
+            View the E-Newspaper
+           </a>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-newsletters">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff" data-user-account="firefly" href="https://account.ydr.com/newsletters/" target="_self">
+            Manage your Newsletters
+           </a>
+          </p>
+         </div>
+         <div class="site-nav-firefly-dropdown-section ff-logout">
+          <p class="site-nav-firefly-dropdown-text">
+           <a class="ff-logout-btn userAuth-redirect" data-ht="HeaderUserAuthLogout" href="https://user.ydr.com/PPYR-GUP/user/logout/?return-url=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal">
+            Log Out
+           </a>
+          </p>
+         </div>
+        </div>
+       </span>
+      </li>
+     </ul>
+    </nav>
+    <div class="bnm-container">
+    </div>
+   </div>
+   <script type="json/headermodules" class="headermodules headermodules-primary">
+    { "js_modules": [{"layoutType": "NAV_MODULES", "position": "PiWffreysbM", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrf2vXA", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfjw0I", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffreVhRg", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfHZeg", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfgwC0", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrf_Lcg", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfu_o8", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffregF-Q", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfmccw", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrfJqKE", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffreedpo", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrexFq8", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffrf0LEY", "oembedtype": null, "name": "link", "options": null}] }
+   </script>
+   <script type="json/headermodules" class="headermodules headermodules-secondary">
+    { "js_modules": [{"layoutType": "NAV_MODULES", "position": "PiWffrejJ4c", "oembedtype": null, "name": "site-nav-firefly-module", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffre8mxk", "oembedtype": null, "name": "link", "options": null}, {"layoutType": "NAV_MODULES", "position": "PiWffremCIM", "oembedtype": null, "name": "site-nav-social-module", "options": null}] }
+   </script>
+  </header>
+  <div id="overlay">
+   <div class="partner-placement partner-gravity-ad partner-gravity-ad-">
+    <div class="partner-scroll">
+     <div class="partner-scroll-circle">
+      <div class="circle-half left-half">
+       <div class="scroll-circle">
+       </div>
+      </div>
+      <div class="circle-half right-half">
+       <div class="scroll-circle">
+       </div>
+      </div>
+      <p class="partner-scroll-number">
+      </p>
+     </div>
+     <p class="partner-scroll-message">
+      Get the news
+     </p>
+     <a class="partner-scroll-login">
+      Log In or Subscribe to skip
+     </a>
+    </div>
+    <div class="partner-login-overlay">
+     <div class="partner-login-modal">
+      <a class="partner-login-modal-close">
+      </a>
+      <div class="partner-login-modal-section ff-login">
+       <p class="partner-login-modal-firefly-text">
+        Already a subscriber?
+       </p>
+       <a class="ui-chunky-btn secondary ff ff-login-btn firefly-signin-btn userAuth-redirect" rel="nofollow" data-ht="HeaderUserAuthLogin" data-user-account="firefly" href="https://account.ydr.com/login/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal">
+        Log in
+       </a>
+      </div>
+      <div class="partner-login-modal-section ff-subscribe">
+       <p class="partner-login-modal-firefly-text">
+        Subscribe today for full access on your desktop, tablet, and mobile device.
+       </p>
+       <a class="ui-chunky-btn ff subscribe-btn firefly-subscribe-btn userAuth-redirect" href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;gps-source=CPHPACCOUNT">
+        Subscribe Now
+       </a>
+      </div>
+      <div class="partner-login-modal-section ff-activate">
+       <p class="partner-login-modal-firefly-text">
+        Already a subscriber, but don't have a login?
+       </p>
+       <a class="ff activate-btn firefly-activate-btn userAuth-redirect" data-user-account="firefly" href="https://subscribe.ydr.com/account-lookup/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal">
+        Activate your digital access.
+       </a>
+      </div>
+     </div>
+     <div class="ui-film show">
+     </div>
+    </div>
+   </div>
+   <div class="transition-wrap">
+    <div class="partner-placement partner-overlay-top-ad">
+    </div>
+    <article class="asset story clearfix">
+     <div class="js-pvb pvb-container">
+      <div class="pvb">
+       <div class="pvb-content pvb-content-left">
+        <div class="pvb-video js-pvb-video">
+        </div>
+       </div>
+       <div class="pvb-content pvb-content-right">
+        <div class="pvb-content-inner">
+         <div class="pvb-controls">
+          <div class="pvb-title js-pvb-title">
+          </div>
+          <div class="pvb-video-controls">
+           <div class="pvb-video-control-item pvb-play-control js-play-control pvb-video-pause">
+           </div>
+           <div class="pvb-video-control-item pvb-scrubber js-pvb-scrubber">
+           </div>
+           <div class="pvb-video-control-item pvb-video-time js-pvb-video-time">
+           </div>
+           <div class="pvb-video-control-item js-pvb-volume pvb-volume-on">
+           </div>
+           <div class="pvb-video-control-item pvb-share pluto-share-button js-pvb-share">
+           </div>
+           <div class="pvb-video-control-item pvb-fullscreen js-pvb-fullscreen">
+           </div>
+          </div>
+         </div>
+         <div class="pvb-next-video-container js-pvb-next-video-container">
+          <a class="pvb-next-video js-pvb-next-video" data-ht="scrollingplayercomingup">
+           <div class="pvb-next-video-text">
+            TOP TRENDING
+           </div>
+           <div class="pvb-next-video-title">
+            <div class="pvb-next-video-play-icon">
+            </div>
+            <div class="pvb-next-video-title-text js-pvb-next-video-text">
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="pvb-close-icon js-pvb-close">
+         </div>
+         <div class="pluto-share-overlay">
+          <span class="close-share-overlay">
+           x
+          </span>
+          <div class="pluto-social-link-options">
+           <p class="pluto-share-overlay-title">
+            Share
+           </p>
+           <div class="direct-link">
+            <form action="">
+             <input type="text" class="share-overlay-direct-link" name="direct-link" value="" label="Direct Link" onclick="this.focus();this.select()" />
+            </form>
+           </div>
+           <div class="pluto-social-share-links-container">
+            <ul class="pluto-social-share-links">
+             <li class="pluto-share-facebook">
+              <a class="pluto-share-facebook-link" data-uotrack="sharefacebook" href="" target="_blank" data-popup="data-popup">
+              </a>
+             </li>
+             <li class="pluto-share-twitter">
+              <a class="pluto-share-twitter-link" data-uotrack="sharetwitter" href="" target="_blank" data-popup="data-popup">
+              </a>
+             </li>
+             <li class="pluto-share-google-plus">
+              <a class="pluto-share-google-plus-link" data-uotrack="sharegoogle" href="" target="_blank" data-popup="data-popup">
+              </a>
+             </li>
+             <li class="pluto-share-mail">
+              <a class="pluto-share-mail-link" data-uotrack="shareemail" target="none" href="">
+               <span class="vjs-control-text">
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="close-wrap">
+      <a href="#" class="close close-overlay" data-ht="modalclose">
+      </a>
+     </div>
+     <div class="utility-bar-wrap">
+      <div class="utility-bar">
+       <div class="util-bar-primary-modules">
+        <div class="util-bar-module util-bar-module-share">
+         <div class="util-bar-btn util-bar-btn-facebook util-bar-btn-share" data-module-name="utility-bar-module-share" data-module-section="share" data-uotrack="UtilityBarFacebookBtn">
+          <span class="util-bar-share-count util-bar-share-count-facebook">
+           91
+          </span>
+         </div>
+         <a class="util-bar-btn util-bar-btn-twitter" data-module-name="share-twitter" data-popup-width="550" data-popup-height="450" data-uotrack="UtilityBarTwitterLink" href="https://twitter.com/intent/tweet?url=http%3A//on-ydr.co/2deUkS2&amp;text=Beth%20Garrison%20provides%20backbone%20for%20Muhlenberg%20volleyball&amp;via=ydrcom" target="_blank" data-popup="data-popup" rel="nofollow">
+         </a>
+         <a class="util-bar-btn util-bar-btn-linkedin" data-share-method="linkedin" data-popup-width="600" data-popup-height="455" data-uotrack="UtilityBarFlyoutLinkedInLink" href="http://www.linkedin.com/shareArticle?url=http%3A//on-ydr.co/2deUkS2&amp;mini=true" target="_blank" data-popup="data-popup" rel="nofollow">
+         </a>
+         <div class="util-bar-btn util-bar-btn-email js-share-email-btn" data-module-name="utility-bar-module-share" data-module-section="email" data-uotrack="UtilityBarEmailBtn">
+         </div>
+         <div class="util-bar-flyout util-bar-flyout-share">
+          <div class="util-bar-flyout-pane util-bar-flyout-pane-share scrollable-content">
+           <div class="util-bar-flyout-heading util-bar-flyout-heading-share">
+            <h6 class="util-bar-flyout-title util-bar-flyout-title-share">
+             Share This Story!
+            </h6>
+            <p class="util-bar-flyout-subtitle util-bar-flyout-subtitle-share">
+             Let friends in your social network know what you are reading about
+            </p>
+           </div>
+           <div class="util-bar-flyout-nav util-bar-flyout-nav-share">
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <span class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-facebook active" data-share-method="facebook" data-uotrack="UtilityBarFlyoutFacebookBtn">
+              Facebook
+             </span>
+            </span>
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <span class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-email" data-share-method="email" data-uotrack="UtilityBarFlyoutEmailBtn">
+              Email
+             </span>
+            </span>
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <a class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-twitter" data-share-method="twitter" data-popup-width="550" data-popup-height="450" data-uotrack="UtilityBarFlyoutTwitterLink" href="https://twitter.com/intent/tweet?url=http%3A//on-ydr.co/2deUkS2&amp;text=Beth%20Garrison%20provides%20backbone%20for%20Muhlenberg%20volleyball&amp;via=ydrcom" target="_blank" data-popup="data-popup">
+              Twitter
+             </a>
+            </span>
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <a class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-googleplus" data-share-method="googleplus" data-popup-width="500" data-popup-height="500" data-uotrack="UtilityBarFlyoutGooglePlusLink" href="//plus.google.com/share?url=http%3A//on-ydr.co/2deUkS2" target="_blank" data-popup="data-popup">
+              Google+
+             </a>
+            </span>
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <a class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-linkedin" data-share-method="linkedin" data-popup-width="600" data-popup-height="455" data-uotrack="UtilityBarFlyoutLinkedInLink" href="http://www.linkedin.com/shareArticle?url=http%3A//on-ydr.co/2deUkS2&amp;mini=true" target="_blank" data-popup="data-popup">
+              LinkedIn
+             </a>
+            </span>
+            <span class="util-bar-flyout-nav-btn-wrap">
+             <a href="//www.pinterest.com/pin/create/button/?url=http%3A//on-ydr.co/2deUkS2&amp;media=http%3A%2F%2Fwww.gannett-cdn.com%2F-mm-%2F21d4d88abd846d78f55dbaf6a62aa9d1274ce9c4%2Fc%3D0-23-1200-701%26r%3Dx324%26c%3D600x321%2Flocal%2F-%2Fmedia%2F2016%2F09%2F19%2FPAGroup%2FYorkDailyRecord%2F636099033449861757-Elizabeth-Garrison.jpg&amp;description=The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport. " data-pin-do="buttonPin" data-pin-config="above" class="util-bar-flyout-nav-btn util-bar-flyout-nav-btn-pinterest" data-share-method="pinterest" data-popup-width="600" data-popup-height="455" data-uotrack="UtilityBarFlyoutPinterestLink" target="_blank" data-popup="data-popup">
+              Pinterest
+             </a>
+            </span>
+           </div>
+           <div class="util-bar-share-summary">
+            <img class="util-bar-share-summary-image" height="60" width="60" data-src="http://www.gannett-cdn.com/-mm-/a14b104645f4be91ca11caf51acf4d77932197a3/c=161-0-1001-840&amp;r=x63&amp;c=60x60/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" alt="" />
+            <h4 class="util-bar-share-summary-title">
+             Beth Garrison provides backbone for Muhlenberg volleyball
+            </h4>
+            <p class="util-bar-share-summary-description">
+             The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport. 
+            </p>
+           </div>
+           <div class="util-bar-flyout-section util-bar-flyout-section-facebook">
+            <form method="post" class="util-bar-share-form-facebook">
+             <div class="util-bar-share-message-facebook" data-link="http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/" data-image="http://www.gannett-cdn.com/-mm-/d808b812444883c38062a4db7ea65221dd69bae6/c=0-23-1200-701&amp;r=x633&amp;c=1200x630/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" data-title="Beth Garrison provides backbone for Muhlenberg volleyball">
+             </div>
+             <div class="util-bar-share-submit-wrap-facebook">
+              <span class="util-bar-share-form-status-facebook">
+               <img class="util-bar-share-loading-facebook" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/indicators/facebook-loading.gif" alt="Loading&hellip;" />
+               <span class="util-bar-share-status-text-facebook">
+               </span>
+              </span>
+              <span class="util-bar-share-submit-btn-facebook">
+               Post to Facebook
+              </span>
+             </div>
+            </form>
+           </div>
+           <div class="share-email-container js-share-email-container">
+            <div class="share-email-form-container js-share-email-form-container">
+             <form action="/services/mail/v3/send/" method="post" class="share-email-form js-share-email-form">
+              <input type="hidden" name="email_type" value="share_email" class="share-email-form-input " />
+              <input type="hidden" name="share_title" value="Beth Garrison provides backbone for Muhlenberg volleyball" class="share-email-form-input" />
+              <input type="text" name="your_name" class="email-to optional share-email-form-input ui-text-input" placeholder="Your Name" />
+              <input type="text" name="from" class="email-to required share-email-form-input ui-text-input " placeholder="Your Email" />
+              <input type="text" name="to" class="email-from required share-email-form-input ui-text-input " placeholder="Your Friend's Email" />
+              <textarea class="email-message share-email-form-textarea js-share-email-form-textarea ui-textarea " name="message" placeholder="Message (optional)">
+               Beth Garrison provides backbone for Muhlenberg volleyball &#13;&#13;The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport.   &#13;&#13;Check out this story on ydr.com: http://on-ydr.co/2deUkS2
+              </textarea>
+              <script type="text/javascript">
+               var RecaptchaOptions = {
+                        theme: 'custom',
+                        custom_theme_widget: 'util-bar-recaptcha-widget'
+                    };
+              </script>
+              <div class="email-form-recaptcha-widget-container js-email-form-recaptcha-widget">
+              </div>
+              <script type="text/template" id="recaptcha_widget">
+               &lt;div class="recaptcha_widget email-form-recaptcha-widget"&gt;&lt;div id="recaptcha_image" class="recaptcha_image"&gt;&lt;/div&gt;&lt;div class="recaptcha_only_if_incorrect_sol"&gt;
+                            Incorrect please try again
+                        &lt;/div&gt;&lt;input type="text" id="recaptcha_response_field" name="recaptcha_response_field" placeholder="Enter the words above" class="share-email-form-input  ui-text-input "&gt;&lt;noscript&gt;
+                            {# &lt;iframe src="http://api.recaptcha.net/noscript?k=6Lf7fuESAAAAAJ3_KMIDbkQySsEE0vMkLXUkq4eY" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt; #}
+                                &lt;textarea class="required" name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;&lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge" class=""&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;div class="recaptcha_option_list"&gt;&lt;div class="recaptcha_option" data-option="reload"&gt;&lt;span class="recaptcha_option_sprite recaptcha_new"&gt;&lt;/span&gt; Try Another
+                    &lt;/div&gt;&lt;div class="recaptcha_option recaptcha_only_if_image" data-option="audio"&gt;&lt;span class="recaptcha_option_sprite recaptcha_audio"&gt;&lt;/span&gt; Audio CAPTCHA
+                    &lt;/div&gt;&lt;div class="recaptcha_option recaptcha_only_if_audio" data-option="image"&gt;&lt;span class="recaptcha_option_sprite recaptcha_audio"&gt;&lt;/span&gt; Image CAPTCHA
+                    &lt;/div&gt;&lt;div class="recaptcha_option" data-option="help"&gt;&lt;span class="recaptcha_option_sprite recaptcha_help"&gt;&lt;/span&gt; Help
+                    &lt;/div&gt;&lt;/div&gt;
+              </script>
+              <noscript>
+               {#
+               <iframe src="http://api.recaptcha.net/noscript?k=6Lf7fuESAAAAAJ3_KMIDbkQySsEE0vMkLXUkq4eY" height="300" width="500" frameborder="0">
+               </iframe>
+               #}
+              </noscript>
+              <div class="email-form-buttons share-email-form-buttons">
+               <span class="ui-chunky-btn secondary icon cancel share-email-form-cancel-btn js-share-email-cancel-btn">
+                Cancel
+               </span>
+               <span class="ui-chunky-btn icon send share-email-form-send-btn js-share-email-send-btn">
+                Send
+               </span>
+              </div>
+             </form>
+            </div>
+            <div class="share-email-success-pane js-share-email-form-success-pane">
+             <h4 class="share-email-success-pane-title">
+              Sent!
+             </h4>
+             <p class="share-email-success-pane-description">
+              A link has been sent to your friend's email address.
+             </p>
+            </div>
+           </div>
+          </div>
+          <div class="util-bar-flyout-pane util-bar-flyout-pane-success util-bar-flyout-pane-success-facebook">
+           <h4 class="util-bar-success-title util-bar-success-title-facebook">
+            Posted!
+           </h4>
+           <p class="util-bar-success-description util-bar-success-description-facebook">
+            A link has been posted to your Facebook feed.
+           </p>
+          </div>
+          <div class="util-bar-flyout-close-ribbon">
+          </div>
+         </div>
+        </div>
+        <div class="util-bar-module util-bar-module-comments">
+         <div class="util-bar-btn util-bar-btn-comments" data-uotrack="UtilityBarCommentsBtn" data-module-name="utility-bar-module-comments">
+         </div>
+         <div class="util-bar-flyout util-bar-flyout-comments">
+          <div class="util-bar-flyout-heading util-bar-flyout-heading-comments">
+           <h6 class="util-bar-flyout-title util-bar-flyout-title-comments">
+            Join the Conversation
+           </h6>
+           <p class="util-bar-flyout-subtitle util-bar-flyout-subtitle-comments">
+            To find out more about Facebook commenting please read the
+            <a href="http://static.ydr.com/conversation-guidelines/">
+             Conversation Guidelines and FAQs
+            </a>
+           </p>
+          </div>
+          <div class="util-bar-comments-wrap">
+           <div class="util-bar-scroll-wrap util-bar-scroll-wrap-comments  ">
+            <div class="facebook-comments-plugin-wrap scrollable-content">
+             <div class="fb-comments" data-href="http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/" data-posts="20" data-width="400">
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="util-bar-flyout-close-ribbon">
+          </div>
+         </div>
+        </div>
+        <div class="util-bar-module util-bar-module-firefly">
+         <div class="util-bar-btn util-bar-btn-firefly" data-uotrack="UtilityBarFireflyBtn" data-module-name="utility-bar-module-firefly">
+         </div>
+         <div class="util-bar-flyout util-bar-flyout-firefly">
+          <div class="util-bar-flyout-firefly-inner-wrap">
+           <p class="util-bar-flyout-firefly-title">
+           </p>
+           <script type="json/ubfmtitle" class="ubfmtitle">
+            ""
+           </script>
+           <div class="util-bar-flyout-firefly-ad hidden">
+           </div>
+           <a href="https://subscribe.ydr.com/?onSuccessRedirectURL=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;gps-source=CPHPACCKEY" class="ui-chunky-btn util-bar-flyout-firefly-subscribe-btn userAuth-redirect">
+            Subscribe Today
+           </a>
+           <!--&lt;p class="util-bar-flyout-firefly-subscribe-meta"&gt;Full access starting at $1MM/month&lt;/p&gt;-->
+           <div class="util-bar-flyout-firefly-auth-wrap">
+            <a href="https://login.ydr.com/PPYR-GUP/authenticate/?success-url=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal&amp;cancel-url=http%3A//www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/%3Ffrom%3Dglobal" class="util-bar-flyout-firefly-sign-in-link userAuth-redirect" data-track-label="fireflyflyoutlogin">
+             Log In
+            </a>
+            <p class="util-bar-flyout-firefly-activate-description">
+             Subscribed, but don't have a login?
+            </p>
+            <a href="https://subscribe.ydr.com/account-lookup/" class="util-bar-flyout-firefly-activate-link userActivate-redirect" data-track-label="fireflyflyoutactivatedigitalsubscription">
+             Activate your digital access.
+            </a>
+           </div>
+          </div>
+          <div class="util-bar-flyout-close-ribbon">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="util-bar-secondary-modules">
+        <div class="util-bar-module util-bar-module-print">
+         <div class="util-bar-btn util-bar-btn-print" data-uotrack="UtilityBarPrintBtn" data-module-name="utility-bar-module-print">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <section id="module-position-PiWkyw9A2TY" class="storytopbar-bucket asset-nav-bar-module story-asset-nav-bar-module">
+     </section>
+     <section id="module-position-PiWkyw8jPgY" class="storytopbar-bucket story-headline-module story-story-headline-module">
+      <h1 class="asset-headline" itemprop="headline">
+       Beth Garrison provides backbone for Muhlenberg volleyball
+      </h1>
+     </section>
+     <section id="module-position-PiWkyw8-F6c" class="storytopbar-bucket story-byline-module story-story-byline-module">
+      <div class="asset-metabar">
+       <span class="asset-metabar-author asset-metabar-item">
+        Bill Arsenault, For the York Daily Record
+       </span>
+       <span class="asset-metabar-time asset-metabar-item nobyline">
+        12:16 a.m. EDT September 20, 2016
+       </span>
+      </div>
+     </section>
+     <section id="module-position-PiWkyw9uQNE" class="storytopbar-bucket piano-module story-piano-module">
+     </section>
+     <section id="module-position-PiWkyw8wllQ" class="storytopbar-bucket google-survey-module story-google-survey-module">
+     </section>
+     <div class="asset-double-wide double-wide p402_premium" role="main" itemprop="articleBody">
+      <div id="module-position-PiWky2CCn30" class="story-asset story-metadata-asset">
+       <div class="article-metadata-wrap">
+        <section id="module-position-PiWky2CNXnE" class="storymetadata-bucket expandable-photo-module story-expandable-photo-module">
+         <aside itemprop="associatedMedia" itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="single-photo expandable-collapsed">
+          <div class="image-wrap">
+           <img class="expand-img-horiz" itemprop="url" src="http://www.gannett-cdn.com/-mm-/157f9c23893b65dd63ca3b2f4c58b5ca89df4448/c=0-0-1117-840&amp;r=x404&amp;c=534x401/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" alt="636099033449861757-Elizabeth-Garrison.jpg" data-mycapture-src="http://www.gannett-cdn.com/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" data-mycapture-sm-src="http://www.gannett-cdn.com/-mm-/2013a592abfc062045ded36eb81669cc3c0f8592/r=500x350/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg" />
+           <span class="toggle">
+           </span>
+           <meta itemprop="name" content="636099033449861757-Elizabeth-Garrison.jpg" />
+          </div>
+         </aside>
+        </section>
+        <p class="image-credit-wrap">
+         <span class="js-caption-wrapper">
+          <span class="cutline js-caption">
+           In her fourth year with Muhlenberg volleyball, libero Beth Garrison has over close to 1,100 career digs and 130 assists.
+          </span>
+          <meta itemprop="copyrightHolder" content="" />
+          <span class="credit">
+           (Photo: Submitted)
+          </span>
+         </span>
+        </p>
+       </div>
+      </div>
+      <p>
+       The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport.
+      </p>
+      <p>
+       And, Beth Garrison is one of the best in Division III when it comes to the dirty work.
+      </p>
+      <p>
+       The senior from Glen Rock and a Susquehannock High School graduate is the backbone of the Muhlenberg women’s volleyball team.
+      </p>
+      <p>
+       “Without good digging, serving and passing, hitters would never have an opportunity to get kills,” she said. “I think the hitters are really appreciative of how important my job is, so whenever I have a great dig that gives them another opportunity, they are quick to acknowledge it and get excited. To me, getting a good dig or ace is about as exciting as it can get.”
+      </p>
+      <p>
+       If that is the case, the 5-foot-5 libero has had a lot of excitement in her four years with the Mules. She currently has 1,096 digs, 130 service aces and 130 assists, the latter despite the fact that she’s not the team’s setter. This season, she has 191 digs, 37 assists and 18 service aces to help Muhlenberg start the season with an 8-3 record after 3-0 victories over McDaniel and Kean last Saturday in Allentown. Garrison had 17 digs in each match.
+      </p>
+      <div id="module-position-PiWky2CYgcY" class="story-asset image-asset">
+       <aside itemprop="associatedMedia" itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="single-photo float">
+        <img itemprop="url" src="http://www.gannett-cdn.com/-mm-/1c2dfb1cdb3e1d1be344dde516444560382132a7/c=0-17-827-1120&amp;r=183&amp;c=0-0-180-240/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099034189779243-Elizabeth-Garrison-mugshot.jpg" alt="Elizabeth Garrison" width="180" height="240" data-mycapture-src="http://www.gannett-cdn.com/media/2016/09/19/PAGroup/YorkDailyRecord/636099034189779243-Elizabeth-Garrison-mugshot.jpg" data-mycapture-sm-src="http://www.gannett-cdn.com/-mm-/a89a380e747da756a3ac9ad229d86e754bd51ad8/r=290x400/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099034189779243-Elizabeth-Garrison-mugshot.jpg" />
+        <meta itemprop="name" content="636099034189779243-Elizabeth-Garrison-mugshot.jpg" />
+        <meta itemprop="height" content="240" />
+        <meta itemprop="width" content="180" />
+       </aside>
+       <p>
+        Elizabeth Garrison
+        <meta itemprop="copyrightHolder" content="Submitted" />
+        &nbsp;
+        <span class="credit">
+         (Photo: Submitted)
+        </span>
+       </p>
+      </div>
+      <p>
+       Veteran coach Alexa Keckler has benefited from Garrison’s play, as the team holds a 74-32 record when Garrison’s been on the court.
+      </p>
+      <p>
+       “We recruited Beth, but she has surpassed our expectations as a defender,” Keckler said. “Her work ethic is untouchable and has proven to aid her in becoming a fantastic Libero.”
+      </p>
+      <p>
+       Keckler agrees that Garrison’s job isn’t glamorous except maybe in the players' eyes, but she also knows the importance of what she does – especially in the serving department.
+      </p>
+      <p>
+       “Scoring points from the service line is one of the only controllable things in the game of volleyball,” the coach said. "Beth has figured out tactically how to attack weaker passers by serving different routes which has ultimately made her a fantastic server for our program.”
+      </p>
+      <p>
+       And then there’s the defense which is definitely not a glamour job.
+      </p>
+      <p>
+       “Beth loves to play defense,” Keckler said. “I would bet she’d call it glamorous. What she does is not easy, but she lives for preventing opponents from scoring on their attack.”
+      </p>
+      <p>
+       And Garrison feels that she’s getting better.
+      </p>
+      <p>
+       “Each year I feel as though I’m gaining more insight and knowledge about the game,” she said. “I’ve gotten better at picking up hitter tendencies and reading where I think the ball is going to go.”
+      </p>
+      <p>
+       That makes Garrison the “go-to” player when the Mules get stuck in difficult situations. It also helps that she’s one of the team captains.
+      </p>
+      <p>
+       “I have really improved my ability to motivate the team on and off the court and have them perform to their best athletically and academically,” she said.
+      </p>
+      <p>
+       It’s been a great career for Garrison, but one thing is missing: Muhlenberg hasn’t captured a Centennial Conference title and earned a trip to the NCAA Division III Tournament during her tenure.
+      </p>
+      <p>
+       “Both are definitely a personal and a team goal,” Garrison said. “We’ve made it to the conference finals twice (freshman and sophomore years) since I’ve been here, so it would be nice to finally come out on top. We certainly have the talent and dedication to get there this season.”
+      </p>
+      <p>
+       Unfortunately, Garrison is the only senior seeing action with the Mules.
+      </p>
+      <p>
+       “We are young but that only means our roof is a lot higher, so we can surprise a lot of teams,” Keckler said.
+      </p>
+      <p>
+       A chemistry major with a business administration minor, Garrison will graduate in May with honors. She made the Dean’s List six semesters thus far.
+      </p>
+      <p>
+       “After graduation, I plan on attending dental school,” she said. “I hope to achieve my doctorate degree in dentistry and eventually have my own practice.”
+      </p>
+      <p>
+       If she shows the same determination that she has on the volleyball court, she can order her shingle any time she wants.
+      </p>
+      <div id="module-position-PiWky2Dhc58" class="story-asset inline-share-tools-asset">
+       <div class="inline-share-tools asset-inline-share-tools asset-inline-share-tools-bottom">
+        <span class="inline-share-btn inline-share-btn-facebook" data-share-method="facebook" data-uotrack="InlineShareFacebookBtn">
+         <span class="inline-share-count inline-share-count-facebook">
+          91
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-facebook">
+          CONNECT
+         </span>
+        </span>
+        <a class="inline-share-btn inline-share-btn-twitter" data-share-method="twitter" data-uotrack="InlineShareTwitterLink" data-popup-width="550" data-popup-height="450" href="https://twitter.com/intent/tweet?url=http%3A//on-ydr.co/2deUkS2&amp;text=Beth%20Garrison%20provides%20backbone%20for%20Muhlenberg%20volleyball&amp;via=ydrcom" target="_blank" data-popup="data-popup" rel="nofollow">
+         <span class="inline-share-count inline-share-count-twitter">
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-twitter">
+          TWEET
+         </span>
+        </a>
+        <a class="inline-share-btn inline-share-btn-linkedin" data-share-method="linkedin" data-popup-width="600" data-popup-height="455" data-uotrack="UtilityBarFlyoutLinkedInLink" href="http://www.linkedin.com/shareArticle?url=http%3A//on-ydr.co/2deUkS2&amp;mini=true" target="_blank" data-popup="data-popup" rel="nofollow">
+         <span class="inline-share-count inline-share-count-linkedin">
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-linkedin">
+          LINKEDIN
+         </span>
+        </a>
+        <span class="inline-share-btn inline-share-btn-comments" data-share-method="comments" data-uotrack="InlineShareCommentsBtn">
+         <span class="inline-share-count inline-share-count-comments">
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-comments">
+          COMMENT
+         </span>
+        </span>
+        <span class="inline-share-btn inline-share-btn-email" data-share-method="email" data-uotrack="InlineShareEmailBtn">
+         <span class="inline-share-count inline-share-count-email">
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-email">
+          EMAIL
+         </span>
+        </span>
+        <span class="inline-share-btn inline-share-btn-more" data-share-method="facebook" data-uotrack="InlineShareMoreBtn">
+         <span class="inline-share-count inline-share-count-more">
+         </span>
+         <span class="inline-share-btn-label inline-share-btn-label-more">
+          MORE
+         </span>
+        </span>
+       </div>
+      </div>
+     </div>
+     <aside class="story-right-rail">
+      <section id="module-position-PiWky13NSBg" class="storyrightrail-bucket poster-ad-asset-module story-poster-ad-asset-module">
+       <div class="partner-placement mediaVoice-placement">
+        <div class="mediaVoice-target">
+        </div>
+       </div>
+       <div class="partner-placement partner-asset-right-ad">
+       </div>
+      </section>
+      <section id="module-position-PiWky12oN_Q" class="storyrightrail-bucket dynamic-video-playlist-module-module story-dynamic-video-playlist-module-module">
+       <div class="story-ribbon" style="">
+        <h6 class="story-ribbon-title">
+         TOP VIDEOS
+        </h6>
+        <div class="story-ribbon-content">
+         <ul class="dvp">
+          <li class="dvp-item first">
+           <a class="dvp-item-link first" href="/videos/sports/4570606289001/5219654294001" data-ht="topvideo1">
+            <div class="dvp-primary-image-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/f12d89bb09ba4a9b896ddf05974e241c5bea9c7b/r=299&amp;c=299x168/http/videos.ydr.com/brightcove/http/4303072811001/201611/1074/4303072811001_5219681085001_5219654294001-vs.jpg" width="299" height="168" alt="Watch: Former NFL players visit York School with message of hope" />
+             <div class="play-btn-l dvp-play-btn">
+             </div>
+            </div>
+            <h6 class="dvp-headline first">
+             Watch: Former NFL players visit York School with message of hope
+            </h6>
+            <div class="dvp-meta first">
+             2:53
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5207752544001" data-ht="topvideo2">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: McSorley, Gesicki discuss Penn State's win in Indiana" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: McSorley, Gesicki discuss Penn State&#39;s win in Indiana
+            </h6>
+            <div class="dvp-meta ">
+             1:32
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5190098025001" data-ht="topvideo3">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: Franklin, Cabinda on Penn State's win vs. Purdue" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Franklin, Cabinda on Penn State&#39;s win vs. Purdue
+            </h6>
+            <div class="dvp-meta ">
+             1:43
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5162325811001" data-ht="topvideo4">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: YAIAA football top performers | Oct. 7-8" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: YAIAA football top performers | Oct. 7-8
+            </h6>
+            <div class="dvp-meta ">
+             0:58
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5162879157001" data-ht="topvideo5">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: YAIAA football top performers Oct. 7 and 8" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: YAIAA football top performers Oct. 7 and 8
+            </h6>
+            <div class="dvp-meta ">
+             0:00
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5162862293001" data-ht="topvideo6">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: YAIAA football top performers | Oct. 7-8" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: YAIAA football top performers | Oct. 7-8
+            </h6>
+            <div class="dvp-meta ">
+             0:58
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5159430791001" data-ht="topvideo7">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: Top 5 Friday night football games" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Top 5 Friday night football games
+            </h6>
+            <div class="dvp-meta ">
+             0:47
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5155677943001" data-ht="topvideo8">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/images/pixels/brand-color-blank.gif" width="84" height="84" alt="Watch: Penn State vs. Maryland preview" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Penn State vs. Maryland preview
+            </h6>
+            <div class="dvp-meta ">
+             1:51
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5140617157001" data-ht="topvideo9">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5140644697001_5140617157001-vs.jpg" width="84" height="84" alt="Watch: York Suburban routs Kennard-Dale 42-6" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: York Suburban routs Kennard-Dale 42-6
+            </h6>
+            <div class="dvp-meta ">
+             2:00
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5139857709001" data-ht="topvideo10">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5139862116001_5139857709001-vs.jpg" width="84" height="84" alt="Watch: Penn State blown away by Michigan" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Penn State blown away by Michigan
+            </h6>
+            <div class="dvp-meta ">
+             1:17
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5139572684001" data-ht="topvideo11">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5139574166001_5139572684001-vs.jpg" width="84" height="84" alt="Watch: Penn State prepares to play Michigan" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Penn State prepares to play Michigan
+            </h6>
+            <div class="dvp-meta ">
+             1:15
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5129957486001" data-ht="topvideo12">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5129959334001_5129957486001-vs.jpg" width="84" height="84" alt="Watch: Penn State 34, Temple 27 game recap" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Penn State 34, Temple 27 game recap
+            </h6>
+            <div class="dvp-meta ">
+             2:10
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5129824943001" data-ht="topvideo13">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5129856968001_5129824943001-vs.jpg" width="84" height="84" alt="Watch: Penn State honors Joe Paterno" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Penn State honors Joe Paterno
+            </h6>
+            <div class="dvp-meta ">
+             2:40
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5129728644001" data-ht="topvideo14">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5129795729001_5129728644001-vs.jpg" width="84" height="84" alt="Watch: York boy named honorary captain at Penn State" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: York boy named honorary captain at Penn State
+            </h6>
+            <div class="dvp-meta ">
+             1:58
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5125290968001" data-ht="topvideo15">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5125303857001_5125290968001-vs.jpg" width="84" height="84" alt="Watch: York skydivers find freedom in falling" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: York skydivers find freedom in falling
+            </h6>
+            <div class="dvp-meta ">
+             1:03
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5119147303001" data-ht="topvideo16">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5119369271001_5119147303001-vs.jpg" width="84" height="84" alt="Watch: Spring Grove shuts out Mechanicsburg" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Spring Grove shuts out Mechanicsburg
+            </h6>
+            <div class="dvp-meta ">
+             1:13
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5115870402001" data-ht="topvideo17">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5117076835001_5115870402001-vs.jpg" width="84" height="84" alt="Watch: Antique bowling" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Antique bowling
+            </h6>
+            <div class="dvp-meta ">
+             1:11
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5113301286001" data-ht="topvideo18">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201609/4303072811001_5115446567001_5113301286001-vs.jpg" width="84" height="84" alt="Watch: Rio Olympian Hali Flickinger return to her roots" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Rio Olympian Hali Flickinger return to her roots
+            </h6>
+            <div class="dvp-meta ">
+             1:41
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5093249439001" data-ht="topvideo19">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201608/4303072811001_5093280608001_5093249439001-vs.jpg" width="84" height="84" alt="Watch: 10-0 Championship baseball win" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: 10-0 Championship baseball win
+            </h6>
+            <div class="dvp-meta ">
+             1:35
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5081733088001" data-ht="topvideo20">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201608/4303072811001_5081792498001_5081733088001-vs.jpg" width="84" height="84" alt="Watch: Jeff Koons throws the first pitch at the York Revolution game" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Jeff Koons throws the first pitch at the York Revolution game
+            </h6>
+            <div class="dvp-meta ">
+             0:07
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5067112962001" data-ht="topvideo21">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201608/4303072811001_5070096843001_5067112962001-vs.jpg" width="84" height="84" alt="Watch: Northeastern, South Western football compete in trivia" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Watch: Northeastern, South Western football compete in trivia
+            </h6>
+            <div class="dvp-meta ">
+             2:29
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5043137945001" data-ht="topvideo22">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201607/4303072811001_5043158986001_5043137945001-vs.jpg" width="84" height="84" alt="Video: Yeehaw! Cowboy Action Shooters" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Yeehaw! Cowboy Action Shooters
+            </h6>
+            <div class="dvp-meta ">
+             1:16
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/5037371233001" data-ht="topvideo23">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201607/4303072811001_5038423011001_5037371233001-vs.jpg" width="84" height="84" alt="Video: Penn State football's grand beginning" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Penn State football&#39;s grand beginning
+            </h6>
+            <div class="dvp-meta ">
+             0:42
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4972892197001" data-ht="topvideo24">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201606/4303072811001_4972942209001_4972892197001-vs.jpg" width="84" height="84" alt="Video: Hits and skates, the York City Derby Dames" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Hits and skates, the York City Derby Dames
+            </h6>
+            <div class="dvp-meta ">
+             0:57
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4943565232001" data-ht="topvideo25">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/13c2fa2e28ff3e648e4f868d7ff342cee7e32c5e/r=500x281&amp;r=84&amp;c=84x84/local/-/media/2016/06/17/PAGroup/YorkDailyRecord/636017852485077988-Assetta.jpg" width="84" height="84" alt="Video: Penns Creek is fly-fishing treasure" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Penns Creek is fly-fishing treasure
+            </h6>
+            <div class="dvp-meta ">
+             2:07
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4680268848001" data-ht="topvideo26">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201512/4303072811001_4680262420001_POS.jpg" width="84" height="84" alt="Video: Former Penn State players talk Paul Posluszny" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Former Penn State players talk Paul Posluszny
+            </h6>
+            <div class="dvp-meta ">
+             1:30
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4679202543001" data-ht="topvideo27">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/b3d9dee2125e82c060e68194088f63ac8e3fe0fa/r=500x332&amp;r=84&amp;c=84x84/local/-/media/2015/12/29/PAGroup/YorkDailyRecord/635870046700942762-YDR-PMK-122915-LUGER-2.jpg" width="84" height="84" alt="Video: Summer Britcher, on her rise in women's luge" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Summer Britcher, on her rise in women&#39;s luge
+            </h6>
+            <div class="dvp-meta ">
+             1:24
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4625462355001" data-ht="topvideo28">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201511/4303072811001_4625595300001_4625462355001-vs.jpg" width="84" height="84" alt="Video: Penn State loses to Michigan" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Penn State loses to Michigan
+            </h6>
+            <div class="dvp-meta ">
+             2:17
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item ">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4625058802001" data-ht="topvideo29">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/ac1b21590f55b8f8e1c066aa255624bccfc43972/r=500x375&amp;r=84&amp;c=84x84/local/-/media/2015/11/21/PAGroup/YorkDailyRecord/635837103982722538-YDR-JP-112115-JP-PSU-seniors-3.jpg" width="84" height="84" alt="Video: Penn State football senior day" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Penn State football senior day
+            </h6>
+            <div class="dvp-meta ">
+             1:22
+            </div>
+           </a>
+          </li>
+          <li class="dvp-item last">
+           <a class="dvp-item-link " href="/videos/sports/4570606289001/4598153493001" data-ht="topvideo30">
+            <div class="dvp-thumb-wrap">
+             <img src="http://www.gannett-cdn.com/-mm-/28c8e37e036f6aec24376c80158230750d4b7ec5/r=84&amp;c=84x84/http/videos.ydr.com/brightcove/http/4303072811001/201511/4303072811001_4598177823001_4598153493001-vs.jpg" width="84" height="84" alt="Video: Penn State 39, Illinois 0" />
+             <div class="dvp-thumb-hed-wrap">
+              <span class="dvp-play-icon-white">
+              </span>
+             </div>
+            </div>
+            <h6 class="dvp-headline ">
+             Video: Penn State 39, Illinois 0
+            </h6>
+            <div class="dvp-meta ">
+             1:15
+            </div>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </section>
+      <section id="module-position-PiWky1365z4" class="storyrightrail-bucket poster-ad-asset2-module story-poster-ad-asset2-module">
+       <div class="partner-placement mediaVoice-placement">
+        <div class="mediaVoice-target-2">
+        </div>
+       </div>
+       <div class="partner-asset-right-ad-2">
+        <div class="poster-scroll">
+         <div class="partner-placement poster-scroll-ad">
+         </div>
+        </div>
+       </div>
+      </section>
+     </aside>
+     <section id="module-position-PiWky15kLIM" class="storybottombar-bucket taboola-related-module story-taboola-related-module">
+      <div class="more more-stories-wrap">
+       <div class="more-stories-content">
+        <div id="js-taboola-wrapper">
+         <div id="taboola-grid-3x3">
+         </div>
+         <div id="taboola-organic-grid-3x3">
+         </div>
+         <div id="taboola-short-article-2x5">
+         </div>
+         <div id="taboola-organic-short-article-2x5">
+         </div>
+         <div id="taboola-grid-sports-3x3">
+         </div>
+         <div id="taboola-organic-grid-sports-3x3">
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix">
+      </div>
+     </section>
+     <section id="module-position-PiWky155YFE" class="storybottombar-bucket leaderboard-ad-module story-leaderboard-ad-module">
+      <div class="partner-placement asset-leaderboard-btf-ad leaderboard-ad common-ad-styling">
+      </div>
+     </section>
+     <!-- comscorekw=sports -->
+     <script type="json/pageinfo" class="pageinfo">
+      {"seokeywords": "", "asset_status": "published", "published_date": "2016-09-19T22:08:45.5Z", "longitude": "", "description": "The hitters and blockers get most of the oohs and aahs in a volleyball match. But, with that being said, the servers, diggers and passers are the blue collar workers in the sport.\u00a0", "assetid": 90704942, "series": "", "shortheadline": "Beth Garrison provides backbone for Muhlenberg volleyball", "topic": "college-volleyball,volleyball", "content_protection_state": "metered", "share_text": "", "section_name": "sports", "priority_asset": "none", "share_imgs": {"shareThumb": "http://www.gannett-cdn.com/-mm-/a14b104645f4be91ca11caf51acf4d77932197a3/c=161-0-1001-840&amp;r=x63&amp;c=60x60/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg", "200x200_1_1": "http://www.gannett-cdn.com/-mm-/c185437751f8b78f33aaeda3b92301aaaeba7157/c=161-0-1001-840&amp;r=x203&amp;c=200x200/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg", "150x150_1_1": "http://www.gannett-cdn.com/-mm-/74b3e1264692c228bd0a900eda536011775492ac/c=161-0-1001-840&amp;r=x153&amp;c=150x150/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg", "site_logo": "http://www.gannett-cdn.com/GDContent/applogos/ydr.png", "shareImage": "http://www.gannett-cdn.com/-mm-/21d4d88abd846d78f55dbaf6a62aa9d1274ce9c4/c=0-23-1200-701&amp;r=x324&amp;c=600x321/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg", "fbShareImage": "http://www.gannett-cdn.com/-mm-/d808b812444883c38062a4db7ea65221dd69bae6/c=0-23-1200-701&amp;r=x633&amp;c=1200x630/local/-/media/2016/09/19/PAGroup/YorkDailyRecord/636099033449861757-Elizabeth-Garrison.jpg", "og_height": 630, "og_width": 1200}, "comma_ssts": "sports", "sponsored_series": false, "canonical": "http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/", "basePageType": "story", "texttype": "story", "commentsenabled": "true", "byline": "Bill Arsenault", "contenttype": "story pages", "parsleykeywords": [], "headline": "Beth Garrison provides backbone for Muhlenberg volleyball", "ssts": "sports", "sponsorname": "", "sponsor_story": false, "share_url": "http://on-ydr.co/2deUkS2", "full_url": "http://www.ydr.com/story/sports/2016/09/19/beth-garrison-provides-backbone-muhlenberg-volleyball/90704942/", "web-template": "", "abtests": [], "noadvertising": false, "blogname": "", "seotitle": "Beth Garrison provides backbone for Muhlenberg volleyball", "videoincluded": "no", "cst": "sports", "latitude": "", "js_modules": [{"layoutType": "STORYTOPBAR", "position": "PiWkyw9A2TY", "oembedtype": null, "name": "asset-nav-bar", "options": null}, {"layoutType": "STORYTOPBAR", "position": "PiWkyw8jPgY", "oembedtype": null, "name": "story-headline", "options": null}, {"layoutType": "STORYTOPBAR", "position": "PiWkyw8-F6c", "oembedtype": null, "name": "story-byline", "options": null}, {"layoutType": "STORYTOPBAR", "position": "PiWkyw9uQNE", "oembedtype": null, "name": "piano", "options": null}, {"layoutType": "STORYTOPBAR", "position": "PiWkyw8wllQ", "oembedtype": null, "name": "google-survey", "options": null}, {"layoutType": "STORYRIGHTRAIL", "position": "PiWky13NSBg", "oembedtype": null, "name": "poster-ad-asset", "options": null}, {"layoutType": "STORYRIGHTRAIL", "position": "PiWky12oN_Q", "oembedtype": null, "name": "dynamic-video-playlist-module", "options": null}, {"layoutType": "STORYRIGHTRAIL", "position": "PiWky1365z4", "oembedtype": null, "name": "poster-ad-asset2", "options": null}, {"layoutType": "STORYBOTTOMBAR", "position": "PiWky15kLIM", "oembedtype": null, "name": "taboola-related", "options": null}, {"layoutType": "STORYBOTTOMBAR", "position": "PiWky155YFE", "oembedtype": null, "name": "leaderboard-ad", "options": null}, {"layoutType": "STORYMETADATA", "position": "PiWky2CNXnE", "oembedtype": null, "name": "expandable-photo", "options": null}, {"layoutType": "storyasset", "position": "PiWky2CCn30", "oembedtype": null, "name": "story-metadata", "options": null}, {"layoutType": "storyasset", "position": "PiWky2CYgcY", "oembedtype": null, "name": "image", "options": null}, {"layoutType": "storyasset", "position": "PiWky2Dhc58", "oembedtype": null, "name": "inline-share-tools", "options": null}], "taxonomykeywords": "College volleyball,Volleyball", "excludeTransitionAd": false}
+     </script>
+    </article>
+   </div>
+   <div class="arrows overlay-arrows">
+    <script type="text/template" id="overlay-arrow-wrap">
+     &lt;% if (disabled) { %&gt;&lt;a class="overlay-content-arrows overlay-arrows-&lt;%= dir %&gt;-wrap &lt;%= disabled %&gt;" data-ht="articlearrow&lt;%= dir %&gt;"&gt;&lt;/a&gt;&lt;% }else{ %&gt;&lt;a class="overlay-content-arrows overlay-content-arrows-&lt;%= dir %&gt;-wrap &lt;%= disabled %&gt;"&gt;&lt;%= dir %&gt;-wrap &lt;%= disabled %&gt;" href="&lt;%= links %&gt;" data-ht="articlearrow&lt;%= dir %&gt;"&gt;&lt;div class="overlay-arrow-&lt;%= dir %&gt; overlay-arrows-anchor"&gt;&lt;%= dir %&gt; overlay-arrows-anchor"&gt;&lt;div class="overlay-arrows-&lt;%= dir %&gt;-anchor-image"&gt;&lt;%= dir %&gt;-anchor-image"&gt;&lt;/div&gt;&lt;div class="&lt;%= dir %&gt;-story-content-holder"&gt;&lt;%= dir %&gt;-story-content-holder"&gt;&lt;% if ((typeof image !== 'undefined') &amp;&amp; image.length &gt; 0) { %&gt;&lt;img class="arrow-story-&lt;%= dir %&gt;-img"&gt;&lt;%= dir %&gt;-img" src="&lt;%= image %&gt;"&gt;&lt;% } %&gt;&lt;p class="next-previous-label"&gt;&lt;% if ((typeof section !== 'undefined') &amp;&amp; section.length &gt; 0) { %&gt;&lt;%= section %&gt;&lt;% } %&gt;&lt;/p&gt;&lt;p class="overlay-arrows-preview-title"&gt;&lt;% if ((typeof headline !== 'undefined') &amp;&amp; headline.length &gt; 0) { %&gt;&lt;%= headline %&gt;&lt;% } %&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;% } %&gt;
+    </script>
+   </div>
+   <div class="partner-overlay">
+    <div class="partner-placement">
+     <a href="#" class="partner-close partner-overlay-close">
+     </a>
+    </div>
+    <div class="ui-film show">
+    </div>
+   </div>
+   <div class="partner-placement partner-teads">
+   </div>
+   <div class="partner-placement partner-mediavoice">
+   </div>
+  </div>
+  <div id="overlay-film" class="ui-film show">
+  </div>
+  <div id="ad-staging">
+  </div>
+  <script type="text/javascript" src="http://mtrx.go.sonobi.com/morpheus.usatoday.1587.js">
+  </script>
+  <script type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js">
+  </script>
+  <script type="text/javascript" src="http://ads.rubiconproject.com/header/11324.js">
+  </script>
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/js/libs/aol/pubtaglib-0.4.3-register.min.js">
+  </script>
+  <!--[if lt IE 9]&gt;&lt;script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/jsb/main_legacy.min.js"&gt;&lt;/script&gt;&lt;![endif]-->
+  <!--[if gt IE 8]&gt;&lt;!-->
+  <script type="text/javascript" src="http://www.gannett-cdn.com/uxstatic/ydr/uscp-web-static-2119.0/jsb/main.min.js">
+  </script>
+  <!--&lt;![endif]-->
+  <div id="fb-root">
+  </div>
+  <script src="http://www.gannett-cdn.com/appservices/gidgits-js/gidgits.min.js" id="gidgits-script">
+  </script>
+  <script type="text/javascript">
+   var mainAd = document.createElement('div');
+        mainAd.id = 'main_ad';
+        mainAd.style.cssText = 'height:1px; width:1px; overflow:auto;position: absolute;left: -999em;';
+        document.body.appendChild(mainAd);
+        var blockPosition = document.getElementById('main_ad');
+        if(blockPosition &amp;&amp; blockPosition.offsetHeight == 1) {
+            window.adsEnabled = true;
+        }
+  </script>
+ </body>
+</html>

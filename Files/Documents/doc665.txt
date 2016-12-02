@@ -1,0 +1,1244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Prospective Employees - Human Resources | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Human Resources
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/hr/background.jpg" alt="Human resources" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/">
+               Human Resources
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/hr/jobs.html">
+               Prospective Employees
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Job Opportunities
+          </h1>
+          <div class="content-add05">
+           <img alt="Fit-Friendly Worksite &ndash; Gold Level Recipient" src="/media/contentassets/images/about/hr/wellness/Seal_gold_2015.jpg" style="margin: 3px; float: left;" />
+           Founded in 1848, Muhlenberg College is a highly selective, coeducational, residential college of liberal arts and sciences located in eastern Pennsylvania's picturesque Lehigh Valley.&nbsp; The campus is about one hour north of Philadelphia, 90 minutes west of New York City and in close proximity to the AppalachianTrail. The College currently enrolls more than 2,200 full-time day students and has enjoyed steadily increasing selectivity and student quality.
+           <p>
+            Detailed job descriptions are created in PDF formats, which require Adobe Acrobat Reader to display. If you do not have this product,
+            <a href="https://get.adobe.com/reader/" target="_blank">
+             please install a free copy
+            </a>
+            .
+           </p>
+           <p>
+            <strong>
+             Please follow the application instructions specific to each of the positions below.
+            </strong>
+            For more information about the College, visit our web site at
+            <a href="http://www.muhlenberg.edu">
+             http://www.muhlenberg.edu
+            </a>
+            .
+           </p>
+           <p>
+            <strong>
+             An Equal Opportunity Employer, Muhlenberg College&nbsp;is committed to valuing and enhancing&nbsp;diversity&nbsp;and encourages applications from individuals who can contribute to the diversity of our community.&nbsp;
+            </strong>
+           </p>
+           <p class="content-add05">
+            &zwnj;.
+           </p>
+           <p>
+            <strong>
+             &nbsp;
+            </strong>
+           </p>
+           <p>
+            <strong>
+             ACCOUNTING, BUSINESS, ECONOMICS &amp; FINANCE
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Assistant Professor (tenure-track) -&nbsp;
+             </strong>
+             Muhlenberg College invites applications for a full-time, tenure track appointment in the field of accounting at the rank of Assistant Professor, to begin August 2017. The CPA designation is required, as well as a Ph.D. or Master&rsquo;s degree in accounting or a closely-related field. A highly-selective liberal arts college, Muhlenberg has developed a thriving accounting major within a department that also offers majors in business administration, economics and finance. The accounting program routinely places more than half of its graduates with Big Four firms.
+             <br />
+             <br />
+             The successful candidate will employ innovative pedagogical and assessment techniques to deliver traditional accounting education within the spirit of inquiry that distinguishes the liberal arts. Muhlenberg&rsquo;s standard teaching load is 3 courses per semester; particular courses taught will depend on staffing needs and candidate interests, but the successful candidate will be competent to teach courses throughout the subject areas that inform public accountancy. Integration of current technology and development of student written and oral expression is required in all courses. Full-time faculty must also engage in professional activity and service to the College. College service requires close collaboration with colleagues and includes the development of mentoring relationships that prepare students for career positions and graduate study.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             Candidates will submit a letter of application that explains how their qualifications and interests correspond to the requirements of this position and how their contributions will contribute to Muhlenberg&rsquo;s effort to become a more diverse and inclusive community. In addition, candidates will submit a curriculum vitae, teaching evaluations from introductory and upper-level courses, all graduate transcripts, and two letters of reference, at least one of which must relate to teaching effectiveness.
+             <br />
+             <br />
+             These materials should be addressed to the Accounting Faculty Search Committee and transmitted electronically to accountingsearch@muhlenberg.edu. Applications will be accepted until the position is filled, with preference given to those received by November 30.
+             <br />
+             <br />
+            </li>
+            <li>
+             <strong>
+              Assistant Professor (tenure-track)
+             </strong>
+             position in Economics and Finance beginning in the Fall of 2017. ABDs are welcome to apply, but candidates are expected to complete a PhD in Economics or Finance by the time of appointment. The Department seeks a teacher/scholar with a commitment to students in and out of the classroom. The teaching load is three courses per semester. Possible courses in economics include Principles of Macroeconomics, Principles of Micro and Intermediate Macroeconomic Theory. Courses in finance may include: Mergers &amp; Acquisitions; Corporation Finance; Investments &amp; Portfolios; Money, Banking &amp; Financial Markets; Investment Strategies; Derivative Markets; and finance courses that reflect the candidate&rsquo;s interests. Professional activity, including active scholarship and participation in College governance are required of all full-time faculty members. The successful candidate must combine teaching excellence with a strong commitment to Muhlenberg's General Education Curriculum, including diversity and global engagement, along with an intellectually compelling research agenda.
+             <br />
+             <br />
+             Applications should include: a cover letter summarizing qualifications and addressing how the candidate can contribute to Muhlenberg&rsquo;s efforts to become a more diverse and inclusive community, a curriculum vitae, a job-market paper, three letters of reference, graduate transcripts, and evidence of teaching excellence. Evidence of teaching excellence should consist of a document containing two teaching evaluations and optionally a separate document with additional teaching evidence of the candidate&rsquo;s choice. Submit above materials via JOE on the American Economic Association website. The application deadline is November 30, but review may begin as applications are received. An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             Muhlenberg College is a highly selective private liberal arts college of approximately 2300 students and 170 faculty members located approximately 1 hour from Philadelphia and 1&frac12; hours from New York City. For more information, visit www.muhlenberg.edu . Candidates must hold valid authorization to work in the U.S. E.O.E.
+            </li>
+           </ul>
+           <p>
+            <strong>
+             <br />
+             ADVANCEMENT
+            </strong>
+            &nbsp;&nbsp;
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Associate Director, Annual Giving (Job #1620)
+             </strong>
+             - Reporting to the Assistant VP, Annual Giving &amp; Advancement Services, the Associate Director is responsible for raising funds from alumni and other donors in support of the current operations of the College. The Associate Director is responsible for sustaining, stewarding and growing participation and giving from the College&rsquo;s annual donors who have the potential for leadership and major gifts. This position supports the strategy developed in conjunction with the Assistant VP and the Annual Giving team, including the development and implementation of a peer-to-peer solicitation volunteer program, reunion and class giving, as well as affinity and religious-based fund-raising. Experience with face-to-face solicitation is preferred, as the Associate Director will maintain a portfolio of 250 prospects capable of making a leadership gift and will be expected to complete 15-18 prospect visits per month.
+             <br />
+             <br />
+             A bachelor's degree is required, as is experience (three to five years) in annual giving. The successful candidate will have the ability to work in a self-directed fashion while serving as a member of a highly collaborative development team. Muhlenberg College offers an excellent benefit package, including tuition scholarship plans for dependents after two years of service.&nbsp;
+             <a href="/media/contentassets/pdf/employeesearch/Associate Director, Annual Giving May 2016.pdf">
+              Click here for full job description.
+             </a>
+             <br />
+             <br />
+             If you find that your background and experience have prepared you for this position, apply by emailing a single pdf including your cover letter, resume and names/contact information for three references to jobs@muhlenberg.edu.
+             <strong>
+              Please be sure that the subject line of your email includes both your last name and "Job #1620."
+             </strong>
+             Applications will be accepted until the position has been filled.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education.&nbsp;For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .&nbsp;
+             <br />
+             <br />
+            </li>
+           </ul>
+           <!--&lt;p&gt;&lt;strong&gt;BIOLOGY&lt;br  /&gt;&lt;br  /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Assistant Professor&lt;/strong&gt; - The Biology Department invites applications for a tenure-track Assistant Professor position beginning August 2017. We are seeking candidates who are strongly committed to undergraduate teaching and research in a liberal arts college environment. Teaching responsibilities include an upper-level microbiology course and an upper-level course supporting the biology major or a related interdisciplinary major (e.g., biochemistry, environmental science, or public health). The successful candidate will also contribute to at least one of the following: our introductory biology sequence, a first-year seminar, a non-majors interdisciplinary cluster course, or a human difference &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; global engagement course. Muhlenberg College is an equal opportunity employer committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can find the latest updates to the College's Diversity Strategic Plan at this link: &lt;a href="SiteManager?ctfn=hierarchy&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;fnno=10&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;sid=2024&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lang=en&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;sslinkid=7" title="Home &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Muhlenberg College &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; About Us &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; President's Office &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Initiatives &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Diversity at Muhlenberg"&gt;http://www.muhlenberg.edu/main/aboutus/president/initiatives/diversityatmuhlenberg/&lt;/a&gt;&lt;br  /&gt;&lt;br  /&gt;Qualifications include: a Ph.D., a record of excellent teaching, and an active research program that can involve undergraduate students. Post-doctoral research or similar experience expected. We are especially interested in applications from candidates with experience in emerging areas of study such as the microbiome, host-microbe interactions, pathogenesis mechanisms, or microbial evolution and ecology. Muhlenberg is a highly selective liberal arts college located in southeastern PA within commuting distance of the New York City and Philadelphia areas. Applicants should submit electronic copies of a letter of application that includes an explanation of how the candidate will contribute to Muhlenberg's efforts to become a more diverse and inclusive community, curriculum vitae, statement of teaching and research interests, evidence of teaching excellence, and sample publications. These and three confidential letters of reference must be sent to &lt;a href="mailto:microbiologist@muhlenberg.edu"&gt;microbiologist@muhlenberg.edu&lt;/a&gt;. Chair of the search is Dr. Marten Edwards, Biology Department, Muhlenberg College, Allentown, PA 18104. For detailed application information visit &lt;a href="SiteManager?ctfn=hierarchy&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;fnno=10&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;sid=73651&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lang=en&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;sslinkid=8" title="Home &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Muhlenberg College &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Academics &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; Biology &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;raquo; microbiologist"&gt;http://www.muhlenberg.edu/main/academics/biology/microbiologist&lt;/a&gt;.&lt;br  /&gt;&lt;br  /&gt;Review of applications will begin October 3, 2016 and continue until the position is filled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;nbsp;&lt;/strong&gt;&lt;/p&gt;-->
+           <p>
+            <strong>
+             BIOLOGY
+             <br />
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Assistant Professor, Biologist (tenure-track) -&nbsp;
+             </strong>
+             Muhlenberg College Biology Department invites applications for a tenure-track Assistant Professor position beginning August 2017. We are seeking candidates who are strongly committed to undergraduate teaching and research in a liberal arts college environment.&nbsp; Teaching responsibilities include an upper-level microbiology course and an upper-level course supporting the biology major or a related interdisciplinary major (e.g., biochemistry, environmental science, or public health). The successful candidate will also contribute to at least one of the following: our introductory biology sequence, a first-year seminar, a non-majors interdisciplinary cluster course, or a human difference &amp; global engagement course. Muhlenberg College is an equal opportunity employer committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             Qualifications include: a Ph.D., a record of excellent teaching, and an active research program that can involve undergraduate students. Post-doctoral research or similar experience expected. We are especially interested in applications from candidates with experience in emerging areas of study such as the microbiome, host-microbe interactions, pathogenesis mechanisms, or microbial evolution and ecology. Muhlenberg is a highly selective liberal arts college located in southeastern PA within commuting distance of the New York City and Philadelphia areas.
+             <br />
+             <br />
+             Applicants should submit electronic copies of a letter of application that includes an explanation of how the candidate will contribute to Muhlenberg's efforts to become a more diverse and inclusive community, curriculum vitae, statement of teaching and research interests, evidence of teaching excellence, and sample publications. These and three confidential letters of reference must be sent to
+             <a href="mailto:microbiologist@muhlenberg.edu">
+              microbiologist@muhlenberg.edu
+             </a>
+             .
+             <br />
+             <br />
+             Chair of the search is Dr. Marten Edwards, Biology Department, Muhlenberg College, Allentown, PA 18104.&nbsp; For detailed application information visit
+             <a href="http://www.muhlenberg.edu/main/academics/biology/microbiologist">
+              http://www.muhlenberg.edu/main/academics/biology/microbiologist
+             </a>
+             &nbsp;&nbsp;Review of applications will begin October 3, 2016 and continue until the position is filled. &nbsp;
+            </li>
+           </ul>
+           <p>
+            <strong>
+             &nbsp;
+            </strong>
+           </p>
+           <p>
+            <strong>
+             CAMPUS SAFETY
+            </strong>
+           </p>
+           <ul>
+            <li style="text-align: left;">
+             <strong>
+              Dispatcher, Part-time (Job #1649) -
+             </strong>
+             Campus Safety seeks a part-time dispatcher for the 12:00 a.m. - 8 a.m. shift, Saturdays, Sundays and Mondays. Responsibilities include prioritizing calls and dispatching officers accordingly, keeping complete and accurate logs of a variety of activities, monitoring computer systems (CCTV, card key system), monitoring police and fire calls on scanner, answering calls to the main College number, and transferring calls as appropriate.
+             <a href="/media/contentassets/pdf/employeesearch/PT Dispatcher wkend midnight - 8 a.m. shift.pdf">
+              Click here
+             </a>
+             &nbsp;for full job description. To apply, email a cover letter, resume and names/contact info of three references to jobs@muhlenberg.edu,
+             <strong>
+              noting both Job #1649 and your last name in the "Subject" line of your email.
+             </strong>
+             For best consideration, apply by November 19, 2016.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <strong>
+              <br />
+              <br />
+             </strong>
+            </li>
+            <li style="text-align: left;">
+             <strong>
+              Police Officer (Job #1670)-
+             </strong>
+             Full-time, year-round position in Department of Campus Safety/Police at Muhlenberg College.
+             <strong>
+              Expected shift assignment is 3PM &ndash; 11PM
+             </strong>
+             . Act 235 certification required, Act 120 preferred. Starting rate is $17.25/hour.
+             <a href="/media/contentassets/pdf/employeesearch/Police Officer 2016.pdf">
+              Click here
+             </a>
+             &nbsp;for full job description.
+             <br />
+             <strong>
+              <br />
+             </strong>
+             To apply, email the following materials to: jobs@muhlenberg.edu. 1) a cover letter addressing your background and leadership experience; 2) your resume; and 3) a list of three references with contact information.
+             <strong>
+              Please include &ldquo;Job #1670&rdquo; and your last name in the Subject line of your email.
+             </strong>
+             Closing date for applications is November 19, 2016. Muhlenberg College is an Equal Opportunity Employer and especially encourages applications from individuals who can contribute to the diversity of the campus.
+             <strong>
+              <br />
+              <br />
+             </strong>
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <strong>
+              <br />
+              <br />
+             </strong>
+            </li>
+            <li style="text-align: left;">
+             <strong>
+             </strong>
+             <strong>
+              Campus Police Reserve Officer (Job #1671)&ndash;
+             </strong>
+             a part-time, as needed position to fill in for full-time Officers during all three shifts and on-campus events.
+             <a href="/media/contentassets/pdf/employeesearch/Reserve Police Officer 2016.pdf">
+              Click here
+             </a>
+             &nbsp;for full job description. Potential Officers will receive full training that is consistent with all current full-time Officers. These positions offer great flexibility in scheduling. Act 235 Certification and valid PA driver&rsquo;s license with clean driving record required. Must pass annual firearms qualification. The hourly rate is $17.00 per hour and does not provide college benefits. Expected assigned hours are estimated at 700 - 990 hours per year.
+             <br />
+             <br />
+             To apply, email resume, cover letter, and names/phone numbers of 3 references to jobs@muhlenberg.edu ,&nbsp;
+             <strong>
+              noting both Job #1671 and your last name in the "Subject" line of your email
+             </strong>
+             &nbsp;by November 19, 2016.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the College's Diversity Strategic Plan.
+            </li>
+           </ul>
+           <p>
+            <strong>
+             EDUCATION
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Adjunct Student Teaching Supervisor -
+             </strong>
+             The Education Department seeks an adjunct supervisor to work with student teachers during the professional semester. We are searching for an individual with a minimum of 10 years of experience working with Pre-K to Grade 4 students. To apply, send resume, cover letter, and two letters of recommendation by November 4, 2016 to Dr. Michael Carbone, Chair, Education Department, Muhlenberg College, 2400 Chew Street, Allentown PA 18104 or send materials by email to cpillar@muhlenberg.edu.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education.&nbsp; For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+            </li>
+           </ul>
+           <p>
+            <strong>
+             HISTORY
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Assistant Professor, History (tenure-track)
+             </strong>
+             - The History Department invites applications for a tenure-track Assistant Professor in Chinese History to begin in August 2017. The ideal candidate will also be able to teach Japanese History at the survey level. We expect this hire to contribute to the growth and development of our Asian Studies Program as well as the College&rsquo;s Human Diversity and Global Engagement general academic requirement. All members of the History Department teach topical Introduction to History courses as well as upper-level courses in their field. Department faculty frequently teach First-Year Seminars and our linked integrative learning Cluster courses. History courses also are significant contributions to the College&rsquo;s Humanities requirement.
+             <br />
+             <br />
+             We seek applicants who are excellent and innovative teachers with both a strong commitment to teaching in a Liberal Arts environment and an active research program. Ph.D. must be in hand by time of appointment. An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. Applicants should address how they will contribute to Muhlenberg&rsquo;s efforts to become a more diverse and inclusive community in their cover letter. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             Applicants should submit a cover letter addressed to Dr. Mark Stein, Chair of the History Department; a C.V.; a statement of teaching philosophy; and evidence of teaching excellence at the undergraduate level as a single pdf file to: historysearch@muhlenberg.edu. Please also arrange for graduate transcripts and three letters of recommendation to be sent electronically. Application deadline is October 30, 2016. Please indicate if you will be available for interviews at the American Historical Association Annual Meeting in Denver in January 2017
+            </li>
+           </ul>
+           <p>
+            <strong>
+             <br />
+             HUMAN RESOURCES
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Administrative Assistant (Job #1672)
+             </strong>
+             &nbsp;-&nbsp;Staff associate opening supporting the Muhlenberg College Human Resources Office. The position is full-time (35 hours/week) year-round. This individual provides secretarial and administrative support for the full range of HR functions, including recruitment and benefits administration. Excellent time management, multi-tasking and organization skills required. A minimum of three years of administrative assistant experience and strong computer skills essential. Prior experience in a human resources office preferred.
+             <a href="/media/contentassets/pdf/employeesearch/AdministrativeAsstJD.pdf">
+              Click here for full job description.
+             </a>
+             Starting rate of $18.00 - $20.00 per hour, depending upon background and experience. Muhlenberg offers excellent benefits, including eligibility to tuition programs for employees and dependents after two years of service.
+             <br />
+             <br />
+             To apply, email your cover letter, resume and names and contact information for three references to jobs@muhlenberg.edu.
+             <strong>
+              Please be sure to note &ldquo;Job #1672&rdquo; and your last name in the subject line of the email.
+             </strong>
+             Application review begins immediately and will continue until the position has been filled. &nbsp;
+             <strong>
+              We are no longer accepting applications for this position.
+             </strong>
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can find the latest updates to the College's Diversity Strategic Plan at this link: http://www.muhlenberg.edu/main/aboutus/president/initiatives/diversityatmuhlenberg/
+            </li>
+           </ul>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             MUSIC
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Assistant Professor (tenure-track)
+             </strong>
+             &nbsp;- The Department of Music at Muhlenberg College seeks an outstanding Composer and Conductor for a tenure-track appointment as Assistant Professor. The ideal candidate would be an effective, dedicated teacher with a record of success in composition, instrumental conducting and music theory instruction.
+             <br />
+             <br />
+             We are a liberal arts college with a strong tradition of excellence in teaching supported by scholarship; thus a successful record of related teaching is expected. This is a full-time position with a teaching load equivalent of three courses per semester.
+             <br />
+             <br />
+             A completed doctorate degree in composition, significant experience in conducting, and full-time college teaching experience are preferred. Responsibilities will include: teaching lessons or classes in composition and the music theory sequence, conducting one large instrumental ensemble and coordinating the instrumental area. The position offers the opportunity to take full advantage of our our state-of-the art electronic music studio.
+             <br />
+             <br />
+             Allentown is a city of c. nearly 200,000 located in the heart of the picturesque Lehigh Valley. It has a vibrant arts scene that is enriched by short commutes to both Philadelphia (75 minutes) and New York City (90 minutes).
+             <br />
+             <br />
+             Please email cover letter, C.V., and one-page statement of teaching philosophy to Dr. Paul Murphy, compositionsearch@muhlenberg.edu. Scores and recordings are not to be submitted until requested. In your cover letter or in a separate document, please discuss how you will contribute to Muhlenberg's efforts to become a more diverse and inclusive community. In addition, please send three current letters of recommendation. Applications received by November 15, 2016 will receive the greatest consideration. &nbsp;For mailing of hard copies: Dr. Paul Murphy, Chair, Department of Music, Muhlenberg College, 2400 Chew Street, Allentown, PA 18104.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             <br />
+            </li>
+            <li>
+             <strong>
+              Lecturer
+             </strong>
+             - The Department of Music at Muhlenberg College seeks an outstanding Conductor and Voice Teacher for a full-time Lecturer appointment.&nbsp;&nbsp; The ideal candidate would be an effective, dedicated teacher with a record of success in both choral conducting and voice instruction.
+             <br />
+             <br />
+             We are a liberal arts college with a strong tradition of excellence in teaching supported by scholarship; thus a successful record of related teaching is expected.&nbsp; This is a full-time position with a teaching load equivalent of three courses per semester.
+             <br />
+             <br />
+             A completed Master&rsquo;s degree in choral conducting, voice, or equivalent professional experience is preferred.&nbsp; Responsibilities will include: conducting a large college choir, a small select choir; teaching studio voice; and coordinating the choral and vocal area.
+             <br />
+             <br />
+             Allentown is a city of c. nearly 200,000 located in the heart of the picturesque Lehigh Valley.&nbsp; It has a vibrant arts scene that is enriched by short commutes to both Philadelphia (75 minutes) and New York City (90 minutes).
+             <br />
+             <br />
+             Please email cover letter, C.V., and one-page statement of teaching philosophy to Dr. Paul Murphy,
+             <a href="mailto:choralsearch@muhlenberg.edu">
+              choralsearch@muhlenberg.edu
+             </a>
+             .&nbsp; &nbsp;In your cover letter or in a separate document, please discuss how you will contribute to Muhlenberg's efforts to become a more diverse and inclusive community.&nbsp; In addition, please send three current letters of recommendation. Applications received by November 15, 2016 will receive the greatest consideration. &nbsp;For mailing of hard copies: Dr. Paul Murphy, Chair, Department of Music, Muhlenberg College, 2400 Chew Street, Allentown, PA 18104.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education.&nbsp; For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+            </li>
+           </ul>
+           <p>
+            &nbsp;
+            <br />
+            <strong>
+             NEUROSCIENCE
+             <br />
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Assistant Professor (tenure-track)
+             </strong>
+             - The Department of Neuroscience at Muhlenberg College invites applications for a tenure-track Assistant Professor of Neuroscience, with a specialization in cognitive neuroscience, to begin Fall, 2017.&nbsp; Candidates will be expected to have a Ph.D. in neuroscience or a related discipline and at least one year of postdoctoral experience by the time of appointment.&nbsp; This is a new tenure-track line that will join our current staff of three full-time equivalent (FTE) faculty.&nbsp; Neuroscience is a dynamic, large, and rapidly growing major at the College and recently became the newest administrative department; we graduate ~35 student majors annually and maintain strong collaborative and cross-disciplinary relationships with faculty in the Departments of Biology, Chemistry, Mathematics, Philosophy, and Psychology. &nbsp;
+             <br />
+             <br />
+             The ideal candidate will have special expertise in the neural substrates of cognitive processes, such as language, emotion, music, and/or perception; they will also possess a knowledge of key historical and/or contemporary philosophical arguments that guide and challenge the work of cognitive neuroscience to resolve the neural basis of mind states. The successful candidate will exhibit potential for excellence in teaching at the undergraduate level, possess particular research skills in cognitive neuroscience, and build a robust research program that includes undergraduate student collaborators. They will rotate with existing faculty in teaching core courses in the neuroscience major as well as create new upper-level electives as their interests and expertise dictate. Like all Neuroscience Department faculty, they will also be expected to participate in the general education program of the College, offering a first-year seminar, a cluster course supporting our integrative learning requirement, a writing-intensive course, and/or a neuroscience course geared to a non-major audience.
+             <br />
+             <br />
+             To apply, please submit the following to NeuroscienceCandidate@muhlenberg.edu: (1) A cover letter describing your interest in the position; (2) a copy of your CV; (3) a statement of teaching philosophy, including specific descriptions of learning goals and effective pedagogical strategies to promote student learning and foster a dynamic, inclusive classroom; (4) a statement outlining your intended research program; (5) a statement describing your experiences with and commitment to diversity, equity, and building an inclusive community, particularly in scientific settings; (6) unofficial copies of your undergraduate and graduate transcripts; and (7) three letters of recommendation.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             For more information about the Neuroscience Department, please visit http://www.muhlenberg.edu/main/academics/neuroscience/. Review of applications will begin November 18, 2016 and continue until the position is filled.
+             <strong>
+              &nbsp;
+             </strong>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             PHYSICAL EDUCATION &amp; ATHLETICS
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Life Guard &ndash; PT
+             </strong>
+             - 3-4 mornings per week 6-9am;occasional afternoons. Additional hours may be available during college breaks. Must have current Lifeguard certification including CPR, First Aid and AED. $12/ hour. Contact Corey Goff via email: &nbsp;
+             <a href="mailto:cgoff@muhlenberg.edu">
+              cgoff@muhlenberg.edu
+             </a>
+             &nbsp;(no phone calls please).
+             <div>
+              &nbsp;
+             </div>
+            </li>
+           </ul>
+           <div>
+           </div>
+           <p align="justify">
+            <strong>
+             <span class="redheader">
+              PLANT OPERATIONS
+             </span>
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              General Mechanic/Groundskeeper (Job #1661)
+             </strong>
+             - Full-time, year-round position. This individual provides routine maintenance for assigned college vehicles and maintenance and repair of grounds equipment and miscellaneous hand tools, in addition to standard groundskeeper work. Grounds functions include mowing, trimming and pruning, moving and installing furniture, set-up and take down for special events, daily maintenance and clean-up, and snow and ice removal.
+             <br />
+             <br />
+             Must have ability to lift 50+ pounds on a regular basis. Working knowledge of automotive mechanics, gas engines, small engines, and diesel motors required. Knowledge of function and repair of hydraulics and experience with welding methods required. Experience with skid steer loader, front end loaders, and chainsaw a plus. Must have a clean driving record, valid driver&rsquo;s license and clear criminal background check.
+             <a href="/media/contentassets/pdf/employeesearch/Mechanic Grounds Job Description_1.pdf">
+              Click here
+             </a>
+             &nbsp;for full job description including qualifications required. Please note: Grounds positions are classified as &ldquo;Essential Personnel&rdquo; and must report to work for snow removal when the College is closed due to winter storms.
+             <br />
+             <br />
+             Starting salary of up to $14.25/hour depending upon background and experience
+             <a href="/media/contentassets/pdf/employeesearch/Employment application 2016.pdf">
+              Click here
+             </a>
+             &nbsp;for printable application form. Email application or resume to jobs@muhlenberg.edu, or mail materials or apply in person to Muhlenberg College, HR Office, Job #1661, 2400 Chew Street, Allentown, PA 18104. E.O.E.
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+            </li>
+           </ul>
+           <p>
+            <strong>
+             PROVOST
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <strong>
+              Provost and Vice President for Academic Affairs&nbsp;
+              <br />
+              <br />
+             </strong>
+             Muhlenberg College located in Allentown, Pennsylvania, seeks a Provost and Vice President for Academic Affairs (&ldquo;Provost&rdquo;). Founded in 1848, Muhlenberg is a selective residential, undergraduate, coeducational, private liberal arts college. The institution enrolls approximately 2,200 full-time students in its traditional undergraduate program and nearly 200 additional adult learners in the Wescoe School of Continuing Education. With an endowment of approximately $237 million and annual budget of approximately $130 million, the College is known for its academic rigor, faculty who are committed to their students, and a close sense of community.
+             <br />
+             <br />
+             As the chief academic officer of the College, the Provost reports to the President and is a key member of the President&rsquo;s administrative cabinet. The Provost&rsquo;s team includes the Dean of the Wescoe School; the Dean of the College for Academic Life; the Dean of Global Education; the Dean of Institutional Assessment and Academic Planning; the College Registrar; the Director of Trexler Library; the Associate Dean of Digital Learning; the Associate Dean of Diversity Initiatives; the heads of 19 academic departments (encompassing 170 full-time faculty); and the Directors of three centers and institutes, and three honors programs.
+             <br />
+             <br />
+             This is an opportune moment for Muhlenberg. Over the past decade, the College has been on an upward trajectory&mdash;strengthening the academic quality of its student body, increasing its number of applicants, wrapping up its most successful capital campaign, enhancing both student and faculty diversity, and completing many capital construction projects. The new Provost will work with the President, senior colleagues, the faculty and the entire College community to further the impact and reputation of the institution.
+             <br />
+             <br />
+             Muhlenberg seeks a strategic thinker who will champion all aspects of the educational enterprise at the College. He or she will enhance academic rigor, nurture the scholarly activities of faculty, foster creativity in the curriculum, shape the long-range academic strategic plan for the College, and strengthen Muhlenberg&rsquo;s identity, diversity and reputation. The Provost will allocate resources to support existing core programs and pave the way for new ones that will help Muhlenberg to thrive.
+             <br />
+             <br />
+             The successful candidate will have a record of proven and effective academic and administrative leadership. He or she will also possess a collaborative, communicative leadership style; administrative, budgetary, and management skills; a demonstrated commitment to diversity; an understanding of effective program assessment; and knowledge of academic technologies. An earned doctorate or other terminal degree is required, as is a record of scholarship and teaching commensurate with appointment as a full professor. &nbsp;
+             <a href="/media/contentassets/pdf/employeesearch/Muhlenberg College - Provost Position Profile.pdf">
+              Click here
+             </a>
+             for the full position profile.
+             <br />
+             <br />
+             Inquiries, nominations, and/or applications (including a curriculum vitae and a letter of interest) should be directed in confidence to: Anita Tien, Vice President and Randi Alberry, Associate, Isaacson, Miller at www.imsearch.com/5916.
+             <strong>
+              &nbsp;
+             </strong>
+             &nbsp;&zwnj;
+             <br />
+             <br />
+             An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+            </li>
+           </ul>
+           <p>
+            <strong>
+             SOCIOLOGY &amp; ANTHROPOLOGY DEPARTMENT
+            </strong>
+           </p>
+           <ul>
+            <li>
+             The Department of Sociology &amp; Anthropology invites applications for a
+             <strong>
+              tenure-track position in Anthropology
+             </strong>
+             (rank open) to begin August 2017. The department seeks applicants who are theoretically grounded and empirically engaged in cultural anthropology. Areas of teaching and/or research that would complement existing faculty include, but are not limited to, medical anthropology, gender and sexuality studies, economic anthropology, critical race and ethnicity and sustainability. Candidates with an ability to contribute to campus-wide general education and interdisciplinary programs are especially welcome.
+             <br />
+             <br />
+             The department expects applicants to be actively engaged in research and publication; however, its primary commitment is to quality undergraduate education. Applicants must therefore demonstrate effective and innovative teaching, and a strong commitment to the goals of a liberal arts education. Successful candidates will hold a Ph.D. in anthropology, exhibit an ability to teach and advise, show promise of continuing scholarship, and demonstrate an ability to work collegially and cooperatively in a combined anthropology and sociology department. While the rank is open, candidates seeking appointment at the associate level must have a teaching and publication record appropriate to a tenured position.
+             <br />
+             <br />
+             Candidates should submit a cover letter that includes teaching and research interests and explains how these will contribute to the diversity of the academic community, curriculum vitae, sample teaching materials with evidence of teaching excellence, graduate transcripts, and contact information for three references. Please send complete application packages to
+             <a href="mailto:SocAnthJob@muhlenberg.edu">
+              SocAnthJob@muhlenberg.edu
+             </a>
+             . Review of materials will begin immediately and continue until the position is filled.
+             <strong>
+              For full consideration, please submit materials before Oct. 14th.
+             </strong>
+             <br />
+             <br />
+             Founded in 1848, Muhlenberg College is an independent, coeducational residential college of liberal arts and sciences located in eastern Pennsylvania's Lehigh Valley, one hour north of Philadelphia and 90 minutes west of New York City. An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+             <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+              College's Diversity Strategic Plan&zwnj;
+             </a>
+             .
+             <br />
+             <br />
+             &nbsp;
+            </li>
+           </ul>
+           <p align="center">
+            <img alt="Human resources" src="/media/contentassets/images/about/hr/SEAL.jpg" />
+           </p>
+           <p>
+            An equal opportunity employer, Muhlenberg College is committed to recruiting and retaining outstanding faculty and staff from racial and ethnic groups that have been traditionally underrepresented in higher education. &nbsp;For additional information about Muhlenberg's commitment to diversity and inclusion, applicants can visit the &zwnj;
+            <a href="/main/aboutus/president/initiatives/diversityatmuhlenberg/">
+             College's Diversity Strategic Plan
+            </a>
+            &zwnj;.
+           </p>
+           <p>
+            Last updated: November 15, 2016
+           </p>
+           <p class="MsoNormal" style="margin: 0in 0in 0pt;">
+            <span style="font-family: Calibri;">
+             <strong>
+              <span style="color: #000000;">
+               &nbsp;
+              </span>
+             </strong>
+            </span>
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Human Resources
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/hr/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/hr/aboutus/">
+            About Us
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/hr/currentemployeesretirees/">
+            Current Employees &amp; Retirees
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/hr/newemployees/">
+            New Employees
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/hr/jobs.html">
+             Prospective Employees
+            </a>
+           </span>
+           <ul class="multilevel-linkul-0">
+            <li>
+             <a href="/main/aboutus/hr/prospectiveemployees/presidentialassistant/">
+              Presidential Assistant
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="http://webapps.muhlenberg.edu:8080/StaffTools">
+            Staff Directory
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/hr/aboutus/"&gt;About Us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/hr/currentemployeesretirees/"&gt;Current Employees &amp; Retirees &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/hr/newemployees/"&gt;New Employees&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/hr/jobs.html"&gt;Prospective Employees&lt;/a&gt;&lt;/span&gt;
+&lt;ul class="multilevel-linkul-0"&gt;
+&lt;li&gt;&lt;a href="/main/aboutus/hr/prospectiveemployees/presidentialassistant/"&gt;Presidential Assistant&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a href="http://webapps.muhlenberg.edu:8080/StaffTools"&gt;Staff Directory&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

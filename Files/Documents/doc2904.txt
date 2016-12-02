@@ -1,0 +1,955 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  START -->
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  END -->
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css"  /&gt;-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeNR.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors-wescoe.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeLayoutNR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css"  /&gt;-->
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Marrero - Successful Transformations | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links (2) Wescoe -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/wescoe/prospectivestudents/" style='background-image:url("/media/contentassets/wescoesite/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/TransferGuides.html" style='background-image:url("/media/contentassets/wescoesite/currentImage.jpg");'>
+        Transfer Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/currentstudentsfaculty/" style='background-image:url("/media/contentassets/wescoesite/veteran.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/aboutus/staff.html" style='background-image:url("/media/contentassets/wescoesite/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenbergconnect.com/s/1570/start.aspx?gid=2&amp;pgid=61" style='background-image:url("/media/contentassets/wescoesite/alumni1.jpg");'>
+        Alumni
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/communitypartners/" style='background-image:url("/media/contentassets/wescoesite/CommunityPartnersImage.jpg");'>
+        Community Partner
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/main/wescoe">
+         <img src="/media/contentassets/wescoesite/logo.fw.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="https://www.linkedin.com/company/the-wescoe-school-of-muhlenberg-college">
+           <span class="fa fa-linkedin">
+           </span>
+          </a>
+          <a target="_child" href="https://twitter.com/wescoeschool">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="https://www.facebook.com/WescoeSchool/">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+          <a target="_child" href="http://www.muhlenberg.edu/">
+           <span class="fa fa-home">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD Wescoe -->
+          <ul>
+           <li>
+            <a href="/main/wescoe/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/programcourseofferings/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/veteransportal/">
+             Veterans Portal
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/stories/">
+             Success Stories
+            </a>
+           </li>
+           <li>
+            <a href="http://shrek.muhlenberg.edu/Calendar">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/wescoe/contactus">
+             Contact
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Marrero
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/wescoe/Marrero-pageheader-NEWPIX.jpg" alt="Delia Marrero" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/index.php">
+               Wescoe School
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/stories/">
+               Successful Transformations
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/stories/marrero/">
+               Marrero
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           How has Delia's personal experience fueled her passion to help others in the Lehigh Valley? By assisting low-income families in helping them find resources for a better way of life.
+          </h1>
+          <p>
+           In 2013, the federal poverty threshold for a family of four was $23,624: that&rsquo;s two adults and two children living on less than $24k a year. Analysts suggest that a family of four should earn twice that amount to afford basic goods and services such as electric, rent and food. According to the United States Census Bureau, over 42,000 people in Lehigh County alone are currently at poverty level. (
+           <a href="http://www.census.gov/quickfacts/table/PST045214/42077/embed%29">
+            United States Census Bureau (2013))
+           </a>
+           .
+          </p>
+          <p>
+           What does this all mean? There are many people in the area who need help.
+          </p>
+          <p>
+           <a href="http://caclv.org/">
+            Community Action Committee of the Lehigh Valley, Inc. (CACLV)
+           </a>
+           is a nonprofit agency that dedicates its time and resources to advocate for the people and neighborhoods of the Lehigh Valley. They are the conscience that seeks justice for people at poverty level, helping each and every individual pursue opportunities and creating neighborhoods that are economically self-sustainable.
+          </p>
+          <p>
+           Delia Marrero, Wescoe student, CACLV advocate and employee, has a passion for those in need. A few short years ago she was one of those people. At the young age of 19, Delia was a single parent to two little ones and on welfare. Wanting a better life with more opportunity, in 2005 Delia enrolled at
+           <a href="https://www.northampton.edu/">
+            Northampton Community College (NCC)
+           </a>
+           after conversing with a caseworker at the
+           <a href="http://www.dhs.state.pa.us/">
+            Department of Public Welfare (DPW)
+           </a>
+           . It was suggested that she look into
+           <a href="http://northampton.edu/campus-life-and-housing/student-services/new-choices.htm">
+            New Choices
+           </a>
+           , a program that provides free classes for individuals in a transitional period, such as single parents, displaced homemakers and dislocated workers. The program includes career development, computer classes and training.
+          </p>
+          <p>
+           It was during this time Delia met Maryann Haytmanek, director of the
+           <a href="http://northampton.edu/campus-life-and-housing/student-services/new-choices.htm">
+            New Choices
+           </a>
+           program and soon to be Mentor. &ldquo;It was clear to me that Delia was very bright,&rdquo; says Maryann. &ldquo;She caught on to all topics that we discussed quickly. She had a developed insight into the human condition and even with the challenges associated with being a single parent, she had a strong desire to finish college.&rdquo;
+          </p>
+          <p>
+           Delia&rsquo;s curiosity led her to research welfare and government regulations related to post-secondary education attendance and eventually she became more interested in policy discussions and decisions regarding regulations that affect low-income families. &ldquo;We jumped at the chance to have Delia work as our Student Assistant, first as a work/study student and then as a part-time staff member who served as our office assistant,&rdquo; says Maryann. &ldquo;Not only did she perform her clerical duties but she was also an excellent mentor for new students who became part of our
+           <a href="https://www.northampton.edu/early-childhood-education/partnerships/northeast-key-funded-classes.htm">
+            KEYS
+           </a>
+           program.&rdquo;
+          </p>
+          <p>
+           Delia worked hard to secure scholarships for her education, which is a tribute to her academic excellence and determination. &ldquo;We share her successes regularly with our participants,&rdquo; says Maryann. In addition to taking classes, raising her family, and working at NCC, Delia also became one of the first participants to graduate from the newly established
+           <a href="https://www.northampton.edu/early-childhood-education/partnerships/northeast-key-funded-classes.htm">
+            KEYS
+           </a>
+           program (Pennsylvania Keystone Education Yields Success). The
+           <a href="https://www.northampton.edu/early-childhood-education/partnerships/northeast-key-funded-classes.htm">
+            KEYS
+           </a>
+           program assists parents who receive Supplemental Nutrition Assistance Program (SNAP) benefits, formerly Food Stamps,
+           <a href="http://www.benefits.gov/benefits/benefit-details/613">
+            Temporary Assistance for Needy Families (TANF) benefits
+           </a>
+           , and are in a certificate or degree program at one of Pennsylvania's 14 community colleges.
+           <a href="https://www.northampton.edu/early-childhood-education/partnerships/northeast-key-funded-classes.htm">
+            KEYS
+           </a>
+           began as a response to growing research that people who earn a certificate or degree are better able to find jobs with family-sustaining wages, benefits, and opportunities for advancement. According to
+           <a href="http://www.clasp.org/">
+            CLASP
+           </a>
+           (www.CLASP.org), an organization that develops and promotes new ideas and directly assists government and advocates successful strategies that deliver results for all people, data shows the average hourly salary of
+           <a href="https://www.northampton.edu/early-childhood-education/partnerships/northeast-key-funded-classes.htm">
+            KEYS
+           </a>
+           graduates is $14.77/hour compared to under $8/hour for current participants in other
+           <a href="http://www.dhs.state.pa.us/">
+            DPW
+           </a>
+           programs.
+          </p>
+          <p>
+           In 2009 Delia graduated from NCC with a degree in paralegal studies. She continued to work at NCC, and in 2013 she enrolled at the
+           <strong>
+            &nbsp;Wescoe School
+           </strong>
+           to begin work on a bachelor&rsquo;s degree. Delia is currently an English major, with minors in history and political science. Her passion is working with low-income families, helping them find resources and encouraging them to better themselves. Her position at
+           <a href="http://caclv.org/">
+            CACLV
+           </a>
+           is Weatherization Representative.
+           <br />
+           <br />
+           Weatherization provides low-income clients with energy-reducing options for free. This ultimately helps clients to keep their energy bills low by keeping their homes warm in the winter and cool in the summer.
+           <br />
+           <br />
+           Delia&rsquo;s career goal is to continue working with low-income families as she has found her calling in the non-profit sector. She wants to make a difference and help others as she was once helped. &ldquo;I have learned that things don&rsquo;t always work out like you plan. My only goal now is help others in need,&rdquo; says Delia.
+           <br />
+           <br />
+           For more information about the
+           <strong>
+            &nbsp;Wescoe School of Muhlenberg College
+           </strong>
+           , please email
+           <a href="mailto:wescoe@muhlenberg.edu">
+            <strong>
+             wescoe@muhlenberg.edu
+            </strong>
+           </a>
+           or call
+           <strong>
+            484-664-3300
+           </strong>
+           .
+          </p>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <div class="box02">
+          <!-- navigation object : Callout Links Related -->
+         </div>
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <ul class="menu02">
+          <li>
+           <span>
+            About Us
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/wescoe/aboutus/">
+            Home
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/missionandhistory/"&gt;Mission and History&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/wescoe/stories/"&gt;Successful Transformations&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/directions.html"&gt;Directions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/faq/"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/media/contentassets/pdf/about/campus-safety/annual_report.pdf"&gt;Campus Safety Annual Information&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/staff.html"&gt;Staff Directory&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/request-info.html"&gt;Request Information&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/aboutus/highlights/"&gt;Highlights&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/prospectivestudents/appointment.html"&gt;Schedule Appointment&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             A graduate's sweet story of success!
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/Hockenbury.html">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/Joane-662-x-395---No-Text-115x69.png" alt="Joan&eacute; Hockenbury" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Why was Ms. Rivera '09 selected to serve on Governor Tom Corbet's Advisory Board?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/rivera/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/Rivera.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do financial professionals keep pace in this economy?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/watts/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/Watts.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What does the city of Allentown and The Wescoe School have in common?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/schafer/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/Schafersm.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Military Friendly School. Welcome Veterans!
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/prospectivestudents/theyellowribbonprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/2016_MFS_Logo_150x150-115x115.png" alt="Military Friendly School Thumbnail" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How is Psychology Major Kate Robbins '12 gaining inspiration and valuable experience in her field?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/robbins/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/robbins_sm.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What do these students know about fundraising?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/pcflvfundraisingproject/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/PCFLV_sm.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How has Delia's personal experience fueled her passion to help others in the Lehigh Valley?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/marrero/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/rotator/Marrero-662-x-395-150x90.jpg" alt="Delia Marrero" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Why did a retired Lieutenant General meet with Wescoe Student Veterans?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/bectonjr/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/veteran_sm.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How did this student earn her way to the area's leading news station?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/CruzWFMZ69.html">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/cruz-sm.jpg" alt="Kathy Cruz Teaser Image" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Successful Transformations...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Why did this woman choose Wescoe?
+            </span>
+            <div align="right">
+             <a href="/main/wescoe/stories/frame/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/wescoe/frame-sm.jpg" alt="Wescoe School" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Prospective Students
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/">
+           Summary
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+           Getting Started
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/informationsessions/">
+           Information Sessions
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/veteransportal/">
+           Veteran's Portal
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/TransferGuides.html">
+           Transfer Guides
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/tuition.html">
+           Tuition &amp; Fees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/tuitionbenefits/">
+           Tuition Benefits
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/relatedforms/">
+           Related Forms
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/finaid/wescoestudents/generalinformation/">
+           Financial Aid
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/request-info.html">
+           Request Information&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs &amp; Course Offerings
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/">
+           Academic Overview
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/traditionaldegrees/">
+           Traditional Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/accelerateddegrees/">
+           Accelerated Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/teachercertification/">
+           Teacher Certification/ACT 48
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/communitypartners/corporatepartnerships/">
+           Corporate Partnerships
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/summer.html">
+           Summer Study
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/frmss03w.html">
+           Course Selections&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Current Students/Faculty
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/currentstudentsfaculty/academicadvising/">
+           Academic Advising
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="https://muhlenbergcollege.instructure.com/login/canvas">
+           Canvas
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/" target="_blank">
+           CapStone Online
+          </a>
+         </li>
+         <li>
+          <a href="http://www.studentclearinghouse.org/" target="_blank">
+           Order Transcripts
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/staff.html">
+           Staff Directory&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3300 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College Wescoe School of Continuing Education
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

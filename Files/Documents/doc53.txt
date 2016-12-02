@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>
+   The Real Deal on Financial Aid | Muhlenberg College
+  </title>
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.transitions.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/kdg.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/print.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <!--Style for right-side links -->
+  <style>
+   #admissionUpdate li ul li {
+    font-size: .75em;
+    padding-left: 15px;
+    
+    }
+  </style>
+ </head>
+ <body>
+  <noscript>
+   <div class="noscript-modal">
+    <input type="checkbox" class="modal-closing-trick" id="modal-closing-trick" />
+    <div class="noscript-overlay">
+    </div>
+    <div class="modal">
+     <h3 class="red">
+      Whoops! Please enable Javascript
+     </h3>
+     <p>
+      We've worked hard to update this site with the latest technology. To ensure that you are getting the best experience, please enable Javascript in your browser's settings. Thank you!
+     </p>
+     <label class="button red" for="modal-closing-trick">
+      Close
+     </label>
+    </div>
+   </div>
+  </noscript>
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h4 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h4>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome" target="_blank">
+       <img src="/media/kdmedia/images/chrome.png" alt="Chrome" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="/media/kdmedia/images/firefox.png" alt="Firefox" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="/media/kdmedia/images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="/media/kdmedia/images/safari.png" alt="Safari" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="/media/kdmedia/images/opera.png" alt="Opera" />
+      </a>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!-- navigation object : Tool I Am Links -->
+  <div class="collapse" id="iam-navigation">
+   <ul>
+    <li>
+     <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+      Prospective Student
+     </a>
+    </li>
+    <li>
+     <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+      Incoming Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+      Current Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+      Faculty &amp; Staff
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+      Parent
+     </a>
+    </li>
+    <li>
+     <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+      Alumni
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <div class="collapse" id="tool-navigation">
+   <ul>
+    <li>
+     <a href="/contact">
+      Contact
+     </a>
+    </li>
+    <li>
+     <a href="/main/aboutus/campus-map/">
+      Campus Map
+     </a>
+    </li>
+    <li>
+     <a href="/tactical/azfind.htm">
+      A-Z Index
+     </a>
+    </li>
+    <li>
+     <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+      Directory
+     </a>
+    </li>
+    <li>
+     <a href="http://trexler.muhlenberg.edu/">
+      Library
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <nav class="navbar" id="top">
+   <div class="container">
+    <div class="row">
+     <div class="expand-buttons">
+      <ul>
+       <a href="/alumni/give">
+       </a>
+       <li class="give-btn hidden-xs">
+        Give
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+       </a>
+       <li class="tool-button">
+        Tools
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+       </a>
+       <li class="iam-button">
+        I am
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <div class="clearfix">
+       </div>
+      </ul>
+     </div>
+     <!--/expand-buttons-->
+     <div class="col-xs-12 col-sm-6">
+      <a href="/">
+       <img src="/media/kdmedia/images/header-logo.png" />
+      </a>
+      <a data-toggle="collapse" href="#mobile-nav" aria-expanded="false" aria-controls="mobile-nav" class="mobile-menu hidden-lg hidden-md hidden-sm">
+       <span class="fa fa-bars">
+       </span>
+      </a>
+     </div>
+     <div class="col-xs-12 col-sm-6 hidden-xs">
+      <div class="header-right">
+       <div class="search ">
+        <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+         <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+         <button type="Submit" class="btn btn-search">
+          <span class="fa fa-search">
+          </span>
+         </button>
+        </form>
+        <a target="_child" href="http://twitter.com/muhlenberg">
+         <span class="fa fa-twitter">
+         </span>
+        </a>
+        <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+         <span class="fa fa-facebook">
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--row-->
+   </div>
+   <div class="inner-nav hidden-xs">
+    <div class="container">
+     <div class="row">
+      <div class="nav-holder">
+       <a name="navigation" style="display:none">
+       </a>
+       <div class="nav">
+        <!-- navigation object : Main Menu KD -->
+        <ul>
+         <li>
+          <a href="/main/aboutus/">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Admissions
+          </a>
+         </li>
+         <li>
+          <a href="/academics/">
+           Academics
+          </a>
+         </li>
+         <li>
+          <a href="/student-life/">
+           Student Life
+          </a>
+         </li>
+         <li>
+          <a href="http://muhlenbergsports.com/" target="_blank">
+           Athletics
+          </a>
+         </li>
+         <li>
+          <a href="/news-and-events/index.php">
+           News &amp; Events
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/">
+           Adult Learning
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <!--row-->
+    </div>
+   </div>
+  </nav>
+  <div id="mobile-nav" class="collapse hidden-sm hidden-md hidden-lg">
+   <div class="search ">
+    <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+     <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+     <button type="Submit" class="btn btn-search">
+      <span class="fa fa-search">
+      </span>
+     </button>
+    </form>
+   </div>
+   <!-- navigation object : Main Menu KD -->
+   <ul>
+    <li>
+     <a href="/main/aboutus/">
+      About Us
+     </a>
+    </li>
+    <li>
+     <a href="/main/admissions/">
+      Admissions
+     </a>
+    </li>
+    <li>
+     <a href="/academics/">
+      Academics
+     </a>
+    </li>
+    <li>
+     <a href="/student-life/">
+      Student Life
+     </a>
+    </li>
+    <li>
+     <a href="http://muhlenbergsports.com/" target="_blank">
+      Athletics
+     </a>
+    </li>
+    <li>
+     <a href="/news-and-events/index.php">
+      News &amp; Events
+     </a>
+    </li>
+    <li>
+     <a href="/main/wescoe/">
+      Adult Learning
+     </a>
+    </li>
+   </ul>
+   <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+    <span class="fa fa-facebook">
+    </span>
+   </a>
+   <a target="_child" href="http://twitter.com/muhlenberg">
+    <span class="fa fa-twitter">
+    </span>
+   </a>
+   <a href="/alumni/give" class="btn primary-btn">
+    Give
+   </a>
+  </div>
+  <div class="container">
+   <div class="row mobile-row">
+    <div class="row two-col page-content about-us">
+     <!--Page Content-->
+     <div class="col-lg-9 col-sm-8 col-xs-12">
+      <div class="page-header" style='background-image:url("/media/kdmedia/images/page-headers/admissions.jpg");'>
+       <h1>
+        The Real Deal on Financial Aid
+       </h1>
+      </div>
+      <div class="cta-section hidden-sm hidden-md hidden-lg" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <!-- Content Template Start: General Content-->
+      <h1>
+      </h1>
+      <p>
+       There was a time, not so very long ago, when college was only for a privileged few. There was no such thing as financial aid as we know it today. Prestigious colleges would sometimes take needy but very well-qualified students on scholarships, but the overwhelming majority of college students came from families that could afford the full cost of college.
+      </p>
+      <div class="content-add05">
+       <p>
+        <strong>
+         How college costs have changed
+        </strong>
+        <br />
+        Eventually, college costs escalated beyond the reach of even many upper-middle class families. At the same time, elite colleges came under increasing pressure to diversify their campuses&mdash;socioeconomically, ethnically and otherwise. Ultimately, college education came to be seen as a right, not a privilege, and as a necessity, not a luxury. As a result, colleges began to implement financial aid programs.
+       </p>
+       <p>
+        More recently, colleges have begun using financial aid as a recruiting tool. As colleges continue to shape, rather than simply fill, their classes, money has become a means to enrolling the particular students that an institution most wants. This phenomenon is called preferential packaging.
+       </p>
+       <p>
+        <strong>
+         Enter preferential packaging
+        </strong>
+        <br />
+        Preferential packaging means, simply, that the students a college would most like to enroll will receive the most advantageous financial aid packages. Financial aid packages are made up of:
+       </p>
+       <ul>
+        <li>
+         Grants. These may come from the college, the state, or the national government. They are "gifts," or "free money" and do not have to be paid back.
+        </li>
+        <li>
+         Loans. You are entitled to some government loans, and there are others you or your parents must qualify for, but taking loans is always optional. Loans must be repaid, usually beginning six months after graduation from college.
+        </li>
+        <li>
+         Work. Colleges and the government both fund on-campus work programs. These programs are designed to help a student meet the total cost of attending college&mdash;over and above tuition and fees&mdash;in exchange for on-campus work.
+        </li>
+       </ul>
+       <p>
+        A preferential financial aid package includes a far greater percentage of grant aid than self-help (loans and work). Because they have discretion over how much grant aid they choose to award a student, a college can award a bigger grant to a student they would really like to enroll. In some cases, the total of grant from the college and the loans the student is entitled to may exceed the student's financial need. ("Need" is the cost of attendance&mdash;tuition, room, board, books, travel and expenses&mdash;minus what a family is able to pay.) In addition, students at the top of the applicant pool may receive Merit Scholarships designed to reward their outstanding high school record and further entice them to the college.
+       </p>
+       <p>
+        Students who are admitted but in the bottom half of the admitted student group will probably receive a package that is built from self-help up. That is, the college will award the student's entitlements and work first, and then review how much grant money it will take to reach the student's full need. The college may or may not decide to meet the student's need in full.
+       </p>
+       <p>
+        Some students nearer the bottom of the admitted student group are "gapped," meaning that they have a financial aid package, but it may not meet their full need. Other students may go on a financial aid wait list. They will only receive a package if funds become available because a lot of students who were packaged decided to attend other colleges.
+       </p>
+       <p>
+        <strong>
+         What this means to you
+        </strong>
+        <br />
+        What this means to you is: If money is a factor in your college search and it will impact your final choice, you should make sure to apply to colleges where you are clearly in the top third to top quarter of the applicant pool.
+       </p>
+       <p>
+        If you are just squeaking in for admission, odds are your financial aid, if it comes, will be mostly aid you give yourself (i.e., loans or work).
+       </p>
+       <p>
+        It used to be that you could try for that reach school and if you got in, you didn't have to worry because everybody who got in, who needed money, got money. Today, however, as colleges are asked to fund more and more of their own operation with less and less assistance from government, foundations, and families, they are increasingly reluctant to part with their money to enroll students who don't raise their academic profile.
+       </p>
+       <p>
+        While the new world of preferential packaging may not seem as "kind and gentle" as the process was in years past, it does have its good points. Perhaps the most important one is that the right students and the right colleges may be finding each other more often.
+       </p>
+       <p>
+        It might not always feel good, especially when the college you thought you wanted most doesn't come through with a great aid package. But if an outstanding student is going way out of his or her way with money to enroll at a particular college, even though other colleges were less expensive, there must be a good reason. If an outstanding college is going way out of its way with money to enroll a particular student, even though other students were less expensive, there must be a good reason. Figuring out what those reasons are will be a big part of your decision-making process.
+       </p>
+       <p>
+        <strong>
+         The good news
+        </strong>
+        <br />
+        This is not all gloom and doom. If a college gives you a great package, they probably really want you and that's a great feeling. The trick, as with many things in life (and you might as well learn this now rather than later) is to figure out how to want what you can have instead of what you can't.
+       </p>
+       <p>
+        As colleges work to shape their freshman classes and enroll students who, as a group, represent all of the college's (and the world's) constituencies, highlighting your niche is a very good thing to do. A college's goal isn't necessarily a community of well-rounded students, but a well-rounded community of unique students. If you can figure out how you fit into a college community in a unique way, find a way to let the college of your choice know it.
+       </p>
+       <p>
+        If your grades and scores put you somewhere in the "big middle" of a college's applicant pool&mdash;"tied" with a lot of other applicants&mdash;it is often the "hooks" that break the ties (i.e., extracurricular energy, special talents, community service, etc.).
+       </p>
+       <p>
+        <strong>
+         Choices
+        </strong>
+        <br />
+        When the financial aid system works best, all of the colleges that admit you turn out to cost about the same after your packages are completed, and you can make the decision entirely on the merits of each college.
+       </p>
+       <p>
+        It is more likely, though, that you and your family will be faced with an additional question: "What is the place of money in the final college choice?"
+       </p>
+       <p>
+        Whether you sacrifice a lot to attend one of your more expensive options or take the money and run to your least expensive option, you will find that the life lessons have begun before you even sit in your first college classroom. There are no right answers, only choices. Choose wisely&mdash;and good luck!
+       </p>
+       <p>
+        For more information on
+        <a href="/main/aboutus/finaid/">
+         Financial Aid
+        </a>
+        and financing a college education, please contact the Muhlenberg College Office of Admission at 484-664-3200 or the
+        <a href="/main/aboutus/finaid/">
+         Financial Aid Office
+        </a>
+        at 484-664-3175; or
+        <a href="mailto:admissions@muhlenberg.edu">
+         e-mail us
+        </a>
+        .
+       </p>
+      </div>
+      <!-- Content Template End-->
+     </div>
+     <div class="col-lg-3 col-sm-4 col-xs-12">
+      <div class="cta-section hidden-xs" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <!-- navigation object : Admissions Sidebar Accordion Links -->
+      <div class="sidebar-links">
+       <!--Muhl can add up to three sidebar sections-->
+       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <!--Link section-->
+        <div class="panel panel-default">
+         <a data-toggle="collapse" data-parent="#accordion" href="#get-to-know" aria-expanded="true" aria-controls="get-to-know">
+          <div class="panel-heading" role="tab" id="headingOne">
+           <h3 class="panel-title pull-left">
+            Get to Know Us
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-up">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </div>
+         </a>
+         <div id="get-to-know" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+           <div class="side-links">
+            <ul id="admissionUpdate">
+             <li>
+              <a href="/main/admissions/types-of-visits/">
+               Types of Visits
+              </a>
+             </li>
+             <li>
+              <a href="http://finaid.muhlenberg.edu/Calendar/default.aspx?type=&amp;view=Grid&amp;category=37-0&amp;range=currentmonth">
+               Visit Calendar
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB  %20Muhlenberg%20College%20%BB%20Academics%20%BB%20Majors%2C%20Minors%20%26%20Certification" href="/main/academics/majorsandprograms.html">
+               Majors, Minors &amp; Programs
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/muhlenberg-at-a-glance/">
+               Muhlenberg at a Glance
+               <br />
+               <br />
+              </a>
+              <ul>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_English.pdf">
+                 Muhlenberg Fact Sheet
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Hindi.pdf">
+                 Muhlenberg College ki jaankaari (Hindi)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Korean.pdf">
+                 뮤렌버그 대학교 안내 (Korean)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Mandarin.pdf">
+                 关于默兰伯格学院的信息 (Mandarin)
+                </a>
+               </li>
+               <li>
+                <a href="http://t4.muhlenberg.edu/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Spanish.pdf">
+                 Informaci&oacute;n acerca de Muhlenberg College (Spanish)
+                </a>
+               </li>
+               <li>
+                <a href="/media/contentassets/pdf/admissions/MuhlenbergFactSheet_Vietnamese.pdf">
+                 Thông tin về trường đại học Muhlenberg (Vietnamese)
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li>
+              <a href="/main/admissions/admissions-counselor/">
+               Meet Your Admissions Counselor
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/what-people-are-saying/">
+               What People are Saying
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/common-questions/">
+               Common Questions
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/success-after-muhlenberg/">
+               Success After Muhlenberg
+              </a>
+             </li>
+             <li>
+              <a title="Home &raquo; Muhlenberg College &raquo; Academics &raquo; Student Research and Scholarship &raquo; Student   Scholars" href="/main/academics/research/scholars/">
+               Student Scholar Spotlight
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+        <!--End Link section-->
+        <!--Link section-->
+        <div class="panel panel-default">
+         <div class="panel-heading" role="tab" id="headingTwo">
+          <a data-toggle="collapse" data-parent="#accordion" href="#how-to-apply" aria-expanded="true" aria-controls="how-to-apply">
+           <h3 class="panel-title pull-left">
+            How to Apply
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-down">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </a>
+         </div>
+         <div id="how-to-apply" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+           <ul class="side-links">
+            <ul>
+             <li>
+              <a href="/main/admissions/howwereviewapplications/">
+               How We Review Applications
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/earlydecisionchecklist/">
+               Early Decision Checklist
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/regulardecisionchecklist/">
+               Regular Decision Checklist
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingtoacooperativeprogram/">
+               Applying to a Cooperative Program
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingasaninternationalstudent/">
+               Applying as an International Student
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/applyingasatransfer/">
+               Applying as a Transfer
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/transferchecklist/">
+               Transfer Checklist
+              </a>
+             </li>
+            </ul>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="panel panel-default">
+         <div class="panel-heading" role="tab" id="headingThree">
+          <a data-toggle="collapse" data-parent="#accordion" href="#paying-for-muhlenberg" aria-expanded="true" aria-controls="paying-for-muhlenberg">
+           <h3 class="panel-title pull-left">
+            Paying for Muhlenberg
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-down">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </a>
+         </div>
+         <div id="paying-for-muhlenberg" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+           <ul class="side-links">
+            <ul>
+             <li>
+              <a href="/main/aboutus/finaid/">
+               Office of Financial Aid
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/costsandopportunities/">
+               Costs &amp; Opportunities
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/therealdealonfinancialaid/">
+               The Real Deal on Financial Aid
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/finaid/prospectivestudents/merit.html">
+               Merit Scholarship
+              </a>
+             </li>
+            </ul>
+           </ul>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!--/end accordion-->
+      </div>
+      <!--Sidebar links-->
+      <div class="contact-box" data-sidebar-contact-target="data-sidebar-contact-target">
+      </div>
+     </div>
+     <a kdg-scroll-to="body, html" kdg-scroll-to-dur="500" class="hidden-sm hidden-md hidden-lg">
+      <div class="back-to-top">
+       <h5>
+        <span class="fa fa-chevron-up">
+        </span>
+       </h5>
+      </div>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--/container-->
+  <footer>
+   <div class="container">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!--JS Goes Here-->
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/kdg-ui.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/owl.carousel.min.js">
+  </script>
+  <!-- navigation object : Inline JS Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js">
+  </script>
+  <script>
+   var largeGrid = $('body, html').find('.grid-sizer');
+  $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'masonry',
+    percentPosition: (largeGrid.length) ? true : false,
+    masonry: {
+  		columnWidth: (largeGrid.length) ? '.grid-sizer' : null
+    }
+  });
+  </script>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

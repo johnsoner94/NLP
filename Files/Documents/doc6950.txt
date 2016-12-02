@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Film Studies - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 364996;
+			mySID = 2987476;
+			var myGNAME = "Film+Studies";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Film Studies
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Nov 28, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/film">
+          http://libraryguides.muhlenberg.edu/film
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=364996">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364996&amp;sid=2987476">
+       Databases
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364996&amp;sid=3938115">
+       Primary Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364996&amp;sid=2987477">
+       Library Catalogs
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364996&amp;sid=2987479">
+       Reference Works
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364996&amp;sid=2987480">
+       Citation Guides
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2987476" class="guide_page">
+   <h2>
+    Databases
+   </h2>
+   <div id="content_box_10506281" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources by Course
+     </div>
+     <ul>
+      <li>
+       CUE: Film Studies Seminar
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/filmstudiessem">
+        http://libraryguides.muhlenberg.edu/filmstudiessem
+       </a>
+      </li>
+      <li>
+       Film History I
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/filmhistoryone">
+        http://libraryguides.muhlenberg.edu/filmhistoryone
+       </a>
+      </li>
+      <li>
+       Film History II
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/filmhistorytwo">
+        http://libraryguides.muhlenberg.edu/filmhistorytwo
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10506080" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       Communication and Mass Media Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ufh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ufh
+       </a>
+       <br />
+       Premier database of scholarly and trade journals and books in media and communication and related areas. Some full text is linked directly in the database; otherwise, use the Get It links to check for full text online or in the library.
+      </li>
+      <li>
+       Film &amp; Television Literature Index with Full Text
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&amp;defaultdb=f3h">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&defaultdb;=f3h
+       </a>
+       <br />
+       A database of scholarly journals, trade journals, books, and more in the areas of television and film. Most full text is linked directly in the database; otherwise use the Get It links to check for full text online or in the library. Full text includes Cinema Journal, Film &amp; History, Film Comment, Film Criticism, Film History, Film International, Film Journal International, Journal of Film and Video, and Journal of Popular Film and Television.
+       <br />
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       A substantive archive of approximately 15 scholarly film studies journals, all full text. In most cases, the last 3-5 years are not included in the archive. Full text journals include Cinema Journal, Film History, Film Quarterly, and Journal of Film and Video,
+      </li>
+      <li>
+       MLA International Bibliography
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&amp;defaultdb=mzh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=web&defaultdb;=mzh
+       </a>
+       <br />
+       Premier scholarly index, with numerous links to full text, to criticism in the areas of literature, language, linguistics, film studies, and folklore, published from 1920-present.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10506081" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Film Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Film reviews 1980-present.
+      </li>
+      <li>
+       Film Review Index
+       <br />
+       Index to film reviews from 1882-1985. Call #016.79143 F487r
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       Reviews from newspapers (national and local) around the globe, 1980s to the present.
+      </li>
+      <li>
+       New York Times Online
+       <br />
+       <a href="http://muhlenberg.on.worldcat.org/discoveryoclc/34107580">
+        http://muhlenberg.on.worldcat.org/discoveryoclc/34107580
+       </a>
+       <br />
+       Film reviews from the time the NYT started review films, to the present.
+      </li>
+      <li>
+       OmniFile
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       Includes the Reader's Guide, with film reviews from1980 to present.
+      </li>
+      <li>
+       Readers' Guide Retrospective
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=rgr">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=rgr
+       </a>
+       <br />
+       Film reviews in popular periodicals, 1920s-1980.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

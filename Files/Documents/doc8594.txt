@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>
+   Faculty &amp; Staff
+  </title>
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.transitions.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/kdg.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <style>
+   .events-widget{border:1px solid #d2d3d3; padding: 0px; background-color:white;}
+.events-widget .heading{background-color:#8a8a8a; padding:15px;}
+.events-widget .heading h2{color:white; float:left;}
+.events-widget .heading a{color:white; float:right; text-transform:uppercase; margin-top:12px; font-size:14px;}
+.events-widget ul li{padding-top:10px;}
+.events-widget ul a{display:block; padding-bottom:10px; border-bottom:1px solid #d2d3d3;}
+.events-widget ul a:last-child{border-bottom:0px; padding-bottom:5px;}
+.events-widget ul li .date h3{font-size:16px; text-align:center; color:#a51d36;}
+.events-widget ul li .event-details{border-left:1px solid #d2d3d3;}
+.events-widget ul li .event-details p{font-family:Normal500;}
+
+.events-widget ul.event-list{overflow-y:auto; max-height: 373px;}
+.events-widget ::-webkit-scrollbar{width: 5px;}
+.events-widget ::-webkit-scrollbar-track{background-color: transparent;}
+.events-widget ::-webkit-scrollbar-thumb{background-color: #d2d3d3;}
+.events-widget ::-webkit-scrollbar-thumb:hover{background-color: #8a8a8a;}
+  </style>
+ </head>
+ <body>
+  <noscript>
+   <div class="noscript-modal">
+    <input type="checkbox" class="modal-closing-trick" id="modal-closing-trick" />
+    <div class="noscript-overlay">
+    </div>
+    <div class="modal">
+     <h3 class="red">
+      Whoops! Please enable Javascript
+     </h3>
+     <p>
+      We've worked hard to update this site with the latest technology. To ensure that you are getting the best experience, please enable Javascript in your browser's settings. Thank you!
+     </p>
+     <label class="button red" for="modal-closing-trick">
+      Close
+     </label>
+    </div>
+   </div>
+  </noscript>
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h4 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h4>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome" target="_blank">
+       <img src="/media/kdmedia/images/chrome.png" alt="Chrome" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="/media/kdmedia/images/firefox.png" alt="Firefox" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="/media/kdmedia/images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="/media/kdmedia/images/safari.png" alt="Safari" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="/media/kdmedia/images/opera.png" alt="Opera" />
+      </a>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!-- navigation object : Tool I Am Links -->
+  <div class="collapse" id="iam-navigation">
+   <ul>
+    <li>
+     <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+      Prospective Student
+     </a>
+    </li>
+    <li>
+     <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+      Incoming Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+      Current Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+      Faculty &amp; Staff
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+      Parent
+     </a>
+    </li>
+    <li>
+     <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+      Alumni
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <div class="collapse" id="tool-navigation">
+   <ul>
+    <li>
+     <a href="/contact">
+      Contact
+     </a>
+    </li>
+    <li>
+     <a href="/main/aboutus/campus-map/">
+      Campus Map
+     </a>
+    </li>
+    <li>
+     <a href="/tactical/azfind.htm">
+      A-Z Index
+     </a>
+    </li>
+    <li>
+     <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+      Directory
+     </a>
+    </li>
+    <li>
+     <a href="http://trexler.muhlenberg.edu/">
+      Library
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <nav class="navbar" id="top">
+   <div class="container">
+    <div class="row">
+     <div class="expand-buttons">
+      <ul>
+       <a href="/alumni/give">
+       </a>
+       <li class="give-btn hidden-xs">
+        Give
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+       </a>
+       <li class="tool-button">
+        Tools
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+       </a>
+       <li class="iam-button">
+        I am
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <div class="clearfix">
+       </div>
+      </ul>
+     </div>
+     <!--/expand-buttons-->
+     <div class="col-xs-12 col-sm-6">
+      <a href="/">
+       <img src="/media/kdmedia/images/header-logo.png" />
+      </a>
+      <a data-toggle="collapse" href="#mobile-nav" aria-expanded="false" aria-controls="mobile-nav" class="mobile-menu hidden-lg hidden-md hidden-sm">
+       <span class="fa fa-bars">
+       </span>
+      </a>
+     </div>
+     <div class="col-xs-12 col-sm-6 hidden-xs">
+      <div class="header-right">
+       <div class="search ">
+        <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+         <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+         <button type="Submit" class="btn btn-search">
+          <span class="fa fa-search">
+          </span>
+         </button>
+        </form>
+        <a target="_child" href="http://twitter.com/muhlenberg">
+         <span class="fa fa-twitter">
+         </span>
+        </a>
+        <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+         <span class="fa fa-facebook">
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--row-->
+   </div>
+   <div class="inner-nav hidden-xs">
+    <div class="container">
+     <div class="row">
+      <div class="nav-holder">
+       <a name="navigation" style="display:none">
+       </a>
+       <div class="nav">
+        <!-- navigation object : Main Menu KD -->
+        <ul>
+         <li>
+          <a href="/main/aboutus/">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Admissions
+          </a>
+         </li>
+         <li>
+          <a href="/academics/">
+           Academics
+          </a>
+         </li>
+         <li>
+          <a href="/student-life/">
+           Student Life
+          </a>
+         </li>
+         <li>
+          <a href="http://muhlenbergsports.com/" target="_blank">
+           Athletics
+          </a>
+         </li>
+         <li>
+          <a href="/news-and-events/index.php">
+           News &amp; Events
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/">
+           Adult Learning
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <!--row-->
+    </div>
+   </div>
+  </nav>
+  <div id="mobile-nav" class="collapse hidden-sm hidden-md hidden-lg">
+   <div class="search ">
+    <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+     <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+     <button type="Submit" class="btn btn-search">
+      <span class="fa fa-search">
+      </span>
+     </button>
+    </form>
+   </div>
+   <!-- navigation object : Main Menu KD -->
+   <ul>
+    <li>
+     <a href="/main/aboutus/">
+      About Us
+     </a>
+    </li>
+    <li>
+     <a href="/main/admissions/">
+      Admissions
+     </a>
+    </li>
+    <li>
+     <a href="/academics/">
+      Academics
+     </a>
+    </li>
+    <li>
+     <a href="/student-life/">
+      Student Life
+     </a>
+    </li>
+    <li>
+     <a href="http://muhlenbergsports.com/" target="_blank">
+      Athletics
+     </a>
+    </li>
+    <li>
+     <a href="/news-and-events/index.php">
+      News &amp; Events
+     </a>
+    </li>
+    <li>
+     <a href="/main/wescoe/">
+      Adult Learning
+     </a>
+    </li>
+   </ul>
+   <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+    <span class="fa fa-facebook">
+    </span>
+   </a>
+   <a target="_child" href="http://twitter.com/muhlenberg">
+    <span class="fa fa-twitter">
+    </span>
+   </a>
+   <a href="/alumni/give" class="btn primary-btn">
+    Give
+   </a>
+  </div>
+  <div class="container">
+   <div class="row mobile-row">
+    <div class="col-sm-6 col-md-9 col-lg-9 col-xs-12">
+     <style>
+      p a{color:white; text-decoration:underline}
+     </style>
+     <div class="page-header" style='background-image:url("/media/contentassets/images/current-students-gateway/bg-intro.jpg");'>
+      <h1>
+       Faculty &amp; Staff
+      </h1>
+      <p>
+      </p>
+      <p>
+       <strong>
+        Athletics Onscreen
+       </strong>
+       See
+       <a href="http://www.youtube.com/user/muhlsid">
+        our teams on YouTube
+       </a>
+      </p>
+      <p>
+       <strong>
+        Library News
+       </strong>
+       Get the latest
+       <a href="http://library.blogs.muhlenberg.edu/">
+        library news &amp; services
+       </a>
+      </p>
+      <p>
+       <strong>
+        Read
+       </strong>
+       Catch up at
+       <a href="http://www.muhlenbergweekly.com/">
+        Muhlenberg Weekly
+       </a>
+      </p>
+      <p>
+       <strong>
+        Listen
+       </strong>
+       Hear the latest on
+       <a href="http://www.muhlenberg.edu/wmuh">
+        91.7 WMUH
+       </a>
+      </p>
+      <h3 style="text-align: left;">
+       <strong>
+       </strong>
+       <strong>
+        Get connected
+       </strong>
+       with the
+       <a href="http://www.muhlenberg.edu/main/aboutus/mobileapp/">
+        iMuhlenberg App
+       </a>
+      </h3>
+     </div>
+     <div class="cta-section hidden-sm hidden-md hidden-lg" data-sidebar-buttons-target="data-sidebar-buttons-target">
+     </div>
+    </div>
+    <!-- top 4 buttons -->
+    <div class="col-sm-6  col-md-3  col-lg-3 col-xs-12" style="vertical-align:middle">
+     <div class="btn primary-btn">
+      <a href="https://capstone2.muhlenberg.edu/frmfs01.html">
+       Capstone
+      </a>
+     </div>
+     <div class="btn secondary-btn">
+      <a href="https://muhlenbergcollege.instructure.com/">
+       Canvas
+      </a>
+     </div>
+     <div class="btn tertiary-btn">
+      <a href="http://gws1.muhlenberg.edu/servlet/webacc">
+       Email
+      </a>
+     </div>
+     <div class="btn primary-btn">
+      <a href="https://muhlenberg-college.onelogin.com/login">
+       Application Portal
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="row mobile-row">
+    <div class="col-sm-6 col-md-9 col-lg-9 col-xs-12">
+     <!-- Content Template Start: Academic Content Panel Responsive -->
+     <div class="row">
+      <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
+       <h3>
+        Get Academic
+       </h3>
+       <div>
+        <ul style="line-height: 1.4;">
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendars
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/dean-academic/integrity/">
+           Academic Integrity Code
+          </a>
+         </li>
+         <li>
+          <a href="/commencement/">
+           Commencement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="http://diglearn.blogs.muhlenberg.edu/" target="_blank">
+           Digital Learning&nbsp;
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/fct/">
+           Faculty Center for Teaching
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/ir/">
+           Institutional Effectiveness and Planning
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/majorsandprograms.html">
+           Majors, Minors &amp; Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           President's Office
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/">
+           Writing Program
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
+       <h3>
+        Get Services
+       </h3>
+       <ul style="line-height: 1.4;">
+        <li>
+         <a href="http://bergbookshop.com/">
+          'Berg Bookshop
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/campus-safety/">
+          Campus Safety &amp; Security
+         </a>
+        </li>
+        <li>
+         <a href="https://capstone2.muhlenberg.edu/frmfs01.html" target="_blank">
+          CapStone
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/controller/">
+          Controller
+         </a>
+        </li>
+        <li>
+         <span class="content-add05">
+          <a href="http://www.muhlenberg.edu/main/aboutus/counseling/">
+           Counseling Services
+          </a>
+         </span>
+        </li>
+        <!--&lt;li&gt;&lt;a href="http://webapps.muhlenberg.edu:8080/StaffTools/"&gt;Departmental Forms&lt;/a&gt;&lt;/li&gt;-->
+        <li>
+         <a href="http://start:8080/StaffTools/" target="_blank">
+          Departmental Forms
+         </a>
+        </li>
+        <li>
+         <a href="http://dining.muhlenberg.edu/" target="_blank">
+          Dining Services
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/health/">
+          Health Center
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/hr/">
+          Human Resources
+         </a>
+        </li>
+        <!-- &lt;li&gt;&lt;a href="/main/campuslife/flu/"&gt;Influenza Information &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Prevention&lt;/a&gt;&lt;/li&gt;-->
+        <li>
+         <a href="/main/aboutus/oit/">
+          Information Technology
+         </a>
+        </li>
+        <li>
+         <a href="http://muhlenbergsports.com/sports/2014/12/12/LSC.aspx?path=facilities_" target="_blank">
+          Life Sports Center
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/mailroom/">
+          Mailroom
+         </a>
+         <br />
+         <a href="/main/aboutus/hr/newemployees/">
+          New Hire Onboarding
+         </a>
+        </li>
+        <li>
+         <a href="/campusonly/collegegraphics/">
+          Official College Graphics
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/plantops/">
+          Plant Operations
+         </a>
+        </li>
+        <li>
+         &nbsp;&nbsp;&nbsp;
+         <a href="/main/aboutus/plantops/workorderoncampus/">
+          Submit Work Order
+         </a>
+        </li>
+        <li>
+         <a href="/campusonly/policiesprocedures/">
+          Policies &amp; Procedures
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/copy/">
+          Printshop
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/pr/">
+          Public Relations
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/purchasing/">
+          Purchasing
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/registrar/">
+          Registrar
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/union/">
+          Seegers Union
+         </a>
+        </li>
+        <li>
+         <a href="/tools/">
+          Staff Tools
+         </a>
+        </li>
+        <li>
+         <a href="http://trexler.muhlenberg.edu/" target="_blank">
+          Trexler Library
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/hr/weather.html">
+          Weather Policy
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/hr/currentemployeesretirees/wellness/">
+          Wellness Program
+         </a>
+        </li>
+        <li>
+         <a href="/main/academics/writing/center/">
+          Writing Center
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4">
+       <h3>
+        Get Involved
+       </h3>
+       <div class="last">
+        <ul style="line-height: 1.4;">
+         <li>
+          <a href="http://www.muhlenbergconnect.com/" target="_blank">
+           Alumni Relations
+          </a>
+         </li>
+         <li>
+          <a href="http://muhlenbergsports.com/" target="_blank">
+           Athletics
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/sustainability/">
+           Campus Sustainability
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/cfe/">
+           Center for Ethics
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Community Service &amp; Civic Engagement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/events/">
+           Conferences &amp; Events
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com/s/1570/index.aspx?sid=1570&amp;gid=2&amp;pgid=679" target="_blank">
+           Faculty &amp; Staff Campaign
+          </a>
+         </li>
+         <li>
+          <a href="/cultural/ijcu/">
+           Institute for Jewish-Christian Understanding
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/gallery/">
+           Martin Art Gallery
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Religious Life
+          </a>
+         </li>
+         <li>
+          <a href="/committees/strategicplanning/">
+           Strategic Planning
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/safety/">
+           Safety Committee
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/plantops/suggestionform/">
+           Suggestion Form
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="col-sm-6  col-md-3  col-lg-3 col-xs-12">
+     <div class="events-widget">
+      <div class="heading">
+       <h2>
+        Events
+       </h2>
+       <a href="http://webapps.muhlenberg.edu/Calendar" target="_child">
+        View Calendar
+       </a>
+       <div class="clearfix">
+       </div>
+      </div>
+      <ul class="event-list">
+       <a href="http://webapps.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=28602&amp;information_id=78102&amp;type=&amp;syndicate=syndicate">
+       </a>
+       <li>
+        <div class="col-xs-3 date">
+         <h3 class="bold">
+          Nov
+          <br />
+          30
+         </h3>
+        </div>
+        <div class="col-xs-9  event-details">
+         <p class="details">
+          The Wescoe School - Current and New Student Advising
+          <br />
+          <span class="gray time">
+           12:00 AM
+          </span>
+         </p>
+        </div>
+        <div class="clearfix">
+        </div>
+       </li>
+       <a href="http://webapps.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=28530&amp;information_id=77430&amp;type=&amp;syndicate=syndicate">
+       </a>
+       <li>
+        <div class="col-xs-3 date">
+         <h3 class="bold">
+          Nov
+          <br />
+          30
+         </h3>
+        </div>
+        <div class="col-xs-9  event-details">
+         <p class="details">
+          General's Quarters
+          <br />
+          <span class="gray time">
+           7:00 AM
+          </span>
+         </p>
+        </div>
+        <div class="clearfix">
+        </div>
+       </li>
+       <a href="http://webapps.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=28522&amp;information_id=77225&amp;type=&amp;syndicate=syndicate">
+       </a>
+       <li>
+        <div class="col-xs-3 date">
+         <h3 class="bold">
+          Nov
+          <br />
+          30
+         </h3>
+        </div>
+        <div class="col-xs-9  event-details">
+         <p class="details">
+          MC Body Taut
+          <br />
+          <span class="gray time">
+           7:00 AM
+          </span>
+         </p>
+        </div>
+        <div class="clearfix">
+        </div>
+       </li>
+       <a href="http://webapps.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=28455&amp;information_id=76266&amp;type=&amp;syndicate=syndicate">
+       </a>
+       <li>
+        <div class="col-xs-3 date">
+         <h3 class="bold">
+          Nov
+          <br />
+          30
+         </h3>
+        </div>
+        <div class="col-xs-9  event-details">
+         <p class="details">
+          Wood Dining Commons
+          <br />
+          <span class="gray time">
+           7:00 AM
+          </span>
+         </p>
+        </div>
+        <div class="clearfix">
+        </div>
+       </li>
+       <a href="http://webapps.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=28477&amp;information_id=76874&amp;type=&amp;syndicate=syndicate">
+       </a>
+       <li>
+        <div class="col-xs-3 date">
+         <h3 class="bold">
+          Nov
+          <br />
+          30
+         </h3>
+        </div>
+        <div class="col-xs-9  event-details">
+         <p class="details">
+          LSC Cafe
+          <br />
+          <span class="gray time">
+           8:00 AM
+          </span>
+         </p>
+        </div>
+        <div class="clearfix">
+        </div>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="contact-box" data-sidebar-contact-target="data-sidebar-contact-target">
+    </div>
+    <a kdg-scroll-to="body, html" kdg-scroll-to-dur="500" class="hidden-sm hidden-md hidden-lg">
+     <div class="back-to-top">
+      <h5>
+       <span class="fa fa-chevron-up">
+       </span>
+      </h5>
+     </div>
+    </a>
+   </div>
+  </div>
+  <!--&lt;/div&gt;-->
+  <!--/container-->
+  <footer>
+   <div class="container">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College 2015 |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!--JS Goes Here-->
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/kdg-ui.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/owl.carousel.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js">
+  </script>
+  <script>
+   var largeGrid = $('body, html').find('.grid-sizer');
+  $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'masonry',
+    percentPosition: (largeGrid.length) ? true : false,
+    masonry: {
+  		columnWidth: (largeGrid.length) ? '.grid-sizer' : null
+    }
+  });
+  </script>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

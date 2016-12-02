@@ -1,0 +1,1149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Public Health Subject Guide - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 352833;
+			mySID = 2886398;
+			var myGNAME = "Public+Health+Subject+Guide";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Public Health Subject Guide
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Feb 3, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/publichealth">
+          http://libraryguides.muhlenberg.edu/publichealth
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=352833">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Rachel Hamelers
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:rhamelers@muhlenberg.edu">
+           rhamelers@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          Phone: 484-664-3601
+          <br />
+          E-mail: rhamelers@muhlenberg.edu
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=352833&amp;sid=2886398">
+       Home
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=352833&amp;sid=3003031">
+       Finding Books
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=352833&amp;sid=3003032">
+       Getting the Full-Text of an Article
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=352833&amp;sid=5655028">
+       Finding Data &amp; Statistics
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=352833&amp;sid=5655029">
+       Finding Government Documents
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2886398" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10131969" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Is my article Peer-Reviewed?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Journal articles that are peer-reviewed have been critiqued by other experts before publication.
+      </p>
+      <p>
+       To determine if an article is peer-reviewed or not, you need to check if the
+       <strong>
+        journal
+       </strong>
+       in which the article was published is peer-reviewed. You can do this by using the database
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        Ulrich's web
+       </a>
+       . For instance, in the following citation:
+      </p>
+      <p>
+       Barthlott, W, Wiersch, S, Čolić, Z, &amp; Koch, K 2009, 'Classification of trichome types within species of the water fern Salvinia, and ontogeny of the egg-beater trichomes',
+       <i>
+        Botany
+       </i>
+       , 87, 9, pp. 830-836.
+      </p>
+      <p>
+       <em>
+        Botany
+       </em>
+       is the journal title. Using
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        Ulrich's web
+       </a>
+       , type in the name of the journal, in this case&nbsp;
+       <em>
+        Botany.
+       </em>
+       (Do NOT enter the title of the article.) If the journal is listed as "refereed" (another word for peer-reviewed), your article is in a peer-reviewed journal. Therefore, most articles in this journal will be peer-reviewed. Exceptions to peer-reviewed articles in a peer-reviewed journal include news items, commentaries, and letters to the editor.
+      </p>
+      <p>
+       In some databases, such as
+       <em>
+        Academic Search Complete
+       </em>
+       , you can click on the name of the journal and the database will list information about the journal, including if the journal is peer-reviewed or not. Other databases allow you to limit to see only results that are peer-reviewed. To determine if you can limit to peer-reviewed journals, look in the database's help section.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Ulrich's Web
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/
+       </a>
+       <br />
+       Ulrich's Directory is a database that provides bibliographic information, including if a journal is refereed or not (refereed is another word for peer-reviewed) on international periodicals.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10379706" class="content_box content_box_27">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search for General Background Information on Your Topic
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10380126" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21657641" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Resources by Course
+     </div>
+     <ul>
+      <li>
+       Public Health and the Law
+       <br />
+       <a href="http://libapp.muhlenberg.edu/jarson/pub_health_law.pdf">
+        http://libapp.muhlenberg.edu/jarson/pub_health_law.pdf
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10106444" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       PubMed
+       <br />
+       <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed">
+        http://www.ncbi.nlm.nih.gov/sites/entrez?db=PubMed
+       </a>
+       <br />
+       A service of the National Library of Medicine, PubMed includes over 19 million citations for biomedical articles back to 1948 and links to many sites providing full text articles and other related resources.
+      </li>
+      <li>
+       Science Direct, Health, Life, and Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of 1000+ full-text Elsevier journals in the areas of health, life, and physical sciences from 1995 to the present.
+      </li>
+      <li>
+       Springerlink
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.springerlink.com/
+       </a>
+       <br />
+       Over 1,700 journals from Springer-Verlag with coverage from 1997 to present. Subjects covered focus on the natural sciences, but also include significant titles in behavioral sciences, humanities, social sciences and law.
+      </li>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Provides full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas.
+      </li>
+      <li>
+       PsycINFO
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=psyh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=psyh
+       </a>
+       <br />
+       Premier database of scholarly and professional journals and books in psychology and related areas.  Some full text is linked directly in the database; otherwise, use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10106476" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Journals
+     </div>
+     <ul>
+      <li>
+       American Journal of Public Health
+       <br />
+       <a href="http://me9qj4aj8y.search.serialssolutions.com/log?L=ME9QJ4AJ8Y&amp;D=TPU&amp;J=AMERJOUROFPU&amp;P=EJP&amp;U=http%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fajph.aphapublications.org%2Floi%2Fajph">
+        http://me9qj4aj8y.search.serialssolutions.com/log?L=ME9QJ4AJ8Y&D;=TPU&J;=AMERJOUROFPU&P;=EJP&U;=http%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fajph.aphapublications.org%2Floi%2Fajph
+       </a>
+      </li>
+      <li>
+       Annual Review of Public Health
+       <br />
+       <a href="http://me9qj4aj8y.search.serialssolutions.com/log?L=ME9QJ4AJ8Y&amp;D=RAR&amp;J=ANNUREVOFPU&amp;P=EJP&amp;U=http%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fwww.annualreviews.org%2Floi%2Fpublhealth">
+        http://me9qj4aj8y.search.serialssolutions.com/log?L=ME9QJ4AJ8Y&D;=RAR&J;=ANNUREVOFPU&P;=EJP&U;=http%3A%2F%2Fmuhlenberg.idm.oclc.org%2Flogin%3Furl%3Dhttp%3A%2F%2Fwww.annualreviews.org%2Floi%2Fpublhealth
+       </a>
+      </li>
+      <li>
+       British Medical Journal
+       <br />
+       <a href="http://www.ncbi.nlm.nih.gov/pmc/journals/182/">
+        http://www.ncbi.nlm.nih.gov/pmc/journals/182/
+       </a>
+       <br />
+       The British Medical Journal (under various titles) with full text from 1840-2008.
+      </li>
+      <li>
+       Journal of the American Medical Association (JAMA)
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1124917?databaseList=1708&amp;databaseList=638">
+        https://muhlenberg.on.worldcat.org/oclc/1124917?databaseList=1708&databaseList;=638
+       </a>
+       <br />
+       Full text of the Journal of the American Medical Association from 1883-present.
+      </li>
+      <li>
+       Science Online
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1644869?databaseList=1708&amp;databaseList=638">
+        https://muhlenberg.on.worldcat.org/oclc/1644869?databaseList=1708&databaseList;=638
+       </a>
+       <br />
+       Access the journal Science from the years 1800-2004 online, or access 2004-present (paper copies of the journal) on level B of the library at call number 505s1.
+       <br />
+       The most recent copy of Science is located on the A level of the library in the periodicals reading room.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21293002" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      News sources
+     </div>
+     <ul>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       Provides full text of thousands of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.
+      </li>
+      <li>
+       New York Times
+       <br />
+       <a href="http://www.nytimes.com">
+        http://www.nytimes.com
+       </a>
+       <br />
+       Complete access to New York Times via Muhlenberg subscription. All users must register while physically on campus, using their Muhlenberg email.
+      </li>
+      <li>
+       Science Daily
+       <br />
+       <a href="http://www.sciencedaily.com/">
+        http://www.sciencedaily.com/
+       </a>
+       <br />
+       News articles, videos, and images in the subjects of health, math, and the sciences.
+      </li>
+      <li>
+       Google news
+       <br />
+       <a href="http://news.google.com">
+        http://news.google.com
+       </a>
+       <br />
+       Aggregated news from worldwide sources
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21669128" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Healthy People 2020
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Healthy People 2020 sets ambitious 10-year goals for improving the Nation&rsquo;s health. Each goal is supported by primary literature articles that are indexed in PubMed. The site also serves as a portal for data resources.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Healthy People 2020 Homepage
+       <br />
+       <a href="http://www.healthypeople.gov/">
+        http://www.healthypeople.gov/
+       </a>
+      </li>
+      <li>
+       Healthy People 2020 Data Search
+       <br />
+       <a href="http://www.healthypeople.gov/2020/data-search/Search-the-Data">
+        http://www.healthypeople.gov/2020/data-search/Search-the-Data
+       </a>
+      </li>
+      <li>
+       Structured Evidence Queries
+       <br />
+       <a href="http://www.phpartners.org/hp2020">
+        http://www.phpartners.org/hp2020
+       </a>
+       <br />
+       Click on the objective that interests you. On the next screen, next to the subtopic that interests you, click on the "PubMed Search" box.
+      </li>
+      <li>
+       Steps in Searching and Evaluating the Literature
+       <br />
+       <a href="https://phpartners.org/tutorial/04-ebph/2-keyConcepts/4.2.5.html">
+        https://phpartners.org/tutorial/04-ebph/2-keyConcepts/4.2.5.html
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3003031" class="guide_page">
+   <h2>
+    Finding Books
+   </h2>
+   <div id="content_box_10520124" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding Books in Trexler Library and in Libraries Worldwide
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only books, use the Book limit box on the left sidebar of your search results page. You can also limit to Muhlenberg College or search books in Libraries worldwide.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10520187" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      To Find E-books
+     </div>
+     <ul>
+      <li>
+       Springer E-books
+       <br />
+       <a href="http://www.springerlink.com/books/">
+        http://www.springerlink.com/books/
+       </a>
+       <br />
+       Books in various disciplines, but focusing on the sciences, Trexler library has access to thousands of e-books through Springerlink. The full text of many books can be accessed through this link. Those books not accessible to Trexler Library patrons can be interlibrary loaned.
+      </li>
+      <li>
+       GoogleBooks
+       <br />
+       <a href="http://www.google.com/books">
+        http://www.google.com/books
+       </a>
+       <br />
+       Google has digitized millions of books, some of which are freely available online. Muhlenberg affiliated atrons of Trexler Library can interlibrary loan books not freely available as full text.
+      </li>
+      <li>
+       Internet Archive
+       <br />
+       <a href="http://archive.org/details/texts">
+        http://archive.org/details/texts
+       </a>
+       <br />
+       Millions of freely available texts that have been digitized by the Internet archive.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3003032" class="guide_page">
+   <h2>
+    Getting the Full-Text of an Article
+   </h2>
+   <div id="content_box_10390246" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How do I get the Full-text of my article?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To get the full-text of an article:
+      </p>
+      <p>
+       - If you are in a library database with "Get-it" buttons, click on "Get-it." This button will take you the full text of your article or tell you that the full text cannot be found. If the full text is not available from Trexler Library,
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       the book or article.
+      </p>
+      <p>
+       - If you have citation information for the article (title, author, etc.), type the information about your article into
+       <a href="https://muhlenberg.on.worldcat.org/discovery">
+        Encompass
+       </a>
+       . Find the article on the results list, and click on the title. If you have access to the article via Trexler Library, a link to full text or view-now will be provided.&nbsp; If not, you can request a copy of the article by clicking the "Request Item" button.
+      </p>
+      <p>
+       - If Trexler Library does not have access to the full text of the article, you can also search
+       <a href="http://www.google.com/scholar">
+        Google Scholar
+       </a>
+       by article title to see if the author has made a copy freely available online. Look to the far right of the article's title to see if there is a link to a freely available copy.&nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5655028" class="guide_page">
+   <h2>
+    Finding Data &amp; Statistics
+   </h2>
+   <div id="content_box_21276486" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      United States Statistics
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       This is a list of selected multi-purpose resources.&nbsp; For additional recommendations by topic, see the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385">
+        Finding Statistics and Data: Topical Sources
+       </a>
+       guide.&nbsp;
+      </p>
+     </div>
+     <ul>
+      <li>
+       American Factfinder
+       <br />
+       <a href="http://factfinder2.census.gov/">
+        http://factfinder2.census.gov/
+       </a>
+       <br />
+       A database from the U.S. Census Bureau with population, housing, and business statistics at the country, state, county, city, and zip code levels.
+      </li>
+      <li>
+       FedStats
+       <br />
+       <a href="http://fedstats.sites.usa.gov/">
+        http://fedstats.sites.usa.gov/
+       </a>
+       <br />
+       Links to official statistical information produced by the U.S. federal government.  Browse by topic or agency or search across agency websites.
+      </li>
+      <li>
+       Historical Statistics of the United States
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/">
+        https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/
+       </a>
+       <br />
+       Statistics from colonial times to modern day covering population, work and welfare, economic structure and performance, economic sectors, and governance and international relations.
+      </li>
+      <li>
+       ICPSR (Inter-University Consortium for Political and Social Research)
+       <br />
+       <a href="http://www.icpsr.umich.edu/index.html">
+        http://www.icpsr.umich.edu/index.html
+       </a>
+       <br />
+       A data archive of research in the social sciences. Specialized collections of data in education, aging, criminal justice, substance abuse, terrorism, and other fields.  Full access available only to Muhlenberg faculty, students, and staff who create accounts using their Muhlenberg email addresses.
+      </li>
+      <li>
+       Lehigh Valley Research Consortium
+       <br />
+       <a href="http://lehighvalleyresearch.org/">
+        http://lehighvalleyresearch.org/
+       </a>
+       <br />
+       Quantitative and qualitative data on the Lehigh Valley on: demographics, public opinion, economic indicators, non-profit sector, governmental sector, and more.
+      </li>
+      <li>
+       Pennsylvania State Data Center
+       <br />
+       <a href="http://pasdc.hbg.psu.edu/">
+        http://pasdc.hbg.psu.edu/
+       </a>
+       <br />
+       Official source of demographic and economic data for Pennsylvania.
+      </li>
+      <li>
+       ProQuest Statistical Insight
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical
+       </a>
+       <br />
+       Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+      </li>
+      <li>
+       Statistical Abstract of the United States
+       <br />
+       <a href="http://www.census.gov/compendia/statab/">
+        http://www.census.gov/compendia/statab/
+       </a>
+       <br />
+       The authoritative and comprehensive summary of statistics on the social, political, and economic organization of the United States.  Current and archived editions (1995- ) are available online, as well.   Old print editions (1886- ) are in the Trexler Library Government Documents section starting at C 3.134:886.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21276487" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      International Statistics
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       This is a list of selected multi-purpose resources.&nbsp; For additional recommendations by topic, see the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385">
+        Finding Statistics and Data: Topical Sources
+       </a>
+       guide.&nbsp;
+      </p>
+     </div>
+     <ul>
+      <li>
+       <b>
+        International Historical Statistics, 1750-2000
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 310 M681i v.1-3 (Level B)
+       <br />
+       Key economic and social indicators for 1750-2000.
+      </li>
+      <li>
+       CIA World Factbook
+       <br />
+       <a href="https://www.cia.gov/library/publications/the-world-factbook/">
+        https://www.cia.gov/library/publications/the-world-factbook/
+       </a>
+       <br />
+       Information, including statistics, on the history, people, government, economy, geography, communications, transportation, military, and transnational issues for hundreds of world entities.
+      </li>
+      <li>
+       Europa World Year Book
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.europaworld.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.europaworld.com/
+       </a>
+       <br />
+       Brief statistics by country on a variety of topics, including: area and population, health and welfare, agriculture, industry, trade, transport, education, and more.
+       <br />
+      </li>
+      <li>
+       Human Development Reports (United Nations Development Programme)
+       <br />
+       <a href="http://hdr.undp.org/en">
+        http://hdr.undp.org/en
+       </a>
+      </li>
+      <li>
+       International Statistical Agencies
+       <br />
+       <a href="http://www.census.gov/aboutus/stat_int.html">
+        http://www.census.gov/aboutus/stat_int.html
+       </a>
+       <br />
+       Links to international statistical agencies.  From the U.S. Census Bureau.
+      </li>
+      <li>
+       OFFSTATS
+       <br />
+       <a href="http://www.offstats.auckland.ac.nz/">
+        http://www.offstats.auckland.ac.nz/
+       </a>
+       <br />
+       Links to free official, international statistics resources by country, region, and subject.
+      </li>
+      <li>
+       U.N. Data
+       <br />
+       <a href="http://data.un.org/">
+        http://data.un.org/
+       </a>
+       <br />
+       Search across the United Nation's statistical databases.
+      </li>
+      <li>
+       United Nations Statistical Yearbook
+       <br />
+       <a href="http://unstats.un.org/unsd/syb/default.htm">
+        http://unstats.un.org/unsd/syb/default.htm
+       </a>
+       <br />
+       "Annual compilation of a wide range of international economic, social and environmental statistics on over 200 countries and areas, compiled from sources including UN agencies and other international, national and specialized organizations."
+      </li>
+      <li>
+       World Bank Data
+       <br />
+       <a href="http://data.worldbank.org/">
+        http://data.worldbank.org/
+       </a>
+       <br />
+       Statistics for countries around the world on a wide variety of topics, including education-related topics.  From the World Bank.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21276488" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Public Opinion Data
+     </div>
+     <ul>
+      <li>
+       American National Election Studies
+       <br />
+       <a href="http://www.electionstudies.org/">
+        http://www.electionstudies.org/
+       </a>
+       <br />
+       "Produces high quality data on voting, public opinion, and political participation."
+      </li>
+      <li>
+       Gallup
+       <br />
+       <a href="http://www.gallup.com/home.aspx">
+        http://www.gallup.com/home.aspx
+       </a>
+       <br />
+       Presents daily briefings on a single current topic, as well as recent Gallup Poll findings.
+      </li>
+      <li>
+       Polling Report
+       <br />
+       <a href="http://www.pollingreport.com/">
+        http://www.pollingreport.com/
+       </a>
+       <br />
+       Biweekly overview of recent poll trends.
+      </li>
+      <li>
+       Public Opinion Quarterly -- "The Polls"
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/direct.asp?db=ufh&amp;jid=POQ&amp;scope=site">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/direct.asp?db=ufh&jid;=POQ&scope;=site
+       </a>
+       <br />
+       Regular feature of preeminent scholarly journal on public opinion and polling, discusses recent surveys.  Browse through each issue to access "The Polls" or search across the journal by topic to check for features on your topic.
+       <br />
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009725" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Agriculture and Food
+     </div>
+     <ul>
+      <li>
+       National Agricultural Statistics Service
+       <br />
+       <a href="http://www.nass.usda.gov/">
+        http://www.nass.usda.gov/
+       </a>
+       <br />
+       Statistics on "virtually every aspect of U.S. agriculture, [including]: production and supplies of food and fiber, prices paid and received by farmers, farm labor and wages, farm finances, chemical use, changes in the demographics of U.S. producers," and more.
+      </li>
+      <li>
+       Food and Agriculture Organization (United Nations)
+       <br />
+       <a href="http://www.fao.org/">
+        http://www.fao.org/
+       </a>
+       <br />
+       Agricultural, food, and food safety statistics by region, country, and world.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009729" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Environment
+     </div>
+     <ul>
+      <li>
+       World Resources Institute: EarthTrends
+       <br />
+       <a href="http://earthtrends.wri.org/">
+        http://earthtrends.wri.org/
+       </a>
+       <br />
+       "Comprehensive online database, maintained by the World Resources Institute, that focuses on the environmental, social, and economic trends that shape our world."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009730" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Health
+     </div>
+     <ul>
+      <li>
+       Centers for Disease Control and Prevention (CDC)
+       <br />
+       <a href="http://www.cdc.gov/datastatistics/">
+        http://www.cdc.gov/datastatistics/
+       </a>
+       <br />
+       Covers a wide variety of health topics.
+      </li>
+      <li>
+       Pennsylvania Health Statistics
+       <br />
+       <a href="http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt">
+        http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt
+       </a>
+      </li>
+      <li>
+       World Health Organization (WHO)
+       <br />
+       <a href="http://www.who.int/en/">
+        http://www.who.int/en/
+       </a>
+       <br />
+       International data on mortality, diseases, services, health systems, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009731" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Population and Demographics
+     </div>
+     <ul>
+      <li>
+       American Factfinder
+       <br />
+       <a href="http://factfinder2.census.gov/">
+        http://factfinder2.census.gov/
+       </a>
+       <br />
+       A database from the U.S. Census Bureau with population, housing, and business statistics at the country, state, county, city, and zip code levels.
+      </li>
+      <li>
+       Census of Population and Housing
+       <br />
+       <a href="http://www.census.gov/prod/www/abs/decennial/index.html">
+        http://www.census.gov/prod/www/abs/decennial/index.html
+       </a>
+       <br />
+       Decennial censuses from the U.S. Census Bureau from 1790 to the present are available online. Print copies of the decennial census from 1880 on are available in Trexler Library's Government Documents starting at C3:223.
+      </li>
+      <li>
+       International Data Base (U.S. Census Bureau)
+       <br />
+       <a href="http://www.census.gov/ipc/www/idb/">
+        http://www.census.gov/ipc/www/idb/
+       </a>
+       <br />
+       Basic demographic information by country and region.  From the U.S. Census Bureau.
+      </li>
+      <li>
+       International Statistical Agencies
+       <br />
+       <a href="http://www.census.gov/aboutus/stat_int.html">
+        http://www.census.gov/aboutus/stat_int.html
+       </a>
+       <br />
+       Links to international statistical agencies.  From the U.S. Census Bureau.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5655029" class="guide_page">
+   <h2>
+    Finding Government Documents
+   </h2>
+   <div id="content_box_21276489" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      U.S. Government Documents
+     </div>
+     <ul>
+      <li>
+       Legal Information Institute (Cornell University)
+       <br />
+       <a href="http://www.law.cornell.edu/lii/get_the_law">
+        http://www.law.cornell.edu/lii/get_the_law
+       </a>
+       <br />
+       Legal collections include: Federal law, Constitution, U.S. Code, Code of Federal Regulations, Supreme Court, Federal Rules, State law resources, State statutes by topic, and more.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       U.S. legal information includes: federal and state cases; Supreme Court briefs; Federal Statutes, Codes &amp; Regulations; State Statutes, Codes &amp; Regulations; and more.
+      </li>
+      <li>
+       ProQuest Congressional
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/congressional">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/congressional
+       </a>
+       <br />
+       Information from the U.S. legislature, including full text of bills from 1989 on, public laws from 1988 on, committee reports from 1990 on, House and Senate documents from 1995 on, Congressional Record from 1985 on, Federal Register from 1980 on, and more government information.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21276490" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      International Government Documents
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Access to government documents from other countries via these resources depends largely on how available each country makes them.&nbsp; Language may prove to be another barrier.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Legal Information Institute, Law by Source: Global (Cornell University)
+       <br />
+       <a href="http://www.law.cornell.edu/world/">
+        http://www.law.cornell.edu/world/
+       </a>
+       <br />
+       The LII collection of world legal materials gathers, country by country, continent by continent, the Internet-accessible sources of the constitutions, statutes, judicial opinions, and related legal material from around the globe (excluding the U.S. material held in the LII's other collections). It also holds resources and document collections of International Law.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       International legal information includes cases and legislation for Canada, EU, Commonwealth, and Other Nations.
+      </li>
+      <li>
+       WashLaw Web: Foreign and International Law (Washburn University School of Law Library)
+       <br />
+       <a href="http://www.washlaw.edu/forint/index.html">
+        http://www.washlaw.edu/forint/index.html
+       </a>
+       <br />
+       Links to foreign and international legal resources and research tools. It's especially strong on finding legal materials from specific countries
+      </li>
+      <li>
+       World Legal Information Institute
+       <br />
+       <a href="http://www.worldlii.org/catalog/215.html">
+        http://www.worldlii.org/catalog/215.html
+       </a>
+       <br />
+       Links to constitutions, laws, treaties, international agreements, and related resources by country.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21276491" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Intergovernmental and Nongovernmental Organizations
+     </div>
+     <ul>
+      <li>
+       Government Information: International Documents
+       <br />
+       <a href="http://www.libraries.iub.edu/index.php?pageId=1000596">
+        http://www.libraries.iub.edu/index.php?pageId=1000596
+       </a>
+       <br />
+       Search engines to find information from IGO and NGO websites.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

@@ -1,0 +1,1364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Major Courses - Biology Curriculum | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Biology Department
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/biology/bg-intro02.jpg" alt="Biology" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/">
+               Biology
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/biologycurriculum/">
+               Biology Curriculum
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/biologycurriculum/majorcourses/">
+               Major Courses
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <div class="content-add10">
+           <p align="center">
+            <strong>
+             Biology Courses - Major Curriculum
+            </strong>
+           </p>
+           <p>
+            <strong>
+             <a id="b150">
+             </a>
+             BIO 150: Principles of Biology I: Organisms and Populations
+            </strong>
+            <br />
+            <span class="italic">
+             Lecture and recitation:&nbsp;
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+             ,&nbsp;
+             <a href="/main/academics/biology/facultystaff/paulmeier/">
+              Meier
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+              Niesenbaum
+             </a>
+            </span>
+            <br />
+            The first course in the introductory biology sequence for intended majors and for those interested in a more substantial introduction to Biology. An introduction to the core themes of biology emphasizing the scientific method, evolution, the diversity of life, and how organisms interact with their environment. Three class hours per week, and biweekly recitations.
+            <span class="italic">
+             Meets general academic requirement S.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b151">
+             </a>
+             BIO 151: Principles of Biology II: Cells and Organisms
+            </strong>
+            <br />
+            <span class="italic">
+             Lecture and recitation:&nbsp;
+             <a href="/main/academics/biology/facultystaff/elizabethrmccain/">
+              McCain
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/jordannasprayberry/">
+              Sprayberry
+             </a>
+            </span>
+            <br />
+            <span class="italic">
+             Laboratory:&nbsp;
+             <a href="/main/academics/biology/facultystaff/maryconstantbyrne/">
+              Byrne
+             </a>
+             , Dowd,&nbsp;
+             <a href="/main/academics/biology/facultystaff/kimberlyheiman/">
+              Heiman
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/debrawalther/">
+              Walther
+             </a>
+            </span>
+            <br />
+            The second course in the introductory biology sequence for majors. Study of the relationship of structure and function in plants and animals. Laboratories emphasize the scientific method as a way of knowing. Three class hours and three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 150. Meets general academic requirement S.&nbsp;
+            </span>
+            <a href="/main/academics/biology/biologycurriculum/majorcourses/looseconnectivetissuethistypeofconnective/">
+             Histology Slides
+            </a>
+           </p>
+           <p>
+            <strong>
+             BIO 152: Principles of Biology III: Molecules and Cells
+            </strong>
+            <br />
+            <span class="italic">
+             Lecture and recitation:&nbsp;
+             <a href="/main/academics/biology/facultystaff/martenjedwards/">
+              Edwards
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/amyhark/">
+              Hark
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/brucewightman/">
+              Wightman
+             </a>
+            </span>
+            <br />
+            <span class="italic">
+             Laboratory:&nbsp;
+             <a href="/main/academics/biology/facultystaff/maryconstantbyrne/">
+              Byrne
+             </a>
+             , Dowd,&nbsp;
+            </span>
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/kimberlyheiman/">
+              Heiman
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/debrawalther/">
+              Walther
+             </a>
+            </span>
+            <br />
+            The third course in the introductory biology sequence. Study of the relationship of structure and function at the molecular and cellular level, molecular and Mendelian genetics, and microbiology. Three class hours and three laboratory hours per week&nbsp;
+            <span class="italic">
+             Prerequisite: BIO 150, BIO 151. Meets general academic requirement S.&nbsp;&nbsp;
+             <br />
+            </span>
+            <em>
+             <a href="/main/academics/biology/biologycurriculum/majorcourses/bioinformaticslab/">
+              Bioinformatics Lab
+             </a>
+            </em>
+           </p>
+           <p>
+            <strong>
+             <span class="italic">
+              BIO 204:
+             </span>
+             Invertebrate Zoology
+             <br />
+            </strong>
+            <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+             Iyengar
+            </a>
+            <strong>
+             <br />
+            </strong>
+            Study of the diversity of animal phyla, emphasizing similarities and differences among groups, adaptations to their respective environments, and potential evolutionary pathways for various organ systems. Laboratories emphasize structure and function of invertebrate anatomy through observation and dissection of living and preserved specimens. A required weekend trip to an aquarium or the ocean should be anticipated. Three hours of lecture plus three hours of laboratory per week.
+            <em>
+             Prerequisite: Biology 151
+             <br />
+            </em>
+           </p>
+           <p>
+            <strong>
+             <a id="b205">
+             </a>
+             BIO 205: Cell Biology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/martenjedwards/">
+              Edwards
+             </a>
+            </span>
+            <br />
+            The structure and function of eukaryotic cells will be explored at the molecular and cellular levels. Topics include cell signaling, membranes, organelles, cell cycle control, motility, and programmed cell death. Primary literature is analyzed in recitation sections. Laboratory provides experience in methods of subcellular fractionation, cytology, and cell culture. Self-designed investigations test hypotheses using fluorescent microscopy. Three lecture hours, one hour recitation, and three laboratory hours per week.
+            <br />
+            <span class="italic">
+             Prerequisite: BIO 152.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b215">
+             </a>
+             BIO 215: Genetics
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/brucewightman/">
+              Wightman
+             </a>
+            </span>
+            <br />
+            Study of genetic analysis in the four main branches of genetics: classical genetics, molecular genetics, population genetics, and genomics.&nbsp; Experimental approaches, human genetics, and model systems are emphasized.&nbsp; Topics include mutations, gene interactions, chromosomes, quantitative and evolutionary genetics, gene mapping, gene cloning, and genetic engineering.&nbsp; Three class hours, three laboratory hours, and one recitation hour per week.&nbsp;
+            <span class="italic">
+             Prerequisite: BIO 152.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b220">
+             </a>
+             BIO 220: Biochemistry
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/amyhark/">
+              Hark
+             </a>
+            </span>
+            <br />
+            Study of the chemical and biological properties of proteins, carbohydrates, lipids and nucleic acids. Topics include structure-function relationships of biologically relevant molecules, biochemical techniques, and intermediary metabolism. Three class hours, three laboratory hours, and one hour recitation per week.
+            <span class="italic">
+             Prerequisite: BIO 152 and CHM 104. CHM 201 or 203/205 should also be previously completed or enrolled concurrently.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b225">
+             </a>
+             BIO 225: Microbiology
+            </strong>
+            <br />
+            <span class="italic">
+             Chambers
+            </span>
+            <br />
+            Study of the morphology, physiology, biochemistry and genetics of bacteria as well as the structure and replication of viruses. Relationship of these microbes to human disease is emphasized. Laboratories stress aseptic technique, microscopic observation, bacterial physiology and identification. Three class hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 152.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b240">
+             </a>
+             BIO 240: Developmental Biology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/elizabethrmccain/">
+              McCain
+             </a>
+            </span>
+            <br />
+            An overview of the cellular and developmental mechanisms that control embryogenesis. Laboratories include the study of live embryos from sea urchins to chickens, as well as preserved embryo slides. Three class hours and three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 152.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b242">
+             </a>
+             BIO 242: Entomology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/martenjedwards/">
+              Edwards
+             </a>
+            </span>
+            <br />
+            A comprehensive study of the insects. Insect physiology, biochemistry, and molecular biology are integrated with an exploration of insect diversity, ecology, evolution, and the impact of insects on humans. Labs develop insect identification skills and provide experience in a variety of biochemical and molecular techniques as they are applied to current research in insect science. Three lecture hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 152.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b245">
+             </a>
+             BIO 245: Comparative Anatomy
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/maryconstantbyrne/">
+              Byrne
+             </a>
+            </span>
+            <br />
+            Study of the evolution and morphology of vertebrates. Emphasis is given to the comparative study of vertebrate homology and the adaptive value of structure. Laboratories consist of detailed dissections of representative taxa. Three class hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b250">
+             </a>
+             BIO 250: General Physiology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/paulmeier/">
+              Meier
+             </a>
+             ,&nbsp;
+             <a href="/main/academics/biology/facultystaff/jordannasprayberry/">
+              Sprayberry
+             </a>
+            </span>
+            <br />
+            Study of the concepts and principles that form the basis for understanding the mechanisms of animal physiology. The emphasis of the course is on the interrelationship of physiological processes and how they relate to the biological needs of mammals. Three class hours, three laboratory hours and one recitation hour per week.
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b255">
+             </a>
+             BIO 255: Ornithology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/danielklemjr/">
+              Klem
+             </a>
+             <br />
+            </span>
+            A detailed and in-depth study of avian natural history. Emphasis is given to population ecology, behavioral ecology, and conservation biology of birds. Laboratories are exercises and field trips to develop and practice techniques to identify, describe, and record the biology of birds in their natural habitat. Three class hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b260">
+             </a>
+             BIO 260: Field Botany and Plant Ecology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+              Niesenbaum
+             </a>
+            </span>
+            <br />
+            A field research oriented course emphasizing plants. The focus is on articulating and quantitatively answering relevant research questions on the diversity, ecology, and evolution of plants. Special emphasis is given to hypothesis development, data collection and analysis, and interpretation and presentation of results. Three class hours plus three laboratory hours per week with extensive field work.
+            <span class="italic">
+             Prerequisite: BIO 151. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b262">
+             </a>
+             BIO 262: Cultural and Economic Botany
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+              Niesenbaum
+             </a>
+             <br />
+            </span>
+            Study of the ecological relationship between plants and humans, and the implications for local and global conservation. Topics covered include medicinal plant use, agroecology, plant ecology, tropical ecology, and community-based conservation. Three lecture hours and three laboratory/field hours per week
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <span class="italic">
+             <strong>
+              <a id="b265">
+              </a>
+              BIO 265: Behavior
+              <br />
+             </strong>
+             <a href="/main/academics/biology/facultystaff/paulmeier/">
+              Meier
+              <br />
+             </a>
+             The biological study of behavior. Emphasis is given to the comparative study of genetics, morphology and physiology, ecology and evolution of animal behavior. Laboratories are exercises or field trips to observe, describe, and interpret the actions of animals in their natural habitat; special emphasis is given to hypothesis development and study design and the collection, analysis, interpretation, and presentation of research results. Three class hours plus three laboratory hours per week. Prerequisite: BIO 151. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <span class="italic">
+              <a id="b268">
+              </a>
+              BIO 268: Freshwater Ecology
+             </span>
+            </strong>
+            <br />
+            <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+             Iyengar
+            </a>
+            <br />
+            An examination of biotic and abiotic interactions occurring in the full range of freshwater systems, including streams, ponds, and lakes. Content includes interactions among living organisms, energy flow within and among living communities, survival strategies, water chemistry, adaptations of organisms for survival in water, and current human impacts on aquatic environments. Investigative methods in aquatic ecology will also be examined, especially through the laboratory component of the course. Three lectures and one laboratory meeting weekly.
+            <br />
+            <em>
+             Prerequisite: BIO 151 Principles of Biology II: Cells and Organisms
+            </em>
+           </p>
+           <p>
+            <strong>
+             <a id="b270">
+             </a>
+             BIO 270: Ecology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+            </span>
+            <br />
+            Study of the interactions of plants and animals with their non-living environment and with each other. Topics include species diversity, ecosystem interactions, and population and community ecology. Extensive field work, often despite the cold weather. Three class hours plus three laboratory hours per week (plus time for transportation).
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b272">
+             </a>
+             BIO 272: Field Marine Biology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+            </span>
+            <br />
+            Study of the structural and functional adaptations of marine organisms in relation to physical, chemical, and biological components of the marine environment. Laboratory study of marine ecosystem dynamics, marine plants and animals, and weekend trips to coastal field stations and aquaria. Three class hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b275">
+             </a>
+             BIO 275 &ndash; BIO 279: Field Investigations in Biology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+             ,
+             <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+              Niesenbaum
+             </a>
+             , Staff
+            </span>
+            <br />
+            Field investigations focusing on a particular site or theme in ecology. Examples include marine ecology in Maine, and tropical ecology in Peru, Guatemala, and Costa Rica. May be taken for one-half course units or one course unit. May be enrolled more than once.
+            <span class="italic">
+             Prerequisite: BIO 151.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b335">
+             </a>
+             BIO 335: Immunology
+            </strong>
+            <br />
+            Study of the immune system and its role in maintaining the physiological integrity of multicellular organisms against infection, malignancy and transplantation. Specifically, the following concepts are studied: structure and function of antibodies and antigens, biology of lymphocytes and their interaction, immunoregulation, and immunopathology. Three class hours plus two recitation hours per week..
+            <span class="italic">
+             Prerequisite: BIO 152 and any Group I course numbered 200 and above. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b350">
+             </a>
+             BIO 350: Applied Physiology
+            </strong>
+            <br />
+            Advanced topics in physiology, including cardiovascular biology, respiratory biology, neurobiology, immunology, and endocrinology will be studied. Students will apply and extend their understanding of basic and clinical physiology to the analysis of case studies presented to the class by health professionals. Emphasizes skills in problem solving, writing, and oral presentation.
+            <span class="italic">
+             Prerequisite: BIO 250. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b360">
+             </a>
+             BIO 360: Histology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/elizabethrmccain/">
+              McCain
+             </a>
+            </span>
+            <br />
+            Study of the microscopic anatomy of vertebrate tissue and organs, with a detailed consideration of the relation of structure to function. Three class hours plus three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: BIO 152 and BIO 205, BIO 245, or BIO 250.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b405">
+             </a>
+             BIO 405: CUE: Cell Biology of Human Disease
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/martenjedwards/">
+              Edwards
+             </a>
+            </span>
+            <br />
+            The cell biology of human diseases will be investigated using current primary literature, emphasizing experimental methods and the interpretation of data. Topics will include cancer, heart disease, diabetes, Alzheimer&rsquo;s disease, muscular dystrophy, and other human health concerns that have been the topic of recent research at the cellular level. Students will critically analyze current controversies in the cell biology literature.
+            <span class="italic">
+             Prerequisite: BIO 205 or consent of instructor. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b412">
+             </a>
+             BIO 412: CUE: Molecular Biology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/brucewightman/">
+              Wightman
+             </a>
+            </span>
+            <br />
+            A topical course investigating the techniques and applications of recombinant DNA, with a focus on their application to cancer research. The course provides a detailed treatment of recombinant methodologies. Topics covered include gene regulation, genomics, and molecular mechanisms of cancer, viewed through a historical lens. Discussions and writing assignments focus on classic and contemporary primary literature and the relationship between biomeical research and society. Three class hours per week.
+            <span class="italic">
+             Prerequisite: BIO 152 and BIO 205, BIO 215, BIO 220, or BIO 225. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b423">
+             </a>
+             BIO 423: CUE: Scanning Electron Microscopy
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/elizabethrmccain/">
+              McCain
+             </a>
+            </span>
+            <br />
+            Students learn how to prepare specimens for scanning electron microscopy; instruction includes fixation procedures, critical point drying, sputter coating and operation of the microscope. Students design and complete an independent research project, analyze and discuss scientific literature, and learn how to write a scientific paper. Three class hours and three laboratory hours per week.
+            <span class="italic">
+             Prerequisite: Any two biology courses numbered between 200 and 299. PHY 211 and CHM 201 or CHM 203/205 should also be previously completed or concurrently enrolled. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b460">
+             </a>
+             BIO 460: CUE: Physiological and Behavioral Ecology
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/paulmeier/">
+              Meier
+             </a>
+            </span>
+            <br />
+            A seminar course investigating the physiological adaptations of vertebrates to their environment. Readings are from the primary literature. Students design and complete
+            <span class="italic">
+             an
+            </span>
+            independent research project and learn how to write a scientific paper. Three class hours and three laboratory hours each week.
+            <br />
+            <span class="italic">
+             Prerequisite: Any two biology courses numbered between 200 and 299. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <span class="italic">
+             <strong>
+              <a id="b465">
+              </a>
+              BIO 465, 466: Conservation Biology
+              <br />
+             </strong>
+             <a href="/main/academics/biology/facultystaff/kimberlyheiman/">
+              Heiman
+             </a>
+             ,&nbsp;
+             <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+              Niesenbaum
+             </a>
+            </span>
+            <br />
+            This course will draw on the various disciplines within biology as they are applied in the very rapidly changing field of conservation biology. Topics will include conservation genetics, geographical information systems (GIS), sustainable agriculture and forestry, integrated land-use management, and restoration ecology. Project-based seminar includes three class hours and three lab/field hours per week. This course will be offered in alternate years, depending on student demand.
+            <span class="italic">
+             Prerequisite: Any two 200-level biology courses.
+            </span>
+            <span class="italic">
+             Meets general academic requirement W when taught as 466.
+            </span>
+           </p>
+           <p>
+            <strong>
+             <a id="b470">
+             </a>
+             BIO 470: Evolution
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+            </span>
+            <br />
+            Study of the processes of evolution from macromolecules to the genesis of major groups of life. Examination of Neo-Darwinian theories of adaptation and natural selection as well as competing scientific explanations of evolutionary change. Assessment of contemporary criticism of Darwinian theory. Three class hours per week in seminar format with emphasis on reading of primary literature and discussion.
+            <span class="italic">
+             Prerequisite: Any two biology courses numbered between 200 and 299. Meets general academic requirement W.
+            </span>
+           </p>
+           <p>
+            <a id="b472">
+            </a>
+            <strong>
+             BIO 472: Genomes and Gene Evolution
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/amyhark/">
+              Hark
+             </a>
+             ,&nbsp;
+            </span>
+            <a href="/main/academics/biology/facultystaff/brucewightman/">
+             <span class="italic">
+              Wightman
+             </span>
+            </a>
+            <br />
+            A central question that remains in biology is the relationship between genetic changes at the DNA level and evolution of organismal form and function. This capstone course focuses on modern comparative and regulatory genomic approaches primarily through the lens of the evolution of animal genes. Lectures feature review of primary literature and use of bioinformatics tools; laboratory experience centers on DNA microarray technology. Discussions and writing assignments will be centered on student projects in distinct areas of genome science. Three hours per week.
+            <em>
+             Prerequisites: BIO 152 Principles of Biology III: Molecules &amp; Cells and (BIO 205 Cell Biology, BIO 215 Genetics, BIO 220 Biochemistry, BIO 225 Microbiology, or BIO 240 Developmental Biology).
+             <span class="italic">
+              Meets general academic requirement W.
+             </span>
+            </em>
+           </p>
+           <p>
+            <strong>
+             <a id="b960">
+             </a>
+             BIO 960: Biology Internship
+            </strong>
+            <br />
+            <span class="italic">
+             Staff
+            </span>
+            <br />
+            Majors are eligible for internship programs with the approval of the department head. Internships do not count as one of the nine biology course required for the biology major.
+           </p>
+           <p>
+            <strong>
+             <a id="b970">
+             </a>
+             BIO 970: Biology Independent Study/Research
+            </strong>
+            <br />
+            <span class="italic">
+             Staff
+            </span>
+            <br />
+            Open to qualified students. A proposal for independent study is developed by the students in consultation with a faculty member. The department head must approve the proposal. May be taken for one-half course unit or one course unit. May be taken more than once. However, only one Independent Study/Research course can be counted as one of the nine biology courses required for the biology major.
+           </p>
+           <p>
+            <strong>
+             <a id="n311">
+             </a>
+             NSC 311:&nbsp; Neurons and Networks
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/jeremyteissere/">
+              Teissere
+             </a>
+            </span>
+            <br />
+            An exploration of the molecular and cellular foundations of nervous system function.&nbsp; Topics discussed will include the ionic and electrical properties of neurons; the biochemistry of synaptic signaling; structure and function of ion channels and neurotransmitter receptors; neuronal and synaptic plasticity; and the functional regulation of basic neuronal circuits.&nbsp; Research methods of cellular and molecular neuroscience will be introduced through class discussions, relevant primary literature, and laboratory investigations.&nbsp; Three class hours and three laboratory hours per week.&nbsp;
+            <span class="italic">
+             May count as an elective toward the biology major.&nbsp; Prerequisite: Principles of Biology III (BIO 152).
+            </span>
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Biology Department
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/biology/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/majorrequirements/">
+            Major Requirements
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/programgoals/">
+            Program Goals
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/biology/biologycurriculum/majorcourses/">
+             Major Courses
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/non-majors/">
+            Non-Majors
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/honorsprogram/">
+            Honors Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/studyincostarica/">
+            Costa Rica
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/fieldmarinebiology/">
+            Field Marine Biology
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/organicfarm/">
+            Organic Farm
+           </a>
+          </li>
+          <li>
+           <a href="/academics/braincamp/">
+            Brain Camp
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/majorrequirements/"&gt;Major Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/programgoals/"&gt;Program Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/biology/biologycurriculum/majorcourses/"&gt;Major Courses&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/non-majors/"&gt;Non-Majors&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/honorsprogram/"&gt;Honors Program&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/studyincostarica/"&gt;Costa Rica&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/fieldmarinebiology/"&gt;Field Marine Biology&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/organicfarm/"&gt;Organic Farm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/academics/braincamp/"&gt;Brain Camp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

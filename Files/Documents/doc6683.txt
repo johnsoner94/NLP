@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   History - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 353809;
+			mySID = 2894040;
+			var myGNAME = "History";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   History
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Oct 12, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/history">
+          http://libraryguides.muhlenberg.edu/history
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=353809">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353809&amp;sid=2894040">
+       Databases
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353809&amp;sid=2897443">
+       Catalogs
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353809&amp;sid=2897457">
+       Primary Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353809&amp;sid=2897473">
+       Reference Works
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=353809&amp;sid=2897476">
+       Citation Guides
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2894040" class="guide_page">
+   <h2>
+    Databases
+   </h2>
+   <div id="content_box_10136168" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources by Course
+     </div>
+     <ul>
+      <li>
+       Cold War America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/coldwaramerica">
+        http://libraryguides.muhlenberg.edu/coldwaramerica
+       </a>
+      </li>
+      <li>
+       Colonial America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/colonialamerica">
+        http://libraryguides.muhlenberg.edu/colonialamerica
+       </a>
+      </li>
+      <li>
+       Coming to America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/comingtoamerica">
+        http://libraryguides.muhlenberg.edu/comingtoamerica
+       </a>
+      </li>
+      <li>
+       Constitutional History of the United States
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/constitutionhistory">
+        http://libraryguides.muhlenberg.edu/constitutionhistory
+       </a>
+      </li>
+      <li>
+       CUE: Twentieth-Century U.S. Cities
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/uscities">
+        http://libraryguides.muhlenberg.edu/uscities
+       </a>
+      </li>
+      <li>
+       Disease and Medicine in American History
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/diseasemedhist">
+        http://libraryguides.muhlenberg.edu/diseasemedhist
+       </a>
+      </li>
+      <li>
+       Disorderly American Cities
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/disorderlycities">
+        http://libraryguides.muhlenberg.edu/disorderlycities
+       </a>
+      </li>
+      <li>
+       Eighteenth-Century Europe
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/18theurope">
+        http://libraryguides.muhlenberg.edu/18theurope
+       </a>
+      </li>
+      <li>
+       Environmental History of Latin America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/envlatamhist">
+        http://libraryguides.muhlenberg.edu/envlatamhist
+       </a>
+      </li>
+      <li>
+       Holocaust and Cinema
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/holocaustcinema">
+        http://libraryguides.muhlenberg.edu/holocaustcinema
+       </a>
+      </li>
+      <li>
+       Latin American and Caribbean Environmental Justice
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/latam_environment_justice">
+        http://libraryguides.muhlenberg.edu/latam_environment_justice
+       </a>
+      </li>
+      <li>
+       Life and Death in the Atlantic World
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/atlanticworld">
+        http://libraryguides.muhlenberg.edu/atlanticworld
+       </a>
+      </li>
+      <li>
+       Modern European History
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/moderneurope">
+        http://libraryguides.muhlenberg.edu/moderneurope
+       </a>
+      </li>
+      <li>
+       Modern Latin American and Caribbean History
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/modlatam">
+        http://libraryguides.muhlenberg.edu/modlatam
+       </a>
+      </li>
+      <li>
+       Music and the Civil Rights Movement
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/musiccivilrights">
+        http://libraryguides.muhlenberg.edu/musiccivilrights
+       </a>
+      </li>
+      <li>
+       Popular Culture in Latin America and the Caribbean
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/popculturelatin">
+        http://libraryguides.muhlenberg.edu/popculturelatin
+       </a>
+      </li>
+      <li>
+       Race &amp; Ethnicity in Latin America &amp; the Caribbean
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/racelatam">
+        http://libraryguides.muhlenberg.edu/racelatam
+       </a>
+      </li>
+      <li>
+       The Reformation
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/reformation">
+        http://libraryguides.muhlenberg.edu/reformation
+       </a>
+      </li>
+      <li>
+       Remembering the American Revolution
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/remember_revolution">
+        http://libraryguides.muhlenberg.edu/remember_revolution
+       </a>
+      </li>
+      <li>
+       Representation of Disabilities in America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/repdisabilities">
+        http://libraryguides.muhlenberg.edu/repdisabilities
+       </a>
+      </li>
+      <li>
+       Revolutionary America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/revolamerica">
+        http://libraryguides.muhlenberg.edu/revolamerica
+       </a>
+      </li>
+      <li>
+       Revolutions in French History
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/revolutionsfrench">
+        http://libraryguides.muhlenberg.edu/revolutionsfrench
+       </a>
+      </li>
+      <li>
+       Revolutions in the Middle East
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/revolsmideast">
+        http://libraryguides.muhlenberg.edu/revolsmideast
+       </a>
+      </li>
+      <li>
+       Rise of Islam
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/riseislam">
+        http://libraryguides.muhlenberg.edu/riseislam
+       </a>
+      </li>
+      <li>
+       Seventeenth-Century Europe
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/17theurope">
+        http://libraryguides.muhlenberg.edu/17theurope
+       </a>
+      </li>
+      <li>
+       Sex, Beauty, and the Body in Brazil and the Caribbean
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/bodycaribbean">
+        http://libraryguides.muhlenberg.edu/bodycaribbean
+       </a>
+      </li>
+      <li>
+       Silk, Spices and World Trade
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/silkspices">
+        http://libraryguides.muhlenberg.edu/silkspices
+       </a>
+      </li>
+      <li>
+       Tudor-Stuart England
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/tudorstuart">
+        http://libraryguides.muhlenberg.edu/tudorstuart
+       </a>
+      </li>
+      <li>
+       Urban Africa
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/urbanafrica">
+        http://libraryguides.muhlenberg.edu/urbanafrica
+       </a>
+      </li>
+      <li>
+       Women's America
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/womensamerica">
+        http://libraryguides.muhlenberg.edu/womensamerica
+       </a>
+      </li>
+      <li>
+       World War II in European Cinema
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/ww2eurocinema">
+        http://libraryguides.muhlenberg.edu/ww2eurocinema
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10136018" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       America: History &amp; Life with Full Text
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=31h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile;=ehost&defaultdb;=31h
+       </a>
+       <br />
+       The definitive database of literature covering the history and culture of the United States and Canada, from prehistory to the present. With selective indexing for 1,700 journals from 1964 to present, this database is without question the most important bibliographic reference tool for students and scholars of U.S. and Canadian history. Full text journals include American Historical Review, American 19th Century History, American Studies, Early American Studies, Journal of American Culture, Journal of American History, Journal of Early American History, and Journal of Military History.
+      </li>
+      <li>
+       Historical Abstracts with Full Text
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=30h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=30h
+       </a>
+       <br />
+       Provides indexing, abstracts, and selected full text of articles appearing in history journals, with emphasis on world history from 1450 to present (excluding the U.S. and Canada which are covered in America: History and Life). It includes citations to books, journal articles, and dissertations.
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       A substantive archive of more than 300 scholarly history journals, all full text. As an archive, there is typically a lag time of 3-5 years from publication until new issues appear in JSTOR. Full text journals include American Historical Review, Journal of American History, Journal of American Studies, Review in American History, Comparative Studies in Society and History, Cultural Critique, Eighteenth Century Studies, Environmental History, Historical Journal, and History and Theory.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10147963" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      More Databases
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas.
+      </li>
+      <li>
+       ITER
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search2.itergateway.org/Iter/search.jsp">
+        https://muhlenberg.idm.oclc.org/login?url=http://search2.itergateway.org/Iter/search.jsp
+       </a>
+       <br />
+       Index to scholarly literature pertaining to the Middle Ages and Renaissance (400-1700).
+      </li>
+      <li>
+       Project Muse
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=https://muse.jhu.edu/browse">
+        https://muhlenberg.idm.oclc.org/login?url=https://muse.jhu.edu/browse
+       </a>
+       <br />
+       A full-text database with journal articles in the arts, humanities, and social sciences.
+      </li>
+      <li>
+       Table of Contents of Journals of Interest to Classicists (TOCS-IN)
+       <br />
+       <a href="http://www.chass.utoronto.ca/amphoras/tocs.html">
+        http://www.chass.utoronto.ca/amphoras/tocs.html
+       </a>
+       <br />
+       Index to scholarly literature in classical studies.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

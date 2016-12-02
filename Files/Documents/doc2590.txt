@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/css112/libguides.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" title="Tabbed version stylesheet" href="/js/dojo-161/dijit/themes/tundra/tundra.css" />
+  <title>
+   Tech Support - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   #container { background: url('http://lgimages.s3.amazonaws.com/bg_page_darkblue.gif') repeat-x; background-color:#FFFFFF; }
+			.supp_desc { font-style:italic; }
+			td { vertical-align:top; }
+			#supportform input, #supportform textarea { width:500px; }
+			#supportform select { width:505px; }
+			
+		.headerbox { 
+			background-image:none; background-color:#003050; 
+		}
+		
+		.headerbox h2, .helpdesc { 
+			color: #ffffff; 
+		}.headerbox h2 { color:#FFFFFF; }.outerbox { background-color:#C2C2C2; }.innerbox, .innerboxprofile { background-color:#; }
+  </style>
+  <script type="text/javascript" src="/js/dojo-161/dojo/dojo.js" djconfig="parseOnLoad: true">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript" src="/js112/jquery.addons.min.js">
+  </script>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="/js112/lg.js">
+  </script>
+  <script type="text/javascript">
+   dojo.require("dijit.form.Button");
+				
+			function submitSupport() {
+				if (!validateRegEx(document.supportform.namepersonal.value, 'notempty', false)) { alert(lang_mgr_support_invalid_form_js); return false; }
+				if (!validateRegEx(document.supportform.email.value, 'email', false)) { alert(lang_mgr_support_invalid_form_js); return false; }
+				if (!validateRegEx(document.supportform.problem.value, 'notempty', false)) { alert(lang_mgr_support_invalid_form_js); return false; }
+				
+				/*
+				if (jQuery('#file').length &gt; 0) {
+					var path = jQuery('#file').val();
+					var aUpload = path.split('.');
+					var extValue = aUpload[aUpload.length-1];
+					extValue = extValue.toLowerCase();
+					if ((extValue == 'php') || (extValue == 'js')) {
+						errorAlert('You have chosen a forbidden file type; please select another file and try again.');
+						return false;
+					}
+				}
+				*/
+				
+				document.getElementById('submitbutton').style.display = "none";
+				document.getElementById('submitprocess').style.display = "block";
+
+				jQuery('#supportform').ajaxSubmit({
+					url: '/process_support.php',
+					dataType: 'json',
+					success: function(d) {
+						if (d.status == 1) { 
+							document.getElementById('formarea').innerHTML = '&lt;div style="margin-bottom:50px;"&gt;' + lang_mgr_global_thank_you + '&lt;BR&gt;&lt;BR&gt;&lt;a href=index.php&gt;' + 
+							lang_mgr_global_return_to_homepage + '&lt;/a&gt;&nbsp;&nbsp;|&nbsp;&nbsp;&lt;a href="support.php"&gt;' + lang_mgr_support_submitanother_js + '&lt;/a&gt;&lt;/div&gt;';
+						}
+						else {
+							alert(lang_mgr_support_submit_error_js);
+							document.getElementById('submitbutton').style.display = "block";
+							document.getElementById('submitprocess').style.display = "none";
+						}				
+					},
+						error: function(jqXHR, textStatus, errorMessage) {
+                  			//alert(errorMessage);
+               	 	}
+				});
+				
+				return false;
+			}
+  </script>
+  <style type="text/css">
+   #tabs12 a { background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tableft-blue.gif) no-repeat scroll left top; }
+#tabs12 a span { color:#hex color for the tab text; background:transparent url(http://www.muhlenberg.edu/library/img/libguides-tabright-blue.gif) no-repeat scroll right top; }
+.dropmenudiv a:hover { color:#FFFFFF; background-color:#0070bb; }
+.guidetitle { font: bold 22px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+.headerbox h2 { font: bold 15px Verdana, Arial, Helvetica, sans-serif; }
+.guidedesc { font: bold 15px Arial, Trebuchet ms, Tahoma, Helvetica, sans-serif; }
+  </style>
+ </head>
+ <body id="support_php" class="tundra public_page">
+  <a name="top">
+  </a>
+  <div id="wrapper">
+   <div id="container">
+    <noscript>
+     <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+      <h2>
+       <span style="color: #000;">
+        This site requires a JavaScript enabled browser. For more information please visit our
+        <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+         FAQ
+        </a>
+       </span>
+      </h2>
+     </div>
+    </noscript>
+    <div id="custom_header">
+     <style>
+      .guideattr, .lgsearch, #guide_tab_title_bar_page_name, #guide_tab_title_bar_page_print, #breadcrumbsr{display:none;}
+     </style>
+    </div>
+    <a href="http://trexler.muhlenberg.edu/">
+     <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+    </a>
+    <br clear="all" />
+    <div class="topnav">
+     <div id="breadcrumbsr" style="float:right;">
+      <span id="bc_admin_login">
+       <a id="bc_libguides_login" href="https://libguides.com/login.php?iid=3322">
+        Admin Sign In
+       </a>
+      </span>
+     </div>
+     <div id="breadcrumbsl">
+      <span id="bc_library_home">
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+       <span class="breadcrumb_spacer">
+        &raquo;
+       </span>
+      </span>
+      <span id="bc_libguides_home">
+       <a href="http://libraryguides.muhlenberg.edu/index.php">
+        Subject Guides
+       </a>
+      </span>
+     </div>
+    </div>
+    <div class="pagetitle">
+     Subject Guides - Tech Support
+    </div>
+    <div class="pagedesc">
+     Contact your local site admin to report a problem or ask for help.
+    </div>
+    <br clear="all" />
+    <div id="formarea" style="padding-left:10px; padding-right:10px;">
+     <form method="post" name="supportform" id="supportform" enctype="multipart/form-data" onsubmit="return submitSupport();">
+      <input type="hidden" name="refer" value="" />
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <label for="namepersonal">
+        Your Name:
+       </label>
+       <br />
+       <input type="text" name="namepersonal" id="namepersonal" value="" />
+      </div>
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <label for="email">
+        Your Email - only used to reply to your question...no spam here:
+       </label>
+       <br />
+       <input type="text" name="email" id="email" value="" />
+      </div>
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <label for="problem">
+        Question or Comment - please be as detailed as possible:
+       </label>
+       <br />
+       <textarea name="problem" id="problem" rows="7">
+       </textarea>
+      </div>
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <label for="link">
+        Related Link - if there is a URL that helps illustrate the problem, paste it here:
+       </label>
+       <br />
+       <input type="text" name="link" id="link" />
+      </div>
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <label for="emotion">
+        Emotional State:
+       </label>
+       <br />
+       <select name="emotion" id="emotion">
+        <option value="">
+         --
+        </option>
+        <option value="Excited">
+         Excited
+        </option>
+        <option value="Confused">
+         Confused
+        </option>
+        <option value="Worried">
+         Worried
+        </option>
+        <option value="Upset">
+         Upset
+        </option>
+        <option value="Panicked">
+         Panicked
+        </option>
+        <option value="Angry">
+         Angry
+        </option>
+       </select>
+      </div>
+      <div class="fieldlabel" style="padding-bottom:20px;">
+       <div id="support_form_instruction_div">
+        Click the button below to submit your question. If you are not redirected to a confirmation screen, you may also email your question to
+        <a href="mailto:support@springshare.com">
+         support@springshare.com
+        </a>
+        .
+        <br />
+        <br />
+       </div>
+       <div id="submitbutton">
+        <button dojotype="dijit.form.Button" type="submit">
+         Submit
+        </button>
+        <button dojotype="dijit.form.Button" type="button" onclick="history.back();">
+         Back
+        </button>
+       </div>
+       <div id="submitprocess" style="display:none;">
+        <img src="http://lgimages.s3.amazonaws.com/loading_dots.gif" />
+       </div>
+      </div>
+     </form>
+    </div>
+    <div id="footer">
+     <div id="footer_topline">
+      Powered by
+      <a href="http://www.springshare.com">
+       Springshare
+      </a>
+      ; All rights reserved.
+      <span id="footer_support_link">
+       <a href="/support.php">
+        Report a tech support issue
+       </a>
+       .
+      </span>
+     </div>
+    </div>
+    <div id="customFooter">
+    </div>
+    <div id="trackingcode">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

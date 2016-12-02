@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <div id="content-wrapper">
+   <div id="content">
+    <div id="basket-content">
+     <div id="basket-scroll-right">
+     </div>
+     <div id="basket-scroll-left">
+     </div>
+     <div id="basket-thumbs">
+      <br />
+      Your basket is empty.
+     </div>
+    </div>
+    <div style="height: 15px;">
+    </div>
+    <form method="POST" action="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb" id="explore-form">
+     <div style="display:none">
+      <input type="hidden" name="csrfmiddlewaretoken" value="efcafe227541acabe6d5d926873deb55" />
+     </div>
+     <input type="hidden" name="op" value="1" />
+     <ul class="actionbar">
+      <li>
+       0 hits
+      </li>
+      <!--
+-->
+      <li class="pagination">
+      </li>
+     </ul>
+     <br style="clear: left;" />
+     <div id="sidebar">
+      <div class="facet active-facet" id="results_sidebar_keywords">
+       <div class="facet-header">
+        Keywords
+       </div>
+       <div class="facet-body">
+        <input type="text" id="keywords" name="kw" value="" />
+        <input type="image" class="image" src="/static/images/med_go_button.png" value="Go" id="keywords-go" />
+       </div>
+      </div>
+      <div id="facets" style="display: none;">
+      </div>
+      <div class="facet" id="results_sidebar_last_modified">
+       <div class="facet-header">
+        Last modified
+       </div>
+       <div class="facet-body">
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-1DAY TO *]" rel="nofollow">
+         Within last 1 day
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-2DAYS TO *]" rel="nofollow">
+         Within last 2 days
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-7DAYS TO *]" rel="nofollow">
+         Within last 7 days
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-30DAYS TO *]" rel="nofollow">
+         Within last 30 days
+        </a>
+        <br />
+       </div>
+      </div>
+      <div class="facet" id="results_sidebar_record_created">
+       <div class="facet-header">
+        Record created
+       </div>
+       <div class="facet-body">
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-1DAY TO *]" rel="nofollow">
+         Within last 1 day
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-2DAYS TO *]" rel="nofollow">
+         Within last 2 days
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-7DAYS TO *]" rel="nofollow">
+         Within last 7 days
+        </a>
+        <br />
+        <a href="/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-30DAYS TO *]" rel="nofollow">
+         Within last 30 days
+        </a>
+        <br />
+       </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+       <a href="/explore/selected/">
+        Reset Search
+       </a>
+      </div>
+     </div>
+     <div style="text-align: center; clear: both;">
+     </div>
+    </form>
+    <div style="display: none;">
+     <!-- navigation links for preview dialog -->
+    </div>
+    <div id="footer">
+     Copyright 1997-2011 James Madison University
+    </div>
+   </div>
+  </div>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/explore/selected/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/explore/selected/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript">
+   custom_process_facets = true;
+  </script>
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   // preload facet loading image
+    var img = new Image();
+    img.src = '/static/images/loading.gif';
+
+    function selectAllOnPage() {
+        ids = Array();
+        $(".record-select").each(function (i) { ids[i] = this.value; }).val(ids);
+        recordSelection(ids, true);
+    }
+
+    $(document).ready(function() {
+        $("#submit_record_selections").replaceWith($("&lt;input type='button' value='Select all on page'&gt;").click(selectAllOnPage));
+
+        $("#sort_dropdown, #viewmode_dropdown").change(function() { $("#explore-form").submit(); })
+        $("#sort_go_button").hide();
+    
+        $("#external-results").html("&lt;div style='text-align: center;'&gt;Loading &lt;img src='/static/images/loading.gif' alt='Loading'  /&gt;&lt;\/div&gt;");
+    
+        $("#external-results").show();
+    
+        $("#facets").html("&lt;div style='text-align: center;'&gt;Loading facets &lt;img src='/static/images/loading.gif' alt='Loading'  /&gt;&lt;\/div&gt;").show();
+    
+
+        $("#resultlist div.record a img.record-anchor").parent("a").unbind('click').click(function(e) {
+            var a = $(this);
+            var img = $("img.record-anchor", a);
+            var prev = function() { return a.parent("div.record").prev("div.record").children("a").first() };
+            var next = function() { return a.parent("div.record").next("div.record").children("a").first() };
+            if (!prev().length) prev = function() {
+                // on first record on this page, see if there is a previous page
+                var link = $("#navigate-previous-page").clone();
+                link.click(function() { window.location = link.attr('href') + '#preview-last'; });
+                return link;
+            }
+            if (!next().length) next = function() {
+                // on last record on this page, see if there is a next page
+                var link = $("#navigate-next-page").clone();
+                link.click(function() { window.location = link.attr('href') + '#preview-first'; });
+                return link;
+            }
+            preview_dialog(a, img, prev, next)
+            e.preventDefault();
+        });
+
+        if (location.hash == '#preview-first') {
+            $("#resultlist div.record a img.record-anchor").parent("a").first().click();
+        }
+
+        if (location.hash == '#preview-last') {
+            $("#resultlist div.record a img.record-anchor").parent("a").last().click();
+        }
+
+    });
+
+    $(window).load(function() {
+        
+        ajaxManager.add({
+                type: 'GET',
+                url: '/explore/selected\u002Dfacets/?sessionid\u003D9ea96dcad460ffacfdaaa383474cd3dd\u0026s\u003Dtitle_sort+asc\u0026v\u003Dthumb\u0026',
+                dataType: 'json',
+                success: function(r) {
+                    var facets = $("#facets");
+                    facets.hide();
+                    if (r.result != 'error') {
+                      facets[0].innerHTML = r.html;
+                      process_facets();
+                      facets.slideDown(500);
+                    }
+                }
+            });
+        
+        
+    });
+  </script>
+ </body>
+</html>

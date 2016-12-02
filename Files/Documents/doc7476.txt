@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Niesenbaum's Page - Richard A. Niesenbaum | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Biology Department
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/biology/">
+            Biology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/biology/facultystaff/">
+            Faculty &amp; Staff
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/biology/facultystaff/richardaniesenbaum/">
+            Richard A. Niesenbaum
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/">
+            Niesenbaum's Page
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <table align="center" border="0">
+          <tbody>
+           <tr>
+            <td>
+             <div>
+              <span class="style7">
+               <span class="stylea">
+                <a href="/main/academics/biology/">
+                 Biology Home
+                </a>
+                |
+                <a href="http://www.muhlenberg.edu/main/academics/sustainability/">
+                 Sustainability Studies
+                </a>
+                |
+                <a href="/main/academics/biology/plant-insectinteractionsnsf/">
+                 Plant-Insect Research
+                </a>
+               </span>
+              </span>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <p>
+          &nbsp;
+         </p>
+         <table border="0">
+          <tbody>
+           <tr>
+            <td style="width: 500px;">
+             <p>
+              <span class="style2">
+               <strong>
+                Richard Niesenbaum, Ph.D
+               </strong>
+               .
+              </span>
+              <span class="style7">
+               <br />
+               <strong>
+                Professor of Biology
+                <br />
+               </strong>
+               <strong>
+                Director of Sustainability Studies
+               </strong>
+              </span>
+             </p>
+             <p>
+              <strong>
+               Program Faculty in Sustainability Studies, Latin American &amp; Caribbean Studies
+              </strong>
+              ,
+              <strong>
+               and Public Health
+              </strong>
+             </p>
+             <p>
+              <span class="style7">
+               237 New Science Building
+              </span>
+              <span class="style7">
+               <br />
+               Muhlenberg College, Allentown, PA 18104
+               <br />
+               Phone: 484-664-3258
+               <br />
+               <a href="mailto:niesenba@muhlenberg.edu">
+                niesenba@muhlenberg.edu
+               </a>
+              </span>
+              &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+             </p>
+             <p>
+              <span class="style7">
+               Twitter: @SusSolutions
+              </span>
+              <strong>
+               &nbsp;
+              </strong>
+              &nbsp;
+             </p>
+             <p>
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <div class="style7">
+              <span class="style7">
+               <span class="style4">
+                <img src="/media/contentassets/images/academics/sustainability/richn.jpg" alt="Sustainability Studies" style="     " />
+               </span>
+               &zwnj;
+              </span>
+              &zwnj;
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p class="style7">
+              &nbsp;
+             </p>
+             <p class="style7">
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <div>
+              <p>
+               <img src="/media/contentassets/images/academics/sustainability/Picture6web_000-305x228.jpg" alt="Sustainability Studies" style="     " />
+              </p>
+              <p>
+               &nbsp;
+              </p>
+              <p>
+               &nbsp;
+              </p>
+              <p>
+               <img src="/media/contentassets/images/academics/sustainability/solarpanelinstallation-305x203.jpg" alt="Sustainability Studies" style="     " />
+              </p>
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <p>
+              <strong>
+               <span class="style9">
+                Education:
+               </span>
+               <span class="style7">
+                <br />
+               </span>
+              </strong>
+             </p>
+             <p>
+              Ph.D. Biology/Ecology - University of Pennsylvania
+             </p>
+             <p>
+              M.S.&nbsp; Biological Oceanography - University of Connecticut
+             </p>
+             <p>
+              B.A.&nbsp; Biology and Environmental Studies - University of Pennsylvania
+             </p>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              <strong>
+               <span class="style8">
+                <span style="font-family: Arial,Helvetica,sans-serif;">
+                 Selected Honors and Awards:
+                </span>
+               </span>
+              </strong>
+             </p>
+             <p>
+              The Class of 1932 Research Professor for 2014-2015
+             </p>
+             <p>
+              The Spira Honoree for Distinguished Teaching, Muhlenberg College, 2012-2013&nbsp;
+             </p>
+             <p>
+              The Donald B. Hoffman Research Fellowship, Muhlenberg College 2006&nbsp;
+             </p>
+             <p>
+              Lehigh Valley "Mover and Shaper", Lehigh Valley Magazine, 2005
+             </p>
+             <p>
+              The Class of 1932 Research Professor for 2003-2004
+             </p>
+             <p>
+              The Donald and Anne Shire Distinguished Teaching Professor - 1999-2000
+             </p>
+             <p>
+              Muhlenberg College Bridgebuilders Award for support of students with disabilities - 1998 &amp; 2000
+             </p>
+             <p>
+              The Huebner Global Education and Awareness Award - Muhlenberg College -1997
+             </p>
+             <p>
+              The Robert C. Williams Faculty Prize for Distinguished Scholarship - 1996
+             </p>
+             <p>
+              <span class="style8">
+               <span style="font-family: Arial,Helvetica,sans-serif;">
+                &nbsp;
+               </span>
+              </span>
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p class="style7">
+              &nbsp;
+             </p>
+             <p class="style7">
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <div>
+              <span class="style7">
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/beth_z_nose8b-158x152.jpg" alt="Biology Department Faculty" style="     " />
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/shauna_collecting_sm2-158x152.jpg" alt="Biology Department Faculty" style="     " />
+               <br />
+              </span>
+              &zwnj;
+              <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/group07-319x213.jpg" alt="Biology Department Faculty" style="     " />
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <p>
+              <strong>
+               <span class="style9">
+                Recent Grants:
+               </span>
+              </strong>
+             </p>
+             <p class="style7">
+              <strong>
+               The National Science Foundation
+              </strong>
+              , Cross-Disciplinary Research at Undergraduate Institutions (NSF-CRUI), Linking ecology, leaf chemistry, and genetics to assess abiotic and biotic determinants of herbivory.&nbsp;With Marten Edwards, Chris Ingersoll, &amp; George Benjamin.&nbsp;For more information about this project visit our
+              <a href="/main/academics/biology/plant-insectinteractionsnsf/">
+               <strong>
+                NSF-CRUI Home Page
+               </strong>
+              </a>
+              .
+             </p>
+             <p class="style7">
+              <strong>
+               FIPSE
+              </strong>
+              -&nbsp;Discovery and Exploration in the Physical and Life Sciences - A grant to support students at risk.&nbsp;With Don Shive.
+             </p>
+             <p class="style7">
+              <strong>
+               Merck/AAAS
+              </strong>
+              &ndash; Undergraduate Research Experiences at the Interface of Biology and Chemistry.&nbsp;With multiple collaborators.
+             </p>
+             <p class="style7">
+              <strong>
+               The National Science Foundation
+              </strong>
+              , Division of Environmental Biology, Research Award, How Experimenter Visitation and Measurement Affect Herbivory and Plant Growth.&nbsp;With James Cahill and Chris Ingersoll.
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p class="style7">
+              &nbsp;
+             </p>
+             <p class="style7">
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <div>
+              <img src="/media/contentassets/images/academics/sustainability/rainforestbridgeweb.jpg" alt="Sustainability Studies" style="     " />
+              <br />
+              <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/field.jpg" alt="Biology Department Faculty" style="     " />
+             </div>
+             <div>
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <p>
+              <strong class="style8">
+               Recent Courses
+              </strong>
+              <span class="styleb">
+               (click on course title for more detail)
+              </span>
+              :
+              <span class="style10">
+               <br />
+               <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/studyincostarica/">
+                Community Sustainability in Costa Rica
+               </a>
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               Sustainable Solutions
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               Field Botany and Plant Ecology
+              </span>
+              <span class="style10">
+               <br />
+               <br />
+               <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/cebot/">
+                Cultural and Economic Botany
+               </a>
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               Principles of Biology I
+              </span>
+              <span class="style10">
+               <br />
+              </span>
+             </p>
+             <p>
+              Plants &amp; People
+             </p>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              <strong>
+               <span class="style8">
+                Resources
+               </span>
+              </strong>
+              <span class="styleb">
+               (click for more detail)
+              </span>
+              :
+              <br />
+              <span class="style10">
+               <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/geographicinformationsystemlab/">
+                Geographical Information Systems (GIS) Laboratory
+               </a>
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               <a href="/main/academics/biology/facilities/thegreenhouse/">
+                Greenhouse
+               </a>
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               <a href="http://www.muhlenberg.edu/main/aboutus/graver/">
+                Graver Arboretum
+               </a>
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               <a href="http://www.muhlenberg.edu/cultural/raker.html">
+                Raker Preserve
+               </a>
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="style10">
+               Herbarium
+              </span>
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <div>
+              <p>
+               <img src="/media/contentassets/images/academics/sustainability/rnonroof_000.jpg" alt="Sustainability Studies" style="     " />
+               <br />
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/epimecis_hortaria2.jpg" alt="Biology Department Faculty" style="     float : left;" />
+              </p>
+             </div>
+             <div>
+              <img src="/media/contentassets/images/academics/biology/biology/faculty/niesenbaum/plantpsicebush3-350x239.jpg" alt="Biology Department Faculty" style="     " />
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <p align="left">
+              <strong>
+               <span class="style8">
+                Interests:
+               </span>
+              </strong>
+              <br />
+              <br />
+              <span class="styleb style10">
+               <span class="styleb style10">
+                I am a Professor in the Biology Department and Director of Sustainability Studies at Muhlenberg College in Allentown, PA.&nbsp; I teach laboratory and field oriented classes in Plant Ecology, Botany, and Sustainability Studies including a course regularly taught in Costa Rica. In my lab we focus on two distinct, but related areas:
+                <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/gisres/">
+                 <strong>
+                  plant ecology
+                 </strong>
+                </a>
+                and conservation biology and sustainable development. In plant ecology, we have worked on pollination and fruit set; genetics of inbreeding; mechanisms of non-random mating in plants; sex ratio variation; plant-animal interactions, and plant conservation biology. With current research funding from
+                <a href="/main/academics/biology/plant-insectinteractionsnsf/">
+                 <strong>
+                  The National Science Foundation
+                 </strong>
+                </a>
+                and
+                <strong>
+                 Merck/AAAS
+                </strong>
+                , we are now primarily focused on the ecological, genetic, and chemical factors that influence insect herbivory in
+                <em>
+                 Lindera
+                </em>
+                . This includes an analysis of "top-down" and "bottom-up" ecological factors, and the use of our field gas chromatograph (Z-nose), microsattelite analysis, and HPLC.&nbsp; In the area of conservation biology and sustainable development, we havecollaborated with the International Programs Department at the
+                <a href="http://www.rodaleinstitute.org/international/home.html" target="_blank">
+                 <strong>
+                  Rodale Institute
+                 </strong>
+                </a>
+                on measuring the success of sustainable forestry practice in northern Guatemala, and on developing ways to effectively link social, economic, and ecological indicators in the evaluation of international conservation and development projects. I have been working in the Costa Rican community of Las Juntas de Abangares for 15 years on ecoeducational tourism development, public health and environmental studies on the effects of local gold mining, and the development of alternative fuels. I currently have a book in progress on the environmental, cultural and public health aspects of artisinal goldmining with photographer Joseph Elliot. We also work with Geographical Information Systems (GIS) and Global Positioning Systems (GPS) in our studies of ecology and conservation. We also conduct research at the interface between environment and human/public health, and have assessed interdisciplinary education, short-term study abroad, and community based environmental education.
+               </span>
+               I am currently writing a book for Oxford Univeristy Press entitled
+               <em>
+                Sustainable Solutions: Problem Solving for Current and Future Generations
+               </em>
+              </span>
+             </p>
+             <p>
+              <span class="styleb style10">
+               I Chair Muhlenberg's Sustainability and Campus Tree Committees, and Co-Direct the Office of Campus Sustainability.&nbsp; I am a Fair Trade Coffee advocate and addict, and I frequently play late-night ice hockey.
+               <br />
+              </span>
+             </p>
+             <p>
+              <span class="styleb style10">
+               Students who have interest in doing research in any of these areas, and are willing to make the commitment that I expect from all of my research students are encouraged to contact me.
+              </span>
+             </p>
+             <p>
+              <span class="style8">
+               The Niesenbaum Lab:
+              </span>
+              <br />
+              <span class="style10">
+               <span class="styleb">
+                <span class="style10">
+                 <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/paststudents/">
+                  Past Students
+                 </a>
+                 <br />
+                 <a href="/main/academics/biology/plant-insectinteractionsnsf/students/">
+                  Current Students
+                 </a>
+                 <br />
+                 <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/additionalpersonnel/">
+                  Postdocs &amp; Other Personnel
+                 </a>
+                </span>
+               </span>
+               <span class="style10">
+                <br />
+                Photographs
+               </span>
+              </span>
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              &nbsp;
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <div>
+              <p>
+               &zwnj;
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/1043-148x216.jpg" alt="Biology Department Faculty" style="     " />
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/1020-148x216.jpg" alt="Biology Department Faculty" style="     " />
+              </p>
+              <p>
+               <img src="/media/contentassets/images/academics/sustainability/CostaRica-RichNiesenbaum_000-303x202.jpg" alt="Sustainability Studies" style="     " />
+               <br />
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/1018-315x210.jpg" alt="Biology Department Faculty" style="     " />
+               <br />
+               &zwnj;
+               <img src="/media/contentassets/images/academics/biology/faculty/niesenbaum/poster-350x263.jpg" alt="Biology Department Faculty" style="     " />
+              </p>
+             </div>
+             <div>
+              <p>
+               <img src="/media/contentassets/images/academics/biology/biology/faculty/niesenbaum/BethandDanbeatsheeting.JPG" alt="Biology Department Faculty" style="     " />
+               <br />
+               <img src="/media/contentassets/images/academics/biology/biology/faculty/niesenbaum/NorrisExp2-150x210.JPG" alt="Biology Department Faculty" style="     " />
+              </p>
+              <p>
+               <img src="/media/contentassets/images/academics/sustainability/niesenbauma.jpg" alt="Sustainability Studies" style="     " />
+              </p>
+              <p>
+               &nbsp;
+              </p>
+             </div>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+            <td>
+             <p>
+              <span class="style8">
+               <strong>
+                Selected Publications:
+               </strong>
+               <br />
+              </span>
+              <span class="style11">
+               (* indicates student co-author)
+              </span>
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A.&nbsp; 2013.&nbsp; Can latitudinal studies predict potential effects of global climate change on insect herbivore-host plant interactions?&nbsp;
+              <em>
+               Trends in Entomology
+              </em>
+              8:1-8.
+             </p>
+             <p>
+              Mooney, E.H. and R.A. Niesenbaum.&nbsp; 2012.
+              <strong>
+               &nbsp;
+              </strong>
+              Population-specific responses to light influence herbivory in the understory shrub
+              <em>
+               Lindera benzoin.&nbsp;
+              </em>
+              Ecology
+              <strong>
+               93
+              </strong>
+              (12): 2683-2692.
+             </p>
+             <p>
+              Ingersoll, C.M., R.A. Niesenbaum, C.E. Weigle* and JH. Lehman*.&nbsp; 2010.&nbsp; Total Phenolics and Individual Phenolic Acids Vary with Light Environment in
+              <em>
+               Lindera Benzoin.&nbsp;
+              </em>
+              Botany&nbsp;
+              <strong>
+               88
+              </strong>
+              (11): 1007&ndash;1010.
+             </p>
+             <p>
+              Mooney, E.H., M.E. Edwards, and R.A. Niesenbaum.&nbsp; 2010. Genetic differentiation between sun and shade habitats in populations of
+              <em>
+               Lindera benzoin
+              </em>
+              L.&nbsp;
+              <em>
+               Population Ecology,
+              </em>
+              52:417-425.
+             </p>
+             <p>
+              Mooney, E.H., E.J. Tiedeken*, N.Z. Muth, and R.A. Niesenbaum.&nbsp; 2009.&nbsp; Differential induced response to generalist and specialist herbivores by Lindera benzoin L. (Lauraceae) in sun and shade.&nbsp;
+              <em>
+               Oikos
+              </em>
+              , 118:1181-1189.
+             </p>
+             <p class="styleb">
+              Muth, N.Z., E.C. Kluger*, J.H. Levy*, M.J. Edwards and R.A. Niesenbaum. 2008. Increased per capita herbivory in the shade: necessity, feedback, or luxury consumption?
+              <em>
+               Ecoscience
+              </em>
+              ,15:182-188 (
+              <a href="/media/contentassets/pdf/academics/biology/nsf/ecoscience.pdf">
+               PDF
+              </a>
+              ).
+             </p>
+             <p class="styleb">
+              *Skoczylas, D., R.A. Niesenbaum, and N.Z. Muth. 2007. Top-down control of herbivory by insectivorous avifauna. Acta Oecologica, 32:337-342.
+             </p>
+             <p>
+              Edwards, M.E., and R.A. Niesenbaum. 2007. Eleven polymorphic microsattelite loci in Lindera benzoin, Lauraceae. Molecular Ecology Notes, 7:1302-1304.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. and E.C. Kluger*. 2006. When studying the effects of light on herbivory, should one consider temperature? The case of
+              <em>
+               Epimecis hortaria
+              </em>
+              F. (Lepidoptera: Geometridae) feeding on
+              <em>
+               Lindera benzoin
+              </em>
+              L. (Lauraceae).
+              <em>
+               Environmental Entomology
+              </em>
+              35:600-606. (
+              <a href="http://docserver.esa.catchword.org/deliver/cw/pdf/esa/freepdfs/0046225x/v35n3s4.pdf" target="_blank">
+               PDF
+              </a>
+              )
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A., J.F. Cahill, and C. Ingersoll. 2006. Light, wind, and touch influence leaf chemistry, growth, and rates of herbivory in
+              <em>
+               Apocynum cannabinum
+              </em>
+              (Apocynaceae).
+              <em>
+               International Journal of Plant Sciences
+              </em>
+              167:969-978.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A., M.E. Salazar, and A.M. Diop. 2004. Community forestry in the Mayan Biosphere Reserve in Guatemala.
+              <em>
+               The Journal of Sustainable Forestry
+              </em>
+              19:11-28.
+             </p>
+             <p class="styleb">
+              Lewis, T.L. and R.A. Niesenbaum. 2005. Extending the stay: Using community-based research and service-learning to enhance short-term study abroad.
+              <em>
+               Journal of Studies in International Education
+              </em>
+              9:251-264.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. and T. Lewis. 2003. Ghettoization in conservation biology: How interdisciplinary is our teaching?
+              <em>
+               Conservation Biology
+              </em>
+              17:6-10.
+             </p>
+             <p class="styleb">
+              Bharucha, D.X., B. Morling, and R.A. Niesenbaum. 2003. Use and definition of herbal medicines differ by ethnicity.
+              <em>
+               The Annals of Pharmacotherapy
+              </em>
+              37:1409-1413.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. and T. Lewis. 2003. Reviewing conservation biology textbooks: A response to Primack.
+              <em>
+               Conservation Biology
+              </em>
+              17:1.
+             </p>
+             <p class="styleb">
+              Gorka, B. and R. Niesenbaum. 2001. Beyond the language requirement: Interdisciplinary short-term study abroad programs in Spanish.
+              <em>
+               Hispania
+              </em>
+              84:100-109.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R. and B. Gorka. 2001. Community based eco-education: Sound ecology and effective education.
+              <em>
+               Journal of Environmental Education
+              </em>
+              33:12-16.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 2000. Towards a sustainable future: Environmental activism in Russia and the United States. Book Review in: Human Ecology Review, 7:81-82.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 1999. The effects of pollen load size and donor diversity on pollen performance, selective abortion, and progeny vigor in
+              <em>
+               Mirabilis jalapa
+              </em>
+              (Nyctaginaceae).
+              <em>
+               <a href="http://www.amjbot.org/" target="_blank">
+                American Journal of Botany
+               </a>
+              </em>
+              86:261-268.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A., M.D. Patselis, and S.D. Wiener. 1998. Does flower color change in
+              <em>
+               Aster vimineus
+              </em>
+              cue pollinators?
+              <em>
+               American Midland Naturalist
+              </em>
+              141:59-68.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. and S.S. Scheuller. 1997. Effects of pollen competitive environment on pollen performance in
+              <em>
+               Mirabilis jalapa
+              </em>
+              (Nyctaginaceae).
+              <em>
+               Sexual Plant Reproduction
+              </em>
+              10:101-106.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 1996. Linking herbivory and pollination: Defoliation and selective fruit abortion in
+              <em>
+               Lindera benzoin
+              </em>
+              .
+              <em>
+               Ecology
+              </em>
+              77:2324-2331 .
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. and B.B. Casper. 1994. Pollen tube numbers and selective fruit maturation in
+              <em>
+               Lindera benzoin
+              </em>
+              .
+              <em>
+               The American Naturalist
+              </em>
+              144:184-191.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 1994. Spatial and temporal variation in pollen tube numbers in
+              <em>
+               Lindera benzoin
+              </em>
+              (Lauraceae).
+              <em>
+               Canadian Journal of Botany
+              </em>
+              72: 268-271.
+             </p>
+             <p class="styleb">
+              Casper, B.B. and R.A. Niesenbaum. 1993. Pollen versus resource limitation of seed production: A reconsideration.
+              <em>
+               Current Science
+              </em>
+              65:210-214.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 1993. Light or pollen: Seasonal limitations on fruit set in
+              <em>
+               Lindera benzoin
+              </em>
+              .
+              <em>
+               Journal of Ecology
+              </em>
+              81:315-323.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R.A. 1992. Sex ratio, components of reproduction, and pollen deposition in
+              <em>
+               Lindera benzoin
+              </em>
+              (Lauraceae).
+              <em>
+               <a href="http://www.amjbot.org/" target="_blank">
+                American Journal of Botany
+               </a>
+              </em>
+              79:495-500.
+             </p>
+             <p class="styleb">
+              Niesenbaum, R. A. 1992. The effects of light environment on herbivory and growth in the dioecious shrub
+              <em>
+               Lindera benzoin
+              </em>
+              (Lauraceae).
+              <em>
+               American Midland Naturalist
+              </em>
+              128:270-275.
+             </p>
+             <p class="styleb">
+              Petraitis, P.S., R.E. Latham, and R.A. Niesenbaum. 1989. The maintenance of species diversity by disturbance.
+              <em>
+               Quarterly Review of Biology
+              </em>
+              64:393-418.
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <p>
+          &nbsp;
+         </p>
+         <p>
+          &nbsp;
+          <img src="/media/contentassets/images/academics/sustainability/bikeblender_000.jpg" alt="Sustainability Studies" style="     " />
+         </p>
+         <table border="0" style="width: 1199px;">
+          <tbody>
+           <tr>
+            <td width="1125">
+             <p class="style12">
+              <a href="/main/academics/biology/facultystaff/">
+               Return to the Biology Department Faculty Page
+              </a>
+             </p>
+            </td>
+            <td width="30">
+             &nbsp;
+            </td>
+           </tr>
+           <tr>
+            <td>
+             <p>
+              <a href="/main/academics/biology/">
+               Return to the Biology Department Page
+              </a>
+             </p>
+            </td>
+            <td>
+             &nbsp;
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

@@ -1,0 +1,812 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <script type="text/javascript">
+   document.documentElement.className = 'js-enabled';
+        var profile_settings = {};
+        var basket_open = profile_settings['ui_basket_open'] == 'true';
+        if (basket_open) document.documentElement.className = 'js-enabled basket-open';
+        var custom_process_facets = false;
+  </script>
+  <title>
+   MDID
+  </title>
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/CACHE/css/62fcc1511261.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/static/CACHE/css/6c1a4c2a1c59.css" type="text/css" />
+  <!--[if IE]&gt;
+&lt;link rel="stylesheet" href="/static/CACHE/css/adc83b19e793.css" type="text/css"&gt;
+
+&lt;![endif]-->
+ </head>
+ <body class="ui-reset master">
+  <div id="content-wrapper">
+   <div id="content">
+    <div id="basket-content">
+     <div id="basket-scroll-right">
+     </div>
+     <div id="basket-scroll-left">
+     </div>
+     <div id="basket-thumbs">
+      <br />
+      Your basket is empty.
+     </div>
+    </div>
+    <div style="height: 15px;">
+    </div>
+    <form method="POST" action="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb" id="explore-form">
+     <div style="display:none">
+      <input type="hidden" name="csrfmiddlewaretoken" value="55784a8480ad1a63467a590cdc2fde1c" />
+     </div>
+     <input type="hidden" name="op" value="1" />
+     <ul class="actionbar">
+      <li>
+       23,225 hits
+      </li>
+      <li>
+       <span class="dropdown-anchor">
+        Display
+        <img src="/static/images/down_arrow.png" />
+       </span>
+       <div class="dropdown">
+        View:
+        <select name="v" id="viewmode_dropdown">
+         <option value="thumb" selected="selected">
+          Thumbnails
+         </option>
+         <option value="list">
+          List
+         </option>
+        </select>
+        Sort by:
+        <select name="s" id="sort_dropdown">
+         <option value="score desc">
+          Score
+         </option>
+         <option value="random_0.508790775546">
+          Random
+         </option>
+         <option value="title_sort" selected="selected">
+          Title
+         </option>
+         <option value="creator_sort">
+          Creator
+         </option>
+         <option value="date_sort">
+          Date
+         </option>
+         <option value="format_sort">
+          Format
+         </option>
+         <option value="identifier_sort">
+          Identifier
+         </option>
+         <option value="created desc">
+          Record creation
+         </option>
+         <option value="modified desc">
+          Last modified
+         </option>
+        </select>
+        <input type="submit" value="Go" id="sort_go_button" />
+       </div>
+      </li>
+      <li>
+       <input id="submit_record_selections" type="submit" name="action" value="Select" />
+      </li>
+      <!--
+-->
+      <li class="pagination">
+       <div class="pagination">
+        <span class="disabled prev">
+         &lsaquo;&lsaquo; previous
+        </span>
+        <span class="current page">
+         1
+        </span>
+        <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+         2
+        </a>
+        <a href="?page=3&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+         3
+        </a>
+        ...
+        <a href="?page=773&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+         773
+        </a>
+        <a href="?page=774&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+         774
+        </a>
+        <a href="?page=775&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+         775
+        </a>
+        <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="next">
+         next &rsaquo;&rsaquo;
+        </a>
+       </div>
+      </li>
+     </ul>
+     <br style="clear: left;" />
+     <div id="sidebar">
+      <div class="facet active-facet" id="results_sidebar_keywords">
+       <div class="facet-header">
+        Keywords
+       </div>
+       <div class="facet-body">
+        <input type="text" id="keywords" name="kw" value="" />
+        <input type="image" class="image" src="/static/images/med_go_button.png" value="Go" id="keywords-go" />
+       </div>
+      </div>
+      <div id="facets" style="display: none;">
+      </div>
+      <div class="facet" id="results_sidebar_last_modified">
+       <div class="facet-header">
+        Last modified
+       </div>
+       <div class="facet-body">
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-1DAY TO *]" rel="nofollow">
+         Within last 1 day
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-2DAYS TO *]" rel="nofollow">
+         Within last 2 days
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-7DAYS TO *]" rel="nofollow">
+         Within last 7 days
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=modified:[NOW-30DAYS TO *]" rel="nofollow">
+         Within last 30 days
+        </a>
+        <br />
+       </div>
+      </div>
+      <div class="facet" id="results_sidebar_record_created">
+       <div class="facet-header">
+        Record created
+       </div>
+       <div class="facet-body">
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-1DAY TO *]" rel="nofollow">
+         Within last 1 day
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-2DAYS TO *]" rel="nofollow">
+         Within last 2 days
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-7DAYS TO *]" rel="nofollow">
+         Within last 7 days
+        </a>
+        <br />
+        <a href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;s=title_sort+asc&amp;v=thumb&amp;c=created:[NOW-30DAYS TO *]" rel="nofollow">
+         Within last 30 days
+        </a>
+        <br />
+       </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+       <a href="/explore/explore/">
+        Reset Search
+       </a>
+      </div>
+     </div>
+     <div id="resultlist" class="resultlist-thumb">
+      <div class="record">
+       <a href="/data/record/29389/r-2570202/">
+        <img class="thumbnail record-anchor" id="record-id-29389" src="/media/thumb/29389/r-2570202/" alt="Aba (Women's) Revolt" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29389/r-2570202/">
+         Aba (Women&#39;s) Revolt
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29389" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29389" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29468/r-2054316/">
+        <img class="thumbnail record-anchor" id="record-id-29468" src="/media/thumb/29468/r-2054316/" alt="Abduction on a Unicorn" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29468/r-2054316/">
+         Abduction on a Unicorn
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29468" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29468" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28557/r-4246007/">
+        <img class="thumbnail record-anchor" id="record-id-28557" src="/media/thumb/28557/r-4246007/" alt="A Beast Slouches" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28557/r-4246007/">
+         A Beast Slouches
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28557" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28557" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28781/r-3791516/">
+        <img class="thumbnail record-anchor" id="record-id-28781" src="/media/thumb/28781/r-3791516/" alt="Abiku Spirit" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28781/r-3791516/">
+         Abiku Spirit
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28781" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28781" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29983/r-9796562/">
+        <img class="thumbnail record-anchor" id="record-id-29983" src="/media/thumb/29983/r-9796562/" alt="A Boar Hound with a Joint of Meat near an Enraged Cat" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29983/r-9796562/">
+         A Boar Hound with a Joint of Meat near an Enraged Cat
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29983" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29983" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28595/r-9176905/">
+        <img class="thumbnail record-anchor" id="record-id-28595" src="/media/thumb/28595/r-9176905/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28595/r-9176905/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28595" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28595" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28596/r-7902152/">
+        <img class="thumbnail record-anchor" id="record-id-28596" src="/media/thumb/28596/r-7902152/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28596/r-7902152/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28596" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28596" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28597/r-6016872/">
+        <img class="thumbnail record-anchor" id="record-id-28597" src="/media/thumb/28597/r-6016872/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28597/r-6016872/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28597" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28597" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28598/r-9164725/">
+        <img class="thumbnail record-anchor" id="record-id-28598" src="/media/thumb/28598/r-9164725/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28598/r-9164725/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28598" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28598" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28599/r-9321661/">
+        <img class="thumbnail record-anchor" id="record-id-28599" src="/media/thumb/28599/r-9321661/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28599/r-9321661/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28599" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28599" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28600/r-6357685/">
+        <img class="thumbnail record-anchor" id="record-id-28600" src="/media/thumb/28600/r-6357685/" alt="Abraham -- Friend of God" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28600/r-6357685/">
+         Abraham -- Friend of God
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28600" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28600" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28886/r-2380762/">
+        <img class="thumbnail record-anchor" id="record-id-28886" src="/media/thumb/28886/r-2380762/" alt="A Breed Apart" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28886/r-2380762/">
+         A Breed Apart
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28886" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28886" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29974/r-7498766/">
+        <img class="thumbnail record-anchor" id="record-id-29974" src="/media/thumb/29974/r-7498766/" alt="A Bridge and Castle of S. Angelo, Rome" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29974/r-7498766/">
+         A Bridge and Castle of S. Angelo, Rome
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29974" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29974" />
+      </div>
+      <div class="record">
+       <a href="/data/record/27921/r-4927653/">
+        <img class="thumbnail record-anchor" id="record-id-27921" src="/media/thumb/27921/r-4927653/" alt="Absent Image" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/27921/r-4927653/">
+         Absent Image
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="27921" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-27921" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28399/r-4581407/">
+        <img class="thumbnail record-anchor" id="record-id-28399" src="/media/thumb/28399/r-4581407/" alt="Abstraction" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28399/r-4581407/">
+         Abstraction
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28399" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28399" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28406/r-8995847/">
+        <img class="thumbnail record-anchor" id="record-id-28406" src="/media/thumb/28406/r-8995847/" alt="Abstract Painting" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28406/r-8995847/">
+         Abstract Painting
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28406" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28406" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28911/r-1796206/">
+        <img class="thumbnail record-anchor" id="record-id-28911" src="/media/thumb/28911/r-1796206/" alt="Abstract Painting" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28911/r-1796206/">
+         Abstract Painting
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28911" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28911" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28912/r-1446143/">
+        <img class="thumbnail record-anchor" id="record-id-28912" src="/media/thumb/28912/r-1446143/" alt="Abstract Picture" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28912/r-1446143/">
+         Abstract Picture
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28912" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28912" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29972/r-5713952/">
+        <img class="thumbnail record-anchor" id="record-id-29972" src="/media/thumb/29972/r-5713952/" alt="A Bust of Sappho, back view" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29972/r-5713952/">
+         A Bust of Sappho, back view
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29972" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29972" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29971/r-7922290/">
+        <img class="thumbnail record-anchor" id="record-id-29971" src="/media/thumb/29971/r-7922290/" alt="A Bust of Sappho, front view" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29971/r-7922290/">
+         A Bust of Sappho, front view
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29971" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29971" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29970/r-2981424/">
+        <img class="thumbnail record-anchor" id="record-id-29970" src="/media/thumb/29970/r-2981424/" alt="A Bust of Sappho, side view" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29970/r-2981424/">
+         A Bust of Sappho, side view
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29970" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29970" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29789/r-5910140/">
+        <img class="thumbnail record-anchor" id="record-id-29789" src="/media/thumb/29789/r-5910140/" alt="A Capriccio of Rome with the Colosseum and Pyramid, and masons and other figures in the foreground" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29789/r-5910140/">
+         A Capriccio of Rome with the Colosseum and Pyramid, and masons and other figures in the foreground
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29789" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29789" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29980/r-9267736/">
+        <img class="thumbnail record-anchor" id="record-id-29980" src="/media/thumb/29980/r-9267736/" alt="A Cavalier with a Monkey" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29980/r-9267736/">
+         A Cavalier with a Monkey
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29980" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29980" />
+      </div>
+      <div class="record">
+       <a href="/data/record/27893/r-1434249/">
+        <img class="thumbnail record-anchor" id="record-id-27893" src="/media/thumb/27893/r-1434249/" alt="Accidental Napalm Attack" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/27893/r-1434249/">
+         Accidental Napalm Attack
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="27893" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-27893" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29643/r-6887502/">
+        <img class="thumbnail record-anchor" id="record-id-29643" src="/media/thumb/29643/r-6887502/" alt="A Charging Polish Lancer" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29643/r-6887502/">
+         A Charging Polish Lancer
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29643" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29643" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29781/r-9818693/">
+        <img class="thumbnail record-anchor" id="record-id-29781" src="/media/thumb/29781/r-9818693/" alt="Achilles Discovered at the Court of Deidamia" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29781/r-9818693/">
+         Achilles Discovered at the Court of Deidamia
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29781" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29781" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29947/r-8437202/">
+        <img class="thumbnail record-anchor" id="record-id-29947" src="/media/thumb/29947/r-8437202/" alt="A Cousin From Town" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29947/r-8437202/">
+         A Cousin From Town
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29947" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29947" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29208/r-9225985/">
+        <img class="thumbnail record-anchor" id="record-id-29208" src="/media/thumb/29208/r-9225985/" alt="Acropolis, Temple of Athena Nike, view from east" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29208/r-9225985/">
+         Acropolis, Temple of Athena Nike, view from east
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29208" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29208" />
+      </div>
+      <div class="record">
+       <a href="/data/record/29209/r-3356240/">
+        <img class="thumbnail record-anchor" id="record-id-29209" src="/media/thumb/29209/r-3356240/" alt="Acropolis, Temple of Athena Nike, view from east" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/29209/r-3356240/">
+         Acropolis, Temple of Athena Nike, view from east
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="29209" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-29209" />
+      </div>
+      <div class="record">
+       <a href="/data/record/28064/r-4702688/">
+        <img class="thumbnail record-anchor" id="record-id-28064" src="/media/thumb/28064/r-4702688/" alt="Adam and Eve" />
+       </a>
+       <div class="record-title">
+        <a href="/data/record/28064/r-4702688/">
+         Adam and Eve
+        </a>
+       </div>
+       <input type="checkbox" class="record-select" name="r" value="28064" />
+       <img src="/static/images/info.png" alt="Information" class="info-icon metadata-anchor" id="info-record-id-28064" />
+      </div>
+     </div>
+     <div style="text-align: center; clear: both;">
+      <div class="pagination">
+       <span class="disabled prev">
+        &lsaquo;&lsaquo; previous
+       </span>
+       <span class="current page">
+        1
+       </span>
+       <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        2
+       </a>
+       <a href="?page=3&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        3
+       </a>
+       <a href="?page=4&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        4
+       </a>
+       ...
+       <a href="?page=772&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        772
+       </a>
+       <a href="?page=773&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        773
+       </a>
+       <a href="?page=774&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        774
+       </a>
+       <a href="?page=775&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="page">
+        775
+       </a>
+       <a href="?page=2&amp;sessionid=9ea96dcad460ffacfdaaa383474cd3dd" class="next">
+        next &rsaquo;&rsaquo;
+       </a>
+      </div>
+     </div>
+    </form>
+    <div style="display: none;">
+     <!-- navigation links for preview dialog -->
+     <a id="navigate-next-page" href="/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd&amp;page=2&amp;s=title_sort+asc&amp;v=thumb">
+      Next
+     </a>
+    </div>
+    <div id="footer">
+     Copyright 1997-2011 James Madison University
+    </div>
+   </div>
+  </div>
+  <div id="preview-dialog" style="display: none;" class="ui-corner-all">
+  </div>
+  <div id="topmenu">
+   <ul>
+    <li>
+     <a href="/login/?next=/explore/explore/?sessionid=9ea96dcad460ffacfdaaa383474cd3dd">
+      Log in
+     </a>
+    </li>
+    <li>
+     <a href="http://mdid.org/help/" id="pagehelp" target="rooibos_help">
+      Help
+     </a>
+    </li>
+    <li>
+     <a href="/ui/report-problem/">
+      Report a Problem
+     </a>
+    </li>
+   </ul>
+   <span id="javascriptwarning">
+    You have JavaScript disabled.  MDID works better with JavaScript enabled.
+   </span>
+  </div>
+  <div id="header-bar">
+   <div class="spacer">
+    <div id="header">
+     <a href="/" id="logo">
+     </a>
+     <ul style="float: right;">
+      <li>
+       <div id="basket-header" style="background: url(/static/images/basket.png)
+                    no-repeat; font-size: 0.6em; width: 32px; height: 22px; text-align: center; padding-top: 10px;">
+        0
+       </div>
+       <ul class="menu">
+        <li>
+         <a id="basket-toggle" href="#">
+          Hide
+         </a>
+        </li>
+        <li>
+         <a href="/explore/selected/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/ui/clear-selected/?next=/explore/explore/%3Fsessionid%3D9ea96dcad460ffacfdaaa383474cd3dd">
+          Clear
+         </a>
+        </li>
+       </ul>
+      </li>
+     </ul>
+     <ul>
+      <li>
+       <a href="/explore/explore/">
+        Discover
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/explore/explore/">
+          Explore
+         </a>
+        </li>
+        <li>
+         <a href="/explore/search/">
+          Advanced Search
+         </a>
+        </li>
+        <li>
+         <a href="/explore/browse/">
+          Browse
+         </a>
+        </li>
+        <li>
+         <a href="/explore/overview/">
+          Overview
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="/presentation/browse/">
+        Experience
+       </a>
+       <ul class="menu">
+        <li>
+         <a href="/presentation/browse/">
+          Browse Presentations
+         </a>
+        </li>
+        <li>
+         <a href="/showcases/">
+          Showcases
+         </a>
+        </li>
+        <li>
+         <a href="/about/">
+          About
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="search" style="padding-right: 20px;">
+       <span>
+        Search
+       </span>
+       <form method="GET" action="/explore/explore/">
+        <input id="quicksearch" name="kw" type="text" title="Search" />
+        <input type="image" src="/static/images/go.png" id="search-go" />
+       </form>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <!--
+&lt;div id="related-images-bar" style="display: none;"&gt;
+    &lt;div id="related-images-bar-toggle"&gt;
+        &lt;div id="related-images-bar-hide" style="float: right;"&gt;&lt;/div&gt;
+        &lt;span id="related-images-bar-hint"&gt;&lt;/span&gt;
+        &lt;span id="related-images-bar-all" style="margin-left: 20px; "&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id="related-images-bar-content"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="related-images-bar-placeholder" style="visibility: hidden;"&gt;&lt;/div&gt;
+-->
+  <script type="text/javascript">
+   custom_process_facets = true;
+  </script>
+  <script type="text/javascript" src="/static/CACHE/js/ff7dca72cfe9.js" charset="utf-8">
+  </script>
+  <script type="text/javascript">
+   // preload facet loading image
+    var img = new Image();
+    img.src = '/static/images/loading.gif';
+
+    function selectAllOnPage() {
+        ids = Array();
+        $(".record-select").each(function (i) { ids[i] = this.value; }).val(ids);
+        recordSelection(ids, true);
+    }
+
+    $(document).ready(function() {
+        $("#submit_record_selections").replaceWith($("&lt;input type='button' value='Select all on page'&gt;").click(selectAllOnPage));
+
+        $("#sort_dropdown, #viewmode_dropdown").change(function() { $("#explore-form").submit(); })
+        $("#sort_go_button").hide();
+    
+        $("#external-results").html("&lt;div style='text-align: center;'&gt;Loading &lt;img src='/static/images/loading.gif' alt='Loading'  /&gt;&lt;\/div&gt;");
+    
+        $("#external-results").show();
+    
+        $("#facets").html("&lt;div style='text-align: center;'&gt;Loading facets &lt;img src='/static/images/loading.gif' alt='Loading'  /&gt;&lt;\/div&gt;").show();
+    
+
+        $("#resultlist div.record a img.record-anchor").parent("a").unbind('click').click(function(e) {
+            var a = $(this);
+            var img = $("img.record-anchor", a);
+            var prev = function() { return a.parent("div.record").prev("div.record").children("a").first() };
+            var next = function() { return a.parent("div.record").next("div.record").children("a").first() };
+            if (!prev().length) prev = function() {
+                // on first record on this page, see if there is a previous page
+                var link = $("#navigate-previous-page").clone();
+                link.click(function() { window.location = link.attr('href') + '#preview-last'; });
+                return link;
+            }
+            if (!next().length) next = function() {
+                // on last record on this page, see if there is a next page
+                var link = $("#navigate-next-page").clone();
+                link.click(function() { window.location = link.attr('href') + '#preview-first'; });
+                return link;
+            }
+            preview_dialog(a, img, prev, next)
+            e.preventDefault();
+        });
+
+        if (location.hash == '#preview-first') {
+            $("#resultlist div.record a img.record-anchor").parent("a").first().click();
+        }
+
+        if (location.hash == '#preview-last') {
+            $("#resultlist div.record a img.record-anchor").parent("a").last().click();
+        }
+
+    });
+
+    $(window).load(function() {
+        
+        ajaxManager.add({
+                type: 'GET',
+                url: '/explore/explore\u002Dfacets/?sessionid\u003D9ea96dcad460ffacfdaaa383474cd3dd\u0026s\u003Dtitle_sort+asc\u0026v\u003Dthumb\u0026',
+                dataType: 'json',
+                success: function(r) {
+                    var facets = $("#facets");
+                    facets.hide();
+                    if (r.result != 'error') {
+                      facets[0].innerHTML = r.html;
+                      process_facets();
+                      facets.slideDown(500);
+                    }
+                }
+            });
+        
+        
+    });
+  </script>
+ </body>
+</html>

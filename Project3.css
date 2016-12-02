@@ -1,0 +1,48 @@
+/*
+  Account: csi345_15
+  Authors: Emily Johnson & Casie Ropski
+*/
+
+body {
+		font-family: sans-serif;
+    background-color: #B5D3FD;
+}
+
+h1{
+	 color: #050C80;
+   text-align: center;
+   text-decoration: underline;
+   font-size: 40px;
+}
+
+h1:hover {
+    color: white;
+}
+
+#search {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+ 	text-align: center;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 30px;
+}
+
+input {
+  font-size: 18px;
+}
+
+label {
+  color: #929292;
+}
+
+p {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,1850 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <meta property="og:title" content="MuleMadness 2016" />
+  <meta property="og:description" content="Get in the Game and Share #StepUpMules." />
+  <meta property="og:url" content="https://mulemadness.muhlenberg.edu/" />
+  <meta property="og:image" content="https://mulemadness.muhlenberg.edu/assets/images/facebook-share.jpg" />
+  <title>
+   MuleMadness is here!
+  </title>
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/isotope.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/content-slider.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="assets/css/ekko-lightbox.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 9]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="css/ie8-and-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lte IE 8]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="css/ie8-and-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if IE 9]&gt;
+        	&lt;link rel="stylesheet" type="text/css" href="css/ie9.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+            &lt;link rel="stylesheet" type="text/css" href="ie8-down.css"  /&gt;
+        &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+          &lt;link rel="stylesheet" type="text/css" href="/assets/css/ie9-and-down.css"  /&gt;
+      &lt;![endif]-->
+  <style>
+   .error-message {position:relative;}
+            .item a {cursor:pointer;}
+            .recent-donors .donor-message, .recent-donors .donor-name {width:100%; float:left;}
+            .show-bracket-image {background:rgba(0,0,0,.75); width:100%; height:100%; position:fixed; z-index:200; top:0; left:0; cursor:default;}
+            .show-bracket-image .content {overflow:scroll; height:100%; width:100%; left:0; margin-left:0; top:0; margin-top:0; position:relative;}
+			.show-bracket-image .content .close-bracket {position:fixed; top:15px; right:15px; height:60px; width:60px; background:black; background:rgba(0,0,0,.3); color:white; cursor:pointer;}
+			.show-bracket-image .content .close-bracket h1 {line-height:56px; font-size:60px; text-align:center; text-shadow:none;}
+  </style>
+ </head>
+ <body class="mulementum-page">
+  <!-- MODALS -->
+  <!--   MODAL FOR OLD BROWSERS   -->
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h2 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h2>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome">
+       <img src="assets//images/chrome.png" alt="Chrome" />
+      </a>
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="assets//images/firefox.png" alt="Firefox" />
+      </a>
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="assets//images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="assets//images/safari.png" alt="Safari" />
+      </a>
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="assets//images/opera.png" alt="Opera" />
+      </a>
+      <div style="clear:both;">
+      </div>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!--   MODAL FOR D-III CHALLENGE   -->
+  <div class="modal fade" id="d3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <span class="fa-stack fa-sm hide-modal-btn" data-dismiss="modal">
+       <span class="fa fa-circle-thin fa-stack-2x">
+       </span>
+       <span class="fa fa-close fa-stack-1x">
+       </span>
+      </span>
+      <h2 class="modal-title">
+       Mule Madness D-III Challenge
+      </h2>
+     </div>
+     <div class="modal-body">
+      <h3>
+       Alumnus and Trustee Jerry Galgano '80, P'11, P'14 is offering a special incentive –
+       <span>
+        The Mule Madness 2016 D-III Challenge
+       </span>
+       - to all student-athletes:
+      </h3>
+      <div class="row">
+       <div class="col-xs-6">
+        <p>
+         <span>
+          Men's Teams:
+         </span>
+        </p>
+        <p>
+         $100 for head coach participation
+         <br />
+         $100 for 100% participation among senior athletes
+        </p>
+        <p>
+         $750 for First Place Men's Team – Overall Participation in Mule Madness
+         <br />
+         $750 for First Place Men's Team – Team GPA of 3.0 or above
+        </p>
+        <p>
+         $500 for First Place Men's Team – Highest Participation among Alumni Athletes (2011-2015)
+         <br />
+         $500 for First Place Men's Team – Highest Participation among Alumni Athletes (2010 &amp; earlier)
+        </p>
+        <p style="border:none;">
+         $20 for each player who is named to the Centennial Conference Honor Roll
+        </p>
+       </div>
+       <div class="col-xs-6">
+        <p>
+         <span>
+          Women's Teams:
+         </span>
+        </p>
+        <p>
+         $100 for head coach participation
+         <br />
+         $100 for 100% participation among senior athletes
+        </p>
+        <p>
+         $750 for First Place Women's Team – Overall Participation in Mule Madness
+         <br />
+         $750 for First Place Women's Team – Team GPA of 3.0 or above
+        </p>
+        <p>
+         $500 for First Place Women's Team - Highest Participation among Alumni Athletes (2011-2015)
+         <br />
+         $500 for First Place Women's Team - Highest Participation among Alumni Athletes (2010 &amp; earlier)
+        </p>
+        <p style="border:none;">
+         $20 for each player who is named to the Centennial Conference Honor Roll
+        </p>
+       </div>
+       <div class="col-xs-12">
+        <p style="border-bottom:none; border-top:1px solid #a6a6a6; padding-top:10px; margin-top:0px;">
+         <span>
+          If you loved your Muhlenberg experience and treasured your time on the field, on the track, on the court or on the green, join the Mule Madness 2016 movement and make a gift to your athletic team today.
+         </span>
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   VIDEO IFRAME INFORMATION   -->
+  <div hidden="hidden" class="show-video">
+   <div class="content">
+    <iframe id="home-vid" width="100%" height="100%" src="" frameborder="0" allowfullscreen="allowfullscreen">
+    </iframe>
+   </div>
+  </div>
+  <div hidden="hidden" class="show-bracket-image">
+   <div class="content">
+    <div class="close-bracket">
+     <h1>
+      X
+     </h1>
+    </div>
+    <img src="" class="bracket-image" />
+   </div>
+  </div>
+  <div hidden="hidden" class="overtop-map-overlay" data-exception="data-exception">
+   <div class="container">
+    <div class="row">
+     <div class="show-all-leaderboard">
+      <div class="modal-header">
+       <h2>
+        All Donors
+       </h2>
+       <span class="fa-stack fa-sm close-overlay">
+        <span class="fa fa-circle-thin fa-stack-2x">
+        </span>
+        <span class="fa fa-close fa-stack-1x">
+        </span>
+       </span>
+      </div>
+      <div class="modal-content" data-isotope="data-isotope">
+       <div class="leaderboard" data-isotope-container="data-isotope-container">
+        <div data-append-target="data-append-target">
+        </div>
+        <div class="clearfix">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div hidden="hidden" data-loading-modal="data-loading-modal" class="loading-data-modal">
+   <div class="content">
+    <h4>
+     Gathering Donors...
+    </h4>
+    <span class="fa fa-spin fa-spinner">
+    </span>
+   </div>
+  </div>
+  <!--   FULL-SCREEN INTRO (CONTAINS ALL FORM ELEMENTS)   -->
+  <div id="countdown-bg" style="overflow:hidden;">
+   <div data-content-slider="data-content-slider" data-content-slider-anim="fade-anim" id="countdown-bg-slider">
+    <div data-slider-content="data-slider-content" class="slide-content">
+     <div data-slider-content-slide="data-slider-content-slide" class="slide current">
+      <img src="assets/images/coming-bg/cross-country.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/track-2.jpg" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/field-hockey.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/football.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/m-basketball.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/m-soccer.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/wrestling-2.jpg" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/track.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/w-basketball.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/w-golf.jpg" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/football-2.jpg" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/wrestling.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/w-soccer.JPG" alt="" />
+     </div>
+     <div data-slider-content-slide="data-slider-content-slide" class="slide">
+      <img src="assets/images/coming-bg/w-volleyball.JPG" alt="" />
+     </div>
+    </div>
+   </div>
+   <div style="width:100% !important; padding:0;" class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <a href="https://www.elevateweb.co.uk/image-zoom/examples" target="_blank">
+       <img class="mule-logo" src="assets/images/mulemadness-logo.png" altc="" />
+      </a>
+      <!--&lt;h2&gt;&lt;/h2&gt;-->
+      <h3 class="tagline">
+       Supporting Your Muhlenberg Team is a Slam Dunk!
+      </h3>
+      <!--&lt;p&gt;
+                          &lt;a class="action-btn watch-video video-link-why" onClick="viewVideo(this)" href="#" data-video-play="https://www.youtube.com/embed/18vUZmv_b6s?list=PLG7QdGvXStg7TI2pX4UId6Qo41zpYDDgh"&gt;&lt;span class="fa fa-play"&gt;&lt;/span&gt;Listen up, Mules!&lt;/a&gt;
+                        &lt;/p&gt;-->
+     </div>
+     <div class="clearfix">
+     </div>
+     <div data-form-overlay="data-form-overlay" hidden="hidden" class="bg-overlay">
+     </div>
+     <form data-form-validate="data-form-validate" action="/php/submitDonation.php" data-show-errors="custom" class="form-horizontal" method="post" id="donate-form" accept-charset="utf-8" novalidate="novalidate">
+      <!--HIDDEN REFERRAL DATA FROM URL-->
+      <input type="hidden" class="" id="input_16" name="referralcode" value="" />
+      <div data-form-steps="data-form-steps" data-show-errors="custom" class="form-container donate-form first-step col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+       <div id="step-1" class="form-padding">
+        <div class="form-heading">
+         <h3 class="red-text bold">
+          Thank you for participating in Mule Madness!
+          <br />
+          <img src="../assets/images/winner-trophy.png" width="100%" alt="winner" id="trophy-winner" />
+         </h3>
+        </div>
+       </div>
+      </div>
+      <!-------------------------------------------- FORM STEP 2 -------------------------------------------->
+      <div data-form-steps="data-form-steps" data-show-errors="custom" data-payment-form="data-payment-form" class="form-container stage-right donate-form donate-step-2 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+       <input tabindex="-1" data-payment-token="data-payment-token" type="hidden" name="stripeToken" value="" />
+       <div id="step-2" class="form-padding">
+        <div class="form-heading">
+         <h3 class="red-text bold">
+          JOIN THE MADNESS!
+         </h3>
+         <h6>
+          Step 2 of 4
+         </h6>
+        </div>
+        <div class="alert alert-success">
+         <span class="fa fa-lock">
+         </span>
+         Your gift of $
+         <span data-amount-reiterated="data-amount-reiterated">
+          33.00
+         </span>
+         is powered by Stripe, giving you peace of mind that your payment is safe and secure.
+        </div>
+        <div data-custom-error-target="data-custom-error-target">
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="stripe-card">
+          Card No.
+         </label>
+         <div class="col-sm-9 card-number-box">
+          <input type="number" inputmode="numeric" tabindex="-1" disabled="disabled" data-validate="data-validate" data-payment-card="data-payment-card" data-input-error="Please enter a valid card number." id="stripe-card" class="form-control stripe_card" placeholder="Card Number" />
+          <div hidden="hidden" data-payment-obscurity="data-payment-obscurity">
+           <p>
+            Ending in:
+            <span data-card-four="data-card-four">
+            </span>
+            <a data-card-edit="data-card-edit">
+             Edit
+            </a>
+           </p>
+          </div>
+         </div>
+        </div>
+        <div hidden="hidden" class="error-message form-group">
+         <label class="control-label col-sm-3">
+         </label>
+         <div class="col-sm-9">
+          <p>
+           <small>
+            There was an issue with this card number. Please double check info provided.
+           </small>
+          </p>
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="stripe-month">
+          Exp./CCV
+         </label>
+         <div class="col-sm-9">
+          <div class="row form-thirds">
+           <div class="col-xs-4">
+            <select tabindex="-1" disabled="disabled" data-validate="data-validate" data-payment-month="data-payment-month" data-input-error="Please enter a valid exp. month." id="stripe-month" class="form-control stripe_month">
+             <option value="" selected="selected">
+              ----
+             </option>
+             <option value="01">
+              January
+             </option>
+             <option value="02">
+              February
+             </option>
+             <option value="03">
+              March
+             </option>
+             <option value="04">
+              April
+             </option>
+             <option value="05">
+              May
+             </option>
+             <option value="06">
+              June
+             </option>
+             <option value="07">
+              July
+             </option>
+             <option value="08">
+              August
+             </option>
+             <option value="09">
+              September
+             </option>
+             <option value="10">
+              October
+             </option>
+             <option value="11">
+              November
+             </option>
+             <option value="12">
+              December
+             </option>
+            </select>
+           </div>
+           <div class="col-xs-4">
+            <select tabindex="-1" disabled="disabled" data-validate="data-validate" data-payment-year="data-payment-year" data-input-error="Please enter a valid exp. year." class="form-control stripe_year">
+             <option value="" selected="selected">
+              ----
+             </option>
+             <option value="2016">
+              2016
+             </option>
+             <option value="2017">
+              2017
+             </option>
+             <option value="2018">
+              2018
+             </option>
+             <option value="2019">
+              2019
+             </option>
+             <option value="2020">
+              2020
+             </option>
+             <option value="2021">
+              2021
+             </option>
+             <option value="2022">
+              2022
+             </option>
+             <option value="2023">
+              2023
+             </option>
+             <option value="2024">
+              2024
+             </option>
+             <option value="2025">
+              2025
+             </option>
+             <option value="2026">
+              2026
+             </option>
+             <option value="2027">
+              2027
+             </option>
+            </select>
+           </div>
+           <div class="col-xs-4">
+            <input tabindex="-1" disabled="disabled" data-validate="data-validate" data-payment-cvc="data-payment-cvc" data-input-error="Please enter a valid cvc number." type="number" class="form-control stripe_cvc" placeholder="***" />
+           </div>
+          </div>
+         </div>
+        </div>
+        <div hidden="hidden" class="error-message form-group">
+         <label class="control-label col-sm-3">
+         </label>
+         <div class="col-sm-9">
+          <p>
+           <small>
+            There is an issue with the above outlined fields. Please correct and click continue.
+           </small>
+          </p>
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="email-address">
+          Email
+         </label>
+         <div class="col-sm-9">
+          <input tabindex="-1" disabled="disabled" data-validate="data-validate" data-input-error="Please provide a valid email address." type="email" id="email-address" name="email" class="form-control validEmail" placeholder="Valid Email Address" />
+         </div>
+        </div>
+        <div class="form-group button-group">
+         <div class="col-sm-3 col-xs-4">
+          <button tabindex="-1" disabled="disabled" data-form-regress="data-form-regress" type="button" class="btn btn-default back-btn">
+           Back
+          </button>
+         </div>
+         <div class="col-sm-9 col-xs-8">
+          <button tabindex="-1" disabled="disabled" data-form-submit="data-form-submit" class="btn submit-btn payment-step">
+           Continue &nbsp;
+           <span class="fa fa-arrow-right">
+           </span>
+           <span id="please-wait" class="fa fa-spin fa-spinner">
+           </span>
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-------------------------------------------- FORM STEP 3 -------------------------------------------->
+      <div data-form-steps="data-form-steps" data-show-errors="custom" class="form-container stage-right donate-form donate-step-3 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+       <div id="step-3" class="form-padding">
+        <div class="form-heading">
+         <h3 class="red-text bold">
+          JOIN THE MADNESS!
+         </h3>
+         <h6>
+          Step 3 of 4
+         </h6>
+        </div>
+        <div class="alert alert-info">
+         Your donation amount is $
+         <span data-amount-reiterated="data-amount-reiterated">
+          33.00
+         </span>
+         . Please select your address information below.
+        </div>
+        <div data-custom-error-target="data-custom-error-target">
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="street-address">
+          Street
+         </label>
+         <div class="col-sm-9">
+          <input tabindex="-1" disabled="disabled" type="text" data-validate="data-validate" data-input-error="Please provide a street address." class="form-control" id="street-address" name="street_address" placeholder="Street Address" />
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="city">
+          City
+         </label>
+         <div class="col-sm-7">
+          <input tabindex="-1" disabled="disabled" type="text" data-validate="data-validate" data-input-error="Please provide a city." class="form-control" id="city" name="city" placeholder="City" />
+         </div>
+        </div>
+        <div class="form-group state-zip">
+         <label class="control-label col-sm-3" for="state">
+          State/Zip
+         </label>
+         <div class="col-sm-3">
+          <select tabindex="-1" disabled="disabled" data-validate="data-validate" data-input-error="Please select a state." class="form-control" name="state">
+           <option value="" selected="selected">
+            --
+           </option>
+           <option value="AL">
+            AL - Alabama
+           </option>
+           <option value="AK">
+            AK - Alaska
+           </option>
+           <option value="AZ">
+            AZ - Arizona
+           </option>
+           <option value="AR">
+            AR - Arkansas
+           </option>
+           <option value="CA">
+            CA - California
+           </option>
+           <option value="CO">
+            CO - Colorado
+           </option>
+           <option value="CT">
+            CT - Connecticut
+           </option>
+           <option value="DE">
+            DE - Delaware
+           </option>
+           <option value="DC">
+            DC - District Of Columbia
+           </option>
+           <option value="FL">
+            FL - Florida
+           </option>
+           <option value="GA">
+            GA - Georgia
+           </option>
+           <option value="HI">
+            HA - Hawaii
+           </option>
+           <option value="ID">
+            ID - Idaho
+           </option>
+           <option value="IL">
+            IL - Illinois
+           </option>
+           <option value="IN">
+            IN - Indiana
+           </option>
+           <option value="IA">
+            IA - Iowa
+           </option>
+           <option value="KS">
+            KS - Kansas
+           </option>
+           <option value="KY">
+            KY - Kentucky
+           </option>
+           <option value="LA">
+            LA - Louisiana
+           </option>
+           <option value="ME">
+            ME - Maine
+           </option>
+           <option value="MD">
+            MD - Maryland
+           </option>
+           <option value="MA">
+            MA - Massachusetts
+           </option>
+           <option value="MI">
+            MI - Michigan
+           </option>
+           <option value="MN">
+            MN - Minnesota
+           </option>
+           <option value="MS">
+            MS - Mississippi
+           </option>
+           <option value="MO">
+            NO - Missouri
+           </option>
+           <option value="MT">
+            MT - Montana
+           </option>
+           <option value="NE">
+            NE - Nebraska
+           </option>
+           <option value="NV">
+            NV - Nevada
+           </option>
+           <option value="NH">
+            NH - New Hampshire
+           </option>
+           <option value="NJ">
+            NJ - New Jersey
+           </option>
+           <option value="NM">
+            NM - New Mexico
+           </option>
+           <option value="NY">
+            NY - New York
+           </option>
+           <option value="NC">
+            NC - North Carolina
+           </option>
+           <option value="ND">
+            ND - North Dakota
+           </option>
+           <option value="OH">
+            OH - Ohio
+           </option>
+           <option value="OK">
+            OK - Oklahoma
+           </option>
+           <option value="OR">
+            OR - Oregon
+           </option>
+           <option value="PA">
+            PA - Pennsylvania
+           </option>
+           <option value="PR">
+            PR - Puerto Rico
+           </option>
+           <option value="RI">
+            RI - Rhode Island
+           </option>
+           <option value="SC">
+            SC - South Carolina
+           </option>
+           <option value="SD">
+            SD - South Dakota
+           </option>
+           <option value="TN">
+            TN - Tennessee
+           </option>
+           <option value="TX">
+            TX - Texas
+           </option>
+           <option value="UT">
+            UT - Utah
+           </option>
+           <option value="VT">
+            VT - Vermont
+           </option>
+           <option value="VA">
+            VA - Virginia
+           </option>
+           <option value="WA">
+            WA - Washington
+           </option>
+           <option value="WV">
+            WV - West Virginia
+           </option>
+           <option value="WI">
+            WI - Wisconsin
+           </option>
+           <option value="WY">
+            WY - Wyoming
+           </option>
+          </select>
+         </div>
+         <div class="col-sm-4">
+          <input tabindex="-1" type="number" inputmode="numeric" disabled="disabled" id="zip" data-validate="data-validate" data-input-error="Please provide a zip code." class="form-control" placeholder="ZIP" name="zip_code" />
+         </div>
+        </div>
+        <div class="form-group button-group">
+         <div class="col-xs-4">
+          <button tabindex="-1" disabled="disabled" data-form-regress="data-form-regress" type="button" class="btn btn-default back-btn">
+           Back
+          </button>
+         </div>
+         <div class="col-xs-8">
+          <button tabindex="-1" disabled="disabled" data-form-submit="data-form-submit" class="btn submit-btn payment-step">
+           Continue &nbsp;
+           <span class="fa fa-arrow-right">
+           </span>
+           <span id="please-wait" class="fa fa-spin fa-spinner">
+           </span>
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-------------------------------------------- FORM STEP 4 -------------------------------------------->
+      <div data-form-steps="data-form-steps" data-show-errors="custom" data-form-step-final="data-form-step-final" class="form-container stage-right donate-form donate-step-3 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+       <div id="step-3" class="form-padding">
+        <div class="form-heading">
+         <h3 class="red-text bold">
+          JOIN THE MADNESS!
+         </h3>
+         <h6>
+          Step 4 of 4 (optional)
+         </h6>
+        </div>
+        <div data-custom-error-target="data-custom-error-target">
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="affiliation">
+          Affiliation
+         </label>
+         <div class="col-sm-4">
+          <select tabindex="-1" disabled="disabled" class="form-control" id="affiliation" name="affiliation">
+           <option value="" selected="selected">
+            --
+           </option>
+           <option value="Alumni">
+            Alumni
+           </option>
+           <option value="Student">
+            Student
+           </option>
+           <option value="Parent">
+            Parent
+           </option>
+           <option value="Faculty/Staff">
+            Faculty/Staff
+           </option>
+           <option value="Friend/Other">
+            Friend/Other
+           </option>
+          </select>
+         </div>
+         <label class="control-label col-sm-2" for="grad">
+          Grad
+         </label>
+         <div class="col-sm-3">
+          <select tabindex="-1" disabled="disabled" class="form-control" id="grad" name="grad_year">
+           <option value="" selected="selected">
+            --
+           </option>
+          </select>
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-12" for="sports" style="text-align:left;">
+          I’m rooting for (Check All That Apply):
+         </label>
+         <div class="allocation-wrapper">
+          <div class="col-sm-4 sport-option womens-basketball">
+           <input tabindex="-1" disabled="disabled" data-validate="data-validate" data-input-error="Please select at least one sport." type="checkbox" id="w-basketball" name="sport[]" value="womens-basketball" />
+           <label class="sport" for="w-basketball">
+            W. Basketball
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option field-hockey">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="field-hockey" name="sport[]" value="field-hockey" />
+           <label class="sport" for="field-hockey">
+            Field Hockey
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option mens-lacrosse">
+           <input tabindex="-1" type="checkbox" id="m-lacrosse" name="sport[]" value="mens-lacrosse" />
+           <label class="sport" for="m-lacrosse">
+            M. Lacrosse
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option womens-lacrosse">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="w-lacrosse" name="sport[]" value="womens-lacrosse" />
+           <label class="sport" for="w-lacrosse">
+            W. Lacrosse
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option mens-soccer">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="m-soccer" name="sport[]" value="mens-soccer" />
+           <label class="sport" for="m-soccer">
+            M. Soccer
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option mens-basketball">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="m-basketball" name="sport[]" value="mens-basketball" />
+           <label class="sport" for="m-basketball">
+            M. Basketball
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option golf">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="golf" name="sport[]" value="golf" />
+           <label class="sport" for="golf">
+            Golf
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option mens-tennis">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="m-tennis" name="sport[]" value="mens-tennis" />
+           <label class="sport" for="m-tennis">
+            M. Tennis
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option womens-tennis">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="w-tennis" name="sport[]" value="womens-tennis" />
+           <label class="sport" for="w-tennis">
+            W. Tennis
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option wrestling">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="wrestling" name="sport[]" value="wrestling" />
+           <label class="sport" for="wrestling">
+            Wrestling
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option football">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="football" name="sport[]" value="football" />
+           <label class="sport" for="football">
+            Football
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option womens-soccer">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="w-soccer" name="sport[]" value="womens-soccer" />
+           <label class="sport" for="w-soccer">
+            W. Soccer
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option softball">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="softball" name="sport[]" value="softball" />
+           <label class="sport" for="softball">
+            Softball
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option volleyball">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="volleyball" name="sport[]" value="volleyball" />
+           <label class="sport" for="volleyball">
+            Volleyball
+           </label>
+          </div>
+          <div class="col-sm-4 sport-option baseball">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="baseball" name="sport[]" value="baseball" />
+           <label class="sport" for="baseball">
+            Baseball
+           </label>
+          </div>
+          <div class="col-sm-12 sport-option track">
+           <input tabindex="-1" disabled="disabled" type="checkbox" id="track-field-xc" name="sport[]" value="track" />
+           <label class="sport" for="track-field-xc">
+            Track/Field/X-c
+           </label>
+          </div>
+          <div class="clearfix">
+          </div>
+         </div>
+        </div>
+        <div class="form-group">
+         <label class="control-label col-sm-3" for="message">
+          Message
+         </label>
+         <div class="col-sm-9">
+          <textarea tabindex="-1" disabled="disabled" placeholder="Message" rows="4" name="message">
+          </textarea>
+         </div>
+        </div>
+        <div class="form-group button-group">
+         <div class="col-xs-4">
+          <button tabindex="-1" disabled="disabled" data-form-regress="data-form-regress" type="button" class="btn btn-default back-btn">
+           Back
+          </button>
+         </div>
+         <div class="col-xs-8">
+          <button tabindex="-1" disabled="disabled" data-form-submit="data-form-submit" class="btn submit-btn final-btn" id="input_2">
+           <span class="hidden-xs">
+            Finish &amp;
+           </span>
+           Submit&nbsp;
+           <span id="please-wait" class="fa fa-spinner fa-spin">
+           </span>
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-------------------------------------------- FORM STEP 5 THANK YOU -------------------------------------------->
+      <div data-form-steps="data-form-steps" class="form-container stage-right donate-form donate-step-4 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+       <div id="step-4" class="form-padding">
+        <div id="success-check" class="">
+         <span class="fa fa-check fa-3x">
+         </span>
+        </div>
+        <div class="form-heading">
+         <h3 class="green-text bold">
+          SUCCESS!
+         </h3>
+         <h6>
+          Your donation was processed successfully.
+         </h6>
+         <h3 class="mulementum-heading">
+          Thank you for Stepping Up!
+         </h3>
+         <h4>
+          Keep it going by sharing your unique referral link with your alumni and friends! Your link is:
+         </h4>
+         <input tabindex="-1" disabled="disabled" id="referral-input" class="form-control" value="mulemadness.muhlenberg.edu" readonly="readonly" />
+        </div>
+        <div class="form-group button-group">
+         <div class="col-xs-4">
+          <button tabindex="-1" disabled="disabled" type="button" data-form-reset-steps="data-form-reset-steps" class="btn btn-default done-btn">
+           Done
+          </button>
+         </div>
+         <div class="col-xs-8">
+          <button tabindex="-1" disabled="disabled" data-form-reset-steps="data-form-reset-steps" data-scroll-to="#battle-classes" data-scroll-to-dur="800" class="btn view-map-btn done-btn">
+           <span class="leaderboard-scroll">
+            View
+           </span>
+           Leaderboard
+          </button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </form>
+     <div class="clearfix">
+     </div>
+     <!--&lt;a class="scroll-section" style="display:block; width:100%;"&gt;
+                        &lt;div class="scroller-arrow" href="#you-are-muhlenberg" style="margin:0 auto;"&gt;&lt;img src="assets/images/arrow-down.png"  /&gt;&lt;/div&gt;
+                    &lt;/a&gt;-->
+     <div id="progress-bar-container">
+      <div class="container">
+       <div class="row">
+        <div class="col-xs-12">
+         <h4>
+          See how the Ball Bounces Starting March 14
+         </h4>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   GIFT GIVING DIFFICULTY (COMMENTED OUT UNLESS REQUESTED)   -->
+  <!--&lt;div class="form-help" style="text-align:center; color:#252525; padding:10px 0; width:100%;"&gt;
+            &lt;div class="container"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="col-xs-12"&gt;
+                        &lt;h4&gt;If you are having difficulty making a gift, please call &lt;span style="font-weight:bold;"&gt;800-464-2374.&lt;/span&gt;&lt;/h4&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;-->
+  <!--   YOU ONLY GET ONE SHOT SECTION (BLUE BACKGROUND - INTRO)   -->
+  <div id="you-are-muhlenberg">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h2>
+       Step Up Today
+      </h2>
+      <!--&lt;h3&gt;
+                        	The word "momentum" is a commonly used word in sports to describe a team on the move.
+                        &lt;/h3&gt;-->
+      <h4>
+       Champions are made, not born. Only one team can wear the Mule Madness crown. Will it be your team? Mule Madness is a tournament to see which sport has the most alumni athletes, parents and student-athletes giving back to Muhlenberg. Sixteen teams will face off in a battle to show the Mules that Rule. This tournament is all about Stepping Up and showing pride for your favorite Muhlenberg team.
+      </h4>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   WHAT IS MULE MADNESS SECTION (TAN BG IMAGE WITH CONTENT SLIDER)   -->
+  <div class="what-is-mule">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-6 col-md-7 col-lg-8">
+      <h2>
+       WHAT IS Mule Madness?
+      </h2>
+      <p>
+       Keeping Muhlenberg at the top in the Centennial Conference is not easy. We need the financial support of those passionate about Muhlenberg athletics to do it. The tournament is a fun way to give back to the sports programs that have provided student-athletes with qualities that will last a lifetime. When you make a gift during Mule Madness you not only help your team, you impact the quality of the athletic experience for student-athletes in every sport. Participation determines the winning team. Step Up, make a gift and lead your team to the championship!
+      </p>
+     </div>
+     <div data-content-slider="data-content-slider" data-content-slider-anim="slide-horz" class="stat-slider col-sm-6 col-md-5 col-lg-4">
+      <div class="relative">
+       <div class="slide-controls" data-control-prev="data-control-prev">
+        <span class="fa fa-angle-left">
+        </span>
+       </div>
+       <div data-slider-content="data-slider-content" class="slide-content">
+        <div data-slider-content-slide="data-slider-content-slide" class="slide pane-1 current">
+         <div data-timer="data-timer" class="slide-pane-content slide-pane-content-smaller">
+          <h4>
+           <span class="fa fa-clock-o">
+           </span>
+           Overtime!
+          </h4>
+          <ul class="timer-content">
+           <li data-timer-day="data-timer-day" class="days">
+            00
+           </li>
+           <li>
+            :
+           </li>
+           <li data-timer-hour="data-timer-hour" class="hour">
+            00
+           </li>
+           <li>
+            :
+           </li>
+           <li data-timer-min="data-timer-min" class="mins">
+            00
+           </li>
+           <!--&lt;li&gt;:&lt;/li&gt;
+                                            &lt;li class="secs"&gt;00&lt;/li&gt;-->
+          </ul>
+          <div class="slider-label">
+           <h5 class="days-label">
+            DAYS
+           </h5>
+           <h5 class="hrs-label">
+            HRS
+           </h5>
+           <h5 class="min-label">
+            MIN
+           </h5>
+          </div>
+          <div class="clear">
+          </div>
+         </div>
+        </div>
+        <div data-slider-content-slide="data-slider-content-slide" class="slide pane-2">
+         <div class="slide-pane-content">
+          <h4>
+           <span class="fa fa-group">
+           </span>
+           Total Donors
+          </h4>
+          <div class="donors-to-go">
+           0
+          </div>
+          <h5 class="slider-label">
+           PEOPLE
+          </h5>
+          <div class="clear">
+          </div>
+         </div>
+        </div>
+        <div data-slider-content-slide="data-slider-content-slide" class="slide pane-3">
+         <div class="slide-pane-content">
+          <h4>
+           <span class="fa fa-institution">
+           </span>
+           Amount Raised
+          </h4>
+          <div class="allentown-amount">
+           $0.00
+          </div>
+          <h5 class="slider-label">
+           DOLLARS
+          </h5>
+          <div class="clear">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="slide-controls" data-control-next="data-control-next">
+        <span class="fa fa-angle-right">
+        </span>
+       </div>
+       <div class="stat-position">
+        <ul data-slider-indicator="data-slider-indicator">
+         <li data-slider-ind-trig="data-slider-ind-trig" class="indicators current">
+          <div class="circle-marker">
+          </div>
+         </li>
+         <li data-slider-ind-trig="data-slider-ind-trig" class="indicators">
+          <div class="circle-marker">
+          </div>
+         </li>
+         <li data-slider-ind-trig="data-slider-ind-trig" class="indicators">
+          <div class="circle-marker">
+          </div>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div class="clear">
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   GIVING STATS SECTION (HAS PERCENTAGE TAB AND TOTAL RAISED TAB)   -->
+  <div id="giving-stats">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h2>
+       Leaderboard
+      </h2>
+      <h4>
+       Check out the 2016 Mule Madness Points
+      </h4>
+     </div>
+    </div>
+   </div>
+   <div style="clear:both;">
+   </div>
+   <!--&lt;ul class="nav nav-tabs" role="tablist"&gt;
+                &lt;li role="presentation" class="active giving-tab"&gt;&lt;a href="#donor-number-container" id="donor-number-container-tab" class="bold-16" aria-controls="donor-number-container" role="tab" data-toggle="tab"&gt;Participation&lt;/a&gt;&lt;/li&gt;
+                &lt;li role="presentation" class="giving-tab"&gt;&lt;a href="#amount-container" id="amount-container-tab" class="bold-16" aria-controls="amount-container" role="tab" data-toggle="tab"&gt;Amount Raised&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;-->
+   <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="donor-number-container">
+     <div class="donor-number-container">
+      <div id="carousel-donor-number-container" class="carousel slide" data-ride="carousel">
+       <div class="container">
+        <div class="row">
+         <div class="carousel-inner" role="listbox">
+          <div class="item active">
+          </div>
+          <div class="item second-item">
+          </div>
+         </div>
+         <div class="carousel-indicators">
+          <h4 data-target="#carousel-donor-number-container" data-slide-to="0" class="active">
+           1-8
+          </h4>
+          <h4 data-target="#carousel-donor-number-container" data-slide-to="1">
+           9-16
+          </h4>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--&lt;div role="tabpanel" class="tab-pane fade" id="amount-container"&gt;
+                    &lt;div class="amount-container"&gt;
+                        &lt;div id="carousel-donor-amount" class="carousel slide" data-ride="carousel"&gt;
+                            &lt;div class="container"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="carousel-inner" role="listbox"&gt;
+                                        &lt;div class="item active"&gt;&lt;/div&gt;
+                                        &lt;div class="item second-item"&gt;&lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="carousel-indicators"&gt;
+                                        &lt;h4 data-target="#carousel-donor-amount" data-slide-to="0" class="active"&gt;1-8&lt;/h4&gt;
+                                        &lt;h4 data-target="#carousel-donor-amount" data-slide-to="1"&gt;9-16&lt;/h4&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--   BRACKET SECTION (CONTAINS BOTH WINNER'S BRACKET AND CONSOLATION BRACKET TABS)   -->
+  <style>
+   #battle-classes {position:relative;}
+            .no-results-overlay {position:absolute; width:100%; height:100%; background:rgba(255,255,255,.9); top:0; z-index:100;
+                transition:all 500ms; -webkit-transition:all 500ms; -moz-transition:all 500ms; -ms-transition:all 500ms; -o-transitioni:all 500ms;
+            }
+            .no-results-overlay h3 {text-align:center; margin:100px auto;}
+            #battle-chart-container.understood:after, #battle-chart-container.understood:before {opacity:0; padding:0; height:0;
+                transition:all 500ms; -webkit-transition:all 500ms; -moz-transition:all 500ms; -ms-transition:all 500ms; -o-transitioni:all 500ms;
+            }
+  </style>
+  <div id="battle-classes" class="gray-bg">
+   <div class="no-results-overlay" hidden="hidden" data-class-graph-no-results="data-class-graph-no-results">
+    <h3>
+     There are currently no results to display. Please check back soon!
+    </h3>
+   </div>
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <div class="pull-left">
+       <h2>
+        Battle of the Sports
+        <!--&lt;sup class="battle-key"&gt;
+                          &lt;span class="alumni-key"&gt;Alumni&lt;/span&gt;
+                          &lt;span class="students-key"&gt;Students&lt;/span&gt;
+                          &lt;span class="parents-key"&gt;Parents&lt;/span&gt;
+                        &lt;/sup&gt;-->
+       </h2>
+       <h4>
+        Represent your team! Select a squad to view its donor board.
+        <span class=" small">
+         <br />
+         <br />
+         (Money raised during Mule Madness March 14 - March 18)
+        </span>
+       </h4>
+      </div>
+      <div class="pull-right top-score-box">
+       <div class="trophy-image pull-left">
+        <!--&lt;span data-class-graph-leader-total&gt;00&lt;/span&gt;-->
+       </div>
+       <div class="divider-bar pull-left">
+       </div>
+       <div class="pull-left trophy-stat">
+        <h5>
+         LEADING SPORT -
+         <span data-class-graph-leader="data-class-graph-leader">
+         </span>
+        </h5>
+        <h1>
+         <sup>
+          $
+         </sup>
+         <span data-class-graph-leader-total="data-class-graph-leader-total">
+          00
+         </span>
+        </h1>
+       </div>
+       <div class="clearfix hidden-lg hidden-md hidden-sm">
+       </div>
+      </div>
+      <div class="clearfix">
+      </div>
+      <div data-class-graph-lines="data-class-graph-lines" id="battle-chart-container">
+       <div class="chart-bg">
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-5">
+         <div data-class-graph-line-val="data-class-graph-line-val" class="bg-number">
+          00
+         </div>
+        </div>
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-4">
+         <div data-class-graph-line-val="data-class-graph-line-val" class="bg-number">
+          00
+         </div>
+        </div>
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-3">
+         <div data-class-graph-line-val="data-class-graph-line-val" class="bg-number">
+          00
+         </div>
+        </div>
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-2">
+         <div data-class-graph-line-val="data-class-graph-line-val" class="bg-number">
+          00
+         </div>
+        </div>
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-1">
+         <div data-class-graph-line-val="data-class-graph-line-val" class="bg-number">
+          00
+         </div>
+        </div>
+        <div data-class-graph-line="data-class-graph-line" class="bg-line bg-0">
+         <div class="bg-number">
+          <span data-class-graph-line-val="data-class-graph-line-val">
+           0
+          </span>
+         </div>
+        </div>
+       </div>
+       <div data-class-graph-chart="data-class-graph-chart" class="chart-bars">
+        <div data-class-graph-bar="data-class-graph-bar" class="col-xs-2 bar-entire col-xs-offset-1">
+         <div class="trophy-image">
+          <div class="trophy">
+           <!--&lt;span data-class-graph-bar-total&gt;00&lt;/span&gt;-->
+           <div class="shine">
+           </div>
+          </div>
+         </div>
+         <div class="bar-container">
+          <div class="bar-number" data-class-graph-bar-total="data-class-graph-bar-total">
+           00
+          </div>
+          <div class="bar-split-container" data-class-graph-affiliations="data-class-graph-affiliations">
+          </div>
+          <h5 class="bar-year" data-class-graph-bar-year="data-class-graph-bar-year">
+           Sport
+          </h5>
+         </div>
+        </div>
+        <div data-class-graph-bar="data-class-graph-bar" class="col-xs-2 bar-entire col-xs-offset-3">
+         <div class="trophy-image">
+          <div class="trophy">
+           <!--&lt;span data-class-graph-bar-total&gt;00&lt;/span&gt;-->
+           <div class="shine">
+           </div>
+          </div>
+         </div>
+         <div class="bar-container">
+          <div class="bar-number" data-class-graph-bar-total="data-class-graph-bar-total">
+           00
+          </div>
+          <div class="bar-split-container" data-class-graph-affiliations="data-class-graph-affiliations">
+          </div>
+          <h5 class="bar-year" data-class-graph-bar-year="data-class-graph-bar-year">
+           Sport
+          </h5>
+         </div>
+        </div>
+        <div data-class-graph-bar="data-class-graph-bar" class="col-xs-2 bar-entire col-xs-offset-5">
+         <div class="trophy-image">
+          <div class="trophy">
+           <!--&lt;span data-class-graph-bar-total&gt;00&lt;/span&gt;-->
+           <div class="shine">
+           </div>
+          </div>
+         </div>
+         <div class="bar-container">
+          <div class="bar-number" data-class-graph-bar-total="data-class-graph-bar-total">
+           00
+          </div>
+          <div class="bar-split-container" data-class-graph-affiliations="data-class-graph-affiliations">
+          </div>
+          <h5 class="bar-year" data-class-graph-bar-year="data-class-graph-bar-year">
+           Sport
+          </h5>
+         </div>
+        </div>
+        <div data-class-graph-bar="data-class-graph-bar" class="col-xs-2 bar-entire col-xs-offset-7">
+         <div class="trophy-image">
+          <div class="trophy">
+           <!--&lt;span data-class-graph-bar-total&gt;00&lt;/span&gt;-->
+           <div class="shine">
+           </div>
+          </div>
+         </div>
+         <div class="bar-container">
+          <div class="bar-number" data-class-graph-bar-total="data-class-graph-bar-total">
+           00
+          </div>
+          <div class="bar-split-container" data-class-graph-affiliations="data-class-graph-affiliations">
+          </div>
+          <h5 class="bar-year" data-class-graph-bar-year="data-class-graph-bar-year">
+           Sport
+          </h5>
+         </div>
+        </div>
+        <div data-class-graph-bar="data-class-graph-bar" class="col-xs-2 bar-entire col-xs-offset-9">
+         <div class="trophy-image">
+          <div class="trophy">
+           <!--&lt;span data-class-graph-bar-total&gt;00&lt;/span&gt;-->
+           <div class="shine">
+           </div>
+          </div>
+         </div>
+         <div class="bar-container">
+          <div class="bar-number" data-class-graph-bar-total="data-class-graph-bar-total">
+           00
+          </div>
+          <div class="bar-split-container" data-class-graph-affiliations="data-class-graph-affiliations">
+          </div>
+          <h5 class="bar-year" data-class-graph-bar-year="data-class-graph-bar-year">
+           Sport
+          </h5>
+         </div>
+        </div>
+        <div class="clearfix">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--END BATTLE CLASSES SECTION-->
+  <!--   MAKE A GIFT SECTION (DARKER OVERLAY IMAGE WITH TEXT)   -->
+  <div id="make-a-gift">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-10 col-sm-offset-1">
+      <h2>
+       Make a gift
+      </h2>
+      <h4>
+       Call
+       <a href="tel:18008592243">
+        1-800-859-2243
+       </a>
+       or mail check made payable to Muhlenberg College, 2400 Chew Street, Allentown, PA 18104.
+      </h4>
+      <!--&lt;h3&gt;The College is YOU.&lt;/h3&gt;-->
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   BRACKETOLOGY REPORT/D-III CHALLENGE SECTION   -->
+  <div id="why-i-give">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-12 why-two">
+      <h2>
+       D-III Challenge
+      </h2>
+      <h4>
+       Alumnus and Trustee Jerry Galgano '80, P'11, P'14 is offering a special incentive –
+       <span>
+        The Mule Madness 2016 D-III Challenge
+       </span>
+       - to all student-athletes. Check it out
+       <a data-toggle="modal" data-target="#d3-modal">
+        here
+       </a>
+       or click the box below.
+      </h4>
+      <div class="row">
+       <div class="col-sm-6">
+        <div class="row video-link-why" data-toggle="modal" data-target="#d3-modal">
+         <div class="video-thumb col-xs-4">
+          <div class="play-btn">
+           <span class="fa fa-trophy">
+           </span>
+          </div>
+         </div>
+         <div class="video-text col-xs-8 col-xs-offset-4">
+          <p>
+           Find out how you can earn your sport extra incentives!
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   FAQ SECTION (ACCORDION OF QUESTIONS/ANSWERS)   -->
+  <div id="faq">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h2>
+       FAQs
+      </h2>
+      <h3>
+       Mule Madness kicks off March 14 and continues through March 18.
+      </h3>
+      <h4>
+       Sixteen teams will faceoff in a battle of the Mules. Who will be victorious? Don’t miss out – make your gift today!
+      </h4>
+      <div class="panel-group col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12" id="accordion" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+           How do I make a gift?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+         <div class="panel-body">
+          <p>
+           <ul>
+            <li>
+             &bull; online at mulemadness.muhlenberg.edu
+            </li>
+            <li>
+             &bull; by phone at 1-800-859-2243
+            </li>
+            <li>
+             &bull; mail a check (payable to Muhlenberg College) to:
+             <br />
+             &nbsp; Muhlenberg College, 2400 Chew Street, Allentown, PA 18104
+            </li>
+           </ul>
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           What does the winning team get?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+         <div class="panel-body">
+          <p>
+           The winning team will be named champions for the 2015-2016 season, own bragging rights for the year and have their name engraved on the Mule Madness trophy in Memorial Hall.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           I'm a senior-athlete, why should I make a gift?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+         <div class="panel-body">
+          <p>
+           Making a gift as a senior is a great way to give back to the team you've loved to play on. It will increase your team's participation and count as your senior class gift. Plus, if all senior athletes on a team make a gift to Mule Madness, the team will earn additional dollars through the D-III Challenge, as well as a pizza party generously sponsored by Director of Athletics Corey Goff.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+           Can I support a specific team?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+         <div class="panel-body">
+          <p>
+           Of course! When you make your gift online, you will be asked to select from a drop-down box a team you wish to support. If you make a gift by mail, please note the designation of your gift on the check.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           How long is Mule Madness?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+         <div class="panel-body">
+          <p>
+           Mule Madness kicks off Monday, March 14 and continues through Friday, March 18.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingEight">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+           How are participation points earned?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+         <div class="panel-body">
+          <p>
+           This is a cumulative participation challenge. The team with the overall highest participation at the end of the competition will be named the winner. During Mule Madness points are earned:
+           <br />
+           - Touchdown (2 points) first time or current donors who make a gift of $100 or more (alumni athletes, student-athletes or parents of current athletes)
+           <br />
+           - Slam Dunk (1 point) first time or current donors who make a gift under $100 (alumni athletes, student-athletes and parents of current athletes)
+           <br />
+           - Goal (1 point) Make a gift to any sport (Four gifts from friends of Muhlenberg)
+           <br />
+           See also: "I've already made my annual gift, will it count toward my team?"
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingNine">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+           Can I participate if I am not a new donor?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+         <div class="panel-body">
+          <p>
+           Yes! A gift made by a student-athlete, alumni athlete or parent of a current student athlete will count against the base for each team.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTen">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+           I've already made my annual gift, will it count toward my team?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+         <div class="panel-body">
+          <p>
+           We are counting all prior gifts this fund year (July 1, 2015-March 13, 2016). Student-athletes, alumni athletes, head coaches and parents of current student-athletes who have already made a gift to the College were grandfathered in and reflected in the donor counts at the outset of the competition.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingEleven">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+           How can I help my team win?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+         <div class="panel-body">
+          <p>
+           Encourage others to make a gift and share the rankings on all of your social networks.  If you’re an alumnus be sure to join ‘Berg Alumni on Facebook to follow the competition and repost messages.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFifteen">
+         <h4>
+          <a class="collapsed" data-toggle="collapse" href="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+           The answer to my question is not listed here, who can I contact?
+           <div class="expand-icon">
+            <div class="minus-dash">
+            </div>
+            <div class="plus-dash">
+            </div>
+           </div>
+          </a>
+         </h4>
+        </div>
+        <div id="collapseFifteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifteen">
+         <div class="panel-body">
+          <p>
+           The Muhlenberg Fund at 1-800-859-2243 or themuhlenbergfund@muhlenberg.edu
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--   SOCIAL FOOTER (DARK BG WITH SHARE BUTTONS)   -->
+  <div class="social-footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <!--&lt;h2&gt;
+                        	Share why you plan to give on &lt;span class="fb-txt"&gt;Facebook&lt;/span&gt;
+                        &lt;/h2&gt;
+                        &lt;h2&gt;
+                        	Join the conversation via Twitter on &lt;span class="tw-txt"&gt;@TWITTERHANDLE&lt;/span&gt;
+                        &lt;/h2&gt;-->
+      <h2>
+       SHARE WHY YOU are participating AND JOIN THE
+       <a href="https://www.facebook.com/events/1125740404138640/" target="_blank">
+        <span class="mule-txt">
+         #StepUpMules
+        </span>
+       </a>
+      </h2>
+     </div>
+     <div class="col-xs-10 col-xs-offset-1">
+      <hr />
+     </div>
+     <div class="col-xs-12">
+      <div class="action-buttons">
+       <p class="pull-left">
+        <a class="action-btn fb-btn" role="button" href="https://www.facebook.com/events/1125740404138640/" target="_blank">
+         <span class="fa fa-facebook">
+         </span>
+         share
+         <span class="hidden-xs">
+          on facebook
+         </span>
+        </a>
+       </p>
+       <p class="pull-left">
+        <a class="action-btn tw-btn" role="button" href="https://twitter.com/hashtag/stepupmules?f=tweets" target="_blank">
+         <span class="fa fa-twitter">
+         </span>
+         share
+         <span class="hidden-xs">
+          on twitter
+         </span>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div hidden="hidden" class="social-footer only-when-fixed">
+   <div class="container">
+    <div class="row">
+     <div class="col-xs-12">
+      <h4>
+       Share why you are participating and join the
+       <a href="https://www.facebook.com/events/1125740404138640/" target="_blank">
+        <span class="fb-txt">
+         #StepUpMules
+        </span>
+       </a>
+       <a data-scroll-to=".social-footer" data-scroll-to-dur="800" href="#" class="footer-top">
+        Return to top
+       </a>
+      </h4>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--END SOCIAL MEDIA-->
+  <div id="rebelmouse">
+   <script type="text/javascript" class="rebelmouse-embed-script" src="https://www.rebelmouse.com/static/js-build/embed/embed.js?site=MuleMentum&amp;height=1500&amp;flexible=1&amp;dont_load_new_posts=1&amp;more_button=1&amp;show_rebelnav=1">
+   </script>
+  </div>
+  <!--END REBELMOUSE SECTION-->
+  <div data-scroll-to="#countdown-bg" data-scroll-to-dur="800" class="back-to-top hidden-lg hidden-md hidden-sm">
+   <p>
+    <span class="fa fa-chevron-up">
+    </span>
+    Make a donation!
+    <span class="fa fa-chevron-up">
+    </span>
+   </p>
+  </div>
+  <!-- Bootstrap core JavaScript
+        ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  </script>
+  <script src="assets/js/bootstrap.min.js">
+  </script>
+  <script src="assets/js/ekko-lightbox.min.js">
+  </script>
+  <script src="assets/js/content-sliders.js">
+  </script>
+  <!--[if IE 9]&gt; &lt;script src="js/ie9.js"&gt;&lt;/script&gt; &lt;![endif]-->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]&gt;
+              &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+              &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+          &lt;![endif]-->
+  <!--[if lt IE 9]&gt;
+            &lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+            &lt;![endif]-->
+  <script>
+   $(function() {
+				jQuery.support.cors = true;
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					$(this).ekkoLightbox();
+				});
+				//columnResize();
+				$('.video-thumb').css({backgroundSize: "cover"});
+
+                new Countdown({
+					start : new Date(),
+					end : new Date('March 20, 2016 18:00:00'),
+				});
+            });
+  </script>
+  <script type="text/javascript" src="https://js.stripe.com/v2/">
+  </script>
+  <script src="https://checkout.stripe.com/checkout.js">
+  </script>
+  <script>
+   Stripe.setPublishableKey('pk_live_qCI87CcblgIiceSnH56pQUDZ');
+  </script>
+  <script src="assets/js/form-validation.js">
+  </script>
+  <script src="assets/js/form.js">
+  </script>
+  <script src="assets/js/isotope.js">
+  </script>
+  <script src="assets/js/global.js">
+  </script>
+  <script src="assets/js/site.js">
+  </script>
+  <script src="assets/js/countdown.js">
+  </script>
+ </body>
+</html>

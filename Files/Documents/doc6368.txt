@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Non-Majors - Biology Curriculum | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Biology Department
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/academics/biology/bg-intro02.jpg" alt="Biology" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/">
+               Biology
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/biologycurriculum/">
+               Biology Curriculum
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biology/biologycurriculum/non-majors/">
+               Non-Majors
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <p align="center">
+            <strong>
+             Biology Courses - Nonmajor Curriculum
+             <br />
+            </strong>
+           </p>
+           <p>
+            <strong>
+             BIO 101: Human Biology, Science &amp; Society
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/public-health/faculty/chrysancronin/">
+              Cronin
+             </a>
+             ,
+             <a href="/main/academics/biology/faculty/KimberlyHeiman.html">
+              Heiman
+             </a>
+            </span>
+            <br />
+            This course covers topics in human structure and function, human genetics, and human ecology. A scientific and bio-ethical approach is used to study issues related to society as a whole as well as to you as an individual. The overall goal of the course is to help you become more scientifically literate so that you can make informed decisions. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 102: Biology of Movement
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/maryconstantbyrne/">
+              Byrne
+             </a>
+            </span>
+            <br />
+            Students study the science of movement. The structure and function of the skeletal and muscular systems will be studied in detail. The nervous, respiratory and cardiovascular systems will also be studied. In addition, students will explore the biomechanics of movement. The course is especially designed for dance majors and others who have a particular interest in the biology of movement. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 104: Biology of Birds
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/danielklemjr/">
+              Klem
+             </a>
+            </span>
+            <br />
+            A general overview of the study of avian natural history. Special attention is given to field techniques to identify, describe, and record the biology of birds in their natural habitat. Four class hours per week and field trips. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 106: The Biotech Century
+             <br />
+            </strong>
+            So much of the news concerns biotechnology: cloning, gene therapy, cancer treatments, assisted reproductive technologies, genetically modified foods, the human genome project, and bioterrorism. Perhaps high school biology never covered such topics. Using newspaper articles, an excellent genetic textbook for non-science majors, and Internet resources, this course is designed to allow the student to explore &ldquo;the new biology&rdquo;. Most of the students who have taken this course find immediate applications of the course knowledge to their own lives. Perhaps you will too.&nbsp;Prerequisite(s): Students who have taken BIO 150, BIO 151, or BIO 152 need permission of the instructor to enroll.&nbsp;Meets general academic requirement S or SC.
+           </p>
+           <p>
+            <strong>
+             BIO 107: From DNA to Cancer
+             <br />
+            </strong>
+            <a href="/main/academics/biology/facultystaff/debrawalther/">
+             Walther
+             <br />
+            </a>
+            This course covers the biology of cancer, from the changes in DNA and cells that lead to cancer to treatment and prevention strategies. We will address the following questions: What is cancer? What causes cancer? How can cancer be treated? Specific topics to be covered include hallmarks of cancer cells, causes of cancer (including environmental and hereditary factors, as well as infectious agents), and cancer genes, with a special focus on current topics in Cancer Biology. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 108: Plants &amp; People
+            </strong>
+            <br />
+            This course is a survey of the diversity of plants and their relationship with people. We will focus on the uses of plants from historical, contemporary, and multicultural perspectives. We will explore how plants serve as our foods, medicines, fibers, fuels, and the other ways that they impact our lives and influence our cultures. The scientific process, ethnobotanical study, agricultural and environmental issues, and ethical considerations will be closely examined. This course will include hands-on, field and laboratory study of plants.
+            <br />
+            Prerequisite(s): Students who have taken BIO 150, BIO 151, or BIO 152 need permission of the instructor to enroll.
+            <br />
+            Meets general academic requirement S or SC.
+           </p>
+           <p>
+            <strong>
+             BIO 109: From the Bubonic Plague to AIDS
+             <br />
+            </strong>
+            Chambers
+            <br />
+            Infectious disease has and continues to have a profound influence on man and the environment in which we live. Bubonic plague, smallpox, syphilis, malaria, and AIDS, as well as other emerging viruses, will be studied as specific examples of infectious disease. The biology of the microbes involved; their epidemiology, resulting pathology and control will be discussed. Emphasis will be placed on the historical, political and social consequences of infectious disease. Offered as a course designed for Muhlenberg Scholars. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 111: Crisis Earth
+             <br />
+            </strong>
+            <a href="/main/academics/biology/facultystaff/kimberlyheiman/">
+             Heiman
+            </a>
+            <strong>
+             <br />
+            </strong>
+            With a growing human population and society&rsquo;s increasing demands on the planet&rsquo;s natural resources, we are entering an era of ecological crisis on Earth. This class will explore some of the major crises facing our planet from a scientific and social perspective. Students will develop an understanding of the science needed to appreciate, diagnose, and tackle environmental crises such as global warming, habitat destruction, invasive species, and pollution. The class will also explore some causes of and solutions to these ecological catastrophes from social, political, and management perspectives. This course is an introduction to many environmental topics and is designed to engage students from different disciplines in the increasingly important hunt for solutions to Earth&rsquo;s environmental crises. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 113: Marine Organisms and the Ocean
+            </strong>
+            <br />
+            As a basis for understanding marine organisms and their lifestyle, this course will study the geological origins of oceans and plate tectonics, the nature of seawater, ocean bottom sediments, the atmosphere and its relationship with the oceans, waves, tides, and currents. Studies will include marine ecosystems, open ocean plankton and nekton, and organisms of the ocean bottom. The effects of human activities on ocean life will also be discussed. Course can be used to satisfy the earth science requirement for secondary education. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 114: Humanity and the Biological World
+            </strong>
+            <br />
+            The primary focus of this course is to examine the origin and nature of life forms that exist today and the effect of the human activity on those organisms. As a background for understanding those changes, the role of the environment and genetics in the evolution of living species will be studied. Review of biological, geological, and meteorological concepts will support the study. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 115: Drugs and Drug Abuse
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/jeremyteissere/">
+              Teissere
+             </a>
+             <br />
+            </span>
+            When we talk about drugs, we tend to reinforce several artificial binaries:&nbsp; &ldquo;good&rdquo; vs. &ldquo;bad&rdquo; drugs; illegal vs. legal drugs; addictive vs. nonaddictive drugs; recreational vs. therapeutic drugs, etc.&nbsp; Are these binaries useful and representative?&nbsp; Does our moral panic over drug use make it challenging to see past these binaries?&nbsp; How might we conceptualize a different critical framework in which to discuss drugs and drug abuse?&nbsp; In this course, we will engage in a cross-disciplinary discussion about drugs and drug abuse by appealing to biological, sociological, historical, political, and anthropological points of reference.&nbsp;&nbsp; We will consider how power may define the representation of drugs in mass media and society and the resulting consequences for drug regulation.&nbsp; Additionally, we will discuss the pharmacology of drugs, the putative mechanisms underlying drug addiction, and emerging ethical issues surrounding "new" drug discovery. Meets general academic requirement S&nbsp;and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 116: Animal Behavior
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/erikaiyengar/">
+              Iyengar
+             </a>
+             <br />
+            </span>
+            Why do the cardinals on campus perch at the tops of trees and chirp so loudly? Why do earthworms emerge from the ground when it rains? Why do some killer whales hunt in packs and others hunt singly? This course is designed for students who want to better understand the mechanisms, evolution, and consequences of animal (including human) behavior. Topics such as communication, foraging, orientation, reproduction, and social behavior will be covered. In addition to gaining insight into animal behavior, you will also obtain a broader understanding of science, the scientific method, and some of the unanswered questions in the study of animal behavior. The lectures of this class will be supplemented by hands-on experiments, live animal observations, and film clips to gain a deeper understanding for animal behavior and the scientific method. There will be one required weekend field trip during the class, but you will have a few choices among which to choose. The class meets twice a week, for a two-hour time slot each time. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 118: Genes, Genomics, and Society
+            </strong>
+            <br />
+            <span class="italic">
+             <a href="/main/academics/biology/facultystaff/amyhark/">
+              Hark
+             </a>
+             <br />
+            </span>
+            In this course, we will consider the impact of genetic and genomic information on both individuals and various aspects of society, with a particular focus on human health and disease. The course will begin with an introduction to human genetics, which will serve as background to allow us to discuss many conditions that have a genetic basis as well as consider medical and other uses of human (and other organisms&rsquo;) genome sequence information. This course is designed for non-science majors who have an interest in the human condition. It is intended to equip students to better appreciate and evaluate medical and other scientific issues raised in the news and popular press. In addition to learning the underlying biology, much emphasis will be placed on discussion of related societal, ethical, and policy topics. Meets general academic requirement S and SC.
+           </p>
+           <p>
+            <strong>
+             BIO 120: Emerging Infectious Diseases
+            </strong>
+            <br />
+            In 1976 when dozens of Legionnaires fell dead with a &ldquo;mysterious and terrifying disease,&rdquo; it came as quite a shock to many that &ldquo;new&rdquo; diseases remained to be discovered. In this course, we will explore emerging and re-emerging diseases such as SARS, influenza, and anthrax (as well as many others) by looking at the transmission, pathology, and genetic engineering techniques that are used to identify, treat, and study these infectious organisms.&nbsp;Prerequisite(s): Students who have taken BIO 150, BIO 151, or BIO 152 need permission of the instructor to enroll.&nbsp;Meets general academic requirement S or SC.
+           </p>
+           <p>
+            <strong>
+             BIO 121:&nbsp;Biology of Running
+            </strong>
+            <br />
+            Running is part of human nature. Our bodies are built for running, and training for long-distance running results in multiple health benefits. In this course we will explore how our bodies are built for running and look at evidence supporting barefoot running. We will also explore the potential physiological and psychological benefits that result from running and how to train to achieve those benefits.&nbsp;Prerequisite(s): Students who have taken BIO 150, BIO 151, or BIO 152 need permission of the instructor to enroll.&nbsp;Meets general academic requirement S or SC.
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Biology Department
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/biology/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/majorrequirements/">
+            Major Requirements
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/programgoals/">
+            Program Goals
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/majorcourses/">
+            Major Courses
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/biology/biologycurriculum/non-majors/">
+             Non-Majors
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/honorsprogram/">
+            Honors Program
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/studyincostarica/">
+            Costa Rica
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/fieldmarinebiology/">
+            Field Marine Biology
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biology/biologycurriculum/organicfarm/">
+            Organic Farm
+           </a>
+          </li>
+          <li>
+           <a href="/academics/braincamp/">
+            Brain Camp
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/majorrequirements/"&gt;Major Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/programgoals/"&gt;Program Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/majorcourses/"&gt;Major Courses&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/biology/biologycurriculum/non-majors/"&gt;Non-Majors&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/honorsprogram/"&gt;Honors Program&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/facultystaff/richardaniesenbaum/niesenbaumspage/studyincostarica/"&gt;Costa Rica&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/fieldmarinebiology/"&gt;Field Marine Biology&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biology/biologycurriculum/organicfarm/"&gt;Organic Farm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/academics/braincamp/"&gt;Brain Camp&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

@@ -1,0 +1,3991 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Get Started with Library Research - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 471100;
+			mySID = 3874366;
+			var myGNAME = "Get+Started+with+Library+Research";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Get Started with Library Research
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Aug 24, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/getstarted">
+          http://libraryguides.muhlenberg.edu/getstarted
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=471100">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856349">
+       Choose a Topic
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856384">
+       Find Information
+      </a>
+      <br />
+      <div style="padding-left:20px;">
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874364">
+        Find Articles
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874366">
+        Find Books
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874371">
+        Find DVDs &amp; Videos
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874373">
+        Find Government Information
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5060595">
+        --Locating U.S. Govt. Publications
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874377">
+        Find Images
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874381">
+        Find Music Recordings &amp; Scores
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874383">
+        Find Primary Sources
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874385">
+        Find Statistics &amp; Data
+       </a>
+       <br />
+       <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3874386">
+        Find Reviews
+       </a>
+       <br />
+      </div>
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=4047073">
+       What is Scholarly?
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3878122">
+       Research Tips
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=3856388">
+       Cite Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=471100&amp;sid=5215028">
+       Write an Annotated Bibliography
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_3856349" class="guide_page">
+   <h2>
+    Choose a Topic
+   </h2>
+   <div id="content_box_13943868" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      More Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       For more information on additional steps in the research and writing process, use the
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3856384">
+        Find Information
+       </a>
+       ,
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3878122">
+        Research Tips
+       </a>
+       , and
+       <a href="http://libraryguides.muhlenberg.edu/aecontent.php?pid=471100&amp;sid=3856388">
+        Cite Sources
+       </a>
+       tabs across the top of this page.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943674" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Choose a Topic
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <em>
+        1. Identify an area of interest
+       </em>
+      </p>
+      <p>
+       If you have been assigned a research paper or project, there are usually a wide range of topics that you can select for your assignment. Here are some ideas for topic generating.
+      </p>
+      <ul>
+       <li>
+        Examine the course syllabus, choosing a topic discussed in class.
+       </li>
+       <li>
+        Identify a topic from course readings.
+       </li>
+       <li>
+        Find a current event that relates to your topic through a newspaper or magazine article:
+        <ul>
+         <li>
+          <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/us/lnacademic">
+           LexisNexis Academic
+          </a>
+         </li>
+         <li>
+          <a href="http://www.nytimes.com/">
+           New York Times
+          </a>
+         </li>
+         <li>
+          <a href="http://www.sciencedaily.com/">
+           Science Daily
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Type your subject into
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+         Credo Reference
+        </a>
+        , a collection of many reference sources, to find out more information on your topic.&nbsp; Your professor may not allow you to cite an encyclopedia article or other reference text as a scholarly source, but a good article can orient you to your subject, and you can find something that interests you to research.
+       </li>
+      </ul>
+      <p>
+       <em>
+        2. Narrow the focus
+       </em>
+      </p>
+      <p>
+       One of the best ways to&nbsp;narrow your research focus is to locate a point of ongoing scholarly debate or any element of surprise. These points of debate or elements of surprise may:
+      </p>
+      <ul>
+       <li>
+        Be mentioned in reference books (see&nbsp;
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com">
+         Credo Reference
+        </a>
+        or use print reference books in the library).
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Appear in
+        <a href="http://wikipedia.org/">
+         Wikipedia
+        </a>
+        , by clicking on the "Talk" tab of a given topic.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Be&nbsp;identified by looking at differences of opinion between scholars in articles, findable in databases like
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">
+         Academic Search Complete
+        </a>
+        .
+       </li>
+      </ul>
+      <p>
+       For example, let's imagine that you want to write about the novel
+       <em>
+        The Golden Bowl
+       </em>
+       , by Henry James.&nbsp; You discover in some preliminary reading that there is considerable scholarly disagreement about the meaning of the golden bowl as symbol. Now you have a narrowed focus: the meaning of the symbol of the golden bowl.
+      </p>
+      <p>
+       An advantage to identifying an ongoing scholarly debate or element of surprise as your narrowed topic is that it will likely generate interest on the part of the reader. You want to write about something that matters to your readers. Seek always to have impact.
+      </p>
+      <p>
+       <em>
+        3. Develop a research question
+       </em>
+      </p>
+      <p>
+       The next step is to extract a research question from your narrowed focus. This question will guide your research. If scholars are addressing a particular question, and have articulated that question, you could simply borrow that research question as your own. More often that not, however, a research question will need to be extrapolated.
+      </p>
+      <p>
+       For instance, if you're writing about the symbolism of the golden bowl in the Henry James novel, you could ask: What does the symbol of the golden bowl really mean? Your paper could present the differing views on the controversy, and possibly go on to present your own educated guess based on careful research.
+      </p>
+      <p>
+       Here's another example: Let's say you want to write about about Mormon polygamy, and scholars have focused time and again on the wives of polygamists, specifically their accounts of polygamy. You become interested in the accounts of Mormon women who speak favorably about polygamy as your narrowed focus. Asking how, what, or why can easily generate a question. What is it precisely that Mormon women found attractive about polygamy? Why did some women find polygamy rewarding where others found it to be insufferable?
+      </p>
+      <p>
+       <em>
+        4. Formulate a preliminary thesis
+       </em>
+      </p>
+      <p>
+       The preliminary thesis is the answer to your research question, based on what you uncover from your research.
+      </p>
+      <p>
+       The thesis statement should have impact. It should state something that is not obvious, that may come as a surprise to the reader. The whole point of a thesis is to to look at a topic in a new and interesting way, to say what has not been said before. This may be difficult to achieve in an undergraduate research paper, but it a worthy goal to aspire to.
+       <br />
+       <br />
+       <em>
+        5. Refine the thesis
+       </em>
+      </p>
+      <p>
+       The thesis statement may need to be refined as the research process continues.
+      </p>
+      <p>
+      </p>
+      <p>
+       Need more help with this?
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_13943779" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Need more help with this?&nbsp;
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+      <p>
+       <br />
+       Need help with writing?&nbsp; Contact the
+       <a href="http://www.muhlenberg.edu/main/academics/writing/center/">
+        Writing Center
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3856384" class="guide_page">
+   <h2>
+    Find Information
+   </h2>
+   <div id="content_box_13943831" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To locate information, use the following help guides:
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364">
+         Find Articles
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874366">
+         Find Books
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874371">
+         Find DVDs &amp; Videos
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373">
+         Find Government Information
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874377">
+         Find Images
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874381">
+         Find Music Recordings &amp; Scores
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874383">
+         Find Primary Sources
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385">
+         Find Statistics &amp; Data
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874386">
+         Find Reviews
+        </a>
+       </li>
+      </ul>
+      <p>
+       For more subject-specific help, see:
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu">
+         Subject Guides
+        </a>
+        -&nbsp;Subject Guides point you toward recommended resources to find relevant articles, books, and/or other resources in each subject area.
+       </li>
+      </ul>
+      <p>
+       Need more help with this?
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874364" class="guide_page">
+   <h2>
+    Find Articles
+   </h2>
+   <div id="content_box_14009659" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Articles
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14009660">
+         I Need to Search for Articles on My Topic
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14009661">
+         I Already Have the Article Citation and Need the Full Text
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14024400">
+         Defining Key Terms
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14024403">
+         Verifying Peer-Review
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009660" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      I Need to Search for Articles on My Topic
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Databases permit you to search for articles on your topic from across many different journals, magazines, newspapers, conference proceedings, and other sources at the same time. These can help you find scholarly and popular articles, depending on the database. (See
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073">
+        What is Scholarly?
+       </a>
+       for more information.)
+      </p>
+      <p>
+       <strong>
+        Pick a Database
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://muhlenberg.on.worldcat.org/discovery">
+         Encompass Search
+        </a>
+        finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        To find a particular database, check the
+        <a href="http://trexler.muhlenberg.edu/research/databases-az.html">
+         Databases A to Z
+        </a>
+        list. If you're not sure where to begin, an interdisciplinary database like
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">
+         Academic Search Complete
+        </a>
+        ,
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+         JSTOR
+        </a>
+        , or
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://vnweb.hwwilsonweb.com/hww/jumpstart.jhtml?prod=OMNIFT">
+         Omnifile
+        </a>
+        might be a good starting place.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        To find recommendations for subject-specific databases, try our
+        <a href="http://libraryguides.muhlenberg.edu">
+         Subject Guides
+        </a>
+        .
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Get the Full Text
+       </strong>
+      </p>
+      <ul>
+       <li>
+        Some databases provide the full text of articles online. Look for
+        <em>
+         PDF
+        </em>
+        or
+        <em>
+         HTML Full Text
+        </em>
+        links or
+        <em>
+         View Now
+        </em>
+        links.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If a full text link is not available in the database, use the
+        <em>
+         Check for Full Text
+        </em>
+        button to connect to the article full text from another database or to locate the print/microform version of the journal in the database.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If&nbsp;
+        <em>
+         Check for Full Text
+        </em>
+        buttons aren't available, follow the steps below in the "I Already Have the Article Citation..." section.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If Trexler Library does not have online, print, or microform access to the article, request a copy of the article from another library with&nbsp;
+        <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+         Interlibrary Loan
+        </a>
+        .
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009661" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      I Already Have the Article Citation and Need the Full Text
+     </div>
+     <div style="margin-bottom:10px;">
+      <ul>
+       <li>
+        If you have citation information for the article (i.e., journal title, article title, publication year, etc.), type the information about your article in the
+        <a title="Citation Help Page" href="https://muhlenberg.on.worldcat.org/atoztitles/search?#article">
+         Article Locator
+        </a>
+        on the library website. If the library subscribes to the full text online or in print, you will be directed to the article.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If Trexler Library does not have access to the journal for the year/volume you need, request a copy of the article from another library with&nbsp;
+        <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+         Interlibrary Loan
+        </a>
+        .
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14306104" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Defining Key Terms
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       You may be wondering what we mean when we refer to
+       <em>
+        scholarly
+       </em>
+       versus
+       <em>
+        popular
+       </em>
+       .
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Scholarly:
+        </strong>
+        In-depth, research-based articles, books, and book chapters, written by scholars and experts and intended for other researchers, experts, and students.
+       </li>
+       <li>
+        <strong>
+         Popular:
+        </strong>
+        Articles, books, and book chapters written by journalists or professional writers for a general audience in common language (e.g., newspapers and magazines).
+       </li>
+      </ul>
+      <p style="padding-left: 30px;" class="MsoNormal">
+       <em>
+        Learn more:
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073">
+         What is Scholarly?
+        </a>
+       </em>
+      </p>
+      <p>
+       While we're at it, how about a few more key terms...
+      </p>
+      <ul>
+       <li>
+        <strong>
+         Empirical:
+        </strong>
+        Based on experiment or observation
+        <strong>
+         .
+         <br />
+        </strong>
+       </li>
+       <li>
+        <strong>
+         Literature:&nbsp;
+        </strong>
+        Scholarly articles, books, and book chapters published on a particular subject.
+       </li>
+       <li>
+        <strong>
+         Peer-Reviewed:
+        </strong>
+        A process through which some scholarly articles and book chapters are critically evaluated by experts with in-depth knowledge of the research area before publication in order to ensure the information is valid, credible, well-written, and of high quality.
+        <span>
+         &nbsp;
+        </span>
+        <strong>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         Primary / Secondary:
+        </strong>
+        See the
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874383">
+         Find Primary Sources
+        </a>
+        guide. &nbsp;
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10173314" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Verifying Peer-Review
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Are you looking especially for
+       <strong>
+        peer-reviewed
+       </strong>
+       articles?&nbsp;
+      </p>
+      <ul>
+       <li>
+        Many databases will tell you if an article has been peer-reviewed.&nbsp; You may even be able to use limits or filters in the database to narrow your search results.&nbsp;
+       </li>
+       <li>
+        If you're still not sure if an article has been peer-reviewed, search the name of the journal in which the article was published in
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+         Ulrichsweb Periodicals Directory
+        </a>
+        .&nbsp; The symbol of a referee's jersey next to the journal name indicates the journal uses peer review.&nbsp; (Refereed is a synonym for peer reviewed.)&nbsp; Note, though, that not all content in peer-reviewed journals is actually peer-reviewed; book or film reviews, letters to the editors, opinion columns, and articles without references are typically not peer-reviewed.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874366" class="guide_page">
+   <h2>
+    Find Books
+   </h2>
+   <div id="content_box_14010297" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Books
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874366#14009670">
+         I Need to Search for Books on My Topic
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874366#14009671">
+         I Already Have the Book Citation and Need to Find It
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009670" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      I Need to Search for Books on My Topic
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+       </strong>
+       <strong>
+       </strong>
+       <a href="http://muhlenberg.on.worldcat.org/discovery">
+        Encompass Search
+       </a>
+       finds information by searching through a massive collection of books and scholarly journals, as well as newspapers and magazines, dissertations, conference proceedings, music, video, maps, and more.
+      </p>
+      <p>
+       To find only books, use the Books limit on the left sidebar of your search results page. Many items will be in Trexler Library; note the call number and status of the item to check its location and availability. For items not in Trexler Library, use the Interlibrary Loan to request a copy from another library.
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009671" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      I Already Have the Book Citation and Need to Find It
+     </div>
+     <div style="margin-bottom:10px;">
+      <ul>
+       <li>
+        If you are looking for a particular book and already know its citation information (i.e., title, author, etc.), search
+        <a href="http://trexler.muhlenberg.edu" target="_blank">
+         Encompass Search
+        </a>
+        for the title or author.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If Trexler Library has the book, use the call number to locate the copy in the library. See
+        <a href="http://trexler.muhlenberg.edu/about/visit-us.html#maps">
+         Trexler Library Maps
+        </a>
+        for floorplans of each building level.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        If Trexler Library does not have the book or if the library's copy is checked out, request a copy of the book on
+        <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+         Interlibrary Loan
+        </a>
+        .
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874371" class="guide_page">
+   <h2>
+    Find DVDs &amp; Videos
+   </h2>
+   <div id="content_box_14009692" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find DVDs and Videos
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Search
+       <a href="http://trexler.muhlenberg.edu" target="_blank">
+        Encompass Search
+       </a>
+       to find DVDs and videos in the library, as well as streaming video.
+      </p>
+      <p>
+       To find only DVDs, videos, and streaming video, use the Video limit on the left sidebar of your search results page. Many items will be in Trexler Library; note the call number and status of the item to check its location and availability.
+      </p>
+      <p>
+       PLEASE NOTE: Audiovisual materials such as DVDs and CDs held by other libraries are generally not available for interlibrary loan. Such materials at other LVAIC libraries may be borrowed by Muhlenberg students, though, but only if requested by the professor teaching the course in question. Such requests should be submitted by the professor to the Lending Services Desk at Trexler Library.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874373" class="guide_page">
+   <h2>
+    Find Government Information
+   </h2>
+   <div id="content_box_14010410" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Government Information
+     </div>
+     <div style="margin-bottom:10px;">
+      <p style="text-align: left;">
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373#14009696">
+         United States
+        </a>
+        &nbsp;&nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373#14009697">
+         U.S. States &amp; Territories
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373#14009698">
+         Other Countries &amp; International Trade
+        </a>
+       </li>
+       <li>
+        <a title="Lehigh County" href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373#14009699">
+         Lehigh County
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009696" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      United States
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <em>
+        Note: The terms "Free" and "Subscription" are used to describe resources below.&nbsp;
+       </em>
+      </p>
+      <ul>
+       <li>
+        <em>
+         Free: These resources are freely available to all courtesy of the Federal Depository Library Program (FDLP) and Muhlenberg College. See our
+         <a href="http://trexler.muhlenberg.edu/about/policies/government-documents-access-policy.html">
+          Access Policy
+         </a>
+         .
+        </em>
+       </li>
+       <li>
+        <em>
+         Subscription: Access to these resources is paid by Muhlenberg College and may be restricted to Muhlenberg students, faculty, and staff as per the vendor&rsquo;s license terms.
+        </em>
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Find a U.S. government website or publication
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://trexler.muhlenberg.edu" target="_blank">
+         Encompass Search
+        </a>
+        (Free)
+        <br />
+        Government publications located in Trexler Library and selected online publications. Covers pre-1976 to present.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.fdsys.gov/">
+         FDsys
+        </a>
+        (Free)
+        <br />
+        U.S. Government documents and published information. Covers 1994 to present. Also links to other government search portals.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://newfirstsearch.oclc.org/done=http:/www.muhlenberg.edu/library;dbname=gpo;fsip">
+         GPO Monthly Catalog
+        </a>
+        (Subscription)
+        <br />
+        Index of U.S. government documents. Covers 1976 to present.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.hathitrust.org/">
+         Hathi Trust Digital Library
+        </a>
+        (Free)
+        <br />
+        A repository of digitized print collections from major research institutions and libraries. &nbsp;Includes 300,000+ government documents.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://usa.gov/">
+         USA.gov
+        </a>
+        (Free)
+        <br />
+        Official web portal to consumer information and services.
+       </li>
+       <ul>
+        <li>
+         <a href="http://www.usa.gov/Agencies/Federal/All_Agencies/index.shtml">
+          A -Z Index of U.S. Government Department and Agency websites
+         </a>
+        </li>
+        <li>
+         Shortcut to:
+         <a href="http://www.usa.gov/Agencies/Federal/Executive.shtml">
+          Executive
+         </a>
+         |
+         <a href="http://www.usa.gov/Agencies/Federal/Judicial.shtml">
+          Judicial
+         </a>
+         |
+         <a href="http://www.usa.gov/Agencies/Federal/Legislative.shtml">
+          Legislative
+         </a>
+        </li>
+       </ul>
+      </ul>
+      <p>
+       <strong>
+        U.S. Legislation, Laws, Regulations
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.usa.gov/Agencies/Federal/Legislative.shtml">
+         Legislative Branch and supporting agencies
+        </a>
+        &nbsp; (Free)
+        <br />
+        Links from USA.gov
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://thomas.loc.gov/">
+         THOMAS
+        </a>
+        (Free)
+        <br />
+        Legislative activity in the U.S. Congress, including daily reports, text of bills (101st Congress/1989+), bill summary and status reports (93rd Congress/1973+), treaties, committee reports, and other information. Search full text of bills across multiple congressional years.&nbsp;
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/congressional">
+         ProQuest Congressional
+        </a>
+        &nbsp; (Subscription)
+        <br />
+        Congressional publications, laws, bills, and legislative histories. Also includes member biographies, committee assignments, voting records, financial data, and the full-text of key regulatory and statutory resources. Search all information across multiple congressional years.
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://congressional.proquest.com/congressional/saleable/contentcoverage?accountid=40980">
+         Content List with dates of coverage.
+         <br />
+         <br />
+        </a>
+       </li>
+       <li>
+        <a href="http://memory.loc.gov/ammem/amlaw/lawhome.html">
+         U.S. Congressional Documents and Debates 1774-1875
+        </a>
+        &nbsp; (Free)
+        <br />
+        Journals, debates, statutes, and documents from the first century of U.S. lawmaking, plus compilations on special topics.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://digital.library.unt.edu/govdocs/crs/">
+         Congressional Research Service Reports
+        </a>
+        (Free)
+        <br />
+        A listing of reports available online. (Maintained by University of North Texas Libraries.)
+       </li>
+      </ul>
+      <p>
+       <strong>
+        U.S. Judicial Branch
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.supremecourtus.gov/">
+         Supreme Court
+        </a>
+        (Free)
+        <br />
+        Docket, Oral Arguments, Briefs, Opinions, and more.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.usa.gov/Agencies/Federal/Judicial.shtml">
+         All federal courts and other resources
+        </a>
+        (Free)
+        <br />
+        Links from USA.gov.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        U.S. Executive Branch
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.usa.gov/Agencies/Federal/Executive.shtml">
+         All Departments, Agencies, more...
+        </a>
+        (Free)
+        <br />
+        Links from USA.gov.
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.whitehouse.gov/">
+         The White House
+        </a>
+        (Free)
+        <br />
+        Current information from the President.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.archives.gov/federal-register/publications/presidential-compilation.html%20">
+         Presidential Documents
+        </a>
+        (Free)
+        <br />
+        Daily documents issued by the Office of the President, including newly approved Acts, checklist of Press Releases, White House Announcements, and nominations sent to the Senate.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        U.S. Statistics and Economic Data
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://factfinder2.census.gov/faces/nav/jsf/pages/index.xhtml">
+         American FactFinder
+        </a>
+        (Free)
+        <br />
+        Population, housing, economic, and geographic data from the U.S. Census Bureau.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://fedstats.sites.usa.gov/">
+         FedStats
+        </a>
+        (Free)
+        <br />
+        Statistics for all U.S. government agencies, departments, and geographic regions.
+       </li>
+       <ul>
+        <li>
+         Shortcut to
+         <a href="http://fedstats.sites.usa.gov/cgi-bin/imf/imf.cgi">
+          Economic and Financial Indicators
+          <br />
+          <br />
+         </a>
+        </li>
+       </ul>
+       <li>
+        <a href="http://www.census.gov/compendia/statab/">
+         Statistical Abstract of the U.S.
+        </a>
+        (1878+) (Free)
+        <br />
+        Summary tables of statistics on the social, political, and economic organization of the United States. Includes guides to other statistical publications and sources. Data tables available in Excel &amp; PDF format. (New data no longer added after 10/1/2011.)
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+         ProQuest Statistical Insight
+        </a>
+        (Subscription)
+        <br />
+        Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.export.gov/mrktresearch/index.asp">
+         Market Research Library
+        </a>
+        (Free)
+        <br />
+        Authoritative commercial guides, industry overviews, market updates, and regional reports from the U.S. Commercial Service.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Other Information
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.cpsc.gov/">
+         Consumer Product Safety Commission
+        </a>
+        (Free)
+        <br />
+        Recall alerts and product safety information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.fda.gov%20">
+         Food and Drug Administration
+        </a>
+        (Free)
+        <br />
+        Consumer product information and recall alerts.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="https://www.hsdl.org/">
+         Homeland Security Digital Library
+        </a>
+        (Free)
+        <br />
+        Non-classified Presidential directives, policy and national strategy documents, as well as specialized resources related to Homeland Security.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.irs.gov">
+         Internal Revenue Service
+        </a>
+        (Free)
+        <br />
+        Federal tax forms and information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.nlm.nih.gov">
+         National Library of Medicine
+        </a>
+        (Free)
+        <br />
+        Everyday health and drug information as well as research-level health and medical resources.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.copyright.gov/">
+         U.S. Copyright Office
+        </a>
+        (Free)
+        <br />
+        Information and forms.
+       </li>
+      </ul>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009697" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      U.S. States and Territories
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Pennsylvania
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.state.pa.us/">
+         PAPowerPort
+        </a>
+        &nbsp;(Free)
+        <br />
+        Main portal to state government information
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://pasdc.hbg.psu.edu/">
+         PA Data Center
+        </a>
+        (Free)
+        <br />
+        State demographic and economic data. Sponsored by Penn State University.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.revenue.state.pa.us/">
+         PA Department of Revenue
+        </a>
+        (Free)
+        <br />
+        State tax information.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        New Jersey
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.state.nj.us/">
+         New Jersey
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://lwd.dol.state.nj.us/labor/lpa/content/njsdc_index.html">
+         NJ State Data Center
+        </a>
+        (Free)
+        <br />
+        State data from the U.S. Census.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.state.nj.us/treasury/index.html">
+         NJ Department of the Treasury
+        </a>
+        (Free)
+        <br />
+        State tax and business information.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Other Area States
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.ct.gov/">
+         Connecticut
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.maryland.gov%20">
+         Maryland
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.mass.gov/?pageID=mg2constituent&amp;L=2&amp;L0=Home&amp;L1=State%20Government&amp;sid=massgov2">
+         Massachusetts
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.state.ny.us/">
+         New York
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.nysl.nysed.gov/ils/">
+         New York State Information Locator
+        </a>
+        (Free)
+        <br />
+        Finding aid maintained by NY State Library.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://ohio.gov/government/">
+         Ohio
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+       </li>
+       <li>
+        <a href="http://www.ri.gov/">
+         Rhode Island
+        </a>
+        (Free)
+        <br />
+        Main portal to state government information.
+        <br />
+        <br />
+        <br />
+       </li>
+       <li>
+        Find
+        <a href="http://www.usa.gov/Agencies/State_and_Territories.shtml">
+         links
+        </a>
+        to more states and the U.S. Territories.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009698" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Other Countries and International Trade
+     </div>
+     <div style="margin-bottom:10px;">
+      <ul>
+       <li>
+        <a href="http://www.state.gov/">
+         U.S. Department of State
+        </a>
+        &nbsp;(Free)
+       </li>
+       <ul>
+        <li>
+         <a href="http://www.state.gov/r/pa/ei/bgn/">
+          Department of State Background Notes
+         </a>
+         &nbsp;(Free)
+        </li>
+        <li>
+         <a href="https://www.cia.gov/library/publications/the-world-factbook/index.html">
+          CIA World Factbook
+         </a>
+         (Department of State edition) (Free)
+        </li>
+        <li>
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.comentry/cia/cia_world_factbook">
+          CIA World Factbook
+         </a>
+         (Credo Reference edition) - Includes dynamic tables. (Subscription)
+        </li>
+       </ul>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.un.org/en/index.shtml">
+         United Nations
+        </a>
+        &nbsp;(Free)
+       </li>
+       <ul>
+        <li>
+         <a href="http://www.un.org/law/">
+          U.N.: International Law
+         </a>
+         &nbsp;(Free)
+        </li>
+        <li>
+         <a href="http://research.un.org/en/docs/law">
+          U.N.: International Law Research Guide
+         </a>
+         &nbsp;(Free)
+        </li>
+       </ul>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.imf.org/external/index.htm">
+         International Monetary Fund
+        </a>
+        &nbsp;(Free)
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.census.gov/aboutus/stat_int.html">
+         International Statistical Agencies
+        </a>
+        &nbsp;(Free)
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.worldlii.org/catalog/215.html">
+         World Legal Information Institute
+        </a>
+        &nbsp;(Free)
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <a href="http://www.wto.org/index.htm">
+         World Trade Organization
+        </a>
+        &nbsp;(Free)
+       </li>
+       <ul>
+        <li>
+         <a href="http://www.wto.org/english/docs_e/legal_e/legal_e.htm">
+          WTO: General information and legal texts
+         </a>
+         &nbsp;(Free)
+        </li>
+        <li>
+         <a href="http://www.wto.org/english/res_e/statis_e/statis_e.htm">
+          WTO: Trade and tariff data
+         </a>
+         &nbsp;(Free)
+        </li>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009699" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Links to Lehigh County Home Pages
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Links to Lehigh County and city home pages are available here:
+      </p>
+      <ul>
+       <li>
+        <a title="Lehigh County Home Page" href="http://www.lehighcounty.org/default.aspx">
+         Lehigh County
+        </a>
+       </li>
+       <li>
+        <a title="Lehigh County interactive map" href="http://www.lehighcounty.org/default.aspx">
+         Lehigh County Municipalities Interactive Map
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009700" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Need more help with this?&nbsp;
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+         Ask a Librarian
+        </a>
+        at Trexler Library.
+       </li>
+       <li>
+        Contact a
+        <a href="http://govtinfo.org/">
+         Government Information Online
+        </a>
+        librarian.&nbsp;
+       </li>
+       <li>
+        See also the
+        <a href="http://libraryguides.muhlenberg.edu/help-sudoc">
+         Locating U.S. Government Publications
+        </a>
+        in Trexler Library tipsheet.
+       </li>
+      </ul>
+      <p>
+       <strong>
+        Non-English speakers
+       </strong>
+       : Translate this page using
+       <a href="http://www.bing.com/translator">
+        Bing Translator
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5060595" class="guide_page">
+   <h2>
+    --Locating U.S. Govt. Publications
+   </h2>
+   <div id="content_box_18797805" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Locating U.S. Government Publications
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Location: Trexler Library,&nbsp;
+       <a href="http://trexler.muhlenberg.edu/images/levelA-map.png">
+        Level A
+       </a>
+      </p>
+      <p>
+       At Trexler Library, U.S Government Publications are in a separate section on Level A. The publications in this section are grouped and numbered using the Superintendent of Documents numbering system (SuDoc Numbers). In Encompass Search this number is labeled as the "Call Number". For help with how to read a SuDoc Call Number, please refer to the tipsheet at the right or ask at the Lending Services desk or the Information Services desk.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18797765" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Using SuDoc Numbers
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <b>
+        Tips for Reading a U.S. Government Publications
+       </b>
+       <b>
+        SuDoc
+       </b>
+       Call Number
+      </p>
+      <p>
+       SuDoc Call Number &ndash; U.S. Government Publications are organized using the Superintendent of Documents (SuDoc) Classification System. The Call Numbers are in a different order than other collections at Trexler Library. Here are tips for reading and locating a SuDoc Call Number:
+      </p>
+      <p>
+       1.&nbsp; Documents are shelved first by letters and then numerically.&nbsp;
+      </p>
+      <p>
+       <i>
+        For example:
+       </i>
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A 1.77:108&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AA 1.2:C 76&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C 55.2:D 87&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CS 1.2:Z 9
+      </p>
+      <p>
+       2.&nbsp; When reading a SuDoc number it is important to read each number between each punctuation mark as a whole number, not as a decimal.
+      </p>
+      <p>
+       <i>
+        For example:
+       </i>
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 20.40:
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 20.108:
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 20.3016:
+      </p>
+      <p>
+       3.&nbsp; Look at the stem numbers first (before the colon).
+      </p>
+      <p>
+       <i>
+        For example:
+       </i>
+      </p>
+      <p>
+       <i>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </i>
+       HE 20.3612/3:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Y 3.H 75:8 R 22
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 20.3612/3-2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Y 3.T 22/2:2 G 28/3
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 20.3612/4:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Y 3.2:H 81
+      </p>
+      <p>
+       &nbsp;
+      </p>
+      <p>
+       4.&nbsp; Proceed with the remainder of the SuDoc number after the colon with letters taking precedence over the numbers.
+      </p>
+      <p>
+       <i>
+        For example:
+       </i>
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FS 3.64:R 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 5.2:C 18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FS 3.64:46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 5.2:C 18a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 5.2:C 18/2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HE 5.2:C 18/3/2000
+      </p>
+      <p>
+       5.&nbsp; Congressional hearings are shelved by House or Senate Committee
+       <b>
+        <i>
+         and
+        </i>
+       </b>
+       <i>
+       </i>
+       by the Congress &nbsp;and Session in which the hearing occurred.&nbsp; (Records will indicate the SuDoc number
+       <b>
+        <i>
+         and
+        </i>
+       </b>
+       the Congress and Session in which the hearing occurred.)&nbsp; Princeton File labels indicate the House or Senate committee SuDoc number
+       <b>
+        <i>
+         and
+        </i>
+       </b>
+       specific Congresses and Sessions. When looking for microfiche, divider tabs show the House or Senate committee SuDoc number
+       <b>
+        <i>
+         and
+        </i>
+       </b>
+       specific Congresses and Sessions.
+      </p>
+      <p>
+       <i>
+        For example:
+       </i>
+      </p>
+      <p>
+       <b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Y 4.J 89/1:
+       </b>
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U.S. Congress. House.
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Committee on the Judiciary.
+      </p>
+      <p>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hearings, etc.
+      </p>
+      <p>
+       <b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 113
+        <sup>
+         th
+        </sup>
+        Congress,&nbsp; 2
+        <sup>
+         nd
+        </sup>
+        Session
+       </b>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_18798289" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Get Help
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        Need more help finding a document in Trexler Library?
+       </strong>
+      </p>
+      <p>
+       Stop by the Lending Services Desk or Information Services Desk for help with locating materials.
+      </p>
+      <p>
+      </p>
+      <p>
+       <strong>
+        Not sure what government information is available?
+       </strong>
+      </p>
+      <p>
+       Try the
+       <a title="Find Government Information" href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874373">
+        Find Government Information
+       </a>
+       page
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874377" class="guide_page">
+   <h2>
+    Find Images
+   </h2>
+   <div id="content_box_14009707" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Images
+     </div>
+     <ul>
+      <li>
+       Finding Nonexlusively Licensed and Public Domain Images
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/publicdomain">
+        http://libraryguides.muhlenberg.edu/publicdomain
+       </a>
+       <br />
+       These images can generally (always read the fine print) be incorporated into noncommercial multimedia projects, even those being published on the web, so long as full credit is given to the creator in a footnote or elsewhere. However, for use in publications from which any proceeds will be derived, permission will probably need to be sought from the copyright holder.
+      </li>
+      <li>
+       Finding Images on the Web (Mostly Copyrighted)
+       <br />
+       <a href="http://trexler.muhlenberg.edu//help/images/findingimages.html">
+        http://trexler.muhlenberg.edu//help/images/findingimages.html
+       </a>
+       <br />
+       Most images found on the web are still under copyright. More to the point, the copyright holders as a rule have not given blanket permission for their work to be reproduced, even for non-commercial use. As such, permission should probably be requested from the copyright holder on a case-by-case basis for any use beyond the classroom and arguably educational conferences.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874381" class="guide_page">
+   <h2>
+    Find Music Recordings &amp; Scores
+   </h2>
+   <div id="content_box_14009713" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Music Recordings and Music Scores
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Search
+       <a href="http://trexler.muhlenberg.edu" target="_blank">
+        Encompass Search
+       </a>
+       to find music scores and recorded music.
+      </p>
+      <p>
+       To find only music scores and recorded music, use the Music, Sound Recording, or Musical Score limits on the left sidebar of your search results page. Many items will be in Trexler Library; note the call number and status of the item to check its location and availability. For items not in Trexler Library, use the Interlibrary Loan button to request a copy from another library.
+      </p>
+      <p>
+      </p>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874383" class="guide_page">
+   <h2>
+    Find Primary Sources
+   </h2>
+   <div id="content_box_14010582" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Primary Sources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874383#14009717">
+         Primary vs. Secondary Sources
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874383#14009718%20%20">
+         Resources for Finding Primary Sources
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009717" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Primary vs. Secondary Sources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       In the humanities and some social sciences, a
+       <strong>
+        primary source
+       </strong>
+       is generally considered to be a document or object created in a particular time, providing contemporary accounts of events. Primary sources are original documents, giving first-hand perspectives of someone who experienced or witnessed the event being discussed.
+      </p>
+      <p>
+       Examples of primary sources in the humanities and select social sciences include: letters, diaries, autobiographies, newspaper or magazine articles, photographs, advertisements and cartoons, speeches, paintings, interviews, research data and statistics, public opinion polls, etc.
+      </p>
+      <p>
+       In the sciences, as well as some social sciences, primary sources are original articles or other texts&nbsp;describing&nbsp;a researcher's new experimental data, results, and/or theories.&nbsp;These primary articles usually contain an introduction, methods, and results section. However, some review articles (which are not primary sources) also contain these sections, so the reader should always review the article's content to assess it. An article can appear in a scholarly peer-reviewed journal and not be a primary source (e.g., editorials, review articles, book reviews).
+      </p>
+      <p>
+       A
+       <strong>
+        secondary source
+       </strong>
+       is an interpretation or analysis of the document, object, or event, at a later date. Secondary&nbsp;sources&nbsp;comment on or review one or more primary sources. Secondary sources are at least one step removed from the primary source.
+      </p>
+      <p>
+       Examples of secondary sources in the humanities and some social sciences include: scholarly or popular books, journal article analyzing primary sources, documentary movies, etc. Examples of secondary&nbsp;sources&nbsp;in the sciences and some social sciences include newspaper articles summarizing an&nbsp;experiment&nbsp;and review articles summarizing many primary articles on the same subject.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009718" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources for Finding Primary Sources
+     </div>
+     <div style="margin-bottom:10px;">
+      <div class="style4">
+       <p>
+        <em>
+         The following resources will provide access to primary sources that are first-hand or original documents or objects created in a particular time, providing contemporary accounts of events. &nbsp;
+        </em>
+        <strong>
+         <br />
+        </strong>
+       </p>
+       <p>
+        <strong>
+         AT TREXLER LIBRARY
+        </strong>
+       </p>
+       <p>
+        Trexler Library has many primary sources in its collection. Search
+        <a href="http://trexler.muhlenberg.edu" target="_blank">
+         Encompass Search
+        </a>
+        to find these items. Include keywords in your search that describe the topic or event you are researching, as well as words that might describe the type of primary source (e.g., interviews, correspondence, diaries, personal narratives, sources, speeches) to focus your search. &nbsp;&nbsp;
+       </p>
+       <p>
+        Trexler Library also provides access to some databases with primary source material.
+       </p>
+       <ul>
+        <li>
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=aph">
+          Academic Search Complete
+         </a>
+         &nbsp;and
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+          Omnifile
+         </a>
+         &nbsp;provide full text of newspapers and magazines, mostly from the 1980s to the present. &nbsp;
+        </li>
+        <li>
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://poolesplus.odyssi.com/cgi-bin/phtml?ppsearch.htm">
+          19th Century Masterfile
+         </a>
+         <span style="float: right; padding-left: 2px;">
+         </span>
+         provides citations to Anglo-American nineteenth century newspapers, periodicals, books, and goverment documents.
+        </li>
+        <li>
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/us/lnacademic">
+          LexisNexis Academic
+         </a>
+         provides full text of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more, mostly from the 1980s to the present.&nbsp;
+        </li>
+        <li>
+         <a href="https://muhlenberg.idm.oclc.org/login?url=http://newspaperslibrary.proquest.com/?accountid=40980">
+          Newspapers.com Pennsylvania Collection
+         </a>
+         provides full text of hundreds of newspapers from Pennyslvania covering the&nbsp; late 1700's to early 2000s, especially the 19th and early 20th centuries.
+        </li>
+        <li>
+         The
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.accessible.com/accessible/preLog">
+          Pennsylvania Gazette
+         </a>
+         <span style="float: right; padding-left: 2px;">
+         </span>
+         is an Early American paper of record covering 1728-1800.
+        </li>
+        <li>
+         <a href="http://muhlenberg.idm.oclc.org/login?url=http://lado.alexanderstreet.com/">
+          Social and Cultural History: Letters and Diaries Online
+         </a>
+         helps you locate thousands of private writings, personal narratives, interviews and more of people from diverse ethnic and social groups from 1550 to the present.
+        </li>
+       </ul>
+       <p>
+        See
+        <a href="http://trexler.muhlenberg.edu/research/databases-az.html">
+         Databases A to Z
+        </a>
+        for more or
+        <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+         Ask a Librarian
+        </a>
+        .
+       </p>
+       <p>
+        The
+        <a href="http://trexler.muhlenberg.edu/collections/special-collections.html">
+         Special Collections and Archives Department
+        </a>
+        of Trexler Library is the repository for the College's collections of rare books, manuscripts, maps, and ephemera, as well as material relating to the College's history.
+       </p>
+       <p>
+        <strong>
+         FROM OTHER LIBRARIES
+        </strong>
+       </p>
+       <p>
+        Libraries around the country have primary sources, as well. These items may be available to Muhlenberg College students, staff, and faculty via Interlibrary Loan. Use
+        <a href="http://trexler.muhlenberg.edu" target="_blank">
+         Encompass Search
+        </a>
+        to search for them. Include keywords in your search that describe the topic or event you are researching, as well as words that might describe the type of primary source (e.g., interviews, correspondence, diaries, personal narratives, sources, speeches). Request items from other libraries using the Interlibrary Loan button.
+       </p>
+       <p>
+        Local historical collections (like the
+        <a href="http://www.lchs.museum/">
+         Lehigh County Historical Society
+        </a>
+        ) often collect primary documents originating in the area and make them accessible to students and scholars.
+       </p>
+       <p>
+        <strong>
+         ON THE WEB
+        </strong>
+       </p>
+       <p>
+        Many libraries, museums, historical societies, and other institutions provide digitized collections of primary sources on the web. Some noteworthy online collections and resources include:
+       </p>
+       <ul>
+        <li>
+         <a href="http://memory.loc.gov/ammem/index.html">
+          American Memory
+         </a>
+         (Library of Congress)
+         <br />
+         American Memory provides free and open access through the Internet to written and spoken words, sound recordings, still and moving images, prints, maps, and sheet music that document the American experience.
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="http://avalon.law.yale.edu/default.asp">
+          Avalon Project
+         </a>
+         (Yale University)
+         <br />
+         Digital documents relevant to the fields of Law, History, Economics, Politics, Diplomacy and Government throughout history.
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="http://padl.pitt.edu/index.php/index">
+          Pennsylvania Digital Library
+         </a>
+         (University of Pittsburgh)
+         <br />
+         State-wide metadata repository for digital resources created by Pennsylvania libraries, museums, educational institutions, and other cultural heritage organizations.
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="http://www.calstatela.edu/library/guides/psweb.htm">
+          Primary Sources on the Web
+         </a>
+         (Cal State LA)
+         <br />
+         A listing of websites linking to primary source collections online.
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="http://www.uiweb.uidaho.edu/special-collections/Other.Repositories.html">
+          Repositories of Primary Sources
+         </a>
+         (University of Idaho)
+         <br />
+         A listing of over 5000 websites describing holdings of manuscripts, archives, rare books, historical photographs, and other primary sources for the research scholar.
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <a href="http://www.loc.gov/rr/program/bib/statememory/">
+          State Digital Resources
+         </a>
+         (Library of Congress)
+         <br />
+         A compilation of state and regional digital projects and collaborations.
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874385" class="guide_page">
+   <h2>
+    Find Statistics &amp; Data
+   </h2>
+   <div id="content_box_14010160" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Statistics &amp; Data
+     </div>
+     <div style="margin-bottom:10px;">
+      <p style="text-align: left;">
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <p style="text-align: left;">
+       Multi-purpose Sources
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009723">
+         United States
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009724">
+         International
+        </a>
+       </li>
+      </ul>
+      <p style="text-align: left;">
+       Topical Sources
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009725">
+         Agriculture &amp; Food
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009726">
+         Business, Economy, &amp; Labor
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009727">
+         Criminal Justice
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009728">
+         Education
+        </a>
+        &nbsp;&nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009729">
+         Environment
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009730">
+         Health
+        </a>
+        &nbsp;&nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874385#14009731">
+         Population &amp; Demographics
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009723" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Multi-purpose Sources: United States and International
+     </div>
+     <ul>
+      <li>
+       Agencies Providing Federal Statistical Information (FedStats)
+       <br />
+       <a href="http://fedstats.sites.usa.gov/agencies/">
+        http://fedstats.sites.usa.gov/agencies/
+       </a>
+       <br />
+       Links to official statistical information produced by the U.S. federal government.  Browse by agency to connect to agencies' websites.
+      </li>
+      <li>
+       Historical Statistics of the United States
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/">
+        https://muhlenberg.idm.oclc.org/login?url=http://hsus.cambridge.org/HSUSWeb/
+       </a>
+       <br />
+       Statistics from colonial times to modern day covering population, work and welfare, economic structure and performance, economic sectors, and governance and international relations.
+      </li>
+      <li>
+       ICPSR (Inter-University Consortium for Political and Social Research)
+       <br />
+       <a href="http://www.icpsr.umich.edu/index.html">
+        http://www.icpsr.umich.edu/index.html
+       </a>
+       <br />
+       A data archive of research in the social sciences. Specialized collections of data in education, aging, criminal justice, substance abuse, terrorism, and other fields.  Full access available only to Muhlenberg faculty, students, and staff who create accounts using their Muhlenberg email addresses.
+      </li>
+      <li>
+       Lehigh Valley Research Consortium
+       <br />
+       <a href="http://lehighvalleyresearch.org/">
+        http://lehighvalleyresearch.org/
+       </a>
+       <br />
+       Quantitative and qualitative data on the Lehigh Valley on: demographics, public opinion, economic indicators, non-profit sector, governmental sector, and more.
+      </li>
+      <li>
+       Pennsylvania State Data Center
+       <br />
+       <a href="http://pasdc.hbg.psu.edu/">
+        http://pasdc.hbg.psu.edu/
+       </a>
+       <br />
+       Official source of demographic and economic data for Pennsylvania.
+      </li>
+      <li>
+       ProQuest Statistical Insight
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical
+       </a>
+       <br />
+       Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+      </li>
+      <li>
+       Statistical Abstract of the United States
+       <br />
+       <a href="http://www.census.gov/compendia/statab/">
+        http://www.census.gov/compendia/statab/
+       </a>
+       <br />
+       The authoritative and comprehensive summary of statistics on the social, political, and economic organization of the United States.  Current and archived editions (1995- ) are available online, as well.   Old print editions (1886- ) are in the Trexler Library Government Documents section starting at C 3.134:886.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009724" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Multi-purpose Sources: International
+     </div>
+     <ul>
+      <li>
+       CIA World Factbook
+       <br />
+       <a href="https://www.cia.gov/library/publications/the-world-factbook/">
+        https://www.cia.gov/library/publications/the-world-factbook/
+       </a>
+       <br />
+       Information, including statistics, on the history, people, government, economy, geography, communications, transportation, military, and transnational issues for hundreds of world entities.
+      </li>
+      <li>
+       ICPSR (Inter-University Consortium for Political and Social Research)
+       <br />
+       <a href="http://www.icpsr.umich.edu/index.html">
+        http://www.icpsr.umich.edu/index.html
+       </a>
+       <br />
+       A data archive of research in the social sciences. Specialized collections of data in education, aging, criminal justice, substance abuse, terrorism, and other fields.  Full access available only to Muhlenberg faculty, students, and staff who create accounts using their Muhlenberg email addresses.
+      </li>
+      <li>
+       <b>
+        International Historical Statistics, 1750-2000
+       </b>
+       <br />
+       Location: Main Collection (Ref.) 310 M681i vol. 1-3 (Level B)
+       <br />
+       Provides key economic and social indicators over the last 250 years.
+      </li>
+      <li>
+       ProQuest Statistical Insight
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/statistical
+       </a>
+       <br />
+       Statistical information produced by U.S. federal agencies, states, and intergovernmental organizations.
+      </li>
+      <li>
+       OFFSTATS
+       <br />
+       <a href="http://www.offstats.auckland.ac.nz/">
+        http://www.offstats.auckland.ac.nz/
+       </a>
+       <br />
+       Links to free official, international statistics resources by country, region, and subject.
+      </li>
+      <li>
+       World Bank Data
+       <br />
+       <a href="http://data.worldbank.org/">
+        http://data.worldbank.org/
+       </a>
+       <br />
+       Statistics for countries around the world on a wide variety of topics, including education-related topics.  From the World Bank.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009725" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Agriculture and Food
+     </div>
+     <ul>
+      <li>
+       National Agricultural Statistics Service
+       <br />
+       <a href="http://www.nass.usda.gov/">
+        http://www.nass.usda.gov/
+       </a>
+       <br />
+       Statistics on "virtually every aspect of U.S. agriculture, [including]: production and supplies of food and fiber, prices paid and received by farmers, farm labor and wages, farm finances, chemical use, changes in the demographics of U.S. producers," and more.
+      </li>
+      <li>
+       Food and Agriculture Organization (United Nations)
+       <br />
+       <a href="http://www.fao.org/">
+        http://www.fao.org/
+       </a>
+       <br />
+       Agricultural, food, and food safety statistics by region, country, and world.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009726" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Business, Economy, and Labor
+     </div>
+     <ul>
+      <li>
+       U.S. Bureau of Labor Statistics
+       <br />
+       <a href="http://www.bls.gov/">
+        http://www.bls.gov/
+       </a>
+       <br />
+       Find statistics and data on inflation, spending, employment, wages, productivity, and more. Some international data.
+      </li>
+      <li>
+       World Trade Organization
+       <br />
+       <a href="http://www.wto.org/index.htm">
+        http://www.wto.org/index.htm
+       </a>
+       <br />
+       Trade data by region, sector, product, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009727" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Criminal Justice
+     </div>
+     <ul>
+      <li>
+       Bureau of Justice Statistics
+       <br />
+       <a href="http://www.ojp.usdoj.gov/bjs/">
+        http://www.ojp.usdoj.gov/bjs/
+       </a>
+       <br />
+       "Information on crime, criminal offenders, victims of crime, and the operation of justice systems at all levels of government."
+      </li>
+      <li>
+       Sourcebook of Criminal Justice Statistics
+       <br />
+       <a href="http://purl.access.gpo.gov/GPO/LPS3909">
+        http://purl.access.gpo.gov/GPO/LPS3909
+       </a>
+       <br />
+       Brings together data from more than 100 sources about many aspects of criminal justice in the United States. Print copies of editions from 1981 to the present are available in Trexler Library's Government Documents section starting at J 29.9/6.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009728" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Education
+     </div>
+     <ul>
+      <li>
+       National Center for Education Statistics
+       <br />
+       <a href="http://nces.ed.gov/">
+        http://nces.ed.gov/
+       </a>
+       <br />
+       Find statistics re. early childhood, elementary, secondary, and post-secondary education.  From the U.S. Department of Education.
+      </li>
+      <li>
+       PDE Data and Statistics
+       <br />
+       <a href="http://www.pde.state.pa.us/portal/server.pt/community/data_and_statistics/7202">
+        http://www.pde.state.pa.us/portal/server.pt/community/data_and_statistics/7202
+       </a>
+       <br />
+       Information about schools, student progress, graduation rates, school districts in Pennsylvania.  From the Pennsylvania Department of Education.
+      </li>
+      <li>
+       UNESCO Institute for Statistics
+       <br />
+       <a href="http://www.uis.unesco.org/">
+        http://www.uis.unesco.org/
+       </a>
+       <br />
+       "Global and internationally comparable statistics on education, science, culture and communication."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009729" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Environment
+     </div>
+     <ul>
+      <li>
+       World Resources Institute: EarthTrends
+       <br />
+       <a href="http://earthtrends.wri.org/">
+        http://earthtrends.wri.org/
+       </a>
+       <br />
+       "Comprehensive online database, maintained by the World Resources Institute, that focuses on the environmental, social, and economic trends that shape our world."
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009730" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Health
+     </div>
+     <ul>
+      <li>
+       Centers for Disease Control and Prevention (CDC)
+       <br />
+       <a href="http://www.cdc.gov/datastatistics/">
+        http://www.cdc.gov/datastatistics/
+       </a>
+       <br />
+       Covers a wide variety of health topics.
+      </li>
+      <li>
+       Pennsylvania Health Statistics
+       <br />
+       <a href="http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt">
+        http://www.statistics.health.pa.gov/Pages/default.aspx#.VrJojFLELCt
+       </a>
+      </li>
+      <li>
+       World Health Organization (WHO)
+       <br />
+       <a href="http://www.who.int/en/">
+        http://www.who.int/en/
+       </a>
+       <br />
+       International data on mortality, diseases, services, health systems, and more.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009731" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Topical Sources: Population and Demographics
+     </div>
+     <ul>
+      <li>
+       American Factfinder
+       <br />
+       <a href="http://factfinder2.census.gov/">
+        http://factfinder2.census.gov/
+       </a>
+       <br />
+       A database from the U.S. Census Bureau with population, housing, and business statistics at the country, state, county, city, and zip code levels.
+      </li>
+      <li>
+       Census of Population and Housing
+       <br />
+       <a href="http://www.census.gov/prod/www/abs/decennial/index.html">
+        http://www.census.gov/prod/www/abs/decennial/index.html
+       </a>
+       <br />
+       Decennial censuses from the U.S. Census Bureau from 1790 to the present are available online. Print copies of the decennial census from 1880 on are available in Trexler Library's Government Documents starting at C3:223.
+      </li>
+      <li>
+       International Data Base (U.S. Census Bureau)
+       <br />
+       <a href="http://www.census.gov/ipc/www/idb/">
+        http://www.census.gov/ipc/www/idb/
+       </a>
+       <br />
+       Basic demographic information by country and region.  From the U.S. Census Bureau.
+      </li>
+      <li>
+       International Statistical Agencies
+       <br />
+       <a href="http://www.census.gov/aboutus/stat_int.html">
+        http://www.census.gov/aboutus/stat_int.html
+       </a>
+       <br />
+       Links to international statistical agencies.  From the U.S. Census Bureau.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3874386" class="guide_page">
+   <h2>
+    Find Reviews
+   </h2>
+   <div id="content_box_14010586" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Reviews
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874386#14009737">
+         Book Reviews
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874386#14009738">
+         Film Reviews
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874386#14009739">
+         Theater Reviews
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874386#14009740">
+         Music Reviews
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009737" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Book Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       To limit your search to book reviews, choose Book Review in the Document Type menu.  Generally covers 1980s to the present.
+      </li>
+      <li>
+       <strong>
+        Book Review Digest
+       </strong>
+       <br />
+       1925-current -- Location: Main Collection (Ref.) 015.73 B724d
+       <br />
+       1905-1924 -- Location: Microforms-Periodicals
+       <br />
+       A print index to selected reviewing sources, including excerpts.
+      </li>
+      <li>
+       <strong>
+        Book Review Index
+       </strong>
+       <br />
+       Location: Main Collection (Ref.) 015.73 B724i
+       <br />
+       A print index to selected reviewing sources. Covers 1965-present.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       To limit your search to reviews, choose the News tab in the upper left corner, then Book, Movie, Music, Play, and Video Reviews from the Sources menu.  Generally covers 1980s to the present.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       To limit your search to book reviews, choose Book Review in the Document Type menu.
+      </li>
+      <li>
+       <strong>
+        Readers' Guide to Periodical Literature
+       </strong>
+       <br />
+       Location: Main Collection (Ref.) 051 R286g
+       <br />
+       A print index to selected general interest periodicals.  Generally covers 1900-1997.
+      </li>
+      <li>
+       Readers' Guide Retrospective
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=rgr">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=rgr
+       </a>
+       <br />
+       To limit your search to book reviews, choose Book Review in the Document Type menu.  Covers 1890-1982.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009738" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Film Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       To limit your search to film reviews, choose Entertainment Review in the Document Type menu. Note that results may also include art, music, television, and theater reviews.  Generally covers 1980s to the present.
+      </li>
+      <li>
+       <strong>
+        Film Review Index
+       </strong>
+       <br />
+       Location: Main Collection (Ref.) 016.79143 F487r
+       <br />
+       Includes reviews of films made from 1882-1985.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       To limit your search to reviews, choose the News tab in the upper left corner, then Book, Movie, Music, Play, and Video Reviews from the Sources menu.  Generally covers 1980s to the present.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       To limit your search to film reviews, choose Film Review in the Document Type menu.  Generally covers 1980s to the present.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009739" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Theater Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       To limit your search to theater reviews, choose Entertainment Review in the Document Type menu. Note that results may also include art, film, music, and television reviews.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       To limit your search to reviews, choose the News tab in the upper left corner, then Book, Movie, Music, Play, and Video Reviews from the Sources menu.
+      </li>
+      <li>
+       <strong>
+        New York Times Theater Reviews
+       </strong>
+       <br />
+       Location: Main Collection (Ref.) 792.0973 N532y
+       <br />
+       Theater reviews from the New York Times 1870-1994.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       To limit your search to theater reviews, choose Theater Review in the Document Type menu.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14009740" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Music Reviews
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       To limit your search to music reviews, choose Entertainment Review in the Document Type menu. Note that results may also include art, film, performance, television, and theater reviews.
+      </li>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       To limit your search to reviews, choose the News tab in the upper left corner, then Book, Movie, Music, Play, and Video Reviews from the Sources menu.
+      </li>
+      <li>
+       Omnifile
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=ofm">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=ofm
+       </a>
+       <br />
+       To limit your search to music reviews, choose Sound Recording Review or Performance Review in the Document Type menu.
+      </li>
+      <li>
+       RILM Abstract of Music Literature
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=rih">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=rih
+       </a>
+       <br />
+       Index to scholarly and popular literature in musicology, ethnomusicology, dance, and other music-related disciplines. Includes some performance and recording reviews. Use the Document Type menu to narrow your search appropriately.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_4047073" class="guide_page">
+   <h2>
+    What is Scholarly?
+   </h2>
+   <div id="content_box_14692762" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What is Scholarly?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073#14692740">
+         What is a Scholarly Source?
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073#14692744">
+         What is Peer Review?
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073#14692749">
+         Why Use Scholarly Sources?
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=4047073#14692754">
+         Finding Scholarly Sources
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14692740" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What is a Scholarly Source?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The following characteristics can identify a source as scholarly:
+      </p>
+      <ul>
+       <li>
+        AUTHOR
+        <br />
+        The author of the source is a scholar or expert in the field discussed, not just a journalist or "staff writer."
+        <br />
+        <br />
+       </li>
+       <li>
+        CITED SOURCES
+        <br />
+        The source provides substantial citations, such as footnotes or a bibliography.
+        <br />
+        <br />
+       </li>
+       <li>
+        CONTENT &amp; PURPOSE
+        <br />
+        The source discusses a narrowly defined topic and may review existing literature concerning the topic, present new research based on experiments or archival work, or interpret a well-researched idea in a new way.
+        <br />
+        <br />
+       </li>
+       <li>
+        LANGUAGE &amp; AUDIENCE
+        <br />
+        The article uses technical language specific to the discipline, often requiring the reader to have scholarly background in the area.&nbsp; The source is intended for scholars, researchers, and students, rather than the general public.
+        <br />
+        <br />
+       </li>
+       <li>
+        PEER-REVIEW
+        <br />
+        The source is reviewed and edited by other experts in the discipline.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14692744" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What is Peer Review?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Peer review is a process through which some scholarly articles and book chapters are critically evaluated by experts with in-depth knowledge of the research area before publication in order to ensure the information is valid, credible, well-written, and of high quality
+       <span>
+        .
+       </span>
+      </p>
+      <p>
+       <span>
+        Are you looking especially for peer-reviewed journal articles?&nbsp; See
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14024403">
+         Verifying Peer Review
+        </a>
+        .&nbsp;
+        <br />
+       </span>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14692749" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Why Use Scholarly Sources?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Because scholarly sources are well-researched, written by experts, and discuss topics in great depth and detail, they have credibility and authority.&nbsp; Using scholarly sources in your own research gives your work credibility and authority, as well.&nbsp; Non-scholarly materials can also be useful and appropriate for some academic purposes, but generally scholarly sources are expected in academic research.&nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14692754" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding Scholarly Sources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Other sections in these Get Started with Library Research guides discuss how to find scholarly sources.&nbsp; See the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3856384">
+        Find Information
+       </a>
+       section, especially the
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874364#14024403">
+        Find Articles
+       </a>
+       and
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3874366">
+        Find Books
+       </a>
+       pages.&nbsp; The
+       <a href="http://libraryguides.muhlenberg.edu/">
+        Subject Guides
+       </a>
+       may help, too.&nbsp; They point you toward recommended resources in each subject area, through which you can find scholarly sources.&nbsp;
+      </p>
+      <p>
+       Need more help with this?
+       <a href="http://trexler.muhlenberg.edu/research/ask-a-librarian.html">
+        Ask a Librarian
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3878122" class="guide_page">
+   <h2>
+    Research Tips
+   </h2>
+   <div id="content_box_14024592" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Research Tips
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3878122#14024680">
+         Too Few Search Results?&nbsp; Try...
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3878122#14024682">
+         Too Many Search Results?&nbsp; Try...
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14024680" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Too Few Search Results?  Try...
+     </div>
+     <div style="margin-bottom:10px;">
+      <ul>
+       <li>
+        <strong>
+         Breaking your topic down into its most important concepts.&nbsp;
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching all the words in your research question (e.g.,
+         <em>
+          How does sleep deprivation affect college students' learning?
+         </em>
+         ), try using only the most important concepts (e.g., "
+         <em>
+          sleep deprivation"
+         </em>
+         and
+         <em>
+          "college students"
+         </em>
+         and
+         <em>
+          learning
+         </em>
+         ).
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Using broader search terms.
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching very specifically phrased search terms (e.g.,
+         <em>
+          "sleep deprivation"
+         </em>
+         ), try searching more general or foundational terms (e.g.,
+         <em>
+          sleep
+         </em>
+         ).
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Adding synonyms for your search terms.
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching only one word for your concept (e.g.,
+         <em>
+          learning
+         </em>
+         ), try searching multiple words that express the concept you are researching (e.g.,
+         <em>
+          learning
+         </em>
+         or
+         <em>
+          achievement&nbsp;
+         </em>
+         or
+         <em>
+          education
+         </em>
+         ).
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Using fewer search terms.&nbsp;
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching every concept in your research question (e.g., "
+         <em>
+          sleep deprivation"
+         </em>
+         and
+         <em>
+          "college students"
+         </em>
+         and
+         <em>
+          learning
+         </em>
+         ), try removing some of the less important or more transferrable concepts (e.g., "
+         <em>
+          sleep deprivation"
+         </em>
+         and&nbsp;
+         <em>
+          learning
+         </em>
+         ).
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Adding variations of search terms.
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching only one variation of a word (e.g.,
+         <em>
+          learning
+         </em>
+         <em>
+         </em>
+         ), try using truncation symbols to find variations of the words (e.g.,
+         <em>
+          learn*
+         </em>
+         will search for learn, learning, learned, etc.). (Note: most databases and catalogs recognize * as the truncation symbol, although a few use another character, such as !.)
+         <strong>
+          <br />
+         </strong>
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Using a different search tool.
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of searching only one database or catalog, try a variety of search tools.&nbsp;
+         <a href="http://libraryguides.muhlenberg.edu/welcome">
+          Subject Guides
+         </a>
+         point you toward recommended resources in each subject area.
+        </li>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14024682" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Too Many Search Results?  Try...
+     </div>
+     <div style="margin-bottom:10px;">
+      <ul class="bullet">
+       <li>
+        <b>
+         Narrowing your topic
+        </b>
+        .
+       </li>
+       <ul>
+        <li>
+         Instead of researching a very broad topic (e.g.,
+         <em>
+          role of the military in the Middle East
+         </em>
+         ), try narrowing to a more specific angle (e.g.,
+         <em>
+          role of the military in Syrian politics
+         </em>
+         ).&nbsp;
+        </li>
+       </ul>
+       <li>
+        <b>
+         Leaving out synonyms
+        </b>
+        .
+       </li>
+       <ul>
+        <li>
+         Instead of searching multiple words for the concept you are researching (e.g.,
+         <em>
+          politics
+         </em>
+         or
+         <em>
+          "political parties"
+         </em>
+         or
+         <em>
+          government
+         </em>
+         ), try searching the most specific, accurate term (e.g.,
+         <em>
+          "political parties"
+         </em>
+         ).
+        </li>
+       </ul>
+       <li>
+        <b>
+         Using subject headings or descriptors
+        </b>
+        .
+       </li>
+       <ul>
+        <li>
+         Instead of doing keyword searching, try searching with subject headings, also known as descriptors.&nbsp; Many databases and catalogs provide special terminology to more accurately and consistently describe topics.&nbsp; Using that terminology in the right way can find better results (e.g., a database may use the subject
+         <em>
+          "armed forces"
+         </em>
+         instead of
+         <em>
+          military
+         </em>
+         .)
+        </li>
+       </ul>
+       <li>
+        <strong>
+         Filtering your search results.
+        </strong>
+       </li>
+       <ul>
+        <li>
+         Instead of sifting through all the results your search turned up, try filtering your results by publication type (e.g., peer-reviewed journal articles), by date (e.g., only items published in the last 10 years), or by language (e.g., only items in English) to narrow to the most relevant information.
+        </li>
+       </ul>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3856388" class="guide_page">
+   <h2>
+    Cite Sources
+   </h2>
+   <div id="content_box_14306315" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Cite Sources
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <strong>
+        On this page:
+       </strong>
+      </p>
+      <ul>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3856388#14306337">
+         Why Cite?
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3856388#14306503">
+         How Cite?
+        </a>
+        &nbsp;
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3856388#14306525">
+         What Is Plagiarism?
+        </a>
+       </li>
+       <li>
+        <a href="http://libraryguides.muhlenberg.edu/content.php?pid=471100&amp;sid=3856388#14306526">
+         Keep Track of Your Research
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14306337" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Why Cite?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <span>
+        Academic writing is filled with rules. &nbsp;Knowing when and how to cite your sources shows that you can take part in academic conversation and avoid any charge of&nbsp;
+       </span>
+       plagiarism
+       <span>
+        .
+       </span>
+      </p>
+      <p>
+       <span>
+        <span>
+         No professor expects you to present your own ideas only; be clear about where your ideas, phrases, and special words come from. &nbsp;
+        </span>
+        Any time you refer to another person's work--whether you quote directly from another's work, refer to another's work in your own words, or base your ideas on another's work--you must cite the sources you used. &nbsp;Citing your sources serves a number of very important purposes. &nbsp;For example, citing properly:
+       </span>
+      </p>
+      <ul>
+       <li>
+        Gives authors due credit for their work and ideas.
+       </li>
+       <li>
+        Provides evidence of the depth and rigor of your research.&nbsp;
+       </li>
+       <li>
+        Gives others a way to also find the valuable information you have used.
+       </li>
+       <li>
+        Helps you to avoid plagiarism.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14306503" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How Cite?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       <span>
+        Always ask your instructor which style of scholarly citation you need to use for a particular paper or project. &nbsp;See
+        <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+         Citation Guides
+        </a>
+        for&nbsp;
+        <span>
+         examples of APA, Chicago, and MLA citation styles and more.
+        </span>
+        <br />
+       </span>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14306525" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What Is Plagiarism?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Plagiarism is the act of using another person's words or ideas without giving him/her proper credit.&nbsp; It is a serious academic offense.&nbsp;
+      </p>
+      <p>
+       The
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/">
+        Academic Integrity
+       </a>
+       page defines plagiarism in more detail and provides information about Muhlenberg's Academic Integrity Code.&nbsp; Check out
+       <a href="http://muhlenberg.edu/main/aboutus/dean-academic/integrity/plagiarism_defined.html">
+        Defining Plagiarism: A Guide for Students
+       </a>
+       with helpful frequently asked questions.&nbsp;
+      </p>
+      <p>
+       Indiana University's plagiarism tutorial also offers helpful information on understanding and recognizing plagiarism, including an
+       <a href="https://www.indiana.edu/~istd/overview.html">
+        overview
+       </a>
+       with basics and recommendations and
+       <a href="https://www.indiana.edu/~istd/examples.html">
+        examples
+       </a>
+       <b>
+        . &nbsp;
+       </b>
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_14306526" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Keep Track of Your Research
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Keep careful track of where you found your ideas, phrases, and key concepts so that you can correctly cite your sources. &nbsp;It may be helpful to use a citation management tool, like Zotero, to help you keep track of, organize, and cite your sources. &nbsp;
+      </p>
+      <ul>
+       <li>
+        <a href="http://www.zotero.org/" target="_blank">
+         Zotero
+        </a>
+        <br />
+        "Free, easy-to-use tool to help you collect, organize, cite, and share your research sources." Download instructions and help available on the site.
+       </li>
+       <li>
+        <a href="https://www.zotero.org/support/" target="_blank">
+         Zotero Guide (Muhlenberg College)
+        </a>
+        <br />
+        Additional step-by-step instructions for using Zotero.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_5215028" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_19428399" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Write an Annotated Bibliography
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       On this page:
+      </p>
+      <p>
+      </p>
+     </div>
+     <ul>
+      <li>
+       What Is an Annotated Bibliography?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428314">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428314
+       </a>
+      </li>
+      <li>
+       How Do I Format the Bibliography?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428327">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428327
+       </a>
+      </li>
+      <li>
+       What Goes into the Content of the Annotations?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428350">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428350
+       </a>
+      </li>
+      <li>
+       Which Writing Style Should I Use?
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428361">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428361
+       </a>
+      </li>
+      <li>
+       Additional Annotated Bibliography Information and Examples
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/content.php?pid=630405&amp;sid=5214961#19428504">
+        http://libraryguides.muhlenberg.edu/content.php?pid=630405&sid;=5214961#19428504
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428314" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What Is an Annotated Bibliography?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       An
+       <strong>
+        annotated bibliography
+       </strong>
+       is an organized list of sources, each of which is followed by a brief note or "annotation." These annotations do one or more of the following:
+      </p>
+      <ul>
+       <li type="square">
+        Describe the content and focus of the work at hand (usually a book or article);
+       </li>
+       <li type="square">
+        Suggest its usefulness to your research or writing;
+       </li>
+       <li type="square">
+        Evaluate its sources, method, conclusions, and reliability;
+       </li>
+       <li type="square">
+        Record your reactions to the book or article.
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428327" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How Do I Format the Bibliography?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Check with your instructor to determine which citation style is required for your class (e.g.,
+       <a>
+        APA
+       </a>
+       ,
+       <a>
+        MLA
+       </a>
+       , Chicago).&nbsp; See the
+       <a href="http://trexler.muhlenberg.edu/research/citation-guides.html">
+        Citation Guides
+       </a>
+       for information on citation styles. &nbsp;
+      </p>
+      <p>
+       Then, remember that the bibliography is an organized list of sources. The annotation may immediately follow the bilbiographic information on the same line, or it may begin on a new line, two lines below the publication information. Since style manuals differ, check with your instructor about which one to use concerning form, spacing, and consistency.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428350" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What Goes into the Content of the Annotations?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Here are some examples of the four most common forms of annotations:
+      </p>
+      <ul>
+       <li type="square">
+        <strong>
+         Indicative
+        </strong>
+        : This form of annotation defines the scope of the source, lists the significant topics included, and tells what the sources is about. This type is different from the informative in that the informative entry gives actual information about its source. In the indicative entry there is no attempt to give actual data such as hypotheses, proofs, etc. Generally, only topics or chapter titles are included.
+        <br />
+        <br />
+        Griffin, C. Williams, ed. (1982).
+        <em>
+         Teaching writing in all disciplines
+        </em>
+        . San Francisco: Jossey-Bass.
+        <br />
+        Ten essays on writing-across-the-curriculum programs, teaching writing in discplines other than English, and teaching techniques for using writing as learning. Essays include Toby Fulwiler, "Writing: An Act of Cognition"; Barbara King, "Using Writing in the Mathematics Class: Theory and Pratice"; Dean Drenk, "Teaching Finance Through Writing"; Elaine P. Mairnon, "Writing Across the Curriculum: Past, Present, and Future". (Source: Bizzell and Herzberg, 1991, p. 47)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Informative
+        </strong>
+        : Simply put, this form of annotation is a summary of the work. Begin writing it by re-stating the thesis; the develop it by condensing the argument or hypothesis, list the proofs, and state the conclusion.
+        <br />
+        <br />
+        Voeltz, L.M. (1980). Children's attitudes toward handicapped peers.
+        <em>
+         American Journal of Mental Deficiency, 84,
+        </em>
+        455-464.
+        <br />
+        As services for severely handicapped children become increasingly available within neighborhood public schools, children's attitudes toward handicapped peers in integrated settings warrant attention. Factor analysis of attitude survey responses of 2,392 children revealed four factors underlying attitudes toward handicapped peers: social-contact willingness, deviance consequation, and two actual contact dimensions. Upper elementary-age children, girls, and children in schools with most contact with severely handicapped peers expressed the most accepting attitudes. Results of this study suggest the modifiability of children's attitudes and the need to develop interventions to facilitate social acceptance of individual differences in integrated school settings. (Source: Sternlicht and Windholz, 1984, p. 79)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Evaluative
+        </strong>
+        : This form assess the work's strengths and weaknesses. Why is the work interesting or helpful --or not? List what kind or and how much information is given --in short, evaluate the work's usefulness.
+        <br />
+        <br />
+        Gurko, Leo. (1968).
+        <em>
+         Ernest Hemingway and the pursuit ofheroism
+        </em>
+        . New York: Crowell.
+        <br />
+        This book is part of a series called "Twentieth Century American Writers": a brief introduction to the man and his work. After fifty pages of straight biography, Gurko discussed Hemingway's writing, novel by novel. There's an index and a short bibliography, but no notes. The biographical part is clear and easy to read, but it sounds too much like a summary. (Source: Spatt, 1991, p. 322) Hingley, Ronald. (1950).
+        <em>
+         Chekhov: A biographical and critical study
+        </em>
+        . London: George Allen &amp; Unwin. A very good biography. A unique feature of this book is the appendix, which has a chronological listing of all English translations of Chekhov's short stories. (Source: Spatt, 1991, p. 411)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Combination
+        </strong>
+        : Most annotated bibliographies are of this type. They contain one or two sentences summarizing or describing content and one or two sentences providing an evaluation.
+        <br />
+        <br />
+        Morris, Joyce M. (1959).
+        <em>
+         Reading in the primary school: An investigation into standards of reading and their
+        </em>
+        <em>
+         association with primary school characteristics
+        </em>
+        . London: Newnes, for National Foundation for Educational Research.
+        <br />
+        Report of a large-scale investigation into English children's reading standards, and their relation to conditions such as size of classes, types of organisation and methods of teaching. Based on enquiries in sixty schools in Kent and covering 8,000 children learning to read English as their mother tongue. Notable for thoroughness of research techniques. (Source: Center for Information, 1968, p. 146)
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428361" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Which Writing Style Should I Use?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       The most important thing:
+       <strong>
+        annotations must be brief
+       </strong>
+       . Only directly significant details can be mentioned. Information apparent in the title can be omitted. Background materials and references to previous work by the same author usually are not included. Here are the three most common styles of annotations:
+      </p>
+      <ul>
+       <li type="square">
+        <strong>
+         Telegraphic
+        </strong>
+        : Write the information quickly and concisely. Be clear, but grammatically complete sentences are unnecessary.
+        <br />
+        <br />
+        Vowles, Richard B. (1962). Psychology and drama: A selected checklist.
+        <em>
+         Wisconsin Studies in Contemporary Literature, 3,
+        </em>
+        (1), 35-48.
+        <br />
+        Divided by individual authors. Reviews the research between 1920 and 1961. (Source: Bell and Gallup, 1971, p. 68)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Complete sentences
+        </strong>
+        : The sentences must be grammatically complete, but their length can vary. Subjects and conjunctions must be present, but the tone must be terse. Avoid long and complex sentences.
+        <br />
+        <br />
+        Kinter, W. R., and R L. Pfaltzgraff. (1972). Assessing the Moscow SALT agreements.
+        <em>
+         Orbis, 16,
+        </em>
+        34l-360.
+        <br />
+        The authors hold the conservative view that SALT can not halt the slipping nuclear advantage of the United States. They conclude that the United States needs a national reassessment of defense policy. They further conclude that the only utility of SALT is in developing a dialogue with the Soviets. This is a good conservative critique of SALT I. (Source: Strenski and Manfred, 1981, p. 165)
+        <br />
+        <br />
+       </li>
+       <li type="square">
+        <strong>
+         Paragraph
+        </strong>
+        : This forms requires a full, coherent paragraph. Sometimes the tone can be similar to the form and tone of a bibliographic essay. Obviously, this form requires complete sentences.
+        <br />
+        <br />
+        Voeltz, L.M. (1980). Children's attitudes toward handicapped peers.
+        <em>
+         American Journal of Mental Deficiency, 84,
+        </em>
+        455-464.
+        <br />
+        As services for severely handicapped children become increasingly available within neighborhood public schools, children's attitudes toward handicapped peers in integrated settings warrant attention. Factor analysis of attitude survey responses of 2,392 children revealed four factors underlying attitudes toward handicapped peers: social- contact willingness, deviance consequation, and two actual contact dimensions. Upper elementary-age children, girls, and children in schools with most contact with severely handicapped peers expressed the most accepting attitudes. Results of this study suggest the modifiability of children's attitudes and the need to develop interventions to facilitate social acceptance of individual differences in integrated school settings. (Source: Sternlicht and Windholz, 1984, p. 79)
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428504" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Additional Annotated Bibliography Information and Examples
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       For additional help constructing an annotated bibliography, consult the following resources.
+      </p>
+      <p>
+       Annotated Bibliographies (Purdue University)
+       <br />
+       <a href="https://owl.english.purdue.edu/owl/resource/614/01/">
+        https://owl.english.purdue.edu/owl/resource/614/01/
+       </a>
+      </p>
+      <p>
+       Annotated Bibliographies (Writing Center, University of Wisconsin--Madison)
+       <br />
+       <a href="http://www.wisc.edu/writing/Handbook/AnnotatedBibliography.html">
+        http://www.wisc.edu/writing/Handbook/AnnotatedBibliography.html
+       </a>
+      </p>
+     </div>
+     <ul>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_19428370" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      References for Examples Used
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Bell, Inglis F., and Jennifer Gallup. (1971).
+       <em>
+        A reference guide to English, American, and Canadian literature
+       </em>
+       . Vancouver: University of British Columbia Press.
+      </p>
+      <p>
+       Bizzell, Patricia, and Bruce Herzberg. (1991).
+       <em>
+        Bedford bibliography for teachers of writing
+       </em>
+       . 3rd ed. Boston: Bedford Books of St. Martin's Press.
+      </p>
+      <p>
+       Center for Information on Language Teaching and The English Teaching Information Center of the British Council. (1968).
+       <em>
+        A Language-teaching bibliography
+       </em>
+       . Cambridge: Cambridge University Press.
+      </p>
+      <p>
+       Spatt, Brenda. (1991).
+       <em>
+        Writing from sources
+       </em>
+       . 3rd ed. New York: St. Martin's Press.
+      </p>
+      <p>
+       Sternlicht, Manny, and George Windholz. (1984).
+       <em>
+        Social behavior of the mentally retarded
+       </em>
+       . New York and London: Garland Press.
+      </p>
+      <p>
+       Strenski, Ellen, and Madge Manfred. (1981).
+       <em>
+        The research paper workbook.
+       </em>
+       2nd ed. New York and London: Longman.
+      </p>
+      <p>
+       &nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

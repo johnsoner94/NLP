@@ -1,0 +1,1365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Conserving Graver - Graver Arboretum | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Graver Arboretum
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/graver/background.jpg" alt="Graver Arboretum" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/graver/">
+               Graver Arboretum
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/graver/conservinggraver/">
+               Conserving Graver
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add05">
+           <h3>
+            Conserving Graver Arboretum
+           </h3>
+           <p>
+            It was the long term vision of Lee and Virginia Graver that the Arboretum be protected and preserved, and used for educational purposes.
+           </p>
+           <p>
+            Graver Arboretum is also part of several municipal open space preservation plans, including the
+            <a href="http://www.lvpc.org/UntitledFrameset-7.html" target="_blank">
+             Lehigh Valley Planning Commission's Comprehensive Plan
+            </a>
+            , the
+            <a href="http://bushkill.org/greenway.html" target="_blank">
+             Two Rivers Area Greenway Plan
+            </a>
+            and
+            <a href="http://www.fxbrowne.com/html/newsletters/July_2005/topic_article.htm" target="_blank">
+             Bushkill Township's Official Map
+            </a>
+            .
+           </p>
+           <p>
+            <strong>
+             Comprehensive Plan for Lehigh and Northampton Counties, PA (1993, 2005):&nbsp;
+            </strong>
+            Protection of the Graver Arboretum property directly achieves the following goals and implementation strategies of the Lehigh Valley Planning Commission (LVPC)&nbsp; Comprehensive Plan for Lehigh and Northampton Counties, as set forth in the section on Woodlands as well as Open Space and Natural Features Protection:
+           </p>
+           <p>
+            &nbsp;
+            <span class="italic">
+             Goal &ndash; To protect and manage the region&rsquo;s woodland resources
+            </span>
+            <strong>
+             <br />
+            </strong>
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Woodlands that have important environmental significance should be protected or preserved
+           </p>
+           <p>
+            <span class="italic">
+             Goal &ndash; To preserve open space and important natural features
+            </span>
+            <strong>
+             <br />
+            </strong>
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Important natural areas should be preserved as part of parks and open space&nbsp;areas, whenever possible.
+            <br />
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Public and private partnerships should be used whenever possible to preserve open space and important natural areas.
+           </p>
+           <p>
+            <span class="italic">
+             Goal &ndash; To protect significant natural features including special geological formations, rare plant communities, and critical wildlife habitats
+            </span>
+            <strong>
+             <br />
+            </strong>
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Preserve the most significant natural areas
+           </p>
+           <p>
+            <strong>
+             <br />
+             Two Rivers Area Greenway:&nbsp;
+            </strong>
+            As reported in their January 2005 publication, in the face of increased demand for development land, planners in the seven municipalities of the Two Rivers Council of Governments found a concomitant increased interest in greenways to foster the quality of life many citizens seek. Among their conservation priorities were protection of high-quality cold-water fishing streams like Bushkill Creek and the protection of water quality from erosion off hillsides and steep slopes, and conservation of wildlife habitat via protection of woodlands and wetlands.&nbsp;
+           </p>
+           <p>
+            <strong>
+             Two Rivers Area Greenway Plan:&nbsp;
+            </strong>
+            The Two Rivers Area Greenway Plan, like that of the statewide
+            <a href="http://www.pagreenways.org/index.asp" target="_blank">
+             Pennsylvania Greenways
+            </a>
+            , supports the process of developing a system of hubs and spokes &ldquo;that protect natural, cultural, and scenic resources, provide recreational benefits, enhance natural beauty and quality of life in neighborhoods and communities ...&rdquo;&nbsp;
+           </p>
+           <p>
+            Conserving the Graver Arboretum property is consistent with the stated goals of the Plan.&nbsp; The Graver Arboretum property is part of a 50+-acre woodland, in a the western section of Bushkill Township where woodland is largely lacking.&nbsp; The protection of this property enhances the greenway along the Bushkill Creek.&nbsp; Conserving the mixed habitats on the Graver property helps preserve the rural character of this section of Bushkill Township, especially since it is zoned medium density residential.
+           </p>
+           <p>
+            The Two Rivers Area Greenway Plan is divided into three watershed areas, and the Graver property is in the upper watershed area.&nbsp; The Greenway Plan states that &ldquo;areas to be protected as greenways in the Upper Watershed should include the following:
+            <br />
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; The 100-year floodplain
+            <br />
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Existing woodlands that are contiguous with riparian areas
+            <br />
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; Existing wetlands and hydric soils that are contiguous with riparian areas
+            <br />
+            <img alt="marker" border="0" height="12" src="/cultural/graver/Conserve/BD21296_.gif" width="12" />
+            &nbsp; 50-foot buffers of intermittent streams&rdquo;
+           </p>
+           <p>
+            The Graver property woodland is part of a riparian area identified in the Two Rivers Greenway Plan (Map 16 section shown below) as part of the proposed greenway for the Bushkill Creek.&nbsp; The Arboretum is color-coded in
+            <strong>
+             LIGHT green
+            </strong>
+            .&nbsp; The many ponds and intermittent streams located on the ground of the Arboretum can be seen clearly on this map.
+           </p>
+           <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img alt="Greenway" border="0" height="279" src="/cultural/graver/Conserve/GreenwayMap.jpg" width="299" />
+           </p>
+           <p>
+            <strong>
+             Bushkill Township Official Map and Ordinance:&nbsp;
+            </strong>
+            The Bushkill Township Official Map Plan maps the township with an eye to contiguous woodlands, sensitive natural resources, and connectivity to other important natural areas.&nbsp;
+            <a href="http://www.greentreks.org/eacnetwork/ramfiles/dec04/dec04.ram">
+             Click here to view a video
+            </a>
+            about the Official Map that was prepared by the Bushkill Township Environmental Advisory Council.
+           </p>
+           <p>
+            According to the introduction to the Bushkill Township Official Map and accompanying ordinances, in adopting the Greenway Layer of the Official Map, Bushkill Township intends to protect the water quality of Bushkill Creek, its tributaries and its wetland, as well as protect the valuable wildlife corridors connecting to the vast woodland tracts along the Blue Mountain Ridge.&nbsp; This planning tool allows the municipality to work with land owners to find ways to avoid and/or minimize development impacts on features shown on the map, including woodland stream corridors.&nbsp;
+           </p>
+           <p>
+            &nbsp;The Graver property is an integral part of the wildlife habitat and watershed of the Bushkill Stream.&nbsp; Since the Official Map provides limited protection,&nbsp; private donations such as the one made by Lee and Virginia Graver are critical to the long-term preservation and protection of these sites.&nbsp;
+            <br />
+            <br />
+           </p>
+           <p class="center">
+            <img src="/media/contentassets/images/about/graver/conserve/bushkillofficiamap.jpg" alt="Graver Arboretum" style=" border : 0;    " />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </p>
+           <p>
+            Identification
+            <strong>
+             of Significant Natural Resources
+            </strong>
+            :&nbsp; The Graver parcel is dominated by a mature, deciduous woodland of approximately 35 acres.&nbsp; The Graver Arboretum also protects wet meadow and wooded wildflower areas from encroachment by invasive species.&nbsp; Additionally, the meadow and woodlands offer habitat to a diversity of wildlife.&nbsp; The property is home to screech and great horned owls, kestrel, sharp shinned, coopers and red-tailed hawks.&nbsp;&nbsp; Other birds that utilize the joint habitats include indigo buntings, scarlet tanagers, northern orioles, red-headed woodpeckers, white throated sparrows and tree swallows.&nbsp; Box turtles, wood frogs, grey frogs, spring peepers, and blue racer and hognose snakes are a few examples of the reptiles and amphibians that are found on the property.&nbsp; Many species of woodland moths and butterflies have been observed but not specifically identified, other than the general categories of swallowtails, red admirals, checkerspots, and hairstreaks.&nbsp; The banded argiope is one large arachnid that draws attention each year.
+           </p>
+           <p>
+            <strong>
+             PA Natural Resources Inventory:
+            </strong>
+            The following plant species of concern as noted by the
+            <a href="http://www.naturalheritage.state.pa.us/" target="_blank">
+             PA Natural Heritage Program
+            </a>
+            are currently growing at the Arboretum and are under threat from suburban encroachment:
+            <span class="italic">
+             Lysimachia quadrifolia -
+            </span>
+            whorled loosetrife,
+            <span class="italic">
+             Melanthium virginicum -
+            </span>
+            bunchflower,
+            <span class="italic">
+             Physalis virginiana
+            </span>
+            - ground cherry,
+            <span class="italic">
+             Ranunculus fascicularis
+            </span>
+            - early buttercup
+            <span class="italic">
+             , Rosa virginiana
+            </span>
+            - Virginia rose,
+            <span class="italic">
+             Solidago speciosa
+            </span>
+            - showy goldenrod, and
+            <span class="italic">
+             Trillium cernum
+            </span>
+            - nodding trillium.
+           </p>
+           <p>
+            <strong>
+             Important Bird Species:
+            </strong>
+            Wood thrushes, bluebirds, and other migratory songbirds have been confirmed as nesting on the Arboretum grounds by the Arboretum manager and education staff.&nbsp; They inhabit the joint second-growth woodland habitat shared by Graver and several other landowners along this section of the Bushill Creek.&nbsp; Wood thrushes are listed on the
+            <a href="http://www.abcbirds.org" target="_blank">
+             American Bird Conservancy
+            </a>
+            (ABC) &ldquo;
+            <a href="http://www.abcbirds.org/greenlist.htm" target="_blank">
+             Green List
+            </a>
+            ,&rdquo; which contains all the highest priority birds for conservation in the continental United States and Canada.&nbsp; It builds on the
+            <a href="http://www.rmbo.org/pif/pifdb.html" target="_blank">
+             species assessments
+            </a>
+            conducted by
+            <a href="http://www.partnersinflight.org/" target="_blank">
+             Partners in Flight
+            </a>
+            (PIF) on land birds and includes species of all taxa. &nbsp;&nbsp;
+           </p>
+           <p>
+            <strong>
+             Protecting Floodplains and Wetlands:&nbsp;
+            </strong>
+            Muhlenberg's stewardship of Graver arboretum protects the bottomland woods, intermittent streams, wet meadow,
+            <a href="/cultural/graver/Pools&amp;Ponds/PoolsPonds.htm">
+             five vernal ponds, and five manmade ponds
+            </a>
+            on the property from the effects of further suburban housing and road development.&nbsp; The two vernal ponds are part of an interconnected series of vernal ponds that have a drainage pattern that flows from the adjacent uplands, across the Arboretum property and on to the Bushkill Creek.&nbsp; Silt from the top ponds migrates through the lower ponds, as has been documented by
+            <a href="/main/academics/biology/facultystaff/paulmeier/">
+             Dr. Paul Meier
+            </a>
+            of Muhlenberg College in his ongoing amphibian studies.&nbsp; The land cover on the Graver property provides erosion buffering for the Bushkill Creek, and ensures the maintenance of groundwater recharge.&nbsp; The negative impacts of stormwater runoff, erosion, siltation, and non-point source pollution are major issues&nbsp;for Bushkill Township residents as a result of increased suburban development. &nbsp;Administrative Manager Marjorie Lauer has provided photo documentation of the effects of storm runoff on the Arboretum grounds.&nbsp;
+           </p>
+           <p>
+            <img src="/media/contentassets/images/about/graver/conserve/sediment_photos.jpg" alt="Graver Arboretum" style=" border : 0;    " />
+           </p>
+           <p>
+            &nbsp;
+            <strong>
+             Threats from Development
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Runoff:
+            </strong>
+            &nbsp; This area of Bushkill Township is under strong development pressure, with a 47-acre Bushkill Terrace subdivision under construction adjacent to the 63-acre Graver Arboretum of Muhlenberg College.&nbsp; The development may negatively impact seasonal ponds and stream beds on the Arboretum property, all of which are part of the Bushkill Stream watershed.&nbsp; The primary concerns have been erosion, storm water management, and runoff.&nbsp; The Arboretum has sustained some damage to its vernal pools from the construction of this subdivision, and is concerned that similar destruction is likely to the vernal ponds on other properties in the watershed, should they be developed.&nbsp; Siltation in these pools significantly reduced the survival of the eggs and young of frogs and salamanders.&nbsp;
+            <a href="/cultural/graver/Pools&amp;Ponds/PoolsPonds.htm">
+             Studies are underway
+            </a>
+            to document the current biotic and abiotic conditions in these ponds and monitor changes.
+           </p>
+           <p>
+            Although zoning regulations exist that prohibit direct development of wetlands, properties adjacent to these wetlands significantly affect them due to erosion, impervious surfaces, and&nbsp;the&nbsp; land use practices of suburban landowners.&nbsp; Suburban development of the adjacent properties adds to the load of impacts on Arboretum habitats.&nbsp;&nbsp; Further commercial or residential development could potentially encircle the north, south and east sides of the natural area of Graver Arboretum and destroy and fragment the habitat present on the property and expose the Arboretum to invasive plants, pest species, and runoff from the adjacent properties and roads.&nbsp;
+           </p>
+           <p>
+            <strong>
+             Forest Fragmentation:
+            </strong>
+            The large woodlot located on Graver and adjacent properties, would be fragmented by further development.&nbsp; Homes built within the forest would expose the plants and animals currently living and breeding there to invasive pests such as multiflora rose, stiltgrass, garlic mustard, privet, cowbirds, starlings, and house sparrows.&nbsp; Fragmenting this forest by turning it into suburban lots will also increase the population of songbird predators such as cats, skunks, opossums, and raccoons.&nbsp; There are no zoning regulations that prohibit such forest fragmentation, although it has been documented as one of the most significant threats to the current survival of many forest species.
+           </p>
+           <p>
+            <strong>
+             Resource Management Issues
+            </strong>
+           </p>
+           <p>
+            <strong>
+             Maintenance:
+            </strong>
+            The Graver Arboretum property, along with the
+            <a href="/main/aboutus/graver/virtualtour/">
+             existing trail system
+            </a>
+            , is maintained by Muhlenberg College as part of the maintenance budget.&nbsp; Regular inspection of the property by the grounds manager insures the conservation value of the land is maintained, and that damages will be repaired as part of Arboretum upkeep.&nbsp; The College manages the property to remove invasive plants and animals if needed, and implements conservation practices to encourage the growth of native plants and reduce erosion when possible.&nbsp; Current resource management practices in place at the Arboretum to accomplish these goals include manual removal of invasive plants, trapping of pest animals, selective mowing, chemical treatment to manage invasive insect pests, planting of native wildflowers and grasses, and installation of nest boxes for birds and bats.&nbsp;
+           </p>
+           <p>
+            <strong>
+             Documentation and Research:
+            </strong>
+            The Arboretum employs an administrative manager who documents the plant species present, and several professors have ongoing research into other plant and animal species, particularly the breeding population of wood frogs in the vernal pools and a National Science Foundation sponsored project studying plant/insect interactions.&nbsp;
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <table border="0" cellpadding="5" cellspacing="0">
+            <tbody>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/mvc_119e.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Blue Trail
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/wild1.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Workshop for Muhlenberg pre-service student teachers
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/fieldtrail1.JPG" alt="Graver Arboretum" style="     " />
+                <br />
+                Trail leading into woods
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/woodedge1.JPG" alt="Graver Arboretum" style="     " />
+                Wooded study area
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/slide0465_image047.jpg" alt="Graver Arboretum" style="     " />
+                Intermittent Stream
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/primarysecondaryforests1.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Trail leading through early and late successional forest on property adjacent to Graver
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/slide0468_image054.jpg" alt="Graver Arboretum" style="     " />
+                False Hellebore
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/slide0464_image009.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Jim's Pond
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/tulipmaple_deadlvs1.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Tulip poplar leaves
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/spring.jpg" alt="Graver Arboretum" style="     " />
+                Spring
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/solidago.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                <span class="italic">
+                 Solidago speciosa
+                </span>
+                - Showy Goldenrod
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/bunchflowr2.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                <span class="italic">
+                 Melanthium virginicum
+                </span>
+                - Bunchflower
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/earlybuttercup.jpg" alt="Graver Arboretum" style="     " />
+                <span class="italic">
+                 Ranunculus fascicularis
+                </span>
+                - Early Buttercup
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/noddingtrillium.jpg" alt="Graver Arboretum" style="     " />
+                <span class="italic">
+                 Trillium cernum
+                </span>
+                - Nodding Trillium
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/vrginiarose.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                <span class="italic">
+                 Rosa virginiana
+                </span>
+                - Virginia rose
+               </p>
+              </td>
+             </tr>
+             <tr>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/whorledloosetrife.jpg" alt="Graver Arboretum" style="     " />
+                <span class="italic">
+                 Lysimachia quadrifolia
+                </span>
+                -Whorled Loosetrife
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/scout_pond.jpg" alt="Graver Arboretum" style="     " />
+                <br />
+                Scout Pond
+               </p>
+              </td>
+              <td>
+               <p>
+                <img src="/media/contentassets/images/about/graver/conserve/leespond2.JPG" alt="Graver Arboretum" style="     " />
+                <br />
+                Lee's Pond
+               </p>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Graver Arboretum
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/graver/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/aboutgraver/">
+            About Graver
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/research/">
+            Research
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/programs/">
+            Programs
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/virtualtour/">
+            Virtual Tour
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/collections/">
+            Collections
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/graver/howtogetthere/">
+            How to Get There
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/graver/conservinggraver/">
+             Conserving Graver
+            </a>
+           </span>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/aboutgraver/"&gt;About Graver&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/research/"&gt;Research&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/programs/"&gt;Programs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/virtualtour/"&gt;Virtual Tour&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/collections/"&gt;Collections&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/graver/howtogetthere/"&gt;How to Get There&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/graver/conservinggraver/"&gt;Conserving Graver&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students learn how businesses prepare for disaster?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/holmesmillertheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHolmesTease.jpg" alt="thumbnail TOC " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How do Muhlenberg students spend spring break?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/alternativespringbreaktheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/springbreak-s.jpg" alt="Muhlenberg College students conduct service projects during their spring breaks." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             When do meetings, lessons and lectures bring together the campus community?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/commonhourtheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/commonhour-small.jpg" alt="Students, faculty and staff gather during Common Hour to share lessons, lectures and meetings." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What are chemistry students working on for Johnson &amp; Johnson?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/johnsonjohnsontheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/chemistry-s.jpg" alt="Rotating image for Johnson &amp; Johnson Theory of Connectivity" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where can you experience bipartisan commentary on each U.S. President?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/44playsfor44presidentstheoryofconnectivity/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/44plays-w.jpg" alt="Image teaser for 44 plays for 44 presidents Theory of Connectivity article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where are teens encouraged to be the voice for their generation?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/hype/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/tocHYPE-tease.jpg" alt="Teaser image for HYPE TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do students witness the conditions present at the formation of the universe?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/brookhavennationallaboratory/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/BNL-rotating.jpg" alt="Rotating teaser image for Brookhaven TOC article." style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What's their formula?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/billpennydunham/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Bill&amp;PennyDunhamTeaser.jpg" alt="Bill and Penny Dunham" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are Muhlenberg students gaining real-world investment experience?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/investmentsociety/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/Invesment-Small-0897.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Where do graduating seniors explore the skills they won't learn in a classroom?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/realitymc/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/toc/realitymc2014-teaserimage.jpg" alt="Teaser/rotating image for Reality MC ToC article. " style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How are cluster courses helping students think critically across disciplines?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/exploringotherworlds/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/ExploringOtherWorlds-3742-s.jpg" alt="Small image for Exploring Other Worlds TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What program matches alumni with students who want to learn more about a career path?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jobshadowsprogram/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/JobShadows-3999-4.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What is Truman Scholar Jacob Glass '13 working on after 'Berg?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/jacobglass/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/jacobglass-172x115.jpg" alt="TOC homepage image for Jacob Glass '13" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How does Henry Mandelbaum balance school and full-time work at a NYC startup?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/henrymandelbaum/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/HenryMandelbaum-4827-2.jpg" alt="" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Theory of Connectivity
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             How did Erica Wenzel '14 take a new look at MLB history with mathematics?
+            </span>
+            <div align="right">
+             <a href="/aboutus/toc/ericawenzel/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/toc/EricaWenzel-TOC-r.jpg" alt="Rotating teaser for Erica Wenzel '14 TOC article" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

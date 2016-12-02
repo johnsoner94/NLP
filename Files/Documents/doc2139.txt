@@ -1,0 +1,949 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Student Profiles - Information for Students | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Muhlenberg College's web site." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Biochemistry
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/migration-feb10094351/main/academics/biochemistry/info/images/biochem-header.jpg" alt="Biochemistry" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biochemistry/">
+               Biochemistry
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biochemistry/informationforstudents/">
+               Information for Students
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/biochemistry/informationforstudents/studentprofiles/">
+               Student Profiles
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3>
+            Student Profiles
+           </h3>
+           <div class="add12 style2">
+            <p>
+             Please also see the
+             <a href="/main/academics/chemistry/students/">
+              Chemistry profiles
+             </a>
+             for information about what previous classes choose to do after completing their B.S. in Biochemistry at Muhlenberg.
+             <br />
+             <br />
+            </p>
+            <p class="add12 style2">
+             <img src="/media/contentassets/images/academics/biochemistry/TylerFlorio_TommyHoffman-5356-230x152.jpg" alt="" style="  padding : 7;   float : left;" />
+             <strong>
+              Thomas Hoffman '16
+              <br />
+             </strong>
+             Biochemistry major, Mathematics minor
+             <br />
+             Working in business sector (data management and analytics)
+             <br />
+             <br />
+            </p>
+            <p class="add12 style2">
+             I think the core classes (Biochemistry, Experimental Biochemistry, and Advanced Biochemistry) had to be my favorite part of the Biochemistry major at Muhlenberg. These classes really focus on developing the tools and thought processes needed to analyze any piece or type of material rather than placing heavy emphasis on understanding the necessarily limited scope of the material presented. And that is not so much a testament to biochemistry as to the staff involved. Dr. Colabroy and Dr. Hark do an exceptional job at designing the courses and allowing students significant license to explore their creative and diagnostic faculties. I can safely say that my ability to think about a problem, analyze its parameters, and design a solution is much higher than when I entered the program. For me, this skill is so much more valuable than any factual bit of information I have ingested. The skills I have developed in this program have even let me transition into an exciting new field that I never pictured myself in. And despite the fact that I'm not pursuing science after graduation, I can safely say that choosing the Biochemistry major at Muhlenberg was an excellent choice.
+            </p>
+            <div class="add12 style2">
+             <br />
+             <p class="add12 style2">
+              <img src="/media/contentassets/images/academics/biology/RebeccaGoldenPhoto_000.jpg" alt="Biology" style="  padding : 6px; margin : 3px;  float : left;" />
+             </p>
+             <p class="add12 style2">
+              <strong>
+               <span class="style2">
+                Rebecca Golden '14
+                <br />
+               </span>
+               &zwnj;
+              </strong>
+              Biochemistry major, Economics minor
+              <br />
+              Now an M.D. student at Drexel College of Medicine
+             </p>
+             <p class="add12 style2">
+              <span class="style2">
+               Curiosity during introductory courses led me to biochemistry. In biology classes, I wondered &ldquo;How does this
+               <em>
+                really
+               </em>
+               work?&rdquo; During chemistry classes I wondered, &ldquo;How does this apply to biological systems?&rdquo; The Biochemistry program allowed me to explore these questions, forge lasting relationships with department heads Dr. Hark and Dr. Colabroy, and bond with my classmates as we conquered the major
+              </span>
+              .
+             </p>
+             <p class="add12 style2">
+              I am most thankful for the independence and critical thinking skills I developed by studying biochemistry. Whether designing projects for Experimental Biochemistry or studying proteins in BIO 220, I felt engaged in and challenged by every aspect of the biochemistry major. The program is interdisciplinary and flexible: I selected electives about which I was passionate and completed an economics minor. I also investigated the enzymology of lincomycin biosynthesis in Dr. Colabroy&rsquo;s research lab for almost three years. These experiences prepared me for incredible research opportunities at Drexel and the Children&rsquo;s Hospital of Philadelphia and inspired me to conduct research while studying and practicing medicine. I leave the program confident I can ask insightful questions and develop innovative ways to seek answers&mdash;I will utilize these skills as a physician, a scientist, and a citizen hoping to make the world better.
+              <br />
+              <br />
+             </p>
+             <p>
+              <img src="/media/contentassets/images/academics/biology/458958_10151215717798574_577551891_o.jpg" alt="Biology" style="  padding : 6px; margin : 3px;  float : left;" />
+              <span class="style2">
+               <strong>
+                Ed Quach '14
+               </strong>
+               <br />
+               Biochemistry major, Asian Traditions minor
+               <br />
+               Now a Ph.D. student at Emory University
+               <br />
+              </span>
+              &zwnj;
+             </p>
+             <p>
+              <span class="style2">
+               My interest in biochemistry has its origins in the same question that I believe prompts any science major to follow his or her passions: why? As I asked this question of my teachers, my textbooks, and yes, of Wikipedia and Google, I found that my answers always seemed to land me in the realm of molecular life sciences. Indeed, as the chemistry of life, how much more salient a truth can be offered than that with which biochemistry has enraptured me?
+              </span>
+             </p>
+             <p>
+              <span class="style2">
+               As a part of my four years in the Biochemistry major, I have been afforded some of the richest and most diverse experiences of my life. Flexible enough to permit me an entire semester of non-biochemistry studies in Tanzania and Kenya, and rigorous enough to support me in my successful application to summer research both at Muhlenberg and at Cornell University, the Biochemistry Program was the birthplace of my identity as a scientist. It has provided me with the necessary tools to feel confident studying primary literature in several fields, tackling modern scientific problems, and working in a laboratory setting. These skills will be vital as I pursue PhD programs and my future career in science.
+              </span>
+              <br />
+              <br />
+             </p>
+             <p>
+              <img src="/media/contentassets/images/academics/biology/Kotak_002.png" alt="Biology" style="  padding : 6px; margin : 3px;  float : left;" />
+              <strong>
+               Jenna Kotak '13
+               <br />
+              </strong>
+              Biochemistry and Math double major
+              <br />
+              Now in a doctoral program at Brown Univeristy
+             </p>
+             <p class="add12">
+              As a freshman, the biochemistry major was initially interesting to me simply because it examined biological questions under a smaller lens.&nbsp; After taking a few courses for the major, my appreciation grew for biochemistry as its own discipline, rather than any overlap of biology and chemistry. The required major courses provide a strong foundation in the many facets of biochemistry and the flexibility in the electives allows me to tailor my courses to my specific interests.
+             </p>
+             <p>
+              The biochemistry program challenged me and consistently piqued my interests, yet was manageable enough so that I was able to complete a major in mathematics as well. For the past two years I&rsquo;ve also worked with Dr. Hark on an independent research project that puts my biochemistry knowledge to use and gives me a greater understanding of how scientific research works. This year I plan to apply for Molecular Biology Ph. D. programs to further my studies of questions that fascinated me during my time at Muhlenberg.
+              <br />
+              <br />
+             </p>
+             <p class="style2">
+              <img src="/media/contentassets/images/academics/biology/baer.JPG" alt="Biology" style="  padding : 6px; margin : 3px;  float : left;" />
+              <strong>
+               Mike Baer '12
+               <br />
+              </strong>
+              Now a M.D. student at University of Pennsylvania
+             </p>
+             <p class="style2">
+              I chose to major in Biochemistry because the discipline bridges and synthesizes two sciences that I find enjoying and challenging to study. The flexibility and scope of the major appealed to me. In a single major I could study the genetic basis of life, the biochemical foundation of metabolism, and the quantum mechanical underpinnings of chemistry and physics. In addition, many biochemistry courses focus heavily on analyzing primary literature, a skill that I felt was very important to master.
+             </p>
+             <p class="style2">
+              While I certainly appreciate that the rigor of the program has prepared me well for medical school, I am most thankful for the relationships I was able to form with professors from several different departments.&nbsp; The biochemistry major also gave me the flexibility to perform research on a wide range, and the work I did with
+              <em>
+               C. elegans
+              </em>
+              in Dr. Wightman&rsquo;s laboratory will certainly stick with me as I move into the clinic.
+              <br />
+              <br />
+             </p>
+             <p>
+              <strong>
+               <img src="/media/migration-feb10094351/main/academics/biochemistry/info/images/tolaymat.jpg" alt="Biochemistry" style="  padding : 6px; margin : 3px;  float : left;" />
+              </strong>
+              <strong>
+               Mazen Tolaymat &lsquo;11
+               <br />
+              </strong>
+              M.D., Drexel University
+             </p>
+             <p>
+              Why did I choose a Biochem major? Because it explores in detail the chemistry that is most important to understanding the reactions that underlie everyday life processes, covers the various branches of human function and metabolism that I will need to know as a physician, and provides the freedom to choose electives in whatever areas of biology or chemistry that interest the student most.
+             </p>
+             <p>
+              While completing such a comprehensive major may sound like no small task, I have been engaged in many different areas during my college experience. In the fall of my junior year I studied abroad in Tokyo, Japan where I concentrated on studying culture and becoming more proficient in Japanese. I am close to completing a minor in Computer Science and was able to attend a bioinformatics workshop that melds my two disciplines. I conducted summer research all three summers of my college career in the areas of computer programming and analytical chemistry, both applied to answer ecology and plant biology questions. It is these experiences, along with the knowledge gained through the Biochemistry major that will allow me to succeed in medical school and beyond.
+             </p>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              <strong>
+               <img src="/media/migration-feb10094351/main/academics/biochemistry/info/images/torphy.jpg" alt="Biochemistry" style="  padding : 6px; margin : 3px;  float : left;" />
+              </strong>
+              <strong>
+               Bobby Torphy &lsquo;11
+               <br />
+              </strong>
+              M.D., University of North Carolina-Chapel Hill
+             </p>
+             <p>
+              <br />
+              My interest in the field of biochemistry stems from my desire to understand the underlying foundation of biological processes. In introductory biological courses I found myself repeatedly asking the question of &ldquo;how does this work?&rdquo; while in chemistry courses I wondered &ldquo;how does this apply to a biological system?&rdquo; Biochemistry answers many of these questions and allows me to integrate my curiosity for both biology and chemistry.
+             </p>
+             <p>
+              Pursuing a Biochemistry major has also prepared me well to apply my skills to a variety of challenging settings outside of the program. I have performed an independent research project on the form and function of avian alimentary tracts, was a Research Scholar at Lehigh Valley hospital studying the latest developments in aortic valve replacement, and will be doing biochemical research at the National Institutes of Health studying the effects of endogenous lipids on vascular disease. I also look forward to building on my strong foundation in biological processes in medical school.
+             </p>
+             <p>
+              &nbsp;
+             </p>
+             <p>
+              <strong>
+               <img src="/media/migration-feb10094351/main/academics/biochemistry/info/images/wright.jpg" alt="Biochemistry" style="  padding : 6px; margin : 3px;  float : left;" />
+              </strong>
+              <strong>
+               Elia Wright &lsquo;10
+               <br />
+              </strong>
+              Currently a Ph.D. student at University of Michigan
+             </p>
+             <p>
+              I knew exactly what I wanted to do before I applied to Muhlenberg &ndash; study biochemistry as an undergraduate and pursue a PhD in biochemistry. I officially declared my major to be Biochemistry as a second semester freshman and never looked back.
+             </p>
+             <p>
+              I enjoyed all the Biochemistry courses I took, and I forged great relationships with Dr. Hark (Biology Dept) and Dr. Colabroy (Chemistry Dept) that will last a lifetime. The courses offered at Muhlenberg prepared me for the Research Education for Undergraduates program with the Chemistry Department at the University of Michigan.
+             </p>
+             <p>
+              My summer research experience showed me how much I love doing research and increased my desire to pursue a PhD in biochemistry. Ultimately, I accepted an offer from the University of Michigan&rsquo;s Programs in Biomedical Sciences graduate training program. The Biochemistry major has increased my confidence in my abilities as a student and scientist and prepared me for the next step in my academic career.
+             </p>
+             <p class="add12">
+              <strong>
+               <br />
+              </strong>
+              <strong>
+               <img src="/media/contentassets/images/academics/biochemistry/info/alvaro-picture.jpg" alt="Biochemistry" style="  padding : 6px; margin : 3px;  float : left;" />
+               Chris Alvaro '10
+               <br />
+              </strong>
+              Ph.D., University of California-Berkeley
+             </p>
+             <p>
+              "Why biochemistry? I realized early in my college career that my interests lie in many areas of science and I was having trouble choosing just one concentration. When I learned about biochemistry, I realized I had the opportunity to explore several disciplines yet still be under a central umbrella.
+             </p>
+             <p>
+              How are cells truly functioning? What interactions are occurring at the molecular level? How can a change in structure develop into a disease? These questions began to fascinate me and biochemistry is my catalyst in exploring the answers. I am able to make connections between all of my courses and learn how to apply these various skills into research.
+             </p>
+             <p>
+              My biochemistry courses have also given me the confidence and experience to participate in research and I am currently working in Dr. Wightman&rsquo;s molecular genetics lab studying nuclear hormone receptors in Caenorhabditis elegans. I believe that my experience in biochemistry will give me an advantage in future research and greatly prepare me to tackle the challenges I have yet to face."
+             </p>
+            </div>
+           </div>
+           <!-- InstanceEndEditable -->
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Biochemistry
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/biochemistry/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biochemistry/informationforstudents/researchopportunities/">
+            Research Opportunities
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biochemistry/informationforstudents/honorsprograms/">
+            Honors Programs
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biochemistry/informationforstudents/careersinbiochemistry/">
+            Careers in Biochemistry
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/biochemistry/informationforstudents/studentprofiles/">
+             Student Profiles
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/biochemistry/informationforstudents/facilities/">
+            Facilities
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/biochemistry/informationforstudents/professionalorganizations/">
+            Professional Organizations
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/researchopportunities/"&gt;Research Opportunities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/honorsprograms/"&gt;Honors Programs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/careersinbiochemistry/"&gt;Careers in Biochemistry&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/studentprofiles/"&gt;Student Profiles&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/facilities/"&gt;Facilities&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/biochemistry/informationforstudents/professionalorganizations/"&gt;Professional Organizations&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Dr. Amy Hark wants her students to look beyond the classroom and see the impact the subjects they are studying have in the wider world.
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/amyharkgreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/hark-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             What insights can worms provide about tissue and organ systems in the human body?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/brucewightmangreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/wightman-small.jpg" alt="Image for GTGC Teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- Content Template Start: Right hand side callout-->
+         <div class="randomright">
+          <div class="content-box">
+           <h3>
+            Great Teachers, Great Courses...
+           </h3>
+           <div class="add03">
+            <span id="gtgcText">
+             Students in Jeremy Teiss&eacute;re's 'Mind and Brain' course have quite a challenge - can the experience of consciousness be narrowed down to 100 billion neurons?
+            </span>
+            <div align="right">
+             <a href="/academics/greatteachersgreatcourses/jeremyteisseregreatteachersgreatcourses/">
+              <img alt="image" src="http://www.muhlenberg.edu/images/bullet01.gif" />
+             </a>
+            </div>
+            <img src="/media/contentassets/images/gtgc/jeremy-small.jpg" alt="Image for GTGC teaser" style="     " />
+           </div>
+          </div>
+         </div>
+         <!--Content Template End-->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

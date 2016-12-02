@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.backbase.com/b" xmlns:s="http://www.backbase.com/s" xmlns:c="http://www.collegenet.com/c" xmlns:bx="http://www.collegenet.com/bx" xmlns:s25="http://www.collegenet.com/s25">
+ <head>
+  <title>
+   25Live
+  </title>
+  <!-- &lt;meta http-equiv="X-UA-Compatible" content="chrome=1"  /&gt;  -->
+  <!-- &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"  /&gt; -->
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="v24.0/gfx/25live.ico" />
+  <link rel="stylesheet" type="text/css" href="v24.0/app/layout.css" />
+  <link rel="stylesheet" type="text/css" href="v24.0/app/print.css" media="print" />
+  <link rel="stylesheet" type="text/css" href="local/inst.css" />
+  <link rel="stylesheet" type="text/css" href="v24.0/brisk/jquery-ui-1.10.2.custom.min.css" />
+  <link rel="stylesheet" type="text/css" href="v24.0/brisk/chosen.css" />
+  <link rel="stylesheet" type="text/css" href="v24.0/brisk/select2.css" />
+  <link rel="stylesheet" type="text/css" href="v24.0/brisk/wizard.css" />
+  <script type="text/javascript">
+   if (window.location.hostname.indexOf('unival.com') == -1) {
+			document.writeln('&lt;style type="text/css"&gt;.tool-Root {display:none}&lt;/style&gt;');
+		}
+  </script>
+  <script src="v24.0/utils/s25-utils.js">
+  </script>
+  <script src="v24.0/utils/jquery-1.9.1.js">
+  </script>
+  <script src="v24.0/utils/jquery-migrate-1.2.1.min.js">
+  </script>
+  <script src="v24.0/utils/tinymce/tinymce.min.js">
+  </script>
+  <!-- &lt;script src="v24.0/utils/jquery.timepicker.min.js"&gt;&lt;/script&gt; -->
+  <link rel="stylesheet" type="text/css" href="v24.0/utils/jquery.timepicker.css" />
+  <script src="version.js">
+  </script>
+  <script type="text/javascript">
+   // google analytics
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-31710329-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+  </script>
+  <script type="text/javascript">
+   // use brisk_dev folder
+		window.useBriskDev = false;
+		
+		/* Duck Punch Warning */
+		// get rid of 'Refused to set unsafe header "referer"' errors that appear in chrome
+		// store the original setRequestHeader function
+		XMLHttpRequest.prototype.originalSetRequestHeader = XMLHttpRequest.prototype.setRequestHeader; 
+		// define a new setRequestHeader function that passes to the original, as long as the name isn't "referer"... which causes
+		// a 'Refused to set unsafe header "referer"' error in chrome.
+		XMLHttpRequest.prototype.setRequestHeader = function(headerName,headerValue) { 
+			if (headerName != 'referer') {
+				XMLHttpRequest.prototype.originalSetRequestHeader.apply(this,arguments);
+			} 
+		}
+		
+		// screen is too small, redirect to mobile
+		var mobileURL = location.protocol + '//' + location.hostname + location.pathname + 'mobile.html';
+		if (screen.width &lt; 750 &amp;&amp; document.cookie.indexOf('marduk') == -1) window.location.replace(mobileURL);
+		
+		
+		// Will try every 2 seconds for maxAttempts time, to loadScript (per function above), 
+		// waiting for jQuery UI to be loaded.
+		var attempts = 0;
+		var maxAttempts = 10;
+		function loadUIDependentScript(scriptPath) {
+			attempts++;
+			if (jQuery.ui) {
+				log('Found jQuery.ui, loading ' + scriptPath);
+				loadScript(scriptPath);
+			} else {
+				if (attempts &lt; maxAttempts) {
+					log('Didn\'t find jQuery.ui Sortable on attempt ' + attempts + ' of ' + maxAttempts + '. Will try again...');
+					setTimeout('loadUIDependentScript("' + scriptPath + '")',2000);
+				} else {
+					log('Didn\'t find jQuery.ui Sortable on attempt ' + attempts + ' of ' + maxAttempts + '. I give up.');
+				}
+			}
+			
+		} 
+		
+		
+		function bootBB() {
+			if (typeof(window['bpc']) != 'undefined') {
+				bpc.boot();
+				// load require.js and a slender main.js - around 18k.
+				if (window.bootstrapBrisk) {
+					window.bootstrapBrisk();
+				} else {
+					setTimeout("window.bootstrapBrisk()",2000);
+				
+					if (console &amp;&amp; console.log) {
+						console.log('window.bootstrapBrisk not found in bootBB!! will try again in 2 seconds.');
+					}
+				}
+			} else {
+				setTimeout("bootBB()",50);
+			}
+		}
+		
+		function s25live_inst() {
+			// determine inst name from href
+			var s = (String(location.href)).replace(/^htt.*?\/\//,'');
+			s = s.replace(/[\?#].*$/,'');
+			s = s.replace(/index.*$/,'');
+			s = s.replace(/\/$/,'');
+			var a = s.split(/\//);
+			return a[a.length-1];
+		}
+		function s25live_ver() { return s25live_version; }
+		
+		window.onload = function() {
+			var n = navigator.userAgent;
+			
+			if (n.indexOf('MSIE') == -1 &amp;&amp; n.indexOf('Mozilla') == -1 &amp;&amp; n.indexOf('WebKit') == -1 &amp;&amp; n.indexOf('Opera') == -1) {
+				document.getElementById('Splash').style.display = 'none';
+				document.getElementById('UnsupportedBrowser').style.display = 'block';
+			} else if (n.indexOf('MSIE 8') != -1 || 
+					  (n.indexOf('MSIE 7') != -1 &amp;&amp; n.indexOf('compatible') == -1) || // IE 7 but not compatibility mode
+					   n.indexOf('MSIE 6') != -1 || n.indexOf('MSIE 5') != -1 || n.indexOf('MSIE 4') != -1 || n.indexOf('MSIE 3') != -1 || n.indexOf('MSIE 2') != -1 || 
+					 n.indexOf('Firefox 2.') != -1 || n.indexOf('Firefox/2.') != -1 || n.indexOf('Firefox/1.') != -1 || n.indexOf('Firefox/0') != -1) {
+				document.getElementById('Splash').style.display = 'none';
+				document.getElementById('UnsupportedBrowser').style.display = 'block';
+			} else if (n.indexOf('iPad') != -1 &amp;&amp; n.indexOf('CriOS') == -1) {
+				document.getElementById('Splash').style.display = 'none';
+				document.getElementById('iPadUnsupportedBrowser').style.display = 'block';
+			} else if (n.indexOf('Android 1') != -1 || n.indexOf('Android 2.0') != -1 || n.indexOf('Android 2.1') != -1 || n.indexOf('Android 2.2') != -1) {
+				document.getElementById('Splash').style.display = 'none';
+				document.getElementById('UnsupportedAndroid').style.display = 'block';
+			} else if ((n.indexOf('MSIE 7') != -1 &amp;&amp; n.indexOf('compatible') != -1)) {
+				// IE 9/10/11 in Compatibility View
+				document.getElementById('Splash').style.display = 'none';
+				document.getElementById('DisableCompatibility').style.display = 'block';
+			} else if (n.indexOf('MSIE 9.') != -1 || n.indexOf('MSIE 10.') != -1 || (n.indexOf('Trident') != -1 &amp;&amp; n.indexOf('like Gecko') != -1)) {
+				// IE 9/10/11 (not in Compatibility View)
+				loadScript("utils/jquery-ui-1.10.2.custom.min.js");
+				loadScript("backbase/source/bpc/boot.js");
+				setTimeout("bootBB()",50);
+			} else {
+				// everything else (Firefox, Chrome, Safari, old Android browser, etc)
+				loadScript("utils/jquery-ui-1.10.2.custom.min.js");
+				loadScript("/backbase/3_3_1g_dev/bpc/boot.js");
+				setTimeout("bootBB()",50);
+			}
+		}
+  </script>
+ </head>
+ <body id="s25" class="notLoggedIn" b:controlpath="/backbase/3_3_1g_dev/controls/basic" b:version="20100212">
+  <!--[if lt IE 10]&gt;
+		&lt;div style="display:none"&gt;
+			&lt;img src="gfx/_.gif"  /&gt;
+			&lt;img src="gfx/_.gif"  /&gt;
+			&lt;img src="gfx/_.gif"  /&gt;
+			&lt;img src="gfx/loading_anim.gif"  /&gt;
+			&lt;img src="gfx/loading_anim.gif"  /&gt;
+			&lt;img src="gfx/loading_anim.gif"  /&gt;
+			&lt;img src="gfx/icon_gear.gif"  /&gt;
+			&lt;img src="gfx/icon_gear.gif"  /&gt;
+			&lt;img src="gfx/icon_gear.gif"  /&gt;
+			&lt;img src="gfx/icon_date_back.gif"  /&gt;
+			&lt;img src="gfx/icon_date_back.gif"  /&gt;
+			&lt;img src="gfx/icon_date_back.gif"  /&gt;
+			&lt;img src="gfx/icon_date_forward.gif"  /&gt;
+			&lt;img src="gfx/icon_date_forward.gif"  /&gt;
+			&lt;img src="gfx/icon_date_forward.gif"  /&gt;
+			&lt;img src="gfx/icon_droparrow.gif"  /&gt;
+			&lt;img src="gfx/icon_droparrow.gif"  /&gt;
+			&lt;img src="gfx/icon_droparrow.gif"  /&gt;
+			&lt;img src="gfx/icon_refresh.png"  /&gt;
+			&lt;img src="gfx/icon_refresh.png"  /&gt;
+			&lt;img src="gfx/icon_refresh.png"  /&gt;
+		&lt;/div&gt;
+	&lt;![endif]-->
+  <div id="Splash" class="Splash" style="display:block">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_loading.gif" class="SplashLoading" />
+    <br />
+    <br />
+    <b>
+     Loading Application...
+    </b>
+   </div>
+  </div>
+  <div id="UnsupportedBrowser" class="Splash">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    We're sorry, the browser you are using is outdated
+    <br />
+    and/or not supported by 25Live.
+    <br />
+    <br />
+    Please use the most recent version of
+    <a href="http://www.google.com/chrome" target="chrome">
+     Chrome
+    </a>
+    ,
+    <a href="http://www.mozilla.com/firefox/" target="firefox">
+     Firefox
+    </a>
+    ,
+    <br />
+    <a href="http://www.apple.com/safari/" target="safari">
+     Safari
+    </a>
+    , or
+    <a href="http://www.microsoft.com/windows/internet-explorer/worldwide-sites.aspx" target="ie">
+     Internet Explorer
+    </a>
+    .
+   </div>
+  </div>
+  <div id="iPadUnsupportedBrowser" class="Splash">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    We're sorry, the iPad browser you are using is no longer supported.
+    <br />
+    <br />
+    Please use
+    <b>
+     Google Chrome
+    </b>
+    .
+   </div>
+  </div>
+  <div id="UnsupportedAndroid" class="Splash">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    <span style="font-size:19pt; line-height:100%; padding:0 15px; display:block;">
+     We're sorry, the Android browser you are using is outdated and not supported by 25Live.
+     <br />
+     <br />
+     Please try a different browser on your mobile device.
+    </span>
+   </div>
+  </div>
+  <div id="DisableCompatibility" class="Splash">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    Compatibility View is no longer required when using Internet Explorer.
+    <br />
+    <br />
+    In your browser menu, click "Tools" then "Compatibility View settings"
+    <br />
+    and remove this website from the list.
+   </div>
+  </div>
+  <div id="LoadFailure" class="Splash">
+   <div>
+    <img src="https://25live-a.collegenet.com/hybridssl/v24.0/gfx/25Live_logo.jpg" class="SplashLogo" />
+    <br />
+    <br />
+    <br />
+    <b>
+     Ouch!
+    </b>
+    25Live failed to load. A necessary component is absent.
+    <br />
+    <br />
+    Please refresh your browser and try again.
+   </div>
+  </div>
+  <xmp b:backbase="true" style="height:100%; display:none;" id="xmp">
+   <!-- former contents of controls.xml: -->
+   <s:controlpath b:match="b:button" b:value="/backbase/3_3_1g_dev/controls/system/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:rsrv_wiz_" b:value="v24.0/controls/s25-rsrv_wiz/editors/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:awform_wiz_" b:value="v24.0/controls/s25-awform_wiz/editors/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:event_details_" b:value="v24.0/controls/s25-event_details/controls/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:sales_admin_" b:value="v24.0/controls/s25-sales_admin/controls/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:invoice_" b:value="v24.0/controls/s25-invoice/controls/">
+   </s:controlpath>
+   <s:controlpath b:match="s25:*" b:value="v24.0/controls/">
+   </s:controlpath>
+   <s:controlpath b:match="bx:*" b:value="v24.0/controls/">
+    <s:variable b:name="s25_controlpath" b:scope="global" b:select="'v24.0/controls/'">
+     <span id="bxLoadingContainer" style="position:relative;z-index:1000">
+      <!-- load the application config XML -->
+      <s:include b:url="config.xml">
+       <s:event b:on="construct">
+       </s:event>
+      </s:include>
+     </span>
+    </s:variable>
+    <s:variable b:name="gUseNewWizard" b:scope="global" b:select="'true'">
+     <s:choose>
+      <s:when b:test="cookie('FontSize')">
+       <s:task b:action="addclass" b:target="/body" b:value="{concat('font', cookie('FontSize'))}">
+       </s:task>
+      </s:when>
+      <s:otherwise>
+       <s:task b:action="addclass" b:target="/body" b:value="font11">
+       </s:task>
+      </s:otherwise>
+     </s:choose>
+     <!-- &lt;s:task b:action="alert" b:value="{concat('declared($bpc_browser) = ', declared($bpc_browser))}"  /&gt; -->
+     <!-- &lt;s:task b:action="alert" b:value="{concat('$bpc_browser = ', $bpc_browser)}"  /&gt; -->
+     <s:if b:test="not(declared($bpc_browser))">
+     </s:if>
+    </s:variable>
+    <s:variable b:scope="local" b:name="user_agent" b:select="''">
+     <s:script>
+      bpc.setVariable('user_agent', [navigator.userAgent], 'local');
+     </s:script>
+     <!-- &lt;s:task b:action="alert" b:value="{concat('$user_agent = ', $user_agent)}"  /&gt; -->
+     <s:choose>
+      <s:when b:test="contains($user_agent, 'Firefox')">
+      </s:when>
+     </s:choose>
+    </s:variable>
+    <s:variable b:scope="global" b:name="bpc_browser" b:select="'moz'">
+     <s:when b:test="contains($user_agent, 'Safari')">
+     </s:when>
+    </s:variable>
+    <s:variable b:scope="global" b:name="bpc_browser" b:select="'safari'">
+     <!-- Internet Explorer 11 -->
+     <s:when b:test="contains($user_agent, 'like Gecko')">
+     </s:when>
+    </s:variable>
+    <s:variable b:scope="global" b:name="bpc_browser" b:select="'moz'">
+     <!-- Internet Explorer 9/10 -->
+     <s:when b:test="contains($user_agent, 'MSIE 9') or contains($user_agent, 'MSIE 10')">
+     </s:when>
+    </s:variable>
+    <s:variable b:scope="global" b:name="bpc_browser" b:select="'moz'">
+     <!-- &lt;s:when b:test="contains($user_agent, 'MSIE 10')"&gt;
+						&lt;s:variable b:scope="global" b:name="bpc_browser" b:select="'ie10'"  /&gt;
+					&lt;/s:when&gt;
+					&lt;s:when b:test="contains($user_agent, 'MSIE 9')"&gt;
+						&lt;s:variable b:scope="global" b:name="bpc_browser" b:select="'ie9'"  /&gt;
+					&lt;/s:when&gt; -->
+     <s:otherwise>
+     </s:otherwise>
+    </s:variable>
+    <s:variable b:scope="global" b:name="bpc_browser" b:select="'moz'">
+     <s:task b:action="msg" b:value="{concat('$bpc_browser (final) = ', $bpc_browser)}">
+      <!-- &lt;s:task b:test="starts-with($bpc_browser,'ie')" b:action="addclass" b:target="/body[1]" b:value="isIE"  /&gt; -->
+      <s:choose>
+       <s:when b:test="exists(id('AppConfig'))">
+       </s:when>
+      </s:choose>
+     </s:task>
+     <s:task b:action="load" b:method="GET" b:url="v24.0/app/application.xml" b:destination="." b:mode="aslastchild" b:showloading="false">
+      <!-- &lt;s:task b:action="hide" b:target="/body/html()/div[@id = 'Splash']"  /&gt; -->
+      <s:script>
+       document.getElementById('Splash').style.display = 'none';
+      </s:script>
+     </s:task>
+     <s:task b:action="show">
+      <!-- resize tabs for small-width displays -->
+      <s:script>
+       resizeTabs()
+      </s:script>
+      <s:otherwise>
+       <s:script>
+        document.getElementById('Splash').style.display = 'none';
+						document.getElementById('LoadFailure').style.display = 'block';
+       </s:script>
+      </s:otherwise>
+      <!-- &lt;s:include b:url="v24.0/app/application.xml"  /&gt; -->
+     </s:task>
+    </s:variable>
+   </s:controlpath>
+  </xmp>
+ </body>
+</html>

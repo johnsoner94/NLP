@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Research Talk - Psychology | Muhlenberg College
+  </title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Description" content="" />
+  <meta name="Keywords" content="" />
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css"  /&gt;-->
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!-- shell_all2.css -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/styleassets/css/shell_all2.css" />
+  <!-- image slideshow libraries 
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="/media/styleassets/js/jquery.cycle.all.js"&gt;&lt;/script&gt;
+
+ &lt;script type="text/javascript" src="/media/styleassets/js/modernizr.custom.40673.js"&gt;&lt;/script&gt;
+  -->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <style>
+   #content h1 {
+      line-height:0px;
+      }
+      #breadcrumb-wide {
+      font-size:0.75em;
+      padding-left:0px;
+      }
+
+    #content h2{
+		background:#cc092f;
+	   	padding: 21px 0 15px 19px; 
+		border-bottom:1px solid #003050;
+		font-size:/*1.875em*/30px;
+		color:#fff;
+		font-weight:normal;
+		line-height:/*1.875em*/30px;
+		margin:0;
+		height:32px;
+		overflow:hidden;
+    	background:#cc092f; 
+    	color:#fff;
+    }
+      
+      #content{
+      /*float:right; */
+		width:100%;
+    	background-color:white;
+    }
+        #content p{
+      padding-left:20px;
+      padding-right:20px;
+      }
+   #content button{
+        font-family:Normal400; 
+      	font-size:1em; 
+      }
+      *{
+      	font-family:Normal400; 
+      }
+      .content-add05 ul li a, .content-add05 ol li a { font-weight:normal }
+      #content ul li ul li {
+          font-size:1em;
+      
+      }
+ 
+      #content table {
+      	font-size: .75em;
+      }
+      #content table p{font-size:1em;}
+  </style>
+  <!-- cufon.js -->
+  <script type="text/javascript" src="/media/styleassets/js/cufon.js">
+  </script>
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <script type="text/javascript">
+   var RecaptchaOptions = {
+    theme : 'white'
+ };
+  </script>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Psychology
+       </h2>
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!--&lt;div &gt;-->
+       <a name="content">
+       </a>
+       <div class="content-add10" style="background-color:white">
+        <div class="content-add05" style="padding-left:15px;min-height:600px">
+         <!-- navigation object : Breadcrumbs - General Wide Layout -->
+         <div id="breadcrumb-wide">
+          <strong>
+           <a href="/">
+            Muhlenberg College
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/academics/">
+            Academics
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/">
+            Psychology
+           </a>
+           &nbsp;&gt;&nbsp;
+           <a href="/main/academics/psychology/researchtalk/">
+            Research Talk
+           </a>
+          </strong>
+         </div>
+         <!-- Content Template Start: General Content-->
+         <h1>
+         </h1>
+         <p style="text-align: center;">
+          <span style="font-family: Arial;">
+           <strong>
+            Giving an Empirical Presentation in Psychology
+           </strong>
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           Note: What is described below is a presentation about an empirical project. The presentation is assumed to be 15 minutes long, with 3-5 of those minutes left for questions. While each presentation will differ by topic, methodology, etc., there are some general guidelines for &ldquo;standard&rdquo; psychology talks. This 15 minute format is common at undergraduate conferences, and common for short "Hot Topic" presentations at professional conferences.
+           <br />
+           <br />
+           <strong>
+            Length
+           </strong>
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           Your presentation should be no longer than 10-12 minutes, leaving 3-5 minutes for questions. Within that time frame, the following format is often appropriate:
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Introduction &amp; Method: 5 minutes
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Results &amp; Discussion: 5 minutes
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           Obviously the above suggestions are flexible depending on the theoretical and/or methodological complexity of your project.
+          </span>
+         </p>
+         <p>
+          &nbsp;
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <strong>
+            Content
+           </strong>
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           Unlike your written work where you are asked to provide a great deal of detail, and (in particular) an extensive literature review, this talk will be a summary of your work. As painful as it may be to NOT discuss certain literature or, even, certain hypotheses or questionnaires included in your research, you need to figure out what your main/most important point in your research is and just present that. In general, you want to be precise, but present only the basic information that is needed to understand what you did, why you did it and what you found.
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <em>
+            General guidelines:
+           </em>
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Introduction
+            </em>
+            : This should be a very directed background briefly citing key studies leading up to your main hypothesis. As succinctly as possible, you want to tell the audience &ldquo;here is what we know&rdquo; and &ldquo;here is the gap my project fills.&rdquo; That being said, make your opening sentence an interesting question or dilemma about human nature/people&hellip; try to capture interest in the first sentence. Note, in many ways you are telling a story.
+           </span>
+           <ul>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              Your visuals (e.g., PowerPoint slides) for the Introduction should have simple bullet points which refer to the topic. Do not use the author, date citations as your bullet points. You may put the author and date citations in smaller font on the visual, but keep the major outline points directed toward the content of your talk, not its sources.
+             </span>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Method
+            </em>
+            : In general you should just be presenting the basics here &ndash; you can always answer questions about extraneous details at the end if people are curious. The basics do include, however, a quick run down of # of subjects, relevant demographics, etc.
+           </span>
+           <ul>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              Your goal is to be clear and concise, so you should feel a bit of freedom to organize this section in whatever way seems to tell the best story (note that an audience at an oral presentation may have trouble remembering long, complex methodological procedures by the time you get to results)
+             </span>
+            </li>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              In addition to the basics, you might (depending on your project) want to set up any big qualifications or holes you think people will see in your data (e.g., spend extra time talking about the poor internal consistency of a particular questionnaire). You can follow up this set up in the discussion.
+             </span>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Results &amp; Discussion
+            </em>
+            : Often in talks there is not a sharp line between results and discussion. A listening audience can&rsquo;t keep track of more than one or two results at a time and may forget what you found by the time you get to discussion. So, feel free to have what feels like a normal conversation and discuss each result as you present it (when appropriate). You can include statistical information (e.g., significance, effect sizes) on your visual as evidence that your results are statistically legitimate. You do not, however, have to read every word of the statistical findings out loud. Certainly you should point out relevant aspects of the statistics. Use figures and tables wherever possible.
+           </span>
+           <ul>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              e.g., DON'T:&nbsp; "Our F value was 3.45 and our p value was .03. The mean for Protestants was 5.56, the mean for Catholics was 4.58, the mean for Rastafarians was...."
+             </span>
+            </li>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              e.g., DO: "We found main effect for religion. As you can see from our Table/Figure, Protestants scored higher than Catholics, but lower than Rastafarians. We think this is interesting because it suggests that...."
+             </span>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Discussion
+            </em>
+            : You should eventually wind your way to a pure discussion section.
+           </span>
+           <ul>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              At that time do one or two of the following three things:
+             </span>
+             <ul>
+              <li>
+               <span style="font-family: Arial; font-size: small;">
+                note and discuss possible alternative explanations or limitations for your findings
+               </span>
+              </li>
+              <li>
+               <span style="font-family: Arial; font-size: small;">
+                note and discuss the direction future research could take
+               </span>
+              </li>
+              <li>
+               <span style="font-family: Arial; font-size: small;">
+                and/or note and discuss how your results add to or change the existing literature.
+               </span>
+              </li>
+             </ul>
+            </li>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              No matter what you talk about in the discussion, you should end up tying your talk back to the opening of your introduction.
+             </span>
+            </li>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              In the limitations section, DO NOT downplay the quality of your research. The reason why we encourage you to talk about problems/alternative explanations is because a psychologist holds an opinion only as long as the evidence supports it, and is always open to new evidence. Thus, if your results didn't turn out as hypothesized, your job is to discuss what could have caused the gap between your (excellent) reasoning and your results. If your results did support the hypothesis, you don&rsquo;t want to seem clueless about potential problems with your conclusions. But, do not undercut your work when you discuss possible problems.
+             </span>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Extra Info.
+            </em>
+            &ndash; In your speaker notes, you should have a page with extra information handy. For example, descriptive statistics, or &ldquo;follow-up&rdquo; analyses, etc. You won&rsquo;t present these things, but it sure is impressive when you can answer a question quickly with a precise number.
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <strong>
+            Visuals
+           </strong>
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            You will probably want to use visual aids to guide the audience through your talk (e.g., a PowerPoint slide show). You should be sure to have either a backup type of visual (e.g., overhead projector pages) or be prepared to give your talk without your visual aids. Computers and projectors break, pen/thumb drives fail, internet connections go on the fritz - you just never know.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            All visual aids should look professional. Try for the biggest font you can.
+           </span>
+          </li>
+         </ul>
+         <h3>
+          <span style="font-size: 20pt; font-family: Arial;">
+           USE AT LEAST 20 POINT FONT FOR MOST EVERYTHING YOU
+          </span>
+         </h3>
+         <h3>
+          <span style="font-size: 20pt; font-family: Arial;">
+           PRESENT.
+           <br />
+           <br />
+          </span>
+         </h3>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            LESS = MORE. Do not put every last thought on a slide. No need for complete sentences even. Think bullet points and topic phrases&hellip; No need to list excessive citations on your slides either. An audience should be able to &ldquo;
+            <em>
+             look at
+            </em>
+            &rdquo; your slide. If they must &ldquo;
+            <em>
+             read
+            </em>
+            &rdquo; it, they will stop listening to you and ultimately get lost. Also, be sure to provide your audience with enough time to examine any detailed information you do put up.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Use a dark background with light font (blue with bright yellow text) or a light background with dark font (white background and black text). What you see on your computer screen might look very different on a large projection screen, so keep it basic.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Do NOT use repeating or flashing animations on your PowerPoint slides. Watch out for templates that have sounds.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Your visuals should be attractive, but professionally attractive. In other words, no flowers or hearts, no excessive colors, the same font and background should be used for all slides, and be very very careful with clip art or photographs that are not directly relevant to your study. A bit of humor can be nice, but it should not be distracting.
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <em>
+            You should probably have the following visuals:
+           </em>
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Title
+            </em>
+            &ndash; one slide with the title, your name(s) and your college.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Introduction
+            </em>
+            &ndash; you should have at least one slide with a few introductory points/citations.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Methods
+            </em>
+            &ndash; you will probably have just a couple methods slides unless your procedure is complex. You should include example items for surveys. Tip: sometimes speakers put # of subjects, relevant demographics, basic descriptive statistics, etc. on a slide, but then do not actually present those things out loud to the audience. Although you wouldn&rsquo;t typically want to put something on a slide and not talk about it, in this instance it is a nice way to both save time and show that you did assess all those little details. If you do this, be certain you leave enough time for the audience to see the information, and do not clutter the slide with too much information (see below).
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Results
+            </em>
+            &ndash; you will probably have several results slide. Graphs and figures are GOOD. Tables are okay. In general you want to remember the guideline that audience members should be able to "look at" your slides rather than "read" them. Try to be as true to that as possible with statistical results. You can put significance levels, F or t values, etc. in smaller print on these slides. You don&rsquo;t need to prove to the audience that you understand stats by announcing how every finding is significant because p &lt; .05, but you should have statistical info. handy in case anyone asks. Right on the slides is a convenient storage place.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            <em>
+             Discussion
+            </em>
+            - you will probably need a slide or two with a few points for discussion.
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <strong>
+            Answering Questions
+           </strong>
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <em>
+            &ldquo;I don&rsquo;t know.&rdquo;
+           </em>
+           Say it now, out loud. You will know &ldquo;the&rdquo; answer, or &ldquo;an&rdquo; answer (or that fact that there is no answer) to most questions you are asked. However, &ldquo;I don&rsquo;t know&rdquo; is also a perfectly legitimate response. Your honesty will be appreciated more than posturing. BUT, that being said, there are multiple ways to say &ldquo;I don&rsquo;t know&rdquo; including:
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            &ldquo;That&rsquo;s an interesting question. What do you think?&rdquo;
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            &ldquo;I haven&rsquo;t considered that option, I&rsquo;ll have to think about that &ndash; thank you for the suggestion.&rdquo; (Then write down whatever they said if you actually think it has merit).
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <em>
+            When you &ldquo;kind of&rdquo; understand what they are asking&hellip;
+           </em>
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            &ldquo;I&rsquo;m not sure I understand exactly what you are asking &ndash; could you say that again?&rdquo;
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            &ldquo;I&rsquo;m not sure I am completely following your question, but let me say this and see if it addresses the problem&hellip;&rdquo; [follow with information you think is related; then ask them if that addressed their point].
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            &ldquo;I&rsquo;m not actually familiar with Theory X, but this may speak to your general point&hellip;&rdquo; [follow with information related to their question].
+           </span>
+          </li>
+         </ul>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           SILENCE is not your enemy. Remember, you are the expert who has read all the literature and spent time thinking about your topic. It is perfectly legitimate to listen to a question, pause, breathe, think about all that stuff you know and then respond. Your more thoughtful response will be appreciated.
+          </span>
+         </p>
+         <p>
+          <span style="font-family: Arial; font-size: small;">
+           <strong>
+            Additional Tips
+           </strong>
+           <br />
+           <em>
+            Here are a few tips regarding presentation style, etc.
+           </em>
+          </span>
+         </p>
+         <ul>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            PRACTICE, PRACTICE, PRACTICE!
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            You don&rsquo;t want to assume your audience has much knowledge of your topic, but you typically can assume a basic understanding of scientific research, hypothesis-testing, etc.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Presenters often put their speaker notes on stapled pages of paper rather than note cards (PowerPoint has a way to put notes right below the slide, then you can print "Notes pages" and see the upcoming slide along with your speaker notes). The use of pages rather than note cards emphasizes the collegial tone of most psychology presentations; i.e., you are sharing information, not dictating a speech.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Try not to read your talk, but if you must follow two tips:
+           </span>
+           <ul>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              Make eye contact with the audience occasionally. Actually write in your notes if you have to: "MAKE EYE CONTACT HERE"&nbsp; then highlight that spot so you can find your place on the page easily when you look back down.
+             </span>
+            </li>
+            <li>
+             <span style="font-family: Arial; font-size: small;">
+              Also if you must read, try to not SOUND like you are reading! Practice it enough so that you can give an engaging read with inflection, pauses, etc. Go slow, breathe.
+             </span>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            When referring to something up on a slide (e.g., pointing out one bar on a bar graph), consider walking to the screen and pointing at the screen (if possible).
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Practice working with the visuals, even if you are pretending to "click" to the next slide in your dorm room.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            PRACTICE, PRACTICE, PRACTICE
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Dress professionally but be comfortable. No jeans, no tennis shoes, nothing tight (no matter how "nice" it is). Men: ties are optional if you have an outfit that looks professional without a tie. Go ahead and take the time/effort to pick out an outfit you feel confident and comfortable in. After you&rsquo;ve done that, you can then forget about what you are wearing and focus on the important stuff!
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            PRACTICE, PRACTICE, PRACTICE
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            RELAX! Think of your audience as consisting of people who are simply interested in what you did and what you found, not a group of people who are evaluating YOU. This is, in fact, the truth about audiences at most psychology presentations.
+           </span>
+          </li>
+          <li>
+           <span style="font-family: Arial; font-size: small;">
+            Be confident! You know your project better than anyone else in the room. You are the expert. This is your chance to show off your excellent work!
+           </span>
+          </li>
+         </ul>
+         <!-- Content Template End-->
+        </div>
+       </div>
+       <div id="skip_nav">
+        <a href="#navigation">
+         Skip to Navigation
+        </a>
+       </div>
+      </div>
+      <div class="col02">
+       <!-- InstanceBeginEditable name="rightSide" -->
+       <!-- navigation object : General - Right Red Box -->
+       <!-- navigation object : General - Right Callout -->
+       <!-- navigation object : General - Right box -->
+       <!-- InstanceEndEditable -->
+      </div>
+     </div>
+    </div>
+    <!-- &lt;div class="sidebar-add03"&gt;
+                        &lt;h3&gt;Success!&lt;/h3&gt;
+					    &lt;ul&gt;
+                          &lt;li&gt;&lt;a href="#"&gt;About Our Alumni&lt;/a&gt;&lt;/li&gt;
+				        &lt;/ul&gt;
+				    &lt;/div&gt;-->
+   </div>
+  </div>
+  <!--Random jQuery Code-->
+  <script type="type" text="text/javascript">
+   $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+  </script>
+  <style>
+   /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+  </style>
+  <footer>
+   <div class="container" style="vertical-align:bottom">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

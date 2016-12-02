@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+   Detail page
+  </title>
+  <meta name="description" content="ebrary ProQuest Reader" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" />
+  <link rel="stylesheet" href="/optimizedresources/css/application-detailPage-base.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js">
+  </script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/js/application-detailPage-base.js">
+  </script>
+  <script src="/js/i18n/bookshelf_msg_en.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <!-- accessibility message -->
+  <div id="accessMessage" class="sr-only sr-only-focusable">
+   <h2>
+    Note for Screen Readers
+   </h2>
+   <p>
+    <a href="#ebtop1" tabindex="0">
+     Open this note
+    </a>
+   </p>
+   <form action="patronaccessiblity.action?dt=1480548979131" method="post">
+    <p class="status">
+     Accessibility Mode is off.
+    </p>
+    <p>
+     In accessibility mode, pages of books are presented as text rather than images, and other functions such as searching for a book or within the book are optimized for screen reader use.
+    </p>
+    <p>
+     To enable Accessibility Mode, please sign in.
+    </p>
+    <a href="login.action">
+     Sign In
+    </a>
+   </form>
+   <button class="btn btn-default btn-close icon-close" onclick="$('#accessMessage').hide()" id="accsPanelClose" aria-label="Close Accessibility Panel">
+   </button>
+  </div>
+  <!-- end accessibility message -->
+  <!-- reader main nav -->
+  <nav id="ebtop1" class="navbar navbar-inverse legacy" role="navigation">
+   <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header legacy">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar-links">
+     <span class="sr-only">
+      Toggle navigation
+     </span>
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+    </button>
+    <a href="home.action">
+     <div id="mainNav" class="legacy">
+      <span class="logoType legacy">
+       ProQuest
+      </span>
+      <span class="productType legacy">
+       ebrary
+      </span>
+     </div>
+    </a>
+   </div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse legacy" id="nav-bar-links">
+    <ul class="nav navbar-nav pull-right">
+     <li>
+      <a href="home.action?force=1">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="searchTab.action">
+       Search
+      </a>
+     </li>
+     <li>
+      <a href="myBookshelf.action">
+       Bookshelf
+      </a>
+     </li>
+     <li>
+      <a href="readerSupportHelp.action" target="_blank" type="button" class="btn btn-default btn-sm btn-global icon-help" id="helpGlobalTool" aria-label="Help">
+       <span class="btn-label-hidden">
+        Help
+       </span>
+      </a>
+     </li>
+     <li>
+      <a href="settings.action" type="button" class="btn btn-default btn-sm btn-global icon-profile" id="profileGlobalTool" aria-label="Profile">
+       <span class="btn-label-hidden">
+        Profile
+       </span>
+      </a>
+     </li>
+     <li>
+      <a id="signExternalGlobalTool" href="login.action">
+       Sign In
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- /.navbar-collapse -->
+  </nav>
+  <!-- end reader main nav -->
+  <!-- system message -->
+  <div id="message" style="display:none;">
+   <div class="container message-container">
+    <div class="row">
+     <div class="col-sm-2 col-md-2">
+      <div class="pull-right message-icon icon-hand">
+      </div>
+     </div>
+     <div id="message-content" class="col-sm-5 col-md-5 message">
+     </div>
+     <div class="col-sm-5 col-md-5">
+      <button id="message-close" type="button" class="btn pull-right">
+       <span class="icon-close">
+       </span>
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- end system message -->
+  <div id="dialog-success-msg" class="info" aria-live="assertive" style=" display:none; position: fixed;   top: 60px;   left: 25%;  right: 25%;  z-index: 7000;  ">
+   <div class="alert alert-info" role="alert">
+    <a class="close" onclick="$('#dialog-success-msg').hide()" href="#" aria-hidden="true">
+     &times;
+    </a>
+    <p id="sMsg" style="text-align:center;">
+    </p>
+    <br />
+   </div>
+  </div>
+  <!--  show error messages -->
+  <div id="dialog-error-msg" class="error" style=" display:none; position: fixed;   top: 60px;   left: 25%;  right: 25%;  z-index: 7000;  ">
+   <div class="alert alert-danger alert-error" role="alert">
+    <!--
+        &lt;a class="close" data-dismiss="alert" href="#" aria-hidden="true"&gt;&times;&lt;/a&gt;
+        -->
+    <p id="msg" style="text-align:center;">
+    </p>
+    <br />
+   </div>
+  </div>
+  <!--  end show error messages -->
+  <!-- page container -->
+  <div id="pageWrapper" class="container" role="main">
+   <!-- main content -->
+   <div class="visible-xs-block center-block">
+    <h1>
+     Sexual Selections : What We Can and Can’t Learn about Sex from Animals (1)
+    </h1>
+    <div class="authorSmall">
+     <i>
+      by
+     </i>
+     Zuk, Marlene
+     <br />
+    </div>
+   </div>
+   <div class="row">
+    <div id="leftCol" class="col-sm-3 col-md-2">
+     <div id="cover">
+      <img src="http://covers.ebrary.com/cc/10048946-l.jpg" alt="" class="thumbnail center-block img-responsive" />
+     </div>
+     <div id="book-buttons">
+      <a id="readerReadBtnId" href="reader.action?docID=10048946" type="button" class="btn btn-primary btn-block btn-icon">
+       <span class="icon-book-open icon-in-button">
+       </span>
+       <span class="button-label">
+        Read Online
+       </span>
+      </a>
+      <a id="wizardLauncherBtn" href="#" type="button" class="btn btn-primary btn-block btn-icon">
+       <span class="icon-download icon-in-button">
+       </span>
+       <span class="button-label">
+        Full Download
+       </span>
+      </a>
+      <div class="space-after">
+      </div>
+      <button rel="popover" id="chapterDownloadId" type="button" class="btn btn-primary btn-block btn-icon-quiet" data-container="body" data-toggle="popover" data-placement="right" title="Chapter Download" data-content="To create a downloadable chapter that doesn’t expire,&lt;a href=reader.action?docID=10048946&gt;open the book online&lt;/a&gt;, select a chapter in the Table of Contents, and click the Download Chapter button. &lt;span class='icon-chapter-download'&gt;&lt;br&gt;
+	  				        &lt;a id='chapterReaderOnlineId' href='reader.action?docID=10048946' class='btn btn-primary btn-sm pull-right'&gt;&lt;span class='button-label'&gt;Read Online&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href='javascript:void(0);' id='closeMe'&gt;Close&lt;/a&gt;">
+       <a href="reader.action?docID=10048946">
+        open the book online
+       </a>
+       , select a chapter in the Table of Contents, and click the Download Chapter button.
+       <span class="icon-chapter-download">
+        <br />
+        <a id="chapterReaderOnlineId" href="reader.action?docID=10048946" class="btn btn-primary btn-sm pull-right">
+         <span class="button-label">
+          Read Online
+         </span>
+        </a>
+        <br />
+        <br />
+        <a href="javascript:void(0);" id="closeMe">
+         Close
+        </a>
+        "&gt;
+        <span class="icon-chapter-download icon-in-button">
+        </span>
+        <span class="button-label">
+         Chapter Download
+        </span>
+       </span>
+      </button>
+      <button id="add_doc_link_10048946" type="button" class="btn btn-primary btn-block btn-icon-quiet">
+       <span class="icon-bookshelf-add icon-in-button">
+       </span>
+       <span class="button-label">
+        Add to BookShelf
+       </span>
+      </button>
+      <button type="button" class="btn btn-primary btn-block btn-icon-quiet" data-target="#shareLinkModal" id="share_link">
+       <span class="icon-link icon-in-button">
+       </span>
+       <span class="button-label">
+        Share Link to Book
+       </span>
+      </button>
+      <button id="citeModalBtn" type="button" class="btn btn-primary btn-block btn-icon-quiet" data-target="#citeModal">
+       <span class="icon-book-cite icon-in-button">
+       </span>
+       <span class="button-label">
+        Cite Book
+       </span>
+      </button>
+     </div>
+    </div>
+    <!-- middle content -->
+    <div id="midCol" class="col-sm-9 col-md-5">
+     <div class="hidden-xs">
+      <h1>
+       Sexual Selections : What We Can and Can’t Learn about Sex from Animals (1)
+      </h1>
+      <div class="author">
+       <i>
+        by
+       </i>
+       Zuk, Marlene
+       <br />
+      </div>
+     </div>
+     <div id="patron-content">
+      <!--  PD-14848
+				
+			-->
+      <div id="patron-availability">
+       <h2>
+        Availability
+       </h2>
+       <div class="facultyHolding">
+        Your institution has unlimited access to this book.
+       </div>
+       <div class="row holding-type roomy">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-book-open">
+         </span>
+         <span class="icon-checkmark checkmark">
+         </span>
+        </div>
+        <div class="col-xs-11 col-sm-11">
+         <a id="availableOnlineReadId" href="reader.action?docID=10048946">
+          Available for Online Reading
+         </a>
+         <div class="avail-info">
+          <span class="label">
+           37
+          </span>
+          Pages Remaining to Copy
+          <span>
+           (of 37)
+          </span>
+         </div>
+         <div class="avail-info">
+          <span class="label">
+           75
+          </span>
+          Pages Remaining to Print
+          <span>
+           (of 75)
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="row holding-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-download">
+         </span>
+         <span class="icon-checkmark checkmark">
+         </span>
+        </div>
+        <div class="col-xs-11 col-sm-11">
+         <a id="wizardLauncherLink" href="#">
+          Available for Full Download
+         </a>
+         <div class="avail-info">
+          Check out for 14 days
+         </div>
+        </div>
+       </div>
+       <!-- end row -->
+      </div>
+      <!-- end patron-availability -->
+     </div>
+     <!-- end patron -->
+     <div id="lib-content" style="display:none">
+      <div id="holdings">
+       <h2>
+        Library Holdings
+       </h2>
+       <div class="row holding-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-subscription">
+         </span>
+         <span class="icon-checkmark checkmark">
+         </span>
+        </div>
+        <div class="col-xs-11 col-sm-11">
+         Subscription
+        </div>
+       </div>
+       <!-- end row -->
+      </div>
+      <!-- end holdings -->
+      <div id="availability">
+       <h2>
+        ORDERING OPTIONS
+       </h2>
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-subscription">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Subscription
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         Variable Pricing
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-single">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Single-User Purchase
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         $85.00
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-3user">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         3-User Purchase
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         <fmt:message key="dd.na">
+         </fmt:message>
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-unlimited">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Unlimited Multi-User Purchase
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         <fmt:message key="dd.na">
+         </fmt:message>
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-pda">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Patron-Driven Acquisition
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         Variable Pricing
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-shortterm">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Short Term Loan (1 Day)
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         $25.50
+        </div>
+       </div>
+       <!-- end row -->
+       <div class="row availability-type">
+        <div class="col-xs-1 col-sm-1">
+         <span class="icon-license-shortterm">
+         </span>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+         Short Term Loan (7 Days)
+        </div>
+        <div class="col-xs-3 col-sm-3">
+         $34.00
+        </div>
+       </div>
+       <!-- end row -->
+      </div>
+      <!-- end availability -->
+     </div>
+     <!-- end lib content -->
+     <div id="toc">
+      <h2>
+       Table of Contents
+      </h2>
+      <div id="tabcon-list-cont">
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=1">
+         Intro
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=6">
+         Contents
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=10">
+         Acknowledgments
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=12">
+         Note on Species Names
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=13">
+         Introduction: An Ode to Witlessness
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="#" id="tabcon-lvl-25" class="no-decor">
+         <span divid="div-level-25" class="tabcon-icon icon-panel-open">
+          <span class="sr-only">
+           This section is collapsed
+          </span>
+         </span>
+        </a>
+        <a href="reader.action?docID=10048946&amp;ppg=31">
+         Part One: Sexual Stereotypes and the Biases That Bind
+        </a>
+       </h3>
+       <div id="tabcon-div-25">
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-first">
+         <a href="reader.action?docID=10048946&amp;ppg=33">
+          1: Sex and the Death of a Loon
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=46">
+          2: Substitute Stereotypes: The Myth of the Ecofeminist Animal
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=59">
+          3: Selfless Motherhood and Other Unnatural Acts
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=73">
+          4: DNA and the Meaning of Marriage
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-last">
+         <a href="reader.action?docID=10048946&amp;ppg=88">
+          5: The Care and Management of Sperm
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <!-- level 2 for each end -->
+       </div>
+       <!-- level 2 ul end  -->
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="#" id="tabcon-lvl-26" class="no-decor">
+         <span divid="div-level-26" class="tabcon-icon icon-panel-open">
+          <span class="sr-only">
+           This section is collapsed
+          </span>
+         </span>
+        </a>
+        <a href="reader.action?docID=10048946&amp;ppg=103">
+         Part Two: Unnatural Myths
+        </a>
+       </h3>
+       <div id="tabcon-div-26">
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-first">
+         <a href="reader.action?docID=10048946&amp;ppg=105">
+          6: Sex and the Scala Naturae (or, Worms in the Gutter)
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=119">
+          7: Bonobos: Dolphins of the New Millennium
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-last">
+         <a href="reader.action?docID=10048946&amp;ppg=133">
+          8. The Alpha Chicken
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <!-- level 2 for each end -->
+       </div>
+       <!-- level 2 ul end  -->
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="#" id="tabcon-lvl-27" class="no-decor">
+         <span divid="div-level-27" class="tabcon-icon icon-panel-open">
+          <span class="sr-only">
+           This section is collapsed
+          </span>
+         </span>
+        </a>
+        <a href="reader.action?docID=10048946&amp;ppg=149">
+         Part Three: Human Evolutionary Perspectives
+        </a>
+       </h3>
+       <div id="tabcon-div-27">
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-first">
+         <a href="reader.action?docID=10048946&amp;ppg=151">
+          9. Soccer, Adaptation, and Orgasms
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=165">
+          10. Sacred or Cellular: The Meaning of Menstruation
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 ">
+         <a href="reader.action?docID=10048946&amp;ppg=180">
+          11. That’s not Sex, They’re just Glad to See Each Other
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <h4 class="tabcon tabcon-level-2 tabcon-level-2-last">
+         <a href="reader.action?docID=10048946&amp;ppg=196">
+          12. Can Voles do Math?
+         </a>
+        </h4>
+        <!--  level 2 h4 end  -->
+        <!-- level 3 exists end  -->
+        <!-- level 2 for each end -->
+       </div>
+       <!-- level 2 ul end  -->
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=212">
+         Conclusion: Unnatural Boundaries
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=225">
+         Selected Readings
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 ">
+        <a href="reader.action?docID=10048946&amp;ppg=231">
+         References
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <h3 class="tabcon tabcon-level-1 tabcon-level-1-last">
+        <a href="reader.action?docID=10048946&amp;ppg=241">
+         Index
+        </a>
+       </h3>
+       <!-- level 2 exists end  -->
+       <!-- level 1 li end  -->
+       <!-- level 1 for each end -->
+      </div>
+      <!-- tc-list-cont -->
+     </div>
+     <!-- end toc -->
+    </div>
+    <!-- end middle content -->
+    <!-- right content -->
+    <div id="rightCol" class="col-sm-12 col-md-5">
+     <h2>
+      BIBLIOGRAPHIC INFO
+     </h2>
+     <div id="bibliographic-data">
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Title
+       </div>
+       <div class="col-sm-9 bib-field">
+        Sexual Selections : What We Can and Can’t Learn about Sex from Animals (1)
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Contributor
+       </div>
+       <div class="col-sm-9 bib-field">
+        Zuk, Marlene
+        <br />
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Publisher
+       </div>
+       <div class="col-sm-9 bib-field">
+        University of California Press
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Date Published
+       </div>
+       <div class="col-sm-9 bib-field">
+        June 2002
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Language
+       </div>
+       <div class="col-sm-9 bib-field">
+        English
+        <br />
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Pages
+       </div>
+       <div class="col-sm-9 bib-field">
+        252
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Document Type
+       </div>
+       <div class="col-sm-9 bib-field" style="text-transform: capitalize">
+        book
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        LC Subject Headings
+       </div>
+       <div class="col-sm-9 bib-field">
+        Sexual behavior in animals.
+        <br />
+        Animal behavior.
+        <br />
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        LC Call Number
+       </div>
+       <div class="col-sm-9 bib-field">
+        QL761 -- .Z85 2002eb
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Dewey Decimal Number
+       </div>
+       <div class="col-sm-9 bib-field">
+        306.7
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        Print ISBN
+       </div>
+       <div class="col-sm-9 bib-field">
+        9780520240759
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        eBook ISBN
+       </div>
+       <div class="col-sm-9 bib-field">
+        9780520937673
+       </div>
+      </div>
+      <!-- end row -->
+      <div class="row">
+       <div class="col-sm-3 bib-label">
+        OCLC Number
+       </div>
+       <div class="col-sm-9 bib-field">
+        70720664
+       </div>
+      </div>
+      <!-- end row -->
+     </div>
+    </div>
+    <!-- end right content -->
+   </div>
+   <!-- end main content -->
+  </div>
+  <!-- end container -->
+  <!-- Share Link Modal -->
+  <div class="modal fade" id="shareLinkModal" tabindex="-1" aria-hidden="true" aria-labelledby="myLbshareLinkModal">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button type="button" class="close btn-close" data-dismiss="modal">
+       <span class="icon-close" aria-hidden="true">
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <h2 class="modal-title" id="myLbshareLinkModal">
+       Share this book
+      </h2>
+     </div>
+     <div class="modal-body">
+      <div class="modal-book-title">
+       Sexual Selections : What We Can and Can’t Learn about Sex from Animals (1)
+       <span class="modal-book-byline">
+        by
+       </span>
+       <span class="modal-book-author">
+        Zuk, Marlene &nbsp;
+       </span>
+      </div>
+     </div>
+     <form class="form-horizontal" role="form">
+      <div class="form-group row">
+       <label for="shareUrl" class="col-sm-3 control-label modal-control-label">
+        Copy Link
+       </label>
+       <div class="col-sm-8">
+        <textarea type="textarea" rows="4" class="form-control" id="shareUrl" style="resize:none">
+        </textarea>
+        <p class="modal-helptext">
+         Press
+         <em>
+          Control-C
+         </em>
+         to copy
+        </p>
+       </div>
+      </div>
+      <div class="form-group row">
+       <div class="col-sm-11 col-sm-offset-1">
+        <span class="modal-tip-helptext">
+         <strong>
+          Tip:
+         </strong>
+        </span>
+        <strong>
+         this link brings you back to the current page of this book
+        </strong>
+       </div>
+      </div>
+     </form>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">
+       Close
+      </button>
+      <button type="button" class="btn btn-primary" data-dismiss="modal">
+       Done
+      </button>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!-- Login modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="myModalLabelloginModal">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button type="button" class="close btn-close" data-dismiss="modal">
+       <span class="icon-close" aria-hidden="true">
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <h4 class="modal-title" id="myModalLabelloginModal">
+       SIGN IN
+      </h4>
+     </div>
+     <div class="modal-body">
+      <iframe src="" frameborder="0" height="380" width="560" scrolling="no">
+      </iframe>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!-- Cite modal -->
+  <div class="modal fade" id="citeModal" tabindex="-1" aria-labelledby="myciteModal">
+   <div class="modal-dialog" id="citeModaldialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <button type="button" class="close btn-close" data-dismiss="modal">
+       <span class="icon-close" aria-hidden="true">
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <h2 class="modal-title" id="myciteModal">
+       Citation
+      </h2>
+     </div>
+     <div class="modal-body">
+      <div class="modal-subhead">
+       Copy Citation
+      </div>
+      <form class="form-horizontal" role="form">
+       <div class="form-group">
+        <label for="cite-format" class="col-xs-2 modal-label control-label align-left">
+         Format
+        </label>
+        <div class="col-xs-9 align-right">
+         <select class="form-control" name="cite-format" id="cite-format">
+         </select>
+        </div>
+        <div class="col-xs-1">
+        </div>
+       </div>
+       <div class="form-group">
+        <label for="citation-content" class="control-label sr-only">
+        </label>
+        <div class="col-xs-12">
+         <textarea name="citation-content" id="citation-content" class="modal-textarea form-control" rows="5" style="resize:none">
+         </textarea>
+         <p class="modal-helptext">
+          Press
+          <em>
+           Control-C
+          </em>
+          to copy
+         </p>
+        </div>
+       </div>
+       <div class="modal-subhead space-before">
+        Export Citation
+       </div>
+       <button type="button" id="citationRefWorks" class="btn btn-default">
+        RefWorks/Flow
+       </button>
+       <a href="biblioExport.action?docID=10048946" type="button" id="citationEndNoteCitavi" class="btn btn-default">
+        EndNote/Citavi
+       </a>
+      </form>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="btn btn-primary" data-dismiss="modal">
+       Close
+      </button>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+  <!-- Download Modal -->
+  <div class="modal fade modal-wizard download-modal-wizard" aria-live="assertive" id="downloadWizardModal" tabindex="-1" role="dialog" aria-labelledby="myLbDevice">
+   <div id="dwnSteps" class="modal-dialog">
+    <!--  Step 1 -->
+    <div class="modal-content wizard-box wizard-step-device active" id="deviceStep" tabindex="-1">
+     <div class="step-header-wrapper">
+      <div class="step-header">
+       <h2 class="modal-title collapsed">
+        <span>
+         1.
+        </span>
+        Device
+       </h2>
+       <h2 id="myLbDevice" class="modal-title expanded ">
+        <span>
+         1.
+        </span>
+        What device are you using?
+       </h2>
+      </div>
+      <a href="#" class="change-button on-attempted">
+       edit this step
+      </a>
+     </div>
+     <div class="wizard-content">
+      <!-- devices list -->
+      <ul class="devices-list clearfix">
+       <li class="device-desktop" role="listitem" tabindex="0">
+        <!--  device-selected -->
+        <div class="device-icon icon-device-desktop" data-icon-class="icon-device-desktop" aria-hidden="true" aria-describedby="dtLpt">
+        </div>
+        <div id="dtLpt" class="device-type" role="button" aria-hidden="false">
+         <span class="title">
+          Laptop Desktop
+         </span>
+         <span class="sr-only">
+         </span>
+        </div>
+       </li>
+       <li class="device-ios" role="listitem" tabindex="0">
+        <div class="device-icon icon-device-ios" data-icon-class="icon-device-ios" aria-hidden="true" aria-describedby="dtIos">
+        </div>
+        <div id="dtIos" class="device-type" role="button">
+         <span class="title">
+          iOS
+         </span>
+         <span class="cats">
+          (iPad, iPhone, iPod)
+         </span>
+         <span class="sr-only">
+         </span>
+        </div>
+       </li>
+       <li class="device-android" role="listitem" tabindex="0">
+        <div class="device-icon icon-device-android" data-icon-class="icon-device-android" aria-hidden="true" aria-describedby="dtAndr">
+        </div>
+        <div id="dtAndr" class="device-type" role="button">
+         <span class="title">
+          Android
+         </span>
+         <span class="cats">
+          (Phone, Tablet)
+         </span>
+         <span class="sr-only">
+         </span>
+        </div>
+       </li>
+       <li class="device-other" role="listitem" tabindex="0">
+        <div class="device-icon icon-device-unknown" data-icon-class="icon-device-unknown" aria-hidden="true" aria-describedby="dtOth">
+        </div>
+        <div id="dtOth" class="device-type" role="button">
+         <span class="title">
+          Other
+         </span>
+         <span class="sr-only">
+         </span>
+        </div>
+       </li>
+      </ul>
+      <!-- device selection form -->
+      <form class="form-horizontal form-device-type" role="form">
+       <div class="form-group">
+        <div class="col-xs-12  col-xs-offset-1 col-sm-9 col-sm-offset-3">
+         <div class="radio">
+          <!-- &lt;span  class="pretty-radio"&gt;&lt;a href="#"&gt;&lt;p aria-describedby="ownDevice" class="sr-only"&gt;Radio Button I'm using my own computer&lt;/p&gt;&lt;/a&gt;&lt;/span&gt; -->
+          <label>
+           <input type="radio" name="deviceType" id="ownDevice" value="1" checked="checked" />
+           I'm using my own computer
+          </label>
+         </div>
+         <div aria-describedby="sharedDevice" class="radio">
+          <!-- &lt;span  class="pretty-radio"&gt;&lt;a   href="#"&gt;&lt;p  class="sr-only"&gt;Radio Button I'm using a public computer&lt;/p&gt;&lt;/a&gt;&lt;/span&gt; -->
+          <label>
+           <input type="radio" name="deviceType" id="sharedDevice" value="2" />
+           I'm using a public computer
+          </label>
+         </div>
+        </div>
+       </div>
+       <div class="form-group action-row">
+        <div class="col-sm-offset-4 col-sm-8 clearfix">
+         <button type="submit" class="btn btn-primary btn-lg  dl-btn-resp" id="continueButton">
+          Continue
+         </button>
+        </div>
+       </div>
+      </form>
+     </div>
+    </div>
+    <!-- Step 2 -->
+    <div class="modal-content wizard-box wizard-step-install" id="installStep" tabindex="-1">
+     <div class="step-header-wrapper">
+      <div class="step-header">
+       <h2 class="modal-title collapsed">
+        <span>
+         2.
+        </span>
+        Install
+       </h2>
+       <h2 class="modal-title expanded">
+        <span>
+         2.
+        </span>
+        Install
+       </h2>
+      </div>
+      <a href="#" class="change-button on-attempted">
+       edit this step
+      </a>
+     </div>
+     <div class="wizard-content">
+      <div class="row">
+       <div class="col-xs-3">
+        <i class="icon-idea info-icon" aria-hidden="true">
+        </i>
+       </div>
+       <div class="col-xs-9 copy">
+       </div>
+      </div>
+      <div class="action-row">
+      </div>
+     </div>
+    </div>
+    <!--  Step 3 -->
+    <div class="modal-content wizard-box wizard-step-download" id="downloadStep" tabindex="-1">
+     <div class="step-header">
+      <h2 class="modal-title collapsed">
+       <span>
+        3.
+       </span>
+       Download
+      </h2>
+      <h2 class="modal-title expanded">
+       <span>
+        3.
+       </span>
+       Download
+      </h2>
+     </div>
+     <div class="wizard-content">
+      <h3>
+       <span>
+        Sexual Selections : What We Can and Can’t Learn about Sex from Animals (1)
+       </span>
+      </h3>
+      <div class="row">
+       <div class="col-xs-3  col-sm-3">
+        <img src="http://covers.ebrary.com/cc/10048946-s.jpg" alt="" class="img-responsive" />
+       </div>
+       <div class="col-xs-9  col-sm-9 book-meta">
+        <p>
+         Author:
+					
+					
+						Zuk, Marlene &nbsp;
+        </p>
+        <p>
+         Length: 252 Pages
+        </p>
+        <p>
+         Expires In: 
+	               
+	                  
+		               
+		                   14 days
+        </p>
+        <p>
+         File Size: 1308k (1.3MB)
+        </p>
+       </div>
+      </div>
+      <div class="action-row">
+       <a href="acsDownload.action?docID=10048946&amp;op=final" type="button" class="btn btn-primary btn-lg  dl-btn-resp" id="downloadBookButton">
+        Download Your Book
+       </a>
+       <br />
+       <br />
+       <a href="readerSupportHelp.action" target="_blank" class="dl-btn-resp">
+        Need Help?
+       </a>
+      </div>
+     </div>
+    </div>
+    <button type="button" class="close wizard-close" data-dismiss="modal">
+     <span aria-hidden="true">
+      &times;
+     </span>
+     <span class="sr-only">
+      Close
+     </span>
+    </button>
+    <!-- error message -->
+    <div class="modal-content wizard-box wizard-step-device active hide" id="errorStep">
+     <div class="row error-nupo_confirm hide">
+      <div class="col-md-2 col-md-offset-1 alert-icon" aria-hidden="true">
+       <span class="icon-idea">
+       </span>
+      </div>
+      <div>
+       <h3 class="alert-h3">
+        This is the last copy of the book.
+       </h3>
+       <p>
+        Once downloaded, you can no longer access it online.
+       </p>
+      </div>
+      <div class="action-row pull-right col-sm-offset-4">
+       <button type="button" class="btn btn-default error-nupo_confirm" data-dismiss="modal">
+        Cancel
+       </button>
+       <button id="downloadAlertContinue" type="button" class="btn btn-primary error-nupo_confirm">
+        Continue Download
+       </button>
+      </div>
+     </div>
+     <div class="row error-no_access hide">
+      <div class="col-md-2 col-md-offset-1 alert-icon">
+       <span class="icon-hand">
+       </span>
+      </div>
+      <div>
+       <h3 class="alert-h3">
+        This book is not available for download.
+       </h3>
+      </div>
+      <div class="action-row pull-right col-sm-offset-4">
+       <button type="button" class="btn btn-primary error-no_access hide" data-dismiss="modal">
+        Close
+       </button>
+      </div>
+     </div>
+    </div>
+    <!-- end error message -->
+   </div>
+  </div>
+  <!--  End: download modal dialog -->
+  <script type="text/javascript">
+   $(document).ready(function () {	    
+    // Wizard Modal functionality
+    
+    
+    (function () {
+        // Show first modal by default
+        var $downloadModal = $('.modal-wizard'),
+            $wizards = $downloadModal.find('.wizard-box'),
+            $deviceStep = $downloadModal.find('#deviceStep'),
+            $installStep = $downloadModal.find('#installStep'),
+            $downloadStep = $downloadModal.find('#downloadStep'),
+            $errorStep = $downloadModal.find('#errorStep'),
+            $changeButtons = $downloadModal.find('.change-button'),
+            $deviceIcons = $deviceStep.find('.devices-list li'),
+            $ownershipTypes = $deviceStep.find('[name=deviceType]'),
+            $downloadButton = $downloadStep.find('#downloadBookButton'),
+            $prettyControls = $('.pretty-control'),
+        	$prettyBoxes = $prettyControls.find('.pretty-radio'),
+            prevSelectedDevice = null,
+            acsDownloadLink = 'acsDownload.action?docID=10048946',
+            currentStep = 1,
+            collapseWizardBox,
+            downloadBook,
+            expandWizardBox,
+            getDownloadAccess,
+            getDeviceFormFactor,
+            goToStep,
+            handleAccessError,
+            updateInstallBox,
+            updateOwnershipControls,
+            cookieKey = "DOWNLOAD_DEVICE",
+            cookieDays = 365;
+            localDocID = 10048946;
+
+        
+            
+       	getDownloadAccess = function (op) {
+       	    var access = 'no_access';    
+       	    $.ajax({
+       	    	  dataType: "json",
+       	    	  url: acsDownloadLink + (op ? '&amp;op=' + op : ''),
+       	    	  async: false,
+       	    	  success: function(data) {
+       		                  if (data.status)
+       		                	access = data.status;
+       		      },
+       	    });
+       	   
+       	    return access;
+       	};
+       	
+        downloadBook = function() {
+       	  	setCookie(cookieKey, getDeviceFormFactor()+'-'+getDeviceOwnership(), cookieDays);
+   	  		closeModal();
+        };
+       	
+        getDeviceFormFactor = function() {
+        	return $deviceStep
+             .find('.device-selected')
+             .find('.device-icon')
+             .data('icon-class').replace(/icon-device-/, '');
+        };
+        
+        getDeviceOwnership = function() {
+        	return $ownershipTypes.filter(':checked').val();
+        };
+        
+        collapseWizardBox = function ($box) {
+            $box.removeClass('active');
+            $box.addClass('attempted');
+        };
+
+        expandWizardBox = function ($box) {
+            $box.addClass('active');
+        };
+        
+        updateInstallBox = function () {
+             // Install Step
+             var tpl = '&lt;a href="{{readerLink}}" target="new" type="button" class="btn btn-primary btn-lg  dl-btn-resp {{private}}" id="getReaderButton"&gt;{{title}}&lt;/a&gt;',
+                 bodyTpl = '&lt;h3&gt;You will need {{reader}}&lt;/h3&gt;',
+                 deviceFormFactor = getDeviceFormFactor(),
+                 reader = (deviceFormFactor === 'ios' || deviceFormFactor === 'android') ?
+                     'Bluefire Reader' :
+                     'Adobe Digital Editions',
+                 readerLink = {
+                     ios: 'http://itunes.com/apps/bluefirereader',
+                     android: 'https://play.google.com/store/apps/details?id=com.bluefirereader',
+                     desktop: 'http://www.adobe.com/products/digital-editions/download.html'
+                 },
+                 deviceOwnership = getDeviceOwnership(),
+                 privateClass = (deviceOwnership === '1' &amp;&amp; deviceFormFactor !== 'unknown') ?
+                     'orange ' :
+                     '',
+                 buttonTitle = (function () {
+                     var title = '';
+
+                     if (deviceFormFactor === 'unknown') {
+                         title = 'Cancel';
+                         return title;
+                     }
+
+                     title += deviceOwnership === '1' ? 'Get ' : 'I Have ';
+                     title += reader;
+
+                     return title;
+                 }());
+
+             tpl = tpl.replace('{{title}}', buttonTitle);
+             tpl = tpl.replace('{{private}}', privateClass);
+
+             // set reader download link
+             tpl = tpl.replace('{{readerLink}}', deviceOwnership === '1' ? readerLink[deviceFormFactor] : '#');
+
+             if (deviceFormFactor === 'unknown') {
+                 bodyTpl = '&lt;p&gt;Sorry, we do not officially support download to other devices. If you use an emulator, you may wish to try the PC/Mac option.&lt;/p&gt;';
+             } else {
+                 if (deviceOwnership === '1') {
+                     bodyTpl += '&lt;p&gt; &lt;a href="{{readerLink}}" target="new"&gt; {{reader}} &lt;/a&gt; is required to download books. This free software is different from Adobe Reader.&lt;/p&gt;';
+                     if (deviceFormFactor === 'desktop') {
+                     	 bodyTpl += '&lt;p&gt;A free &lt;a href="http://www.adobe.com/products/digital-editions/ebookcreateid.html" target="new"&gt;Adobe ID&lt;/a&gt; is also required to transfer the book to another device. It is not required to read books on this computer.&lt;/p&gt;';	
+                     }
+                     else {
+                    	 bodyTpl += '&lt;p&gt;You will also need a free &lt;a href="http://www.adobe.com/products/digital-editions/ebookcreateid.html" target="new"&gt;Adobe ID&lt;/a&gt; to read this book.&lt;/p&gt;';
+                     }
+
+                     tpl += '&lt;a href="#" class="title skip-install" id="doneInstallStep"&gt;Done with this step &rsaquo;&lt;/a&gt;';
+                 } else {
+                     bodyTpl += '&lt;p class="copy-larger  hidden-xs"&gt;&lt;b&gt;Tip:&lt;/b&gt; Consider downloading the book to your own computer instead, so you can retain access for the full download period.&lt;/p&gt;\
+                             &lt;p&gt;&lt;a href="{{readerLink}}" target="new"&gt;{{reader}}&lt;/a&gt; is required to download books. If you are unsure whether it is installed, you should check with the administrator of this device.&lt;/p&gt;';
+                 }
+             }
+
+             bodyTpl = bodyTpl.replace(/{{reader}}/g, reader);
+             bodyTpl = bodyTpl.replace(/{{readerLink}}/, readerLink[deviceFormFactor]);
+
+             $installStep.find('.action-row').html(tpl);
+             $installStep.find('.copy').html(bodyTpl);
+
+             $installStep.removeClass(prevSelectedDevice).addClass(deviceFormFactor);
+             prevSelectedDevice = deviceFormFactor;
+        };
+        
+        // Navigates to specified wizard step
+        goToStep = function (stepNum) {
+            // 0 based index
+            stepNum -= 1;
+            if (stepNum &gt;= $wizards.length) {
+                return;
+            }
+        
+            
+            
+            var stepLabel = "DP_DOWNLOAD_" + stepNum ;
+            var label1 = stepLabel + " detailpage for common-id:" + localDocID ;			
+  		    addGaEvents(stepLabel,label1 , "User is on download step : " + stepNum); 
+			
+
+            // de-activate any previously selected box
+            collapseWizardBox($wizards.filter('.active'));
+            expandWizardBox($wizards.eq(stepNum));
+        	$('.wizard-box').removeClass('hide');
+            $errorStep.addClass('hide');
+        };
+
+        handleAccessError = function(access_error) {
+        	
+        	if ( $('#pmsg').children().length &gt; 0 ) {
+    			$('.error-'+access_error).detach().prependTo('#errorStep');
+        	}
+        	
+       		$('div[class^=error]', $errorStep).addClass('hide');
+       		$('.error-'+access_error, $errorStep).removeClass('hide');
+       		
+            // hide all other boxes
+        	$('.wizard-box').addClass('hide');
+            $errorStep.removeClass('hide');
+        };
+        
+        closeModal = function () {
+            // dismiss the dialog
+            $('#downloadWizardModal').modal('hide');        	
+        };
+
+	    updateOwnershipControls = function ($input) {
+	    	
+	        var $container = $input.closest('.pretty-control'),
+	            $augmentedInput = $container.find('span'),
+	            state = $input[0].checked;
+	
+	        if ($input.attr('type') === 'radio') {
+	            if (!state) {
+	                return;
+	            }
+	
+	            var name = $input.attr('name'),
+	                $otherRadios = $('[name="' + name + '"]').closest('.pretty-control').find('span');
+	
+	            $otherRadios.removeClass('checked');
+	            $augmentedInput.addClass('checked');
+	        }
+	    };
+
+        $downloadModal.on('show.bs.modal', function () {        	
+            // Set the selected device to iOS or Android if appropriate, otherwise assume desktop            
+
+           	if ( navigator.userAgent.match(/(iPad|iPhone|iPod)/i) )
+               	prevSelectedDevice = 'ios';
+           	else if ( navigator.userAgent.match(/(Android)/i) )
+               	prevSelectedDevice = 'android';       
+           		prevSelectedDevice = 'desktop';
+
+            // Check the cookie  
+            var cookie = readCookie(cookieKey);
+            if (cookie) {
+            	
+            	var cookiePieces = cookie.split('-');
+            	if (cookiePieces.length === 2 &amp;&amp; cookiePieces[0].match(/(desktop|ios|android)/i)) {
+	            	// if the cookie matches the current device, then we'll skip to step 3
+	            	if (cookiePieces[0] === prevSelectedDevice) {
+	                	currentStep = 3;
+	                	$deviceStep.removeClass('active').addClass('attempted');
+	                	$installStep.removeClass('active').addClass('attempted');
+	                	$downloadStep.addClass('active');
+						
+	                	var ownership = parseInt(cookiePieces[1]) - 1;	// 0 or 1
+	                	$ownershipTypes[ownership].checked = true;
+	                	$ownershipTypes[ownership ^ 1].checked = false;
+	            	} 
+            	}
+            }
+            
+            if (currentStep === 1) {
+        		$deviceStep.addClass('active');
+        		$installStep.removeClass('attempted').removeClass('active');
+        		$downloadStep.removeClass('active');
+            }
+
+        	$deviceStep.find('.devices-list li').removeClass('device-selected');
+            $deviceStep.find('.devices-list li.device-' + prevSelectedDevice).addClass('device-selected');
+
+            $deviceStep.find('.devices-list li').children('div:last-child').children('span:last-child').text('Device unselected');
+            $deviceStep.find('.devices-list li.device-' + prevSelectedDevice).children('div:last-child').children('span:last-child').text('Device selected');
+
+    	    // Trigger custom controls UI for controls that are already selected; on page render
+    	    $prettyControls.each(function () {
+    	        updateOwnershipControls($(this).find('input').eq(0));
+    	    });
+			
+            updateInstallBox();
+        });
+
+        // Launch wizard modal
+        $('[id^=wizardLauncher]').on('click', function (e) {        	
+        	
+        	e.preventDefault(); 	        	
+    		if (!showingLoginDialog('s_download')) {	
+    			
+    			var label1 = "DP_DOWNLOAD detailpage for common-id:" + localDocID ;			
+      		    addGaEvents("DP_DOWNLOAD",label1 , "User clicked download button from detail page, or clicked the - Available for Download- link"); 
+    			
+        	
+	        	// check document access
+	        	var access = getDownloadAccess('check');
+
+	        	// testing:
+	        	// access = 'no_access';
+	        	// access = 'nupo_confirm';
+                $('#downloadWizardModal').modal();
+	        	if (access === 'has_access') {
+	                goToStep(currentStep);
+	        	} else {
+	        		 label1 = "DP_DOWNLOAD_NA detailpage for common-id:" + localDocID ;			
+	       		     addGaEvents("DP_DOWNLOAD_NA",label1 , "detail page final download - " + access);  
+	        		
+	        		handleAccessError(access);
+	        	}
+    		}
+        });
+        
+        // User chooses to download the last copy of the book
+        $('#downloadAlertContinue', $errorStep).on('click', function (e) {         	
+            goToStep(currentStep);
+        });
+        
+        // Handle clicks on device icons
+        $deviceIcons.on('click', function (e) {
+            // select this device if not already selected
+            var $selectedDeviceIcon = $deviceIcons.filter('.device-selected'),
+                $this = $(this),
+                prevSelectedIcon,
+                selectedIcon;
+
+            if ($selectedDeviceIcon &amp;&amp; $selectedDeviceIcon === $this) {
+                // device is Already selected
+                return;
+            }
+
+            $selectedDeviceIcon.removeClass('device-selected');
+            $selectedDeviceIcon.children('div').children('span:last-child').text('Device unselected');
+           
+            $this.addClass('device-selected');
+			$(this).children('div').children('span:last-child').text('Device selected');
+
+            prevSelectedIcon = $selectedDeviceIcon.find('.device-icon').data('icon-class');
+            selectedIcon = $this.find('.device-icon').data('icon-class');
+
+            // Also update the selection icon
+            $deviceStep.find('.selected-option-icon').removeClass(prevSelectedIcon).addClass(selectedIcon);
+            
+            // if the device changes, make boxes 2 &amp; 3 accessible only through buttons
+        	$installStep.removeClass('active').removeClass('attempted');
+        	$downloadStep.removeClass('active').removeClass('attempted');
+        	$(this).focus();
+        });
+
+		$deviceIcons.keydown(function(e) {
+			var keycode = (e.keyCode ? e.keyCode : e.which);
+			if(keycode == '13' || keycode == '32' ){
+				 // select this device if not already selected
+	            var $selectedDeviceIcon = $deviceIcons.filter('.device-selected'),
+	                $this = $(this),
+	                prevSelectedIcon,
+	                selectedIcon;
+	
+	            if ($selectedDeviceIcon &amp;&amp; $selectedDeviceIcon === $this) {
+	                // device is Already selected
+	                return;
+	            }
+	
+	            $selectedDeviceIcon.removeClass('device-selected');
+	            $selectedDeviceIcon.children('div').children('span:last-child').text('Device unselected');
+	           
+	            $this.addClass('device-selected');
+				$(this).children('div').children('span:last-child').text('Device selected');
+	
+	            prevSelectedIcon = $selectedDeviceIcon.find('.device-icon').data('icon-class');
+	            selectedIcon = $this.find('.device-icon').data('icon-class');
+	
+	            // Also update the selection icon
+	            $deviceStep.find('.selected-option-icon').removeClass(prevSelectedIcon).addClass(selectedIcon);
+	            
+	            // if the device changes, make boxes 2 &amp; 3 accessible only through buttons
+	        	$installStep.removeClass('active').removeClass('attempted');
+	        	$downloadStep.removeClass('active').removeClass('attempted');
+	        	$(this).focus();
+			}
+		
+		});
+		
+        $deviceStep.find('form').on('submit', function (e) {
+            e.preventDefault();
+
+            // update Install UI
+            updateInstallBox();
+            goToStep(2);
+        });
+
+        $installStep.on('click', '#doneInstallStep', function (e) {        	
+        	goToStep(3);
+          	// stop propagation and default behavior
+            return false;
+        });
+
+        $installStep.on('click', '#getReaderButton', function (e) {
+        	//if ($(this).closest('.wizard-box').hasClass('unknown')) {
+        	if ($(".device-selected").hasClass("device-other")){
+            	closeModal();
+				return false;
+            }
+
+        	if (getDeviceOwnership() === '2') {
+                // Public device
+                goToStep(3);
+                return false;
+            }
+        });
+
+        $changeButtons.on('click', function (e) {
+            e.preventDefault();
+        });
+
+        // make all wizard boxes clickable
+        $wizards.on('click', function (e) {
+            var $box = $(this),
+                $source = $(e.target),
+                index;
+           
+            if ($source.hasClass('wizard-content') || $source.closest('.wizard-content').length &gt; 0) {
+                // click not originate from header
+                return;
+            }
+
+            if ($box.hasClass('active') || !$box.hasClass('attempted')) {
+                // this step is already active or not attempted yet
+                return;      
+            }
+            
+            // get the wizard box index
+            index = $box.index() + 1;
+            goToStep(index);
+        });
+        
+        $downloadButton.on('click', function (e) {
+
+        	// we checked access when modal first opened.
+        	// is this needed?
+          var label1 = "DP_DOWNLOAD_3 detailpage for common-id:" + localDocID ;			
+		  addGaEvents("DP_DOWNLOAD_3",label1 , "User clicked - Download this Book - link from step 3 of download modal");	
+        			
+			var access = getDownloadAccess();
+			if (access === 'has_access') {
+           	  	downloadBook();
+				return true;
+			} else if (access === 'no_login') {
+				closeModal();
+				label1 = "DP_DOWNLOAD_LOGIN detailpage for common-id:" + localDocID ;			
+      		    addGaEvents("DP_DOWNLOAD_LOGIN",label1 , "detail page need login to download - " + access);      
+				showingLoginDialog('s_download');
+        	} else {
+        		label1 = "DP_DOWNLOAD_NA detailpage for common-id:" + localDocID ;			
+       		     addGaEvents("DP_DOWNLOAD_NA",label1 , "detail page final download - " + access);               
+				 handleAccessError(access);
+			}
+			
+			return false;
+        });
+
+	    $prettyControls.find('input').on('change', function () {
+	        updateOwnershipControls($(this));
+	        
+            // if the device changes, make boxes 2 &amp; 3 accessible only through buttons
+        	$installStep.removeClass('active').removeClass('attempted');
+        	$downloadStep.removeClass('active').removeClass('attempted');	        
+	    });
+	
+	    $prettyBoxes.on('click', function (event) {
+	        event.preventDefault();
+	        $(this).closest('.pretty-control').find('input').trigger('click');
+	    });
+	    
+		 
+	    
+    }());
+
+});
+  </script>
+ </body>
+</html>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div style="display:none">
+ <div id="pmsg" style="display:none">
+ </div>
+</div>
+<!--
+	&lt;button id='showMessage'&gt;Message&lt;/button&gt; 
+	&lt;button id='showWelcome'&gt;Welcome&lt;/button&gt; 
+-->
+<br />
+<br />
+<!--  Google analytics code -->
+<!--  Please see ebrary404_en.html
+ -->
+<script language="javascript" type="text/javascript">
+ var ga_hostname = document.location.hostname;
+	 var ga_referrer = document.referrer;
+	
+	 var gaAcc = 'UA-33920437-1';
+//	 alert(gaAcc);		 
+	
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', gaAcc, {		 
+		  'cookieExpires': 0  
+		});
+	  ga('set', 'dimension1', ga_hostname);
+	  ga('set', 'dimension2', ga_referrer);
+	  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+ $('#message').hide();
+
+
+
+
+function hideSystemMessage(){
+	// hide the message
+	$("#message").hide();
+	
+	// call service to update the session
+	$.ajax({
+		url: 'detail.action?hideSystemMessage=true'
+	});
+}
+
+function showingLoginDialog(key) {
+	
+	var loginData = { result: false },
+    	link = 'loginCheck.json';
+    if (window.location.protocol === "https:"){
+        link = 'loginCheckSecure.json';
+    }
+    
+    $.ajax({
+    	  dataType: "json",
+    	  url: link,
+    	  async: false,
+    	  success: function(data) { loginData = data; },
+    	  error: function(request, status, error) {
+          }
+    	});
+   
+    if (!loginData.result) {		
+        // not logged in
+        var $iframe = $('iframe');
+		if (loginData.authType ==='sso' || loginData.authType === 'rpa') {
+			$iframe.attr("height", 180);
+		}
+   		
+	    $iframe.one('load', function() {
+	    	if (!$('#loginModal').hasClass('in'))
+				$('#loginModal').modal();
+	    });
+		
+		$iframe.attr("src", 'showLoginDialog.action?&amp;opFor=newRR&amp;key='+key);
+		return true;
+    }
+    return false;
+}
+
+function setCookie(cookieKey, value, cookieDays) {
+    var expires,
+    	date = new Date();
+    date.setTime(date.getTime()+(cookieDays*24*60*60*1000));
+    expires = "; expires="+date.toGMTString();
+    document.cookie = cookieKey+"="+value+expires+"; path=/";
+}
+
+function readCookie(cookieKey) {
+	 var nameEQ = cookieKey + "=",
+	 	c,
+	 	ca = document.cookie.split(';');
+	 for(var i=0;i &lt; ca.length;i++) {
+	     c = ca[i];
+	     while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	     if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	 }
+	 return null;
+}
+
+function exportToRefworks(targetID){
+	var tmpPlaceHolder = $("body");
+	$.ajax({
+        url: 'biblioExport.action?refworks=1&amp;docID=' + targetID,
+        async: false,
+        success: function(response) {
+        	var $form =  $('&lt;form&gt;',{
+					 'name':'ExportRWForm',
+					 'method':'POST',
+					 'target':'RefWorksMain',
+					 'action':'http://www.refworks.com/express/ExpressImport.asp?vendor=ebrary&amp;filter=RefWorks%20Tagged%20Format&amp;encoding=65001'}),
+				frmImData = $('&lt;TEXTAREA  /&gt;', { 'name': 'ImportData',  text: response });
+				$form.append(frmImData).appendTo(tmpPlaceHolder);
+				$form.hide();				
+				$form.submit();
+				//$form.remove();
+         },
+       });
+	return false;
+}
+
+$(document).ready(function () {
+	
+		
+	
+	var addToBookShelf,
+		docID = '10048946';
+	
+	 $( "#toc a" ).on('click', function(e) {             
+             var label = "DP_TOC detailpage for common-id:" + docID ;
+             addGaEvents("DP_TOC",label , "User clicked one of the TOC links from the detail page");
+     });
+		
+	$( "#readerReadBtnId, #availableOnlineReadId, #readOnlineNoDownId, #chapterReadOnlineId, #chapterReaderOnlineId" ).on('click', function(e) {
+		var label = "DP_READ detailpage for common-id:" + docID ;
+		addGaEvents("DP_READ",label , "User clicked Read Online button from detail page, or clicked the -available for online reading- link or read from download not available message");
+	});	
+	
+	addToBookShelf = function($button) {
+		var $DialogErrorMsg= $("#dialog-error-msg"),
+			addedText = 'Saved to Bookshelf';
+
+		if (!showingLoginDialog('add_to_bookshelf')) {	
+			var label = "DP_BOOKSHELF detailpage for common-id:" + docID ;
+			addGaEvents("DP_BOOKSHELF",label , "User clicked -Add to Bookshelf- link from Detail Page");
+			
+			$.ajax({
+				url: 'remoteBookshelf.api?op=add&amp;docid=' + docID + '&amp;remote_id=668866f5a87eefe37ed2bc2de6fb00a0',
+		
+				success : function(result) {
+					
+					if (result.status === 'SUCCESS' || result['status-code'] === 9515) {
+						if (result['status-code'] === 9515) {
+							// already in bookshelf
+							var label = "DP_BOOKSHELF_ADD_DUPLICATE detailpage for common-id:" + docID ;
+							addGaEvents("DP_BOOKSHELF_ADD_DUPLICATE",label , "User tried to add an all ready exisitng book to Bookshelf from Detail Page");								
+						} else {
+							// Success
+							// google tracking							
+							var label = "DP_BOOKSHELF_SUCCESS detailpage for common-id:" + docID ;
+							addGaEvents("DP_BOOKSHELF_SUCCESS",label , "User successfully added document to Bookshelf from Detail Page");						
+						}
+		
+						$('span:first-child', $button).removeClass("icon-bookshelf-add").addClass("icon-bookshelf-added");
+						$('.button-label', $button).html(addedText);
+						$button.removeClass('btn-icon-quiet').addClass('btn-icon-complete');
+						$button.off('click');
+						
+						var $DialogInfoMsg = $("#dialog-success-msg");
+						$DialogInfoMsg.find("#sMsg").empty().html(result["status-message"]);
+						$DialogInfoMsg.show().fadeOut(5000);
+						
+			            
+					} else {
+						//Failure
+						$DialogErrorMsg.find("#msg").empty().html(g_msg_add_doc_failed);
+						
+						$DialogErrorMsg.show().fadeOut(4000);
+						var label = "DP_BOOKSHELF_FAILURE detailpage for common-id:" + docID ;
+						addGaEvents("DP_BOOKSHELF_FAILURE",label , g_msg_add_doc_failed);
+					}
+				},
+				
+				error : function (request, status, error) {
+					$DialogErrorMsg.find("#msg").empty().html(g_msg_server_error);
+					
+					$DialogErrorMsg.show().fadeOut(4000);
+					var label = "DP_BOOKSHELF_FAILURE detailpage for common-id:" + docID ;
+					addGaEvents("DP_BOOKSHELF_FAILURE",label , g_msg_server_error);
+				}
+			});
+		}
+	};
+
+	// Add to Bookshelf
+	$( "button#add_doc_link_10048946" ).on('click', function(e) {
+		addToBookShelf($(e.target));
+	});
+	
+	 
+	
+	// TOC
+/* 	$('.icon-panel-open').live('click', function () {
+		$("div #" + $(this).attr("divid")).toggle();
+		$(this).removeClass('icon-panel-open').addClass('icon-panel-close');
+		$(this).parent().addClass('toc-level-open');
+	});
+
+	$('.icon-panel-close').live('click', function () {
+		$("div #" + $(this).attr("divid")).toggle();
+		$(this).removeClass('icon-panel-close').addClass('icon-panel-open');
+		$(this).parent().removeClass('toc-level-open');
+	}); */
+
+	// new TOC
+	
+		$("#tabcon-list-cont &gt; div ").toggle();
+		$("#tabcon-list-cont &gt; div &gt; div ").toggle();
+	 
+	  
+	 
+	$('.icon-panel-open,.icon-panel-close').on('click', function (e) {
+		e.preventDefault();
+		$(this).toggleClass("icon-panel-open icon-panel-close");
+		var divid = $(this).attr("divid");
+		
+		var lvl = divid.substring(divid.lastIndexOf("-") + 1);
+		var nextdivid = "tabcon-div-"+lvl;
+		$("[id^="+nextdivid+"]").toggle();
+		
+		if ($(this).hasClass("icon-panel-close"))
+		{	
+			$(this).children("span").text("This section is expanded");
+	//		$(this).parent().attr("aria-expanded",true);
+			$(this).parent().parent().addClass("tabcon-open");
+			 //window.scrollBy(0,100) ;
+		}
+		else 
+		{
+			$(this).children("span").text("This section is collapsed");
+	//		$(this).parent().attr("aria-expanded",false);
+			$(this).parent().parent().removeClass("tabcon-open");
+			 //window.scrollBy(0,-100) ;
+		}
+		$(this).focus();
+	});
+	
+	$("a[id^=tabcon-lvl-]").keydown(function(e) {
+		var keycode = (e.keyCode ? e.keyCode : e.which);
+		if(keycode == '13' || keycode == '32' ){
+		  	e.preventDefault();	
+		  	var id = $(this).attr("id");
+		  	var lvl = id.substring(id.lastIndexOf("-") + 1);
+			var nextdivid = "tabcon-div-"+lvl;
+			$("[id^="+nextdivid+"]").toggle();
+		  	
+			$(this).children("span").toggleClass("icon-panel-open icon-panel-close");
+			
+		  	if ($(this).children("span").hasClass("icon-panel-close"))
+			{	
+				$(this).children("span").children("span").text("This section is expanded");
+			//	$(this).attr("aria-expanded",true);
+				$(this).parent().addClass("tabcon-open");
+				 //window.scrollBy(0,100) ;
+			}
+			else 
+			{
+				$(this).children("span").children("span").text("This section is collapsed");
+		//		$(this).attr("aria-expanded",false);
+				$(this).parent().removeClass("tabcon-open");
+				//window.scrollBy(0,-100) ;
+			}
+			$(this).children("span").focus();
+		}  
+	});
+	
+	// System message
+	$('#message-close .icon-close').on('click', function () {
+		hideSystemMessage();
+	});
+	
+	// Share Link
+	$("#shareUrl").val($(location).attr('href'));	
+	
+	  $('#share_link').on('click', function (e) {
+		   $('#shareLinkModal').modal('show');  
+		   
+		   
+	       $.data(this, 'testTimeoutFocus', setTimeout(function() {
+	    	   $("#shareUrl").focus();
+	 		   $("#shareUrl").select();
+		    }, 550));
+	       	
+		   
+	       var label = "DP_SHARE detailpage for common-id:" + docID ;
+		   addGaEvents("DP_SHARE",label , "User clicked Share link from detail page");	       
+	 
+	  });
+	
+	
+	
+	  var citeData ;
+	  $('#citeModalBtn').on('click', function (e) {        
+ 	      if (typeof citeData === 'undefined') {
+              var $selectCite = $('#cite-format');     
+               $.ajax({             
+                         url: 'documentCitation.action?docID=' + docID + '&amp;asJson=true&amp;ppg=1',
+                         dataType: "json",          
+                      async: false,
+                         success : function(result) {
+                                citeData=[];
+                                $.each(result.DocumentCitations, function(ind, cite){ 
+                                      	citeData[cite.citationName] = cite;     
+                                       	//$aria = cite.isSelected? true : false;
+                                       if(  cite.citationName ==='CTNB' ||  cite.citationName ==='CTAD'){
+                                      	 $selectCite.append($("&lt;option&gt;", {value: cite.citationName , text: cite.citationDesc, selected:cite.isSelected }));    
+                                       } else if (  cite.citationName ==='MLA' ||  cite.citationName ==='APA'){
+                                      	 var cName = cite.citationName.split("").join("  ");
+                                      	 $selectCite.append($("&lt;option&gt;", {value: cite.citationName , text: cite.citationName, selected:cite.isSelected,"aria-label":cName }));    	     
+                                       }else{
+                                      	 $selectCite.append($("&lt;option&gt;", {value: cite.citationName , text: cite.citationName, selected:cite.isSelected }));    	 
+                                       }
+                                       if(cite.isSelected){
+                                              $('#citation-content').empty().text(cite.citationFormatted);
+                                             // $selectCite.attr('aria-activedescendant',cite.citationName);
+                                       }
+                                });    
+                         },                  
+                         error : function () {
+                                $DialogErrorMsg.find("#msg").empty().html("Error! Try again");
+                                $DialogErrorMsg.show().fadeOut(4000);
+                         }
+                 });           
+	       } 
+	       $('#citeModal').modal('show');   
+	       
+		       $.data(this, 'testTimeoutFocus', setTimeout(function() {
+					 $("#citation-content").focus();
+					 $("#citation-content").select();
+			    }, 550));
+		      
+		      
+		    var label = "DP_CITE detailpage for common-id:" + docID ;
+		   addGaEvents("DP_CITE",label , "User clicked cite book link from detail page");	 
+	       
+		});
+	    
+	    $('#cite-format').on('change',function () {
+	        var tmpVl = $("select option:selected").val();
+             $('#citation-content').empty().text(citeData[tmpVl].citationFormatted);
+             $(this).focus();
+	    });
+	    
+	    $('#citationRefWorks').on('click', function (e) {   
+	    	exportToRefworks(docID);
+	    	 $('#citeModal').modal('hide'); 	    	 
+	    	 var label = "DP_CITE_REFWORKS detailpage for common-id:" + docID ;
+			 addGaEvents("DP_CITE_REFWORKS",label , "User clicked REFWORKS citation format");	 
+		      
+	    });
+	    $('#citationEndNoteCitavi').on('click', function (e) {   
+	    	 $('#citeModal').modal('hide'); 
+	    	  var label = "DP_CITE_ENDNOTE detailpage for common-id:" + docID ;
+			   addGaEvents("DP_CITE_ENDNOTE",label , "User clicked ENDNOTE citation format");	 
+		      
+	    });
+	    
+	    $('#chapterDownloadId').popover({
+			html: true,
+			trigger:'manual',
+		  		delay: { 
+		             show: 50, 
+		             hide: 100
+		    	},
+		}).on("keypress click", function(e) {
+				e.preventDefault(); 
+				var eType = e.type;
+	  			if (eType == 'click' || (eType == 'keypress' &amp;&amp; ( e.which == 13 || e.which == 32) )) {
+	  			
+					$(this).popover('show');
+				}
+				 e.stopPropagation();
+		});
+		$("#chapterDownloadId").on("click keypress", function(e){
+		  	e.preventDefault();
+		  	var label = "DP_CHAPTER_DOWNLOAD detailpage for common-id:" + docID ;
+			addGaEvents("DP_CHAPTER_DOWNLOAD",label , "User clicked Chapter Download");
+	    });
+	    	        
+	    $('#closeMe').on('click', doToggle);
+		function doToggle() {
+			$('#chapterDownloadId').popover('toggle');
+		}
+	    
+    	$('html').on ("click",function(e) {
+		    $("#chapterDownloadId").popover('hide');
+		}); 
+          	
+	    
+    $(window).on('message', function (e) {
+    	var event = e.originalEvent;
+    	if (event.origin.indexOf(location.hostname) != -1 || event.origin.indexOf('ebrary') != -1)
+    		$('#loginModal').modal('hide');
+    		 window.location.href = location.href;
+    });    
+    /*
+    var chromeOS = /(Chrome)/.test(navigator.userAgent);
+	if (chromeOS) { 	 
+		$('h1').attr('aria-level','1');
+		$('h2').attr('aria-level','2');
+		$('h3').attr('aria-level','3');
+		$('h4').attr('aria-level','4');
+		$('h5').attr('aria-level','5');
+		$('h1,h2,h3,h4,h5').attr('role','heading');
+	} */
+});
+</script>

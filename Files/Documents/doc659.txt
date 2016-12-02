@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>
+   Conference and Event Services
+  </title>
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/owl.transitions.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/kdg.css" />
+  <!-- TinyMCE Styles -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/tinymce-styles.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+ </head>
+ <body>
+  <noscript>
+   <div class="noscript-modal">
+    <input type="checkbox" class="modal-closing-trick" id="modal-closing-trick" />
+    <div class="noscript-overlay">
+    </div>
+    <div class="modal">
+     <h3 class="red">
+      Whoops! Please enable Javascript
+     </h3>
+     <p>
+      We've worked hard to update this site with the latest technology. To ensure that you are getting the best experience, please enable Javascript in your browser's settings. Thank you!
+     </p>
+     <label class="button red" for="modal-closing-trick">
+      Close
+     </label>
+    </div>
+   </div>
+  </noscript>
+  <div class="modal old-browser">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h4 class="modal-title">
+       Sorry, but your browser is out of date.
+      </h4>
+     </div>
+     <div class="modal-body">
+      <p>
+       This website was developed using the latest technology available, and therefore requires a newer, safer browser than the one you are currently running. Use the links below to download the most up to date version of your browser and try again!
+      </p>
+      <a class="browser-block" href="http://www.google.com/chrome" target="_blank">
+       <img src="/media/kdmedia/images/chrome.png" alt="Chrome" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.mozilla.org/firefox/new/" target="_blank">
+       <img src="/media/kdmedia/images/firefox.png" alt="Firefox" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">
+       <img src="/media/kdmedia/images/internet-explorer.png" alt="Internet Explorer" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://support.apple.com/downloads/#safari" target="_blank">
+       <img src="/media/kdmedia/images/safari.png" alt="Safari" />
+      </a>
+      <!--
+-->
+      <a class="browser-block" href="http://www.opera.com/download" target="_blank">
+       <img src="/media/kdmedia/images/opera.png" alt="Opera" />
+      </a>
+     </div>
+    </div>
+    <!-- /.modal-content -->
+   </div>
+   <!-- /.modal-dialog -->
+   <div class="modal-backdrop fade in">
+   </div>
+  </div>
+  <!-- /.modal -->
+  <!-- navigation object : Tool I Am Links -->
+  <div class="collapse" id="iam-navigation">
+   <ul>
+    <li>
+     <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+      Prospective Student
+     </a>
+    </li>
+    <li>
+     <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+      Incoming Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+      Current Student
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+      Faculty &amp; Staff
+     </a>
+    </li>
+    <li>
+     <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+      Parent
+     </a>
+    </li>
+    <li>
+     <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+      Alumni
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <div class="collapse" id="tool-navigation">
+   <ul>
+    <li>
+     <a href="/contact">
+      Contact
+     </a>
+    </li>
+    <li>
+     <a href="/main/aboutus/campus-map/">
+      Campus Map
+     </a>
+    </li>
+    <li>
+     <a href="/tactical/azfind.htm">
+      A-Z Index
+     </a>
+    </li>
+    <li>
+     <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+      Directory
+     </a>
+    </li>
+    <li>
+     <a href="http://trexler.muhlenberg.edu/">
+      Library
+     </a>
+    </li>
+   </ul>
+   <div class="clearfix">
+   </div>
+  </div>
+  <nav class="navbar" id="top">
+   <div class="container">
+    <div class="row">
+     <div class="expand-buttons">
+      <ul>
+       <a href="/alumni/give">
+       </a>
+       <li class="give-btn hidden-xs">
+        Give
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+       </a>
+       <li class="tool-button">
+        Tools
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+       </a>
+       <li class="iam-button">
+        I am
+        <span class="fa fa-caret-down">
+        </span>
+       </li>
+       <div class="clearfix">
+       </div>
+      </ul>
+     </div>
+     <!--/expand-buttons-->
+     <div class="col-xs-12 col-sm-6">
+      <a href="/">
+       <img src="/media/kdmedia/images/header-logo.png" />
+      </a>
+      <a data-toggle="collapse" href="#mobile-nav" aria-expanded="false" aria-controls="mobile-nav" class="mobile-menu hidden-lg hidden-md hidden-sm">
+       <span class="fa fa-bars">
+       </span>
+      </a>
+     </div>
+     <div class="col-xs-12 col-sm-6 hidden-xs">
+      <div class="header-right">
+       <div class="search ">
+        <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+         <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+         <button type="Submit" class="btn btn-search">
+          <span class="fa fa-search">
+          </span>
+         </button>
+        </form>
+        <a target="_child" href="http://twitter.com/muhlenberg">
+         <span class="fa fa-twitter">
+         </span>
+        </a>
+        <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+         <span class="fa fa-facebook">
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!--row-->
+   </div>
+   <div class="inner-nav hidden-xs">
+    <div class="container">
+     <div class="row">
+      <div class="nav-holder">
+       <a name="navigation" style="display:none">
+       </a>
+       <div class="nav">
+        <!-- navigation object : Main Menu KD -->
+        <ul>
+         <li>
+          <a href="/main/aboutus/">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Admissions
+          </a>
+         </li>
+         <li>
+          <a href="/academics/">
+           Academics
+          </a>
+         </li>
+         <li>
+          <a href="/student-life/">
+           Student Life
+          </a>
+         </li>
+         <li>
+          <a href="http://muhlenbergsports.com/" target="_blank">
+           Athletics
+          </a>
+         </li>
+         <li>
+          <a href="/news-and-events/index.php">
+           News &amp; Events
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/">
+           Adult Learning
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <!--row-->
+    </div>
+   </div>
+  </nav>
+  <div id="mobile-nav" class="collapse hidden-sm hidden-md hidden-lg">
+   <div class="search ">
+    <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+     <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+     <button type="Submit" class="btn btn-search">
+      <span class="fa fa-search">
+      </span>
+     </button>
+    </form>
+   </div>
+   <!-- navigation object : Main Menu KD -->
+   <ul>
+    <li>
+     <a href="/main/aboutus/">
+      About Us
+     </a>
+    </li>
+    <li>
+     <a href="/main/admissions/">
+      Admissions
+     </a>
+    </li>
+    <li>
+     <a href="/academics/">
+      Academics
+     </a>
+    </li>
+    <li>
+     <a href="/student-life/">
+      Student Life
+     </a>
+    </li>
+    <li>
+     <a href="http://muhlenbergsports.com/" target="_blank">
+      Athletics
+     </a>
+    </li>
+    <li>
+     <a href="/news-and-events/index.php">
+      News &amp; Events
+     </a>
+    </li>
+    <li>
+     <a href="/main/wescoe/">
+      Adult Learning
+     </a>
+    </li>
+   </ul>
+   <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+    <span class="fa fa-facebook">
+    </span>
+   </a>
+   <a target="_child" href="http://twitter.com/muhlenberg">
+    <span class="fa fa-twitter">
+    </span>
+   </a>
+   <a href="/alumni/give" class="btn primary-btn">
+    Give
+   </a>
+  </div>
+  <div class="container">
+   <div class="row mobile-row">
+    <div class="row two-col page-content about-us">
+     <!--Page Content-->
+     <div class="col-lg-9 col-sm-8 col-xs-12">
+      <div class="page-header" style='background-image:url("/media/kdmedia/images/page-headers/conferences-events.jpg");'>
+       <h1>
+        Conference and Event Services
+       </h1>
+       <p>
+        Muhlenberg's Conference and Event Services offers unique meeting spaces and state-of-the-art educational resources located on a picturesque, serene campus setting.
+       </p>
+      </div>
+      <div class="cta-section hidden-sm hidden-md hidden-lg" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <div class="row visit-slider">
+       <div class="col-sm-12">
+        <div id="visit-slider">
+         <!-- navigation object : Image Slider Content -->
+         <div class="item" style='background-image:url("/media/contentassets/images/about/events/seegers1-w.jpg");'>
+          <div class="gradient">
+          </div>
+          <div class="slide-text">
+          </div>
+         </div>
+         <div class="item" style='background-image:url("/media/contentassets/images/about/events/ChampagneBrunch2014-3459.jpg");'>
+          <div class="gradient">
+          </div>
+          <div class="slide-text">
+          </div>
+         </div>
+        </div>
+        <div class="customNavigation">
+         <a class="btn prev">
+          <span class="fa fa-angle-left">
+          </span>
+         </a>
+         <a class="btn next">
+          <span class="fa fa-angle-right">
+          </span>
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <h2 style="color:#333333; margin-bottom:20px;">
+         Facilities &amp; Services
+        </h2>
+       </div>
+      </div>
+      <p>
+      </p>
+      <p>
+       Our campus is ideal for events from as few as ten to as many as 475 attendees depending on the scope of the event. Consider our distinct and spacious event spaces to accommodate future programs such as:
+      </p>
+      <ul>
+       <li>
+        Meetings and Conferences
+       </li>
+       <li>
+        Classroom Training and Lectures
+       </li>
+       <li>
+        Picnics and Barbecues
+       </li>
+       <li>
+        Summer Residence
+       </li>
+       <li>
+        Corporate Retreats
+       </li>
+       <li>
+        Receptions, Banquets, Formal Affairs
+       </li>
+       <li>
+        Learning Center Educational Program Opportunities
+       </li>
+       <li>
+        Summer Corporate Internship Housing Services
+       </li>
+      </ul>
+      <div class="additional-links">
+       <ul class="additional-links">
+        <li>
+         <a href="http://dining.muhlenberg.edu/" target="_blank">
+          Dining Services
+         </a>
+        </li>
+        <li>
+         <a href="/main/aboutus/events/facilitiesandservices/fineperformingarts/">
+          Fine &amp; Performing Arts Facilities
+         </a>
+        </li>
+        <li>
+         <a href="http://muhlenbergsports.com/">
+          Recreational Facilities
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="custom-content">
+       <p>
+        <strong>
+         Submit a reservation application to the Conference Services Manager to obtain a quote or request more information.
+        </strong>
+       </p>
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="rule">
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <h2 style="color:#333333; margin-bottom:20px;">
+         Housing Accommodations
+        </h2>
+       </div>
+      </div>
+      <div class="custom-content">
+       <p>
+        Looking for a low cost housing alternative for your summer internship program? Summer corporate housing is available at Muhlenberg College.
+       </p>
+       <p>
+        The College offers a variety of housing styles from traditional residence halls to the Village, which offers an apartment like common center with four private residences.
+       </p>
+       <p>
+        Contact JoEllen Rooney at
+        <a href="tel:4846643810">
+         484-664-3810
+        </a>
+        or
+        <a href="mailto:jrooney@muhlenberg.edu">
+         jrooney@muhlenberg.edu
+        </a>
+        for additional details.
+       </p>
+       <p>
+        <img src="/media/contentassets/images/about/events/VillageInteriorLivingRoom-s-485x260.jpg" alt="" style="     " />
+       </p>
+       <p>
+        Linen services can also be provided upon request.
+       </p>
+       <p>
+        For our summer conference program, Residential Services can accomodate individuals in the traditional dorm like setting or in private residence style suites.
+       </p>
+       <p>
+        <em>
+         Muhlenberg College is now accepting intern housing payments through a third party vendor called Tuition Management Services or TMS. Payments can be made through the payment link via two methods:
+         <br />
+         <br />
+         1. Payments are accepted by Electronic Funds Transfer (EFT) from a checking or statement savings account at no charge.
+         <br />
+         2. Payments are accepted by credit card payment. Convenience fees between 2-4% will be charged for this service.
+        </em>
+       </p>
+       <p>
+        <em>
+         Checks and money orders may still be mailed in for payments to the address on the invoice. Cash payments will only be accepted at the Controller's Office during business hours Monday through Thursday.
+        </em>
+       </p>
+       <p>
+        <em>
+         Be prepared to provide the invoice number which you are paying, bank account number, bank routing number (or credit card number) and amount when making a one-time payment.
+        </em>
+       </p>
+       <div class="additional-links">
+        <ul class="additional-links">
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/events/summercorporateinternshiphousing/">
+           Summer Internship Housing
+          </a>
+         </li>
+         <li>
+          <a href="https://muhlenberg.afford.com/paynow?storeid=1197">
+           Make a Payment
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="rule">
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <h2 style="color:#333333; margin-bottom:20px;">
+         Testimonials
+        </h2>
+       </div>
+      </div>
+      <div class="row one-column">
+       <div class="col-sm-12">
+        <div id="testimonial-slider">
+         <div class="item">
+          <div class="slide-text">
+           <img class="left-quote" src="/media/kdmedia/images/left-quote.png" />
+           <p>
+            Both professionally and personally, from beginning to end, it was a true delight to collaborate with everyone at Muhlenberg!
+            <br />
+            <span class="bold red">
+             -Susan Moran, That's It! Wedding Concepts
+            </span>
+           </p>
+           <img class="right-quote" src="/media/kdmedia/images/right-quote.png" />
+          </div>
+         </div>
+         <div class="item">
+          <div class="slide-text">
+           <img class="left-quote" src="/media/kdmedia/images/left-quote.png" />
+           <p>
+            There is nothing either of us would have changed about our wedding day and we know a big part of that is thanks to every person at The College who helped arrange the day.
+            <br />
+            <span class="bold red">
+             -Steve Johnson &amp; Jacy Good, Alumni of Muhlenberg College
+            </span>
+           </p>
+           <img class="right-quote" src="/media/kdmedia/images/right-quote.png" />
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="rule">
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <h2 style="color:#333333; margin-bottom:20px;">
+         Resources
+        </h2>
+       </div>
+      </div>
+      <div class="additional-links">
+       <ul>
+        <li>
+         <a href="/media/kdmedia/images/events-capacity-chart.pdf" target="_blank">
+          Capacity Chart
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="additional-links">
+       <ul>
+        <li>
+         <a href="/media/kdmedia/images/ConferenceEventServices.pdf" target="_blank">
+          Conference &amp; Event Services Brochure
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="additional-links">
+       <ul>
+        <li>
+         <a href="/media/kdmedia/images/insurance.pdf" target="_blank">
+          Insurance Requirements
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div hidden="hidden" data-sidebar-buttons="data-sidebar-buttons">
+       <div class="btn primary-btn">
+        <a href="/media/contentassets/pdf/about/events/internship-housing/CES%20External%20Application-Appendix%20I.pdf">
+         Make a Reservation
+        </a>
+       </div>
+       <div class="btn secondary-btn">
+        <a href="https://muhlenberg.afford.com/paynow?storeid=1197">
+         Make a Payment
+        </a>
+       </div>
+      </div>
+      <div hidden="hidden" data-sidebar-contact-info="data-sidebar-contact-info">
+       <div class="contact-box">
+        <!--If applicable, Muhl can add a contact box for which ever department-->
+        <p class="bold">
+         Conference Service Manager
+        </p>
+        <p class="small">
+         JoEllen Rooney
+         <br />
+         2400 Chew Street
+         <br />
+         Allentown, PA 18104-5586
+        </p>
+        <p class="small">
+         484-664-3810 (phone)
+         <br />
+         484-664-3996 (fax)
+        </p>
+        <a class="bold text-link" href="mailto:jrooney@muhlenberg.edu">
+         jrooney&#64;muhlenberg&#46;edu
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-lg-3 col-sm-4 col-xs-12">
+      <div class="cta-section hidden-xs" data-sidebar-buttons-target="data-sidebar-buttons-target">
+      </div>
+      <!-- navigation object : About Us Page Sidebar -->
+      <div class="sidebar-links">
+       <!--Muhl can add up to three sidebar sections-->
+       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <!--Link section-->
+        <div class="panel panel-default">
+         <a data-toggle="collapse" data-parent="#accordion" href="#get-to-know" aria-expanded="true" aria-controls="get-to-know">
+          <div class="panel-heading" role="tab" id="headingOne">
+           <h3 class="panel-title pull-left">
+            Get to Know Us
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-up">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </div>
+         </a>
+         <div id="get-to-know" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+           <div class="side-links">
+            <ul>
+             <li>
+              <a href="/main/aboutus/mission.html">
+               Mission Statement
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/muhlenberg-at-a-glance/">
+               Muhlenberg at a Glance
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/campus-map/">
+               Campus Map
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20KD%20%BB%20Directions%20to%20Muhlenberg" href="/main/aboutus/directions-to-muhlenberg/">
+               Directions
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/campusdayvisitprogram/">
+               Campus Day Visit
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20Admissions%20KD%20%BB%20Types%20of%20Visits" href="/main/admissions/types-of-visits/">
+               Types of Visits
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/virtual-tour/">
+               Virtual Tour
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/events/">
+               Conference &amp; Event Services
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20About%20the%20Region" href="/main/aboutus/about-the-region/">
+               About the Region
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Center%20for%20Ethics" href="/main/aboutus/cfe/">
+               Center for Ethics
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Faculty%20Center%20for%20Teaching" href="/main/aboutus/fct/">
+               Faculty Center for Teaching
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20IJCU" href="/cultural/ijcu/">
+               Institute for Jewish-Christian Understanding
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/polling/">
+               Institute of Public Opinion
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20Campus%20Life%20%BB%20Multicultural%20Life" href="/main/campuslife/multicultural/">
+               Multicultural Life
+              </a>
+             </li>
+             <li>
+              <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Human%20Resources%20%BB%20Prospective%20Employees" href="/main/aboutus/hr/jobs.html">
+               Employment
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+        <!--End Link section-->
+        <!--Link section-->
+        <div class="panel panel-default">
+         <div class="panel-heading" role="tab" id="headingTwo">
+          <a data-toggle="collapse" data-parent="#accordion" href="#how-to-apply" aria-expanded="true" aria-controls="how-to-apply">
+           <h3 class="panel-title pull-left">
+            Administration
+           </h3>
+           <h3 class="panel-title pull-right">
+            <span class="fa fa-angle-down">
+            </span>
+           </h3>
+           <div class="clearfix">
+           </div>
+          </a>
+         </div>
+         <div id="how-to-apply" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+           <ul class="side-links">
+            <ul>
+             <li>
+              <a href="/main/aboutus/collegeoffices.html">
+               College Offices
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/president/">
+               Office of the President
+              </a>
+             </li>
+             <li>
+              <a href="/main/campuslife/religiouslife/">
+               Chaplain
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/pr/">
+               Public Relations
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/provost/">
+               Provost
+              </a>
+             </li>
+             <li>
+              <a href="/aboutus/treasurer/">
+               Chief Business Officer &amp; Treasurer
+              </a>
+             </li>
+             <li>
+              <a href="/main/aboutus/deanst/">
+               Dean of Students&nbsp;
+              </a>
+             </li>
+             <li>
+              <a href="/main/admissions/">
+               Dean of Admissions
+              </a>
+             </li>
+             <li>
+              <a href="http://www.muhlenbergconnect.com" target="_blank">
+               Advancement
+              </a>
+             </li>
+            </ul>
+           </ul>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!--/end accordion-->
+      </div>
+      <!--Sidebar links-->
+      <div class="contact-box" data-sidebar-contact-target="data-sidebar-contact-target">
+      </div>
+     </div>
+     <a kdg-scroll-to="body, html" kdg-scroll-to-dur="500" class="hidden-sm hidden-md hidden-lg">
+      <div class="back-to-top">
+       <h5>
+        <span class="fa fa-chevron-up">
+        </span>
+       </h5>
+      </div>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--/container-->
+  <footer>
+   <div class="container">
+    <div class="footer-logo">
+     <a href="http://muhlenberg.edu">
+      <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+     </a>
+    </div>
+    <div class="footer-contact">
+     <p>
+      2400 Chew St., Allentown, PA 18104-5586
+      <br />
+      484-664-3100 | 484-664-3623 (TTY)
+      <br />
+      &copy; Muhlenberg College
+      <script type="text/javascript">
+       var d = new Date();
+           document.write( d.getFullYear());
+      </script>
+      |
+      <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+       Web Privacy Policy
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+  <!--JS Goes Here-->
+  <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/kdg-ui.js">
+  </script>
+  <script type="text/javascript" src="/media/kdmedia/js/owl.carousel.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js">
+  </script>
+  <script>
+   var largeGrid = $('body, html').find('.grid-sizer');
+  $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'masonry',
+    percentPosition: (largeGrid.length) ? true : false,
+    masonry: {
+  		columnWidth: (largeGrid.length) ? '.grid-sizer' : null
+    }
+  });
+  </script>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>
+   DSpace at the Trexler Library of Muhlenberg College: Communities and Collections
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="DSpace" />
+  <link rel="stylesheet" href="/librarydspace/styles.css.jsp" type="text/css" />
+  <link rel="stylesheet" href="/librarydspace/print.css" media="print" type="text/css" />
+  <link rel="shortcut icon" href="/librarydspace/favicon.ico" type="image/x-icon" />
+  <script type="text/javascript" src="/librarydspace/utils.js">
+  </script>
+ </head>
+ <body>
+  <table class="pageBanner" width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr class="stripe">
+    <td colspan="3">
+     &nbsp;
+    </td>
+   </tr>
+  </table>
+  <table class="centralPane" width="100%" border="0" cellpadding="3" cellspacing="1">
+   <tr valign="top">
+    <td class="navigationBar">
+     <form method="get" action="/librarydspace/simple-search">
+      <table width="100%" class="searchBox">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0">
+          <tr>
+           <td class="searchBoxLabel">
+            <label for="tequery">
+             Search&nbsp;DSpace
+            </label>
+           </td>
+          </tr>
+          <tr>
+           <td class="searchBoxLabelSmall" valign="middle" nowrap="nowrap">
+            <input type="text" name="query" id="tequery" size="8" />
+            <input type="submit" name="submit" value="Go" />
+            <br />
+            <a href="/librarydspace/advanced-search">
+             Advanced Search
+            </a>
+           </td>
+          </tr>
+         </table>
+        </td>
+       </tr>
+      </table>
+     </form>
+     <table width="100%" border="0" cellspacing="2" cellpadding="2">
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/index.jsp">
+         Home
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Browse
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow-highlight.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/community-list">
+         Communities
+         <br />
+         &amp;&nbsp;Collections
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=dateissued">
+         Issue Date
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=author">
+         Author
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=title">
+         Title
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/browse?type=subject">
+         Subject
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr>
+       <td nowrap="nowrap" colspan="2" class="navigationBarSublabel">
+        Sign on to:
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/subscribe">
+         Receive email
+         <br />
+         updates
+        </a>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/mydspace">
+         My DSpace
+        </a>
+        <br />
+        <small>
+         authorized users
+        </small>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="/librarydspace/profile">
+         Edit Profile
+        </a>
+       </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+        &nbsp;
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <script type="text/javascript">
+         &lt;!-- Javascript starts here
+document.write('&lt;a href="#" onClick="var popupwin = window.open(\'/librarydspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;"&gt;Help&lt;\/a&gt;');
+// --&gt;
+        </script>
+        <noscript>
+         <a href="/librarydspace/help/index.html" target="dspacepopup">
+          Help
+         </a>
+        </noscript>
+       </td>
+      </tr>
+      <tr class="navigationBarItem">
+       <td>
+        <img alt="" src="/librarydspace/image/arrow.gif" width="16" height="16" />
+       </td>
+       <td nowrap="nowrap" class="navigationBarItem">
+        <a href="http://www.dspace.org/">
+         About DSpace
+        </a>
+       </td>
+      </tr>
+     </table>
+    </td>
+    <td class="pageContents" width="100%">
+     <p class="locationBar">
+      <a href="/librarydspace/">
+       DSpace at the Trexler Library of Muhlenberg College
+      </a>
+      &nbsp;&gt;
+     </p>
+     <h1>
+      Communities and Collections
+     </h1>
+     <p>
+      Shown below is a list of communities and the collections and sub-communities within them. Click on a name to view that community or collection home page.
+     </p>
+     <ul>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/713">
+         Center for Ethics
+        </a>
+       </strong>
+       <ul>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/787">
+          Ethics of Space/Power of Place 2009 – 2010
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/779">
+          Politics, Ethics &amp; Citizenship - 2008
+         </a>
+        </li>
+       </ul>
+       <br />
+      </li>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/800">
+         Martin Art Gallery
+        </a>
+       </strong>
+       <ul>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/1420">
+          Edward S. Curtis Photogravures Collection
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/801">
+          Florence Foerderer Tonner Collection
+         </a>
+        </li>
+       </ul>
+       <br />
+      </li>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/2733">
+         Muhlenberg College History
+        </a>
+       </strong>
+       <ul>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/2737">
+          Addresses, Speeches, and Sermons
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/2735">
+          Muhlenberg College Music
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/2736">
+          The History of Muhlenberg College
+         </a>
+        </li>
+       </ul>
+       <br />
+      </li>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/7">
+         Muhlenberg Scholarly Publications
+        </a>
+       </strong>
+       <ul>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/21">
+          Accounting, Business, &amp; Economics
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/20">
+          Art
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/25">
+          Biology
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/26">
+          Chemistry
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/27">
+          Education
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/28">
+          English
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/29">
+          History
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/30">
+          Languages, Literatures, &amp; Cultures
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/31">
+          Mathematics &amp; Computer Science
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/32">
+          Media &amp; Communication
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/33">
+          Music
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/34">
+          Philosophy
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/35">
+          Physical Education
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/62">
+          Physics
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/36">
+          Political Science
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/37">
+          Psychology
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/38">
+          Religion Studies
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/39">
+          Sociology &amp; Anthropology
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/22">
+          Staff
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/23">
+          Students
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/40">
+          Theatre &amp; Dance
+         </a>
+        </li>
+        <li class="collectionListItem">
+         <a href="/librarydspace/handle/10718/2884">
+          Women's and Gender Studies
+         </a>
+        </li>
+       </ul>
+       <br />
+      </li>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/2311">
+         Research Data Repository
+        </a>
+       </strong>
+       <br />
+      </li>
+      <li class="communityLink">
+       <strong>
+        <a href="/librarydspace/handle/10718/798">
+         Trexler Library Special Collections and Archives
+        </a>
+       </strong>
+       <ul>
+        <li class="communityLink">
+         <strong>
+          <a href="/librarydspace/handle/10718/2154">
+           Muhlenberg College Archives
+          </a>
+         </strong>
+         <ul>
+          <li class="communityLink">
+           <strong>
+            <a href="/librarydspace/handle/10718/2155">
+             Activities and events
+            </a>
+           </strong>
+           <ul>
+            <li class="collectionListItem">
+             <a href="/librarydspace/handle/10718/2161">
+              Muhlenberg Bicentennial Celebration
+             </a>
+            </li>
+           </ul>
+           <br />
+          </li>
+          <li class="communityLink">
+           <strong>
+            <a href="/librarydspace/handle/10718/2167">
+             Co-education
+            </a>
+           </strong>
+           <br />
+          </li>
+          <li class="communityLink">
+           <strong>
+            <a href="/librarydspace/handle/10718/2166">
+             Presidents of Muhlenberg College
+            </a>
+           </strong>
+           <br />
+          </li>
+         </ul>
+         <br />
+        </li>
+        <li class="communityLink">
+         <strong>
+          <a href="/librarydspace/handle/10718/2153">
+           Pennsylvania German
+          </a>
+         </strong>
+         <ul>
+          <li class="collectionListItem">
+           <a href="/librarydspace/handle/10718/2165">
+           </a>
+          </li>
+         </ul>
+         <br />
+        </li>
+        <li class="communityLink">
+         <strong>
+          <a href="/librarydspace/handle/10718/2152">
+           Rare Books
+          </a>
+         </strong>
+         <ul>
+          <li class="collectionListItem">
+           <a href="/librarydspace/handle/10718/2157">
+            Miscellaneous Autograph letters
+           </a>
+          </li>
+         </ul>
+         <br />
+        </li>
+       </ul>
+       <br />
+      </li>
+     </ul>
+     <p>
+      &nbsp;
+     </p>
+    </td>
+   </tr>
+   <tr class="pageFooterBar">
+    <td colspan="2" class="pageFootnote">
+     <table class="pageFooterBar" width="100%">
+      <tr>
+       <td>
+        <a href="http://validator.w3.org/check?uri=referer">
+         <img src="/librarydspace/image/valid-xhtml10.png" alt="Valid XHTML 1.0!" height="31" width="88" />
+        </a>
+       </td>
+       <td class="pageFootnote">
+        <a target="_blank" href="http://www.dspace.org/">
+         DSpace Software
+        </a>
+        Copyright&nbsp;&copy;&nbsp;2002-2010&nbsp;
+        <a target="_blank" href="http://www.duraspace.org/">
+         Duraspace
+        </a>
+        &nbsp;-
+        <a target="_blank" href="/librarydspace/feedback">
+         Feedback
+        </a>
+        <a href="/librarydspace/htmlmap">
+        </a>
+       </td>
+       <td nowrap="nowrap" valign="middle">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,1062 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Course Listing - Education | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Education
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- Content Template Start: General Slideshow -->
+       <div class="content-add09">
+        <ul class="imagecol" id="imgcol">
+         <li>
+          <img src="/media/contentassets/images/academics/education/pageheaders/EducationHeader1.jpg" alt="" style="     " />
+         </li>
+        </ul>
+        <script type="text/javascript">
+         var maxImages=10;
+      var img="";
+      var j=0;
+      var ptr=0;
+      var img2='&lt;img src="/media/contentassets/images/academics/education/pageheaders/EducationHeader4.jpg" alt="" style="     "  /&gt;';
+      var img3='&lt;img src="/media/contentassets/images/academics/education/pageheaders/EducationHeader5.jpg" alt="" style="     "  /&gt;';
+      var img4='&lt;img src="/media/contentassets/images/academics/education/pageheaders/EducationHeader6.jpg" alt="" style="     "  /&gt;';
+      var img5='';
+      var img6='';
+      var img7='';
+      var img8='';
+      var img9='';
+      var img10='';      
+      
+      for (j=1; j&lt;maxImages; j++) {
+                             
+        ptr=j+1;
+      
+       if (eval("img" + ptr) ) {
+        img = '&lt;li&gt;' + eval("img" + ptr) + '&lt;/li&gt;';
+        document.getElementById('imgcol').innerHTML +=img;                  
+       }
+                                 
+      }
+        </script>
+        <div class="intro-add01">
+         <div class="intro-add02-slideshow">
+          <a name="content">
+          </a>
+         </div>
+        </div>
+       </div>
+       <!-- Content Template End: Image Panel-->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/academics/">
+               Academics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/education/">
+               Education
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/academics/education/courselisting/">
+               Course Listing
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Course Listing
+          </h1>
+          <h3>
+           &nbsp;
+          </h3>
+          <h3>
+           Foundational Courses
+           <span style="font-size: 12px;">
+            &nbsp;
+           </span>
+          </h3>
+          <div class="content-add05">
+           <p>
+            <strong>
+             101. History &amp; Politics of American Education
+            </strong>
+           </p>
+           <p>
+            This course examines the larger historical and sociopolitical forces that have shaped the rise and development of the institutional school in America. Beginning with Jeffersonian America through the late industrial period to the present day, the course traces changes in the political economy and how these changes have influenced educational policy and practice, such as rise of the common school and educational policy debates regarding the appropriate role of education in a democratic industrial and plural society. The course also addresses how schools interpret, translate, and transfer American culture through the overt and covert curriculum as well as public policy by studying the various conflicting aims of education in a democracy. The purpose of the course is to develop the students&rsquo; potential for thinking critically about American education and its institutions in preparation for ethical citizenship and/or educational leadership.
+           </p>
+           <p>
+            Meets general academic requirement H and effective Fall 2013 SL.
+           </p>
+           <p>
+            <strong>
+             &nbsp;
+            </strong>
+           </p>
+           <p>
+            <strong>
+             104, 105. Educational Psychology: Child Learning &amp; Development
+            </strong>
+           </p>
+           <p>
+            This course reflects knowledge derived from theory, research, and professional practice as it covers the physical, cognitive, and socio-emotional development of infants and children (birth-9 years old) and the impact of this study for teaching and learning. In addition to classic developmental theorists (Piaget, Vygotsky, and Erikson among others), students will explore a variety of topics that impact the child as learner at these stages of development, including but not limited to attachment, brain development, memory, fantasy and the imagination, the arts as a way of knowing, play behavior, friendship, the development of empathy, early understandings of justice, the use of public and private space, transition from home to school, and children in relation to authority. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: provisional admission to the program or permission of the instructor Meets general academic requirement B and effective Fall 2013 SL (and W when offered as 105).
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             106, 107. Educational Psychology: Adolescent Learning &amp; Development
+            </strong>
+           </p>
+           <p>
+            This course reflects knowledge derived from theory, research, and professional practice as it covers cognitive, social, and personal development and the psychology of teaching and learning. We will use our classroom as an &ldquo;experiment&rdquo; in methods of teaching, learning, and educating ourselves about the sociopolitical contexts for development and learning in American classrooms. The focus of this course is on the developmental changes and challenges that occur approaching and during the adolescent years. We will explore both what is understood as &ldquo;typical&rdquo; adolescent development as well as the ways in which individual adolescent experience may be unique. We will view the adolescent in a range of social contexts (e.g., &nbsp;family, peer group, school, culture) as we consider how issues of diversity (i.e., race, culture, class, gender, sexual identity) impact learning, and development. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: provisional admission to the program or permission of the instructor Meets general academic requirement B and effective Fall 2013 SL (and W when offered as 107).
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             201. Introduction to Special Education: Diverse Learners &amp; Inclusive Classrooms
+            </strong>
+           </p>
+           <p>
+            This course is designed to broaden knowledge and understanding about students with disabilities and how they develop and learn. Emphasis is placed on the roles and responsibilities of regular education teachers in meeting the needs of these students in order to create positive inclusive learning environments as informed by relevant research. The course introduces the preservice teachers to topics including health impairments, intellectual disabilities, learning disabilities, ADHD, emotional disturbance, autism, sensory impairments, physical disabilities, and giftedness. These topics are examined from the perspective of causation, diagnosis, cognitive and social-emotional characteristics, learning styles, early intervention, and differentiated instructional strategies with a focus on meeting the needs of students in the context of the regular classroom. The role of the regular classroom teacher in the referral/evaluation process and working with appropriate school personnel and families is emphasized. Also examined are multicultural and bilingual issues as they pertain to special education. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: provisional admission to the program or permission of the instructor Meets general academic requirement B and effective Fall 2013 SL.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             202. Introduction to Early Childhood Education
+            </strong>
+           </p>
+           <p>
+            This course presents the history, philosophy, and theory of early childhood education and surveys major models and programs that educate young children, including Bank Street (traditional nursery), Montessori (child-centered), and DISTAR (direct instruction) among others. It focuses on the role of the teacher in designing, organizing, and implementing educational programs for children in preschools, kindergartens, and early elementary grades as informed by the recommendation of professional organizations such as the National Association for the Education of Young Children (NAEYC). Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: provisional admission to the program
+           </p>
+          </div>
+          <h3>
+           Methods Courses
+          </h3>
+          <p>
+           &nbsp;
+          </p>
+          <div class="content-add05">
+           <p>
+            <strong>
+             204. Integrating Curriculum &amp; Instruction for Young Learners
+            </strong>
+           </p>
+           <p>
+            This course focuses on understanding educational research, theory, and reflective practice in planning for and implementing content- and age-appropriate instructional strategies resulting in the effective teaching of diverse young learners (ages 4-9). This includes an investigation of a range of the essential teaching skills, including the planning, implementation, and adaptation of meaningful instruction and the development of a supportive learning environment. Students are introduced to a broad range of research-based teaching methodologies, classroom management strategies, and fair assessment techniques. Focusing on the conceptual understanding of big ideas, students will use national, state, and district standards to plan, implement, and adapt lessons and units in early grades. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 104 or 105 Educational Psychology: Child Learning &amp; Development and provisional admission to the program.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             206. Integrating Curriculum &amp; Instruction for Adolescent Learners
+            </strong>
+           </p>
+           <p>
+            This course focuses on understanding educational research, theory, and reflective practice in planning for and implementing content- and age-appropriate instructional strategies resulting in the effective teaching of diverse adolescent learners (ages 9-18). This includes an investigation of a range of the essential teaching skills, including the planning, implementation, and adaptation of meaningful instruction and the development of a supportive learning environment. Students are introduced to a broad range of researchbased teaching methodologies, classroom management strategies, and fair assessment techniques. Focusing on the conceptual understanding of big ideas, students will use national, state, and district standards to plan, implement, and adapt lessons and units in their content areas. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: EDU 106 or 107 Educational Psychology: Adolescent Learning &amp; Development and provisional admission to the program.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             211. Theory &amp; Practice of Teaching English Language Learners
+            </strong>
+           </p>
+           <p>
+            This course examines the multifaceted issues facing English language learners in American public schools. Course topics include theories of second language acquisition and bilingualism, educational language policies such as the &ldquo;English-only&rdquo; movement with an emphasis on practical approaches to teaching English language learners. The current curricular approaches in ELL instruction such as SIOP (Structured Instruction Observation Protocol) and CALLA (Cognitive Academic Language Learning Approach) will be presented. Course readings draw from relevant literature in sociolinguistics, language acquisition, educational anthropology, and literacy education. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisite: provisional admission to the program Meets general academic requirement D and effective Fall 2013 DE.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             326. Language &amp; Early Literacy
+            </strong>
+           </p>
+           <p>
+            This course aims to provide an understanding of language and early literacy development of diverse young children (birth to age 9). Theories of first language acquisition provide a framework for understanding stages of oral language development and functions of oral language. The relationship between language acquisition and reading and writing processes are explored through the emergent literacy perspective. Topics in early literacy development include print awareness, phonemic/phonological awareness, phonics instruction, decoding and oral reading fluency, and developmental writing. These theoretical backgrounds inform various instructional approaches to early literacy instruction such as constructivism/whole language, balanced literacy program, and guided reading. This course also offers an overview of children&rsquo;s literature, including an introduction to the genres, notable books and authors, and resources for incorporating children&rsquo;s literature in literacy education programs. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 204 Integrating Curriculum &amp; Instruction for Young Learners and formal admission to the Education Certification Program Meets general academic requirement W.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             327, 328. Literacy &amp; Social Studies Education
+            </strong>
+           </p>
+           <p>
+            This course focuses on literacy development and instruction in grades 3-8, particularly on construction of meaning during the reading and writing processes. Topics of study in this course include reader response theories, theories of comprehension, comprehension strategies (such as inferring and summarizing), and vocabulary development and instruction. The course has an emphasis on content area literacy with an introduction to instructional strategies and activities to promote content area learning. Writing theories and instruction are presented through model frameworks and programs. In addition, this course will provide perspectives, methodologies, and philosophies of teaching social studies as a content area subject in the elementary and middle schools. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 204 Integrating Curriculum &amp; Instruction for Young Learners or EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program Meets general academic requirement W when offered as 328.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             330. Social Studies Education for Adolescent Learners
+            </strong>
+           </p>
+           <p>
+            This course presents the history and development of social studies in middle and high schools. It provides both an historical and political context to study the best teaching practices in the disciplines at the heart of social studies: American and Pennsylvania history, world history, civics, economics, and geography. With a focus on state and national standards in these disciplines, including the themes from the National Council for the Social Studies, students will develop lesson plans, instructional strategies, and assessments for diverse learners and will learn to supplement the textbook with primary sources, newspapers, websites, and curricula developed by professional national organizations. Relevant to content certification. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             334. Mathematics Education for Young Learners
+            </strong>
+           </p>
+           <p>
+            This course will analyze the content, pedagogy, and management of the Pre-K to grade 4 mathematics curricula in diverse classrooms. Emphasis will be placed on how young children learn mathematics, problem solving, reasoning and proof; communication; making connections within mathematics and with the world outside the classroom; multiple representations; and research based instructional strategies, all within the context of developing number sense, operations, patterns and functions, geometric shapes, data analysis &nbsp;and probability, and measurement. Students will use national, state, and district standards to plan, implement, and adapt lessons for the early grades. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 204 Integrating Curriculum &amp; Instruction for Young Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             336. Mathematics Education for Adolescent Learners
+            </strong>
+           </p>
+           <p>
+            This course presents theories and practices of teaching mathematics in middle and high school classrooms with focus on 1) discrete and integrated mathematics knowledge such as algebra, geometry, statistics, and probability; 2) pedagogy; and 3) curriculum design. Course content includes learning theories, national and state standards for the mathematics school curriculum, planning and material development skills, assessment, use of appropriate technology, and classroom management. Relevant to content certification. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             344. Science Education for Young Learners
+            </strong>
+           </p>
+           <p>
+            This course will enable the student to develop a professional practice as a science educator based on the best current knowledge about how young children learn science, the nature of science, and research-based methods of science teaching. Emphasis will be placed on developing inquiry oriented pedagogical strategies that foster children&rsquo;s natural curiosity; building an understanding of the nature of science; creating curricula, materials, and resources for instruction in diverse classrooms; devising authentic experiences with scientific questions and phenomena, and using assessment in the service of instruction, all within the framework of the PA Academic Standards for Science &amp; Technology and for Environment &amp; Ecology. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 204 Integrating Curriculum &amp; Instruction for Young Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             346. Science Education for Adolescent Learners
+            </strong>
+           </p>
+           <p>
+            This course will enable the student to develop a professional practice as a science educator based on the best current knowledge about how adolescents learn science, the nature of science, and research-based methods of science teaching. Emphasis will be placed on incorporating inquiry oriented pedagogical strategies that encourage student-generated scientific questions; developing basic and integrated process skills to answer scientific questions; building an understanding of the nature of science; creating curricula, materials, and resources for instruction in diverse classrooms, devising hands-on experiences with scientific questions and phenomena, focusing on collecting and interpreting authentic data, and using assessment in the service of instruction, all within the framework of the PA Academic Standards for Science and Technology and for Environment and Ecology. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             362. Languages Education
+            </strong>
+           </p>
+           <p>
+            This course will prepare students to be a teacher of foreign languages in grades K-12. Topics include school contexts for language learning, processes of secondary language acquisition, exemplary instructional strategies, and professional resources for curriculum and instruction. Students will be actively engaged in fieldwork placements to put the knowledge gained in the course into effective practice. By the end of the course, students will develop a philosophy of teaching languages and gain a repertoire of strategies that will make them effective teachers of languages. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             363. English Education for Adolescent Learners
+            </strong>
+           </p>
+           <p>
+            This course is designed to provide advanced instruction in preparation for a teaching career by focusing on providing theoretical background and practical guidance specifically targeted to secondary English teachers. Based on the understanding that learning is more concurrent than sequential, the course examines effective strategies to prepare, execute, and continually reflect on lessons used in the teaching of English. Students will have an opportunity to articulate their vision as English teachers, to develop a working knowledge of the various teaching theories and strategies, and to apply and evaluate instructional practices and theories to determine those which will best facilitate attainment of their vision. Relevant to content certification. Fieldwork is required.
+           </p>
+           <p>
+            Prerequisites: EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and formal admission to the Education Certification Program
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             370. Urban Ethnography
+            </strong>
+           </p>
+           <p>
+            The focus of this interdisciplinary course is on the relevance of the qualitative research method of Ethnography for exploring issues pertaining to youth in urban contexts. We will explore the complex relationships among schooling, social structure, and culture through research projects conducted by course participants. Students will be taught methods of data collection and analysis, including how to examine research subjectivities, &ldquo;gain entry&rdquo; in the field, manage data, frame assertions, seek confirming and disconfirming evidence, consider diverse audiences for reporting, and try out various narrative styles and voices in their interpretive writing. This course has been relevant to students interested in youth and urban issues across a variety of majors, including Art, Theatre, Dance, Media and Communication, English, Sociology, Psychology, Spanish, and American Studies. Meets general academic requirement W.
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             410. Seminar in Assessment &amp; Evaluation
+            </strong>
+           </p>
+           <p>
+            This course is designed to provide an overview of developmentally appropriate assessment/evaluation issues, techniques, and practices. Both on-going informal and formal assessment as integral to the teaching and learning process are emphasized. The course examines topics including formative and summative assessment, teacher made tests, standardized testing, alternative/authentic assessment techniques, grading practices, and parent conferences. The course introduces ways in which technology can be integrated into the assessment and evaluation process. Throughout the course, students are encouraged to think critically about the issues surrounding assessment within the context of educational practices and political realities.
+           </p>
+           <p>
+            Prerequisite: admission to professional semester
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             420. Seminar in Professional Studies &amp; Community Education
+            </strong>
+           </p>
+           <p>
+            As part of the Professional Semester, this course will provide teacher candidates an overview of the education profession with an emphasis on studies and experiences connected with individual teacher professionalism and ethical practice. The course will investigate issues confronting the professional educational community, such as standardized testing, school reorganization, and appropriate school/ community/family relationships in the context of the rights and responsibilities of the professional teacher. Other topics of exploration will include Pennsylvania school law (i.e. Chapter 4: Academic Standards and Assessment; Chapter 11: Student Attendance; and Chapter 12: Students and Student Services) and national professional organizations and standards.
+           </p>
+           <p>
+            Prerequisite: admission to professional semester
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             550 &amp; 551. Practicum in Education I &amp; II
+            </strong>
+           </p>
+           <p>
+            These courses are designed to provide an in-depth study of contemporary educational issues in public schools through a full-time classroom experience. The topics of study will include curriculum, standards, planning, assessment, and classroom management. These courses do not meet the requirements for PA certification. The courses are open only to students with permission from the Education Department.
+           </p>
+           <p>
+            Prerequisites: EDU 204 Integrating Curriculum &amp; Instruction for Young Learners or EDU 206 Integrating Curriculum &amp; Instruction for Adolescent Learners and EDU 201 Introduction to Special Education: Diverse Learners &amp; Inclusive Classrooms
+           </p>
+           <p>
+            &nbsp;
+           </p>
+           <p>
+            <strong>
+             950 &amp; 951. Student Teaching I &amp; II
+            </strong>
+           </p>
+           <p>
+            Student teaching is the core component of the professional semester. As interns in the public schools, students have the opportunity to apply the content knowledge and pedagogical skills gained in their academic preparation to actual classroom situations. Lesson and unit planning as well as assessment and classroom management skills are honed with the support of a mentor teacher and a college supervisor. Daily seminars prior to student teaching focus on differentiated instruction, questioning strategies, lesson planning, meeting the needs of a diverse public school population, and strategies to enhance student motivation. Weekly seminar sessions during the semester provide the student teachers with a forum to reflect analytically on their classroom experiences as they develop their professional skills and voice. This semester consists of two full-time teaching experiences in grade levels appropriate to the area of certification.
+           </p>
+           <p>
+            Prerequisite: admission to the professional semester
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Education
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/academics/education/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/missionandlearninggoals/">
+            Mission and Learning Goals
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/faculty/">
+            Faculty
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/whymuhlenberg/">
+            Why Muhlenberg?
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/fieldwork/">
+            Fieldwork
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/studentteaching/">
+            Student Teaching
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/lifeafterberg/">
+            Life After 'Berg
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/researchandscholarship/">
+            Research and Scholarship
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/programrequirements/">
+            Program Requirements
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/academics/education/courselisting/">
+             Course Listing
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/academics/education/resourcesandlinks/">
+            Resources and Links
+           </a>
+          </li>
+          <li>
+           <a href="/main/wescoe/programcourseofferings/teachercertification/">
+            Teacher Certification for Adult Students
+           </a>
+          </li>
+          <li>
+           <a href="/main/academics/education/contactinformation/">
+            Contact Information
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/academics/education/missionandlearninggoals/"&gt;Mission and Learning Goals&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/faculty/"&gt;Faculty&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/whymuhlenberg/"&gt;Why Muhlenberg?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/fieldwork/"&gt;Fieldwork&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/studentteaching/"&gt;Student Teaching&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/lifeafterberg/"&gt;Life After 'Berg&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/researchandscholarship/"&gt;Research and Scholarship&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/programrequirements/"&gt;Program Requirements&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/academics/education/courselisting/"&gt;Course Listing&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/resourcesandlinks/"&gt;Resources and Links&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/programcourseofferings/teachercertification/"&gt;Teacher Certification for Adult Students&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/academics/education/contactinformation/"&gt;Contact Information&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs
+        </h3>
+        <ul>
+         <li>
+          <a href="/academics#mmc">
+           Majors, Minors &amp; Certification
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/preprof/">
+           Preprofessional Program
+          </a>
+          <ul>
+           <li>
+            <a href="/main/academics/health_professions/">
+             Health Professions
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/preprof/prelaw/">
+             Prelaw
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/religiouslife/pre-theologicalstudies/">
+             Pre-Theological
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/admissions/applyingtoacooperativeprogram/">
+           Cooperative Programs
+          </a>
+          <ul>
+           <li>
+            <a href="/main/admissions/dentistry/">
+             UPenn Dental Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/physics/curriculum/dualdegreeengineering/">
+             Engineering
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/templemedprogram/">
+             Temple Medical School Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Occupational Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/optometry/">
+             SUNY College of Optometry Program
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/physicalandoccupationaltherapy/">
+             Physical Therapy
+            </a>
+           </li>
+           <li>
+            <a href="/main/academics/music/certification/">
+             Music Certification
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehigh.edu/%7Einmil/schools.shtml" target="_blank">
+             ROTC
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Incredible Experiences
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/academics/global-education/">
+           Global Education
+          </a>
+         </li>
+         <li>
+          Senior Year Experience
+         </li>
+         <li>
+          <a href="/main/aboutus/registrar/courses/lviaccross-registration/">
+           Connect with Other Colleges
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/research/">
+           Research and Scholarship
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/community-service/">
+           Service Learning
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/honors-overview.html/">
+           Honors Programs
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/global-education/approvedprogramsoff-campus/washingtonsemester/">
+           Washington Semester
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/careercenter/">
+           Career Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Resources &amp; Policies
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/dean-academic/">
+           Dean of Academic Life
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/arc/">
+           Academic Resource Center
+          </a>
+         </li>
+         <li>
+          <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Registrar%20%BB%20Policy%20and%20Procedures%20%BB%20Table%20of%20Contents" href="/main/aboutus/registrar/policyandprocedures/tableofcontents/">
+           Policies &amp; Procedures Manual
+          </a>
+         </li>
+         <li>
+          <a href="http://trexler.muhlenberg.edu">
+           Library
+          </a>
+         </li>
+         <li>
+          <a href="/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="http://catalog.muhlenberg.edu/" target="_blank">
+           College Catalog
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/disabilities/">
+           Disability Services
+          </a>
+         </li>
+         <li>
+          <a href="/main/academics/writing/center/">
+           Writing Center
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

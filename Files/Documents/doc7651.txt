@@ -1,0 +1,838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  START -->
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- REQUIRED FOR ALL IN ONE FORM SCRIPT:  END -->
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css"  /&gt;-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeNR.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors-wescoe.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/contentassets/wescoesite/css/wescoeLayoutNR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <!--&lt;link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css"  /&gt;-->
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Campus to Conference Room - Campus to Conference Room | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="keywords" content="" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="description" content="" />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links (2) Wescoe -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/wescoe/prospectivestudents/" style='background-image:url("/media/contentassets/wescoesite/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/TransferGuides.html" style='background-image:url("/media/contentassets/wescoesite/currentImage.jpg");'>
+        Transfer Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/currentstudentsfaculty/" style='background-image:url("/media/contentassets/wescoesite/veteran.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/aboutus/staff.html" style='background-image:url("/media/contentassets/wescoesite/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="http://www.muhlenbergconnect.com/s/1570/start.aspx?gid=2&amp;pgid=61" style='background-image:url("/media/contentassets/wescoesite/alumni1.jpg");'>
+        Alumni
+       </a>
+      </li>
+      <li>
+       <a href="/main/wescoe/communitypartners/" style='background-image:url("/media/contentassets/wescoesite/CommunityPartnersImage.jpg");'>
+        Community Partner
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/main/wescoe">
+         <img src="/media/contentassets/wescoesite/logo.fw.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="https://www.linkedin.com/company/the-wescoe-school-of-muhlenberg-college">
+           <span class="fa fa-linkedin">
+           </span>
+          </a>
+          <a target="_child" href="https://twitter.com/wescoeschool">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="https://www.facebook.com/WescoeSchool/">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+          <a target="_child" href="http://www.muhlenberg.edu/">
+           <span class="fa fa-home">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD Wescoe -->
+          <ul>
+           <li>
+            <a href="/main/wescoe/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/programcourseofferings/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/prospectivestudents/veteransportal/">
+             Veterans Portal
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/stories/">
+             Success Stories
+            </a>
+           </li>
+           <li>
+            <a href="http://shrek.muhlenberg.edu/Calendar">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="http://www.muhlenberg.edu/main/wescoe/contactus">
+             Contact
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Campus to Conference Room
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/index.php">
+               Wescoe School
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/communitypartners/">
+               Community Partners
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/communitypartners/campustoconferenceroom/">
+               Campus to Conference Room
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/wescoe/communitypartners/campustoconferenceroom/campustoconferenceroom/">
+               Campus to Conference Room
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <script type="text/javascript">
+           function validateAll() {
+
+        document.formname.DISP_NAMES.value=
+
+         getFormElements("formname","DISP_NAMES",",");
+
+ 
+
+/*  BEGIN add validation functions here
+
+ 
+
+Sample:  if (! validText("formname", "adName", "Advertisement Name", std, true) )  
+
+             return false;
+
+*/
+ if (! validText("formname", "Name", "Full Name", std, true) )  
+
+             return false;
+
+ if (! validEmail("formname", "FROM", "Email Address", std, true) )  
+
+             return false;
+
+/*  END add validation functions here*/
+
+ 
+
+        document.formname.action='/media/contentassets/php/shared/AllInOneFormProcessor.php';
+
+        document.formname.method="POST";
+
+        document.formname.enctype="multipart/form-data";
+
+        document.formname.submit();
+
+   }
+          </script>
+          <!-- &lt;form action='/media/contentassets/php/shared/AllInOneFormProcessor.php' enctype="multipart/form-data" method="POST" name="formname" style="padding-top: 20px;"&gt; -->
+          <form action="" enctype="" method="" name="formname" style="padding-top: 20px;">
+           <!-- Content Template Start: General Content-->
+           <h1>
+           </h1>
+           <h3>
+            <span id="headertext">
+             Campus to Conference Room
+            </span>
+           </h3>
+           <div>
+            <p>
+             Name :
+             <label>
+              <input id="Name" name="Name" type="text" />
+             </label>
+            </p>
+            <p>
+             Address:
+             <label>
+              <input id="Address" name="Address" size="65" type="text" value="" />
+             </label>
+            </p>
+            <p>
+             Email Address:
+             <input id="FROM" name="FROM" size="35" type="text" />
+            </p>
+            <p>
+             Telephone:
+            </p>
+            <blockquote>
+             Office&nbsp;&nbsp;
+             <label>
+              <input id="OfficePhone" name="OfficePhone" type="text" />
+             </label>
+             Cell/Other
+             <label>
+              <input id="CellPhone" name="CellPhone" type="text" />
+             </label>
+            </blockquote>
+            <p>
+             Business/Organization/Group Name:
+             <label>
+              <input id="BusinessName" name="BusinessName" size="35" type="text" />
+             </label>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            <p>
+             <input id="check1" name="check1" type="checkbox" value="The Manager's Role in Creating a Motivational Climate" />
+             A Manager's Role in Creating a Motivational Climate
+             <br />
+             <input id="check2" name="check2" type="checkbox" value="The 5 Steps to Making Effective Decisions" />
+             5 Steps to Making Effective Decisions
+             <br />
+             <input id="check3" name="check3" type="checkbox" value="The Secret Benefits of Returning to School" />
+             The Secret Benefits of Returning to School
+             <br />
+             <input id="check4" name="check4" type="checkbox" value="Tips for Team Building" />
+             Tips for Team Building
+             <br />
+             <input id="check5" name="check5" type="checkbox" value="Idea Improv: Team Exercise for Your Organization" />
+             Idea Improv: Team Exercise for Your Organization
+             <br />
+             <input id="check6" name="check6" type="checkbox" value="Conflict Resolution" />
+             Conflict Resolution
+             <br />
+             <input id="check7" name="check7" type="checkbox" value="Leadership Strategies: Tools to Get Started" />
+             Leadership Strategies: Tools to Get Started
+             <br />
+             <input id="check8" name="check8" type="checkbox" value="Time Management: We Can All Use a Little Help" />
+             Time Management: We Can All Use a Little Help
+             <br />
+             <input id="check9" name="check9" type="checkbox" value="Close More Sales: Trade Secrets" />
+             Close More Sales: Trade Secrets
+             <br />
+             <input id="check10" name="check10" type="checkbox" value="Juggling Family, Career, and School: Tips for Success" />
+             Juggling Family, Career, and School: Tips for Success
+             <br />
+             <input id="check11" name="check11" type="checkbox" value="Understanding the 23 Dimensions of Diversity" />
+             Understanding the 23 Dimensions of Diversity
+             <br />
+             <input id="check12" name="check12" type="checkbox" value="Learning, Change, Innovation: What Do They Have in Common?" />
+             Learning, Change, Innovation: What Do They Have in Common?
+             <br />
+             <input id="check13" name="check13" type="checkbox" value="Position Yourself for Success in the Healthcare Industry" />
+             Position Yourself for Success in the Healthcare Industry
+             <br />
+             <input id="check14" name="check14" type="checkbox" value="What Makes a Good Team Leader/Team Member?" />
+             What Makes a Good Team Leader/Team Member?
+             <br />
+             <input id="check15" name="check15" type="checkbox" value="Tips for Coping with Stress" />
+             What Makes a Tips for Coping with Stress
+             <br />
+             <input id="check16" name="check16" type="checkbox" value="Data Security for Your Organization" />
+             Data Security for Your Organization
+             <br />
+             <input id="check17" name="check17" type="checkbox" value="Managing Your Career" />
+             Managing Your Career
+             <br />
+             <input id="check18" name="check18" type="checkbox" value="Encouraging Ethical Behavior Among Employees" />
+             Encouraging Ethical Behavior Among Employees
+             <br />
+             <input id="check19" name="check19" type="checkbox" value="Eliminating Disruptive Organizational Conflict" />
+             Eliminating Disruptive Organizational Conflict
+             <br />
+             <input id="check20" name="check20" type="checkbox" value="Boomers, Gen X'ers and Millennials: Managing Multiple Generations " />
+             Boomers, Gen X'ers and Millennials: Managing Multiple Generations
+            </p>
+            <p>
+             Don't see what you are looking for? Suggest a Topic relative to your organization's needs.
+            </p>
+            <p>
+             <textarea cols="45" id="Suggestion" name="Suggestion" rows="5">
+             </textarea>
+            </p>
+            <p>
+             Please list 3 possible presentation dates:
+             <br />
+             <input id="Date1" name="Date1" type="text" />
+             <input id="Date2" name="Date2" type="text" />
+             <input id="Date3" name="Date3" type="text" />
+            </p>
+            <p>
+             What time of day would you like the presentation?
+             <br />
+             <input id="radio" name="Time" type="radio" value="Morning" />
+             Morning
+             <input id="radio2" name="Time" type="radio" value="Lunch" />
+             Lunch Hour
+             <input id="radio3" name="Time" type="radio" value="Afternoon" />
+             Afternoon
+             <input id="radio4" name="Time" type="radio" value="After Work" />
+             After work
+            </p>
+            <p>
+             Location:&nbsp;
+             <br />
+             <input id="radio5" name="Location" type="radio" value="Your Org" />
+             Your Organization&nbsp;&nbsp;
+             <input id="radio6" name="Location" type="radio" value="Wescoe" />
+             The Muhleberg College campus
+            </p>
+           </div>
+           <p>
+            &nbsp;
+           </p>
+           <!-- Content Template End-->
+           <!-- recaptcha lib include file -->
+           <div style="font-family:Arial;font-size:0.8em;font-style:italic;text-align:inherit">
+            Please enter the numbers or text as displayed below.  For a more readable display, refresh the image (click 
+
+rotating arrows):
+            <br />
+            <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LeG98QSAAAAAMMrWx-5GICylFwizd8tFi9VhE0m">
+            </script>
+            <noscript>
+             <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeG98QSAAAAAMMrWx-5GICylFwizd8tFi9VhE0m" height="300" width="500" frameborder="0">
+             </iframe>
+             <br />
+             <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+             </textarea>
+             <input type="hidden" name="recaptcha_response_field" value="manual_challenge" />
+            </noscript>
+           </div>
+           <input id="submit" onclick="return validateAll()" type="submit" name="Submit Form" value="Submit" />
+           <input type="hidden" name="COMPILE_CSV" value="N" />
+           <input type="hidden" name="CSV_PATH" value="" />
+           <input type="hidden" name="CSV_EMAIL_LIST" value="email.txt" />
+           <input type="hidden" name="CSV_OUTPUT" value="response.csv" />
+           <input type="hidden" name="CSV_DELIMITER" value="," />
+           <input type="hidden" name="CSV_NULLS_ALLOWED" value="Y" />
+           <input type="hidden" name="FORM_ELEMENT_FILE" value="/media/contentassets/formelements/wescoe/conference form.txt" />
+           <!-- EMAIL FORWARDING If left blank, no email will be sent -->
+           <input type="hidden" name="RECIPIENT" value="mbrown@muhlenberg.edu" />
+           <input type="hidden" name="SUBJECT" value="Request A Campus to Conference Room Session" />
+           <!--For “SUBJECT_ID” value is the  name of an html field that would offer an identity for the form being submitted.  The value of that field would be appended to the SUBJECT of the email.  If omitted, nothing will happen.-->
+           <input type="hidden" name="SUBJECT_ID" value="Name" />
+           <!-- CONFIRMATION PAGE-->
+           <input type="hidden" name="REDIRECT" value="/main/wescoe/communitypartners/campustoconferenceroom/campustoconferenceroom/confirm/" />
+           <!--DEBUG MODE:  Displays values on-screen only-->
+           <input type="hidden" name="DISP_NAMES" id="DISP_NAMES" value="Name,FROM" />
+           <input type="hidden" name="DEBUG" value="false" />
+          </form>
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <div class="box02">
+          <!-- navigation object : Callout Links Related -->
+         </div>
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Community Partners
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/wescoe/communitypartners/">
+            Home
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/wescoe/communitypartners/corporatepartnerships/"&gt;Corporate Partnerships&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/wescoe/communitypartners/capstoneprojects/"&gt;Capstone Projects &lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/wescoe/communitypartners/campustoconferenceroom/"&gt;Campus to Conference Room&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Prospective Students
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/">
+           Summary
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/gettingstarted/">
+           Getting Started
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/informationsessions/">
+           Information Sessions
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/veteransportal/">
+           Veteran's Portal
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/TransferGuides.html">
+           Transfer Guides
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/tuition.html">
+           Tuition &amp; Fees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/prospectivestudents/tuitionbenefits/">
+           Tuition Benefits
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/relatedforms/">
+           Related Forms
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/finaid/wescoestudents/generalinformation/">
+           Financial Aid
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/request-info.html">
+           Request Information&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Programs &amp; Course Offerings
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/">
+           Academic Overview
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/traditionaldegrees/">
+           Traditional Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/accelerateddegrees/">
+           Accelerated Degrees
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/teachercertification/">
+           Teacher Certification/ACT 48
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/communitypartners/corporatepartnerships/">
+           Corporate Partnerships
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/programcourseofferings/summer.html">
+           Summer Study
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/frmss03w.html">
+           Course Selections&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Current Students/Faculty
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/wescoe/currentstudentsfaculty/academicadvising/">
+           Academic Advising
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/newsevents/calendar/">
+           Academic Calendar
+          </a>
+         </li>
+         <li>
+          <a href="https://muhlenbergcollege.instructure.com/login/canvas">
+           Canvas
+          </a>
+         </li>
+         <li>
+          <a href="https://capstone2.muhlenberg.edu/" target="_blank">
+           CapStone Online
+          </a>
+         </li>
+         <li>
+          <a href="http://www.studentclearinghouse.org/" target="_blank">
+           Order Transcripts
+          </a>
+         </li>
+         <li>
+          <a href="/main/wescoe/aboutus/staff.html">
+           Staff Directory&nbsp;
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3300 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College Wescoe School of Continuing Education
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

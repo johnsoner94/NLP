@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Accounting, Business, Economics, &amp; Finance - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 364018;
+			mySID = 2978970;
+			var myGNAME = "Accounting%2C+Business%2C+Economics%2C+%26+Finance";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Accounting, Business, Economics, &amp; Finance
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Oct 24, 2016
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/abef">
+          http://libraryguides.muhlenberg.edu/abef
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=364018">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Kelly Cannon
+         </td>
+        </tr>
+        <tr id="profile_subject_row">
+         <td class="profile_label">
+          Subjects:
+         </td>
+         <td class="profile_val">
+          Humanities and Business
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:kcannon@muhlenberg.edu">
+           kcannon@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          484-664-3602
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364018&amp;sid=2978970">
+       Databases
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364018&amp;sid=2978971">
+       Library Catalogs
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364018&amp;sid=2978972">
+       Statistical Sources
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364018&amp;sid=2978973">
+       Reference Works
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364018&amp;sid=2978974">
+       Citation Guides
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2978970" class="guide_page">
+   <h2>
+    Databases
+   </h2>
+   <div id="content_box_10473259" class="content_box content_box_2">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Resources by Course
+     </div>
+     <ul>
+      <li>
+       Accounting Information Systems
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/acctginfosys">
+        http://libraryguides.muhlenberg.edu/acctginfosys
+       </a>
+      </li>
+      <li>
+       Business and Society
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/businessandsociety">
+        http://libraryguides.muhlenberg.edu/businessandsociety
+       </a>
+      </li>
+      <li>
+       Development Economics
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/developmentecon">
+        http://libraryguides.muhlenberg.edu/developmentecon
+       </a>
+      </li>
+      <li>
+       Financial Accounting
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/finacctg">
+        http://libraryguides.muhlenberg.edu/finacctg
+       </a>
+      </li>
+      <li>
+       Financial Analysis and Risk Management
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/financialrisk">
+        http://libraryguides.muhlenberg.edu/financialrisk
+       </a>
+      </li>
+      <li>
+       Globalization &amp; Marketing
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/globalmktg">
+        http://libraryguides.muhlenberg.edu/globalmktg
+       </a>
+      </li>
+      <li>
+       Labor Economics
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/laborecon">
+        http://libraryguides.muhlenberg.edu/laborecon
+       </a>
+      </li>
+      <li>
+       Marketing
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/mktg">
+        http://libraryguides.muhlenberg.edu/mktg
+       </a>
+      </li>
+      <li>
+       Marketing in Not-for-Profit Organizations
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/nonprofitmktg">
+        http://libraryguides.muhlenberg.edu/nonprofitmktg
+       </a>
+      </li>
+      <li>
+       Marketing Research
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/mktres">
+        http://libraryguides.muhlenberg.edu/mktres
+       </a>
+      </li>
+      <li>
+       Operations and Information Systems
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/operations">
+        http://libraryguides.muhlenberg.edu/operations
+       </a>
+      </li>
+      <li>
+       Principles of Macroeconomics
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/macroecon">
+        http://libraryguides.muhlenberg.edu/macroecon
+       </a>
+      </li>
+      <li>
+       Summer Business Institute
+       <br />
+       <a href="http://libraryguides.muhlenberg.edu/sbi">
+        http://libraryguides.muhlenberg.edu/sbi
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10101170" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10473260" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Core Databases
+     </div>
+     <ul>
+      <li>
+       Business Source Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=bth">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=bth
+       </a>
+       <br />
+       Available by library subscription. Largely full text database of scholarly and trade journals covering all aspects of accounting, business, and economics. Full text journals include, among many others, the Harvard Business Review (1985-present, including all cases originally published in the Review), Academy of Management Journal, Accounting Review, and Journal of Marketing. Also includes several hundred in-depth reports on publicly traded companies. To access, click on the Company Profiles tab at the top of Business Source Complete.
+      </li>
+      <li>
+       Business Week
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&amp;db=bsh&amp;jid=B7OA&amp;site=ehost-live">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.aspx?direct=true&db;=bsh&jid;=B7OA&site;=ehost-live
+       </a>
+       <br />
+       Top-flight business periodical.
+      </li>
+      <li>
+       EconLit
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/econlitshell/ip?accountid=40980">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.proquest.com/econlitshell/ip?accountid=40980
+       </a>
+       <br />
+       Index to scholarly publications in economics. Links out to other library databases, and to interlibrary loan.
+      </li>
+      <li>
+       JSTOR
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.jstor.org/
+       </a>
+       <br />
+       Full text of peer-reviewed journals from most academic disciplines. Coverage is from the inception of the journal through three to five years ago. Well over 400 journals specific to the study of business and economics.
+      </li>
+      <li>
+       IntelliConnect (CCH)
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://intelliconnect.cch.com/scion/auth.jsp?disableAutoLogin=true&amp;wksso=false">
+        https://muhlenberg.idm.oclc.org/login?url=http://intelliconnect.cch.com/scion/auth.jsp?disableAutoLogin=true&wksso;=false
+       </a>
+       <br />
+       Users must possess a valid Muhlenberg email address, and create an account. IntelliConnect provides unlimited access to federal and state tax information plus explanations, analysis and practice aids. Includes daily tax news, FASB materials, as well as GAAP and GAAS guides.
+       <a href="http://libapp.muhlenberg.edu/cannon/Intelliconnect.pdf">
+        User guide
+       </a>
+       .
+       <br />
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10473261" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      More Databases
+     </div>
+     <ul>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas.
+      </li>
+      <li>
+       HealthSource
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=hch">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=hch
+       </a>
+       <br />
+       Includes full text articles in the area of healthcare economics and management.
+      </li>
+      <li>
+       PsycINFO
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=psyh">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=psyh
+       </a>
+       <br />
+       Premier database of scholarly and professional journals and books in psychology and related areas.  Some full text is linked directly in the database; otherwise, use the Check for Full Text buttons to check for full text online or in the library.
+      </li>
+      <li>
+       Sage Journals Online
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search">
+        https://muhlenberg.idm.oclc.org/login?url=http://online.sagepub.com/cgi/search
+       </a>
+       <br />
+       Full text of key journals in management and organizational behavior.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_20045591" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      News Databases
+     </div>
+     <ul>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       News and financial database. Most major newspapers from around the world are full text, updated daily. Includes company dossiers, complete with ample financial data from a variety of sources.
+      </li>
+      <li>
+       New York Times
+       <br />
+       <a href="http://www.nytimes.com">
+        http://www.nytimes.com
+       </a>
+       <br />
+       Complete access to New York Times via Muhlenberg subscription. All users must register while physically on campus, using their Muhlenberg email. Contact refdesk@muhlenberg.edu with any questions.
+      </li>
+      <li>
+       Wall Street Journal via Proquest 1984 to present
+       <br />
+       <a href="http://search.proquest.com.muhlenberg.idm.oclc.org/publication/10482">
+        http://search.proquest.com.muhlenberg.idm.oclc.org/publication/10482
+       </a>
+       <br />
+       Available by library subscription. The "paper of record" of the business world. Proquest version contains full text archive 1923-today. No charts or graphs
+      </li>
+      <li>
+       Wall Street Journal via Proquest 1923-1998
+       <br />
+       <a href="http://search.proquest.com.muhlenberg.idm.oclc.org/publication/45441">
+        http://search.proquest.com.muhlenberg.idm.oclc.org/publication/45441
+       </a>
+       <br />
+       Available by library subscription. The "paper of record" of the business world. Proquest version contains full text archive 1923-today. No charts or graphs
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>

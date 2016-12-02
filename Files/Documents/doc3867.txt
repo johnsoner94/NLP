@@ -1,0 +1,891 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   FAQ - Hate/Bias Policy | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Hate/Bias Policy
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/hatebiaspolicy/">
+               Hate/Bias Policy
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/hatebiaspolicy/faqs.html">
+               FAQ
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+           Frequently Asked Questions
+          </h1>
+          <div class="content-add05">
+           <p>
+            <strong>
+             What is a bias incident?
+             <br />
+            </strong>
+            A bias incident is behavior that is an expression of hostility against a person or the property of another because of the person&rsquo;s actual or perceived age, color, disability, gender, gender identity, ethnicity,&nbsp;national origin, race, religion, sexual orientation, veteran status, or any other legally protected basis.&nbsp; The behavior itself may be legal, or it may violate the law or College policy(ies). The determination of whether or not something is a bias incident is based upon the perpetrator&rsquo;s motivation for targeting an individual or particular identity group.
+           </p>
+           <p>
+            <strong>
+             What are some examples of bias incidents?
+             <br />
+            </strong>
+            Depending on the totality of the circumstances, writing a racial epithet in erasable marker on someone&rsquo;s dry-erase board, making fun of another person because of his or her language or accent, or making insulting comments about someone&rsquo;s traditional manner of dress or geographic origin are hypothetical examples of a bias-related incident.
+           </p>
+           <p>
+            <strong>
+             What is a hate crime?
+             <br />
+            </strong>
+            A hate crime is any act prohibited by law that is motivated by the victim's actual or perceived age, color, disability, gender, gender identity, ethnicity, national origin, race, religion, sexual orientation, veteran status, or any other legally protected basis.&nbsp; All hate crimes are considered bias incidents, but not all bias incidents are considered hate crimes. Hate itself is not a crime.
+           </p>
+           <p>
+            <strong>
+             What are some examples of hate crimes?
+             <br />
+            </strong>
+            Painting racial slurs on the side of a campus building, assaulting another person because of his or her perceived national origin, or throwing a rock through someone&rsquo;s window while yelling derogatory comments about his or her religion are hypothetical examples of a hate crime.
+           </p>
+           <p>
+            <strong>
+             How can I report a hate crime or bias incident?
+             <br />
+            </strong>
+            <em>
+             When immediate attention is needed
+            </em>
+            , contact Campus Safety at 484-664-3110.
+           </p>
+           <p>
+            <em>
+             If you&rsquo;d like to file a formal complaint,
+            </em>
+            you may contact:
+           </p>
+           <ul>
+            <li>
+             Campus Safety&nbsp; 484-664-3110
+            </li>
+            <li>
+             Dean of Students &nbsp;484-664-3182 (Note: This office must report to Campus Safety)
+            </li>
+            <li>
+             Director of Multicultural Life &nbsp;484-664-3228
+            </li>
+            <li>
+             Hate/Bias&nbsp;Resource Team -&nbsp;
+             <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Hate/Bias%20Policy%20%BB%20Response%20Team" href="/hatebiaspolicy/response-team.html">
+              http://www.muhlenberg.edu/hatebiaspolicy/response-team.html
+             </a>
+             <ul>
+              <li>
+               Corey Goff, Director of Athletics,
+               <a href="mailto:cgoff@muhlenberg.edu">
+                cgoff@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Diana Gomez, &rsquo;18,
+               <a href="mailto:dg250186@muhlenberg.edu">
+                dg250186@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Nicole Hammel, Director of Institutional Research and Records,
+               <a href="mailto:hammel@muhlenberg.edu">
+                hammel@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Dawn Lonsinger, Visiting Assistant Professor, English,
+               <a href="mailto:dlonsinger@muhlenberg.edu">
+                dlonsinger@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Roberta Meek, Lecturer, History and Media &amp; Communication,
+               <a href="mailto:meek@muhlenberg.edu">
+                meek@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Robin Riley-Casey, Director of Multicultural Life,
+               <a href="mailto:riley-casey@muhlenberg.edu">
+                riley-casey@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Jan Schumacher, Director of Residential Services,
+               <a href="mailto:schumach@muhlenberg.edu">
+                schumach@muhlenberg.edu
+               </a>
+              </li>
+              <li>
+               Lynda Yankaskas, Assistant Professor, History,
+               <a href="mailto:lyankaskas@muhlenberg.edu">
+                lyankaskas@muhlenberg.edu
+               </a>
+              </li>
+             </ul>
+            </li>
+           </ul>
+           <ul>
+            <li>
+             Hate/Bias Incident Online Reporting Form -
+             <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Hate/Bias%20Policy%20%BB%20Reporting%20Options" href="/hatebiaspolicy/reporting.html">
+              http://www.muhlenberg.edu/hatebiaspolicy/reporting.html
+             </a>
+            </li>
+            <li>
+             Title IX Coordinator &nbsp;484-664-3562 if the incident is in violation of the Sexual and Gender-Based Misconduct Policy
+            </li>
+           </ul>
+           <p>
+            <em>
+             If you&rsquo;re not sure how you want to proceed, or if you want details of the incident to be kept confidential,
+            </em>
+            you may contact:
+           </p>
+           <ul>
+            <li>
+             College Chaplain &nbsp;484-664-3120
+            </li>
+            <li>
+             Jewish Chaplain &nbsp;484-664-3244
+            </li>
+            <li>
+             Roman Catholic Chaplain &nbsp;484-664-3122
+            </li>
+            <li>
+             Counseling Services &nbsp;484-664-3178
+            </li>
+            <li>
+             Health Services &nbsp;484-664-3199
+            </li>
+           </ul>
+           <p>
+            Confidential reporting may constrain the College from responding fully. Under certain limited circumstances, such as when there is an indication of a pattern of behavior or when there is an immediate or ongoing threat to the community, these confidential resources may be required to report the incident to law enforcement or Campus Safety.
+           </p>
+           <p>
+            <strong>
+             What is the Hate/Bias&nbsp;Resource Team? What is its function and who are its members?
+            </strong>
+           </p>
+           <p>
+            To get further information, follow this link:
+           </p>
+           <p>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Hate/Bias%20Policy%20%BB%20Response%20Team" href="/hatebiaspolicy/response-team.html">
+             http://www.muhlenberg.edu/hatebiaspolicy/response-team.html
+            </a>
+           </p>
+           <p>
+            <strong>
+             What can I expect when I meet with a Hate/Bias&nbsp;Resource Team Member?*
+             <br />
+            </strong>
+            The Hate/Bias Team provides support and outlines reporting options whether you are a target/victim, witness, or third party reporter.
+           </p>
+           <p>
+            When you meet with a team member, you will have a thorough discussion to review and confirm all relevant information, address any concerns you may have, and to consider next steps.
+           </p>
+           <ul>
+            <li>
+             Discussing possible options and next steps: The Hate/Bias&nbsp;Resource Team will inform you of the various ways the bias incident can be addressed in accordance with College policy. Several factors determine the next step, including whether the alleged perpetrator/s is/are known and how you would like to respond. The needs of the community as well as the College&rsquo;s responsibility to alert the campus community, investigate, and/or charge individuals are also significant factors in determining next steps.
+            </li>
+            <li>
+             Reviewing and confirming relevant information: Your conversation will focus on making sure the report is as complete and accurate as possible. The goals of this process are to understand the specifics and nature of the incident; to determine whether it is a bias incident or hate crime; and to support all those involved
+            </li>
+            <li>
+             Addressing issues or concerns: Bias incidents can have immediate and/or long-term impacts on those who experience them or witness them. The Hate/Bias Response Team can address some of your immediate concerns and provide information on campus and local resources that could prove helpful. If the bias incident may have an effect on a broader group of community members, the team will discuss potential community impact and provide such information to the Dean of Students, the Provost, or the Vice President for Human Resources, as appropriate.
+            </li>
+           </ul>
+           <p>
+            <strong>
+             What happens after I submit a report?
+             <br />
+            </strong>
+            Targets/victims, witnesses, and third party reporters may choose to report an incident and request no further action. In most cases, the College will respect the individual&rsquo;s wishes. In cases where there is an indication of pattern of behavior or if it is determined that there is ongoing threat to the community; the College may decide to proceed with an investigation.
+           </p>
+           <p>
+            If a target/reporter files a complaint and wishes for the College to take action, the information will be reviewed by the Dean of Students, Provost, or Vice President for Human Resources (as appropriate) to determine if there is preliminary evidence of bias. &nbsp;If there is, a thorough and impartial investigation will be conducted by Campus Safety which may lead to disciplinary proceedings as outlined in the Social Code and/or the Sexual and Gender-Based Misconduct Policy (if the accused is a student), and the Faculty, Managers, or Support Staff Handbooks (if the accused is an employee of the College).&nbsp; If there is no immediate, clear evidence of meeting the definition of a bias incident, the target/reporter will be informed.
+           </p>
+           <p>
+            <strong>
+             What other College Policies are related to this Hate/Bias Response Policy?
+            </strong>
+           </p>
+           <ul>
+            <li>
+             <a href="/media/contentassets/pdf/about/deanst/studentguide/socialcode.pdf">
+              Social Code
+             </a>
+             &zwnj;
+            </li>
+            <li>
+             <a href="/media/contentassets/pdf/about/deanst/studentguide/sexualmisconduct.pdf">
+              Sexual and Gender-Based Misconduct Policy
+             </a>
+             &zwnj;
+            </li>
+            <li>
+             &zwnj;
+             <a href="/media/contentassets/pdf/about/provost/handbook/faculty_handbook.pdf">
+              Faculty Handbook
+             </a>
+            </li>
+            <li>
+             <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/managerhandbook/">
+              Managers Handbook
+             </a>
+             <span style="text-decoration: underline;">
+             </span>
+            </li>
+            <li>
+             <a href="/main/aboutus/hr/currentemployeesretirees/resourcespolicies/handbooks/supportstaffhandbook/">
+              Support Staff Handbook
+             </a>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             How does the College communicate to the campus community information about hate crimes and bias incidents?
+             <br />
+            </strong>
+            Incidents that pose a direct threat to members of the community will be reported to the community in a timely manner using the emergency message system. In addition, The Vice President of Human Resources and the Dean of Students will meet monthly to collate bias incidents and hate crimes into one report. These reports will be shared with the President&rsquo;s Diversity Advisory Committee (&ldquo;PDAC&rdquo;). The College will include summaries of this data in periodic climate reports to the Muhlenberg College community.
+           </p>
+           <p>
+            Muhlenberg College complies with the Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act 1998 (Clery Act). The Clery Act requires all postsecondary institutions participating in Title IV financial assistance programs to disclose campus crime statistics and security information. Hate crimes and bias incidents are among the categories of reportable offenses. The Annual Security Report is distributed each year by Muhlenberg College Campus Safety and can be reviewed on the College website.
+           </p>
+           <p>
+            <strong>
+             What is the President&rsquo;s Diversity Advisory Committee (&ldquo;PDAC&rdquo;) and what is their role in this process?
+             <br />
+            </strong>
+            PDAC is comprised of senior administrators and faculty appointed by the President, in response to a recommendation from the Multicultural Center Advisory Board.&nbsp; PDAC meets periodically with the President to review policies, programs, and plans related to diversity and inclusivity on campus.
+           </p>
+           <p>
+            PDAC will receive monthly hate/bias incident reports from the Vice President of Human Resources and the Dean of Students. The Committee will analyze incidents contained in the report, including pervasive, chronic or systemic patterns of behavior, and recommend institutional responses to the President.
+           </p>
+           <p>
+            <strong>
+             What kind of institutional responses may be employed?
+             <br />
+            </strong>
+            Depending on the nature and severity of the incident, and the identity of the alleged perpetrator (student, employee), appropriate disciplinary procedures may be utilized and appropriate penalties imposed, up to and including suspension and expulsion (for students), and suspension or termination for employees.&nbsp; Other types of institutional responses may include community forums, educational programming, support for individuals, etc. &nbsp;
+           </p>
+          </div>
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Hate/Bias Policy
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/hatebiaspolicy/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/hatebiaspolicy/policy.html">
+            Policy
+           </a>
+          </li>
+          <li>
+           <a href="/hatebiaspolicy/reporting.html">
+            Reporting Options
+           </a>
+          </li>
+          <li>
+           <a href="/hatebiaspolicy/response-team.html">
+            Resource Team
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/hatebiaspolicy/faqs.html">
+             FAQ
+            </a>
+           </span>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/hatebiaspolicy/policy.html"&gt;Policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hatebiaspolicy/reporting.html"&gt;Reporting Options&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/hatebiaspolicy/response-team.html"&gt;Resource Team&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/hatebiaspolicy/faqs.html"&gt;FAQ&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/bergataglance.html">
+           'Berg at a glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/tour/map.html">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/tour/directions.html">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/campus-safety/vehicles.html">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/typesofvisits/">
+             Guided Campus Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/typesofvisits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/tour/virtual/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference &amp; Event Services
+            </a>
+           </li>
+           <li>
+            <a href="http://www.lehighvalleypa.org/" target="_blank">
+             About the Region
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/pr">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          Chief Business Officer &amp; Treasurer
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/aboutus/deanst">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenberg.edu/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com/hereandnow" target="_blank">
+           Development &amp; Alumni Relations
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

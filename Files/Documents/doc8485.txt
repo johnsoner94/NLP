@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Speeches - Communications | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        President's Office
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/">
+               President's Office
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/">
+               Communications
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/president/communications/speeches/">
+               Speeches
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: News - Main-->
+          <table border="0" width="95%">
+           <tbody>
+            <tr>
+             <td>
+              <a href="">
+               <b>
+                Muhlenberg College Convocation Address
+               </b>
+              </a>
+              <br />
+              President Williams' address to first-year students at the College's annual Opening Convocation
+              <br />
+              <a href="">
+              </a>
+              <p>
+               <b>
+               </b>
+               <br />
+               Sun, 28 Aug 2016 12:00:00 EDT
+              </p>
+              <div class="content-add05">
+               <p>
+                Chairman Crist, members of the faculty, senior administrators, honored guests, members of the Class of 2020&hellip; Welcome! &nbsp;Welcome to the official beginning of your Muhlenberg College experience...&nbsp;
+               </p>
+               <p>
+                From now until you cross that stage, three years and nine months from now, at your class&rsquo; Commencement exercises on a day in May, 2020 &ndash; undoubtedly a
+                <em>
+                 sunny, mild, and not-too-hot
+                </em>
+                day &ndash; and I get the pleasure of shaking your hand and presenting you each with your diploma, you will participate in a
+                <em>
+                 wide
+                </em>
+                range of learning experiences &ndash; both in and out of the classrooms, laboratories, and studios &ndash; that will help to prepare you for the wider world.&nbsp;
+               </p>
+               <p>
+                Many of you are athletes on our teams.&nbsp; You surely know the adage, &ldquo;leave it all on the field&rdquo; or &ldquo;leave it all on the floor,&rdquo; meaning, give it your very best effort.&nbsp; Whether or not you&rsquo;re an athlete, you&rsquo;re all Mules, and this advice applies to your undergraduate Muhlenberg experience.
+               </p>
+               <p>
+                As a class, you&rsquo;ve already accomplished a great deal.&nbsp; Just to be
+                <em>
+                 admitted
+                </em>
+                into this talented class, you really needed to be a
+                <em>
+                 standout
+                </em>
+                leader in high school.&nbsp; I cited some of your many individual accomplishments yesterday evening.
+               </p>
+               <p>
+                Nevertheless, beginning tomorrow, our faculty will start to challenge you intellectually as you have never been challenged before.&nbsp; I sure hope that&rsquo;s why you&rsquo;re here!&nbsp; &nbsp;That
+                <em>
+                 is
+                </em>
+                why you&rsquo;re here, right?&nbsp;
+               </p>
+               <p>
+                I say that, because it is truly a privilege to be here at Muhlenberg.&nbsp; Higher education has been undergoing a radical transformation over the past 70 years &ndash; a mere blink of an eye in the grand scheme...&nbsp; you know&hellip; since Socrates?&nbsp;
+               </p>
+               <p>
+                In his prologue to a seminal paper on liberal arts colleges in the U.S., published in 2005 by the American Council of Learned Societies, Francis Oakley, the former president of Williams College wrote, &ldquo;As recently as the mid-1950s, liberal arts colleges constituted around 40 percent of the total number of institutions of higher education, and they enrolled about 25percent of all undergraduates. &nbsp;By the early 1970s they had come to account for only about a quarter of all institutions and enrolled no more than eight percent of all students. &nbsp;Over the subsequent decades the loss of ground has continued, if at a slower pace.&rdquo;&nbsp;
+               </p>
+               <p>
+                The trend Oakley cites has, indeed, continued.&nbsp; Today, only 2-3% of U.S. undergraduates are enrolled at liberal arts colleges such as Muhlenberg.&nbsp; This migration of students to other kinds of higher education institutions has been as much the result of the tremendous increase in the total number of students going to colleges of any type, and the vast absorption of those students by large, public universities.&nbsp;
+               </p>
+               <p>
+                Oakley goes on to write about the special character of liberal arts colleges.&nbsp; &ldquo;Commentators on these colleges have remarked repeatedly on their single-minded focus on the education of undergraduates; on the unusual strength of their orientation to students and student needs; on the degree to which students at these colleges are themselves &ldquo;more satisfied with the faculty, the quality of teaching, and the general education program&rdquo; than are &ldquo;students attending other types of institutions&rdquo;; on their incorporation of &ldquo;a wide range of exemplary educational practices in their educational programs&rdquo;; and on their ability to &ldquo;produce a pattern of consistently positive student outcomes not found in any other type of American higher education institution.&rdquo;
+               </p>
+               <p>
+                The large majority of U.S. undergraduates attend institutions very different from Muhlenberg and other liberal arts colleges.&nbsp; For starters, fully 50% of U.S. undergraduates are enrolled in community colleges, many of which do a good job providing high quality education to students who, for a variety of reasons, choose that type of institution.&nbsp;
+               </p>
+               <p>
+                A more recent variant has been the private, for-profit institutions, which have come under intense scrutiny and become the object of much criticism in recent years for a variety of practices that have left too many students without degrees but
+                <em>
+                 with
+                </em>
+                substantial student debt.&nbsp;
+               </p>
+               <p>
+                In fact, just this morning, the New York Times reports that the U.S. Department of Education imposed strict new rules on Thursday on one of the nation&rsquo;s largest for-profit education companies, ITT Educational Services, barring it from enrolling new students who use federal financial aid and ordering it to pay $153 million to the department within 30 days to cover student refunds if its schools close down.&nbsp; Some analysts believe this action by the Education Department may force ITT to shut its doors.
+               </p>
+               <p>
+                Indeed, particularly at this moment in the evolution of higher education, Muhlenberg is a special place.&nbsp; Many have sacrificed a great deal in order for you to be here, including your families, but also including the families of all the generations of students who have gone before you.&nbsp; (By the way, when you graduate, one of your important responsibilities will be to support Muhlenberg for the generations of students coming behind you.)
+               </p>
+               <p>
+                So, make the most of this opportunity.&nbsp; Your place and time here are precious.&nbsp; If you&rsquo;re lucky enough to live to be 100 years old, you will have spent only 4% of your lifetime as a student here.&nbsp; But those four years will represent a hugely disproportionate share of your intellectual growth, personal memories and your deepest friendships.&nbsp; Have fun; enjoy your time here.&nbsp; But when it comes to your academics, never take the shortcut, or what looks like the easy path.&nbsp; It may feel good at the moment, but it never pays off.&nbsp;
+               </p>
+               <p>
+                Here&rsquo;s a hint about what&rsquo;s in store for you, starting tomorrow.&nbsp; Our mission here at Muhlenberg is to develop independent critical thinkers who are intellectually agile, have a zest for reasoned and civil debate, are committed to understanding the diversity of the human experience, able to express ideas with clarity and grace, committed to life-long learning, equipped with ethical and civic values, and prepared for lives of leadership and service.&nbsp; Phew!&nbsp; It&rsquo;s a lot just to say all that!
+               </p>
+               <p>
+                Now, not to worry&hellip;&nbsp; Each of you was admitted only after careful and thorough review of your abilities and potential.&nbsp; We judged you up to the challenge and denied admission to those we judged were not.&nbsp;
+                <em>
+                 Your
+                </em>
+                role now is
+                <em>
+                 simple
+                </em>
+                : &nbsp;whatever your purpose and your intellectual passions, pursue them, and
+                <em>
+                 always do your best work
+                </em>
+                .&nbsp;
+               </p>
+               <p>
+                Speaking of pursuing one&rsquo;s passions here, Muhlenberg is the place to be for students who really want to pursue a new idea&hellip;&nbsp; For example, just a few years ago, a couple students approached Professor Karen Dearborn, the head of our dance program, and urged the creation of a circus program, fusing aerial acrobatics with dance.&nbsp; With her support, they created a fantastic program of aerial artistry rarely seen on college campuses.&nbsp; In a different arena, just last year, two Muhlenberg students came up with the idea for an entrepreneurial venture serving female college students.&nbsp; They conferred with Professor Rita Chesterton, director of our Innovation and Entrepreneurship program, spoke with me and others last spring, worked on their promising venture this past summer and are about to launch it here in the near future.&nbsp; We have many interdisciplinary programs that reflect the initiative of students&hellip;&nbsp; So, bring us your ideas!
+               </p>
+               <p>
+                Now that you&rsquo;re all moved in, some things are different.&nbsp; Your parents aren&rsquo;t here to check on you day in and day out as they did up until now.&nbsp; Staying on track with your studies is your responsibility.&nbsp; A Chinese proverb provides: Teachers open the door, but you enter by yourself
+                <em>
+                 .
+                </em>
+                &nbsp; We will certainly be there to help guide you on your path; but the path is fundamentally yours to choose, and only you will know whether you&rsquo;ve really given your best effort.&nbsp; I can assure you of one thing; these years will go by quickly and, at the end, you will want to be looking back on what you did with the knowledge you did your very best &ndash; and the truth is; only you will ever know.
+               </p>
+               <p>
+                Many of you have come to Muhlenberg from other countries.&nbsp; It took tremendous courage for you to travel thousands of miles, from places like China, England, Israel, Jamaica, Japan, Jordan, Rwanda, and Vietnam to join this community.&nbsp; Also, in recent years, more than half of our graduates have studied abroad for a semester or more.&nbsp; They, too, are courageous.&nbsp; We are pleased by this record, as expanding our global reach is essential to fulfilling our educational mission.&nbsp; The world is interconnected today in complex ways, and is only growing more intertwined over time.&nbsp;
+               </p>
+               <p>
+                Wherever you&rsquo;ve grown up, over your lifetimes, each of you is likely to live and/or work abroad, work with important customers or partners from abroad, or work for an organization headquartered in another country. No matter what life path you choose, you&rsquo;re almost certain to need to know how to communicate effectively with people raised in a culture different from your own.&nbsp; Clearly, in the years ahead, our nation and our world will need leaders with this skill.
+               </p>
+               <p>
+                So, here&rsquo;s the good news: here at Muhlenberg, you will study with outstanding faculty who will help you prepare for a more global future, you will have wonderful study-abroad options, and you have the opportunity to start building your own global network right here, starting with your own classmates.&nbsp;
+               </p>
+               <p>
+                Another Chinese proverb provides: Flowers may bloom again, but a person never has the chance to be young again. So don't waste your time.
+               </p>
+               <p>
+                So, whether you&rsquo;re from Short Hills, Shanghai, or anywhere in between, choose courses that will challenge you, whether they&rsquo;re in your power alley or outside your comfort zone.&nbsp; In particular, look for courses and experiences that will expose you to different interests and cultures, take advantage of the opportunity to study abroad, and seek out friendships &ndash; as many of you have already &ndash; with those who are different from you.&nbsp; Learn how their life experiences differ from yours; and share yours with them.&nbsp; Resist the temptation to hang out only with people who are most similar to you; as I said last night and will say again, for that, you could have just stayed at home&hellip;&nbsp; Learn the ways of others and follow the teaching of the Jewish proverb: &nbsp;Among those who stand, do not sit; among those who sit, do not stand. &nbsp;Among those who laugh, do not weep; among those who weep, do not laugh.&nbsp;
+               </p>
+               <p>
+                I emphasize this point because the world you will inherit as leaders will be even more diverse than the world we inhabit today.&nbsp; This is why we have begun the conversation about diversity and inclusion even before your classes begin.&nbsp; Now is the ideal time to learn how to respect and relate well with people who are different from you.
+               </p>
+               <p>
+                You would think we&rsquo;d be farther along in this area than we are.&nbsp; Unfortunately, our society is being rocked by divisive forces that reveal deep and ongoing divisions.&nbsp; Black Lives Matter; of
+                <em>
+                 course
+                </em>
+                they do.&nbsp; At the same time, despite the highly-publicized racist violence by a few, the vast majority of police officers are upstanding heroes who work a dangerous job to keep law-abiding people of all colors safe.&nbsp; On more than one occasion, I have personally been on the receiving end of racial prejudice by police officers.&nbsp; While I detest those incidents of injustice, I do not compound it by convicting in my mind every other police officer.&nbsp; That said, I will tell you that, away from this campus where I am known and feel at home, I am constantly on my guard, particularly when I&rsquo;m driving or in places a man of color is not expected or seen frequently, and that is a burden I bear that others with a different skin color do not.
+               </p>
+               <p>
+                Remember the Muslim Proverb:
+                <em>
+                 A House Divided Cannot Stand.
+                </em>
+                &nbsp; We have to do better as a society, or we are on a path to disaster.&nbsp; The &ldquo;third law of thermo-demographics&rdquo; is for ever-increasing diversity.&nbsp; For example, by 2043, only 27 years from now (when most of you will be in mid-career), the Census Bureau has projected that no single racial or ethnic group will account for more than half the total U.S. population.&nbsp; Demographically-speaking, we will have shifted into a &ldquo;majority-minority&rdquo; status, from which there will be no return. &nbsp;
+               </p>
+               <p>
+                There&rsquo;s a Rwandan proverb: The other's stitch in the side doesn't prevent you from sleeping. One never notices the other's misfortunes.&nbsp; One of the skills one obtains by studying the liberal arts is to be able to notice the misfortunes of others&hellip; and to have the moral sensibility to reach out and help.&nbsp; In this regard, you will find many opportunities to get involved in our community engagement efforts, in which we engage with those in our Allentown community who can benefit from our efforts.
+               </p>
+               <p>
+                Your class is
+                <em>
+                 intellectually
+                </em>
+                diverse as well.&nbsp; Many of you, more than one-in-five, in fact, have indicated you&rsquo;re interested in Theatre &amp; Dance.&nbsp; But even more of you, more than one in four, have said you are interested in majoring in the sciences.&nbsp;
+               </p>
+               <p>
+                One of the most interesting things about Muhlenberg is how many of you will double-major; for example, in Theatre and Neuroscience, or Dance and Business.&nbsp; Intellectually, as well as in other ways, Muhlenberg students go above and beyond.&nbsp; But take care not to spread yourself too thinly.&nbsp; Be mindful of the German proverb: Who begins too much
+                <strong>
+                 accomplishes
+                </strong>
+                little.
+               </p>
+               <p>
+                As you make choices about how you spend your time, academics must have first priority, certainly...&nbsp; Here again, we can count our blessings, as the liberal arts and pre-professional courses you&rsquo;ll take are just right for these times and for your generation.&nbsp;
+               </p>
+               <p>
+                For all of you, more than for any prior generation, the future will be filled with twists and turns, not all of which are intuitively obvious.&nbsp; While your class may differ, typically, about 35% of our graduates proceed directly to graduate or professional school.&nbsp; The remainder, or about 65%, go directly into the job market.
+               </p>
+               <p>
+                Either path you take, the vast majority of you will have a much more dynamic career, by the end of which &ndash; unless you become a tenured faculty member at a college or university or a schoolteacher &ndash; you will likely have worked for as many as 8-10 or more different organizations.&nbsp;
+               </p>
+               <p>
+                And the work you&rsquo;ll find yourself doing when you graduate will involve products, processes, and technologies that may not have even been invented, yet.&nbsp; The liberal arts education you will pursue here will help you develop the key skills you will need most for the challenges you will most likely encounter in the future; these are critical thinking, the ability to formulate arguments that are well-reasoned and evidence-based, quantitative and analytical fluency, the ability to express yourself clearly and cogently, both in writing and orally, the ability to express and appreciate creativity, and the ability to have and express moral sensibilities&hellip;&nbsp; These are some of the core skills you will develop here at Muhlenberg, irrespective of the major or majors you choose.
+               </p>
+               <p>
+                You have at your disposal a wonderful faculty completely committed to your success.&nbsp; They offer you a broad and rich curriculum.&nbsp; Choose your courses wisely&hellip; and definitely
+                <em>
+                 <span style="text-decoration: underline;">
+                  not
+                 </span>
+                </em>
+                by whether they meet in the early morning, or whether they permit you to have Fridays off.&nbsp;
+               </p>
+               <p>
+                Mahatma Ghandi once said, &ldquo;Every worthwhile
+                <strong>
+                 accomplishment
+                </strong>
+                , big or little, has its stages of drudgery and triumph: a beginning, a struggle, and a victory.&rdquo;&nbsp; Edwin Hubble, the great astronomer who discovered the expansion of the universe, spent countless lonely nights in his observatory before he had his Eureka moment when he observed that every galaxy is moving away from every other galaxy at velocities proportional to their relative distances!&nbsp; Charles Hamilton Houston, the prominent African-American lawyer, Dean of Howard University Law School, and NAACP Litigation Director labored for years to dismantle the racist Jim Crow laws in the South, earning him the title "The Man Who Killed Jim Crow."
+               </p>
+               <p>
+                So, set out to accomplish great things, and hang in there through the tough times and times of drudgery.&nbsp; These four years are among the most precious you&rsquo;ll have in your life.&nbsp; Make the most of every minute!&nbsp;
+               </p>
+               <p>
+                Have fun along the way, to be sure.&nbsp; Just keep it safe, stay within the rules, and be respectful of others and civil in your rhetoric and behavior &ndash; unlike some of what we&rsquo;ve been seeing in the current Presidential race, particularly as of late.
+               </p>
+               <p>
+                And remember to support one another.&nbsp; For example, if you&rsquo;re not an athlete, come out to our teams&rsquo; games and cheer them on.&nbsp; If you&rsquo;re not a performing artist, come out to their performances and support those who are.&nbsp;
+               </p>
+               <p>
+                Most of all, remember, in all things you undertake here (and in life), do the very best you can and treat all others as you would want to be treated yourself.&nbsp; Make sure, when you cross the stage at graduation three years and nine months from now, you will have that warm feeling inside that comes from knowing you did your best, that you &ldquo;left it all out there on the field,&rdquo; and that you left this campus just a little bit friendlier, warmer, and a place where all students, no matter what their skin color, gender expression, religion, sexual preference or physical ability can feel equally at home. &nbsp;My aim is that you will always &ndash; both now and for the rest of your lives &ndash; view Muhlenberg as a community that helps you to find, develop and bring out your best.&nbsp;
+               </p>
+               <p>
+                The opportunities are all here.&nbsp; Each of us has a path to choose, and from here, you can go as far as what Harvard&rsquo;s Howard Gardner would call your &ldquo;multiple intelligences&rdquo; will take you.&nbsp;
+               </p>
+               <p>
+                Now, let&rsquo;s go out there and have an awesome four years.&nbsp; And that will be just the beginning of our journey together.&nbsp; Thank you.
+               </p>
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox addthis_default_style ">
+           <a class="addthis_button_preferred_1">
+           </a>
+           <a class="addthis_button_preferred_2">
+           </a>
+           <a class="addthis_button_google_plusone" g:plusone:annotation="none">
+           </a>
+           <a class="addthis_counter addthis_bubble_style">
+           </a>
+          </div>
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b4c69f3ef53994">
+          </script>
+          <!-- AddThis Button END -->
+          <!-- Content Template End: News - Main-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            President's Office
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/president/">
+            Home
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/press/">
+            Press
+           </a>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/messages/">
+            Messages
+           </a>
+          </li>
+          <li>
+           <span class="currentbranch0">
+            <a href="/main/aboutus/president/communications/speeches/">
+             Speeches
+            </a>
+           </span>
+          </li>
+          <li>
+           <a href="/main/aboutus/president/communications/officehours/">
+            Office Hours
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/press/"&gt;Press&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/messages/"&gt;Messages&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="currentbranch0"&gt;&lt;a href="/main/aboutus/president/communications/speeches/"&gt;Speeches&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/president/communications/officehours/"&gt;Office Hours&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

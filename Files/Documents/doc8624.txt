@@ -1,0 +1,962 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--General Page-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <!-- InstanceBegin template="/Templates/homeHighlight.dwt" codeOutsideHTMLIsLocked="false" -->
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- validateFields.js -->
+  <script type="text/javascript" src="/media/styleassets/js/validateFields.js">
+  </script>
+  <!-- preProcessor.js -->
+  <script type="text/javascript" src="/media/styleassets/js/preProcessor.js">
+  </script>
+  <!-- KDG Related files and additives -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--MUHL BOOTSTRAP VERSION -->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/bootstrap.min.muhl_NR.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/kdmedia/css/new  1.css" />
+  <link rel="icon" href="/media/kdmedia/images/favicon.ico" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]&gt;
+        &lt;link rel="stylesheet" type="text/css" media="All styles that resolve issues within IE8, IE9" href="/media/kdmedia/css/ie9-and-down.css"  /&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+        &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]-->
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/colors.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/layout.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/typeography.css" />
+  <link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/accordionImageMenu.css" />
+  <link rel="stylesheet" type="text/css" media="responsiveslides.css" href="/media/styleassets/css/responsiveslides.css" />
+  <!--[if IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/ie7.css"  /&gt;&lt;![endif]-->
+  <script src="https://code.jquery.com/jquery.js">
+  </script>
+  <script type="text/javascript" src="/media/contentassets/js/responsiveslides.js">
+  </script>
+  <!--[if gte IE 9]&gt; &lt;script type="text/javascript"&gt; Cufon.set('engine', 'canvas'); &lt;/script&gt; &lt;![endif]-->
+  <!-- BEGIN: CUSTOM SCRIPT LIBRARIES -->
+  <script type="text/javascript" src="/media/styleassets/js/requestProcessor.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/sarissa.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/MX XML.js">
+  </script>
+  <!-- &lt;script type="text/javascript" src="/media/styleassets/js/jquery-1.2.2.pack.js"&gt;&lt;/script&gt; -->
+  <script type="text/javascript" src="/media/styleassets/js/teaserFunctions.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/tocTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/gtgcTeasers.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dns.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/dynamicImageLoad.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/cookies.js">
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/headlines.js">
+  </script>
+  <script type="text/javascript">
+   //MODIFY EVENT FEEDS 'MORE' HERE
+		//var  eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;adpid=8&amp;nem=No+events+are+available+that+match+your+request";
+		var eventFeedMore="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=7&amp;range=next30&amp;adpid=8&amp;nem=Check+out+our+Campus+Calendar";
+		eventFeedMore=encodeURIComponent(eventFeedMore);
+		//var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&amp;number=5&amp;range=today&amp;adpid=8&amp;nem=&lt;li&gt;&lt;a+style='color:white'+target='_child'+href=http://webapps.muhlenberg.edu/Calendar&gt;Check+out+our+Campus+Calendar&lt;/a&gt;&lt;/li&gt;";
+		var eventFeed="http://webapps.muhlenberg.edu/Calendar/EventListSyndicator.aspx?type=N&number;=5&adpid;=8&nem;=No+events+are+available+that+match+your+request";
+  </script>
+  <!-- END: CUSTOM SCRIPT LIBRARIES -->
+  <title>
+   Politics, Ethics, and Citizenship Schedule - Politics, Ethics, and Citizenship | Muhlenberg College
+  </title>
+  <!-- InstanceBeginEditable name="Header" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Keywords" -->
+  <meta name="DC.keywords" content="Academic Resource Center, academic, support , services, tutor, tutors, assistance, student, students, course,Muhlenberg College, Allentown, liberal arts, lehigh valley, higher education" />
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="Description" -->
+  <meta name="DC.description" content="Academic Resource Center at Muhlenberg College." />
+  <!-- InstanceEndEditable -->
+  <script type="text/javascript" src="/media/styleassets/js/browserVersion.js">
+  </script>
+  <!-- General browser library file -->
+  <script type="text/javascript" src="/media/styleassets/js/browser.js">
+  </script>
+  <script type="text/javascript">
+   var flashFound=false;
+	// Add/remove the browser types according to browserTypes.txt
+	addBrowser(is_ie5up);
+	addBrowser(is_nav6up);
+	//addBrowser(is_gecko);
+	addBrowser(is_opera5up);
+  </script>
+  <script type="text/javascript" src="/media/styleassets/js/AC_OETags.js">
+  </script>
+  <script language="JavaScript" type="text/javascript">
+   &lt;!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 7;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// --&gt;
+  </script>
+  <!--[if lt IE 7]&gt;&lt;link rel="stylesheet" type="text/css" media="" href="/media/styleassets/css/lt7.css"  /&gt;&lt;![endif]-->
+  <style>
+   .content-add04 {width:829px}
+  .content-add04 .col01 {width:580px}
+  .col02 .menu02 {width:200px}
+  .content-add10 ul, .content-add10 ol,.content-add05 ul, .content-add05 ol {font-family:Normal400; }
+  </style>
+ </head>
+ <body>
+  <div class="pagewidth">
+   <div class="wrap">
+    <!-- navigation object : Tool I Am Links -->
+    <div class="collapse" id="iam-navigation">
+     <ul>
+      <li>
+       <a href="/main/admissions" style='background-image:url("/media/kdmedia/images/iamphotos/prospective-link.jpg");'>
+        Prospective Student
+       </a>
+      </li>
+      <li>
+       <a href="/incoming/" style='background-image:url("/media/kdmedia/images/iamphotos/incoming-link.jpg");'>
+        Incoming Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/current-students/" style='background-image:url("/media/kdmedia/images/iamphotos/current-link.jpg");'>
+        Current Student
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/faculty-staff" style='background-image:url("/media/kdmedia/images/iamphotos/faculty-link.jpg");'>
+        Faculty &amp; Staff
+       </a>
+      </li>
+      <li>
+       <a href="/gateways/parents" style='background-image:url("/media/kdmedia/images/iamphotos/parents-link.jpg");'>
+        Parent
+       </a>
+      </li>
+      <li>
+       <a href="/alumni" style='background-image:url("/media/kdmedia/images/iamphotos/alumni-link.jpg");'>
+        Alumni
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <div class="collapse" id="tool-navigation">
+     <ul>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/main/aboutus/campus-map/">
+        Campus Map
+       </a>
+      </li>
+      <li>
+       <a href="/tactical/azfind.htm">
+        A-Z Index
+       </a>
+      </li>
+      <li>
+       <a href="/cgi-bin/namesearch/prvsearch.pl?name=">
+        Directory
+       </a>
+      </li>
+      <li>
+       <a href="http://trexler.muhlenberg.edu/">
+        Library
+       </a>
+      </li>
+     </ul>
+     <div class="clearfix">
+     </div>
+    </div>
+    <nav class="navbar" id="top">
+     <div class="container" style="min-width:970px;">
+      <div class="row">
+       <div class="expand-buttons">
+        <ul>
+         <a href="/alumni/give">
+         </a>
+         <li class="give-btn hidden-xs">
+          Give
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#tool-navigation" aria-expanded="false" aria-controls="tool-navigation" class="tool-link collapsed">
+         </a>
+         <li class="tool-button">
+          Tools
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <a data-toggle="collapse" data-bootstrap-collapse-help="1" href="#iam-navigation" aria-expanded="false" aria-controls="iam-navigation" class="iam-link collapsed">
+         </a>
+         <li class="iam-button">
+          I am
+          <span class="fa fa-caret-down">
+          </span>
+         </li>
+         <div class="clearfix">
+         </div>
+        </ul>
+       </div>
+       <!--/expand-buttons-->
+       <div class="col-xs-6">
+        <a href="/">
+         <img src="/media/kdmedia/images/header-logo.png" />
+        </a>
+       </div>
+       <div class="col-xs-6">
+        <div class="header-right">
+         <div class="search ">
+          <form action="/search/results.html" method="get" name="SearchForm" id="SearchForm">
+           <input name="q" type="text" size="0" id="q" value="" placeholder="search" />
+           <button type="Submit" class="btn btn-search">
+            <span class="fa fa-search">
+            </span>
+           </button>
+          </form>
+          <a target="_child" href="http://twitter.com/muhlenberg">
+           <span class="fa fa-twitter">
+           </span>
+          </a>
+          <a target="_child" href="http://www.facebook.com/MuhlenbergCollege">
+           <span class="fa fa-facebook">
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!--row-->
+     </div>
+     <div class="container-fluid" style="min-width:970px;">
+      <div class="container" style="min-width:970px;">
+       <div class="row">
+        <div class="nav-holder">
+         <a name="navigation" style="display:none">
+         </a>
+         <div class="nav">
+          <!-- navigation object : Main Menu KD -->
+          <ul>
+           <li>
+            <a href="/main/aboutus/">
+             About Us
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/">
+             Admissions
+            </a>
+           </li>
+           <li>
+            <a href="/academics/">
+             Academics
+            </a>
+           </li>
+           <li>
+            <a href="/student-life/">
+             Student Life
+            </a>
+           </li>
+           <li>
+            <a href="http://muhlenbergsports.com/" target="_blank">
+             Athletics
+            </a>
+           </li>
+           <li>
+            <a href="/news-and-events/index.php">
+             News &amp; Events
+            </a>
+           </li>
+           <li>
+            <a href="/main/wescoe/">
+             Adult Learning
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!--row-->
+      </div>
+     </div>
+    </nav>
+    <div class="main-holder">
+     <div class="main">
+      <div id="content">
+       <!-- InstanceBeginEditable name="ContentTitle" -->
+       <h2 style="height:60px;background-color:#A41D36">
+        Center for Ethics
+       </h2>
+       <!-- InstanceEndEditable -->
+       <!-- navigation object : General Page - Image KD -->
+       <!-- navigation object : Easy Rotator Insert -->
+       <!-- navigation object : Banner Slideshow -->
+       <!-- navigation object : General Page - Image -->
+       <!-- Content Template Start: General Page - Top Image-->
+       <div class="content-add03">
+        <img src="/media/contentassets/images/about/cfe/cfe-header.jpg" alt="Center for Ethics" style="     " />
+       </div>
+       <!-- Content Template End-->
+       <div class="content-add04">
+        <div class="col01">
+         <a name="content">
+         </a>
+         <div class="content-add10">
+          <!-- navigation object : Breadcrumbs -->
+          <span class="content-add05">
+           <div id="breadcrumb">
+            <p>
+             <strong>
+              <a href="/">
+               Muhlenberg College
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/">
+               About Us
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/">
+               Center for Ethics
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/">
+               Past Programs
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/thematicprograms/">
+               Thematic Programs
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/thematicprograms/politicsethicsandcitizenship/">
+               Politics, Ethics, and Citizenship
+              </a>
+              &nbsp;&gt;&nbsp;
+              <a href="/main/aboutus/cfe/pastprograms/thematicprograms/politicsethicsandcitizenship/politicsethicsandcitizenshipschedule/">
+               Politics, Ethics, and Citizenship Schedule
+              </a>
+             </strong>
+            </p>
+           </div>
+           <br />
+          </span>
+          <!-- Content Template Start: General Content-->
+          <h1>
+          </h1>
+          <!-- InstanceBeginEditable name="EditMainContent" -->
+          <div class="content-add10">
+           <h3>
+            <img src="/media/contentassets/images/about/cfe/cfe.jpg" alt="Center for Ethics" style="     " />
+           </h3>
+           <p class="center">
+            <img src="/media/contentassets/images/about/cfe/pastprograms/politics3.jpg" alt="Center for Ethics" style="     " />
+           </p>
+           <p class="center">
+            2008 - 2009 Program
+            <br />
+            <a href="/main/aboutus/cfe/pastprograms/thematicprograms/politicsethicsandcitizenship/politicsethicsandcitizenshipschedule/">
+             Fall 2008
+            </a>
+           </p>
+           <span style="font-size: 70%;">
+           </span>
+           <table border="0" cellpadding="2" cellspacing="3" style="width: 95%;" summary="This table charts the Programming schedule for 2001-2002. It states the Program, Date, Event, Time and Location">
+            <tbody>
+             <tr>
+              <th valign="top">
+               &nbsp;
+              </th>
+              <th align="right" colspan="2" valign="top">
+               <a href="http://www.muhlenberg.edu/library/guides/libinst/ethics/politics_citizenship_ethics/">
+                Library Resources
+               </a>
+              </th>
+             </tr>
+             <tr>
+              <th valign="top" width="380">
+               <p class="center">
+                <strong>
+                 EVENT
+                </strong>
+               </p>
+              </th>
+              <th valign="top" width="63">
+               <p>
+                <strong>
+                 DATE
+                </strong>
+               </p>
+              </th>
+              <th valign="top" width="89">
+               <p class="center">
+                <strong>
+                 LOCATION &amp; TIME
+                </strong>
+               </p>
+              </th>
+             </tr>
+             <tr>
+              <td colspan="3" valign="top">
+               Spring 2009 Events
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                <a href="http://shrek.muhlenberg.edu/Calendar/EventList.aspx?view=EventDetails&amp;eventidn=6828&amp;information_id=13932&amp;type=">
+                 President Obama and the Supreme Court -- A Conversation with Nadine Strossen
+                </a>
+               </p>
+               <p>
+                Public Talk by Nadine Strossen, Former President of the ACLU
+               </p>
+               <p>
+                Nadine Strossen, Professor of Law at New York Law School, is the
+                <br />
+                former President of the American Civil Liberties Union (ACLU), a position she
+                <br />
+                held from 1991-2008. She was the first woman to head the ACLU, the
+                <br />
+                nation's largest and oldest civil liberties organization.
+               </p>
+               <p>
+                Strossen has written, lectured, and practiced extensively in the areas
+                <br />
+                of constitutional law, civil liberties, and international human rights.
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               <div class="center">
+                2/17/09
+               </div>
+              </td>
+              <td valign="top">
+               Miller Forum, Moyer Hall
+               <br />
+               7:00 p.m.
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                <a href="http://shrek.muhlenberg.edu/Calendar/EventList.aspx?fromdate=3/10/2009&amp;todate=3/10/2009&amp;display=Day&amp;type=public&amp;eventidn=6872&amp;view=EventDetails&amp;information_id=13991">
+                 Racial Borders: Law and Citizenship in the United States, 1787-2009
+                </a>
+                <br />
+                <br />
+                Lecture by Deborah Rosen, Lafayette College
+                <br />
+                <br />
+                Professor Rosen will discuss the changing racial borders of citizenship in American history. Specifically, she will analyze the evolution of constitutional law pertaining to African Americans' citizenship, the complex debate about American Indian citizenship, and the "whiteness" prerequisite for naturalization of immigrants.
+               </p>
+               <p>
+                Deborah Rosen holds a Ph.D from Columbia University. Her most recent book is American Indians and State Law: Sovereignty, Race, and Citizenship, 1790-1880 (Nebraska, 2007), and Courts and Commerce: Gender, Law, and the Market Economy in Colonial New York (Ohio State, 1997). She is also co-editor of Early American Indian Documents: Treaties and Laws, 1607-1789.
+               </p>
+               <p>
+                <br />
+                <br />
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               <div class="center">
+                3/10/09
+               </div>
+              </td>
+              <td valign="top">
+               Miller Forum, Moyer Hall
+               <br />
+               4:30pm (*** note earlier time)
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                Race and Citizenship - A Viewing of the film "Banished" with talkback by students from the Living-Learning Community
+               </p>
+               <p>
+                Film Viewing with Talkback by students from the Center's Living-Learning Community
+                <br />
+                Co-Sponsored with the Department of Media and Communication
+               </p>
+               <p>
+                Through conversations with current residents and the descendants of those who were driven out, the film contemplates questions of privilege, responsibility, denial, healing, reparations and identity.&nbsp; What can be done to redress past injustices? What is the ongoing impact of the expulsions on families and communities today? In the stories of black families whose land and livelihood were stolen, the film illustrates the limits of the American legal system and the need for creative forms of repair. By introducing these families and the white communities who forced them out, BANISHED raises the question of responsibility for past wrongs and what is involved in righting them.
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               3/25/09
+              </td>
+              <td valign="top">
+               Trumbower 130
+               <br />
+               7:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                What are Our Responsibilities as Global Citizens?&nbsp; A Viewing of the Film "The Devil on Horseback" with Talkback by the RJ Fellows
+               </p>
+               <p>
+                Film Viewing with Talkback by students from the RJ Fellows Program.
+                <br />
+                Co-Sponsored with the Department of Media and Communication and the RJ Fellows Program.
+               </p>
+               <p>
+                "The Devil Came on Horseback" by Ricki Sterne
+               </p>
+               <p>
+                The tragedy taking place in Darfur as seen through the eyes of an American witness and who has since returned to the US to take action to stop it. Uses the photographs and first hand testimony of former U.S. Marine Captain Brian Steidle to take the viewer on a journey into the heart of Darfur, Sudan, where an Arab run government is systematically executing a plan to rid the province of its black African citizens. As an official military observer, Steidle had access to parts of the country that no journalist could penetrate. Ultimately frustrated by the inaction of the international community, Steidle resigned and returned to the US to expose the images and stories of lives systematically destroyed. We witness Steidle's transformation from soldier to observer to witness and, finally, to passionate activist and moral hero.
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               4/1/09
+              </td>
+              <td valign="top">
+               Trumbower 130
+               <br />
+               7:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                "Assessing Obama's Foreign Policy at One Hundred Days"
+               </p>
+               <p>
+                Lecture by John Hamre, Center for Strategic and International Studies
+               </p>
+               <p>
+                Sponsored with the Department of Political Science and Lectures &amp; Forums
+               </p>
+               <p>
+                John Hamre was elected Center for Strategic and International Studies (CSIS) president and CEO in January 2000. Before joining CSIS, he served as the 26th U.S. deputy secretary of defense. Prior to that, from 1993 to 1997, he served as under secretary of defense (comptroller). As comptroller, he was the principal assistant to the secretary of defense for the preparation, presentation, and execution of the defense budget and management improvement programs. In 2007, Secretary of Defense Robert Gates appointed Dr. Hamre to serve as chairman of the Defense Policy Board.
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               4/23/09
+              </td>
+              <td valign="top">
+               Miller Forum, Moyer Hall7:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                Panel Discussion -- "Change We Can Believe In?: Evaluating Obama's First 100 Days"
+               </p>
+               <p>
+                Panelists:
+                <br />
+                -Dr. Saladin M. Ambar, Visiting Assistant Professor, Department of Government &amp; Law, Lafayette College
+                <br />
+                -Dr. Judith Lasker, NEW Distinguished Professor and Chair, Department of Sociology &amp; Anthropology, Lehigh University
+                <br />
+                -Dr. Jeremy Tobacman, Assistant Professor, Department of Economics, Wharton School of the University of Pennsylvania
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               4/28/09
+              </td>
+              <td valign="top">
+               Great Room, Seegers Union
+               <br />
+               7:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                <strong>
+                 <span class="italic">
+                  Related Programs:
+                 </span>
+                </strong>
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               &nbsp;
+              </td>
+              <td valign="top">
+               &nbsp;
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                Workshops, Lectures and Performance by&nbsp;
+                <span class="italic">
+                 The Anomalies
+                </span>
+                <span class="italic">
+                 .
+                </span>
+               </p>
+               <p>
+                Sponsored by the Office of Multicultural Life, the Office of Student Activities, Women's Studies, Center for Ethics, and Theatre and Dance
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               3/28/09
+              </td>
+              <td valign="top">
+               12noon- 2:00am
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                Four&nbsp;Hip Hop (hour-long) Workshops
+               </p>
+               <p>
+                <strong>
+                 Reservations required!
+                </strong>
+               </p>
+               <p>
+                <br />
+                Please email
+                <strong>
+                 Ryan T. Acquaotta:&nbsp;
+                </strong>
+                <a href="mailto:ra233755@muhlenberg.edu">
+                 ra233755@muhlenberg.edu
+                </a>
+                for further information and to reserve your space.
+               </p>
+               <p>
+                12-1pm, MC'ing Freestyling Workshop
+                <br />
+                1-2pm, DJ'ing
+                <br />
+                2-3pm, Beat Production with REASON (studio recording software)
+                <br />
+                3-4pm, Breakdancing
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               &nbsp;
+              </td>
+              <td valign="top">
+               Great Room, Seegers Union
+               <br />
+               12noon-4:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               Lecture (Great Room, Seegers Union): Women and Hip Hop
+              </td>
+              <td align="middle" valign="top">
+               &nbsp;
+              </td>
+              <td valign="top">
+               Great Room, Seegers Union
+               <br />
+               4:00-5:00pm
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <p>
+                Concert by ANOMOLIES
+               </p>
+               <p>
+                ANOMOLIES is an all female collective with members spanning across the hiphop spectrum including emcees, deejays, b-girls, producers, visual artists, and beyond.
+               </p>
+               <p>
+                ANOMOLIES has performed extensively throughout New York, Philly, Cali, to as far as Paris, France. They have spoken on panels and facilitated workshops in various community organizations and schools, as well as numerous hiphop festivals at universities throughout the country. Opening for acts such as Talib Kweli, MC Lyte, Bahamadia, Medusa, Pharoah Monch, and Le Tigre, ANOMOLIES has earned the respect of its peers, and is currently working on their highly anticipated solo and collaborative projects.
+               </p>
+               <p>
+                The purpose of ANOMOLIES is to provide space for women to: *Develop themselves as artists *Make a living through their art while maintaining personal and professional integrity *Build a strong support and resource network of other committed and passionate artists -Our vision is to create a channel for overshadowed perspectives to come to light.
+               </p>
+              </td>
+              <td align="middle" valign="top">
+               &nbsp;
+              </td>
+              <td valign="top">
+               10:00pm-2:00am
+              </td>
+             </tr>
+            </tbody>
+           </table>
+           <p>
+            &nbsp;
+           </p>
+          </div>
+          <!-- InstanceEndEditable -->
+          <!-- Content Template End-->
+         </div>
+         <div id="skip_nav">
+          <a href="#navigation">
+           Skip to Navigation
+          </a>
+         </div>
+        </div>
+        <div class="col02">
+         <!-- InstanceBeginEditable name="rightSide" -->
+         <!-- navigation object : General - Right Red Box -->
+         <!-- text/sportrightgeneral related content advanced (current) -->
+         <ul class="menu02">
+          <li>
+           <span>
+            Center for Ethics
+           </span>
+          </li>
+          <br />
+          <li>
+           <a href="/main/aboutus/cfe/">
+            Home
+           </a>
+          </li>
+         </ul>
+         <br />
+         <!-- navigation switcher -->
+         <!-- navigation object : Academic - Biology RHS Menu &lt;ul class="menu02"&gt;
+&lt;li&gt;&lt;span&gt;About our Biology Program&lt;/span&gt;&lt;/li&gt;
+&lt;br&gt;&lt;li&gt;&lt;a href="/main/aboutus/cfe/pastprograms/influenceinformation/"&gt;Influence &amp; Information&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="/main/aboutus/cfe/pastprograms/living-learningexperience/"&gt;Living-Learning Experience&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt; &lt;!-- link menu -->
+         <!-- navigation object : General - Right Callout -->
+         <!-- text/rightcontentgeneral  related content advanced (current) -->
+         <!-- navigation object : General - Right box -->
+         <!-- text/genright related content advanced (current) -->
+         <!-- navigation object : GTGC -->
+         <!-- text/genright related content branch (child section "Assets") -->
+         <!-- InstanceEndEditable -->
+        </div>
+       </div>
+      </div>
+      <div id="sidebar">
+       <!-- navigation object : Academics Link Panels -->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Get To Know Us
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/mission.html">
+           Mission Statement
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/muhlenberg-at-a-glance/">
+           Muhlenberg at a Glance
+          </a>
+         </li>
+         <li>
+          Visit Muhlenberg
+          <ul>
+           <li>
+            <a href="/main/aboutus/campus-map/">
+             Campus Map
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/directions-to-muhlenberg/">
+             Directions
+            </a>
+           </li>
+           <li>
+            <a title="Home%20%BB%20Muhlenberg%20College%20%BB%20About%20Us%20%BB%20Campus%20Safety%20%BB%20Parking" href="/main/aboutus/campus-safety/parking/">
+             Parking
+            </a>
+           </li>
+           <li>
+            <a href="/main/admissions/types-of-visits/">
+             Types of Visits
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/virtual-tour/">
+             Virtual Tour
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/events/">
+             Conference and Event Services
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          Centers &amp; Institutes
+          <ul>
+           <li>
+            <a href="/main/aboutus/cfe/">
+             Center for Ethics
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/fct/">
+             Faculty Center for Teaching
+            </a>
+           </li>
+           <li>
+            <a href="/cultural/ijcu/">
+             Institute for Jewish-Christian Understanding
+            </a>
+           </li>
+           <li>
+            <a href="/main/aboutus/polling/">
+             Institute of Public Opinion
+            </a>
+           </li>
+           <li>
+            <a href="/main/campuslife/multicultural/">
+             Multicultural Life
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li>
+          <a href="/main/aboutus/hr/jobs.html">
+           Employment
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+       <!-- Content Template Start: Left Hand Side Links Display Panel-->
+       <div class="sidebar-add03">
+        <h3>
+         Administration
+        </h3>
+        <ul>
+         <li>
+          <a href="/main/aboutus/collegeoffices.html">
+           College Offices
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/president/">
+           Office of the President
+          </a>
+         </li>
+         <li>
+          <a href="/main/campuslife/religiouslife/">
+           Chaplain
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/pr/">
+           Public Relations
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/provost/">
+           Provost
+          </a>
+         </li>
+         <li>
+          <a href="/aboutus/treasurer/">
+           Chief Business Officer &amp; Treasurer
+          </a>
+         </li>
+         <li>
+          <a href="/main/aboutus/deanst/">
+           Dean of Students
+          </a>
+         </li>
+         <li>
+          <a href="/main/admissions/">
+           Dean of Admissions
+          </a>
+         </li>
+         <li>
+          <a href="http://www.muhlenbergconnect.com" target="_blank">
+           Advancement
+          </a>
+         </li>
+        </ul>
+       </div>
+       <!-- Content Template End: Left Hand Side Links Display Panel-->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--Random jQuery Code-->
+   <script type="type" text="text/javascript">
+    $(document).ready(function(){   
+    $(".randomright").hide();
+
+        var length = $(".randomright").length;
+        var ran = Math.ceil(Math.random()*length);
+        $(".randomright:nth-child(" + ran + ")").show();
+  });
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/bootstrap.min.js">
+   </script>
+   <script type="text/javascript" src="/media/kdmedia/js/non-responsive-kdg-ui.js">
+   </script>
+   <script type="text/javascript">
+    $(function() {
+    $(".imagecol").responsiveSlides();
+  });
+   </script>
+   <style>
+    /*Footer Bar*/
+footer{background-color:#eeeeee; border-top: 3px solid #d2d3d3; }
+footer .footer-logo{float:left;}
+footer .footer-contact{float:right;}
+footer p{padding-top:13px; font-size:13px; line-height:17px; color:#333333; text-align:right;}
+footer a{color:#a41d36;}
+footer a:hover{color:#810e23;}
+footer .footer-logo img{width:150px; height:auto; margin:20px 0; display:block;}
+   </style>
+   <footer>
+    <div class="container">
+     <div class="footer-logo">
+      <a href="http://muhlenberg.edu">
+       <img src="/media/kdmedia/images/footer-logo.png" alt="Muhlenberg College" />
+      </a>
+     </div>
+     <div class="footer-contact">
+      <p>
+       2400 Chew St., Allentown, PA 18104-5586
+       <br />
+       484-664-3100 | 484-664-3623 (TTY)
+       <br />
+       &copy; Muhlenberg College
+       <script type="text/javascript">
+        var d = new Date();
+           document.write( d.getFullYear());
+       </script>
+       |
+       <a target="_blank" href="http://muhlenberg.edu/main/aboutus/oit/about/policies_procedures/webprivacystatement/">
+        Web Privacy Policy
+       </a>
+      </p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ </body>
+ <!-- Google Tag Manager -->
+ <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WDV75R" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+ </noscript>
+ <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDV75R');
+ </script>
+ <!-- End Google Tag Manager -->
+</html>
+<!-- InstanceEnd -->

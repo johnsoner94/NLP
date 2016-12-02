@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="robots" content="noindex,noarchive" />
+  <title>
+   Physics - Subject Guides at Muhlenberg College
+  </title>
+  <style>
+   body { font-family: Arial, Helvetica, sans-serif; font-size:12px; padding:0px; margin:5px; }
+			hr { width:100%; margin-top:25px; margin-bottom:25px;}
+			h3 { margin:0px; } 
+			table  {padding:0px; margin:0px;}
+			td { vertical-align:top ;padding-right:10px; }
+			.titlerow { font-weight:bold; font-size:14px; }
+			ul { margin:5px 0px; padding-left:15px; }
+			li { margin:0px; padding:5px 0px; }
+			img { float:none; }
+			.content_box { border:1px solid #999999; margin-bottom:20px; padding:10px; }
+			.content_box img { max-width:99%; } /* this line makes sure that images do not bleed outside the content box borders */
+			.content_box table img { max-width:none; } /* dont resize images within tables since that can cause the images to display much smaller than intended */
+			.content_box object, .content_box embed { max-width:99%; } /* this line makes sure that objects do not bleed outside the content box borders */
+			.content_box table object, .content_box table embed { max-width:none; } /* dont resize objects within tables since that can cause the objects to display much smaller than intended */
+			.res_icon { height:16px; width:16px; position:relative; top:3px; border:0px; }
+  </style>
+  <script type="text/javascript" src="/include/lang.php">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.7.min.js">
+  </script>
+  <script type="text/javascript">
+   myPID = 364800;
+			mySID = 2985597;
+			var myGNAME = "Physics";
+			var myTNAME = "";
+            
+			function sendFeedback(bid) {
+				var formname = "feedbackform" + bid;
+				var divname = "feedback" + bid;
+				var p = document.forms[formname].pid.value;
+				var s = document.forms[formname].sid.value;	
+				
+				dojo.byId('feedbutton').innerHTML = '&lt;img alt="Loading" src="http://lgimages.s3.amazonaws.com/indicator.gif" align="top"&gt;&lt;h2 style="display:inline;"&gt;&nbsp;Working...&lt;/h2&gt;';			
+				
+				dojo.xhrPost ({
+					url: 'process_d.php?mode=feedback&pid;='+p+'&sid;='+s,
+					form: formname,
+					load: function (data) {
+						if (parseInt(data) &gt; 0) { dojo.byId(divname).innerHTML = "&lt;h2 style="color:#696969"&gt;" + lang_mgr_global_thank_you + "&lt;/h2&gt;"; }
+						else { alert(lang_mgr_box_feedback_error_js); }
+					},
+					error: function (error) { alert("Error #51: " + error); }
+				});
+				return false;
+			}
+            // Dummy functions for RSS/Podcats feeds.
+            function showLinkDesc() {}
+            function hideLinkDesc() {}
+  </script>
+ </head>
+ <body id="top">
+  <noscript>
+   <div class="noscript" style="text-align: center; padding: 10px; background-color: #f1f1f1; border-bottom: 1px solid #bbb;">
+    <h2>
+     <span style="color: #000;">
+      This site requires a JavaScript enabled browser. For more information please visit our
+      <a href="http://guidefaq.com/a.php?qid=223842" target="_blank">
+       FAQ
+      </a>
+     </span>
+    </h2>
+   </div>
+  </noscript>
+  <a href="http://trexler.muhlenberg.edu/">
+   <img alt="Banner" usemap="#headermap" name="banner" id="banner" src="http://lgimages.s3.amazonaws.com/data/headers/3322/libguides_banner_grey.jpg" border="0" width="985px" />
+  </a>
+  <br clear="all" />
+  <h1>
+   Physics
+  </h1>
+  <div class="content_box">
+   <table width="100%">
+    <tr>
+     <td width="50%">
+      <table cellpadding="0" cellspacing="2">
+       <tr id="guide_title_row">
+        <td colspan="2">
+         <span class="titlerow guide_val">
+          Guide Information
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Last Updated:
+        </td>
+        <td>
+         Sep 17, 2015
+        </td>
+       </tr>
+       <tr id="guide_url_row">
+        <td class="guide_label">
+         Guide URL:
+        </td>
+        <td class="guide_val">
+         <a href="http://libraryguides.muhlenberg.edu/Physics">
+          http://libraryguides.muhlenberg.edu/Physics
+         </a>
+        </td>
+       </tr>
+       <tr id="guide_rss_row">
+        <td class="guide_label">
+         RSS:
+        </td>
+        <td class="guide_val">
+         <a href="http://rss.libguides.com/rss.php?mode=p&amp;iid=3322&amp;pid=364800">
+          Subscribe to Updates via RSS
+         </a>
+        </td>
+       </tr>
+      </table>
+      <br />
+      <div class="profile_wrapper">
+       <table cellpadding="0" cellspacing="2">
+        <tr id="profile_title_row">
+         <td colspan="2">
+          <span class="titlerow profile_val">
+           Featured Librarian
+          </span>
+         </td>
+        </tr>
+        <tr id="profile_name_row">
+         <td class="profile_label">
+          Name:
+         </td>
+         <td class="profile_val">
+          Rachel Hamelers
+         </td>
+        </tr>
+        <tr id="profile_email_row">
+         <td class="profile_label">
+          Email Address:
+         </td>
+         <td class="profile_val">
+          <a href="mailto:rhamelers@muhlenberg.edu">
+           rhamelers@muhlenberg.edu
+          </a>
+         </td>
+        </tr>
+        <tr id="profile_contact_row">
+         <td class="profile_label">
+          Contact Info:
+         </td>
+         <td class="profile_val">
+          Phone: 484-664-3601
+          <br />
+          E-mail: rhamelers@muhlenberg.edu
+         </td>
+        </tr>
+       </table>
+      </div>
+     </td>
+     <td width="50%">
+      <br />
+      <span class="titlerow">
+       Guide Index
+      </span>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364800&amp;sid=2985597">
+       Home
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364800&amp;sid=3003021">
+       Finding Primary Articles in the Sciences
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364800&amp;sid=3003025">
+       Getting the Full-Text of an Article
+      </a>
+      <br />
+      <a title="View This Page" href="/print_content.php?pid=364800&amp;sid=3003027">
+       Finding Books
+      </a>
+      <br />
+     </td>
+    </tr>
+   </table>
+  </div>
+  <div id="guide_page_2985597" class="guide_page">
+   <h2>
+    Home
+   </h2>
+   <div id="content_box_10500957" class="content_box content_box_20">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Search Google Scholar for Journal Articles
+     </div>
+     <div>
+      <form method="get" action="http://scholar.google.com/scholar">
+       <label for="googlescholar" accesskey="H">
+        <input type="text" name="q" value="" id="googlescholar" />
+       </label>
+       <input type="submit" value="Search" />
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_21249436" class="content_box content_box_7">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Find Background Information on a Topic
+     </div>
+     <div class="embedclass_print">
+      <img src="http://corp.credoreference.com/images/logos/Credo-Black-landscape-%20147x50.png" alt="Credo Logo" />
+      <form action="javascript:void;" onsubmit="javascript:return credoMultiSearchBasic(document.forms.credoMultiSearchFormBasic);" method="GET" name="credoMultiSearchFormBasic">
+       <input type="hidden" name="ubasic" value="http://muhlenberg.idm.oclc.org/login?url=http://search.credoreference.com/search/advanced/?include={0}&amp;headingsOnly=false&amp;sort=relevance" />
+       <label for="qbasic">
+        Search
+       </label>
+       <input type="text" id="qbasic" value="" size="15" />
+       <input type="image" border="0" name="Submit" value="search" src="http://literati.credoreference.com/images/tools/go_button.png" alt="Submit Button" width="54" height="31" style="top:10px; position:relative;" />
+       <br />
+       <script type="text/javascript">
+        function credoMultiSearchBasic(f){if(f.qbasic.value=='Search for...'||f.qbasic.value==''){alert('Please enter a search.');}else{var qbasic=escape(f.qbasic.value);var ubasic=f.ubasic.value.replace("{0}",qbasic);window.open(ubasic,"_blank");}return false;}
+       </script>
+      </form>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10499439" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Scholarly Journal Articles
+     </div>
+     <ul>
+      <li>
+       ArXiv.org
+       <br />
+       <a href="http://arxiv.org/">
+        http://arxiv.org/
+       </a>
+       <br />
+       Full text articles in the advanced fields of physics, mathematics, non-linear science, computer science, quantitative biology, and statistics.
+      </li>
+      <li>
+       PROLA: Physical Review Online Archive
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://prola.aps.org/">
+        https://muhlenberg.idm.oclc.org/login?url=http://prola.aps.org/
+       </a>
+       <br />
+       Full-text articles in Physics, the online archive for Physical Review Letters, Reviews of Modern Physics, and Physical Review A-E, containing all APS journal articles published from 1893 to 4 years ago.
+      </li>
+      <li>
+       ScienceDirect College Edition Health and Life Sciences, Physical Sciences
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.sciencedirect.com/
+       </a>
+       <br />
+       A database of 1000+ full-text Elsevier journals in the areas of health, life, and physical sciences.
+      </li>
+      <li>
+       SPIRES
+       <br />
+       <a href="http://www.slac.stanford.edu/spires/">
+        http://www.slac.stanford.edu/spires/
+       </a>
+       <br />
+       The SPIRES-HEP is a database of particle physics literature run by the Stanford Linear Accelerator Center(SLAC) since the late 1960's.
+      </li>
+      <li>
+       Academic Search Complete
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&amp;defaultdb=a9h">
+        https://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/login.asp?profile=ehost&defaultdb;=a9h
+       </a>
+       <br />
+       Full text access to scholarly and non-scholarly publications in a wide variety of disciplines and subject areas
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10500922" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      News Articles
+     </div>
+     <ul>
+      <li>
+       LexisNexis Academic
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic">
+        https://muhlenberg.idm.oclc.org/login?url=http://www.lexisnexis.com/hottopics/lnacademic
+       </a>
+       <br />
+       Provides full text of thousands of newspapers, magazines, broadcast transcripts, business publications, legal materials, and more.
+      </li>
+      <li>
+       Science Daily
+       <br />
+       <a href="http://www.sciencedaily.com/">
+        http://www.sciencedaily.com/
+       </a>
+       <br />
+       News articles, videos, and images in the subjects of health, math, and the sciences.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_16900052" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Annual Reviews
+     </div>
+     <ul>
+      <li>
+       Annual Review of Astronomy and Astrophysics
+       <br />
+       <a href="https://muhlenberg.on.worldcat.org/oclc/1481495?databaseList=1708&amp;databaseList=638">
+        https://muhlenberg.on.worldcat.org/oclc/1481495?databaseList=1708&databaseList;=638
+       </a>
+      </li>
+      <li>
+       Annual Review of Chaos Theory, Bifurcations and Dynamical Systems
+       <br />
+       <a href="http://www.arctbds.com/">
+        http://www.arctbds.com/
+       </a>
+      </li>
+      <li>
+       Annual Review of Condensed Matter Physics
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/conmatphys">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/conmatphys
+       </a>
+      </li>
+      <li>
+       Annual Review of Earth and Planetary Sciences
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/earth">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/earth
+       </a>
+      </li>
+      <li>
+       Annual Review of Fluid Mechanics
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/direct.asp?db=aph&amp;jid=83O&amp;scope=site">
+        http://muhlenberg.idm.oclc.org/login?url=http://search.ebscohost.com/direct.asp?db=aph&jid;=83O&scope;=site
+       </a>
+      </li>
+      <li>
+       Annual Review of Nuclear and Particle Science
+       <br />
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/nucl">
+        http://muhlenberg.idm.oclc.org/login?url=http://www.annualreviews.org/loi/nucl
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3003021" class="guide_page">
+   <h2>
+    Finding Primary Articles in the Sciences
+   </h2>
+   <div id="content_box_10131969" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Is my article Peer-Reviewed?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       Journal articles that are peer-reviewed have been critiqued by other experts before publication.
+      </p>
+      <p>
+       To determine if an article is peer-reviewed or not, you need to check if the
+       <strong>
+        journal
+       </strong>
+       in which the article was published is peer-reviewed. You can do this by using the database
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        Ulrich's web
+       </a>
+       . For instance, in the following citation:
+      </p>
+      <p>
+       Barthlott, W, Wiersch, S, Čolić, Z, &amp; Koch, K 2009, 'Classification of trichome types within species of the water fern Salvinia, and ontogeny of the egg-beater trichomes',
+       <i>
+        Botany
+       </i>
+       , 87, 9, pp. 830-836.
+      </p>
+      <p>
+       <em>
+        Botany
+       </em>
+       is the journal title. Using
+       <a href="http://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        Ulrich's web
+       </a>
+       , type in the name of the journal, in this case&nbsp;
+       <em>
+        Botany.
+       </em>
+       (Do NOT enter the title of the article.) If the journal is listed as "refereed" (another word for peer-reviewed), your article is in a peer-reviewed journal. Therefore, most articles in this journal will be peer-reviewed. Exceptions to peer-reviewed articles in a peer-reviewed journal include news items, commentaries, and letters to the editor.
+      </p>
+      <p>
+       In some databases, such as
+       <em>
+        Academic Search Complete
+       </em>
+       , you can click on the name of the journal and the database will list information about the journal, including if the journal is peer-reviewed or not. Other databases allow you to limit to see only results that are peer-reviewed. To determine if you can limit to peer-reviewed journals, look in the database's help section.
+      </p>
+     </div>
+     <ul>
+      <li>
+       Ulrich's Web
+       <br />
+       <a href="https://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/">
+        https://muhlenberg.idm.oclc.org/login?url=http://ulrichsweb.serialssolutions.com/
+       </a>
+       <br />
+       Ulrich's Directory is a database that provides bibliographic information, including if a journal is refereed or not (refereed is another word for peer-reviewed) on international periodicals.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10132206" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      What is a Primary Source/Article in the Sciences?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       In the sciences, a scholarly source is usually a primary article appearing in a peer-reviewed journal. A primary scientific article or source is one where the author is describing new experiments or new observations done by the author or authors. Primary articles are usually divided into sections: introduction, method, discussion/results, and conclusion.
+      </p>
+      <p>
+       Another type of article that appears in peer-reviewed journals is the review article. Review articles summarize and compare several studies or sets of observations. A review article may look like a primary article in that it may be broken into similar sections like introduction, discussion, and at times even a methods section. However, a review article is not a primary source. The author of a review article is not describing new experiments or observations done by his or herself. Instead a review article is a summary of other scientist's works.
+      </p>
+      <p>
+       Secondary sources or articles are summaries of primary research, usually written for the popular press or geared toward non-scientists. Some examples of secondary sources are newspaper articles, magazine articles, book chapters, blog postings, and news stories.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10341323" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How do I find a Scholarly source (an Article that is Primary and Peer-Reviewed)?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To find a scholarly article for your research paper or project, try searching one of the Core Databases listed on the home page of the Biology subject guide. Enter keywords relevant to your topic.
+      </p>
+      <p>
+       Once you have found a relevant article, skim to find out if it is a primary article. Ask yourself:
+      </p>
+      <p>
+       - What new observations or experiments are the authors doing?
+      </p>
+      <p>
+       If the paper only describes the actions or experiments of other researchers, the article is not primary. It is a Review article or a secondary source.
+      </p>
+      <p>
+       Once you have found a primary article on your topic, use Ulrich's Web to find out if the article appeared in a peer-reviewed (refereed) journal or not.
+      </p>
+      <p>
+       If your article is primary and peer reviewed, it is a scholarly source.
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3003025" class="guide_page">
+   <h2>
+    Getting the Full-Text of an Article
+   </h2>
+   <div id="content_box_10390246" class="content_box content_box_1">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      How do I get the Full-text of my article?
+     </div>
+     <div style="margin-bottom:10px;">
+      <p>
+       To get the full-text of an article:
+      </p>
+      <p>
+       - If you are in a library database with "Get-it" buttons, click on "Get-it." This button will take you the full text of your article or tell you that the full text cannot be found. If the full text is not available from Trexler Library,
+       <a href="http://trexler.muhlenberg.edu/services/interlibrary-loan.html">
+        interlibrary loan
+       </a>
+       the book or article.
+      </p>
+      <p>
+       - If you have citation information for the article (title, author, etc.), type the information about your article into
+       <a href="https://muhlenberg.on.worldcat.org/discovery">
+        Encompass
+       </a>
+       . Find the article on the results list, and click on the title. If you have access to the article via Trexler Library, a link to full text or view-now will be provided.&nbsp; If not, you can request a copy of the article by clicking the "Request Item" button.
+      </p>
+      <p>
+       - If Trexler Library does not have access to the full text of the article, you can also search
+       <a href="http://www.google.com/scholar">
+        Google Scholar
+       </a>
+       by article title to see if the author has made a copy freely available online. Look to the far right of the article's title to see if there is a link to a freely available copy.&nbsp;
+      </p>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="guide_page_3003027" class="guide_page">
+   <h2>
+    Finding Books
+   </h2>
+   <div id="content_box_10520124" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      Finding Books in Trexler Library and in Libraries Worldwide
+     </div>
+     <ul>
+      <li>
+       Encompass Search
+       <br />
+       <a href="http://trexler.muhlenberg.edu/">
+        http://trexler.muhlenberg.edu/
+       </a>
+       <br />
+       To find only books, use the Book limit box on the left sidebar of your search results page. You can also limit to Muhlenberg College or search books in Libraries worldwide.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div id="content_box_10520187" class="content_box content_box_3">
+    <div style="display:block;">
+     <div class="titlerow" style="margin-bottom:10px;">
+      To Find E-books
+     </div>
+     <ul>
+      <li>
+       Springer E-books
+       <br />
+       <a href="http://www.springerlink.com/books/">
+        http://www.springerlink.com/books/
+       </a>
+       <br />
+       Books in various disciplines, but focusing on the sciences, Trexler library has access to thousands of e-books through Springerlink. The full text of many books can be accessed through this link. Those books not accessible to Trexler Library patrons can be interlibrary loaned.
+      </li>
+      <li>
+       GoogleBooks
+       <br />
+       <a href="http://www.google.com/books">
+        http://www.google.com/books
+       </a>
+       <br />
+       Google has digitized millions of books, some of which are freely available online. Muhlenberg affiliated atrons of Trexler Library can interlibrary loan books not freely available as full text.
+      </li>
+      <li>
+       Internet Archive
+       <br />
+       <a href="http://archive.org/details/texts">
+        http://archive.org/details/texts
+       </a>
+       <br />
+       Millions of freely available texts that have been digitized by the Internet archive.
+      </li>
+     </ul>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="back_to_top" style="padding-bottom:20px;">
+    <a href="#top">
+     Back to Top
+    </a>
+   </div>
+  </div>
+  <div id="footer" style="text-align:left;">
+   <div id="footer_topline">
+    Powered by
+    <a href="http://www.springshare.com">
+     Springshare
+    </a>
+    ; All rights reserved.
+    <span id="footer_support_link">
+     <a href="/support.php">
+      Report a tech support issue
+     </a>
+     .
+    </span>
+   </div>
+  </div>
+  <div id="customFooter">
+  </div>
+  <div id="trackingcode">
+  </div>
+ </body>
+</html>
